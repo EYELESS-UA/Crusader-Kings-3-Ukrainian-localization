@@ -1,0 +1,14 @@
+{
+    "name": "crusader-kings-iii-ukrainizer",
+    "version": "67%",
+    "localization": "67%"
+    "description": "Неофіційний український переклад для гри Crusader Kings 3",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
