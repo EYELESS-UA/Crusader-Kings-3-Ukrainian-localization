@@ -1,24 +1,24 @@
 ﻿l_english:
- handhands_hand:0 "hand"
- handhands_hands:0 "hands"
+ handhands_hand:0 "долоня"
+  handhands_hands:0 "долоні"
 
- fistfists_fist:0 "fist"
- fistfists_fists:0 "fists"
+  fistfists_fist:0 "кулак"
+  fistfists_fists:0 "кулаки"
 
- armarms_arm:0 "arm"
- armarms_arms:0 "arms"
+  armarms_arm:0 "рука"
+  armarms_arms:0 "руки"
 
- eyeeyes_eye:0 "eye"
- eyeeyes_eyes:0 "eyes"
+  eyeeyes_eye:0 "око"
+  eyeeyes_eyes:0 "очі"
 
- maskface_mask:0 "mask"
- maskface_face:0 "face"
+  maskface_mask:0 "маска"
+  maskface_face:0 "обличчя"
 
- # Grammatical Stuff
- articleblank_article:0 "a "
- articleblank_articlevowel:0 "an "
- articleblank_blank:0 ""
+  # Grammatical Stuff
+  articleblank_article:0 "$POSSESSIVE_SPECIAL$"
+  articleblank_articlevowel:0 "$POSSESSIVE_SPECIAL$"
+  articleblank_blank:0 ""
 
- maskface_behind:0 "behind"
- maskface_in:0 "in"
- maskface_across:0 "across"
+  maskface_behind:0 "ззаду"
+  maskface_in:0 "всередині"
+  maskface_across:0 "поперек"

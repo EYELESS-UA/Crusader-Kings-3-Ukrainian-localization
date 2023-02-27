@@ -1,9 +1,9 @@
 ﻿l_english:
- magic_user_witch:0 "witch"
- magic_user_sorcerer:0 "sorcerer"
- magic_practice_witchcraft:0 "witchcraft"
- magic_practice_sorcery:0 "sorcery"
+ magic_user_witch:0 "відьма"
+  magic_user_sorcerer:0 "чаклун"
+  magic_practice_witchcraft:0 "відівництво"
+  magic_practice_sorcery:0 "чаклунство"
  
- magic_superstition_harvest:0 "poor harvest"
- magic_superstition_weather:0 "bad weather"
- magic_superstition_animals:0 "sick animals"
+  magic_superstition_harvest:0 "неврожай"
+  magic_superstition_weather:0 "погана погода"
+  magic_superstition_animals:0 "хвороба худоби"

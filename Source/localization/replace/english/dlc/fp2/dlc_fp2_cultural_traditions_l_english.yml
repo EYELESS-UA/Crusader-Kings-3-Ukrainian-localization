@@ -13,7 +13,7 @@
  tradition_fp2_strategy_gamers_name:1 "Tabletop Warriors"
  tradition_fp2_strategy_gamers_desc:0 "Any commander can gamble and get lucky on the day of battle. A #EMP real#! strategist keeps their mind honed through practice and pretend so that they have no #EMP need#! of 'luck'."
 
- culture_parameter_commanders_likelier_to_gain_commander_traits:1 "[commanders|E] are more likely to gain [commander_traits|E]"
+ culture_parameter_commanders_likelier_to_gain_commander_traits:0 "[commanders|E] are likelier to gain [commander_traits|E]"
  culture_parameter_may_challenge_to_board_games:0 "May always challenge other [characters|E] to [board_games|E]"
  culture_parameter_may_wager_land_on_board_games:0 "May wager a personally held [county|E] in [board_games|E], if both players have this rule"
  

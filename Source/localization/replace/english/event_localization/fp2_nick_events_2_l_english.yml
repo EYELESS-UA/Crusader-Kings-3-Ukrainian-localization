@@ -1,0 +1,22 @@
+﻿l_english:
+ fp2_yearly.4004.t:0 "Мандрівний майстер"
+ fp2_yearly.4004.desc:0 "Я йду по тронному залі і раптом помічаю дивну метушню біля дальньої стіни. Миттю — і клинки нещасних брязкають по підлозі. )] [ROOT.Char.GetLadyLord], — починає [mozarab_wanderer.GetSheHe], помічаючи, що я закликаю нових стражників, — у мене немає пана, якому я [Select_CString(mozarab_wanderer.IsFemale, 'могла',') б служити, а вам, судячи з цих захисників, не завадив би хтось на зразок мене». Судячи з того, що [mozarab_wanderer.GetSheHe] носить на шиї хрестик, [mozarab_wanderer.GetSheHe] —[mozarab_wanderer.GetFa GetAdherentName|l]."
+ fp2_yearly.4004.a:0 "Звичайно! Мені не завадить [mozarab_wanderer.GetWomanMan] ваших талантів!"
+ fp2_yearly.4004.b:0 "Ні, тільки [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l] може мені служити."
+ fp2_yearly.4004.c:0 "Геть, [Select_CString(mozarab_wanderer.IsFemale, 'безбожниця', 'безбожник' )]!"
+ fp2_yearly.4004.tt:0 "[mozarab_wanderer.GetName] відмовляється звертатися і продовжує подорожі"
+ fp2_yearly.4004.b.succ:0 "[mozarab_wanderer.GetName] приєднується до вашого двору"
+ fp2_yearly.4004.b.fail:0 "[mozarab_wanderer.GetName] відмовляється звертатися та продовжує подорожі"
+ fp2_yearly.4004.c.tt:0 "[mozarab_wanderer.GetName] продовжує подорожі"
+
+ fp2_yearly.4005.t:0 "Створення анклавів"
+ fp2_yearly.4005.desc.christian:0 "[mozarab_merchant.GetFaith.GetAdherentNamePluralU] — унікальні представники іберійського суспільства."
+ fp2_yearly.4005.desc.muslim:0 "[mozarab_merchant.GetFaith.GetReligion.GetNameNoTooltip|U]і піддані — унікальні представники іберійського суспільства."
+ fp2_yearly.4005.desc:0 "Отже ще дивніше, що хтось із їхніх торговців рветься до мене на прийом.\n\n«Чи бачите, ми, [mozarab_merchant.GetFaith.GetAdherentNamePlural|l], повинні докладати особливі. зусилля, щоб просто жити своїм життям". [mozarab_merchant.GetSheHe|U] говорить вільно, без злості, але в [mozarab_merchant.GetHerHis] голосі звучить сталь.\n\n«Ми лише хочемо, щоб у нас було своє власне місце в місті, —[mozarab_quarter.GetName] цілком підійде, — де будемо жити тільки ми і де почуватимемося вдома. Char.GetLadyLord], виявити великодушність і дарувати нам бажане»."
+ fp2_yearly.4005.a:0 "У моїх містах вам будуть раді."
+ fp2_yearly.4005.b:0 "Я не дозволю вам засмічувати наші міста!"
+
+ fp2_yearly.4006.t:0 "Архітектор [ROOT.Char.GetFaith.HighGodNamePossessive]"
+ fp2_yearly.4006.desc:0 "[ROOT.Char.GetFaith.HouseOfWorship] залишається позаду, як і час щоденної молитви, і я прямую на відпочинок. Щоб порушити мій спокій, зараз потрібна неабияка сміливість, і [Select_CString(mozarab_pri. 'така відважна жінка', 'один такий сміливець')] все ж таки знаходиться.Я з підозрою розглядаю розп'яття у н[mozarab_priest.GetHerHis] на шиї, а [mozarab_priest.GetSheHe] починає розмову.\n\n«[Select_CString(ROOT) .Char.IsFemale, 'Моя', 'Мій' ]] [ROOT.Char.GetLadyLord], я прошу лише хвилину вашого часу. , І мені б хотілося, щоб він з'явився і у моєї пастви! [Select_CString(mozarab_priest.IsFemale, 'Схвильована жриця', 'Схвильований жрець' )] зупиняється і просимо дивиться на мене.\n\nЯкщо [mozarab_priest.GetFaith.GetAdherentNamePlural|l] почнуть , можливо, поблажливість зробить мою державу згуртованішою?"
+ fp2_yearly.4006.a:0 "Нехай буде так. Будуйте [mozarab_priest.GetFaith.HouseOfWorshipPlural]."
+ fp2_yearly.4006.b:0 "#EMP Ніколи#! мою землю не осквернять єретичні капища!"

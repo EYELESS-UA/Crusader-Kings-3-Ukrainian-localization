@@ -1,7 +1,7 @@
 version="1.0.0"
 tags={
 	"Translation"
-	"Localization"
 }
 name="Crusader Kings III Ukrainizer"
-supported_version="1.8.1"
+supported_version="1.8.*"
+remote_file_id="2870588115"

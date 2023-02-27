@@ -1,6 +1,6 @@
 ﻿l_english:
- possessed_vision:0 "vision"
- possessed_episode:0 "episode"
- age_young:0 "young"
- age_middle_aged:0 "middle-aged"
- age_old:0 "old"
+ possessed vision:0 "бачення" 
+ possessed episode:0 "приступ" 
+ age young:0 "юн" 
+ age_middle_aged:0 "зріл" 
+ age_old:0 "старий"

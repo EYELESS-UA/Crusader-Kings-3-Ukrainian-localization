@@ -1,5 +1,5 @@
 ﻿l_english:
- CHARACTER_FINDER_COUNT:1 "[Select_CString( LessThan_int32( CharacterSelectionList.NumberOfShownCharacters, CharacterSelectionList.GetTotalNumber ), '#high', '#low' )] [CharacterSelectionList.NumberOfShownCharacters] #!of [CharacterSelectionList.GetTotalNumber] Characters"
- CHARACTER_FINDER_TITLE:0 "Character Finder"
- SORT_MILITARY_STRENGTH:0 "Military Strength"
- CHARACTER_FINDER_FILTER_SET:0 "#T Some filters are set to a non-default value#!"
+ CHARACTER_FINDER_COUNT:1 "Персонажі: [Select_CString( LessThan_int32( CharacterSelectionList.NumberOfShownCharacters, CharacterSelectionList.GetTotalNumber ), '#high', '#low' )[CharacterSelectionList.Num
+  CHARACTER_FINDER_TITLE:0 "Пошук персонажів"
+  SORT_MILITARY_STRENGTH:0 "Військова міць"
+  CHARACTER_FINDER_FILTER_SET:0 "#T Налаштування деяких фільтрів відрізняються від стандартних#!"

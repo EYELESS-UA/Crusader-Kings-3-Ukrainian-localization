@@ -38,7 +38,7 @@
  LOADING_TIP_36:0 "#T $game_concept_traits$#!\n\n$game_concept_trait_desc$"
  LOADING_TIP_37:0 "#T $game_concept_spouse$#!\n\n$game_concept_spouse_desc$"
  LOADING_TIP_38:0 "#T $game_concept_holdings$#!\n\n$game_concept_holding_desc$"
- LOADING_TIP_39:0 "#T $game_concept_piety$ [GetLocalPlayerPietyTextIcon]#!\n\n$game_concept_piety_desc$"
+ LOADING_TIP_39:0 "#T $game_concept_piety$е [GetLocalPlayerPietyTextIcon]#!\n\n$game_concept_piety_desc$"
  LOADING_TIP_40:0 "#T $game_concept_piety_level$#!\n\n$game_concept_piety_level_desc$"
  LOADING_TIP_41:0 "#T $game_concept_prestige$ @prestige_icon!#!\n\n$game_concept_prestige_desc$"
  LOADING_TIP_42:0 "#T $game_concept_prestige_level$#!\n\n$game_concept_prestige_level_desc$"
@@ -127,12 +127,11 @@
  
  
  #LOADING_TIP_0:0 "Right-Click on Character Portraits to interact with them!"
- #LOADING_TIP_1:0 "You can hover over icons and highlighted text in Tooltips for even more information!"
+ #LOADING_TIP_1:0 "Ви можете пересувати іконки і висвітлити текст в Tooltips для будь-якого більше інформації!"
  #LOADING_TIP_2:0 "Illegitimate bastards cannot pass your Dynasty on."
- #LOADING_TIP_3:0 "You need a reason to declare war. Choose your Casus Belli wisely."
- #LOADING_TIP_4:0 "In a matrilineal marriage, children are born to their mother's Dynasty."
- #LOADING_TIP_5:0 "Children are born with Prestige equivalent to a fraction of their parents' Dynasties' Renown."
- #LOADING_TIP_6:0 "Your 'Domain' is the land you personally own. There is a limit to how much you can hold, so you need to rely on Vassals to expand further."
- #LOADING_TIP_7:0 "Your 'Realm' consists of both your own land and that of your Vassals."
+ #LOADING_TIP_3:0 "Ви потребуєте відповідь на протистояння. Choose your Casus Belli wisely."
+ #LOADING_TIP_4:0 "У matrilineal marriage, children є born до своїх матусь Dynasty."
+ #LOADING_TIP_5:0 "Children є борн з престижею подібною до фракції їхніх parents' Dynasties' Renown."
+ #LOADING_TIP_6:0 "Вони 'Домен' є територією вашої особистісної власності. Там є обмеження про те, як ви можете сперечатися, так що ви потребуєте насолоду на Vassals to expand further."
+ #LOADING_TIP_7:0 "Він 'Реалм' полягає в тому, що власне місто і що в ваших власних."
  #LOADING_TIP_8:0 "'Powerful Vassals' expect a seat on your Council."
- 

@@ -1,13 +1,13 @@
 ﻿l_english:
- l_english:0 "English"
- l_french:0 "Français"
- l_german:0 "Deutsch"
- l_spanish:0 "Español"
- l_simp_chinese:0 "中文"
- l_russian:0 "Русский"
- l_korean:0 "한국어"
+ l_english:0 "Українська"
+ l_french:0 "французька"
+ l_german:0 "Німецька"
+ l_spanish:0 "Іспанська"
+ l_simp_chinese:0 "Китайський"
+ l_russian:0 "Російська"
+ l_korean:0 "Корейська"
 l_french:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"
@@ -15,7 +15,7 @@ l_french:
  l_russian:0 "#font:Russian Русский #!"
  l_korean:0 "한국어"
 l_german:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"
@@ -23,7 +23,7 @@ l_german:
  l_russian:0 "#font:Russian Русский #!"
  l_korean:0 "한국어"
 l_spanish:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"
@@ -31,7 +31,7 @@ l_spanish:
  l_russian:0 "#font:Russian Русский #!"
  l_korean:0 "한국어"
 l_simp_chinese:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"
@@ -39,7 +39,7 @@ l_simp_chinese:
  l_russian:0 "Русский"
  l_korean:0 "한국어"
 l_russian:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"
@@ -48,7 +48,7 @@ l_russian:
  l_chinese:0 "#font:Chinese 中文 #!"
  l_korean:0 "한국어"
 l_korean:
- l_english:0 "English"
+ l_english:0 "Українська"
  l_french:0 "Français"
  l_german:0 "Deutsch"
  l_spanish:0 "Español"

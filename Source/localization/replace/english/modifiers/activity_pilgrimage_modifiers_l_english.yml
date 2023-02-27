@@ -1,48 +1,42 @@
 ﻿l_english:
- pilgrimage_sympathetic_towards_faiths_modifier:0 "Sympathy to Heathens"
- pilgrimage_disdainful_towards_faiths_modifier:0 "Disdain for Heathens"
+ pilgrimage_sympathetic_towards_faiths_modifier:0 "Симпатія до іновірців"
+ pilgrimage_disdainful_towards_faiths_modifier:0 "Зневага до іновірців"
 
- pilgrimage_foreign_guards_modifier:0 "Foreign Guards"
- pilgrimage_foreign_guards_modifier_desc:1 "This character has hired foreign personal guards from distant lands."
+ pilgrimage_foreign_guards_modifier:0 "Іноземна варта"
+ pilgrimage_foreign_guards_modifier_desc:1 "Цей персонаж найняв у особисту гвардію іноземців з далеких країв."
 
- pilgrimage_divine_protection_modifier:0 "Divine Protection"
- pilgrimage_divine_protection_modifier_desc:1 "This character has safely traveled with almost no protection through foreign lands."
+ pilgrimage_divine_protection_modifier:0 "Божественний захист"
+ pilgrimage_divine_protection_modifier_desc:1 "Цей персонаж майже без охорони подорожував чужими землями і повернувся цілим."
 
- new_pilgrimage_companions_modifier:0 "Varied Pilgrimage Companions"
- new_pilgrimage_companions_modifier_desc:1 "This character has traveled with a wide range of different people."
+ new_pilgrimage_companions_modifier:0 "Різноманітні супутники в паломництві"
+ new_pilgrimage_companions_modifier_desc:1 "Цей персонаж подорожував з безліччю різних людей."
 
- pilgrimage_completely_lost_modifier:0 "Got Lost"
- pilgrimage_completely_lost_modifier_desc:1 "This character got completely lost on a pilgrimage."
+ pilgrimage_completely_lost_modifier:0 "Заблуканий"
+ pilgrimage_completely_lost_modifier_desc:1 "Цей персонаж заблукав під час паломництва."
 
- showy_about_pilgrimage_modifier:0 "Theatrical Pilgrimage"
- showy_about_pilgrimage_modifier_desc:1 "This character has made sure that everyone knows how pious their pilgrimage was."
+ showy_about_pilgrimage_modifier:0 "Показне паломництво"
+ showy_about_pilgrimage_modifier_desc:1 "Цей персонаж переконався, що всі знають, наскільки благочестивою була його паломництво."
 
- pilgrimage_worldly_modifier:0 "Worldly Pilgrimage"
- pilgrimage_worldly_modifier_desc:1 "A pilgrimage has taught this character much about the world."
+ pilgrimage_worldly_modifier:0 "Практична паломництво"
+ pilgrimage_worldly_modifier_desc:1 "За час паломництва цей персонаж дізнався багато про навколишній світ."
 
- dedicated_to_pilgrimage_modifier:1 "Dedicated Pilgrim"
+ dedicated_to_pilgrimage_modifier:1 "Цілеспрямований паломник"
 
- hajj_halq_modifier:0 "Halq"
- hajj_halq_modifier_desc:0 "This character's head has been shaved clean, a sign of their recent completion of the Hajj."
+ hajj_halq_modifier:0 "Халк"
+ hajj_halq_modifier_desc:0 "Голова цього персонажа виголена наголо на знак недавнього завершення Хаджу."
 
- pilgrimage_armed_pilgrimages_modifier:0 "Determined Pilgrim"
- pilgrimage_armed_pilgrimages_modifier_desc:0 "This character has been on a Pilgrimage while following the [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName] [core_tenet|E]."
- pilgrimage_mendicant_preachers_modifier:0 "Poverty's Journey"
- pilgrimage_mendicant_preachers_modifier_desc:0 "This character has been on a Pilgrimage while following the [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName] [core_tenet|E]."
- pilgrimage_pentarchy_modifier:0 "The Seats of Bishops"
- pilgrimage_pentarchy_modifier_desc:0 "This character has been on a Pilgrimage while following the [GetFaithDoctrine('tenet_pentarchy').GetBaseName] [core_tenet|E]."
- pilgrimage_struggle_submission_modifier:0 "Display of Submission"
- pilgrimage_struggle_submission_modifier_desc:0 "This character has been on a Pilgrimage while following the [GetFaithDoctrine('tenet_struggle_submission').GetBaseName] [core_tenet|E]."
- pilgrimage_ancestor_worship_modifier:0 "In the Footsteps of My Forebears"
- pilgrimage_ancestor_worship_modifier_desc:0 "This character has been on a Pilgrimage while following the [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName] [core_tenet|E]."
+ pilgrimage_armed_pilgrimages_modifier:0 "Рішучий паломник"
+ pilgrimage_armed_pilgrimages_modifier_desc:0 "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_armed_pilgrimages')."
+ pilgrimage_mendicant_preachers_modifier:0 "Подорож у бідності"
+ pilgrimage_mendicant_preachers_modifier_desc:0 "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_mendicant_preachers')"."
+ pilgrimage_pentarchy_modifier:0 "Резиденції єпископів"
+ pilgrimage_pentarchy_modifier_desc:0 "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_pentarchy').GetBaseName]."
+ pilgrimage_struggle_submission_modifier:0 "Демонстрація покірності"
+ pilgrimage_struggle_submission_modifier_desc:0 "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_struggle_submission')".
+ pilgrimage_ancestor_worship_modifier:0 "По стопах попередників"
+ pilgrimage_ancestor_worship_modifier_desc:0 "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_ancestor_worship')"."
 
- pilgrimage_religious_reflections_modifier:0 "Met Mystic on Pilgrimage"
+ pilgrimage_religious_reflections_modifier:0 "Зустріч з містиком під час паломництва"
 
- pilgrimage_rest_and_good_health_modifier:0 "Restful Traveler"
- pilgrimage_rest_and_good_health_modifier_desc:0 "This character takes it very easy when journeying."
- 
- pilgrimage_botched_miracle_modifier:0 "Suffered a Botched Miracle"
- pilgrimage_botched_miracle_modifier_desc:0 "This character's affliction was made worse by a botched miracle."
-
- pilgrimage_miracle_witness_modifier:0 "Witness to a Miracle"
- pilgrimage_miracle_witness_modifier_desc:0 "This character witnessed a miracle."
+ pilgrimage_rest_and_good_health_modifier:0 "Спокійний мандрівник"
+ pilgrimage_rest_and_good_health_modifier_desc:0 "Цей персонаж не перенапружувався під час подорожі."

@@ -1,78 +1,78 @@
 ﻿l_english:
- held_hunt_modifier:0 "Hunted Recently"
- held_hunt_modifier_desc:0 "This character has recently arranged a Hunt, and may not do so again until the specified date."
+ held_hunt_modifier:0 "Недавнє полювання"
+ held_hunt_modifier_desc:0 "Цей персонаж нещодавно влаштовував полювання, а тому не може зробити це знову до вказаної дати."
  
- hunt_punished_locals_modifier:0 "Punished Poachers"
- hunt_punished_locals_modifier_desc:0 "People in this County bear the burden of making up for poachers in the forests."
+ hunt_punished_locals_modifier:0 "Покарані браконьєри"
+ hunt_punished_locals_modifier_desc:0 "Жителі цього графства винні в тому, що покривають браконьєрів, що заполонили ліси."
  
- hunt_poacher_training_modifier:0 "Poacher Training"
- hunt_poacher_training_modifier_desc:0 "This character has been trained by poachers to hunt."
+ hunt_poacher_training_modifier:0 "Навчання у браконьєрів"
+ hunt_poacher_training_modifier_desc:0 "Цього персонажа браконьєри навчили полювання."
  
- hunt_upset_hunting_county_modifier:0 "Poaching Outrage"
- hunt_upset_hunting_county_modifier_desc:0 "This County is upset over the way it has been treated for the actions of a handful of poachers"
+ hunt_upset_hunting_county_modifier:0 "Безчинство браконьєрів"
+ hunt_upset_hunting_county_modifier_desc:0 "Це графство незадоволене тим, як з ним обійшлися через купку браконьєрів."
 
- modifier_hunt_hunting_trophy:0 "Hunting Trophy"
- modifier_hunt_hunting_trophy_desc:0 "An impressive hunting trophy hangs in this character's great hall, showing off their achievements."
+ modifier_hunt_hunting_trophy:0 "Мисливський трофей"
+ modifier_hunt_hunting_trophy_desc:0 "Великий мисливський трофей вивішений в обідньому залі цього персонажа на знак перемоги."
  
- modifier_hunt_friend_of_animal:0 "Friend of Animals"
- modifier_hunt_friend_of_animal_desc:0 "This character has an uncanny ability to handle animals."
+ modifier_hunt_friend_of_animal:0 "Друг тварин"
+ modifier_hunt_friend_of_animal_desc:0 "Цей персонаж має незрозумілу здатність спілкуватися з тваринами."
  
- hunt_guide_local_madman_modifier:0 "Local Guide"
+ hunt_guide_local_madman_modifier:0 "Місцевий провідник"
 
- hunt_killed_local_madman_modifier:1 "Killed Local"
+ hunt_killed_local_madman_modifier:1 "Вбито місцевого жителя"
  
- hunt_talked_to_madman_modifier:1 "Listened to Local Concerns"
+ hunt_talked_to_madman_modifier:1 "Проблеми місцевих жителів почуті"
 
- hunt_peasants_denied_forest_modifier:0 "Peasants Denied Forest"
- hunt_peasants_denied_forest_modifier_desc:0 "The peasants of this County have been denied the right to forage in the forests."
+ hunt_peasants_denied_forest_modifier:0 "Ліс закритий для селян"
+ hunt_peasants_denied_forest_modifier_desc:0 "Селянам цього графства заборонили добувати собі їжу в лісах."
 
- hunt_peasants_hunted_modifier:0 "Hunted Peasants"
- hunt_peasants_hunted_modifier_desc:0 "Peasants are afraid of settling in this County, due to the unspeakable things that have happened here."
+ hunt_peasants_hunted_modifier:0 "Полювання на селян"
+ hunt_peasants_hunted_modifier_desc:0 "Селяни побоюються селитися в цьому графстві, пам'ятаючи про скоєні тут злочини."
 
- hunt_aided_peasants_modifier:0 "Aided Peasants"
- hunt_aided_peasants_modifier_desc:0 "The poorest people of this County have received significant charitable aid."
+ hunt_aided_peasants_modifier:0 "Допомога селянам"
+ hunt_aided_peasants_modifier_desc:0 "Бідні з місцевих жителів отримали значну допомогу з пожертвувань."
 
- hunt_fresh_air_and_exercise_modifier:0 "Fresh Air and Exercise"
- hunt_fresh_air_and_exercise_modifier_desc:0 "This character has enjoyed rigorous exercise during their hunts."
+ hunt_fresh_air_and_exercise_modifier:0 "Свіже повітря та вправи"
+ hunt_fresh_air_and_exercise_modifier_desc:0 "Цей персонаж чудово натренувався на полюванні."
 
- hunt_focused_attention_modifier:0 "Focused Attention"
- hunt_focused_attention_modifier_desc:0 "This character knows how to focus on the things that demand immediate attention."
+ hunt_focused_attention_modifier:0 "Зосередженість"
+ hunt_focused_attention_modifier_desc:0 "Цей персонаж уміє зосереджуватися на речах, які потребують пильної уваги."
 
- modifier_hunt_dog_trophy_modifier:0 "Hunting Trophy"
- modifier_hunt_dog_trophy_modifier_desc:0 "An impressive hunting trophy hangs in this character's great hall, showing off their achievements."
+ modifier_hunt_dog_trophy_modifier:0 "Мисливський трофей"
+ modifier_hunt_dog_trophy_modifier_desc:0 "Великий мисливський трофей вивішений в обідньому залі цього персонажа на згадку про досягнення."
 
- modifier_hunt_dog_fighting_modifier:0 "Improved Prowess"
- modifier_hunt_dog_fighting_modifier_desc:0 "This character has perform an impressive feat of prowess during their hunts."
+ modifier_hunt_dog_fighting_modifier:0 "Покращена доблесть"
+ modifier_hunt_dog_fighting_modifier_desc:0 "Цей персонаж продемонстрував свою доблесть на полюванні."
 
- modifier_hunt_resisted_advances:0 "Resisted Advances"
- modifier_hunt_resisted_advances_desc:0 "This character has resisted the siren song of temptation."
+ modifier_hunt_resisted_advances:0 "Знаки уваги відкинуті"
+ modifier_hunt_resisted_advances_desc:0 "Цей персонаж встояв перед покликом спокуси."
 
- hunt_mediated_fight_modifier:0 "Mediator"
- hunt_mediated_fight_modifier_desc:0 "This character has successfully negotiated between two people in conflict– a valuable lesson."
+ hunt_mediated_fight_modifier:0 "Посередник"
+ hunt_mediated_fight_modifier_desc:0 "Ця людина успішно вирішила конфлікт між двома людьми, що стало цінним уроком."
 
- hunt_protected_peasants_modifier:0 "Protected Peasants"
- hunt_protected_peasants_modifier_desc:0 "The peasants of this county feel protected"
+ hunt_protected_peasants_modifier:0 "Селяни під захистом"
+ hunt_protected_peasants_modifier_desc:0 "Селяни цього графства почуваються захищеними."
 
- hunt_disturbed_locals_modifier:0 "Disturbed Locals"
- hunt_disturbed_locals_modifier_desc:0 "The locals in this county just wants to be left alone"
+ hunt_disturbed_locals_modifier:0 "Потривожені місцеві"
+ hunt_disturbed_locals_modifier_desc:0 "Місцеві в цьому графстві хочуть одного: щоб їх дали спокій."
 
- hunt_focused_effort_modifier:0 "Focused Hunting Effort"
- hunt_focused_effort_modifier_desc:0 "This character is very focused on the hunt"
+ hunt_focused_effort_modifier:0 "Зосередженість на полюванні"
+ hunt_focused_effort_modifier_desc:0 "Цей персонаж повністю присвячує себе полюванню."
 
- hunt_treated_injury_modifier:0 "Practiced Field Surgery"
- hunt_treated_injury_modifier_desc:0 "This character has some recent experience with very trying medical treatments"
+ hunt_treated_injury_modifier:0 "Практика польової хірургії"
+ hunt_treated_injury_modifier_desc:0 "Цей персонаж нещодавно проводив утомливі медичні процедури."
 
- hunt_tasted_the_belt_modifier:0 "Tasted the Belt"
- hunt_tasted_the_belt_modifier_desc:0 "This character is suffering from a bruised rear"
+ hunt_tasted_the_belt_modifier:0 "Покарання ременем"
+ hunt_tasted_the_belt_modifier_desc:0 "У цього персонажа вся спина в синцях"
 
- hunt_treated_wound_modifier:0 "Dressed Wounds"
- hunt_treated_wound_modifier_desc:0 "This character's wounds have been seen to in some fashion"
+ hunt_treated_wound_modifier:0 "Перепов'язані рани"
+ hunt_treated_wound_modifier_desc:0 "Про рани цього персонажа подбали — так чи інакше."
 
- hunt_chose_truth_modifier:0 "Humble Honesty"
- hunt_chose_truth_modifier_desc:0 "This character has spoken the truth at the detriment of themselves"
+ hunt_chose_truth_modifier:0 "Смиренна чесність"
+ hunt_chose_truth_modifier_desc:0 "Цей персонаж сказав правду на шкоду собі."
 
- hunt_mystical_animal_modifier:0 "Hunted Mystical Animal"
- hunt_mystical_animal_modifier_desc:0 "This character hunted, and killed, a mystical white animal"
+ hunt_mystical_animal_modifier:0 "Полювання за містичною твариною"
+ hunt_mystical_animal_modifier_desc:0 "Цей персонаж полював і вбив загадкового звіра з білою шкірою."
 
- hunt_protected_their_secret_modifier:0 "Protective of Secrets"
- hunt_protected_their_secret_modifier_desc:0 "This character is keeping their cards close to their chest"
+ hunt_protected_their_secret_modifier:0 "Захищає таємниці"
+ hunt_protected_their_secret_modifier_desc:0 "Цей персонаж намагається не розкривати свої карти"

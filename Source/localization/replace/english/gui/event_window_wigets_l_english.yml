@@ -1,15 +1,15 @@
 ﻿l_english:
- event_window_widget_name_child_after_father:2 "After [Select_CString( Character.GetFather.IsLocalPlayer, 'myself', Character.GetFather.GetShortUINameNoTooltip )]"
- event_window_widget_name_child_after_mother:1 "After [Select_CString( Character.GetMother.IsLocalPlayer, 'myself', Character.GetMother.GetShortUINameNoTooltip )]"
- event_window_widget_name_child_after_fathers_father:1 "After [Select_CString( Character.GetFather.IsLocalPlayer, 'my', Character.GetFather.GetShortUINamePossessiveNoTooltip )] father"
- event_window_widget_name_child_after_fathers_mother:1 "After [Select_CString( Character.GetFather.IsLocalPlayer, 'my', Character.GetFather.GetShortUINamePossessiveNoTooltip )] mother"
- event_window_widget_name_child_after_mothers_father:1 "After [Select_CString( Character.GetMother.IsLocalPlayer, 'my', Character.GetMother.GetShortUINamePossessiveNoTooltip )] father"
- event_window_widget_name_child_after_mothers_mother:1 "After [Select_CString( Character.GetMother.IsLocalPlayer, 'my', Character.GetMother.GetShortUINamePossessiveNoTooltip )] mother"
- event_window_widget_name_child_after_family_member:1 "Name after family member"
- event_window_widget_name_child_after_random_ancestor:0 "After an Ancestor"
- event_window_widget_name_child_random_faith_name:0 "A good [Character.GetFaith.GetAdjectiveNoTooltip] name"
- event_window_widget_name_child_random_cultural_name:0 "A good [Character.GetCulture.GetNameNoTooltip] name"
- event_window_widget_stress_new_level:0 "Reached [stress_level|E]: #V [Character.GetStressLevel]#!"
- event_window_widget_max_stress:0 "#X Highest [stress_level|E] Reached#!"
- event_window_widget_scheme_show_in_list:0 "Show in Scheme List"
- event_window_widget_enter_text_prompt:0 "Enter Text:"
+ event_window_widget_name_child_after_father:2 "[Select_CString( Character.GetFather.IsLocalPlayer, 'На свою честь', Character.GetFather.GetShortUINameNoTooltip )]"
+ event_window_widget_name_child_after_mother:1 "[Select_CString( Character.GetMother.IsLocalPlayer, 'На свою честь', Character.GetMother.GetShortUINameNoTooltip )]"
+ event_window_widget_name_child_after_fathers_father:1 "Як [Select_CString( Character.GetFather.IsLocalPlayer, 'батька', 'батька персонажа' )] [Select_CString( Character.GetFather.IsLocalPlayer, 'Мого')
+ event_window_widget_name_child_after_fathers_mother:1 "Як [Select_CString( Character.GetFather.IsLocalPlayer, 'мати', 'мати персонажа' )] [Select_CString( Character.GetFather.IsLocalPlayer, 'моя'
+ event_window_widget_name_child_after_mothers_father:1 "Як [Select_CString( Character.GetMother.IsLocalPlayer, 'батька', 'батька персонажа' )] [Select_CString( Character.GetMother.IsLocalPlayer, 'моєго',
+ event_window_widget_name_child_after_mothers_mother:1 "Як [Select_CString( Character.GetMother.IsLocalPlayer, 'мати', 'мати персонажа' )] [Select_CString( Character.GetMother.IsLocalPlayer, 'Мой',
+ event_window_widget_name_child_after_family_member:1 "На честь члена сім'ї"
+ event_window_widget_name_child_after_random_ancestor:0 "На честь віддаленого предка"
+ event_window_widget_name_child_random_faith_name:0 "Гарне [Character.GetFaith.GetNameNoTooltip|l] ім'я"
+ event_window_widget_name_child_random_cultural_name:0 "Гарне [Character.GetCulture.GetCollectiveNounNoTooltip|l] ім'я"
+ event_window_widget_stress_new_level:0 "Досягнуто [stress_level|El]: #V [Character.GetStressLevel]#!"
+ event_window_widget_max_stress:0 "#X Досягнуто найвищого [stress_level|El]#!"
+ event_window_widget_scheme_show_in_list:0 "Показати у списку підступів"
+ event_window_widget_enter_text_prompt:0 "Введіть текст:"

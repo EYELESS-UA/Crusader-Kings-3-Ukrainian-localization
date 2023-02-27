@@ -1,38 +1,38 @@
 ﻿l_english:
- bm_867_carolingians:0 "The Carolingians"
- bm_867_carolingians_desc:1 "After the passing of Louis the Pious, the once-great Carolingian Empire was divided up into the three separate Kingdoms of East, West, and Middle Francia. Since then, these realms have only splintered further as wars, rebellions, and inheritance variously cause instability and fragmentation.\n\n#bold Are any of the Karlings strong enough to reunite their empire? Or will their family squabbles leave them vulnerable to exploitation by opportunists?#!"
+ bm_867_carolingians:0 "Каролінги"
+ bm_867_carolingians_desc:1 "Після смерті Людовика Благочестивого колись велика імперія Каролінгів була розділена на три королівства: Східне Франкське, Західне Франкське і Середнє Франкське. Але війни, повстання та труднощі спадкоємства все сильніше розділяли три королівства й посилювали роздробленість.\n\n#bold Чи стане сил Каролінгам знову об'єднати імперію? Чи сімейні чвари зроблять їх вразливими для ворогів?#!"
 
  #Charles the Bald
- bookmark_carolingians_charles_the_bald:0 "Charles the Bald"
- bookmark_carolingians_charles_the_bald_desc:0 "At the time of Charles' birth, his fully grown half-brothers already ruled their own kingdoms within the Carolingian empire. Without a crown of his own, he became known as 'the Bald,' though he eventually did inherit Aquitaine and West Francia. In the future he will even inherit Italy and the Holy Roman Empire itself, but his line will not persevere — his last grandson will die childless just seven years after his own death.\n\n#bold Can you change the course of history and ensure a long and prosperous line of Charles' decedents?#!"
+ bookmark_carolingians_charles_the_bald:0 "Карл Лисий"
+ bookmark_carolingians_charles_the_bald_desc:0 "Коли Карл народився, його дорослі брати вже правили власними королівствами всередині імперії Каролінгів. Не маючи власної корони, він отримав прізвисько «Лисий», хоча у результаті і успадкував Аквітанію і Західну Франкію. В майбутньому він навіть успадкує Італію і Священну Римську імперію, але його рід закінчиться, коли його останній внук помре бездітним — всього сімома роками пізніше за діда.\n\n#bold Чи зможете ви змінити хід історії і забезпечити довге і успішне життя нащадкам Карла?#!"
 
  bookmark_carolingians_charles_the_bald_alt_judith:0 "$Judith$"
  bookmark_carolingians_charles_the_bald_alt_louis:0 "$Louis$ $nick_the_stammerer$"
 
  #King Lothaire
- bookmark_carolingians_king_lothaire:0 "King Lothaire II"
- bookmark_carolingians_king_lothaire_desc:0 "Though he was in love with his mistress Waldrada, Lothaire's father forced him into a political marriage with Teutberga. Their union produced no children, and Lothaire's life has been a continuous struggle to divorce his wife and get his bastard children legitimized. Though he never stops trying, Lothaire will go on to die without a legal heir.\n\n#bold Can you overcome the machinations of those who plot against you and ensure the continuation of your house?#!"
+ bookmark_carolingians_king_lothaire:0 "Король Лотар II"
+ bookmark_carolingians_king_lothaire_desc:0 "Не дивлячись на любовний зв'язок між Лотарем і наложницею Вальдрадою, його батько змусив Лотара вступити в політичний шлюб з Теутбергою. Цей союз не приніс дітей, і король постійно намагався розлучитись з дружиною і узаконити байстрюків. Не дивлячись на всі докладені зусилля, Лотар помер, не залишивши законного спадкоємця.\n\n#bold Чи зможете ви здолати всі інтриги недоброзичливців і добитися того, щоб ваш рід продовжився?#!"
 
  bookmark_carolingians_king_lothaire_alt_waldrada:0 "$Waldrada$"
  bookmark_carolingians_king_lothaire_alt_teutberga:0 "$Teutberga$"
 
  #Ludwig the German
- bookmark_carolingians_ludwig_the_german:0 "Ludwig the German"
- bookmark_carolingians_ludwig_the_german_desc:0 "An ambitious man, Ludwig has long sought to reconquer the pieces of the Empire he considers his birthright. These ambitions have suffered from setback after setback however, as his various military campaigns all ended in failure and his rebellious sons have pried away most of his own lands from his control.\n\n#bold Can you reverse Ludwig's misfortunes and regain the Empire for his descendants, or are his sons destined to be relegated to a mere footnote in history?#!"
+ bookmark_carolingians_ludwig_the_german:0 "Людвіг Німецький"
+ bookmark_carolingians_ludwig_the_german_desc:0 "Відомий амбіціями, Людвіг довго намагався відвоювати шматки імперії, які вважав своїми по праву народження, проте всі його військові кампанії закінчилися невдачею, а невдоволені сини розтягли більшу частину земель.\n\n#bold Чи зможете ви змінити долю Людвіга та повернути імперію його нащадкам, або ж його синам призначено стати лише приміткою на полях історії?#!"
 
  bookmark_carolingians_ludwig_the_german_alt_youngerludwig:0 "$Ludwig$ $nick_the_younger$"
  bookmark_carolingians_ludwig_the_german_alt_karl:0 "$Karl$"
 
  #King Louis of Italy
- bookmark_carolingians_king_louis:0 "King Louis II"
- bookmark_carolingians_king_louis_desc:1 "Imperial power had diminished so much by the time Louis was crowned Holy Roman Emperor that the title no longer offered any real authority. Though he managed to reclaim the Kingdom of Provence, Louis' uncles and brother, unburdened by any sort of allegiance to the Imperial Crown, continue to act as they please. Saddled with quarrelsome neighbors and an unstable realm, Louis II will die before siring a son.\n\n#bold Can you regain all the lost territories of the Empire and reestablish the Imperial Crown as a real power?#!"
+ bookmark_carolingians_king_louis:0 "Король Людовик II"
+ bookmark_carolingians_king_louis_desc:1 "Коли Людовика коронували імператором Священної Римської імперії, імперська влада була в такому занепаді, що титул навряд чи давав хоч якусь справжню владу. І хоча Людовик зумів повернути королівство Прованс, його дядько та брати, необтяжені вірністю імперській короні, продовжували діяти на свій розсуд. Обтяжений нестабільністю держави та неспокійними сусідами, Людовик II помре, не залишивши синів.\n\n#bold Чи зможете ви зібрати всі втрачені землі імперії та повернути імперській короні реальну владу?#!"
 
  bookmark_carolingians_king_louis_alt_ermengarde:0 "$Ermengarde$"
  bookmark_carolingians_king_louis_alt_engelberga:0 "$Engelberga$"
 
  # King Karlmann of Bavaria
- bookmark_carolingians_king_karlmann:1 "Prince Karlmann"
- bookmark_carolingians_king_karlmann_desc:0 "The eldest son of Ludwig the German, Karlmann rebelled against his father and forced him to give him control over the lands of Bavaria. He will expand this domain in wars with Slavs to the east and later on will even be elected King of Italy — though an unfortunate stroke will force him to abdicate the thrones of Bavaria and Italy to his younger brothers. He will die just a few years later.\n\n#bold With a little luck, will you be able to avoid Karlmann's unfortunate demise and establish a legacy that will last the ages?#!"
+ bookmark_carolingians_king_karlmann:1 "Принц Карломан"
+ bookmark_carolingians_king_karlmann_desc:0 "Старший син Людвіга Німецького, Карломан повстав проти батька і забрав собі владу над землями Баварії. Він розширить свої володіння у війнах зі слов'янами, його навіть виберуть королем Італії, проте, розбитий паралічем, він буде змушений відректися від престолів Баварії та Італії на користь молодших братів. Трохи згодом він помре.\n\n#bold Чи зможете ви уникнути нещасної долі Карломана й створити спадок, який житиме століттями? Чи вистачить вам умінь і вдачі?#!"
 
  bookmark_carolingians_king_karlmann_alt_arnulf:0 "$Arnulf$"
  bookmark_carolingians_king_karlmann_alt_hemma:0 "$Hemma$"

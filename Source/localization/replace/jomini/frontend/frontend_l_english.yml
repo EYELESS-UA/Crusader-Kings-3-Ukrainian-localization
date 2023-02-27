@@ -1,0 +1,5 @@
+﻿l_english:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE:0 "Виникла проблема"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT:0 "Нам не вдалося ввійти за допомогою облікового запису Microsoft. Деякі функції гри можуть бути недоступні."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE:0 "Дозвіл на обліковий запис"
+ JOMINI_MSGRDK_NO_UGC_TEXT:0 "У вас немає дозволу на доступ до створеного користувачами вмісту. Моди будуть вимкнені."

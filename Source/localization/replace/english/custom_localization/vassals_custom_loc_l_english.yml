@@ -1,6 +1,6 @@
 ﻿l_english:
- kings:0 "kings"
- dukes:0 "dukes"
- counts:0 "counts"
- barons:0 "barons"
- peasants:0 "peasants"
+ kings:0 "королі"
+  dukes:0 "герцоги"
+  counts:0 "графи"
+  barons:0 "барони"
+  peasants:0 "селяни"
