@@ -20,7 +20,7 @@
 
 ![Screenshots01](https://raw.githubusercontent.com/EYELESS-UA/Ck3UkMod/main/Assets/Image/05t.png)
 
-4.Крок (Вімкніть мод)
+4.Крок (Увімкніть мод)
 ---
 ![Screenshots01](https://raw.githubusercontent.com/EYELESS-UA/Ck3UkMod/main/Assets/Image/06t.png)
 
