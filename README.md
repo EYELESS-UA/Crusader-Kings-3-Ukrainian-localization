@@ -15,4 +15,13 @@
 
 3.Крок (Перенесіть Файли Проекта з Архіва)
 ---
+Відкрийте архів в папці source є 3 Папки "common" "gfx" "localization" перенесіть в папку мода.
+Мод знаходеться C:\Users\Ім'я користувача\Documents\Paradox Interactive\Crusader Kings III\mod\CK3TUK
+
 ![Screenshots01](https://raw.githubusercontent.com/EYELESS-UA/Ck3UkMod/main/Assets/Image/05t.png)
+
+4.Крок (Вімкніть мод)
+---
+![Screenshots01](https://raw.githubusercontent.com/EYELESS-UA/Ck3UkMod/main/Assets/Image/06t.png)
+
+![Screenshots01](https://raw.githubusercontent.com/EYELESS-UA/Ck3UkMod/main/Assets/Image/07t.png)
