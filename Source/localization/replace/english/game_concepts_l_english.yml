@@ -25,7 +25,7 @@
  game_concept_hold:0 "Володіє"
  game_concept_holder_desc:1 "$game_concept_holder$ - [title|El] своїх земель. [barony|El] і [county|El] - титули, у яких завжди є $game_concept_holders$, а такі територіальні об'єднання, як [duchy|El], [kingdom|El] і [empire|El], можуть з'явитися далеко не відразу, більш того, $game_concept_holder$ високого рівня може взагалі не мати підвладної території у своїх володіннях.\n\nЧим вище ранг ваших володінь, тим більше могутні [vassals|El] приносять вам клятву.Наприклад, графи приносять васальну клятву герцогам, а ті, у свою чергу, клянуться у вірності королям."
  game_concept_de_jure:0 "Де-юре"
- game_concept_de_jure_desc:1 "Найчастіше [titles|El] $game_concept_de_jure$ (за законом) входять до складу титулу вищого рівня.\n\nНаприклад, [Concept( 'ruler', 'правитель' )|E] може бути [Concept( 'king', 'королем' )|E] Англії, та його [Concept( 'realm', 'держава' )|E] включає у собі всі землі, які вважають частиною Англії.\n\n[holder|E] [ Concept( 'duchy', 'герцогства' )|E], [Concept( 'kingdom', 'королівства' )|E] або [Concept( 'empire', 'імперії' )|E] завжди має [casus_belli|El] для захоплення володінь, підпорядкованих йому $game_concept_de_jure$.\n\n[vassals|E] також визначатимуть свого [Concept( 'rightful_liege', 'законного сюзерена' )|E], виходячи з того, до якої держави де-юре належить їх [Concept( 'primary_title', 'перший титул' )|E]."
+ game_concept_de_jure_desc:1 "Найчастіше [titles|El] $game_concept_de_jure$ (за законом) входять до складу титулу вищого рівня.\n\nНаприклад, [Concept( 'ruler', 'правитель' )|E] може бути [Concept( 'king', 'королем' )|E] Англії, але його [Concept( 'realm', 'держава' )|E] включає не всі землі, які вважаються частиною Англії.\n\n[holder|E] [Concept( 'duchy', 'герцогства' )|E], [Concept( 'kingdom', 'королівства' )|E] або [Concept( 'empire', 'імперії' )|E] завжди має [casus_belli|El] для захоплення володінь, підпорядкованих йому $game_concept_de_jure$.\n\n[vassals|E] також визначатимуть свого [Concept( 'rightful_liege', 'законного сюзерена' )|E], виходячи з того, до якої держави де-юре належить їх [Concept( 'primary_title', 'перший титул' )|E]."
  game_concept_de_jure_drift:0 "Зміна де-юре статусу"
  game_concept_de_jure_drift_drifted:0 "Зміна"
  game_concept_de_jure_drift_drift:0 "Зміна"
@@ -1475,7 +1475,7 @@
  game_concept_liberty_faction:0 "$liberty_faction$"
  game_concept_faction_liberty:0 "Свобода"
  game_concept_liberty_factions:0 "Фракції свободи"
- game_concept_liberty_faction_desc:1 "$game_concept_liberty_faction$ домагається зниження [Concept( 'crown_authority', 'авторитету корони' )|El] і, наскільки можна, створення власних [Concept( 'feudal_contracts', феодальных договоров' 'у| , [liege|El] тимчасово втратить можливість впливати на авторитет корони в [Concept( 'realm', 'державі' )|El]."
+ game_concept_liberty_faction_desc:1 "$game_concept_liberty_faction$ досягає зниження [Concept( 'crown_authority', 'авторитету корони' )|El] і, по можливості, створення власних [Concept( 'feudal_contracts', 'феодальних договорів' )|El]. Якщо вони досягнуть успіху, [liege|El] тимчасово втратить можливість впливати на авторитет корони в [Concept( 'realm', 'державі' )|El]."
 
  game_concept_claimant_faction:0 "$claimant_faction$"
  game_concept_claimant_factions:0 "Фракції на підтримку претендента"

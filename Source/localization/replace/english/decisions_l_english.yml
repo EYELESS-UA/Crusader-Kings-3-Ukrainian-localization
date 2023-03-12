@@ -468,7 +468,7 @@
 
  hold_mystical_communion_decision:0 "Провести містичне єднання"
  hold_mystical_communion_decision_desc:0 "#F Я відчую присутність [ROOT.Char.GetFaith.HighGodNamePossessive], прийшовши в екстаз.#!"
- hold_mystical_communion_decision_tooltip:0 "Тільки ви володієте справжнім знанням"
+ hold_mystical_communion_decision_tooltip:0 "Тільки ви маєте справжнє знання"
  hold_mystical_communion_decision_confirm:0 "Я починаю зі світом"
  hold_mystical_communion_side_effects_tt:0 "Можливі непередбачені побічні ефекти"
  held_mystical_communion_title:0 "Відчуття присутності [ROOT.Char.GetFaith.HighGodNamePossessive]"

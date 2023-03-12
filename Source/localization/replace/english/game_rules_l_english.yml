@@ -9,9 +9,9 @@
  IRONMAN_ENABLED_NO_HEADER:1 "#P Увімкнено#!"
  IRONMAN_DISABLED_NO_HEADER:0 "Вимкнено"
  ACHIEVEMENTS_LABEL:0 "Досягнення"
- ACHIEVEMENTS_EXPLANATION:1 "#indent_newline:2 Досягнення можна отримувати лише за умови дотримання наступних умов:\n$EFFECT_LIST_BULLET$Ви граєте в одиночну гру\n$EFFECT_LIST_BULLET$Включений режим «Залізна воля»\n$EFFECT_ на ігровий процес, і не використовуєте особливі налаштування запуску (тобто контрольна сума незмінна)\n$EFFECT_LIST_BULLET$Якщо ви граєте персонажем, створеним в редакторі правителя, то кількість витрачених очок не повинна перевищувати $RULER_DESIGNER_POINTS_LIMIT!
+ ACHIEVEMENTS_EXPLANATION:1 "#indent_newline:2 Досягнення можна отримувати лише за дотримання таких умов:\n$EFFECT_LIST_BULLET$Ви граєте в одиночну гру\n$EFFECT_LIST_BULLET$Увімкнено режим «Залізна людина»\n$EFFECT_LIST_BULLET$Ви не змінювали файли гри, що впливають на ігровий процес, і не використовуєте особливі налаштування запуску (тобто контрольна сума незмінна)\n$EFFECT_LIST_BULLET$Якщо ви граєте персонажем, створеним у редакторі правителя, то кількість витрачених очок не повинна перевищувати $RULER_DESIGNER_POINTS_LIMIT_VALUE$#!"
  ACHIEVEMENTS_ENABLED:3 "#T Досягнення доступні\n#!Ви можете відкривати досягнення під час гри.\n\n$ACHIEVEMENTS_EXPLANATION$"
- ACHIEVEMENTS_DISABLED:2 "#T Досягнення недоступні#!\nВи не можете відкривати досягнення під час гри.\n\n$ACHIEVEMENTS_EXPLANATION$"
+ ACHIEVEMENTS_DISABLED:2 "#T Досягнення недоступні#!\nВи не можете відкривати здобутки під час гри.\n\n$ACHIEVEMENTS_EXPLANATION$"
  ACHIEVEMENTS_ENABLED_NO_HEADER:0 "#P Доступні#!"
  ACHIEVEMENTS_DISABLED_NO_HEADER:0 "#N Недоступно#!"
  GAME_RULE_BLOCKS_ACHIEVEMENTS:0 "Це правило відключає можливість отримувати досягнення"
