@@ -19,7 +19,7 @@
  the_rumors_at_court:0 "чутки при дворі"
  herhis_favorite_daughter:0 "[ROOT.Char.GetHerHis] улюблена дочка"
  herhis_favorite_son:0 "[ROOT.Char.GetHerHis] коханий син"
- herhis_beloved_spouse:0 "[ROOT.Char.GetHerHis] любимо[Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.Custom('WifeHusbandOpp')]"
+ herhis_beloved_spouse:0 "[ROOT.Char.GetHerHis] любимо[Select_CString(ROOT.Char.IsFemale, 'a', 'ий' )] [ROOT.Char.Custom('WifeHusbandOpp')]"
  herhis_investments:0 "[ROOT.Char.GetHerHis] вкладення"
  sword_practise:0 "тренування з мечем"
  herhis_tome_collection:0 "[ROOT.Char.GetHerHis] збори книг"

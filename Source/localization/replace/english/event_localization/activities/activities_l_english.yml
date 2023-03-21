@@ -39,7 +39,7 @@
  ACTIVITY_ATTENDING_NEWLINE:0 "\n$ACTIVITY_ATTENDING$\n"
  GOTO_ACTIVITY:0 "#I Click to center on map#!"
  GOTO_PLAYER_ACTIVITY:0 "#T [GetPlayer.GetCurrentActivity.GetType.GetName] in [GetPlayer.GetCurrentActivity.GetLocation.GetName]#! \n#I Click to select#!"
- ACTIVITY_LOCATION:0 "Location: [ActivityWindow.GetActivity.GetLocation.GetName]"
+ ACTIVITY_LOCATION:0 "Місце: [ActivityWindow.GetActivity.GetLocation.GetName]"
  ACTIVITY_SELECT_ATTENDEES_IN_TOOLTIP:0 "[Select_CString( ActivityMapItem.GetActivity.GetType.GetActivityShowAccepted, ActivityMapItem.GetActivity.WriteListOfAcceptedGuests, '' )]"
  ACTIVITY_MAP_ITEM_TOOLTIP_TOGGLE_CLICKABLE:1 "#T [ActivityMapItem.GetActivity.GetName]#! $ACTIVITY_SELECT_ATTENDEES_IN_TOOLTIP$ #I [Select_CString( ActivityMapItem.GetActivity.GetType.HasActivityWindow, '\nClick to select', '' )]#!"
 

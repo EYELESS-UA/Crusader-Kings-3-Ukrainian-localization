@@ -82,7 +82,7 @@
  AVERAGE_AMENITY_LEVEL_IS_NOT:0 "Середній рівень розваг #bold не#! $NUM|V0$"
  YOUR_AVERAGE_AMENITY_LEVEL_IS:0 "Ваш середній рівень розваг $NUM|V0$"
  YOUR_AVERAGE_AMENITY_LEVEL_IS_NOT:0 "Ваш середній рівень розваг #bold не#! $NUM|V0$"
- THEIR_AVERAGE_AMENITY_LEVEL_IS:0 "Середній рівень розваг [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа'', '|
+ THEIR_AVERAGE_AMENITY_LEVEL_IS:0 "Середній рівень розваг [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа'', '|
  THEIR_AVERAGE_AMENITY_LEVEL_IS_NOT:0 "Середній рівень розваг [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'd $#'') |V0$"
 
  AVERAGE_AMENITY_LEVEL_IS_AT_LEAST:0 "Середній рівень розваг $NUM|V0$ або вище"
@@ -94,7 +94,7 @@
 
  SET_AMENITY_LEVEL:0 "Виставити значення розваг типу $COURT_AMENITY_CATEGORY$ рівним $COURT_AMENITY_SETTING$"
  SET_YOUR_AMENITY_LEVEL:0 "Виставити ваше значення розваг типу $COURT_AMENITY_CATEGORY$ рівним $COURT_AMENITY_SETTING$"
- SET_THEIR_AMENITY_LEVEL:0 "Виставити для [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '_ )] COURT_AMENITY_SETTING$"
+ SET_THEIR_AMENITY_LEVEL:0 "Виставити для [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '_ )] COURT_AMENITY_SETTING$"
 
  COURT_AMENITIES_WINDOW_HEADER:0 "Розваги при дворі"
  COURT_AMENITY_OWNER_MODIFIER_HEADER:0 "#S Власник:#!"

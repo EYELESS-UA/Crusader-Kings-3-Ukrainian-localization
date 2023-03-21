@@ -59,7 +59,7 @@
  iberia_north_africa.0101.c:0 "[religious_leader.GetFaith.ReligiousText] все ще потребує тлумачення..."
  iberia_north_africa.0101.c.tt:0 "Ви виступаєте за більший плюралізм віри"
 
- iberia_north_africa.0102.t:0 "[religious_leader.GetFaith.GetNameNoTooltip]ая $iberia_north_africa.0101.t$"
+ iberia_north_africa.0102.t:0 "[religious_leader.GetFaith.GetNameNoTooltip]а $iberia_north_africa.0101.t$"
  iberia_north_africa.0102.desc.intro:0 "Використовуючи весь свій релігійний авторитет і політичний капітал, [religious_leader.GetTitledFirstName] [Select_CString(religious_leader.IsFemale, 'зібрала', 'зібрав') у своїй столиці GetBaseNameNoTier] великий конклав #L [religious_leader.GetFaith.GetName|l]їх#!богословів, щоб обговорити майбутнє віри. #EMP поправками#! у церковній політиці.\n\nНасамперед це стосується"
  iberia_north_africa.0102.desc.fundamentalist:0 "образ, які змушені зазнавати їх одновірці, і необхідності всіма способами зміцнити світську владу церкви в ім'я їхнього захисту."
  iberia_north_africa.0102.desc.righteous:0 "літургійної одноманітності, якої слід дотримуватися всіма віруючими незалежно від місцевих традицій."

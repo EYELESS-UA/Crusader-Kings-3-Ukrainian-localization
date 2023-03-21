@@ -1,5 +1,5 @@
 ﻿l_english:
- TITLE_VIEW_OWNED_BY:0 "[realm|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]"
+ TITLE_VIEW_OWNED_BY:0 "[realm|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]"
  TITLE_VIEW_VASSAL_SCROLL_TITLE:0 "Невід'ємні [de_jure|El] [titles|El] держави [TitleViewWindow.GetTitle.GetNameNoTierNoTooltip]"
  TITLE_VIEW_UNOWNED_TITLES:0 "Поки порожньо"
  PREVIOUS_TITLE:0 "#T Показати попередній [title|El]#!\n[TITLE.GetName]"

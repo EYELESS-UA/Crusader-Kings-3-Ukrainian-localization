@@ -281,7 +281,7 @@
 
  reclaim_britannia_decision:0 "Відвоювати Британію"
  reclaim_britannia_decision_desc:1 "Колись у цих краях правили кельти, і тепер їхня культура знову набула значення і впливу в цих землях. Все більше людей переймають кельтську мову і культуру, а тому буде правильною зробити цю мову офіційною!"
- reclaim_britannia_decision_tooltip:0 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! культура стане головною"
+ reclaim_britannia_decision_tooltip:0 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]а#! культура стане головною"
  reclaim_britannia_decision_custom:0 "Не може бути більше 1 васала, що не належить до кельтської культури"
  reclaim_britannia_decision_confirm:1 "Відповідати Британії"
  HAS_NON_CELTIC_POWERFUL_VASSAL:2 "Всі ваші [Concept( 'powerful_vassals', 'могутні васали' )|E] відносяться до [Concept( 'culture', 'культури' )|E] з бриттським або гойдельським [Concept( 'heritage', ' )|E]"
@@ -292,7 +292,7 @@
  restore_the_danelaw_decision_confirm:0 "Відродити Денло"
 
  embrace_english_culture_decision:0 "Прийняти англійську культуру"
- embrace_english_culture_decision_tooltip:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! культура вам більше не близька"
+ embrace_english_culture_decision_tooltip:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]а#! культура вам більше не близька"
  embrace_english_culture_decision_desc:0 "Я, мій рід і мої васали живемо пліч-о-пліч з саксами і кельтами. Наша мова і наші звичаї вже не розрізнити, і настав час визнати — ми давно стали єдиним народом."
  embrace_english_culture_decision_get_innovations:0 "#D Англійська культура отримає безліч норманських інновацій#!"
  embrace_english_culture_decision_vassals_custom:0 "Всі васали у Британії"
@@ -322,7 +322,7 @@
  mend_the_great_schism_decision_confirm:0 "Один Бог, одна Церква!"
  mend_the_great_schism_decision_desc:1 "Великий розкол розділив християнську церкву, але якщо всі п'ять єпископатів Пентархії об'єднаються під покровом святого правителя і визнають владу єдиної імперії, можливо, християнство знову стане єдиним."
  mend_the_great_schism_decision_tooltip:0 "Я об'єдную християн"
- mend_the_great_schism_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ая#! церква припинить розкол і стане єдиною канонічною гілкою християнства."
+ mend_the_great_schism_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]а#! церква припинить розкол і стане єдиною канонічною гілкою християнства."
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Всі християнські [Concept( 'faith', 'конфесії' )|E] з доктриною [GetFaithDoctrine('special_doctrine_ecumenical_christian')".
  
  set_capital_constantinople_decision:0 "Вимагати Константинополь"
@@ -499,16 +499,16 @@
  jewish_restore_high_priesthood_decision:0 "Повернути вище [ROOT.Char.GetFaith.GetNameNoTooltip|l]е духовенство"
  jewish_restore_high_priesthood_decision_confirm:0 "Підвищити нового духовного лідера"
  jewish_restore_high_priesthood_decision_desc:0 "З того часу як римляни зруйнували Другий храм, новий [ROOT.Char.GetFaith.ReligiousHeadName] - первосвященик Єрусалима - так і не з'явився. Але якщо ми зуміємо повернути контроль над святими місцями, св.
- jewish_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
+ jewish_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
 
- restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
- restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ое#! священство відродилося"
+ restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
+ restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]е#! священство відродилося"
 
  zoroastrian_restore_high_priesthood_decision:0 "Повернути вище [ROOT.Char.GetFaith.GetNameNoTooltip|l]е духовенство"
  zoroastrian_restore_high_priesthood_decision_confirm:0 "Підвищити нового духовного лідера"
- zoroastrian_restore_high_priesthood_decision_desc:0 "Коли в Персії зміцниться #L [ROOT.Char.GetFaith.GetName|l]ая#! віра, настане час відродити справжнє зороастрійське жрецтво."
- zoroastrian_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
- zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ое#! священство відродилося"
+ zoroastrian_restore_high_priesthood_decision_desc:0 "Коли в Персії зміцниться #L [ROOT.Char.GetFaith.GetName|l]а#! віра, настане час відродити справжнє зороастрійське жрецтво."
+ zoroastrian_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
+ zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]е#! священство відродилося"
 
  become_saoshyant_decision:0 "Стати Саош'янтом"
  become_saoshyant_decision_confirm:0 "Я - рятівник!"
@@ -668,7 +668,7 @@
  defensaers_of_highgod_decision_confirm:0 "Зміцнити священне місце"
  defensaers_of_highgod_decision_tooltip:0 "Заслужити вірність племен і об'єднатися. [ROOT.Char.GetFaith.GetAdjective], ми не осоромимо ім'я твоє!"
 
- defensaers_of_highgod_decision_effects_holy_site_of_choice:0 "#L [SCOPE.GetRootScope.Char.GetFaith.GetName]ая#! [Concept( 'holy_site', 'святиня' )|E] під вашим контролем"
+ defensaers_of_highgod_decision_effects_holy_site_of_choice:0 "#L [SCOPE.GetRootScope.Char.GetFaith.GetName]а#! [Concept( 'holy_site', 'святиня' )|E] під вашим контролем"
  defenders_of_highgod_decision_effects_holy_warriors_tt:0 "Майже кожен #L [defender_of_highgod.GetFaith.GetName|l]ий#! воїн вашої держави отримає властивість «[GetTrait('holy_warrior').GetName(" GetPlay
 
  #UNITE THE SPANISH THRONES
@@ -687,7 +687,7 @@
  unite_africa_decision_spirits_desc:0 "Занадто довго невірні з чужих земель плювали на духів нашої прекрасної батьківщини. [ROOT.Char.GetFaith.HighGodName] велить народам Африки об'єднатися і дати відсіч чужинцям!"
  unite_africa_decision_generic_desc:0 "Народи Африки горді, сильні і хоробри. Але багато хто пішов з істинного шляху і стали поклонятися фальшивим богам. [ROOT.Char.GetFaith.HighGodName] нагадає їм про себе, і ми знову будемо єдині."
  every_non_root_faith_vassal_africa:0 "Кожен #L не[THIS.Char.GetFaith.GetName|l]ий#! [vassal|El] і нижче в Африці"
- every_non_root_faith_county_africa:0 "Кожне #L не[THIS.Char.GetFaith.GetName|l]ое#! графство в Африці"
+ every_non_root_faith_county_africa:0 "Кожне #L не[THIS.Char.GetFaith.GetName|l]е#! графство в Африці"
  every_non_africa_uniter_faith_convert:1 "Приймає [africa_uniter.GetFaith.GetAdjective|l]"
 
  #AVENGE THE BATTLE OF TOURS
@@ -697,7 +697,7 @@
  avenge_the_battle_of_tours_decision_tooltip:0 "Пройти Дорогий мучеників і виправити помилки минулого"
  every_non_avenger_faith_convert:1 "Приймає [avenger.GetFaith.GetAdjective|l]"
  every_non_root_faith_vassal_west_europe:0 "Кожен #L не[THIS.Char.GetFaith.GetName|l]ий#! васал і нижче в Західній Європі"
- every_non_root_faith_county_west_europe:1 "Кожне #L не[THIS.Char.GetFaith.GetName|l]ое#! графство вашої держави в Західній Європі"
+ every_non_root_faith_county_west_europe:1 "Кожне #L не[THIS.Char.GetFaith.GetName|l]е#! графство вашої держави в Західній Європі"
 
  #FORM PORTUGAL
  form_portugal_decision:0 "Створити Португалію"
@@ -731,7 +731,7 @@
 
  #Guest decisions
  invite_knights_decision:1 "$knight_culture_player_plural_no_tooltip$ - запросити"
- invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю храбреців для оборони моїх кордонів і завоювання нових $. knight_culture_player_plural_no_tooltip_lowercase$."
+ invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю храбреців для оборони моїх кордонів і завоювання нових $.knight_culture_player_plural_no_tooltip_lowercase$."
  invite_knights_decision.men.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! #! і вище"
  invite_knights_decision.women.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! міцних жінок, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12 #! і вище"
  invite_knights_decision.warriors.tt:1 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! воїнів, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12# ! і вище."
@@ -1094,7 +1094,7 @@
 
  mozarabic_bind_the_faith_to_rome_decision_desc:0 "Хоча [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] залишається нашим істинним Папою, відірваність від намісника Христового спотворила нашу віру. nАле ми ще маємо шлях назад, якщо наша віра збилася з дороги, чи не зможе сильний пастир повернути її назад у стадо?"
 
- mozarabic_bind_the_faith_to_rome_decision_tooltip:0 "Нехай #L [ROOT.Char.GetFaith.GetName|l]ая#! [Concept( 'faith', 'конфесія' )|E] і [ROOT.Char.GetFaith.GetReligio ] знову з'єднаються"
+ mozarabic_bind_the_faith_to_rome_decision_tooltip:0 "Нехай #L [ROOT.Char.GetFaith.GetName|l]а#! [Concept( 'faith', 'конфесія' )|E] і [ROOT.Char.GetFaith.GetReligio ] знову з'єднаються"
  mozarabic_bind_the_faith_to_rome_decision_confirm:0 "Наше місце — разом з іншими християнами."
  mozarabic_bind_the_faith_to_rome_decision.tt.hof_and_ecumenism_warning:0 "У вашої віри збережеться [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName|l], але| [Concept( 'head_of_faith', 'глава конфесії' )|E]"
  mozarabic_bind_the_faith_to_rome_decision.path_righteous:0 "Якщо ми реформуємо нашу [Concept( 'faith', 'конфесію' )|E] так, щоб підвищити свою $doctrine_pluralism_righteous_name$"

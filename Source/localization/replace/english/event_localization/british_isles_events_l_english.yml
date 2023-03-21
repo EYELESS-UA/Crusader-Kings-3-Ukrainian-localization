@@ -1,7 +1,7 @@
 ﻿l_english:
 
 # Reclaiming Britannia, by Linnéa Thimrén
- british_isles.0001.t:0 "[reclaimer.GetCulture.GetCollectiveNounNoTooltip]ая Британія"
+ british_isles.0001.t:0 "[reclaimer.GetCulture.GetCollectiveNounNoTooltip]а Британія"
  british_isles.0001.desc:0 "Занадто довго наш великий острів залишався під владою чужинців, і нарешті він знову в руках кельтів! Я дивлюся на поля, і здається, ніби вперше за довгі роки тут визирнуло сонце, немов земля достатку та процвітання, Тир на Ніг, знову відкрилася нам. Пагорби та долини наших предків знову в руках #L [ROOT.Char.GetCulture|l]ой#! культури."
  british_isles.0001.custom:0 "Всі [counties|El] у Британії"
  british_isles.0001.a:0 "Слава предкам!"
@@ -17,7 +17,7 @@
 
  british_isles.1002.t:0 "Денло"
  british_isles.1002.desc_same_culture:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] своїми руками [Select_CString(restorer.IsFemale, 'відновила',' )] Денло!Великий острів знову в #L [restorer.GetCulture.GetCollectiveNoun|l]їх#! руках."
- british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] і [restorer.GetHerHis] огидні грабіжники створили нову державу на островах і проголосили її відродженим королівством Денло.\n\nМайбутнє покаже, чи виявиться ця спроба відновити #L [restorer.GetCulture.GetCollectiveNoun|l]ое#! правління в Англії вдаліше за колишні..."
+ british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] і [restorer.GetHerHis] огидні грабіжники створили нову державу на островах і проголосили її відродженим королівством Денло.\n\nМайбутнє покаже, чи виявиться ця спроба відновити #L [restorer.GetCulture.GetCollectiveNoun|l]е#! правління в Англії вдаліше за колишні..."
  british_isles.1002.a:0 "[restorer.GetCulture.GetCollectiveNounNoTooltip]ое ярмо..."
  british_isles.1002.b:0 "[restorer.GetCulture.GetCollectiveNounNoTooltip]а перемога!"
  british_isles.1002.c:0 "Хм, [restorer.GetCulture.GetCollectiveNounNoTooltip|l]ий народ, кажіть? Я в справі!"
@@ -36,7 +36,7 @@
  british_isles.3001.desc:0 "Ваше бажання розширити священну владу Вселенської Церкви на варварські племена Ірландії - діяння благочестиве і законне. А тому Свята Римська Церква наказує вам опанувати островом, виконавши тим самим волю Господа.\n\n помрете до завершення цієї священної кампанії, цей священний мандат перейде вашим законним наступникам Нехай будинок [scoped_ruler.GetHouse.GetBaseNameNoTooltip] продовжує це святе починання, доки не здійсниться божественна воля і Ірландія не буде об'єднана під [scoped_ruler.GetCtip| владою."
  british_isles.3001.a:0 "Готуйте флот!"
  british_isles.3002.t:0 "Претензія на Ірландію"
- british_isles.3002.desc.irish:0 "Своєю милістю [Select_CString(scoped_pope.IsFemale, 'Її', 'Його' )] Святість [scoped_pope.GetFirstName], вікарій Ісуса Христа і спадкоємець престолу Святого Петра, GetFullName] [Select_CString(scoped_ruler.IsFemale, 'отримала', 'отримав' )] божественне право на владу над Ейре і всіма народами, що її населяють. що здатні в гніві [scoped_ruler.GetTitledFirstName], [scoped_ruler.GetHerHis] #L [scoped_ruler.GetCulture.GetCollectiveNoun|l]ие#! війська і Господь всемогутній."
+ british_isles.3002.desc.irish:0 "Своєю милістю [Select_CString(scoped_pope.IsFemale, 'Її', 'Його' )] Святість [scoped_pope.GetFirstName], вікарій Ісуса Христа і спадкоємець престолу Святого Петра, GetFullName] [Select_CString(scoped_ruler.IsFemale, 'отримала', 'отримав' )] божественне право на владу над Ейре і всіма народами, що її населяють. що здатні в гніві [scoped_ruler.GetTitledFirstName], [scoped_ruler.GetHerHis] #L [scoped_ruler.GetCulture.GetCollectiveNoun|l]і#! війська і Господь всемогутній."
  british_isles.3002.a:0 "Це ми ще подивимося!"
  british_isles.3002.b:0 "Ясно..."
 

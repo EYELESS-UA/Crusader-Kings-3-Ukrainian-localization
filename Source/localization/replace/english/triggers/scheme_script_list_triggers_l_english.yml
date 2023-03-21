@@ -4,8 +4,8 @@
  ANY_SCHEME:0 "Будь-які підступи:"
  ALL_OF_MY_SCHEMES:1 "Всі ваші підступи:"
  ANY_OF_MY_SCHEMES:1 "Будь-які ваші підступи:"
- ALL_OF_THEIR_SCHEMES:0 "Всі підступи [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]:"
- ANY_OF_THEIR_SCHEMES:0 "Будь-які підступи [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]:"
+ ALL_OF_THEIR_SCHEMES:0 "Всі підступи [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]:"
+ ANY_OF_THEIR_SCHEMES:0 "Будь-які підступи [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]:"
 
  ALL_SCHEME_AGENTS:0 "Всі співучасники підступів [SCHEME.GetFullActionName]:"
  ANY_SCHEME_AGENT:0 "Будь-який співучасник підступів [SCHEME.GetFullActionName]:"

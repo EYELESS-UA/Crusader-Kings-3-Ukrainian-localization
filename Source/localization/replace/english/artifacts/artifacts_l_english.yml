@@ -468,7 +468,7 @@
 
  # Axe, Spear, Hammer, і Mace components (Heads, Shafts/Hafts)
  feature_head_decoration_etched_pattern:0 "вигравіюваний візерунок - [Artifact.GetFeatureText( 'decoration_pattern' )]"
- feature_head_decoration_religious_motifs:0 "вигравіровані різні #L [Artifact.GetOwner.GetFaith.GetName|l]ие#! мотиви"
+ feature_head_decoration_religious_motifs:0 "вигравіровані різні #L [Artifact.GetOwner.GetFaith.GetName|l]і#! мотиви"
  feature_shaft_decoration_painted_pattern:0 "намальовані візерунки, що нагадують [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_shaft_decoration_inlay:0 "з інкрустацією з [Artifact.GetFeatureText( 'decoration_material_inlay_HSB' )]"
  feature_shaft_decoration_varnish:0 "з лаком, що надає насичений темний блиск"

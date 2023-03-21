@@ -1,6 +1,6 @@
 ﻿l_english:
  culture_conversion.0001.t:1 "#L [new_culture.GetCollectiveNoun]а#! життя"
- culture_conversion.0001.desc:1 "#L [new_culture.GetAdjective]є#! наряди, #L [new_culture.GetAdjective|l]ие#! звички і [new_culture.GetName|l], що заполонили столицю... Не дивно, що [converting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)], забувши про #L [old_culture.GetAdjective|l]їх#!корені, вважає себе частиною #L[new_culture.GetAdjective|l]ого#! народу!"
+ culture_conversion.0001.desc:1 "#L [new_culture.GetAdjective]є#! наряди, #L [new_culture.GetAdjective|l]і#! звички і [new_culture.GetName|l], що заполонили столицю... Не дивно, що [converting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)], забувши про #L [old_culture.GetAdjective|l]їх#!корені, вважає себе частиною #L[new_culture.GetAdjective|l]ого#! народу!"
  culture_conversion.0001.a:0 "Все змінюється - люди теж."
  culture_conversion.0001.b:0 "Відкидати наші старі традиції недобре."
  culture_conversion.0001.c:0 "Ми повинні йти в ногу з часом!"

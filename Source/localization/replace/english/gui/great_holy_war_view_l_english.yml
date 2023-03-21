@@ -20,7 +20,7 @@
  GHW_SCORE_ENTRY:0 "[CHARACTER.GetUIName]: $SCORE|V$ ($SCORE_PERCENT|1/%$)"
  GHW_ATTACKER_SCORES:0 "Учасники в атаці:"
  GHW_DEFENDER_SCORES:0 "Учасники захисту:"
- GHW_CONCEPT:0 "#L [GreatHolyWar.GetFaith.GetName]ая#! [great_holy_war|El]"
+ GHW_CONCEPT:0 "#L [GreatHolyWar.GetFaith.GetName]а#! [great_holy_war|El]"
  
  GHW_NOT_ATTACKER_PLEDGED:1 "#Weak Якщо ви приєднаєтеся до атакуючих:\n$EFFECT_LIST_BULLET$ Ви вирішите, хто стане [Concept( 'beneficiary', 'бенефіціаром' )|E] і зможе отримати титул у королівстві;\n$EFF отримати частину військової скарбниці;\n$EFFECT_LIST_BULLET$ Ви отримаєте частину золота з військової скарбниці, коли почнеться похід;\n$EFFECT_LIST_BULLET$ Ваші війни з іншими учасниками походу завершаться після початку.#!"
  GHW_NOT_DEFENDER_PLEDGED:1 "#weak Якщо я приєднаюся до захисників:\n$EFFECT_LIST_BULLET$ - Я можу отримати [Concept( 'piety', 'благочестя' )|El] і [prestige|El] з військової скарбниці;\n$EFFECT_L - Війни з іншими учасниками походу завершаться після його початку.

@@ -351,7 +351,7 @@
  board_games.0001.e.random.a:0 "Якщо на столі [SCOPE.Custom('BG_GameType')], ніхто не зрівняється зі мною в теорії гри!"
  board_games.0001.e.random.b:0 "Після прочитання стільки #EMP підручників#!, [SCOPE.Custom('BG_GameType')] мені підкориться."
  board_games.0001.e.random.c:0 "[SCOPE.Custom('BG_GameType')|U]? Я знаю правила як свої п'ять пальців."
- board_games.0001.e.random.d:0 "І ти сподіваєшся перевершити розумом #EMP меня#!?"
+ board_games.0001.e.random.d:0 "І ти сподіваєшся перевершити розумом #EMP менe#!?"
  board_games.0001.e.tt:0 "[SCOPE.Custom('BG_GameType')|U] — гра, де стикаються [learning|El] та [SCOPE.Custom('BG_CounterSkill_Learning')|l]"
  board_games.0001.e.tt.crit_success:0 "$board_games.0001.tt.crit_success$"
  board_games.0001.e.tt.crit_success.tt:0 "$board_games.0001.tt.crit_success.points$"

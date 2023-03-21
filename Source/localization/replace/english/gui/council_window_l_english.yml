@@ -19,8 +19,8 @@
  COUNCIL_TASK_PROGRESS_RATE:1 "[ValueBreakdown.GetValue]"
  COUNCIL_TASK_PROGRESS_RATE_VALUE:1 "[ValueBreakdown.GetValue]"
  COUNCIL_TASK_COUNTY_LOCATION:0 "[TITLE.GetName]"
- COUNCIL_TASK_COURT_LOCATION:0 "Двір [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа'
- COUNCIL_TASK_LOCATION:0 "Location: $LOCATION$"
+ COUNCIL_TASK_COURT_LOCATION:0 "Двір [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа'
+ COUNCIL_TASK_LOCATION:0 Місце: $LOCATION$"
  COUNCIL_WINDOW_TASK_NEEDS_COUNCILLOR:0 "$EFFECT_LIST_BULLET$ #N Для вибору завдання потрібно призначити радника#!"
  COUNCIL_WINDOW_TASK_NEEDS_VALID_LOCATION:0 "$EFFECT_LIST_BULLET$ #N Немає відповідних цілей для цього завдання#!"
  COUNCIL_TASK_NAME_HEADER:0 "#T $NAME|V$ #!"
@@ -67,7 +67,7 @@
  COUNCIL_WINDOW_MAP_INSTRUCTION_TT:0 "#I Клацніть, щоб призначити завдання тут#!"
  COUNCIL_WINDOW_MAP_INSTRUCTION_CANCEL_TT:0 "#I Клацніть ПКМ для скасування#!"
  COUNCIL_WINDOW_MAP_COUNCILLOR_TYPE:0 "[PotentialTaskLocationWindow.GetActiveTask.GetPositionName]"
- COUNCIL_WINDOW_TOOLIP_CULTURES_IN_COUNTY:1 "Культура: #L [CULTURE.GetCollectiveNoun]ая#!"
+ COUNCIL_WINDOW_TOOLIP_CULTURES_IN_COUNTY:1 "Культура: #L [CULTURE.GetCollectiveNoun]а#!"
  COUNCIL_WINDOW_TOOLIP_FAITHS_IN_COUNTY:1 "Конфесія: [FAITH.GetAdjective]"
  COUNCIL_WINDOW_CURRENTLY_APPOINTED:0 "Тільки призначений радник"
  COUNCIL_WINDOW_SKILLS:0 "Навички"

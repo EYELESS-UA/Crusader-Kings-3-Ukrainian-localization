@@ -1,6 +1,6 @@
 ﻿l_english:
 
-  IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "#L [CULTURE.GetCollectiveNoun]ая#! культура бере участь у боротьбі «[STRUGGLE.GetName]»"
+  IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "#L [CULTURE.GetCollectiveNoun]а#! культура бере участь у боротьбі «[STRUGGLE.GetName]»"
   IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "[faith|E] [FAITH.GetAdjective|l] бере участь у боротьбі «[STRUGGLE.GetName]»"
  
   STRUGGLE_PHASE_IS_TRIGGER:1 "Поточна фаза боротьби [STRUGGLE.GetName] — $PHASE$"

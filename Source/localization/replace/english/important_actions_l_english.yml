@@ -444,14 +444,14 @@
  ACTION_IS_VISIBLE_READ_UNREAD_COMBINED:1 "[Select_CString( ImportantActionItem.IsRead, '#same', '#medium;italic')] [ImportantActionItem.GetCombinedLabel]#!"
  
  action_can_ransom:0 "В'язня можна викупити"
- action_can_ransom_combined_group_label:0 "В'язеньов можна викупити @ gold_icon!
+ action_can_ransom_combined_group_label:0 "В'язнів можна викупити @gold_icon!"
  action_can_ransom_combined_group_name:0 "$action_can_ransom$"
- action_can_ransom_desc:1 "Ви можете вимагати викуп [Concept( 'gold', 'золотом' )|E], якщо хочете, щоб [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'в'язень' 'в'язень' ))|E ], [recipient.GetShortUIName], [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'вийшла' 'вийшов' ))|E] на волю.$action_can_ransom_HELP$"
- action_can_ransom_combined_group_description:1 "Ви можете взяти за [Concept( 'prisoners', 'в'язнів' )|E] викуп [Concept( 'gold', 'золотом' )|E].$action_can_ransom_HELP$"
+ action_can_ransom_desc:1 "Ви можете вимагати викуп [Concept( 'gold', 'золотом' )|E], якщо хочете, щоб [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'вязня' 'вязень' ))|E], [recipient.GetShortUIName], [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'вийшла' 'вийшов' ))|E] на волю.$action_can_ransom_HELP$"
+ action_can_ransom_combined_group_description:1 "Ви можете взяти за [Concept( 'prisoners', 'вязнів' )|E] викуп [Concept( 'gold', 'золотом' )|E].$action_can_ransom_HELP$"
  action_can_ransom_label:0 "Ви можете взяти викуп за персонажа [recipient.GetShortUINameNoTooltip] @gold_icon!"
  action_can_ransom_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
  action_can_ransom_click:0 "#I Клацніть, щоб викупити [Concept( 'prisoner', 'бранця' )|E]#!"
- action_can_ransom_HELP:0 "\n\n#help Якщо в'язень представляє для вас загрозу, скажімо, є вашим [Concept( 'rival', 'суперником' )|E], ви можете і не викуповувати його. У такому разі краще буде [Concept ( 'execute', 'стратити' )|E] в'язня або залишити гнити у в'язниці на невизначений термін...#!"
+ action_can_ransom_HELP:0 "\n\n#help Якщо в'язень є для вас загрозою, скажімо, є вашим [Concept( 'rival', 'соперником' )|E], ви можете і не викуповувати його. У такому разі краще буде [Concept( 'execute', 'страчувати' )|E] в'язня або залишити гнити у в'язниці на невизначений термін...#!"
  
  action_can_vassalize:0 "Сусіда можна васалізувати"
  action_can_vassalize_combined_group_label:0 "Сусідів можна васалізувати"
@@ -495,7 +495,7 @@
  action_can_use_hook_to_change_contract_combined_group_label:0 "Ви можете змінити договори @weak_hook_icon!"
  action_can_use_hook_to_change_contract_combined_group_name:0 "$action_can_use_hook_to_change_contract_combined_group_label$"
  action_can_use_hook_to_change_contract_desc:1 "[GetGovernment( 'feudal_government' ).GetAdjective]ый [vassal|El] [recipient.GetUIName] у вас [hook|El], і це дозволяє змінити [contract|El] з [Select_CString(recient. 'ней', 'ним' )].\n\n#help Одне з найефективніших застосувань впливу — збільшення [Concept( 'obligations', 'зобов'язань' )|E] [vassals_possessive|El] перед вами.\n\nПропонуючи нерівні умови договору, ви ризикуєте уславитися [Concept( 'tyranny', 'тираном' )|E], проте зараз вплив дозволить вам цього уникнути. Пам'ятайте: нерівна умова може бути тільки одна. n\nНе забудьте #high поставити галочку «Використовувати вплив»#! при зміні [Concept('contract', 'договору')]!#!"
- action_can_use_hook_to_change_contract_combined_group_description:0 "#L [GetGovernment( 'feudal_government' ).GetAdjective]ие#! [vassals|El] у вас [hook|El], і це дозволяє змінити їх [feudal_contracts|#]\. з найефективніших застосувань впливу - жорсткість [Concept( 'vassals', 'васальних' )|E] [Concept( 'obligations', 'зобов'язань' )|E].\n\nПропонуючи нерівні умови договору, ви ризикуєте уславитися [Concept( 'tyranny', 'тираном' )|E], однак вплив дозволить вам цього уникнути. »#! при зміні договорів!#!"
+ action_can_use_hook_to_change_contract_combined_group_description:0 "#L [GetGovernment( 'feudal_government' ).GetAdjective]і#! [vassals|El] у вас [hook|El], і це дозволяє змінити їх [feudal_contracts|#]\. з найефективніших застосувань впливу - жорсткість [Concept( 'vassals', 'васальних' )|E] [Concept( 'obligations', 'зобов'язань' )|E].\n\nПропонуючи нерівні умови договору, ви ризикуєте уславитися [Concept( 'tyranny', 'тираном' )|E], однак вплив дозволить вам цього уникнути. »#! при зміні договорів!#!"
  action_can_use_hook_to_change_contract_label:0 "Ви можете змінити договір персонажа [recipient.GetShortUINamePossessiveNoTooltip] @weak_hook_icon!"
  action_can_use_hook_to_change_contract_combined_label:0 "[recipient.GetUINameNoTooltip]"
  action_can_use_hook_to_change_contract_click:1 "#I Клацніть, щоб змінити договір#!"
@@ -543,7 +543,7 @@
  USING_CB_TRIGGER:0 "[casus_belli|E] "$CASUS_BELLI$""
  HAS_CB_ON_TARGET_TRIGGER:0 "Має $CASUS_BELLI$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER)'''
  MAX_MILITARY_STRENGTH_TRIGGER:0 "Максимальна військова міць: $VALUE|+0=$"
- IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U] знаходиться в облягаючої армії у війні, яка має значення для [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ')][TARGET_CHA[TER] його персонажа', '')]"
+ IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U] знаходиться в облягаючої армії у війні, яка має значення для [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ')][TARGET_CHA[TER] ого персонажа', '')]"
  RAID_LOOT_TRIGGER:0 "[raid_loot|E]: $COMPARATOR$ $NUM|V0$"
 
  action_has_unopened_court_event:2 "Доступна придворна подія"

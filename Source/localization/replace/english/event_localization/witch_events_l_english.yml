@@ -170,7 +170,7 @@
  witch.3014.b.learning:0 "віршування."
  witch.3014.c:0 "Розділю [ROOT.Char.GetFaith.WitchGodHerHis] дари плоті з ким-небудь ще."
  witch.3014.c.tt:1 "Ви намагаєтеся знайти когось зі подібним бажанням"
- witch.3014.d:0 "[new_guest.Custom('ComplimentAdjective')|U][Select_CString(new_guest.IsFemale, 'ая', 'ий' )] [new_guest.GetFirstNameNoTooltip] становитиме вам компанію."
+ witch.3014.d:0 "[new_guest.Custom('ComplimentAdjective')|U][Select_CString(new_guest.IsFemale, 'a', 'ий' )] [new_guest.GetFirstNameNoTooltip] становитиме вам компанію."
  witch.3014.e:0 "Де [Select_CString(sex_partner.IsFemale, 'моя', 'мій' )] [sex_partner.Custom('LoverPetName')]? Я прагну [sex_partner.GetHerHis] дотиків..."
  witch.3014.d.move_in:0 "Ми чудово ладнаємо один з одним"
  witch.3014.d.friend:0 "Ми непогано порозумілися"

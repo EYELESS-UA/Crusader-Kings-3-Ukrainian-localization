@@ -41,7 +41,7 @@
  CLAIM_THRONE_SUCCESS_DESC:1 "Ви отримаєте [Concept( 'pressed_claim', 'обґрунтовану претензію' )|E] на титул [TARGET_CHARACTER.GetPrimaryTitle.GetName]"
  CLAIM_THRONE_DISCOVERY_DESC:2 "Вам вдається уникнути втрати значної частини [Concept( 'prestige', 'престижу' )|E]"
  SCHEME_I_AM_COUNCILLOR_OF_TARGET:1 "Ви служите в [Concept( 'council', 'раді' )|E] персонажа [target.GetShortUINamePossessive]: $VALUE|+=0$"
- CLAIM_THRONE_SCHEME_AGENT_COUNCILLOR:0 "Радник [Select_CString(target.IsPlayer, '', 'персонажу ' )][target.GetNamePossessiveOrMy][Select_CString(target.IsPlayer, 'його персонажа', '' )"
+ CLAIM_THRONE_SCHEME_AGENT_COUNCILLOR:0 "Радник [Select_CString(target.IsPlayer, '', 'персонажу ' )][target.GetNamePossessiveOrMy][Select_CString(target.IsPlayer, 'ого персонажа', '' )"
  CLAIM_THRONE_SCHEME_AGENT_COURT_CHAPLAIN:0 "[target.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] персонажа [target.GetShortUINamePossessive]"
  CLAIM_THRONE_SCHEME_AGENT_VASSAL:0 "Вассал [Select_CString(target.IsPlayer, '', 'персонажу ' )][target.GetNamePossessiveOrMy][Select_CString(target.IsPlayer, його персонажу', '')]"
  

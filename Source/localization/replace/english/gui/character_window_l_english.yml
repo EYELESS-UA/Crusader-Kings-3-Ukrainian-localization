@@ -94,7 +94,7 @@
  HEALTH_POOR_DESC_ME:1 "Ви вболіваєте"
  HEALTH_FINE_DESC:0 "[CHARACTER.GetShortUIName|U] нормально почувається"
  HEALTH_FINE_DESC_ME:1 "Ви нормально себе почуваєте"
- HEALTH_GOOD_DESC:0 "Юмори [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )] у рівновазі"
+ HEALTH_GOOD_DESC:0 "Юмори [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )] у рівновазі"
  HEALTH_GOOD_DESC_ME:1 "Ваші гумори в рівновазі"
  HEALTH_EXCELLENT_DESC:0 "[CHARACTER.GetShortUIName|U] пашитьздоров'ям!
  HEALTH_EXCELLENT_DESC_ME:1 "Ваше здоров'я у повному порядку!"
@@ -174,7 +174,7 @@
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
- CULTURE_CHARACTER_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]ая"
+ CULTURE_CHARACTER_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]а"
  VASSAL_SORT_POWER:0 "$CLAIMANT_SORT_STRENGTH$"
 
  FIND_SPOUSE:0 "Знайти [Select_CString(ACTOR.IsFemale, 'консорта', 'наложницю')]"

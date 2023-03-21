@@ -1,9 +1,9 @@
 ﻿l_english:
- positive_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ий' )]"
- negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ый' )]"
+ positive_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'a', 'ий' )]"
+ negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'a', 'ий' )]"
  positive_desc_debug:0 "добрий"
  negative_desc_debug:0 "скверн"
- test_case_desc_in_event:1 "[Select_CString(other.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))|l][Select_CString(other.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
+ test_case_desc_in_event:1 "[Select_CString(other.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))|l][Select_CString(other.IsFemale, 'a', 'ий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
 
  positive_desc_loyal:0 "лояльн"
  positive_desc_faithful:0 "верн"
@@ -78,7 +78,7 @@
  positive_desc_wise:0 "мудрий"
  positive_desc_venerable:0 "поважно"
  positive_desc_youthful:0 "молодшавши"
- positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'ая', 'ий' )]""
+ positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'a', 'ий' )]""
 
  negative_desc_traitorous:0 "вероломн"
  negative_desc_subversive:0 "загибель"

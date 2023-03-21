@@ -2,4 +2,4 @@
 
  IS_PLAYER_HEIR_OF:0 "#D TODO цей тригер потрібно буде замінити на код!#!"
 
- CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[CHARACTER.GetShortUIName|U] обґрунтовує претензію [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ')][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
+ CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[CHARACTER.GetShortUIName|U] обґрунтовує претензію [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ')][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"

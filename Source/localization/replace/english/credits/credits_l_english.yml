@@ -60,7 +60,7 @@
  TITLE_COMPOSITION_AND_PRODUCTION:0 "#credits_subheader Написання та виробництво#!"
  TITLE_LIVE_RECORDING:0 "#credits_subheader Звукозапис#!"
 
- HEADER_MUSIC:1 "#credits_header МУЗИКА#!"
+ HEADER_MUSIC:1 "#credits_header МУЗИКа#!"
  TITLE_HEAD_OF_MUSIC:1 "#credits_subheader Глава музичного відділу#!"
  TITLE_MUSIC_COMPOSER_AND_PRODUCER:1 "#credits_subheader Композитор та музичний продюсер#!"
  TITLE_ADDITIONAL_MUSIC:1 "#credits_subheader Додаткова музика#!"
@@ -90,7 +90,7 @@
  TITLE_USER_RESEARCH:1 "#credits_subheader Дослідження користувачів#!"
  TITLE_LOCALIZATION_MANAGER:1 "#credits_subheader Менеджер з локалізації#!"
  TITLE_COMPATIBILITY_TESTING:1 "#credits_subheader Перевірка сумісності#!"
- HEADER_PRODUCTION_HEIRS:1 "#credits_header СПАДЩИКИ ВИРОБНИЦТВА#!"
+ HEADER_PRODUCTION_HEIRS:1 "#credits_header СПАДЩИКИ ВИРОБНИЦТВа#!"
  HEADER_SPECIAL_MENTION:1 "#credits_header ОСОБЛИВИЙ ЗАПАМ'ЯТАННЯ#!"
 
  HEADER_PARADOX_DEVELOPMENT_STUDIO:1 "#credits_header PARADOX DEVELOPMENT STUDIO#!"
@@ -214,7 +214,7 @@
  TITLE_IT_SYSTEMS_ENGINEER:0 "#credits_subheader Системний інженер ІТ#!"
  TITLE_IT_SUPPORT_ENGINEER:0 "#credits_subheaderІнженер підтримки ІТ#!"
  HEADER_OFFICE_FACILITY:1 "#credits_header ОФІС І СЛУЖБИ#!"
- HEADER_FINANCE_LEGAL:1 "#credits_header ФІНАНСИ ТА ЮРИДИЧНЕ ПІДТРИМКА#!"
+ HEADER_FINANCE_LEGAL:1 "#credits_header ФІНАНСИ ТА ЮРИДИЧНЕ ПІДТРИМКа#!"
  TITLE_FINANCE:1 "#credits_subheader Фінанси#!"
  TITLE_LEGAL:1 "#credits_subheader Юридична підтримка#!"
  HEADER_EXPERIMENT_TEAM:0 "#credits_header ДОСВІДНИЙ ВІДДІЛ#!"

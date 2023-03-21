@@ -7,7 +7,7 @@
  DIVERGE_CULTURE_NAME:0 "[Select_CString( StringIsEmpty( DivergenceWindow.GetNewCultureName ), 'Виберіть назву', '' )] [DivergenceWindow.GetNewCultureName][Select_CString( StringIsEmpty( Divergence )''
  CULTURE_DIVERGENCE_COOLDOWN:0 "#weak Відділити культуру можна лише раз у житті. Від [Concept( 'divergent_culture', 'культури, що відокремилася' )|E] не можна відокремити нову культуру, поки не пройде [EmptyScope.ScriptValue('culture_divergence_cooldown'') років. #!
  CULTURE_CREATION_DIVERGENCE_ACCEPTANCE_TEXT:0 "Терпимість до #L [GetPlayer.GetCulture.GetCollectiveNoun|l]ому#! народу буде 100%"
- CULTURE_AESTHETICS_DIVERGE_TOOLTIP:0 "#T [CultureAesthetics.GetName]ая естетика#!\n[CultureAesthetics.GetDesc]"
+ CULTURE_AESTHETICS_DIVERGE_TOOLTIP:0 "#T [CultureAesthetics.GetName]а естетика#!\n[CultureAesthetics.GetDesc]"
  CULTURE_AESTHETICS_DESC:0 "Традиційні імена: $NAME_LIST$\nАрхітектура: $BUILDING|V$\nМода: $CLOTHES|V$\nГерби: $COAT_OF_ARMS|V$\nВійськове оснащення: $UNIT|V$"
  CULTURE_CREATION_REPLACE_TRADITION_HEADER:1 "Доступні традиції"
  TRADITION_BASE_COST_HEADER:0 "Базова вартість: $COST$"

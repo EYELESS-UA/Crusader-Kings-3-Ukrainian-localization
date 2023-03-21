@@ -13,7 +13,7 @@
  CHARACTERS_OF_FAITH_MODIFIER_SUBHEADER:0 "#S Всі [FAITH.GetAdherentNamePlural|l]:#!"
  CHARACTERS_OF_UNKNOWN_FAITH_MODIFIER:0 "#T Усі послідовники:#!"
  CHARACTERS_OF_UNKNOWN_FAITH_MODIFIER_SUBHEADER:0 "#S Усі послідовники:#!"
- CLERGY_OF_FAITH_MODIFIER:0 "#T Все #L [FAITH.GetName|l]ое#! [clergy|El]:#!"
+ CLERGY_OF_FAITH_MODIFIER:0 "#T Все #L [FAITH.GetName|l]е#! [clergy|El]:#!"
  CLERGY_OF_UNKNOWN_FAITH_MODIFIER:0 "#T Все [Concept( 'clergy', 'духовенство' )|E] конфесії:#!"
  CHARACTERS_OF_FAITH_HOLY_SITE_MODIFIER:0 "#S Всі [FAITH.GetAdherentNamePlural|l]:#!"
  DOCTRINE_ADD_VIRTUE:0 "$EFFECT_LIST_BULLET$ Робить «[TRAIT.GetName( GetPlayer )]» [Concept( 'virtue', 'чесноти' )|E]\n"
@@ -75,7 +75,7 @@
  fervor_gain_new_heresy:0 "Народження [heretic_faith.GetNameNoTooltip|l]ой брехні"
  fervor_gain_defector_heresy:0 "$fervor_gain_new_heresy$"
  fervor_gain_persecuted:0 "Обурення у відповідь на переслідування"
- fervor_gain_theravada:0 "#L [theravada_faith.GetName]ие#! релігійні реформи"
+ fervor_gain_theravada:0 "#L [theravada_faith.GetName]і#! релігійні реформи"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 

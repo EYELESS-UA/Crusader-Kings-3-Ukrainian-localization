@@ -34,7 +34,7 @@
  ACTOR_NEMESIS_TO_ME_REASON:0 "[recipient.GetShortUIName|U] заклятий ворог персонажа [actor.GetShortUINamePossessive]: $VALUE|+0$"
  MARRIAGE_DESPERATION:2 "Вік [secondary_recipient.GetShortUINamePossessive]: $VALUE|+=0$"
  MARRY_CONSANGUINITY_REASON:0 "Такий шлюб - [incestuous|El]: $VALUE|+=0$"
- MATRILINEAL_WARNING:0 "@warning_icon!#X Діти, народжені в цьому шлюбі, будуть належати до [dynasties|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHA) , 'його персонажа', '' )] («[CHARACTER.GetDynastyName]»)!#!"
+ MATRILINEAL_WARNING:0 "@warning_icon!#X Діти, народжені в цьому шлюбі, будуть належати до [dynasties|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHA) , 'ого персонажа', '' )] («[CHARACTER.GetDynastyName]»)!#!"
  MATRILINEAL_REASON:0 "Матрилінійний шлюб: $VALUE|=+0$"
  PATRILINEAL_REASON:0 "Патрілінійний шлюб: $VALUE|=+0$"
  PROMISING_PROSPECTS_PERK_MODIFIER:0 "У вас є перевага "[GetPerk( 'promising_prospects_perk' ).GetName( GetPlayer )]]: $VALUE|=+0$"
@@ -90,7 +90,7 @@
  NO_VASSALS_TO_DISPLAY:1 "У вас немає [Concept( 'vassals', 'вассалів' )|E]"
  ALREADY_AT_WAR:0 "[war|E] вже йде: $VALUE|=+0$"
  MARRY_PROMPT_SOMEONE:0 "#I Виберіть кандидата для шлюбу#!"
- MARRY_PROMPT_BUILDING_LIST:0 "#I Знайти потенційних подружжя для [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' ')
+ MARRY_PROMPT_BUILDING_LIST:0 "#I Знайти потенційних подружжя для [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' ')
  MARRY_PROMPT_CHARACTER:0 "#I Виберіть, з ким [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsPlayer, 'вступіть', 'вступить' )] у шлюб#!"
  MARRY_DIFFERENT_FAITH_REASON:2 "Ви і [recipient.GetShortUIName] дотримуєтеся різних [Concept( 'faith', 'конфесій' )|E]: $VALUE|+0$"
  SAME_SEX_MARRIAGE_FAITH_REASON:0 "[faith|E] персонажа [secondary_recipient.GetShortUIName] не приймає $doctrine_homosexuality_name$: $VALUE|=+0$"
@@ -100,7 +100,7 @@
  MARRY_UNIMPORTANT_COURTIER_REASON:0 "Малозначний [courtier|El]: $VALUE|+0$"
  MARRY_CARES_ABOUT_COURTIER_REASON:0 "[recipient.GetShortUIName] цінує персонаж [secondary_recipient.GetShortUIName|U]: $VALUE|+0$"
  MARRY_PARENT_OF_CHILDREN_REASON:0 "[secondary_recipient.GetShortUIName|U] — [Select_CString(secondary_recipient.IsFemale, 'мати', 'батько' )] дітей персонажа [recipient.GetShortUIName]: $VALUE|+0$"
- AI_OPINION_REASON:1 "[CHARACTER.GetShortUIName] має таку думку про [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонаже ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHA)' $VALUE|=+0$"
+ AI_OPINION_REASON:1 "[CHARACTER.GetShortUIName] має таку думку про [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHA)' $VALUE|=+0$"
  AI_REFUSAL_IS_TREASON:0 "Відмова дорівнює зраді: $VALUE|=+0$"
  AI_CLAIMANT_PENALTY:0 "[recipient.GetShortUIName|U] [Select_CString(recipient.IsPlayer, 'має', 'має' )] підтримку фракції: $VALUE|=+0$"
  AI_PRISON_FEUDAL_COMPLEX_PERK:0 "[GetPerk( 'prison_feudal_complex_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
@@ -218,7 +218,8 @@
  GRANT_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED:0 "@warning_icon!#X [TITLE.GetName]: [occupied|El]#!"
  GRANT_TITLE_SELECT:0 "@warning_icon!#X Титул не вибраний#!"
  GRANT_TITLE_GRANT:0 "#T [CHARACTER.GetShortUIName] отримає вибрані титули#!"
- GRANT_TITLES_DESCRIPTION:0 "Вибрати [titles|El], які отримає [CHARACTER.GetShortUINameNoTooltip]"GRANT_REVOKE_TITLES_ITEM_SELECT:0 "#T Нехай буде [TITLE.GetName]#!"
+ GRANT_TITLES_DESCRIPTION:0 "Вибрати [titles|El], які отримає [CHARACTER.GetShortUINameNoTooltip]"
+ GRANT_REVOKE_TITLES_ITEM_SELECT:0 "#T Нехай буде [TITLE.GetName]#!"
  GRANT_REVOKE_TITLES_ITEM_DESELECT:0 "#T [TITLE.GetName] — зняти виділення#!"
  GRANT_REVOKE_RIGHT_CLICK_INFO:0 "#I ПКМ - перейти#!"
  GRANT_TITLES_ITEM_CANT_CAPITAL:2 "@warning_icon!#X Ви не можете дарувати свій [Concept( 'primary_title', 'перший титул' )|E]#!"
@@ -231,7 +232,7 @@
  GRANT_TITLES_NO_TITLES:0 "#weak Немає недавніх титулів#!"
  GRANT_TITLES_VASSAL_TRANSFER:0 "[vassals|E] у кількості $COUNT|V$ буде передано з цим титулом"
  GRANT_TITLES_SINGLE_VASSAL_TRANSFER:0 "Персонаж [CHARACTER.GetUIName] буде передано разом з титулами як [Concept( 'vassal', 'вассала' )|El]"
- GRANT_REVOKE_TITLE_VASSAL_PROVINCE_DOMAIN:0 "#T Домен [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' ')
+ GRANT_REVOKE_TITLE_VASSAL_PROVINCE_DOMAIN:0 "#T Домен [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' ')
  GRANT_REVOKE_TITLE_VASSAL_PROVINCE_REALM:1 "#T Держава персонажа [CHARACTER.GetShortUINameNoTooltip]#!\n"
  GRANT_REVOKE_TITLE_PROVINCE_DEJURE_TOOLTIP:1 "Де-юре входить до титулу [TITLE.GetName]"
  GRANT_TITLE_PROVINCE_TITLE_TOOLTIP:2 "Ви можете дарувати титул [TITLE.GetName]\n#I Натисніть, щоб дарувати вибраний титул#!"
@@ -264,7 +265,7 @@
  DECLARE_WAR_CLICK_TITLE:0 "[CasusBelliTitleItem.GetBlockers]#I Натисніть, щоб додати/прибрати претензію на титул [CasusBelliTitleItem.GetTitle.GetName]#! "
  PICK_CASUS_BELLI:0 "#I Виберіть [casus_belli|El] для війни з персонажем [CHARACTER.GetUINameNoTooltip]#!"
  NO_VALID_CASUS_BELLIS:0 "#weak Немає ніяких [casus_bellis|El]#!"
- cultural_acceptance_loss_declared_war:0 "#L [attacker.GetCulture.GetCollectiveNoun]про#!-#L [defender.GetCulture.GetCollectiveNoun|l]ая#! війна"
+ cultural_acceptance_loss_declared_war:0 "#L [attacker.GetCulture.GetCollectiveNoun]про#!-#L [defender.GetCulture.GetCollectiveNoun|l]а#! війна"
  WAR_LIEGE_HOOK:0 "Використовувати [hooks|El]"
  ARMY_STRENGTH:0 "#weak Сила армії:#!"
  TAB_VICTORY:2 "Нав'язати вимоги"
@@ -444,11 +445,11 @@
  IS_AT_WAR_WITH_TARGET_REASON:0 "[secondary_recipient.GetShortUIName] та [recipient.GetShortUIName] ведуть війну: $VALUE|+0$"
  GRANT_REVOKE_VIEW_WRONG_HOLDING_TYPE:0 "#T [holding|E] неправильного типу#!\n[GetPlayer.GetGovernment.GetName] не дозволяє ефективно керувати володінням [Title.GetProvince.GetHolding.GetType.GetName|V]: воно не буде приносити [taxes El] або [levies|El]."
 
- grant_title_modifier_stack_baronies:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString 'персонаже ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'ем персонажі', '' )] на #V 50 років#! #weak (Отримано баронство)#!"
- grant_title_modifier_stack_counties:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString 'персонаже ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'ем персонажа', '' )] на #V 50 років#! #weak (Отримано графство)#!"
- grant_title_modifier_stack_duchies:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(. 'персонаже ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'ем персонажа', '' )] на #V 50 років#! #weak (Отримано герцогство)#!"
- grant_title_modifier_stack_kingdoms:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString 'персонаже ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'ем персонажа', '' )] на #V 50 років#! #weak (Отримано королівство)#!"
- grant_title_modifier_stack_empires:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString 'персонаже ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'ем персонажа', '' )] на #V 50 років#! #weak (Отримана імперія)#!"
+ grant_title_modifier_stack_baronies:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'персонажі', '' )] на #V 50 років#! #weak (Отримано баронство)#!"
+ grant_title_modifier_stack_counties:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'персонажа', '' )] на #V 50 років#! #weak (Отримано графство)#!"
+ grant_title_modifier_stack_duchies:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'персонажа', '' )] на #V 50 років#! #weak (Отримано герцогство)#!"
+ grant_title_modifier_stack_kingdoms:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'персонажа', '' )] на #V 50 років#! #weak (Отримано королівство)#!"
+ grant_title_modifier_stack_empires:3 "[recipient.GetShortUIName|U] отримує [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [Concept( 'opinion', 'думки' )|E] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [actor.GetNamePossessiveOrMy][Select_CString(actor.IsPlayer, 'персонажа', '' )] на #V 50 років#! #weak (Отримана імперія)#!"
 
  #grant_title_modifier_stack_discontent:2 "The [faction|E] that [recipient.GetShortUIName] belongs to loses #V [SCOPE.ScriptValue('grant_title_opinion_sum_discontent_calc')|V0]#! [discontent|E]"
  grant_title_modifier_stack_discontent:3 "[factions|E], до яких належить [recipient.GetShortUIName], втрачають частину [Concept( 'discontent', 'невдоволення' )|E]"
@@ -467,7 +468,7 @@
  END_WAR_INVALIDATED_MESSAGE_TITLE:0 "Війна закінчується нічим"
  END_WAR_INVALIDATED_MESSAGE_DESC:0 "[war.GetName|V] закінчується нічим"
 
- CULTURE_TRANSF_VASSAL:0 "[Culture.GetCollectiveNounNoTooltip]ая"
+ CULTURE_TRANSF_VASSAL:0 "[Culture.GetCollectiveNounNoTooltip]а"
 
  grant_title_clerical_gender_tt:0 "Храмові володіння можна передавати тільки представникам тієї ж статі, що і духовенство вашої [Concept( 'faith', 'конфесії' )|E]"
  VASSAL_CONTRACT_MARRIAGE_FAVOR_BONUS:0 "$marriage_favor_rights$: $VALUE|=+0$"

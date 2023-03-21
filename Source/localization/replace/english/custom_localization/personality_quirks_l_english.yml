@@ -10,8 +10,8 @@
  quirk_noun_negative:0 "[second.Custom('quirk_neg_noun')]"
  quirk_adverb_positive:0 "[second.Custom('quirk_pos_adverb')]"
  quirk_adverb_negative:0 "[second.Custom('quirk_neg_adverb')]"
- quirk_adjective_positive:0 "[second.Custom('quirk_pos_adjective')][Select_CString((second.IsFemale, 'ая', 'ий' )]""
- quirk_adjective_negative:0 "[second.Custom('quirk_neg_adjective')][Select_CString((second.IsFemale, 'ая', 'ий' )]""
+ quirk_adjective_positive:0 "[second.Custom('quirk_pos_adjective')][Select_CString((second.IsFemale, 'a', 'ий' )]""
+ quirk_adjective_negative:0 "[second.Custom('quirk_neg_adjective')][Select_CString((second.IsFemale, 'a', 'ий' )]""
  quirk_personal_positive_present:0 "[ROOT.Char.Custom('quirk_pos_personal_present')]"
  quirk_personal_negative_present:0 "[ROOT.Char.Custom('quirk_neg_personal_present')]"
 

@@ -162,7 +162,7 @@
  FIND_VASSAL_BUTTON_HOLDING_VIEW_TOOLTIP:2 "#T $FIND_VASSAL_HEADER$#!\nВиберіть, хто отримає титул [HoldingView.GetCountyTitle.GetNameNoTooltip].\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT
  VASSAL_POSSESSIVE:0 "васал"
  HOLDING_VIEW_BUILDING_IN_VASSAL:0 "Будівництво у [Concept( 'holding', 'володіннях' )|E] вашого васала"
- CULTURE_COUNTY_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]ая"
+ CULTURE_COUNTY_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]а"
  HOLDING_VIEW_ALREADY_CONSTRUCTING_HOLDING:0 "@warning_icon!#X У цьому [Concept( 'county', 'графстві' )|E] вже будується ваше $HOLDING|V$#!"
  HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_DEFAULT:0 "Після завершення будівництва потрібно передати їх іншому персонажу"
  HOLDING_SELECTION_VIEW_WRONG_HOLDING_TYPE_INFO_THEOCRATIC:0 "Після будівництва храм буде передано в оренду вашому [Concept( 'realm_priest', 'державному священику' )|E]"

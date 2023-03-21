@@ -215,7 +215,7 @@
  EDUCATE_SELECT_YOUR_GUARDIAN:0 "#I Виберіть [Concept( 'guardian', 'опікуна' )|E] у вас при [Concept( 'court', 'дворі' )|E]#!"
  EDUCATE_SELECT_YOUR_WARD:0 "#I Виберіть підопічного у вас при [Concept( 'court', 'дворі' )|E]#!"
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE:0 "Зміна [cultures|El]"
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR:0 "Спробувати повернути [Select_CString(secondary_recipient.IsPlayer, '', 'персонажу ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secon) GetCollectiveNoun|l]ую культуру [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsPlayer, 'його персонажа', '' ).
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR:0 "Спробувати повернути [Select_CString(secondary_recipient.IsPlayer, '', 'персонажу ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secon) GetCollectiveNoun|l]ую культуру [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsPlayer, 'ого персонажа', '' ).
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT:0 "Спробувати звернутися [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(seconda'r GetCollectiveNoun|l]ую культуру [Select_CString(secondary_recipient.IsPlayer, '', 'персонажу ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsPlayer, '' персонажа', ''').
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_EFFECT:2 "#TUT_KW Змінить культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
  EDUCATE_ME_OPTION_CONVERT_CULTURE_EFFECT:2 "#TUT_KW Зміню культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
@@ -224,8 +224,8 @@
  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT:2 "#TUT_KW Навряд чи змінить культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#! через свій вік#!"
  EDUCATE_ME_OPTION_CONVERT_CULTURE_UNLIKELY_EFFECT:2 "#TUT_KW Через свій вік я навряд чи зміню культуру на #L [TARGET_CULTURE.GetCollectiveNoun|l]ую#!#!"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH:0 "Зміна [faiths|El]"
- EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_ACTOR:0 "Спробувати повернути [Select_CString(secondary_recipient.)" l] (конфесію [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsPlayer, 'його персонажа', '' )])."
- EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_RECIPIENT:0 "Спробувати повернути [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary| l] (конфесію [Select_CString(secondary_recipient.IsPlayer, '', 'персонажу ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsPlayer, 'його персонажа', '' )])."
+ EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_ACTOR:0 "Спробувати повернути [Select_CString(secondary_recipient.)" l] (конфесію [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary_actor.IsPlayer, 'ого персонажа', '' )])."
+ EDUCATE_CHILD_OPTION_CONVERT_FAITH_TT_TO_RECIPIENT:0 "Спробувати повернути [Select_CString(secondary_actor.IsPlayer, '', 'персонажу ' )][secondary_actor.GetNamePossessiveOrMy][Select_CString(secondary| l] (конфесію [Select_CString(secondary_recipient.IsPlayer, '', 'персонажу ' )][secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsPlayer, 'ого персонажа', '' )])."
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_EFFECT:1 "#TUT_KW Змінить конфесію на #L [FAITH.GetName|l]ую#!#!"
  EDUCATE_ME_OPTION_CONVERT_FAITH_EFFECT:1 "#TUT_KW Зміню конфесію на #L [FAITH.GetName|l]ую#!#!"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_LIKELY_EFFECT:1 "#TUT_KW Швидше за все, змінить конфесію на #L [FAITH.GetName|l]ую#!#!"
@@ -256,7 +256,7 @@
  pay_ransom_interaction:0 "Викупити"
  pay_ransom_interaction_desc:0 "Запропонувати заплатити викуп за [Concept( 'imprisoned', 'в'язня' )|E] [Concept( 'vassal', 'вассала' )|E] або [Concept( 'courtier', 'придворного' )|E ]"
  recipient_secondary_pay_ransom_interaction:0 "[prisoner|E]"pay_ransom_interaction_extra_icon:0 "$hook_extra_icon$"
- ransom_me_interaction:1 "Заплатити викуп за [Select_CString(ACTOR.IsPlayer, '', 'персонажу ' )][ACTOR.GetNamePossessiveOrMy][Select_CString(ACTOR.IsPlayer, 'його персонажа', '' )]"
+ ransom_me_interaction:1 "Заплатити викуп за [Select_CString(ACTOR.IsPlayer, '', 'персонажу ' )][ACTOR.GetNamePossessiveOrMy][Select_CString(ACTOR.IsPlayer, 'ого персонажа', '' )]"
  ransom_me_interaction_desc:0 "Заплатити [Concept( 'gold', 'золото' )|E] або дати [Concept( 'favor', 'зобов'язання' )|E] в обмін за ваш вихід з [Concept( 'prison', 'в'язниці" ' )|E]"
  ransom_me_interaction_extra_icon:0 "$hook_extra_icon$"
  execute_prisoner_interaction:0 "Страти"
@@ -283,7 +283,7 @@
  IS_ALLOWED_TO_IMPRISON_DESC:4 "[Select_CString( recipient.IsPlayer, 'Ви', recipient.GetShortUIName )] — відомий [criminal|El] #weak ([recipient.GetImprisonmentReasons( actor.Self )]St), Name зможе ув'язнити, не ставши [Concept( 'tyrant', 'тираном' )|E]"
  IS_ALLOWED_TO_EXECUTE_DESC:2 "[recipient.GetShortUIName|U] — відомий [criminal|El] #weak ([recipient.GetExecuteReasons( actor.Self )])#!, що дозволяє вам стратити [recipient.GetHerHis], не 'tyrant', 'тираном' )|El]"
  IS_ALLOWED_TO_EXECUTE_HOSTILE_RELIGION_DESC:2 "[victim.GetShortUIName|U] належить до [victim.GetFaith.GetNameNoTooltip|l]ой конфесії, яку ваша конфесія сприймає як $hostility_hostile_tooltipp [Concept( 'tyrant', 'тираном' )|E]."
- IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC:2 "#weak У [Select_CString(imprisoner.IsLocalPlayer, '', 'персонажу ' )][imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsLocalPlay', це [Concept( 'tyrant', 'тиранією' )|E]#!"
+ IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC:2 "#weak У [Select_CString(imprisoner.IsLocalPlayer, '', 'персонажа ' )][imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsLocalPlayer, 'ого персонажа', '' )] є законний привід, ніхто не назве це [Concept( 'tyrant', 'тиранією' )|E]#!"
  IS_ALLOWED_TO_EXECUTE_NO_RECIPIENT_DESC:0 "$IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC$"
  IS_ALLOWED_TO_REVOKE_TITLE_DESC:3 "[recipient.GetShortUIName|U] — відомий [criminal|El] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, що дозволяє [Select_CString( recipient.IsLocalPlay ' )] відібрати [Select_CString( recipient.IsLocalPlayer, 'ваших', recipient.GetHerHis )] [Concept( 'vassals', 'васалів' )|E], не прославившись тираном"
  IS_ALLOWED_TO_REVOKE_VASSAL_DESC:3 "[recipient.GetShortUIName|U] — відомий [criminal|El] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, що дозволяє [Select_CString( recipient.IsLocalPlay) ' )] відібрати [Select_CString( recipient.IsLocalPlayer, 'ваших', recipient.GetHerHis )] [Concept( 'vassals', 'васалів' )|E], не прославившись тираном"
@@ -292,11 +292,11 @@
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_TITLE:1 "Оскільки [recipient.GetFaith.GetAdherentNamePlural|l] для вас $hostility_hostile_tooltippable$, ви можете відібрати всі титули, якими володіє [recipient.GetShor"
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL:1 "Оскільки [recipient.GetFaith.GetAdherentNamePlural|l] для вас $hostility_evil_tooltippable$, ви можете відібрати всіх васалів, якими володіє [recipient.GetShortUI
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL:1 "Оскільки [recipient.GetFaith.GetAdherentNamePlural|l] для вас $hostility_hostile_tooltippable$, ви можете відібрати всіх васалів, якими володіє [recipient.GetShort"
- INFIDEL_REVOCATION_OPINION:0 "Всі #L [recipient.GetFaith.GetName|l]ие#! васали"
+ INFIDEL_REVOCATION_OPINION:0 "Всі #L [recipient.GetFaith.GetName|l]і#! васали"
  #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only""
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC:0 "[tyranny|E] не збільшується при відлученні [baronies|El]"
- IMPRISONMENT_RELATIVES_EFFECT_DUNGEON:1 "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] втрачає #N 30#! од. [Concept( 'opinion', 'думки' )|El] про [Select_CString , 'персонажі ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsPlayer, 'ем персонажі', '' )]"
- IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST:1 "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] втрачає #N 15#! од. [Concept( 'opinion', 'думки' )| , 'персонажі ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsPlayer, 'ем персонажі', '' )]"
+ IMPRISONMENT_RELATIVES_EFFECT_DUNGEON:1 "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] втрачає #N 30#! од. [Concept( 'opinion', 'думки' )|El] про [Select_CString(actor.IsPlayer, '', 'персонажа ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsPlayer, 'персонажі', '' )]"
+ IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST:1 "Вся [family|El] персонажа [THIS.GetCharacter.GetShortUINamePossessive] втрачає #N 15#! од. [Concept( 'opinion', 'думки' )| , 'персонажі ' )] [imprisoner.GetNamePossessiveOrMy][Select_CString(imprisoner.IsPlayer, 'персонажі', '' )]"
  MOVE_PRISONER_TO_DUNGEON:0 "[recipient.GetShortUIName|U] [Select_CString(recipient.IsFemale, 'кинута', 'кинуто' )] в [dungeon|El], через що [recipient.GetHerHis] [health|El] ух а [recipient.GetHerHis] [Concept( 'close_family', 'близькі родичі' )|E] зляться."
  MOVE_PRISONER_TO_HOUSE_ARREST:0 "[recipient.GetShortUIName] знаходиться під домашнім арештом, негативні ефекти, що погіршують [recipient.GetHerHis] [health|El], а також несхвалення [recipient.GetHerHis] [Concept( 'se E] буде скасовано."
  RELEASE_DEMAND_CONVERSION:0 "Вимагати звернення"
@@ -325,27 +325,27 @@
  HIGHLIGHTED_HAS_REVOKE_TITLE_REASON:2 "Цей варіантнт підсвічується, тому що у вас є законні підстави забрати один з [Concept( 'titles', 'титулів' )|E] персонажа ."
  invite_agent_to_scheme_interaction:0 "Запросити взяти участь у підступах"
  MARRIAGE_NOTIFICATION:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUI Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] одружилися."
- MARRIAGE_NOTIFICATION_ACTOR_PERSONAL:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' . RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'ая', 'ий' ]] [secondary_recipient.GetShort .IsFemale, 'стала моєю дружиною', 'стала моїм чоловіком' )]."
- MARRIAGE_NOTIFICATION_RECIPIENT_PERSONAL:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [seconda ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.GetShortUIName], [Select_CString(secondary_actor.IsFemale, 'стала вашою дружиною', 'став вашим чоловіком' ).
+ MARRIAGE_NOTIFICATION_ACTOR_PERSONAL:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' . RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'a', 'ий' ]] [secondary_recipient.GetShort .IsFemale, 'стала моєю дружиною', 'стала моїм чоловіком' )]."
+ MARRIAGE_NOTIFICATION_RECIPIENT_PERSONAL:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [seconda ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.GetShortUIName], [Select_CString(secondary_actor.IsFemale, 'стала вашою дружиною', 'став вашим чоловіком' ).
  MARRIAGE_NOTIFICATION_BOTH_PERSONAL:0 "Заради блага наших держав я пропоную нам одружитися. Чи згодні ви стати [Select_CString(recipient.IsFemale, 'моєю дружиною', 'моїм чоловіком')]?"
  MARRIAGE_NOTIFICATION_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShor Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] одружилися.
- MARRIAGE_NOTIFICATION_ACTOR_PERSONAL_MATRI:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ва RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'ая', 'ий' ]] [secondary_recipient.GetShort .IsFemale, 'стала моєю дружиною', 'стала моїм чоловіком' )] у матрилінійному шлюбі."
- MARRIAGE_NOTIFICATION_RECIPIENT_PERSONAL_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [. ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.GetShortUIName], [Select_CString(secondary_actor.IsFemale, 'стала вашою дружиною', 'став вашим чоловіком' ]. "
+ MARRIAGE_NOTIFICATION_ACTOR_PERSONAL_MATRI:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ва RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'a', 'ий' ]] [secondary_recipient.GetShort .IsFemale, 'стала моєю дружиною', 'стала моїм чоловіком' )] у матрилінійному шлюбі."
+ MARRIAGE_NOTIFICATION_RECIPIENT_PERSONAL_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [. ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.GetShortUIName], [Select_CString(secondary_actor.IsFemale, 'стала вашою дружиною', 'став вашим чоловіком' ]. "
  MARRIAGE_NOTIFICATION_BOTH_PERSONAL_MATRI:0 "Заради блага наших держав я пропоную нам вступити в матрилінійний шлюб. Чи згодні ви стати [Select_CString(recipient.IsFemale, 'моєю дружиною', 'моїм чоловіком')]?"
  BETROTHAL_NOTIFICATION:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUI Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] уклали заручини."
- BETROTHAL_NOTIFICATION_ACTOR_PERSONAL:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш'.' RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'ая', 'ий' )] [secondary_recipient.GetShort IsFemale, 'уклала', 'уклав' )] зі мною заручини."
- BETROTHAL_NOTIFICATION_RECIPIENT_PERSONAL:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secon ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.GetShortUIName] [Select_CString(secondary_actor.IsFemale, 'уклала', 'уклав' )] з вами помові
+ BETROTHAL_NOTIFICATION_ACTOR_PERSONAL:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш'.' RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'a', 'ий' )] [secondary_recipient.GetShort IsFemale, 'уклала', 'уклав' )] зі мною заручини."
+ BETROTHAL_NOTIFICATION_RECIPIENT_PERSONAL:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secon ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.GetShortUIName] [Select_CString(secondary_actor.IsFemale, 'уклала', 'уклав' )] з вами помові
  BETROTHAL_NOTIFICATION_BOTH_PERSONAL:0 "Заради блага наших держав я пропоную нам домовитися про заручини. Чи згодні ви в майбутньому стати [Select_CString(recipient.IsFemale, 'моєю дружиною', 'моїм чоловіком')]?"
  BETROTHAL_NOTIFICATION_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.Getі [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] матрилінійно уклали".
- BETROTHAL_NOTIFICATION_ACTOR_PERSONAL_MATRI:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ва''' RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'ая', 'ий' )] [secondary_recipient.GetShort .IsFemale, 'уклала', 'уклав' )] зі мною заручини."
- BETROTHAL_NOTIFICATION_RECIPIENT_PERSONAL_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))', [ ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.GetShortUIName], матрилінійно [Select_CString(secondary_actor.IsFemale, 'уклала', 'уклав' в) ].
+ BETROTHAL_NOTIFICATION_ACTOR_PERSONAL_MATRI:0 "З вашого дозволу, я б [Select_CString(secondary_recipient.IsFemale, 'хотів', 'хотіла' )], щоб [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ва''' RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.Custom('ComplimentAdjective')][Select_CString(secondary_recipient.IsFemale, 'a', 'ий' )] [secondary_recipient.GetShort .IsFemale, 'уклала', 'уклав' )] зі мною заручини."
+ BETROTHAL_NOTIFICATION_RECIPIENT_PERSONAL_MATRI:0 "Я пропоную, щоб [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))', [ ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.GetShortUIName], матрилінійно [Select_CString(secondary_actor.IsFemale, 'уклала', 'уклав' в) ].
  BETROTHAL_NOTIFICATION_BOTH_PERSONAL_MATRI:0 "Заради блага наших держав я пропоную нам домовитися про матрилінійні заручини. Чи згодні ви в майбутньому стати [Select_CString(recipient.IsFemale, 'моєю дружиною', 'моїм чоловіком')]?"
  EXECUTION_BEHEADED:0 "Обезголовити"
  EXECUTION_DEVOUR:0 "Обезголовити... і з'їсти!"
  EXECUTION_BURNED:0 "Спалити на багатті"
  EXECUTION_PUBLIC:0 "Публічна кара"
  EXECUTION_SACRIFICE:0 "Принести у жертву"
- MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "Моя #weak #L [CHARACTER.GetFaith.GetName|l]ая#!#! [Concept( 'faith', 'конфесія' )|E] має [Concept( 'doctrine','" E] успадкування духовних посад із певним призначенням"
+ MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "Моя #weak #L [CHARACTER.GetFaith.GetName|l]а#!#! [Concept( 'faith', 'конфесія' )|E] має [Concept( 'doctrine','" E] успадкування духовних посад із певним призначенням"
  vassal_contract_forbids_revocation:2 "Ви не можете забирати [titles|El] у [Concept( 'vassal', 'вассала' )|E], з яким у вас укладено [feudal_contract|El], де прописані #high $title_revocation_rights_protected$#! або #high $jizya_special_rights_granted$#!"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON:1 "Ви не можете ув'язнити [Concept( 'ally', 'союзника' )|E] без причини"
  TARGET_WAS_RECENTLY_RANSOMED:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'була нещодавно викуплена', 'була нещодавно викуплена' )]"
@@ -414,12 +414,12 @@
  NOT_basic_claimant_found:0 "[CHARACTER.GetShortUIName|U] не має претендентів на свої титули"
  NOT_basic_capable_claimant_found:0 "[CHARACTER.GetShortUIName|U] не має законних претендентів на свої титули"
  NOT_claimant_faction_already_exists:0 "Фракція на підтримку [Concept( 'claim', 'претензії' )|E] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажу' )][TARGET_CHARACTER.GetNamePossess персонажа', '' )] на титул [TITLE.GetName] вже існує"
- IS_ALREADY_WAR_ENEMY_OF_PRIMARY_ENEMY:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsPlayer, 'воюєте', 'воює' )] проти [Select_CString(TARGET_CHARACTER.IsPlayer, ''C, ' (TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )] в іншій війні"
+ IS_ALREADY_WAR_ENEMY_OF_PRIMARY_ENEMY:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsPlayer, 'воюєте', 'воює' )] проти [Select_CString(TARGET_CHARACTER.IsPlayer, ''C, ' (TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )] в іншій війні"
  IS_WAR_ENEMY_WITH_ANOTHER_TARGET_WAR_ENEMY:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsPlayer, 'воюєте', 'воює' )] з одним із супротивників в іншій війні"
  is_already_in_all_wars:0 "Вони вже беруть участь у всіх [Concept( 'wars', 'війнах' )|E], де ви виступаєте як [Concept( 'war_leader', 'лідера' )|E]"
  HAS_USABLE_HOOK_OR_COUNCIL_RIGHTS_THROUGH_VASSAL_CONTRACT:0 "[CHARACTER.GetShortUIName|U]: відсутній відповідний [Concept( 'hook', 'вплив' )|E] або $council_rights$"
- IS_BLOCKED_FROM_BEING_FIRED_FROM_COUNCIL:1 "[CHARACTER.GetShortUIName|U] не може бути [Select_CString(CHARACTER.IsFemale, 'звільнено', 'звільнено' )] з [Concept( 'council', 'совет'' )| IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
- IS_NOT_BLOCKED_FROM_BEING_FIRED_FROM_COUNCIL:0 "[CHARACTER.GetShortUIName|U] може бути [Select_CString(CHARACTER.IsFemale, 'звільнено', 'звільнено' )] з [Concept( 'council', 'RA 'C , '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
+ IS_BLOCKED_FROM_BEING_FIRED_FROM_COUNCIL:1 "[CHARACTER.GetShortUIName|U] не може бути [Select_CString(CHARACTER.IsFemale, 'звільнено', 'звільнено' )] з [Concept( 'council', 'совет'' )| IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
+ IS_NOT_BLOCKED_FROM_BEING_FIRED_FROM_COUNCIL:0 "[CHARACTER.GetShortUIName|U] може бути [Select_CString(CHARACTER.IsFemale, 'звільнено', 'звільнено' )] з [Concept( 'council', 'RA 'C , '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
  IS_WAR_ENEMY_WITH_MY_WAR_ALLY:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsPlayer, 'воюєте', 'воює' )] з одним із союзників в іншій війні"
  VASSALIZATION_TARGET_TOO_BIG:0 "[CHARACTER.GetShortUIName|U] не може стати васалом по [Concept( 'vassalized_casus_belli', 'казус беллі васалізації' )|E], тому що володіє занадто великою кількістю [Concept( 'counties',' граф |E]"
  IS_WAR_ALLY_OF_PRIMARY_ENEMY:1 "[CHARACTER.GetShortUIName|U] воює на стороні [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ')][TARGET_CHARACTER.GetNamePossessiveOrMy]''Select в іншій війні"
@@ -501,7 +501,7 @@
  other_excommunicated_message:3 "[target_character.GetShortUIName] [excommunicated|El], як цього бажає [religious_head.GetShortUIName]"
 
  lift_excommunication_interaction:0 "Скасувати відлучення"
- lift_excommunication_interaction_desc:0 "[recipient.GetFirstName] достатньо [Select_CString(recipient.IsFemale, 'каялася', 'каявся' )] у своїх гріхах. #L [actor.GetFaith.GetName]ая#! [faith|El] привітає .GetHerHis]."
+ lift_excommunication_interaction_desc:0 "[recipient.GetFirstName] достатньо [Select_CString(recipient.IsFemale, 'каялася', 'каявся' )] у своїх гріхах. #L [actor.GetFaith.GetName]а#! [faith|El] привітає .GetHerHis]."
  lift_excommunication_interaction_desc.tt:0 "[recipient.GetFirstName] повертається, і [actor.GetFaithGetName] вітає [SCOPE.sC('recipient').GetHerHis]"
  lift_excommunicate_interaction_desc.tt:0 "Відлучення знято"
 
@@ -511,7 +511,7 @@
  request_excommunication_interaction_desc:0 "Занадто довго [secondary_recipient.GetTitledFirstName] безкарно [Select_CString(secondary_recipient.IsFemale, 'віддавалася гріхам', 'предався гріхам' )[. .IsFemale, 'відлучила' 'відлучив' ))|E] [Select_CString(secondary_recipient.IsFemale, 'її', 'його' )] від #L [actor.GetFaith.GetName|l]ой#![faiths|El] , і сподіватимусь, що [recipient.GetTitledFirstName] зрозуміє мене."
  request_excommunication_interaction_message:0 "[requesting_character.GetShortUIName|U] якимось чином [Select_CString(requesting_character.IsFemale, 'добилася', 'добився' )], щоб [religious_head.GetShortUIName] [Concept(String , 'відлучила' 'відлучила' ))|E] мене!"
  EXCOMMUNICATION_HOOK:0 "Використовувати [hooks|El]"
- EXCOMMUNICATION_OPINION:0 "[recipient.GetShortUIName|U] має попозитивна думка про [Select_CString(secondary_recipient.IsPlayer, '', 'персонаже ' )] [secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsPlayer, 'ем персонажа', '' )] $$
+ EXCOMMUNICATION_OPINION:0 "[recipient.GetShortUIName|U] має попозитивна думка про [Select_CString(secondary_recipient.IsPlayer, '', 'персонаже ' )] [secondary_recipient.GetNamePossessiveOrMy][Select_CString(secondary_recipient.IsPlayer, 'персонажа', '' )] $$
  EXCOMMUNICATION_VIRTUES:0 "[secondary_recipient.GetShortUIName|U] має чесні [traits|El]: $VALUE|=+0$"
  EXCOMMUNICATION_SINS:0 "[secondary_recipient.GetShortUIName|U] має гріховні [traits|El]: $VALUE|=+0$"
 
@@ -643,7 +643,7 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN:0 "[recipient.GetShortUIName|U] — [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH:0 "[recipient.GetShortUIName|U] — [GetTrait('heresiarch').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC:0 "[recipient.GetShortUIName|U] — [GetTrait('heretic').GetName( GetPlayer )]: $VALUE|=+0$"
- ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL:0 "Загальна #L [actor.GetCulture.GetCollectiveNoun|l]ая#! культура, і [actor.GetShortUIName] має рівень репутації "[GetPrestigeLevelName( actor.GetPrestigeLevel)"
+ ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL:0 "Загальна #L [actor.GetCulture.GetCollectiveNoun|l]а#! культура, і [actor.GetShortUIName] має рівень репутації "[GetPrestigeLevelName( actor.GetPrestigeLevel)"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR:0 "Ви [GetTrait('savior').GetName( GetPlayer )] в #L [actor.GetFaith.GetName|l]ой#! конфесії: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD:0 "У мене є [GetTrait('divine_blood').GetName( GetPlayer )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_PARAGON:0 "Ви [GetTrait('paragon').GetName( GetPlayer )] в #L [actor.GetFaith.GetName|l]ой#! конфесії: $VALUE|=+0$"
@@ -910,32 +910,32 @@
  marriage_interaction.0010.ending.a_desc:0 "\n\nНехай дарує [recipient.GetFaith.HighGodName] їм довге життя і безліч дітей!"
  marriage_interaction.0010.ending.a_actor_desc:0 "\n\nНехай дарує [recipient.GetFaith.HighGodName] вам довге життя і безліч дітей!"
  marriage_interaction.0010.ending.a_recipient_desc:0 "\n\nНехай дарує [recipient.GetFaith.HighGodName] нам довге життя і безліч дітей!"
- marriage_interaction.0010.ending.a_both_desc:0 "\n\nТак дарує [recipient.GetFaith.HighGodName] нам довге життя і безліч дітей, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secon 'ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.a_both_desc:0 "\n\nТак дарує [recipient.GetFaith.HighGodName] нам довге життя і безліч дітей, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secon 'ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # May HighGod bless the union
  marriage_interaction.0010.ending.b_desc:0 "\n\nТак благословить [recipient.GetFaith.FertilityGodName] їх союз!"
  marriage_interaction.0010.ending.b_actor_desc:0 "\n\nТак благословить [recipient.GetFaith.FertilityGodName] ваш союз!"
  marriage_interaction.0010.ending.b_recipient_desc:0 "\n\nТак благословить [recipient.GetFaith.FertilityGodName] наш союз!"
- marriage_interaction.0010.ending.b_both_desc:0 "\n\nТак благословить [recipient.GetFaith.FertilityGodName] наш союз, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary' ][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.b_both_desc:0 "\n\nТак благословить [recipient.GetFaith.FertilityGodName] наш союз, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary' ][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # Happy and fulfilling marriage
  marriage_interaction.0010.ending.c_desc:0 "\n\nНехай їх союз буде радісним і щасливим!"
  marriage_interaction.0010.ending.c_actor_desc:0 "\n\nНехай ваша спілка буде радісною і щасливою!"
  marriage_interaction.0010.ending.c_recipient_desc:0 "\n\nНехай наша спілка буде радісною і щасливою!"
- marriage_interaction.0010.ending.c_both_desc:0 "\n\nНехай наша спілка буде радісною і щасливою, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAdjective') secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.c_both_desc:0 "\n\nНехай наша спілка буде радісною і щасливою, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAdjective') secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # Strength and support
  marriage_interaction.0010.ending.h_desc:0 "\n\nНехай вони знайдуть силу і підтримку у своєму союзі!"
  marriage_interaction.0010.ending.h_actor_desc:0 "\n\nТак знайдете силу і підтримку у своєму союзі!"
  marriage_interaction.0010.ending.h_recipient_desc:0 "\n\nНехай ми знайдемо силу і підтримку у своєму союзі!"
- marriage_interaction.0010.ending.h_both_desc:0 "\n\nТак набудемо ми сили та підтримки у своєму союзі, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAdive Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.h_both_desc:0 "\n\nТак набудемо ми сили та підтримки у своєму союзі, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAdive Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # Fruitful in spite of hatred
  marriage_interaction.0010.ending.d_desc:0 "\n\nНехай їхній шлюб буде плідним, незважаючи на розбіжності."
  marriage_interaction.0010.ending.d_actor_desc:0 "\n\nНехай ваш шлюб буде плідним, незважаючи на розбіжності."
  marriage_interaction.0010.ending.d_recipient_desc:0 "\n\nНехай наш шлюб буде плідним, незважаючи на розбіжності."
- marriage_interaction.0010.ending.d_both_desc:0 "\n\nНехай наш шлюб буде плідним, незважаючи на розбіжності, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAd Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.d_both_desc:0 "\n\nНехай наш шлюб буде плідним, незважаючи на розбіжності, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom('ComplimentAd Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # Perfect match
  marriage_interaction.0010.ending.e_desc:0 "\n\nМені ще не доводилося бачити таку ідеальну пару, вони створені один для одного!"
  marriage_interaction.0010.ending.e_actor_desc:0 "\n\nМені ще не доводилося бачити таку ідеальну пару, ви створені один для одного!"
  marriage_interaction.0010.ending.e_recipient_desc:0 "\n\nНарешті ми пов'язані таїнством шлюбу, як були пов'язані душею та серцем!"
- marriage_interaction.0010.ending.e_both_desc:0 "\n\nНарешті ми пов'язані таїнством шлюбу, як були пов'язані душею і серцем, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom(' ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'ая', 'ый' )] [secondary_actor.Custom('WifeHusband')]!"
+ marriage_interaction.0010.ending.e_both_desc:0 "\n\nНарешті ми пов'язані таїнством шлюбу, як були пов'язані душею і серцем, [Select_CString(secondary_actor.IsFemale, 'моя', 'мій' )] [secondary_actor.Custom(' ComplimentAdjective')][Select_CString(secondary_actor.IsFemale, 'a', 'ий' )] [secondary_actor.Custom('WifeHusband')]!"
 # Recipient hates secondary recipient
  marriage_interaction.0010.ending.f_desc:0 "\n\nНе розумію, кому [Select_CString(secondary_actor.IsFemale, 'потрібна ця', 'потрібний цей' )] [secondary_recipient.Custom('InsultAdjective')] [secondary 'InsultNoun')], але бажаю їм щастя."
  marriage_interaction.0010.ending.f_actor_desc:0 "\n\nНе розумію, кому [Select_CString(secondary_actor.IsFemale, 'потрібна ця', 'потрібний цей' )] [secondary_recipient.Custom('InsultAdjective')] 'InsultNoun')], бажаю удачі."
@@ -1245,8 +1245,8 @@
 
  has_all_tribal_innovations:1 "Відкрито #V 70%#! військових та адміністративних [Concept( 'innovations', 'інновацій' )|E]"
 
- they_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U] має застосовне [Concept( 'hook', 'вплив' )|E] на [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARG (TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
- they_do_not_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U] не має дієвого [Concept( 'hook', 'впливу' )|E] на [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHA його персонажа', '')]"
+ they_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U] має застосовне [Concept( 'hook', 'вплив' )|E] на [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARG (TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
+ they_do_not_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U] не має дієвого [Concept( 'hook', 'впливу' )|E] на [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHA ого персонажа', '')]"
  i_do_not_have_usable_hook_on_them:0 "У мене немає дієвого [Concept( 'hook', 'впливу' )|E] на персонажа на ім'я [TARGET_CHARACTER.GetShortUIName]"
 
  blocked_from_remove_councillor:0 "Я не можу вигнати персонажа [TARGET_CHARACTER.GetShortUIName] з [Concept( 'council', 'поради' )|E] до [GetCurrentDateWithDiff( GetVarTimeRemaining( TARGET_lock)
@@ -1264,7 +1264,7 @@
  sun_trial_interaction:0 "Випробування Сонця"
  sun_trial_interaction.success.tt:0 "[recipient.GetTitledFirstName] вмирає на сонці"
  sun_trial_interaction.failure.tt:0 "[recipient.GetTitledFirstName] переживає випробування"
- sun_trial_interaction.non_faith_family:0 "Всі #L не-[actor.GetFaith.GetName|l]ие#! [Concept( 'family_members', 'члени сім'ї' )|E] персонажа [recipient.GetTitledFirstName]"
+ sun_trial_interaction.non_faith_family:0 "Всі #L не-[actor.GetFaith.GetName|l]і#! [Concept( 'family_members', 'члени сім'ї' )|E] персонажа [recipient.GetTitledFirstName]"
 
  #Literalist Debate
  literalist_debate_interaction:0 "Букалістські дебати"

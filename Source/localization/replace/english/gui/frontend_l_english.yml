@@ -47,7 +47,7 @@
  FRONTEND_LOGIN_PROMPT:0 "Відкрити вікно входу в мережу"
  FRONTEND_OBSERVER_DESC:1 "Грайте в режимі спостерігача, стежте за подіями, не беручи участь у них.\n\nУ грі ви можете дивитися на те, що відбувається очима будь-якого персонажа: просто клацніть по персонажу, затиснувши клавішу Ctrl.\n\nПізніше ви можете повернутися в це лобі, щоб взяти безпосередню участь у грі."
  SAVE_WINDOW_OVERWRITE:0 "Перезаписати"
- SAVE_WINDOW_SAVE:0 "[SelectLocalization( SaveGameWindow.IsOverwrite ,SaveGameWindow" ( SaveGameWindow.IsOverwrite ), Not( SaveGameWindow.IsIronman ) ), 'SAVE', '' )]"
+ SAVE_WINDOW_SAVE:0 "[SelectLocalization( SaveGameWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', '' )][SelectLocalization( And( Not( SaveGameWindow.IsOverwrite ), SaveGameWindow.IsIronman ), 'START_IRONMAN_SAVE', '' )][SelectLocalization( And( Not( SaveGameWindow.IsOverwrite ), Not( SaveGameWindow.IsIronman ) ), 'SAVE', '' )]"
  SAVE_WINDOW_SHOW_INVALID:0 "Показати несправні"
  OVERWRITE_GAME:0 "Перезаписати збереження"
  OVERWRITE_CONFIRMATION_DESC:0 "Збереження з такою назвою файлу вже існує. Бажаєте перезаписати його?"

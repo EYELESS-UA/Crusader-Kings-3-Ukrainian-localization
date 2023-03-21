@@ -38,8 +38,8 @@
  fp2_struggle.2001.e.desc:0 "Ви кидаєте селян на волю долі, ними й надалі правитиме [fp2_2001_desperate_county.GetHolder.GetName]"
  fp2_struggle.2001.f:0 "Я і [fp2_2001_desperate_county.GetHolder.GetTitleAsNameNoTooltip|l] союзники, і я повідомлю [fp2_2001_desperate_county.GetHolder.GetHerHim] про"!
  fp2_every_major_vassal_notifier:0 "Все могутністьні васали"
- fp2_every_major_same_faith_vassal_notifier:0 "Всі могутні #L [dyloc_powerful_vassal_faith.GetName|l]ие#! васали"
- fp2_every_major_different_faith_vassal_notifier:0 "Всі могутні #L не[dyloc_powerful_vassal_faith.GetName|l]ие#! васали"
+ fp2_every_major_same_faith_vassal_notifier:0 "Всі могутні #L [dyloc_powerful_vassal_faith.GetName|l]і#! васали"
+ fp2_every_major_different_faith_vassal_notifier:0 "Всі могутні #L не[dyloc_powerful_vassal_faith.GetName|l]і#! васали"
  fp2_every_major_same_culture_vassal_notifier:0 "Всі могутні [dyloc_powerful_vassal_culture.GetCollectiveNounNoTooltip|l]е васали"
  fp2_one_independent_ruler_of_each_culture_notifier:0 "По одному [Concept( 'independent_ruler', 'незалежному правителю' )|E] від кожної [cultures|El], залученої до цієї [Concept( 'struggle', 'боротьбу' )|E]"
  fp2_struggle.2002.t.a:0 "Звільнене село"

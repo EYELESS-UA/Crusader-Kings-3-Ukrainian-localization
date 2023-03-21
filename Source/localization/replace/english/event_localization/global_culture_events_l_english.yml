@@ -1,7 +1,7 @@
 ﻿l_english:
- global_culture.custom.change_culture:1 "Всі #L [old_culture.GetCollectiveNoun|l]ие#! графства та персонажі вашої держави приймуть #L [new_culture.GetCollectiveNoun|l]ую#! культуру"
- global_culture.custom.merge_culture:1 "Всі #L [old_culture_1.GetCollectiveNoun|l]ие#! і #L [old_culture_2.GetCollectiveNoun|l]ие#! графства та персонажі вашої держави приймуть #L [new_culture.GetCollectiveNoun|l #! культуру"
- global_culture.custom.keep_culture:1 "Всі #L [old_culture.GetCollectiveNoun|l]ие#! графства та персонажі вашої держави збережуть свою культуру."
+ global_culture.custom.change_culture:1 "Всі #L [old_culture.GetCollectiveNoun|l]і#! графства та персонажі вашої держави приймуть #L [new_culture.GetCollectiveNoun|l]ую#! культуру"
+ global_culture.custom.merge_culture:1 "Всі #L [old_culture_1.GetCollectiveNoun|l]і#! і #L [old_culture_2.GetCollectiveNoun|l]і#! графства та персонажі вашої держави приймуть #L [new_culture.GetCollectiveNoun|l #! культуру"
+ global_culture.custom.keep_culture:1 "Всі #L [old_culture.GetCollectiveNoun|l]і#! графства та персонажі вашої держави збережуть свою культуру."
  global_culture.custom.trigger:0 "Ви контролюєте менше 80% всіх #L [CHARACTER.GetCulture.GetCollectiveNoun|l]їх#! графств"
 
  # Visigoth Split
@@ -11,7 +11,7 @@
  global_culture.0002.b:0 "Ми не відвернемося від традицій наших предків!"
 
  global_culture.0005.t:0 "$global_culture.0002.t$"
- global_culture.0005.desc:0 "Коли вестготи вперше перекочували на Піренейський півострів, вони були чужими на цій новій дивній землі. За багато покоління все змінилося: земля змінила їх, вони змінили землю. Згодом різні спільноти вестготів розійшлися і стали сильніше відрізнятися друг від друга.\n\nНезважаючи на загальне походження, нові спільноти — #L [castilian.GetCollectiveNoun|l]ое#!, #L [catalan.GetCollectiveNoun|l]ое#!, #L [occitan.GetCollectiveNoun| l]ое#!і #L[andalusian.GetCollectiveNoun|l]ое#! — більше не відчувають один до одного родинних почуттів."
+ global_culture.0005.desc:0 "Коли вестготи вперше перекочували на Піренейський півострів, вони були чужими на цій новій дивній землі. За багато покоління все змінилося: земля змінила їх, вони змінили землю. Згодом різні спільноти вестготів розійшлися і стали сильніше відрізнятися друг від друга.\n\nНезважаючи на загальне походження, нові спільноти — #L [castilian.GetCollectiveNoun|l]е#!, #L [catalan.GetCollectiveNoun|l]е#!, #L [occitan.GetCollectiveNoun| l]е#!і #L[andalusian.GetCollectiveNoun|l]е#! — більше не відчувають один до одного родинних почуттів."
  global_culture.0005.a:0 "Тільки час покаже, як це вплине на регіон."
 
  #Norse Split

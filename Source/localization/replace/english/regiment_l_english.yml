@@ -38,7 +38,7 @@
  REGIMENT_SCREEN_TT:2 "#T [screen|E]: [MenAtArmsType.GetStat( GetPlayer, 'screen' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'screen' )]"
  REGIMENT_SIEGE:2 "+ [MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1]/д."
  REGIMENT_SIEGE_TT:1 "#T [siege_progress|E]: [MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1V]/день#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'siege_val
- REGIMENT_SIEGE_MAX_FORT_LEVEL:1 "Ефективні до #high [MenAtArmsType.GetMaxFortLevel]#! ур. [Concept( 'fort_level', 'форту' )|E]"
+ REGIMENT_SIEGE_MAX_FORT_LEVEL:1 "Ефективні до #high [MenAtArmsType.GetMaxFortLevel]#! рі. [Concept( 'fort_level', 'форту' )|E]"
  REGIMENT_STAT_ENTRY:0 "$KEY$: $VALUE|+=0$"
  BASE_VALUE_SIEGE:0 "Базове: $VALUE|V1$"
  REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP:2 "#T Звичайна зима#!\n[MenAtArmsType.GetWinterNormalModifier.GetEffectString]"

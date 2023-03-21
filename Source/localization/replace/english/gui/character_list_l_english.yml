@@ -49,7 +49,7 @@
  not_same_faith_filter_option:1 "Не [GetPlayer.GetFaith.GetAdjectiveNoTooltip|l]"
  culture_filter:0 "Культура"
  same_heritage_filter_option_desc:2 "Тільки персонажі, чия [religion|El] збігається з вашою"
- same_heritage_filter_option:2 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]на спадщина"
+ same_heritage_filter_option:2 "[GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip]а спадщина"
  not_same_heritage_filter_option_desc:3 "Тільки персонажі, [Concept( 'culture_group', 'культурні групи' )|E] яких не збігаються з вашою"
  not_same_heritage_filter_option:1 "Не [GetPlayer.GetCulture.GetHeritage.GetNameNoTooltip|l] спадщина"
  same_culture_filter_option_desc:0 "Тільки персонажі, чия [culture|El] збігається з вашою"
@@ -178,13 +178,13 @@
  CHARACTER_LIST_TEXT_FILTER_TOOLTIP:0 "#T Текстовий пошук\n#! Почніть набирати ім'я, будинок, династію, властивість, культуру або конфесію персонажа"
  CHARACTER_LIST_TEXT_FILTER_TITLE:0 "Порівняння"
  CHARACTER_LIST_TEXT_FILTER_MATCH_NAME:0 "Ім'я відповідає "[PatternItem.GetName]""
- CHARACTER_LIST_CULTURE_GROUP_TT:2 "#T [heritage|E]: [PatternItem.GetHeritage.GetNameNoTooltip]ое#!"
+ CHARACTER_LIST_CULTURE_GROUP_TT:2 "#T [heritage|E]: [PatternItem.GetHeritage.GetNameNoTooltip]е#!"
  CHARACTER_LIST_FILTER_NAME_TT:0 "#T Ім'я#!"
  CHARACTER_FINDER_NO_MATCH:0 "Немає персонажів, що відповідають даному фільтру"
  special_filter_category:0 "Особливе"
  CHARACTER_LIST_CLEAR:0 "#T Очистити результати#!"
 
- CULTURE_LISTS_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]ая"
+ CULTURE_LISTS_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]а"
 
 
  CHARACTER_LIST_FILTER_PRESET_HEADER:2 "Зберегти шаблон фільтрів"

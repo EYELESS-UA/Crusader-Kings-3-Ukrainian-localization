@@ -727,7 +727,7 @@
  faith_conversion_cost_tradition:0 "Нинішні [traditions|E]"
  cheaper_tradition_from_faith:0 "Нинішня [faith|E]"
  
- tradition_female_only_inheritance_requirements:0 "Ви повинні слідувати [Concept( 'faith', 'конфесії' )|E] з доктриною "[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]» або мати одне з )|E]: #V $heritage_akan_name$ое#!, #V $heritage_west_african_name$ое#!, #V $heritage_senegambian_name$ое#! або #V $heritage_yoruba_name$ое#!"
+ tradition_female_only_inheritance_requirements:0 "Ви повинні слідувати [Concept( 'faith', 'конфесії' )|E] з доктриною "[GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]» або мати одне з )|E]: #V $heritage_akan_name$е#!, #V $heritage_west_african_name$е#!, #V $heritage_senegambian_name$е#! або #V $heritage_yoruba_name$е#!"
  no_eunuch_in_realms:1 "У вас має бути хоча б один [vassal|El], [councillor|El] або [councillor|El] з [Concept( 'trait', 'особливістю' )|E] "[GetTrait('eunuch' ).GetName( GetNullCharacter )]»"
  no_eunuch_councillors_desc:0 "У вас немає [Concept( 'councillor', 'радника' )|E] з [Concept( 'trait', 'особливістю' )|E] "[GetTrait('eunuch').GetName( GetNullCharacter )] »"
  no_glory_legacy_2_perk:0 "[dynasty|E] немає [Concept( 'dynasty_perk', 'гідності династії' )|E] «$glory_legacy_2_name$»"
@@ -974,7 +974,7 @@
  martial_customs_trigger_femaleonly_or_femalepref:0 "У вас #bold немає #! GetName]»"
  martial_customs_trigger_maleonly:0 "У вас #bold немає #!
  martial_customs_trigger_maleonly_or_male_pref:0 "У вас #bold немає#! "
- cultural_traditions_trigger.already_has_unique_parameter.tt:0 "#L [ROOT.Char.GetCulture]ая#! культура має несумісні [Concept( 'traditions', 'традиції' )|E]"
+ cultural_traditions_trigger.already_has_unique_parameter.tt:0 "#L [ROOT.Char.GetCulture]а#! культура має несумісні [Concept( 'traditions', 'традиції' )|E]"
  culture_parameter_martial_custom_male_only_combatant:0 "$knight_culture_player_plural$ і [commanders|El] можуть бути тільки чоловіками"
  culture_parameter_martial_custom_equal_combatant:0 "$knight_culture_player_plural$ і [commanders|El] можуть бути як чоловіками, так і жінками"
  culture_parameter_martial_custom_female_only_combatant:0 "$knight_culture_player_plural$ і [commanders|El] можуть бути тільки жінками"
@@ -1042,10 +1042,10 @@
  cannot_have_vegetarianism_and_sacred_hunts:0 "[tradition|E] #high $tradition_vegetarianism_name$#! не поєднується з традицією #high $tradition_sacred_hunts_name$#!"
  cannot_have_vegetarianism_and_hunters:0 "[tradition|E] #high $tradition_vegetarianism_name$#! не поєднується з традицією #high $tradition_hunters_name$#!"
  
- remove_marriage_traditions:0 "#L [culture_scope.GetName]ая#! [culture|El] втратить будь-які [Concept( 'marriage', 'шлюбні' )|E] [traditions|El], що конфліктують з #L [faith_scope.GetAdjective| l]ими#![Concept( 'doctrines', 'доктринами' )|E]"
+ remove_marriage_traditions:0 "#L [culture_scope.GetName]а#! [culture|El] втратить будь-які [Concept( 'marriage', 'шлюбні' )|E] [traditions|El], що конфліктують з #L [faith_scope.GetAdjective| l]ими#![Concept( 'doctrines', 'доктринами' )|E]"
  culture_tradition_events.0100.t:0 "Зіткнення культури та віри"
  culture_tradition_events.0100.desc:0 "[head_of_faith.GetTitledFirstName] шле мені лист. Він починається з люб'язностей і підкреслює мою значущість в очах #L [culture_scope.GetName|l]ого#! народу.\n\n"
- culture_tradition_events.0100.tradition_monogamous:0 "Зрозумійте, поки ваш народ практикує моногамію, ви порушуєте #L [faith_scope.GetAdjective|l]ие#! доктрини! Я лише бажаю вам порятунку. [faith_scope.GetAd борг з одним чоловіком», - говорить лист.
+ culture_tradition_events.0100.tradition_monogamous:0 "Зрозумійте, поки ваш народ практикує моногамію, ви порушуєте #L [faith_scope.GetAdjective|l]і#! доктрини! Я лише бажаю вам порятунку. [faith_scope.GetAd борг з одним чоловіком», - говорить лист.
  culture_tradition_events.0100.tradition_polygamous:0 "«Ви практикуєте полігамію, що суперечить #L [faith_scope.GetAdjective|l]им#! доктринам, а [faith_scope.HighGodName] вважає це гріхом! Я лише жела. і позбудьтеся зайвого подружжя!» - говорить лист.
  culture_tradition_events.0100.tradition_concubines:0 "Ваше ставлення до наложництва суперечить #L [faith_scope.GetAdjective|l]ім#! доктринам, а [faith_scope.HighGodName] вважає це гріхом! Я лише бажаю вам спас. », - говорить лист."
  culture_tradition_events.0100.end:0 "\n\nОсь уже дилема... що мені дорожче? Звичай мого народу чи доктрини нашої віри?

@@ -29,7 +29,7 @@
  great_holy_war.0011.e:0 "Раз вони так кажуть..."
  great_holy_war.0011.tooltip.effect:0 "#L [awakening_faith.GetReligion.GetName]іє#! [faiths|El] тепер можуть починати [awakening_faith.GHWNamePlural]"
  great_holy_war.0015.opening:0 "[scoped_pope.Custom2('AppropriateGreeting', ROOT.Char)]"
- great_holy_war.0016.custom:0 "Всі #L [scoped_pope.GetFaith.GetName|l]ие#! [Concept( 'secret', 'секретів' )|E] васали"
+ great_holy_war.0016.custom:0 "Всі #L [scoped_pope.GetFaith.GetName|l]і#! [Concept( 'secret', 'секретів' )|E] васали"
  great_holy_war.0015.desc:0 "Обіцявши підтримку в праведній боротьбі з невірними, ви викупаєте свої гріхи в очах [scoped_pope.GetFaith.HighGodNamePossessive]. Таким чином, ми вважаємо, що ви знову гідні причастя."
  great_holy_war.0015.a:0 "Самий час..."
  great_holy_war.0015.b:0 "Воістину, милосердя [scoped_pope.GetFaith.HighGodNamePossessive] безмежно!"
@@ -54,7 +54,7 @@
  great_holy_war.0003.b:0 "Я охоче виділю гроші на святу справу."
  great_holy_war.0003.c:0 "Можливо, мені варто подумати над приєднанням..."
  great_holy_war.0003.a.lifted_excommunication:0 "Моє [excommunication|El] буде знято"
- great_holy_war.0023.desc:0 "Кажуть, ви ще не підтримали майбутню війну «[scoped_pope.GetFaith.GHWName]». Ви забули, що [Select_CString(ROOT.GetCharacter.IsFemale, 'кожна', 'pe') .GetFaith.GetNameNoTooltip|l][Select_CString(ROOT.GetCharacter.IsFemale, 'ая', 'ий' )] [ROOT.GetCharacter.GetTitleTierName|l] [Select_CString(ROOT.GetCharacter.IsFemale,''дол )] брати участь у війні, якщо вороги - невірні і [target_character.Custom('GetUnbelieverNamePlural')]?"
+ great_holy_war.0023.desc:0 "Кажуть, ви ще не підтримали майбутню війну «[scoped_pope.GetFaith.GHWName]». Ви забули, що [Select_CString(ROOT.GetCharacter.IsFemale, 'кожна', 'pe') .GetFaith.GetNameNoTooltip|l][Select_CString(ROOT.GetCharacter.IsFemale, 'a', 'ий' )] [ROOT.GetCharacter.GetTitleTierName|l] [Select_CString(ROOT.GetCharacter.IsFemale,''дол )] брати участь у війні, якщо вороги - невірні і [target_character.Custom('GetUnbelieverNamePlural')]?"
  great_holy_war.0023.desc.hooked:0 "Кажуть, ви ще не підтримали майбутню війну «[scoped_pope.GetFaith.GHWName]». Це неприйнятно! Я вимагаю, щоб ви негайно приєдналися до нашої великої війни, бо ворогами нашими стану target_character.Custom('GetUnbelieverNamePlural')]."
  great_holy_war.0003.a.hooked:0 "Я так розумію, особливого вибору у мене немає?"
  great_holy_war.0023.c:0 "Я вже роблю свій внесок, [target_character.Custom('GetUnbelieverNamePlural')] і так мої вороги!"
@@ -97,8 +97,8 @@
  great_holy_war.0052.c:0 "[ghw_sponsor.Custom('GetUnbelieverNamePlural')|U] та їх метушня нас не цікавлять."
  great_holy_war.0053.title:0 "[the_faith.ReligiousSymbol|U] розбитий"
  great_holy_war.0053.generic.attackers.desc:0 "Воїни [the_faith.WarGodNamePossessive] знайшли в землі [target_kingdom.GetNameNoTier] лише смерть і приниження.\n\n[the_faith.GHWName], незважаючи на весь ентузі Select_CString(ghw_sponsor.IsFemale, 'надавала', 'надавав' )] [ghw_sponsor.GetTitledFirstName], закінчується катастрофічною поразкою, що ще більше шкодить правій справі: поразка, безумовно, надасть зухвалості новим богохуникам .WarGodNamePossessive]."
- great_holy_war.0053.generic.defenders.desc:0 "Жалюгідні солдати [the_faith.HighGodNamePossessive] не пара нашим.\n\n[ghw_defender.GetTitledFirstName] своїм мудрим і благочестивим керівництвом [Select_CString('w'', ' )] #L [ghw_defender.GetFaith.GetName|l]ім#!воїнам вигнати загарбників і явно довести, що [target_kingdom.GetNameNoTier] належить їм, можливо, наступного разу #L [the_faith.GetName|l][Select_CString ghw_sponsor.IsFemale, 'ая', 'ий' )]#![ghw_sponsor.GetTitleTierName|l] не стане так легко розкидатися життям своїх послідовників у жалюгідних спробах випробувати міць [ghw_defender.GetFaith.HighGodName"
- great_holy_war.0053.generic.outsiders.desc:0 "Після кількох невдач і поразок [the_faith.GHWName], що [Select_CString(ghw_sponsor.IsFemale, 'початку', 'початок' )] [ghw_sponsor.GeTit target_kingdom.GetNameNoTier], закінчується гучним провалом.\n\n#L [ghw_defender.GetFaith.GetName]ие#! вигнали загарбників і змусили здатися їхніх ватажків.
+ great_holy_war.0053.generic.defenders.desc:0 "Жалюгідні солдати [the_faith.HighGodNamePossessive] не пара нашим.\n\n[ghw_defender.GetTitledFirstName] своїм мудрим і благочестивим керівництвом [Select_CString('w'', ' )] #L [ghw_defender.GetFaith.GetName|l]ім#!воїнам вигнати загарбників і явно довести, що [target_kingdom.GetNameNoTier] належить їм, можливо, наступного разу #L [the_faith.GetName|l][Select_CString ghw_sponsor.IsFemale, 'a', 'ий' )]#![ghw_sponsor.GetTitleTierName|l] не стане так легко розкидатися життям своїх послідовників у жалюгідних спробах випробувати міць [ghw_defender.GetFaith.HighGodName"
+ great_holy_war.0053.generic.outsiders.desc:0 "Після кількох невдач і поразок [the_faith.GHWName], що [Select_CString(ghw_sponsor.IsFemale, 'початку', 'початок' )] [ghw_sponsor.GeTit target_kingdom.GetNameNoTier], закінчується гучним провалом.\n\n#L [ghw_defender.GetFaith.GetName]і#! вигнали загарбників і змусили здатися їхніх ватажків.
  great_holy_war.0053.a:0 "[the_faith.WarGodName] не з нами!"
  great_holy_war.0053.b:1 "[attacker.Custom('GetUnbelieverNamePlural')|U] випробували на собі гнів [ghw_defender.GetFaith.HighGodNamePossessive]!"
  great_holy_war.0056.title:0 "[the_faith.GHWName] закінчується провалом"
@@ -117,7 +117,7 @@
  great_holy_war.0061.title:0 "Нагорода"
  great_holy_war.0061.notification:0 "[scoped_beneficiary.GetFirstName] [Select_CString(scoped_beneficiary.IsFemale, 'була винагороджена', 'була винагороджена' )] за свою участь у недавній війні «[y].
  great_holy_war.0070.title:0 "Нове королівство"
- great_holy_war.0070.base.desc:0 "Тепер, коли в землі [target_kingdom.GetNameNoTier] заснована повноцінна #L [the_faith.GetName|l]ая#! держава, якою править [Select_CString(title_recipient.IsFemale, 'самостій" самостійний' )] [title_recipient.GetTitleTierName|l], віруючі можуть жити спокійно, знаючи, що [the_faith.WarGodName] благословляє їх праведні праці. Новий правитель держави [target_kingdom.GetNameNoTier] належить до моєї
+ great_holy_war.0070.base.desc:0 "Тепер, коли в землі [target_kingdom.GetNameNoTier] заснована повноцінна #L [the_faith.GetName|l]а#! держава, якою править [Select_CString(title_recipient.IsFemale, 'самостій" самостійний' )] [title_recipient.GetTitleTierName|l], віруючі можуть жити спокійно, знаючи, що [the_faith.WarGodName] благословляє їх праведні праці. Новий правитель держави [target_kingdom.GetNameNoTier] належить до моєї
  great_holy_war.0070.a:0 "Цікаво, яким правителем [title_recipient.GetSheHe] стане..."
  great_holy_war.0070.b:0 "Настав час знову зосередитися на своїх землях."
  great_holy_war.0071.generic.attackers.desc:0 "[attacker.GetTitledFirstName] [Select_CString(attacker.IsFemale, 'оголосила', 'оголосив' )], що починається [attacker.GetFaith.GHWName], [Select_CString , 'об'єднала', 'об'єднав' )] всіх істинних #L [attacker.GetFaith.GetAdherentName|l]ов#! під єдиним прапором і [Select_CString(attacker.IsFemale, 'повіла', 'повів' )] проти ворогів віри. \n\nНарешті прийшов той час, коли [ghw_defender.Custom('GetUnbelieverNamePlural')] окроплять своєю кров'ю землю [target_kingdom.GetNameNoTier] на славу [the_faith.HighGodNamePossessive]."
@@ -125,6 +125,6 @@
  great_holy_war.0081.title:0 "Починається [actor.GetFaith.GHWName]"
  great_holy_war.0081.desc:0 "З невідомих причин [actor.GetFaith.GHWName] відхиляється від своєї початкової мети і зсувається до держави [secondary_recipient.GetPrimaryTitle.GetNameNoTier].\n\nСхоже, наші землі не постраждають .GetFaith.GetName|l]ой#! солдатні — принаймні поки що."
  great_holy_war.0081.a:0 "Ми в безпеці - до пори."
- great_holy_war.0082.desc:0 "Вже якийсь час #L [actor.GetFaith.GetName|l]ая#! конфесія збирала війська для священної війни.\n\nІ раптом доля робить несподіваний поворот: фанатики, які очолюють величезне військо, раптом змінюють плани і вирішують рушити на державу [secondary_recipient.GetPrimaryTitle.GetNameNoTier]!"
+ great_holy_war.0082.desc:0 "Вже якийсь час #L [actor.GetFaith.GetName|l]а#! конфесія збирала війська для священної війни.\n\nІ раптом доля робить несподіваний поворот: фанатики, які очолюють величезне військо, раптом змінюють плани і вирішують рушити на державу [secondary_recipient.GetPrimaryTitle.GetNameNoTier]!"
  great_holy_war.0082.a:0 "У нас мало часу на підготовку!"
  great_holy_war.0085.toast:0 "Звернення персонажа [converter.GetTitledFirstName] змусило мене зректися присяги"

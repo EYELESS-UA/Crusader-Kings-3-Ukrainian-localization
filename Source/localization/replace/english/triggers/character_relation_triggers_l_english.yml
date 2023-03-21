@@ -1,22 +1,22 @@
 ﻿l_english:
 
  IS_AT_WAR_WITH_TRIGGER:0 "Воює з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
- NOT_IS_AT_WAR_WITH_TRIGGER:0 "#bold Не#! [Concept( 'war', 'воює' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessive , 'ім персонажем', '' )]"
+ NOT_IS_AT_WAR_WITH_TRIGGER:0 "#bold Не#! [Concept( 'war', 'воює' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessive , 'им персонажем', '' )]"
  I_AM_AT_WAR_WITH_TRIGGER:1 "Ви [Concept( 'war', 'воюєте' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
  NOT_I_AM_AT_WAR_TRIGGER:1 "Ви #bold не#! [Concept( 'war', 'воюєте' )|E]"
- NOT_I_AM_AT_WAR_WITH_TRIGGER:1 "Ви #bold не#! [Concept( 'war', 'воюєте' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetName IsPlayer, 'ім персонажем', '' )]"
+ NOT_I_AM_AT_WAR_WITH_TRIGGER:1 "Ви #bold не#! [Concept( 'war', 'воюєте' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetName IsPlayer, 'им персонажем', '' )]"
  THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] воює з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy]''Select
- NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'war', 'воює' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' ][Select_CString(TARGET_CHARACTER.IsPlayer, 'ім персонажем', '' )]"
+ NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'war', 'воює' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' ][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
 
- IS_ALLIED_TO_TRIGGER:0 "[allied|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer,''','''
- NOT_IS_ALLIED_TO_TRIGGER:0 "#bold Не#! [Concept( 'allied', 'у союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossess IsPlayer, 'ім персонажем', '' )]"
- I_AM_ALLIED_TO_TRIGGER:1 "У вас [Concept( 'allied', 'союз' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_C персонажем', '')]"
+ IS_ALLIED_TO_TRIGGER:0 "[allied|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
+ NOT_IS_ALLIED_TO_TRIGGER:0 "#bold Не#! [Concept( 'allied', 'у союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossess IsPlayer, 'им персонажем', '' )]"
+ I_AM_ALLIED_TO_TRIGGER:1 "У вас [Concept( 'allied', 'Союз' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
  NOT_I_AM_ALLIED_TO_TRIGGER:1 "У вас #bold немає#! [Concept( 'allied', 'союзу' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
  THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] у спілкуванні з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
- NOT_THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'allied', 'у союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонаже ' GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ім персонажем', '' )]"
+ NOT_THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'allied', 'у союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонаже ' GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
 
  IS_ALLIED_IN_WAR_GLOBAL:0 "[allied|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlay) 'war', 'війні' )|E]"
- NOT_IS_ALLIED_IN_WAR_GLOBAL:0 "#bold Не#! [Concept( 'allied', 'в союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetString IsPlayer, 'ім персонажем', '' )] на [Concept( 'war', 'війні' )|E]"
+ NOT_IS_ALLIED_IN_WAR_GLOBAL:0 "#bold Не#! [Concept( 'allied', 'в союзі' )|E] з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetString IsPlayer, 'им персонажем', '' )] на [Concept( 'war', 'війні' )|E]"
  IS_ALLIED_IN_WAR_FIRST:1 "Ви і [TARGET_CHARACTER.GetShortUIName|V] — [Concept( 'allied', 'союзники' )|E] на [Concept( 'war', 'війні' )|E]"
  NOT_IS_ALLIED_IN_WAR_FIRST:1 "Ви #bold не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
  IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] в союзі з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][ET_CString" на [Concept( 'war', 'війні' )|E]"
@@ -27,7 +27,7 @@
  THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.GetShortUIName|V] — ваш [liege|El] або сюзерен вашого сюзерена"
  NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! ваш [liege|El] або сюзерен вашого сюзерена"
  THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] — [liege|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ')][CHARACTER.GetNamePossessiveOrMy]['C' ' )] або сюзерен [CHARACTER.GetHerHis] сюзерена"
- NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! [liege|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу' ) його персонажа', '' )] і #bold не#! сюзерен [CHARACTER.GetHerHis] сюзерена"
+ NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! [liege|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу' ) ого персонажа', '' )] і #bold не#! сюзерен [CHARACTER.GetHerHis] сюзерена"
 
  THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V] — васал"
  NOT_THEY_ARE_VASSAL_OR_BELOW:0 "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! васал"
@@ -41,17 +41,17 @@
  HAS_SEXUALITY_TRIGGER:0 "#L $SEXUALITY|V$а#! культура"
 
  IS_ATTRACTED_TO:0 "Зазнає потягу до персонажа [TARGET_CHARACTER.GetShortUIName]"
- HAS_RELATION_CRUSH_ON_TARGET:0 "Захоплення [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer,'''
- HAS_RELATION_BULLY_BY_TARGET:0 "Знущання з боку [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlay),'''
+ HAS_RELATION_CRUSH_ON_TARGET:0 "Захоплення [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
+ HAS_RELATION_BULLY_BY_TARGET:0 "Знущання з боку [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
  num_of_relation_bully_trigger:1 "Кількість кривдників $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_VICTIM_TRIGGER:1 "Кількість жертв кривдника $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_VICTIM_BY_TARGET:0 "Зазнає знущань [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.'')
  NUM_OF_RELATION_LOVER_TRIGGER:1 "Кількість коханців $COMPARATOR$ $NUM|V0$"
- HAS_RELATION_RIVAL_WITH_TARGET:0 "Сперечає з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer,'''''
+ HAS_RELATION_RIVAL_WITH_TARGET:0 "Суперничає з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
  NUM_OF_RELATION_RIVAL_TRIGGER:1 "Кількість суперників $COMPARATOR$ $NUM|V0$"
  NOT_NUM_OF_RELATION_RIVAL_TRIGGER:0 "Вам необхідно більше [Concept( 'rivals', 'суперників' )|E]"
  NUM_OF_RELATION_NEMESIS_TRIGGER:1 "Кількість заклятих ворогів $COMPARATOR$ $NUM|V0$"
- HAS_RELATION_FRIEND_WITH_TARGET:0 "Дружить з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer,'''',''
+ HAS_RELATION_FRIEND_WITH_TARGET:0 "Дружить з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'им персонажем', '' )]"
  NUM_OF_RELATION_FRIEND_TRIGGER:1 "Кількість друзів $COMPARATOR$ $NUM|V0$"
  HAS_RELATION_LOVER_WITH_TARGET:0 "У любовних стосунках з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString('TARGET_CHARACTER.IsPlay')'
  HAS_RELATION_BEST_FRIEND_WITH_TARGET:0 "Найкращий друг [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlay),'''
@@ -64,8 +64,8 @@
 
  HAS_RELATION_NEMESIS_WITH_TARGET:0 "Вважає, що [TARGET_CHARACTER.GetShortUIName] — заклятий ворог"
  HAS_RELATION_SOULMATE_WITH_TARGET:0 "Споріднена душа [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlay)
- HAS_RELATION_MENTOR_WITH_TARGET:0 "[TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'персона', '' )] — наставник [Select_CString(CHARACTER.IsPlayer, 'C,[ER] .IsPlayer, 'його персонажа', '' )]"
- HAS_RELATION_GUARDIAN_OF_TARGET:0 "[TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'персона', '' )]— опікун [Select_CString(CHARACTER.IsPlayer, '', ' .IsPlayer, 'його персонажа', '' )]"
+ HAS_RELATION_MENTOR_WITH_TARGET:0 "[TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'персона', '' )] — наставник [Select_CString(CHARACTER.IsPlayer, 'C,[ER] .IsPlayer, 'ого персонажа', '' )]"
+ HAS_RELATION_GUARDIAN_OF_TARGET:0 "[TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'персона', '' )]— опікун [Select_CString(CHARACTER.IsPlayer, '', ' .IsPlayer, 'ого персонажа', '' )]"
 
  HAS_ANY_RELATION_WITH_TARGET:0 "Має будь-які відносини з [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажем ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlay)
  HAS_MOTHER_TRIGGER:0 "Є мати"

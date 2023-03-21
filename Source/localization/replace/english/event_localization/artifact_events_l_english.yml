@@ -204,7 +204,7 @@
 
  artifact.4090.a.tt:0 "Реліквія та зброя суміщені"
 
- artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n#L [ROOT.Char.GetFaith.GetName]ая#! реліквія [that_artifact.GetNameNoTooltip] розміщена в рукояті."
+ artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n#L [ROOT.Char.GetFaith.GetName]а#! реліквія [that_artifact.GetNameNoTooltip] розміщена в рукояті."
 
  relic_weapon_name:0 "[this_artifact.GetType|U]-[ROOT.Char.Custom('artifact_relic_desc')]"
 

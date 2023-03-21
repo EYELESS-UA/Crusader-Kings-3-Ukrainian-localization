@@ -8,7 +8,7 @@
  #generatepoem_title_romance_01: "[Season] of [RomanticEmotion]"
  generatepoem_title_romance_01:0 "[ROOT.Char.Custom('GeneratePoem_Title_Fragment_Season')], коли приходить [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')]"
  #generatepoem_title_romance_02: "My [RomanticNoun] [RomanticEmotion]"
- generatepoem_title_romance_02:0 "Моя [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Adjective')]ая [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')]"
+ generatepoem_title_romance_02:0 "Моя [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Adjective')]а [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Emotion')]"
  #generatepoem_title_romance_03: "A Simple [Season] in my [MetaphoricalPlace]"
  generatepoem_title_romance_03:0 "Лише [ROOT.Char.Custom('GeneratePoem_Title_Fragment_Season')] там, де для мене [ROOT.Char.Custom('GeneratePoem_Title_Fragment_MetaphoricalPlace')]"
  #generatepoem_title_romance_04: "[SadAction] in [Season]"

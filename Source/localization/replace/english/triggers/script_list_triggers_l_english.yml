@@ -5,28 +5,28 @@
 
  ANY_CHILD:0 "Будь-яка дитина:"
  ANY_CHILD_FIRST:0 "Будь-який з моїх дітей:"
- ANY_CHILD_THIRD:0 "Будь-який з дітей [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]:"
+ ANY_CHILD_THIRD:0 "Будь-який з дітей [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]:"
  ALL_CHILDREN:0 "Всі діти:"
  ALL_CHILDREN_FIRST:0 "Всі мої діти:"
- ALL_CHILDREN_THIRD:0 "Всі діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]:"
+ ALL_CHILDREN_THIRD:0 "Всі діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]:"
  COUNT_EQ_CHILDREN:0 "Діти - рівно $COUNT$:"
- COUNT_EQ_CHILDREN_THIRD:0 "Діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )] — $$
+ COUNT_EQ_CHILDREN_THIRD:0 "Діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )] — $$
  COUNT_GT_EQ_CHILDREN:0 "Діти ($COUNT$):"
- COUNT_GT_EQ_CHILDREN_THIRD:0 "Діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]$
+ COUNT_GT_EQ_CHILDREN_THIRD:0 "Діти [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]$
 
  ALL_COURTIERS:0 "Всі придворні:"
  ANY_COURTIERS:0 "Будь-який придворний:"
  ALL_OF_MY_COURTIERS:0 "Всі мої придворні:"
  ANY_OF_MY_COURTIERS:0 "Будь-який з моїх придворних:"
- ALL_OF_THEIR_COURTIERS:0 "Всі придворні [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )]:"
- ANY_OF_THEIR_COURTIERS:0 "Будь-який з придворних [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )
+ ALL_OF_THEIR_COURTIERS:0 "Всі придворні [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )]:"
+ ANY_OF_THEIR_COURTIERS:0 "Будь-який з придворних [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )
 
  ALL_HOOKED_CHARACTERS:0 "Всі персонажі [Concept( 'hooked', 'на гачку' )|E]:"
  ANY_HOOKED_CHARACTER:0 "Будь-який персонаж [Concept( 'hooked', 'на гачку' )|E]:"
  ALL_OF_THEIR_HOOKED_CHARACTERS:0 "Всі, на кого впливає [CHARACTER.GetShortUINamePossessive]:"
  ANY_OF_THEIR_HOOKED_CHARACTERS:0 "Будь-який з тих, на кого має вплив [CHARACTER.GetShortUINamePossessive]:"
 
- ANY_FAITH_HOLY_SITE:0 "Будь-яке #L [FAITH.GetName|l]ое#! [holy_site|El]"
+ ANY_FAITH_HOLY_SITE:0 "Будь-яке #L [FAITH.GetName|l]е#! [holy_site|El]"
 
  ANY_HELD_TITLE:0 "Будь-який [title|El] у володінні:"
  ANY_OF_MY_HELD_TITLES:0 "Будь-який мій [title|El] у володінні:"

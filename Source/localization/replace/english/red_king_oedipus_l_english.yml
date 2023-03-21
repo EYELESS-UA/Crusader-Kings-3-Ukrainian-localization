@@ -111,7 +111,7 @@
  player_mission.1091.a:0 "Так хоче [ROOT.Char.GetFaith.HighGodName]!"
  player_mission.1091.b:0 "Нас чекає довгий шлях. Потрібно підготуватися."
  #Success
- player_mission.1092.desc:0 "Я все ще не можу повірити, що [ROOT.Char.GetFaith.HouseOfWorship] у безпеці! Сльози котяться по моїх щоках, коли я піднімаю погляд до синього неба. З цього дня лише деякі посміють заперечувати # L [ROOT.Char.GetFaith|l]ое#! могутність!"
+ player_mission.1092.desc:0 "Я все ще не можу повірити, що [ROOT.Char.GetFaith.HouseOfWorship] у безпеці! Сльози котяться по моїх щоках, коли я піднімаю погляд до синього неба. З цього дня лише деякі посміють заперечувати # L [ROOT.Char.GetFaith|l]е#! могутність!"
  player_mission.1092.a:0 "Це справжнє благословення бути тут."
 
  #Mission: Take Exotic County (Viking)

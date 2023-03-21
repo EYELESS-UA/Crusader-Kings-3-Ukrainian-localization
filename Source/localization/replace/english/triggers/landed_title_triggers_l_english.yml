@@ -58,7 +58,7 @@
  MY_PRIMARY_TITLE_IS_NOT:1 "Ваш [primary_title|El] #bold не#! [TARGET_TITLE.GetNameNoTier]"
  HAS_PRIMARY_TITLE:0 "Має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
  DOES_NOT_HAVE_PRIMARY_TITLE:0 "Не має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
- THEIR_PRIMARY_TITLE_IS:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' ET ]"
+ THEIR_PRIMARY_TITLE_IS:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' ET ]"
  THEIR_PRIMARY_TITLE_IS_NOT:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'd' персонажа'', '# ! [TARGET_TITLE.GetNameNoTier]"
 
  TITLE_IS_IN_REGION:0 "[PROVINCE.GetName] знаходиться в регіоні $REGION$"

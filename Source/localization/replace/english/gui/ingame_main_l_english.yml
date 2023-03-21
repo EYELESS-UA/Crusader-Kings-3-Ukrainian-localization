@@ -154,7 +154,7 @@
  HOLDING_LEVIES:0 "[levies|E]: $VALUE|0V$ [soldiers|El]"
  HOLDING_DEVELOPMENT:0 "[development|E]: $VALUE|0V$"
  HOLDING_FAITH:0 "[faith|E]: [FAITH.GetAdjective]"
- HOLDING_CULTURE:0 "[culture|E]: #L [CULTURE.GetCollectiveNoun]ая#!"
+ HOLDING_CULTURE:0 "[culture|E]: #L [CULTURE.GetCollectiveNoun]а#!"
  MORE:0 "#T Більше...#!"
  PRISON:0 "В'язниця"
  MY_WAR_ITEM_TOOLTIP:0 "#tooltip_subheading [WAR.GetName|V]#!\n#weak Моя війна#!"
