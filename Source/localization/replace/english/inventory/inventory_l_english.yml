@@ -232,7 +232,7 @@
  ARTIFACT_STORAGE:1 "Придворні артефакти"
  ARTIFACT_CLAIMS:0 "Претензії на артефакти"
  NEW_ARTIFACT:1 "#V Новий#!"
- EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Демонструється', 'Використовується' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self ]]"
+ EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Демонструється', 'Використовується' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:1 "Оскільки [Character.GetShortUIName] не [Character.LocalPlayerString( 'маю', 'має' )] [Concept( 'royal_court', 'mor'C[ .LocalPlayerString( 'можу', 'може' )] виставити цей [court_artifact|el] на огляд."
  ARTIFACT_TITLE_ASSOCIATION:1 "Успадковано разом з титулом «[Artifact.GetAssociatedTitle.GetNameWithUnderlying]»"
  EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Не можна переглянути інвентар: ні [Concept( 'artifacts', 'артефактів' )|E] або [Concept( 'artifact_claims', 'претензій на артефакти' )#E" для демонстрації

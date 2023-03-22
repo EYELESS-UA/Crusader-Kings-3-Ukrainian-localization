@@ -69,7 +69,7 @@
  ROYAL_COURT_BACK_WALL_VIEW_CAMERA:0 "Вид ззаду"
  ROYAL_COURT_RIGHT_WALL_VIEW_CAMERA:0 "Вигляд справа"
  
- ROYAL_COURT_STATUS_PENDING_EVENTS:2 "З тих пір, як ви востаннє влаштовували прийом #weak ([Character.GetLastTriggeredPendingCourtEventsDate.GetStringLong]),#! [Select_CString( GreaterThan_int32( Character.'' 3 відбулася' )] [Character.GetNumPendingCourtEvents|V] [Select_CString( GreaterThan_int32( Character.GetNumPendingCourtEvents, '(int32)1' ), 'ситуації', 'ситуація' )]"
+ ROYAL_COURT_STATUS_PENDING_EVENTS:2 "Відколи ви востаннє влаштовували прийом #weak ([Character.GetLastTriggeredPendingCourtEventsDate.GetStringLong]),#! [Select_CString( GreaterThan_int32( Character.GetNumPendingCourtEvents, '(int32)1' ), 'відбулися', 'відбулася' )] [Character.GetNumPendingCourtEvents|V] [Select_CString( GreaterThan_int32( Character.GetNumPendingCourtEvents, '(int32)1' ), 'ситуації', 'ситуація' )]"
  ROYAL_COURT_STATUS_PENDING_EVENTS_BULLET:0 "$EFFECT_LIST_BULLET$ $ROYAL_COURT_STATUS_PENDING_EVENTS$"
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_SINGLE:0 "[court_artifact|E]"
  ROYAL_COURT_STATUS_NEW_COURT_ARTIFACTS_PLURAL:0 "[court_artifacts|E]"

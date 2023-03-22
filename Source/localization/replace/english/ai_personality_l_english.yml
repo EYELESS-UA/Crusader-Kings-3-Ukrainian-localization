@@ -15,7 +15,7 @@
  greed_adj:0 "[Select_CString( CHARACTER.IsFemale, 'Жадібна', 'Жадібний' )]"
  greed_neg_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Підлиза', 'Хробак' )]"
  greed_neg_adj:0 "[Select_CString( CHARACTER.IsFemale, 'Тиха', 'Тихий' )]"
- greed_strong_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Стерв'ятниця', 'Стерв'ятник' )]"
+ greed_strong_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Стервятниця', 'Стервятник' )]"
  greed_strong_adj:0 "[Select_CString( CHARACTER.IsFemale, 'Ненаситна', 'Ненаситний' )]"
  greed_strong_neg_noun:0 "[Select_CString( CHARACTER.IsFemale, 'Гадюка', 'Підлабузник' )]"
  greed_strong_neg_adj:1 "[Select_CString( CHARACTER.IsFemale, 'Невибаглива', 'Невибагливий' )]"

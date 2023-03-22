@@ -1,7 +1,7 @@
 ﻿l_english:
  INVENTORY_TITLE:0 "Інвентар"
  ANTIQUARIAN:0 "Зберігач старовин"
- PORTRAIT_NO_ANTIQUARIAN:0 "#T Відсутня $antiquarian_court_position$#!\n#weak $antiquarian_court_position$ уповільнить втрату [Concept( 'durability', 'міцності' )|E] і відкриє доступ до [Concept( 'decision', ' |E] #V $commission_artifact_decision$#!.\n\n#I Клацніть, щоб замістити посаду «$antiquarian_court_position$»#!"
+ PORTRAIT_NO_ANTIQUARIAN:0 "#T Відсутнє $antiquarian_court_position$#!\n#weak $antiquarian_court_position$ сповільнить втрату [Concept( 'durability', 'міцності' )|E] та відкриє доступ до [Concept( 'decision', 'рішенню' )|E] #V $commission_artifact_decision$#!.\n\n#I Клацніть, щоб замістити посаду «$antiquarian_court_position$»#!"
  OPEN_INVENTORY_TOOLTIP:2 "#T Відкрити інвентар#!"
  REFORGE_OR_REPAIR:1 "$repair_or_reforge_and_repair$"
  INVENTORY_REFORGE_OR_REPAIR:0 "#T $REFORGE_OR_REPAIR$#!"

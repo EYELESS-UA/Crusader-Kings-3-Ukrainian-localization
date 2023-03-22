@@ -542,7 +542,7 @@
  TAKE_THE_VOWS_HOLY_WARRIOR:0 "[GetTrait('holy_warrior').GetName( recipient.Self )]: $VALUE|=+0$"
  TAKE_THE_VOWS_INHERITANCE:0 "Поточна спадщина персонажа [recipient.GetHerHis|U]: $VALUE|=+0$"
  TAKE_THE_VOWS_PRIMARY_HEIR:0 "[primary_heir|E]: $VALUE|=+0$"
- TAKE_THE_VOWS_SECOND_HEIR:0 "2-е місце в черзі на [Concept( 'primary_title', 'перший титул' )|E]: $VALUE|=+0$"
+ TAKE_THE_VOWS_SECOND_HEIR:0 "2-й місце в черзі на [Concept( 'primary_title', 'перший титул' )|E]: $VALUE|=+0$"
  TAKE_THE_VOWS_THIRD_HEIR:0 "3 місце в черзі на [Concept( 'primary_title', 'перший титул' )|E]: $VALUE|=+0$"
  TAKE_THE_VOWS_HEIR:0 "В [Concept( 'line_of_succession', 'лінії спадкування' )|E]: $VALUE|=+0$"
  TAKE_THE_VOWS_SKEPTIC:0 "[personality|E] — #italic Служіння на славу [recipient.GetFaith.HighGodNamePossessive] не [recipient.GetHerHis] покликання:#! $VALUE|=+0$"

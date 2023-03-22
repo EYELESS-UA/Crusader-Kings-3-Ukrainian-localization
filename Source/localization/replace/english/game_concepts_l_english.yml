@@ -1016,16 +1016,16 @@
  game_concept_dynasty_prestige_level_8:0 "Уславлена"
  game_concept_dynasty_prestige_level_9:0 "Знаменита"
  game_concept_dynasty_prestige_level_10:0 "Легендарна"
- game_concept_dynasty_prestige_level_0_desc:0 "#T $game_concept_dynasty_prestige_level_0$#!\n[GetDynastyPrestigeLevelEffect('(int32)0')][GetDynastyPrestigeLevelNext('(int32)0')
- game_concept_dynasty_prestige_level_1_desc:0 "#T $game_concept_dynasty_prestige_level_1$#!\n[GetDynastyPrestigeLevelEffect('(int32)1')][GetDynastyPrestigeLevelNext('(int32)1')
- game_concept_dynasty_prestige_level_2_desc:0 "#T $game_concept_dynasty_prestige_level_2$#!\n[GetDynastyPrestigeLevelEffect('(int32)2')][GetDynastyPrestigeLevelNext('(int32)2')
- game_concept_dynasty_prestige_level_3_desc:0 "#T $game_concept_dynasty_prestige_level_3$#!\n[GetDynastyPrestigeLevelEffect('(int32)3')][GetDynastyPrestigeLevelNext('(int32)3')
- game_concept_dynasty_prestige_level_4_desc:0 "#T $game_concept_dynasty_prestige_level_4$#!\n[GetDynastyPrestigeLevelEffect('(int32)4')][GetDynastyPrestigeLevelNext('(int32)4')
- game_concept_dynasty_prestige_level_5_desc:0 "#T $game_concept_dynasty_prestige_level_5$#!\n[GetDynastyPrestigeLevelEffect('(int32)5')][GetDynastyPrestigeLevelNext('(int32)5')
+ game_concept_dynasty_prestige_level_0_desc:0 "#T $game_concept_dynasty_prestige_level_0$#!\n[GetDynastyPrestigeLevelEffect('(int32)0')][GetDynastyPrestigeLevelNext('(int32)0')]"
+ game_concept_dynasty_prestige_level_1_desc:0 "#T $game_concept_dynasty_prestige_level_1$#!\n[GetDynastyPrestigeLevelEffect('(int32)1')][GetDynastyPrestigeLevelNext('(int32)1')]"
+ game_concept_dynasty_prestige_level_2_desc:0 "#T $game_concept_dynasty_prestige_level_2$#!\n[GetDynastyPrestigeLevelEffect('(int32)2')][GetDynastyPrestigeLevelNext('(int32)2')]"
+ game_concept_dynasty_prestige_level_3_desc:0 "#T $game_concept_dynasty_prestige_level_3$#!\n[GetDynastyPrestigeLevelEffect('(int32)3')][GetDynastyPrestigeLevelNext('(int32)3')]"
+ game_concept_dynasty_prestige_level_4_desc:0 "#T $game_concept_dynasty_prestige_level_4$#!\n[GetDynastyPrestigeLevelEffect('(int32)4')][GetDynastyPrestigeLevelNext('(int32)4')]"
+ game_concept_dynasty_prestige_level_5_desc:0 "#T $game_concept_dynasty_prestige_level_5$#!\n[GetDynastyPrestigeLevelEffect('(int32)5')][GetDynastyPrestigeLevelNext('(int32)5')]"
  game_concept_dynasty_prestige_level_6_desc:0 "#T $game_concept_dynasty_prestige_level_6$#!\n[GetDynastyPrestigeLevelEffect('(int32)6')][GetDynastyPrestigeLevelNext('(int32)6')]"
- game_concept_dynasty_prestige_level_7_desc:0 "#T $game_concept_dynasty_prestige_level_7$#!\n[GetDynastyPrestigeLevelEffect('(int32)7')][GetDynastyPrestigeLevelNext('(int32)7')
- game_concept_dynasty_prestige_level_8_desc:0 "#T $game_concept_dynasty_prestige_level_8$#!\n[GetDynastyPrestigeLevelEffect('(int32)8')][GetDynastyPrestigeLevelNext('(int32)8')
- game_concept_dynasty_prestige_level_9_desc:0 "#T $game_concept_dynasty_prestige_level_9$#!\n[GetDynastyPrestigeLevelEffect('(int32)9')][GetDynastyPrestigeLevelNext('(int32)9')
+ game_concept_dynasty_prestige_level_7_desc:0 "#T $game_concept_dynasty_prestige_level_7$#!\n[GetDynastyPrestigeLevelEffect('(int32)7')][GetDynastyPrestigeLevelNext('(int32)7')]"
+ game_concept_dynasty_prestige_level_8_desc:0 "#T $game_concept_dynasty_prestige_level_8$#!\n[GetDynastyPrestigeLevelEffect('(int32)8')][GetDynastyPrestigeLevelNext('(int32)8')]"
+ game_concept_dynasty_prestige_level_9_desc:0 "#T $game_concept_dynasty_prestige_level_9$#!\n[GetDynastyPrestigeLevelEffect('(int32)9')][GetDynastyPrestigeLevelNext('(int32)9')]"
  game_concept_dynasty_prestige_level_10_desc:0 "#T $game_concept_dynasty_prestige_level_10$#!\n[GetDynastyPrestigeLevelEffect('(int32)10')]\n\nВисокий рівень величі."
  game_concept_excommunication_war:0 "Війна проти нечестивця"
  game_concept_excommunicated_ruler:0 "Відлучений правитель"

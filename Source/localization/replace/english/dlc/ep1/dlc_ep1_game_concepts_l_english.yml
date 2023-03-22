@@ -29,9 +29,9 @@
  game_concept_court_type_trait:0 "Court Type Trait"
  game_concept_court_type_trait_desc:2 "After serving [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years in a [royal_court|E] a [courtier|E] receives a [trait|E] reflecting the [court_type|E] of that court.\n\nThe quality of this Trait is decided by how long the [character|E] has served as a Courtier in the Court."
  
- game_concept_court_language:0 "Court Language"
- game_concept_court_languages:0 "Court Languages"
- game_concept_court_language_desc:1 "A Court Language is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Language, for each Royal Court which speaks the same Court Language, and if it is the [ruler|E]'s native Language."
+game_concept_court_language:0 "Придворна мова"
+ game_concept_court_languages:0 "Придворні мови"
+ game_concept_court_language_desc:1 "Придворна мова — це офіційна [language|El] [Concept( 'royal_court', 'монаршого двору' )|E], який використовують знати та службовці.\n\nБазове значення [Concept( 'court_grandeur', 'величі двору' )|E] збільшується за кожне [Concept( 'county', 'графство' )|E] [Concept( 'realm', 'держави' )|E], де використовується ця мова, за кожен монарший двір, що використовує її, а також якщо ця мова є рідною мовою [Concept( 'ruler', 'правителя' )|E]."
 
  game_concept_inspiration:0 "Inspiration"
  game_concept_inspirations:0 "Inspirations"

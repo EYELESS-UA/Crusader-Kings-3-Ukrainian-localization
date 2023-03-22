@@ -169,7 +169,7 @@
  GO_BACK_VIEW_HISTORY:0 "#T Показати попереднє вікно#!\n$VIEW_NAME$"
  I_CAN_ENFORCE_DEMANDS:1 "#I Ви можете нав'язати свої вимоги#!"
  TOGGLE_OUTLINER:0 "#T Включити планувальник#!"
- PLAYER_STRESS_TOOLTIP:2 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Ефекти:#!\ ', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMax V]#!\n[GetPlayer.StressProgressDesc]"
+ PLAYER_STRESS_TOOLTIP:2 "#T [stress_level|E]: [GetPlayer.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Эффекты:#!\n', GetPlayer.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(GetPlayer.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][GetPlayer.GetStress|V]/[GetMaxStress|V]#!\n[GetPlayer.StressProgressDesc]"
  STRESS_LEVEL_PROGRESS:0 "Наступний рівень: [stress_i]$NEXT|V$"
  STRESS_LEVEL_PROGRESS_MAX:1 "#X @warning_icon!У вас максимальний рівень стресу. На рівні [stress_i]$NEXT|V$ ви заробите нервовий зрив і втратите [stress_loss_i][GetDefine('NCharacter', 'STRESS_PER_LEVEL')| "
  OBSERVER_MODE_ON:0 "#T Залишити огляд цього персонажа#!"

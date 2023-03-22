@@ -720,7 +720,7 @@
  second_almohad_event_troops:0 "Альмохади"
  event_troop_default_name:2 "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] зі своїм військом"
  CURRENT_SITUATION_SUGGESTIONS:0 "Пропозиції"
- CURRENT_SITUATION_SUGGESTIONS_EMPTY:1 "None available"
+ CURRENT_SITUATION_SUGGESTIONS_EMPTY:1 "Немає доступних"
  CURRENT_SITUATION_HEADER:0 "Поточна ситуація"
  CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET:0 "Немає таємниць, які можна використосувати для шантажу"
  RESET_DISMISSED_BUTTON_TEXT:0 "Скинути"

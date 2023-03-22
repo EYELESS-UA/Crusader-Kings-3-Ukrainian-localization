@@ -731,7 +731,7 @@
 
  #Guest decisions
  invite_knights_decision:1 "$knight_culture_player_plural_no_tooltip$ - запросити"
- invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю храбреців для оборони моїх кордонів і завоювання нових $.knight_culture_player_plural_no_tooltip_lowercase$."
+ invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю сміливців для оборони моїх кордонів та завоювання нових земель. Відправлю глашата з звісткою, що мені потрібні досвідчені $knight_culture_player_plural_no_tooltip_lowercase$."
  invite_knights_decision.men.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! #! і вище"
  invite_knights_decision.women.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! міцних жінок, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12 #! і вище"
  invite_knights_decision.warriors.tt:1 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! воїнів, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12# ! і вище."
@@ -809,7 +809,7 @@
  adopt_special_succession_decision_desc:0 "Розділ при спадкуванні робить нас слабкими і роз'єднаними. Можливо, знати держави прийме споконвічну альтернативу..."
  adopt_special_succession_decision_confirm:0 "Подумати про це"
  adopt_special_succession_decision_tooltip:0 "Замінює принцип розділу на місцеве виборне $game_concept_succession$"
- adopt_special_succession_decision_effects.tt:1 "Ви можете вибрати одну з форм традиційного виборного [Concept( 'succession', 'спадкування' )|E] залежно від вашої [Concept( 'culture', 'культури' )|E]. \n$ EFFECT_LIST_BULLET$ Новий тип успадкування будуть використовувати всі ваші [titles|El] вищого [Concept( 'rank', 'рангу' )|E], що використовують [succession|El] з розділом"
+ adopt_special_succession_decision_effects.tt:1 "Ви можете вибрати одну із форм традиційного виборного [Concept( 'succession', 'успадкування' )|E] залежно від вашої [Concept( 'culture', 'культури' )|E]. \n$EFFECT_LIST_BULLET$ Новий тип успадкування будуть використовувати всі ваші [titles|El] вищого [Concept( 'rank', 'рангу' )|E], що використовують [succession|El] з розділом"
  implemented_traditional_succession_law_opinion:0 "Прийнятий традиційний закон про спадкування"
  found_kingdom_decision_advanced_succesion:0 "Немає просунутого закону про спадкування"
  found_kingdom_decision_elective_succesion:0 "Немає закону про виборне успадкування"
