@@ -1,6 +1,6 @@
 ﻿l_english:
  vassal_interaction.0001.opening:0 "[SCOPE.sC('actor').Custom2('GreetingToVassal', ROOT.Char)]"
- vassal_interaction.0001.desc:0 "Я вимагаю, щоб ви і [defender.GetTitledFirstName] володіння [defender.GetPrimaryTitle.GetName] негайно припинили війну!\n\nДержава живе, поки ми єдині, але не в роз'єднанні."
+ vassal_interaction.0001.desc:0 "Я вимагаю, щоб ви і [defender.GetTitledFirstName] володіння [defender.GetPrimaryTitle.GetName] негайно припинили війну!\n\nДержава живе, поки ми єдині, але не в роз‘єднанні."
  vassal_interaction.0001.a:0 "Ваше бажання - закон для мене."
  vassal_interaction.0001.b:0 "Ця справа честі, я не здамся просто так."
  vassal_interaction.0001.request_favor_tt:0 "Натомість мені знадобиться одне [favor|El]"
@@ -32,7 +32,7 @@
  vassal_interaction.0006.desc:0 "Ваша справа права. Було б несправедливо вимагати таке, не відшкодувавши вам витрати."
  vassal_interaction.0006.favor:0 "Я буду у вас у боргу."
  vassal_interaction.0006.gold:0 "Я відшкодую вам витрачене золото, якщо війна закінчиться зараз."
- vassal_interaction.0006.a:0 "Дякую за вашу люб'язність."
+ vassal_interaction.0006.a:0 "Дякую за вашу люб‘язність."
  vassal_interaction.0006.b:0 "Спасибі за вашу щедрість."
 
  vassal_interaction.0007.desc:0 "Мене обурює, що ви просите хабара за виконання наказу свого сюзерена! Ви не надіслали мені нічого, крім безчесної відмови виконувати мої вимоги!"

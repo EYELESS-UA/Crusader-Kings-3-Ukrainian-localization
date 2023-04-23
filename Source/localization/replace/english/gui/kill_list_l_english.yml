@@ -1,6 +1,6 @@
 ﻿l_english:
  KILL_LIST:1 "Вбивства: [KillListWindow.GetCharacter.LocalPlayerString( '', 'Персонажу ' )][KillListWindow.GetCharacter.GetNamePossessiveOrMy|U][KillListWindow.GetCharacter.LocalPlayerString''
- OPEN_KILL_LIST_TOOLTIP:4 "#T Перегляд вбивств\n#!Переглянути [Character.LocalPlayerString( '', 'всіх відомих вам' )] жертв [Select_CString(Character.IsPlayer, '', 'персонажу ' )][Character.Get ][Select_CString(Character.IsPlayer, 'його персонажа', '' )][Character.LocalPlayerString( ', щоб згадати їхні особи...', '' )]"
+ OPEN_KILL_LIST_TOOLTIP:4 "#T Перегляд вбивств\n#!Переглянути [Character.LocalPlayerString( '', 'всіх відомих вам' )] жертв [Select_CString(Character.IsPlayer, '', 'персонажу ' )][CHARACTER.GetPrimaryTitle.GetRankConcept][Select_CString(Character.IsPlayer, 'ого персонажа', '' )][Character.LocalPlayerString( ', щоб згадати їхні особи...', '' )]"
  ARTIFACT_KILL_LIST:0 "Вбивства: [ArtifactKillListWindow.GetArtifact.GetName|U]"
  OPEN_ARTIFACT_KILL_LIST_TOOLTIP:0 "#T Перегляд вбивств\n#!Переглянути всіх убитих артефактом «[Artifact.GetName]»"
  ARTIFACT_FORGOTTEN_SOLDIER_KILLS:0 "#S Забуті солдати#!: [Artifact.GetForgottenSoldiersCount|V]"

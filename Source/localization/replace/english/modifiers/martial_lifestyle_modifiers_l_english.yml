@@ -63,9 +63,9 @@
  warfare_stablemaster_tamed_wild_horse_modifier:0 "Дослідний конюший"
  warfare_stablemaster_tamed_wild_horse_modifier_desc:1 "У цього персонажа служить дуже досвідчений конюший"
  warfare_almost_tamed_wild_horse_modifier:0 "Навчання норовистого коня"
- warfare_almost_tamed_wild_horse_modifier_desc:1 "Персонажу доводилося об'їжджати норовистих коней"
+ warfare_almost_tamed_wild_horse_modifier_desc:1 "Персонажу доводилося об‘їжджати норовистих коней"
  warfare_tamer_of_horses_modifier:0 "Приборкання норовливих коней"
- warfare_tamer_of_horses_modifier_desc:0 "У вільний час цей персонаж об'їжджає непокірних коней"
+ warfare_tamer_of_horses_modifier_desc:0 "У вільний час цей персонаж об‘їжджає непокірних коней"
 
  horse_story_modifier:0 "Бойовий кінь"
  horse_story_modifier_desc:0 "У цього персонажа є навчений бойовий кінь, який виконує всі команди"

@@ -9,7 +9,7 @@
  restore_inheritance_interaction_notification:0 "Відновлений спадкоємець"
 
  denounce_interaction:0 "Відкинути"
- denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E] персонажа [recipient.GetShortUINameNoTooltip]\n\n#weak Це дасть членам нашої [Concept( 'dynasty', 'династії' )|E] [Concept( 'imprison' привід укласти' )|E] [recipient.GetHerHis] у в'язницю#!"
+ denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E] персонажа [recipient.GetShortUINameNoTooltip]\n\n#weak Це дасть членам нашої [Concept( 'dynasty', 'династії' )|E] [Concept( 'imprison' привід укласти' )|E] [recipient.GetHerHis] у в‘язницю#!"
  denounce_interaction_notification:0 "Відкинутий член династії"
 
  forgive_interaction:0 "Вибачити"

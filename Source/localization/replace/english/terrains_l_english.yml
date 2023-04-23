@@ -30,6 +30,6 @@
  TERRAIN_MILITARY_EFFECTS_HEADER:0 "#S Бойові ефекти:#!"
  TERRRAIN_MILITARY_ATTACKER_MODIFIER:0 "#S Модифікатор атакуючого:#!"
  TERRRAIN_MILITARY_DEFENDER_MODIFIER:0 "#S Модифікатор захисника:#!"
- TERRAIN_MILD_WINTER:0 "М'які [Concept('winter', 'зимові морози')]"
+ TERRAIN_MILD_WINTER:0 "М‘які [Concept('winter', 'зимові морози')]"
  TERRAIN_NORMAL_WINTER:0 "Звичайні [Concept('winter', 'зимові морози')]"
  TERRAIN_HARSH_WINTER:0 "Суворі [Concept( 'winter', 'зимові морози' )]]

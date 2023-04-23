@@ -42,7 +42,7 @@
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_nobility_01_low:0 "Західні обладунки"
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common:0 "Нічна сорочка"
- PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_prison_01_common:0 "Тюремне ганчір'я"
+ PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_prison_01_common:0 "Тюремне ганчір‘я"
 
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common:0 "Лицар-тамплієр"
  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common:0 "Лицар-шпитальєр"
@@ -68,7 +68,7 @@
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_war_nobility_01_low:0 "Західні обладунки"
 
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common:0 "Нічна сорочка"
- PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_prison_01_common:0 "Тюремне ганчір'я"
+ PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_prison_01_common:0 "Тюремне ганчір‘я"
 
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_01_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common$"
  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_02_common:0 "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common$"
@@ -378,7 +378,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01_2:0 "Вуаль та плат"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_02:0 "Фата"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_03:0 "Вуаль і плат із золотою облямівкою"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_02:0 "Барбетт з пов'язкою та вуаллю"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_02:0 "Барбетт з пов‘язкою та вуаллю"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_01$"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_02:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_02$"
@@ -395,7 +395,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_01$"
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_common_01:0 "Пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_common_01:0 "Пов‘язка"
 
 
 ###############
@@ -413,7 +413,7 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_01$"
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_common_01:0 "Головна пов'язка з обручем"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_common_01:0 "Головна пов‘язка з обручем"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_nobility_01:0 "Шапка з самоцвітами, облямована хутром"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_high_nobility_01:0 "Венок з коштовностями"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_royalty_01:0 "Тіара Констанції"
@@ -437,11 +437,11 @@
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_war_nobility_01$"
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_01:0 "Головна пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_01:0 "Головна пов‘язка"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_02:0 "Вуаль зі скрученою стрічкою"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_01:0 "Широка головна пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_01:0 "Широка головна пов‘язка"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_nobility_01:0 "Королівська вуаль"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_royalty_01:0 "Позолочена пов'язка з вуаллю"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_royalty_01:0 "Позолочена пов‘язка з вуаллю"
 
 
 ############
@@ -484,14 +484,14 @@
 ###################
 
 ### Male ###
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_common_01:0 "Тюрбан з головною пов'язкою"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01:0 "Прикрашений тюрбан з головною пов'язкою"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_common_01:0 "Тюрбан з головною пов‘язкою"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01:0 "Прикрашений тюрбан з головною пов‘язкою"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_01:0 "Венок з тюрбаном"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_01:0 "Імператорська корона з пов'язкою"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_01:0 "Імператорська корона з пов‘язкою"
 
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_common_01:0 "Висока головна пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_common_01:0 "Висока головна пов‘язка"
 
 
 ###################
@@ -505,7 +505,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01:0 "Німецький гостроверхий шолом"
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_01:0 "Барбетт з пов'язкою та сіточкою для волосся"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_01:0 "Барбетт з пов‘язкою та сіточкою для волосся"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_high_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_02$"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_royalty_01:0 "Тонкий вінець із самоцвітами"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01$"
@@ -519,13 +519,13 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_high_nobility_01:0 "Тюрбан еміра"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_royalty_01:0 "Тюрбан султана"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_imperial_01:0 "Тюрбан халіфа"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01:0 "Гостроверхий шолом з чохлом і пов'язкою"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01:0 "Гостроверхий шолом з чохлом і пов‘язкою"
 
 
 ### Female ###
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_02:0 "Головна хустка шейхи"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_high_nobility_01:0 "Вуаль еміри"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_royalty_01:0 "Позолочена пов'язка султанші"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_royalty_01:0 "Позолочена пов‘язка султанші"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_war_nobility_01:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01$"
  
 ###########
@@ -538,14 +538,14 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_03:0 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_02$"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_nobility_01:0 "Ковпак ярла"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_01:0 "Позолочений шолом із Гьєрмундбю з кольчугою"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02:0 "Шолом із Г'єрмундбю з рунами"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02:0 "Шолом із Г‘єрмундбю з рунами"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_royalty_01:0 "Скандинавська корона"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_imperial_01:0 "Скандинавська імператорська корона"
 
 
 ### Female ###
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_01:0 "Скандинавська головна пов'язка"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_02:0 "Морська головна пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_01:0 "Скандинавська головна пов‘язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_02:0 "Морська головна пов‘язка"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_01:0 "Скандинавський ковпак з хутряною облямівкою"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_02:0 "Головна хустка ватажки"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_03:0 "Вуаль торгівлі"
@@ -565,8 +565,8 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_low:0 "Вишитий койф"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_high:0 "Шовковий вишитий койф"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_nobility_01:1 "Тюрбан андалузького придворного"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_low:0 "Кап'єльо простолюдина"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_high:0 "Кап'єльо дворянина"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_low:0 "Кап‘єльо простолюдина"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_high:0 "Кап‘єльо дворянина"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_high_nobility_01:1 "Мавританський тюрбан з фескою"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_royalty_01:1 "Корона Санчо IV"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_royalty_01:1 "Корона сейїду"
@@ -576,13 +576,13 @@
 ### Female ###
  
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_common_01:1 "Клиновидний струм"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_common_01:1 "Андалузька головна пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_common_01:1 "Андалузька головна пов‘язка"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_low:0 "Філлет з рюшами"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_high:0 "Шляхетний філлет з рюшами"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_nobility_01:1 "Головна пов'язка з прикрашеною стрічкою"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_nobility_01:1 "Головна пов‘язка з прикрашеною стрічкою"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_high_nobility_01:1 "Високий струм з набором"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low:0 "Андалузька головна пов'язка з літамом"
- PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high:0 "Шляхетна андалузька головна пов'язка з літамом"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low:0 "Андалузька головна пов‘язка з літамом"
+ PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high:0 "Шляхетна андалузька головна пов‘язка з літамом"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_royalty_01:1 "Вінець донни"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_royalty_01:1 "Монарша корона сеїди"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_war_nobility_01:1 "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_war_nobility_0
@@ -595,18 +595,18 @@
 ### Male ###
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01:0 "Окуляри"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_spectacles_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:0 "Пов'язка на око"
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01:0 "Пов'язка сліпого"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01:0 "Пов‘язка на око"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01:0 "Пов‘язка сліпого"
  PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01:0 "Особова маска"
- PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:0 "Пов'язка на голову"
+ PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01:0 "Пов‘язка на голову"
 
 ### Female ###
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_spectacles_01:0 "Окуляри"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_spectacles_01:0 "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
- PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01:0 "Пов'язка на око"
- PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "Пов'язка сліпого"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01:0 "Пов‘язка на око"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01:0 "Пов‘язка сліпого"
  PORTRAIT_MODIFIER_custom_special_female_headgear_special_face_mask_01:0 "Особова маска"
- PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01:0 "Пов'язка на голову"
+ PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01:0 "Пов‘язка на голову"
 
 ######################################
 ################ Hair #################
@@ -689,7 +689,7 @@
 
 ### Female FP1 ###
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_01:0 "Пробір із косами"
- PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_02:0 "З'їрошена коса"
+ PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_02:0 "З‘їрошена коса"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_03:0 "Хвостики"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_04:0 "Скандинавська покладена коса"
  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_05:0 "Довгі зі стрічками"
@@ -846,7 +846,7 @@
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_head_01:0 "Папська тіара"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_high_01:0 "Головний убір патріарха"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_head_01:0 "Головний убір вселенського патріарха"
- PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_zorastrian_high_01:0 "Храмова пов'язка"
+ PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_zorastrian_high_01:0 "Храмова пов‘язка"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_jewish_head_01:0 "Головний убір Коген Гадола"
  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_muslim_high_01:0 "Ісламський тюрбан"
  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_muslim_high_01:0 "Тюрбан імама"

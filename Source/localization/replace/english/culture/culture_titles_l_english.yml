@@ -94,7 +94,7 @@
  #Default Clan tiers
  baron_clan_male:0 "Глава"
  baron_clan_female:0 "Глава"
- barony_clan:0 "Плем'я"
+ barony_clan:0 "Плем‘я"
  count_clan_male:0 "Вождь"
  count_clan_female:0 "Володарка"
  county_clan:0 "Вождество"
@@ -111,7 +111,7 @@
  #Default Tribal tiers
  baron_tribal_male:0 "Глава"
  baron_tribal_female:0 "Глава"
- barony_tribal:0 "Плем'я"
+ barony_tribal:0 "Плем‘я"
  count_tribal_male:0 "Вождь"
  count_tribal_female:0 "Володарка"
  county_tribal:0 "Вождество"
@@ -243,8 +243,8 @@
  county_theocracy_germanic_religion:0 "Великий храм"
  king_theocracy_male_germanic_religion:0 "Ріксгоді"
  king_theocracy_female_germanic_religion:0 "Ріксгоді"
- emperor_theocracy_male_germanic_religion:0 "К'яргоді"
- emperor_theocracy_female_germanic_religion:0 "К'яргоді"
+ emperor_theocracy_male_germanic_religion:0 "К‘яргоді"
+ emperor_theocracy_female_germanic_religion:0 "К‘яргоді"
 
 # Hellenism
  baron_theocracy_male_hellenism_religion:0 "Фламін"
@@ -414,7 +414,7 @@
  baron_theocracy_female_zoroastrianism_religion:0 "Хірбад"
  barony_theocracy_zoroastrianism_religion:0 "Вахрам"
  count_theocracy_male_zoroastrianism_religion:0 "Мобід"
- count_theocracy_female_zoroastrianism_religion:0 "Мобед'яр"
+ count_theocracy_female_zoroastrianism_religion:0 "Мобед‘яр"
  duke_theocracy_male_zoroastrianism_religion:0 "Дастур"
  duke_theocracy_female_zoroastrianism_religion:0 "Дастуяр"
 

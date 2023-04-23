@@ -90,7 +90,7 @@
  rrmeaism_adj:0 "Ввлуфіче"
  rrmeaism_adherent:0 "Влуфім"
  rrmeaism_adherent_plural:0 "Ввлуфімі"
- rrmeaism_desc:0 "Релігія Ррмеа або Цян побудована на поклонінні білим каменям - Ввулфі. Під час ритуалів жерці-шамани, яких називають збі, надягають капелюхи з хутра мавп і б'ють у барабани з овечих шкур."
+ rrmeaism_desc:0 "Релігія Ррмеа або Цян побудована на поклонінні білим каменям - Ввулфі. Під час ритуалів жерці-шамани, яких називають збі, надягають капелюхи з хутра мавп і б‘ють у барабани з овечих шкур."
  
  rrmeaism_old:0 "Старо-Влуфімськ"
  rrmeaism_old_adj:0 "Старо-влуфімське язичництво"
@@ -119,7 +119,7 @@
  tangut_high_god_name_alternate:0 "Фон Мбін" # lit. White Loftiness
  tangut_high_god_name_alternate_possessive:0 "Фон Мбіна"
  tangut_good_god_mewn:0 "Мюн"
- tangut_good_god_viei:0 "В'єй" # lit. Monkey
+ tangut_good_god_viei:0 "В‘єй" # lit. Monkey
  tangut_religious_symbol:0 "Мюн" # white crane
  tangut_religious_symbol_2:0 "$tangut_religious_symbol$" # Optional translation alt
  tangut_religious_symbol_3:0 "$tangut_religious_symbol$" # Optional translation alt
@@ -150,8 +150,8 @@
  tangut_creator_god_name_possessive:0 "$tangut_high_god_name_possessive$"
  tangut_health_god_name:0 "$tangut_high_god_name$"
  tangut_health_god_name_possessive:0 "$tangut_high_god_name_possessive$"
- tangut_fertility_god_name:0 "В'єй"
- tangut_fertility_god_name_possessive:0 "В'єй"
+ tangut_fertility_god_name:0 "В‘єй"
+ tangut_fertility_god_name_possessive:0 "В‘єй"
  tangut_wealth_god_name:0 "$tangut_high_god_name$"
  tangut_wealth_god_name_possessive:0 "$tangut_high_god_name_possessive$"
  tangut_household_god_name:0 "$tangut_high_god_name$"

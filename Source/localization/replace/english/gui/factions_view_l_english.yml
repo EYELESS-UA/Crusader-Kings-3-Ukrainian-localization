@@ -21,7 +21,7 @@
  NOT_FACTION_CANT_JOIN_CREATE_ALLIED:0 "Неможливо створити фракцію проти [Concept( 'ally', 'союзника' )|E] або приєднатися до такої фракції"
  NOT_faction_relation_blocks_joining_friend:0 "Неможливо створити фракцію проти [Concept( 'friend', 'друга' )|E] або приєднатися до такої фракції"
  NOT_faction_relation_blocks_joining_lover:0 "Неможливо створити фракцію проти [Concept( 'lover', 'коханця або коханки' )|E] або приєднатися до такої фракції"
- NOT_FACTION_CANT_JOIN_CREATE_IMPRISONED:0 "Неможливо створити фракцію, перебуваючи в [Concept( 'imprisoned', 'ув'язненні' )|E], або приєднатися до існуючої фракції"
+ NOT_FACTION_CANT_JOIN_CREATE_IMPRISONED:0 "Неможливо створити фракцію, перебуваючи в [Concept( 'imprisoned', 'ув‘язненні' )|E], або приєднатися до існуючої фракції"
  NOT_FACTION_CANT_JOIN_CREATE_COWED:0 "[Concept( 'cowed', 'Застрашений' )|E] персонаж не може створити фракцію або приєднатися до існуючої"
  NOT_FACTION_CANT_JOIN_CREATE_INCAPABLE:0 "Неможливо сформувати фракцію або приєднатися до існуючої, володіючи властивістю «[GetTrait('incapable').GetName( GetNullCharacter )]»"
  FACTION_CANT_JOIN_CREATE_IN_ANOTHER_FACTION_WARNING:0 "@warning_icon!#X $NOT_FACTION_JOIN_CREATE_CONDITION_NOT_FACTION_MEMBER$#!\n"

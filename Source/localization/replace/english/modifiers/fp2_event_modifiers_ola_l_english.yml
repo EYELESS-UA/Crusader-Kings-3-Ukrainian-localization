@@ -26,7 +26,7 @@
  cannot_read_greek_modifier:0 "Заявляє, що знає грецьку"
  cannot_read_greek_modifier_desc:0 "Цей персонаж заявляє, що володіє мовою вчених стародавнього світу, але все вказує на те, що це неправда."
  misread_medicine_incompetence_modifier:0 "Помилка читання «Канона лікарської науки»"
- misread_medicine_incompetence_modifier_desc:0 "Цей персонаж прочитав «Канон лікарської науки» та інші видатні праці зі здоров'я та гігієни, але зрозумів їх неправильно."
+ misread_medicine_incompetence_modifier_desc:0 "Цей персонаж прочитав «Канон лікарської науки» та інші видатні праці зі здоров‘я та гігієни, але зрозумів їх неправильно."
  inspired_medicine_modifier:0 "Під враженням від лікарських інновацій"
  inspired_medicine_modifier_desc:0 "Цей персонаж виявив інтерес до нововведень у лікарській науці, привнесених перськими та андалусськими вченими."
  medical_insights_modifier:0 "Медичні одкровення"
@@ -41,7 +41,7 @@
  foreboding_visions_modifier_desc:0 "У гарячковому маренні, можливо викликаному божевіллям, цей персонаж побачив погані ознаки майбутніх подій."
 
  mysterious_prophetess_illness_modifier:0 "Хвороба Сівіли"
- mysterious_prophetess_illness_modifier_desc:0 "Цей персонаж страждає від виснажливої ​​хвороби, мабуть пов'язаної з пророчими снами."
+ mysterious_prophetess_illness_modifier_desc:0 "Цей персонаж страждає від виснажливої ​​хвороби, мабуть пов‘язаної з пророчими снами."
 
  frightened_by_portent_modifier:0 "Зляк від ознак"
  frightened_by_portent_modifier_desc:0 "Цей персонаж побачив ознаки страшних подій майбутнього."
@@ -100,10 +100,10 @@
 
 
  mystery_meat_unhealth_benefits_modifier:0 "Бурліт у животі"
- mystery_meat_unhealth_benefits_modifier_desc:0 "Цей персонаж наївся м'яса дивної величезної туші, викинутої на берег. Можливо, цього робити не варто..."
+ mystery_meat_unhealth_benefits_modifier_desc:0 "Цей персонаж наївся м‘яса дивної величезної туші, викинутої на берег. Можливо, цього робити не варто..."
 
  mystery_meat_health_benefits_modifier:0 "Відмінна трапеза"
- mystery_meat_health_benefits_modifier_desc:0 "Цей персонаж наївся м'яса дивної величезної туші, викинутої на берег. Було дуже смачно."
+ mystery_meat_health_benefits_modifier_desc:0 "Цей персонаж наївся м‘яса дивної величезної туші, викинутої на берег. Було дуже смачно."
 
  lay_ruler_issued_fatwa_modifier:0 "Релігійне рішення"
  lay_ruler_issued_fatwa_modifier_desc:0 "Цей правитель виніс рішення з релігійного питання, хоча подейкують, що він не мав на це права."
@@ -136,8 +136,8 @@
  restitution_to_minorities_modifier:0 "Відшкодування збитків місцевим меншинам"
  restitution_to_minorities_modifier_desc:0 "Цей персонаж частково задовольнив низку вимог місцевих меншин."
 
- obligations_fulfilled_modifier:0 "Сумнівні зобов'язання"
- obligations_fulfilled_modifier_desc:0 "Цей персонаж виконав свої зобов'язання перед іншим правителем... повернувши йому рабів-утікачів."
+ obligations_fulfilled_modifier:0 "Сумнівні зобов‘язання"
+ obligations_fulfilled_modifier_desc:0 "Цей персонаж виконав свої зобов‘язання перед іншим правителем... повернувши йому рабів-утікачів."
 
  saqaliba_settlers_county_modifier:0 "Поселенці-сакаліби"
  saqaliba_settlers_county_modifier_desc:0 "У цій провінції оселилися колишні раби зі Східної Європи."

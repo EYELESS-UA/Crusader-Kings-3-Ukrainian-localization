@@ -12,12 +12,12 @@
  culture_notification.1011.intro:1 "За довгі роки добрих стосунків та інтенсивного культурного обміну [parent_1.GetName|l] і [parent_2.GetName|l] помітно зблизилися. Зараз їхні представники все частіше відносять себе не до тієї чи іншої спільноти, але відразу до обох - це народження нової, #L [new_culture.
  culture_notification.1011.hybrid_primary_1:1 "[parent_1.GetCollectiveNounNoTooltip]ие традиції та цінності стали хребтом нової культури, у той час як [parent_2.GetCollectiveNounNoTooltip|l]ие особливості міцно зміцнилися та адаптувалися в новому суспільстві."
  culture_notification.1011.hybrid_primary_2:1 "[parent_2.CollectiveNounNoTooltip]ие традиції та цінності стали хребтом нової культури, у той час як [parent_1.CollectiveNounNoTooltip|l]ие особливості міцно зміцнилися та адаптувалися в новому суспільстві."
- culture_notification.1011.hybrid_no_primary:1 "[new_culture.GetCollectiveNounNoTooltip]ий народ однаково запозичив елементи обох культур, створивши істинно гібридну культуру, що об'єднала два світу."
+ culture_notification.1011.hybrid_no_primary:1 "[new_culture.GetCollectiveNounNoTooltip]ий народ однаково запозичив елементи обох культур, створивши істинно гібридну культуру, що об‘єднала два світу."
  culture_notification.1011.outro.other:0 "$culture_notification.1111.outro.other$"
  culture_notification.1011.outro.founder:0 "$culture_notification.1111.outro.founder$"
  culture_notification.1011.a.other:0 "$culture_notification.1111.a.other$"
  culture_notification.1011.a.founder:0 "$culture_notification.1111.a.founder$"
- culture_notification_hybrid_tooltip:0 "#L [new_culture.GetCollectiveNoun]ая#! [Concept( 'hybrid_culture', 'гібридна культура' )|E] виникла при змішуванні #L [parent_1.GetCollectiveNoun|l]ой#! і #L [parent_ GetCollectiveNoun|l]ой#![Concept( 'cultures', 'культур' )|E]."
+ culture_notification_hybrid_tooltip:0 "#L [new_culture.GetCollectiveNoun]а#! [Concept( 'hybrid_culture', 'гібридна культура' )|E] виникла при змішуванні #L [parent_1.GetCollectiveNoun|l]ой#! і #L [parent_ GetCollectiveNoun|l]ой#![Concept( 'cultures', 'культур' )|E]."
 
 
 
@@ -38,4 +38,4 @@
  culture_notification.1111.outro.founder:0 "\n\n[new_culture.GetCollectiveNounNoTooltip]ий народ бачить у мені лідера, а значить, настав час закласти фундамент нашого спільного майбутнього."
  culture_notification.1111.a.other:0 "Побачимо, як буде розвиватися ситуація."
  culture_notification.1111.a.founder:0 "У нове століття, в нову епоху, з новим народом!"
- culture_notification_tooltip:0 "#L [new_culture.GetCollectiveNoun]ая#! [Concept( 'divergent_culture', 'відділилася культура' )|E] відкололася від #L [parent_1.GetCollectiveNoun|l]ой#! [Concept( 'ture 'культури' )|E]."
+ culture_notification_tooltip:0 "#L [new_culture.GetCollectiveNoun]а#! [Concept( 'divergent_culture', 'відділилася культура' )|E] відкололася від #L [parent_1.GetCollectiveNoun|l]ой#! [Concept( 'ture 'культури' )|E]."

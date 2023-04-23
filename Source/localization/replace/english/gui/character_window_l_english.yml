@@ -47,7 +47,7 @@
  COURTIERS:0 "Придворні"
  CV_UNLANDED:0 "[unlanded|E]"
 
- CV_TAB_FAMILY:0 "Сім'я"
+ CV_TAB_FAMILY:0 "Сім‘я"
  CV_TAB_RELATIONS:0 "Відносини"
  CV_TAB_COURT:1 "Придворні"
  CV_TAB_SECRETS:0 "Секрети"
@@ -58,7 +58,7 @@
  CV_NO_VASSALS:0 "#weak [vassals|El] відсутні#!"
  CV_TT_INTERACT:0 "#T Взаємодіяти з персонажем [Character.GetShortUINameNoTooltip]\n#!#I Для взаємодії можна також клацнути правою кнопкою миші по портрету#!"
 
- FAMILY:0 "Сім'я"
+ FAMILY:0 "Сім‘я"
  RELATIONS:0 "Відносини"
  SECONDARY_SPOUSES:0 "Неголовне подружжя"
  GRANDPARENTS:0 "Предки"
@@ -94,10 +94,10 @@
  HEALTH_POOR_DESC_ME:1 "Ви вболіваєте"
  HEALTH_FINE_DESC:0 "[CHARACTER.GetShortUIName|U] нормально почувається"
  HEALTH_FINE_DESC_ME:1 "Ви нормально себе почуваєте"
- HEALTH_GOOD_DESC:0 "Юмори [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )] у рівновазі"
+ HEALTH_GOOD_DESC:0 "Юмори [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )] у рівновазі"
  HEALTH_GOOD_DESC_ME:1 "Ваші гумори в рівновазі"
- HEALTH_EXCELLENT_DESC:0 "[CHARACTER.GetShortUIName|U] пашитьздоров'ям!
- HEALTH_EXCELLENT_DESC_ME:1 "Ваше здоров'я у повному порядку!"
+ HEALTH_EXCELLENT_DESC:0 "[CHARACTER.GetShortUIName|U] пашитьздоров‘ям!
+ HEALTH_EXCELLENT_DESC_ME:1 "Ваше здоров‘я у повному порядку!"
  HEALTH_SOURCES:0 "Джерела:"
  HEALTH_NEGATION_CAUSE:0 "#P +$CAUSE$#! #weak (тільки для компенсації штрафів)#!"
  HEALTH_POSITIVE_CAUSE:0 "#P +$CAUSE$#!"
@@ -110,7 +110,7 @@
  CHARACTER_WINDOW_CHOOSE_EDUCATION_FOCUS:0 "#I Клацніть, щоб вибрати фокус освіти#!"
  CHARACTER_WINDOW_VIEW_LIFESTYLE_FOCUS:0 "#I Клацніть, щоб переглянути спосіб життя#!"
  CHARACTER_WINDOW_VIEW_EDUCATION_FOCUS:0 "#I Клацніть, щоб переглянути фокус освіти#!"
- LIFESTYLE_FOCUS_ICON_HEADER:0 "#T [lifestyle|E]: [CHARACTER.GetFocusType.GetName]#!"
+ LIFESTYLE_FOCUS_ICON_HEADER:1 "#T [lifestyle|E]: [CHARACTER.GetFocus.GetName]#!"
  LIFESTYLE_FOCUS_ICON_HEADER_NO_FOCUS:1 "#T [lifestyle|E]:Відсутня#!"
  EDUCATION_FOCUS_ICON_HEADER:0 "#T Фокус освіти: [CHARACTER.GetFocusType.GetNameNoTooltip]#!"
  EDUCATION_FOCUS_ICON_HEADER_NO_FOCUS:0 "#T Фокус освіти: ні#!"
@@ -174,7 +174,7 @@
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdjectiveNoTooltip]"
- CULTURE_CHARACTER_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]ая"
+ CULTURE_CHARACTER_WINDOW:0 "[Culture.GetCollectiveNounNoTooltip]а"
  VASSAL_SORT_POWER:0 "$CLAIMANT_SORT_STRENGTH$"
 
  FIND_SPOUSE:0 "Знайти [Select_CString(ACTOR.IsFemale, 'консорта', 'наложницю')]"

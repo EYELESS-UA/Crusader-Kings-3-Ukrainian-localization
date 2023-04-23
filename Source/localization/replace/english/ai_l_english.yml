@@ -6,7 +6,7 @@
  AI_UNIT_TOOLTIP_UNIT_STACK_DEFEND_SUPPORT:0 " (оборона) підтримати гравця в провінції $PROVINCE$."
  AI_UNIT_TOOLTIP_UNIT_STACK_CLOSE_SUPPORT:0 " (зближення) підтримати гравця в провінції $PROVINCE$."
  AI_UNIT_TOOLTIP_UNIT_STACK_ATTACK:0 " атакувати провінцію $PROVINCE$."
- AI_UNIT_TOOLTIP_UNIT_STACK_MERGE:0 " об'єднатися зі стеком військ ($ID$) в провінції $PROVINCE$."
+ AI_UNIT_TOOLTIP_UNIT_STACK_MERGE:0 " об‘єднатися зі стеком військ ($ID$) в провінції $PROVINCE$."
  AI_UNIT_TOOLTIP_UNIT_STACK_RETREAT:0 " відступити в провінцію $PROVINCE$."
  AI_UNIT_TOOLTIP_UNIT_STACK_RESUPPLY:0 " поповнити запаси в провінції $PROVINCE$."
  AI_UNIT_TOOLTIP_UNIT_STACK_NO_ORDER:0 " Немає наказів."

@@ -13,7 +13,7 @@
  tenet_armed_pilgrimages_name:0 "Збройні паломники"
  tenet_armed_pilgrimages_desc:0 "Наші пілігрими подорожують світом, щоб відвідати святі місця, і ми з радістю візьмемо до рук меч, щоб захистити наших єдиновірців."
  doctrine_parameter_cheaper_holy_wars_active:0 "[rulers|E] цієї [faiths|El] витрачають на #P -20%#! менше [Concept( 'piety', 'благочестя' )|El], щоб оголосити [holy_wars|El]."
- doctrine_parameter_great_holy_wars_active:1 "[head_of_faith|E] може розв'язати [Concept( 'great_holy_war', 'Велику священну війну' )|El], якщо у [faiths|El] досить високе [fervor|El]."
+ doctrine_parameter_great_holy_wars_active:1 "[head_of_faith|E] може розв‘язати [Concept( 'great_holy_war', 'Велику священну війну' )|El], якщо у [faiths|El] досить високе [fervor|El]."
  doctrine_parameter_ghw_no_hof_conversion_buffs_active:0 "Якщо [Concept( 'head_of_faith', 'глави конфесії' )|El] немає, її послідовники отримують бонус до ефективності [Concept( 'councillor_task', 'завдання радника' || за кожне [holy_site|El] під контролем"
  doctrine_parameter_pilgrimage_decision_active:1 "Персонажі цієї [faiths|El] отримують додатковий бонус при успішному завершенні [Concept( 'pilgrimage', 'паломництва' )|E]"
 
@@ -73,7 +73,7 @@
  doctrine_parameter_mendicant_preachers_conversion_active:0 "Швидкість звернення графства: #P +33%#!"
 
  tenet_communal_identity_name:0 "Приналежність до громади"
- tenet_communal_identity_desc:0 "Наша віра і наша культура тісно переплетені один з одним. Подібна практика посилює наш зв'язок із громадою, але при цьому перешкоджає включенню чужинців."
+ tenet_communal_identity_desc:0 "Наша віра і наша культура тісно переплетені один з одним. Подібна практика посилює наш зв‘язок із громадою, але при цьому перешкоджає включенню чужинців."
  doctrine_parameter_same_communal_identity_opinion_active:0 "#P +10#! [opinions|El] з персонажами тієї ж [faiths|El]"
  doctrine_parameter_same_culture_conversion_bonus_active:1 "Швидкість звернення в [Concept( 'county', 'графствах' )|El], де є моя [culture|El]: #P +50%#!"
  doctrine_parameter_same_faith_promote_culture_bonus_active:1 "Швидкість поширення культури в [Concept( 'county', 'графствах' )|El], де є моя [faith|El]: #P +50%#!"
@@ -184,11 +184,11 @@
 
  #Pagan tenets
  tenet_warmonger_name:0 "Розпалювач війни"
- tenet_warmonger_desc:0 "Віра і війна йдуть пліч-о-пліч. Того, хто відмовляється боротися в ім'я божественного, не можна назвати істинно віруючим."
+ tenet_warmonger_desc:0 "Віра і війна йдуть пліч-о-пліч. Того, хто відмовляється боротися в ім‘я божественного, не можна назвати істинно віруючим."
  doctrine_parameter_conquest_cb_enabled:0 "[rulers|E] мають [casus_belli|El] "Завоювання" проти сусідніх правителів."
  doctrine_parameter_faith_can_raid:0 "Дозволено [Concept( 'raiding', 'здійснювати нальоти' )|E] на чужоземні [counties|El] заради пограбування"
  doctrine_parameter_invasion_cb_enabled:0 "Шановні [rulers|El] можуть один раз у житті використовувати [casus_belli|El] "Вторгнення""
- doctrine_parameter_great_holy_wars_active_if_reformed:1 "[head_of_faith|E], якщо такий існує, може розв'язати [Concept( 'great_holy_war', 'Велику священну війну' )|El], якщо [faith|El] [Concept( 'organized" |El]"
+ doctrine_parameter_great_holy_wars_active_if_reformed:1 "[head_of_faith|E], якщо такий існує, може розв‘язати [Concept( 'great_holy_war', 'Велику священну війну' )|El], якщо [faith|El] [Concept( 'organized" |El]"
 
  tenet_ancestor_worship_name:0 "Шанування предків"
  tenet_ancestor_worship_desc:0 "Наші предки спостерігають за нами з того світу, наставляють нас і вказують нам шлях. За це ми повинні їх почитати."
@@ -202,7 +202,7 @@
  doctrine_parameter_mandatory_feast_attendance:0 "[vassals|E] з більшою ймовірністю прибудуть до вас на бенкет, а при відмові втратить [Concept( 'piety', 'благочестя' )|El]"
 
  tenet_sky_burials_name:0 "Повітряні поховання"
- tenet_sky_burials_desc:1 "Мертців слід не заточувати під землю, але віддавати на поживу стерв'ятникам: так померлі можуть віддячити миру, що годував їх за життя, і нагодувати його у відповідь."
+ tenet_sky_burials_desc:1 "Мертців слід не заточувати під землю, але віддавати на поживу стерв‘ятникам: так померлі можуть віддячити миру, що годував їх за життя, і нагодувати його у відповідь."
  doctrine_parameter_sky_burials_active:2 "[rulers|E] можуть здійснювати повітряні поховання предків, отримуючи [Concept( 'piety', 'благочестя' )|El] і схвалення [Concept( 'vassals', 'вассалів' )|El]"
 
  tenet_sacred_childbirth_name:0 "Священе народження"
@@ -228,9 +228,9 @@
  doctrine_parameter_divine_the_stars_active:0 "Дозволяє адептам передбачати майбутнє за зірками"
 
  tenet_sun_worship_name:0 "Поклоніння сонцю"
- tenet_sun_worship_desc:0 "Світло, що дарує життя, незгасне полум'я, що править небесами. Сонце - істинний владика світу!"
+ tenet_sun_worship_desc:0 "Світло, що дарує життя, незгасне полум‘я, що править небесами. Сонце - істинний владика світу!"
  doctrine_parameter_summer_festivals_active:0 "Проведення бенкетів влітку підвищує [Concept( 'piety', 'благочестя' )|E]"
- doctrine_parameter_trial_by_sun_active:0 "В'язнів [Concept( 'criminals', 'злочинців' )|E] можна засуджувати до Випробування Сонця"
+ doctrine_parameter_trial_by_sun_active:0 "В‘язнів [Concept( 'criminals', 'злочинців' )|E] можна засуджувати до Випробування Сонця"
 
  # Syncretic Tenets
  #Not referenced in-game anywhere by itself, but used to control other opinion title copy:
@@ -275,7 +275,7 @@
  doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "Взаємний бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] до [Concept( 'opinion', 'м'' 'Con'' |E] з догматом «$tenet_unreformed_syncretism_name$»"
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
- doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Базова швидкість обігу об'єднаних конфесій знижується на [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
+ doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Базова швидкість обігу об‘єднаних конфесій знижується на [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
 
  tenet_christian_syncretism_name:0 "Християнський синкретизм"
  tenet_christian_syncretism_desc:0 "Ісус з Назарета не божество, однак, безумовно, особистістю він був видатним. Ми повинні ставитися до його вчення з повагою."

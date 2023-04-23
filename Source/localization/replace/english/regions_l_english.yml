@@ -13,7 +13,7 @@
  world_middle_east_jerusalem:1 "Сирія"
  world_middle_east_arabia:0 "Аравія"
  world_middle_east_persia:0 "Персія"
- world_india_deccan:0 "Декканське плоскогір'я (Індія)"
+ world_india_deccan:0 "Декканське плоскогір‘я (Індія)"
  world_india_bengal:0 "Бенгалія (Індія)"
  world_india_rajastan:1 "Раджастан"
  world_persian_empire:0 "Давня Персія"
@@ -116,7 +116,7 @@
  dlc_fp1_region_core_mainland_scandinavia:0 "Материкова Скандинавія"
  dlc_fp1_region_non_scandinavian_southern_baltic:0 "Південне та східне узбережжя Балтики"
  dlc_fp1_achievement_far_from_home:0 "Острова Індійського океану"
- dlc_fp1_achievement_king_of_all_the_isles:0 "Острова Атлантичного океану та Середземномор'я"
+ dlc_fp1_achievement_king_of_all_the_isles:0 "Острова Атлантичного океану та Середземномор‘я"
  dlc_fp1_achievement_vladimirs_second_choice:0 "Русь"
 
  #FP2

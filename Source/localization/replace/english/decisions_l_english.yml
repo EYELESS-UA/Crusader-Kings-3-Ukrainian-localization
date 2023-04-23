@@ -7,7 +7,7 @@
  start_hunt_decision_go_on_hunt:1 "Ви вирушаєте на #V полювання#! в одному з баронств вашої держави"
  start_hunt_decision_prestige:1 "Вам може бути шанс підвищити [prestige|El]"
  start_hunt_decision_stress_lazy:0 "#N [GetTrait('lazy').GetName( GetPlayer )] не дозволить вам знизити [Concept('stress', 'стрес')|E]#!"
- start_hunt_decision.tt.servants_prestige.reduced:0 "#N Нестача [Concept('court_amenities','слуг')|E], здатних вигнати дичину, ускладнює полювання і сильніше б'є по [Concept( 'prestigious', 'престижу' )| E] у разі невдачі #!"
+ start_hunt_decision.tt.servants_prestige.reduced:0 "#N Нестача [Concept('court_amenities','слуг')|E], здатних вигнати дичину, ускладнює полювання і сильніше б‘є по [Concept( 'prestigious', 'престижу' )| E] у разі невдачі #!"
  start_hunt_decision.tt.servants_prestige.increased:0 "#P Ваші кмітливі [Concept('court_amenities','слуги')|E] чудово заганяють дичину, і полювання приносить більше по [Concept( 'prestigious', 'престижу' )|E ] у разі удачі #!"
  start_hunt_decision_master_of_hunt:0 "#P Оскільки у вас є $master_of_hunt_court_position$, ваше полювання з більшою ймовірністю увінчається успіхом#!"
  start_hunt_decision_confirm:0 "Труби початок!"
@@ -18,7 +18,7 @@
  host_grand_feast_decision:0 "Влаштувати грандіозний бенкет"
  host_modest_feast_decision:0 "Влаштувати скромний бенкет"
  host_feast_decision_tooltip:0 "[feast|E] відбудеться"
- host_feast_decision_opening_desc:0 "#F Вибити пробки з бочок і скликати знатних гостей — не просто обов'язок. Це чудова можливість зміцнити узи вірності, а часто й отримати справжнє задоволення!"
+ host_feast_decision_opening_desc:0 "#F Вибити пробки з бочок і скликати знатних гостей — не просто обов‘язок. Це чудова можливість зміцнити узи вірності, а часто й отримати справжнє задоволення!"
  host_feast_decision_desc_vassals:1 "[opinion|E] васалів про вас може підвищитися"
  host_feast_decision_desc_court_musician_opinion:1 "#P Оскільки у вас є $court_musician_court_position$, думка оточуючих про вас збільшуватиметься значніше#!"
  host_feast_decision_desc_shy:1 "#N [GetTrait('shy').GetName( GetPlayer )] не дозволить вам знизити [Concept('stress', 'стрес')|E]#!"
@@ -35,9 +35,9 @@
  borrow_from_holy_order_decision_effect_tooltip:1 "[holy_order|E] позичить вам [SCOPE.ScriptValue('holy_order_gold_value')|P00] [Concept( 'gold', 'золота' )|E] [gold_i]\n E] висуватиме вимоги, якщо ви не виплатите борг\n@warning_icon!
  borrow_from_holy_order_gold_condition:3 "У жодного #L [CHARACTER.GetFaith.GetName|l]ого#! священного ордену немає достатньої кількості золота"
 
- escape_from_prison_decision:0 "Тікати з в'язниці"
- escape_from_prison_decision_tooltip:0 "Спробувати втекти з в'язниці"
- escape_from_prison_decision_desc:0 "Всі ті ж стіни, та сама рутина, та ж бурда замість їжі - кожен день здається останнім. Ця в'язниця з'їдає мене, я так більше не витримаю!"
+ escape_from_prison_decision:0 "Тікати з в‘язниці"
+ escape_from_prison_decision_tooltip:0 "Спробувати втекти з в‘язниці"
+ escape_from_prison_decision_desc:0 "Всі ті ж стіни, та сама рутина, та ж бурда замість їжі - кожен день здається останнім. Ця в‘язниця з‘їдає мене, я так більше не витримаю!"
  escape_from_prison_decision_success.tt:0 "Ваша спроба втечі увінчалася успіхом"
  escape_from_prison_decision_failure.tt:0 "Ваша спроба втечі провалилася"
  escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.GetTitledFirstName] навряд чи зрадіє"
@@ -137,7 +137,7 @@
 
  return_rome_decision:0 "Повернути $c_roma$"
  return_rome_decision_tooltip:0 "Власництво $c_roma$ має належати Папі, титул треба повернути йому"
- return_rome_decision_desc:0 "Папу вигнали з його резиденції у володінні $c_roma$. Мій священний обов'язок католика велить повернути це святе місце законному власнику."
+ return_rome_decision_desc:0 "Папу вигнали з його резиденції у володінні $c_roma$. Мій священний обов‘язок католика велить повернути це святе місце законному власнику."
  return_rome_decision_confirm:0 "Повернути $c_roma$"
 
  renounce_vow_of_poverty_decision:0 "Відмовитися від обітниці нестяжання"
@@ -153,7 +153,7 @@
  initiate_consolamentum_decision_confirm:1 "Провести ендуру"
 
  seek_aid_of_the_spirits_decision:0 "Попросити парфумів про допомогу"
- seek_aid_of_the_spirits_decision_tooltip:0 "Спробувати зв'язатися з духами"
+ seek_aid_of_the_spirits_decision_tooltip:0 "Спробувати зв‘язатися з духами"
  seek_aid_of_the_spirits_decision_desc:0 "#F Духи живуть серед нас: одні несуть добро, другі будують підступи, а третім до людини немає жодної справи.\n\nНа моє прохання [ROOT.Char.Custom('MyPriestTitle')] може покликати до них, але чого це приведе, передбачити рішуче неможливо ... #!
  seek_aid_of_the_spirits_decision_effect.tt:0 "Ви звертаєтесь до незримого..."
  seek_aid_of_the_spirits_decision_confirm:0 "Просити парфумів про допомогу"
@@ -162,7 +162,7 @@
  select_personal_deity_hinduism_decision_tooltip:0 "[ROOT.Char.GetFaith.PantheonTerm|U] займають усі думки"
  select_personal_deity_hinduism_decision_desc:0 "#F Кожен вірний [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l] повинен вибрати бхакті — служіння богу, що викликає найбільш сильний відгук у душі. ближче.
  select_personal_deity_hinduism_decision_confirm:0 "Подумати про бхакті"
- select_personal_deity_hinduism_decision_tt:0 "Ви отримаєте модифікатор, пов'язаний з вибраним вами бхакті"
+ select_personal_deity_hinduism_decision_tt:0 "Ви отримаєте модифікатор, пов‘язаний з вибраним вами бхакті"
 
  select_personal_deity_germanic_decision:0 "Визначити особисте божество"
  select_personal_deity_germanic_decision_tooltip:0 "[ROOT.Char.GetFaith.PantheonTerm|U] займає всі думки"
@@ -177,18 +177,18 @@
 
  meditate_in_seclusion_decision:0 "Медитувати на самоті"
  meditate_in_seclusion_decision_tooltip:0 "Відмовитися від життя і зосередитися на собі"
- meditate_in_seclusion_decision_desc:0 "Тільки медитуючи можна зрозуміти справжню природу всесвіту.\n\nХоч мені й доведеться закинути інші обов'язки, усамітнившись я зможу більше дізнатися про себе і всесвіт, в якому живу."
+ meditate_in_seclusion_decision_desc:0 "Тільки медитуючи можна зрозуміти справжню природу всесвіту.\n\nХоч мені й доведеться закинути інші обов‘язки, усамітнившись я зможу більше дізнатися про себе і всесвіт, в якому живу."
  meditate_in_seclusion_decision_confirm:0 "Медитувати на самоті"
  meditate_in_seclusion_tooltip:0 "Ви можете скоротити [stress|El], отримати [traits|El] або навіть підвищити свою навичку «[learning|El]»"
 
  give_sky_burial_decision:0 "[ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)|U] удостоїться повітряного поховання"
  give_sky_burial_decision_tooltip:0 "Поховайте свого предка і отримайте [Concept( 'piety', 'благочестя' )|E] і [opinion|El] [Concept( 'vassal', 'васалів' )|E]"
- give_sky_burial_decision_desc:0 "#F [ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] більше не з нами. За традицією, [ROOT.Var('ancestor_to_bury').Char .GetHerHim] покладається повітряне поховання: [ROOT.Var('ancestor_to_bury').Char.GetHerHis] останки стануть їжею для стерв'ятників.Нехай [ROOT.Var('ancestor_to_bury'). [ROOT.Var('ancestor_to_bury').Char.GetHerHis].#!"
+ give_sky_burial_decision_desc:0 "#F [ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] більше не з нами. За традицією, [ROOT.Var('ancestor_to_bury').Char .GetHerHim] покладається повітряне поховання: [ROOT.Var('ancestor_to_bury').Char.GetHerHis] останки стануть їжею для стерв‘ятників.Нехай [ROOT.Var('ancestor_to_bury'). [ROOT.Var('ancestor_to_bury').Char.GetHerHis].#!"
  give_sky_burial_decision_confirm:0 "Влаштувати повітряне поховання"
  give_sky_burial_vassals:0 "Всі васали, що вірять у повітряне поховання"
 
  raise_runestone_decision:0 "Побудувати рунний камінь"
- raise_runestone_decision_desc:0 "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] тепер бенкетує у Вальхалле. Я споруджу в [ROOT.Var('ancestor_to_bury') ] честь рунний камінь, щоб прославити [ROOT.Var('ancestor_to_bury').Char.GetHerHis] і всіх, хто носить ім'я [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName]. ancestor_to_bury').Char.GetFullNameNicknamedNoTooltip] назавжди залишиться жити в пам'яті своїх нащадків!"
+ raise_runestone_decision_desc:0 "[ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] тепер бенкетує у Вальхалле. Я споруджу в [ROOT.Var('ancestor_to_bury') ] честь рунний камінь, щоб прославити [ROOT.Var('ancestor_to_bury').Char.GetHerHis] і всіх, хто носить ім‘я [ROOT.Var('ancestor_to_bury').Char.GetDynasty.GetName]. ancestor_to_bury').Char.GetFullNameNicknamedNoTooltip] назавжди залишиться жити в пам‘яті своїх нащадків!"
  raise_runestone_decision_tooltip:0 "Поставити рунний камінь: [Select_CString(ancestor_to_bury.isFemale, 'ваша', 'ваш')] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('ancestor_to_bury') "
  raise_runestone_decision_warning:1 "@warning_icon!#X Рунний камінь буде знищений, якщо правитель [Concept( 'county', 'графства' )|E] не буде належати до вашої [Concept( 'dynasty', 'династії' )|E]# !"
  raise_runestone_decision_confirm:0 "Поставити рунний камінь"
@@ -275,13 +275,13 @@
  pilgrimage_illness_warning:0 "@warning_icon! #X Небезпечно подорожувати, коли у вас [GetTrait('ill').GetName( GetPlayer )]#!"
 
  go_on_hajj_decision:0 "Здійснити Хадж"
- go_on_hajj_decision_tooltip:0 "Здійснити [pilgrimage|El] в Мекку, щоб виконати свій обов'язок перед Аллахом"
- go_on_hajj_decision_desc:0 "#F Хадж у Мекку — один із стовпів моєї віри. Настав час зробити паломництво і виконати свій обов'язок.#!"
+ go_on_hajj_decision_tooltip:0 "Здійснити [pilgrimage|El] в Мекку, щоб виконати свій обов‘язок перед Аллахом"
+ go_on_hajj_decision_desc:0 "#F Хадж у Мекку — один із стовпів моєї віри. Настав час зробити паломництво і виконати свій обов‘язок.#!"
  go_on_hajj_decision_confirm:0 "$go_on_pilgrimage_decision_confirm$"
 
  reclaim_britannia_decision:0 "Відвоювати Британію"
  reclaim_britannia_decision_desc:1 "Колись у цих краях правили кельти, і тепер їхня культура знову набула значення і впливу в цих землях. Все більше людей переймають кельтську мову і культуру, а тому буде правильною зробити цю мову офіційною!"
- reclaim_britannia_decision_tooltip:0 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! культура стане головною"
+ reclaim_britannia_decision_tooltip:0 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]а#! культура стане головною"
  reclaim_britannia_decision_custom:0 "Не може бути більше 1 васала, що не належить до кельтської культури"
  reclaim_britannia_decision_confirm:1 "Відповідати Британії"
  HAS_NON_CELTIC_POWERFUL_VASSAL:2 "Всі ваші [Concept( 'powerful_vassals', 'могутні васали' )|E] відносяться до [Concept( 'culture', 'культури' )|E] з бриттським або гойдельським [Concept( 'heritage', ' )|E]"
@@ -292,7 +292,7 @@
  restore_the_danelaw_decision_confirm:0 "Відродити Денло"
 
  embrace_english_culture_decision:0 "Прийняти англійську культуру"
- embrace_english_culture_decision_tooltip:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]ая#! культура вам більше не близька"
+ embrace_english_culture_decision_tooltip:1 "#L [ROOT.Char.GetCulture.GetCollectiveNoun]а#! культура вам більше не близька"
  embrace_english_culture_decision_desc:0 "Я, мій рід і мої васали живемо пліч-о-пліч з саксами і кельтами. Наша мова і наші звичаї вже не розрізнити, і настав час визнати — ми давно стали єдиним народом."
  embrace_english_culture_decision_get_innovations:0 "#D Англійська культура отримає безліч норманських інновацій#!"
  embrace_english_culture_decision_vassals_custom:0 "Всі васали у Британії"
@@ -320,9 +320,9 @@
 
  mend_the_great_schism_decision:0 "Викорінити Великий розкол"
  mend_the_great_schism_decision_confirm:0 "Один Бог, одна Церква!"
- mend_the_great_schism_decision_desc:1 "Великий розкол розділив християнську церкву, але якщо всі п'ять єпископатів Пентархії об'єднаються під покровом святого правителя і визнають владу єдиної імперії, можливо, християнство знову стане єдиним."
- mend_the_great_schism_decision_tooltip:0 "Я об'єдную християн"
- mend_the_great_schism_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ая#! церква припинить розкол і стане єдиною канонічною гілкою християнства."
+ mend_the_great_schism_decision_desc:1 "Великий розкол розділив християнську церкву, але якщо всі п‘ять єпископатів Пентархії об‘єднаються під покровом святого правителя і визнають владу єдиної імперії, можливо, християнство знову стане єдиним."
+ mend_the_great_schism_decision_tooltip:0 "Я об‘єдную християн"
+ mend_the_great_schism_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]а#! церква припинить розкол і стане єдиною канонічною гілкою християнства."
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Всі християнські [Concept( 'faith', 'конфесії' )|E] з доктриною [GetFaithDoctrine('special_doctrine_ecumenical_christian')".
  
  set_capital_constantinople_decision:0 "Вимагати Константинополь"
@@ -361,7 +361,7 @@
 
  form_switzerland_kingdom_decision:0 "Створити Швейцарську конфедерацію."
  form_switzerland_kingdom_decision_confirm:0 "Наші претензії незаперечні!"
- form_switzerland_kingdom_decision_desc:0 "Якщо всі альпійські кантони об'єднаються, Імперії доведеться визнати їхню претензію на утворення єдиної конфедерації."
+ form_switzerland_kingdom_decision_desc:0 "Якщо всі альпійські кантони об‘єднаються, Імперії доведеться визнати їхню претензію на утворення єдиної конфедерації."
  form_switzerland_kingdom_decision_tooltip:0 "Буде заснована Швейцарська конфедерація."
  form_switzerland_kingdom_decision_effect_tooltip:1 "Якщо ви [Concept( 'completely_control', 'повністю контролюєте' )|E] титул [savoy.GetName], він стане частиною держави [switzerland.GetName]"
 
@@ -381,17 +381,17 @@
 
  reform_carolingian_empire_decision:0 "Повернути володіння Каролінгів"
  reform_carolingian_empire_decision_confirm:0 "За імперію франків!"
- reform_carolingian_empire_decision_desc:0 "Мрія Карла Великого об'єднати Європу розбилася про його синів і нікчемних німецьких принців, але якщо всі франки об'єднаються заради єдиної мети, вони досягнуть її!"
+ reform_carolingian_empire_decision_desc:0 "Мрія Карла Великого об‘єднати Європу розбилася про його синів і нікчемних німецьких принців, але якщо всі франки об‘єднаються заради єдиної мети, вони досягнуть її!"
  reform_carolingian_empire_decision_tooltip:0 "Власництва Каролінгів повернуто."
  reform_carolingian_empire_decision_effect_tooltip:0 "Власництва Каролінгів повернуто"
 
- unify_burgundy_kingdom_decision:0 "Об'єднати бургундців"
- unify_burgundy_kingdom_decision_confirm:0 "Нехай з'єднається держава!"
- unify_burgundy_kingdom_decision_desc:0 "Відколи землі бургундців опинилися під франкським каблуком, чужі королі рвали їх на частини. Якщо всі бургундці об'єднаються під єдиним прапором, вони зможуть нарешті стати найбільшою силою Європи."
+ unify_burgundy_kingdom_decision:0 "Об‘єднати бургундців"
+ unify_burgundy_kingdom_decision_confirm:0 "Нехай з‘єднається держава!"
+ unify_burgundy_kingdom_decision_desc:0 "Відколи землі бургундців опинилися під франкським каблуком, чужі королі рвали їх на частини. Якщо всі бургундці об‘єднаються під єдиним прапором, вони зможуть нарешті стати найбільшою силою Європи."
  unify_burgundy_kingdom_decision_tooltip:0 "Бургундське королівство відновлено та повертає собі незалежність."
  unify_burgundy_kingdom_decision_effect_tooltip:0 "Бургундське королівство відновлено та повертає собі незалежність"
 
- unify_italian_empire_decision:0 "Об'єднати Італію"
+ unify_italian_empire_decision:0 "Об‘єднати Італію"
  unify_italian_empire_decision_confirm:0 "Півострів буде єдиним"
  unify_italian_empire_decision_desc:0 "Якщо погрязшие в чварах міста-держави і варварські держави Італії знову опиняться в кулаку Імперії, півострів поверне собі владу і славу."
 
@@ -437,7 +437,7 @@
  embrace_celibacy_decision_tooltip:0 "Я приймаю целібат"
  embrace_celibacy_decision_confirm:0 "Починається нове життя!"
  abandon_celibacy_decision:0 "Припинити целібат"
- abandon_celibacy_decision_desc:0 "#F У мене є обов'язок перед державою і перед собою... Я більше не можу жити в безшлюбності.#!"
+ abandon_celibacy_decision_desc:0 "#F У мене є обов‘язок перед державою і перед собою... Я більше не можу жити в безшлюбності.#!"
  abandon_celibacy_decision_tooltip:0 "Я припиняю целібат"
  abandon_celibacy_decision_confirm:0 "Починається нове життя!"
  msg_became_celibate:0 "Прийняти целібат"
@@ -459,7 +459,7 @@
  I_HAVE_NO_VASSALS_OF_COUNT_RANK_OR_HIGHER:0 "У вас немає васалів зі званням [count|El] або вище"
 
  commission_epic_decision:0 "Скласти епос"
- commission_epic_decision_desc:0 "#F В історії мого роду чимало прикладів великої відваги та удачі. Якщо об'єднати їх у єдину легенду, моя репутація лише виграє!#!"
+ commission_epic_decision_desc:0 "#F В історії мого роду чимало прикладів великої відваги та удачі. Якщо об‘єднати їх у єдину легенду, моя репутація лише виграє!#!"
  COMMISSION_EPIC_ONCE_COMPLETE:0 "Після написання епосу:"
  COMMISSION_EPIC_POTENTIAL_COST:1 "#F Імовірність отримати найкращий результат зростає, якщо витратити більше грошей#!"
  commission_epic_decision_tooltip:1 "Заплатити золотом за [prestige|El] і, можливо, за [dynasty_prestige|El]"
@@ -468,7 +468,7 @@
 
  hold_mystical_communion_decision:0 "Провести містичне єднання"
  hold_mystical_communion_decision_desc:0 "#F Я відчую присутність [ROOT.Char.GetFaith.HighGodNamePossessive], прийшовши в екстаз.#!"
- hold_mystical_communion_decision_tooltip:0 "Тільки ви володієте справжнім знанням"
+ hold_mystical_communion_decision_tooltip:0 "Тільки ви маєте справжнє знання"
  hold_mystical_communion_decision_confirm:0 "Я починаю зі світом"
  hold_mystical_communion_side_effects_tt:0 "Можливі непередбачені побічні ефекти"
  held_mystical_communion_title:0 "Відчуття присутності [ROOT.Char.GetFaith.HighGodNamePossessive]"
@@ -478,7 +478,7 @@
 
  restore_sunni_caliphate_decision:0 "Відродити халіфат ашаритів"
  restore_sunni_caliphate_decision_confirm:0 "Я особисто очолю битву!"
- restore_sunni_caliphate_decision_desc:0 "Якщо праведний володар вирве священні міста з рук невірних, халіфат відродиться, і справжні послідовники Аллаха об'єднаються заради спільної мети."
+ restore_sunni_caliphate_decision_desc:0 "Якщо праведний володар вирве священні міста з рук невірних, халіфат відродиться, і справжні послідовники Аллаха об‘єднаються заради спільної мети."
  restore_sunni_caliphate_decision_tooltip:1 "Ви станете халіфом ашаритів"
  restore_sunni_caliphate_decision_effect_tooltip:1 "Ви станете халіфом ашаритів"
 
@@ -492,29 +492,29 @@
 
  create_israel_kingdom_decision:0 "Відродити Ізраїль"
  create_israel_kingdom_decision_confirm:0 "Прийде закінчення Виходу!"
- create_israel_kingdom_decision_desc:0 "Час дітям Ізраїлю заснувати нову Сполучену монархію в Землі обітованій та Ізраїлі, де євреї возз'єднаються і заживуть у мирі та гармонії."
+ create_israel_kingdom_decision_desc:0 "Час дітям Ізраїлю заснувати нову Сполучену монархію в Землі обітованій та Ізраїлі, де євреї возз‘єднаються і заживуть у мирі та гармонії."
  create_israel_kingdom_decision_tooltip:0 "Королівство Ізраїль відродилося."
  create_israel_kingdom_decision_effect_tooltip:0 "Королівство Ізраїль відродилося"
 
  jewish_restore_high_priesthood_decision:0 "Повернути вище [ROOT.Char.GetFaith.GetNameNoTooltip|l]е духовенство"
  jewish_restore_high_priesthood_decision_confirm:0 "Підвищити нового духовного лідера"
- jewish_restore_high_priesthood_decision_desc:0 "З того часу як римляни зруйнували Другий храм, новий [ROOT.Char.GetFaith.ReligiousHeadName] - первосвященик Єрусалима - так і не з'явився. Але якщо ми зуміємо повернути контроль над святими місцями, св.
- jewish_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
+ jewish_restore_high_priesthood_decision_desc:0 "З того часу як римляни зруйнували Другий храм, новий [ROOT.Char.GetFaith.ReligiousHeadName] - первосвященик Єрусалима - так і не з‘явився. Але якщо ми зуміємо повернути контроль над святими місцями, св.
+ jewish_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
 
- restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
- restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ое#! священство відродилося"
+ restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
+ restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]е#! священство відродилося"
 
  zoroastrian_restore_high_priesthood_decision:0 "Повернути вище [ROOT.Char.GetFaith.GetNameNoTooltip|l]е духовенство"
  zoroastrian_restore_high_priesthood_decision_confirm:0 "Підвищити нового духовного лідера"
- zoroastrian_restore_high_priesthood_decision_desc:0 "Коли в Персії зміцниться #L [ROOT.Char.GetFaith.GetName|l]ая#! віра, настане час відродити справжнє зороастрійське жрецтво."
- zoroastrian_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]ое#! священство відродилося."
- zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]ое#! священство відродилося"
+ zoroastrian_restore_high_priesthood_decision_desc:0 "Коли в Персії зміцниться #L [ROOT.Char.GetFaith.GetName|l]а#! віра, настане час відродити справжнє зороастрійське жрецтво."
+ zoroastrian_restore_high_priesthood_decision_tooltip:0 "#L [ROOT.Char.GetFaith.GetName]е#! священство відродилося."
+ zoroastrian_restore_high_priesthood_decision_effect_tooltip:0 "#L [THIS.Char.GetFaith.GetName]е#! священство відродилося"
 
- become_saoshyant_decision:0 "Стати Саош'янтом"
+ become_saoshyant_decision:0 "Стати Саош‘янтом"
  become_saoshyant_decision_confirm:0 "Я - рятівник!"
- become_saoshyant_decision_desc:0 "Благочестивого правителя, який зуміє вигнати мусульман і відродити зороастризм у всій Перській імперії, можуть проголосити пророченим Саош'янтом - обраним рятівником світу."
- become_saoshyant_decision_tooltip:0 "Стати Саош'янтом."
- become_saoshyant_decision_effect_tooltip:0 "Стати Саош'янтом"
+ become_saoshyant_decision_desc:0 "Благочестивого правителя, який зуміє вигнати мусульман і відродити зороастризм у всій Перській імперії, можуть проголосити пророченим Саош‘янтом - обраним рятівником світу."
+ become_saoshyant_decision_tooltip:0 "Стати Саош‘янтом."
+ become_saoshyant_decision_effect_tooltip:0 "Стати Саош‘янтом"
  become_saoshyant_decision_decendant_trait_tooltip:0 "Ваші нащадки отримають [Concept( 'trait', 'властивість' )|E] [GetTrait('saoshyant_descendant').GetName( GetNullCharacter )|LV]"
 
  restore_roman_empire_italian_decision:0 "Відродити Римську імперію"
@@ -541,7 +541,7 @@
  form_rum_sultanate_decision_effect_tooltip:0 "Створити незалежний Румський султанат"
 
  create_armenian_empire_decision:0 "Відродити Велику Вірменію"
- create_armenian_empire_decision_desc:0 "Не тільки Греція і Персія можуть хизуватися імперською величчю. У незапам'ятні часи, задовго до того, як у Римі з'явився перший імператор, наш монарх вже звався Царем царів. І ці часи можуть повернутися."
+ create_armenian_empire_decision_desc:0 "Не тільки Греція і Персія можуть хизуватися імперською величчю. У незапам‘ятні часи, задовго до того, як у Римі з‘явився перший імператор, наш монарх вже звався Царем царів. І ці часи можуть повернутися."
  create_armenian_empire_decision_tooltip:0 "Вірменія отримає [de_jure|El] титул [empires|El]"
  create_armenian_empire_decision_effects_de_jure_tt_a:0 "Разом з цим титулом [armenian_armenia_empire.GetNameNoTier] отримає [de_jure|El] право на наступні [kingdoms|El]:\n[armenian_georgia.GetNameNoTier], [armenian_a .GetNameNoTier], [armenian_anatolia.GetNameNoTier], [armenian_pontus.GetNameNoTier], [armenian_jerusalem.GetNameNoTier]"
  create_armenian_empire_decision_effects_de_jure_tt_b:1 "Кожне [Concept( 'duchies', 'герцогство' )|El] в регіоні #L $custom_greater_armenia$#! стане [de_jure|El] частиною держави або ж остан [kingdom|El] належить вам"
@@ -568,7 +568,7 @@
  accept_cannibalism_decision_custom_not:1 "Ваш [court_chaplain|El] не може бути #L [GetTrait('cannibal').GetName( GetPlayer )|l]ом#!"
 
  found_university_decision:0 "Заснувати університет"
- found_university_decision_desc:0 "Останнім часом до моєї держави з'їжджаються вчені. До багатьох з них приходять учні, але щоб набувати і передавати знання повною мірою, потрібно гідне місце,де всі ці люди могли б зібратися."
+ found_university_decision_desc:0 "Останнім часом до моєї держави з‘їжджаються вчені. До багатьох з них приходять учні, але щоб набувати і передавати знання повною мірою, потрібно гідне місце,де всі ці люди могли б зібратися."
  found_university_decision_tooltip:1 "Комірки [Concept( 'special_building', 'особливих будівель' )|E]: можна буде побудувати [GetBuilding('generic_university').GetName]"
  found_university_decision_confirm:1 "Закласти основу!"
  found_university_decision_custom:0 "У відповідному баронстві"
@@ -583,7 +583,7 @@
  empower_sicilian_parliament_decision_every_province_custom:1 "Кожне сицилійське графство"
 
  england_request_laudabiliter_decision:0 "Випросити претензію на Ірландію"
- england_request_laudabiliter_decision_desc:0 "Якщо Святий престол схвалить кампанію проти ірландських варварів, то всі Британські острови об'єднаються під нашим правлінням."
+ england_request_laudabiliter_decision_desc:0 "Якщо Святий престол схвалить кампанію проти ірландських варварів, то всі Британські острови об‘єднаються під нашим правлінням."
  england_request_laudabiliter_decision_tooltip:0 "Подати прохання Папі"
  england_request_laudabiliter_decision_confirm:0 "Подати прохання Папі"
  england_request_laudabiliter_decision_effects_tooltip:0 "Папська булла дає [Concept( 'house', 'дома' )|E] [THIS.Char.GetHouse.GetName] [casus_belli|El] проти всіх провінцій Ірландії"
@@ -597,12 +597,12 @@
  promote_gothic_innovations_decision_confirm:0 "Підтримати грошима"
 
  lunatic_building_decision:0 "Побудувати скляний монумент"
- lunatic_building_decision_desc:0 "Мені снилася будівля цілком зі скла, якому сонячні промені дарували літнє тепло, навіть коли зовні лютували морози, і рослини в ньому не в'яли цілий рік!"
+ lunatic_building_decision_desc:0 "Мені снилася будівля цілком зі скла, якому сонячні промені дарували літнє тепло, навіть коли зовні лютували морози, і рослини в ньому не в‘яли цілий рік!"
  lunatic_building_decision_tooltip:0 "Буде побудовано: [GetBuilding('special_greenhouse_01').GetName]"
  lunatic_building_decision_confirm:0 "Я зловлю сонце!"
 
  promote_hungarian_settlement_decision:0 "Підтримати християнські поселення"
- promote_hungarian_settlement_decision_desc:1 "Якщо [ROOT.Char.GetPrimaryTitle.GetName] відкриється для торговців і переселенців з навколишніх християнських земель, розвиток моєї держави прискориться, а зв'язок із Вселенською церквою зміцниться."
+ promote_hungarian_settlement_decision_desc:1 "Якщо [ROOT.Char.GetPrimaryTitle.GetName] відкриється для торговців і переселенців з навколишніх християнських земель, розвиток моєї держави прискориться, а зв‘язок із Вселенською церквою зміцниться."
  promote_hungarian_settlement_decision_tooltip:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] привітає нових християнських поселенців"
  promote_hungarian_settlement_decision_ecumenical_christian:0 "Ви дотримуєтеся християнської [Concept( 'faith', 'конфесії' )|E] з доктриною [GetFaithDoctrine('special_doctrine_ecumenical_christian')".Getse
  promote_hungarian_settlement_decision_confirm:0 "Рознести звістку!"
@@ -620,12 +620,12 @@
  hungarian_resettlement.every_converted_province:0 "$EFFECT_LIST_BULLET$ Всі, хто звернувся [Concept( 'counties', 'графства' )|E]"
 
  dynasty_of_many_crowns_decision:0 "Династія безлічі корон"
- dynasty_of_many_crowns_decision_desc:1 "Одного разу наша династія правитиме державами по всьому світу. Ми готові на все, щоб ім'я [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] гриміло всюди - і на шлюб, і на війну."
+ dynasty_of_many_crowns_decision_desc:1 "Одного разу наша династія правитиме державами по всьому світу. Ми готові на все, щоб ім‘я [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] гриміло всюди - і на шлюб, і на війну."
  dynasty_of_many_crowns_decision_confirm:1 "Наша спадщина буде вічною!"
  dynasty_of_many_crowns_decision_tooltip:0 "Принести шану і славу [dynasties|El] [ROOT.Char.GetDynasty.GetBaseName]"
 
  found_witch_coven_decision:0 "Заснувати ковен відьом"
- found_witch_coven_decision_desc:0 "Наш славний будинок з'єднують узи крові, розірвати які змогла лише жорстока правда. Я чекаю не дочекаюся того дня, коли нам не доведеться жити в страху, приховуючи істину від близьких. [ROOT.Char.GetFaith.WitchGodName] стане синів і дочок знайомий сили та влади. Ми ж будемо [ROOT.Char.GetFaith.WitchGodHerHim|U] опорою!"
+ found_witch_coven_decision_desc:0 "Наш славний будинок з‘єднують узи крові, розірвати які змогла лише жорстока правда. Я чекаю не дочекаюся того дня, коли нам не доведеться жити в страху, приховуючи істину від близьких. [ROOT.Char.GetFaith.WitchGodName] стане синів і дочок знайомий сили та влади. Ми ж будемо [ROOT.Char.GetFaith.WitchGodHerHim|U] опорою!"
  found_witch_coven_decision_confirm:0 "Заснувати ковен [ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
  found_witch_coven_decision_tooltip:0 "Започаткувати нову сімейну традицію"
  found_witch_coven_decision_effects.children.tt:0 "Всі діти в ковені [founder.GetHouse.GetBaseName], яких навчає персонаж із властивістю [GetTrait('witch').GetName( GetPlayer )], також отримують цю властивість"
@@ -638,56 +638,56 @@
  strengthen_bloodline_decision_tooltip:0 "Створити династію, яка прославиться силою, красою та гостротою розуму"
 
  #UNITE THE WESTERN SLAVS
- unite_the_western_slavs_decision:1 "Об'єднати західних слов'ян"
- unite_the_western_slavs_decision_tooltip:1 "У західних слов'ян має бути єдиний правитель"
+ unite_the_western_slavs_decision:1 "Об‘єднати західних слов‘ян"
+ unite_the_western_slavs_decision_tooltip:1 "У західних слов‘ян має бути єдиний правитель"
  unite_the_western_slavs_decision_desc:0 "Ми прийшли в ці землі як єдиний народ. Час розкидав нас, роздробив на безліч племен. Але чужинці топчуть наші кордони, і настав час відродити колишню єдність."
  unite_the_western_slavs_decision_tt_1:1 "Ваш перший титул - королівство Польща, Померанія, Сорбія, Богемія або Велика Моравія"
  unite_the_western_slavs_decision_tt_2:1 "Ви - імператор, і володієте королівством Польщею, Померанією, Сорбією, Богемією або Великою Моравією"
  unite_the_western_slavs_decision_titles_tt:2 "Ви отримаєте [Concept( 'title', 'титул' )|E] $e_west_slavia$"
- unite_the_western_slavs_decision_titles_empire_tt:2 "Території кожного західнослов'янського [Concept( 'kingdom', 'королівства' )|E] стануть [de_jure|E] володіннями вашого [Concept( 'primary_title', 'першого титулу'"
- unite_the_western_slavs_decision_confirm:1 "Об'єднати західних слов'ян"
+ unite_the_western_slavs_decision_titles_empire_tt:2 "Території кожного західнослов‘янського [Concept( 'kingdom', 'королівства' )|E] стануть [de_jure|E] володіннями вашого [Concept( 'primary_title', 'першого титулу'"
+ unite_the_western_slavs_decision_confirm:1 "Об‘єднати західних слов‘ян"
 
  #UNITE THE SOUTHERN SLAVS
- unite_the_southern_slavs_decision:0 "Об'єднати південних слов'ян"
- unite_the_southern_slavs_decision_tooltip:0 "У південних слов'ян має бути єдиний правитель"
- unite_the_southern_slavs_decision_confirm:0 "Об'єднати південних слов'ян"
- unite_the_southern_slavs_decision_desc:0 "Ми прийшли в ці землі як єдиний народ. Час розметав нас, роздробив на безліч племен.\n\nМогутні імперії з дивними звичаями, що виросли навколо, хочуть підім'яти наш уклад, пожерти нас. Але ми цього не . нам знову об'єднатися."
- unite_the_southern_slavs_decision_titles_tt:1 "Кожне південнослов'янське [kingdom|El], яким ви володієте (але не [primary_title|El]), буде знищено, а відповідні землі стануть [de_jure|El] володіннями вашого першого титулу ([THISG.Tar ])"
+ unite_the_southern_slavs_decision:0 "Об‘єднати південних слов‘ян"
+ unite_the_southern_slavs_decision_tooltip:0 "У південних слов‘ян має бути єдиний правитель"
+ unite_the_southern_slavs_decision_confirm:0 "Об‘єднати південних слов‘ян"
+ unite_the_southern_slavs_decision_desc:0 "Ми прийшли в ці землі як єдиний народ. Час розметав нас, роздробив на безліч племен.\n\nМогутні імперії з дивними звичаями, що виросли навколо, хочуть підім‘яти наш уклад, пожерти нас. Але ми цього не . нам знову об‘єднатися."
+ unite_the_southern_slavs_decision_titles_tt:1 "Кожне південнослов‘янське [kingdom|El], яким ви володієте (але не [primary_title|El]), буде знищено, а відповідні землі стануть [de_jure|El] володіннями вашого першого титулу ([THISG.Tar ])"
 
  #UNITE ALL THE SLAVS
- unite_the_slavs_decision:0 "Об'єднати слов'ян"
- unite_the_slavs_decision_tooltip:0 "Об'єднати слов'янські народи та дати народження Слов'янської [empires|El]"
+ unite_the_slavs_decision:0 "Об‘єднати слов‘ян"
+ unite_the_slavs_decision_tooltip:0 "Об‘єднати слов‘янські народи та дати народження Слов‘янської [empires|El]"
  unite_the_slavs_decision_confirm:0 "Заснувати Славію"
- unite_the_slavs_decision_desc:0 "Якщо всі слов'янські народи об'єднаються, ніхто не посміє нас зупинити. Я створю наймогутнішу імперію, яку тільки знав цей світ!"
- unite_the_slavs_decision_titles_tt:2 "[slavia.GetName] отримає [de_jure|El] права на всі слов'янські [kingdoms|El]"
- unite_the_slavs_decision_effects_innovations_tt:1 "Всі слов'янські культури у вашій державі отримають [innovations|El] (до 3) від інших слов'янських культур"
+ unite_the_slavs_decision_desc:0 "Якщо всі слов‘янські народи об‘єднаються, ніхто не посміє нас зупинити. Я створю наймогутнішу імперію, яку тільки знав цей світ!"
+ unite_the_slavs_decision_titles_tt:2 "[slavia.GetName] отримає [de_jure|El] права на всі слов‘янські [kingdoms|El]"
+ unite_the_slavs_decision_effects_innovations_tt:1 "Всі слов‘янські культури у вашій державі отримають [innovations|El] (до 3) від інших слов‘янських культур"
 
  #DEFENDERS OF HIGHGOD
  defensaers_of_highgod_decision:0 "[ROOT.Char.GetFaith.HighGodName], благослови захисників"
  defensaers_of_highgod_decision_desc:1 "Чужі війська нишпорять по наших кордонах, немовпро зграї голодних вовків. Щоб уберегти давні традиції, мені доведеться заслужити на повагу кланів. Разом ми спорудимо величний палац війни, на славу [ROOT.Char.GetFaith.WarGodNamePossessive]."
  defensaers_of_highgod_decision_confirm:0 "Зміцнити священне місце"
- defensaers_of_highgod_decision_tooltip:0 "Заслужити вірність племен і об'єднатися. [ROOT.Char.GetFaith.GetAdjective], ми не осоромимо ім'я твоє!"
+ defensaers_of_highgod_decision_tooltip:0 "Заслужити вірність племен і об‘єднатися. [ROOT.Char.GetFaith.GetAdjective], ми не осоромимо ім‘я твоє!"
 
- defensaers_of_highgod_decision_effects_holy_site_of_choice:0 "#L [SCOPE.GetRootScope.Char.GetFaith.GetName]ая#! [Concept( 'holy_site', 'святиня' )|E] під вашим контролем"
+ defensaers_of_highgod_decision_effects_holy_site_of_choice:0 "#L [SCOPE.GetRootScope.Char.GetFaith.GetName]а#! [Concept( 'holy_site', 'святиня' )|E] під вашим контролем"
  defenders_of_highgod_decision_effects_holy_warriors_tt:0 "Майже кожен #L [defender_of_highgod.GetFaith.GetName|l]ий#! воїн вашої держави отримає властивість «[GetTrait('holy_warrior').GetName(" GetPlay
 
  #UNITE THE SPANISH THRONES
- unite_the_spanish_thrones_decision:0 "Об'єднати Іспанські престоли"
- unite_the_spanish_thrones_decision_desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] знову об'єднає іспанські престоли під своїм прапором."
- unite_the_spanish_thrones_decision_confirm:0 "Об'єднати Престоли"
- unite_the_spanish_thrones_decision_tooltip:0 "Іспанські престоли знову об'єднаються"
+ unite_the_spanish_thrones_decision:0 "Об‘єднати Іспанські престоли"
+ unite_the_spanish_thrones_decision_desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] знову об‘єднає іспанські престоли під своїм прапором."
+ unite_the_spanish_thrones_decision_confirm:0 "Об‘єднати Престоли"
+ unite_the_spanish_thrones_decision_tooltip:0 "Іспанські престоли знову об‘єднаються"
  unite_the_spanish_thrones_decision_titles_tt:1 "Кожне іспанське [kingdom|El], яким ви володієте (але не [primary_title|El]), буде знищено, а відповідні землі стануть [de_jure|El] володіннями вашого першого титулу ([THIS.Char.Get.Name] ])"
  unite_the_spanish_thrones_decision_primary:0 "Вашим [Concept( 'primary_title', 'першим титулом' )|E] є іберійське [Concept( 'kingdom', 'королівство' )|E]"
 
  #UNITE AFRICA
- unite_africa_decision:0 "Об'єднати Африку"
- unite_africa_decision_tooltip:0 "[ROOT.Char.GetFaith.HighGodName] благословить об'єднання африканських народів"
- unite_africa_decision_confirm:0 "Об'єднати Африку"
- unite_africa_decision_ancestors_desc:0 "Занадто довго нашу милу батьківщину пригнічували загарбники з чужих земель. Пора народам Африки об'єднатися та повернутися на шлях предків."
- unite_africa_decision_spirits_desc:0 "Занадто довго невірні з чужих земель плювали на духів нашої прекрасної батьківщини. [ROOT.Char.GetFaith.HighGodName] велить народам Африки об'єднатися і дати відсіч чужинцям!"
+ unite_africa_decision:0 "Об‘єднати Африку"
+ unite_africa_decision_tooltip:0 "[ROOT.Char.GetFaith.HighGodName] благословить об‘єднання африканських народів"
+ unite_africa_decision_confirm:0 "Об‘єднати Африку"
+ unite_africa_decision_ancestors_desc:0 "Занадто довго нашу милу батьківщину пригнічували загарбники з чужих земель. Пора народам Африки об‘єднатися та повернутися на шлях предків."
+ unite_africa_decision_spirits_desc:0 "Занадто довго невірні з чужих земель плювали на духів нашої прекрасної батьківщини. [ROOT.Char.GetFaith.HighGodName] велить народам Африки об‘єднатися і дати відсіч чужинцям!"
  unite_africa_decision_generic_desc:0 "Народи Африки горді, сильні і хоробри. Але багато хто пішов з істинного шляху і стали поклонятися фальшивим богам. [ROOT.Char.GetFaith.HighGodName] нагадає їм про себе, і ми знову будемо єдині."
  every_non_root_faith_vassal_africa:0 "Кожен #L не[THIS.Char.GetFaith.GetName|l]ий#! [vassal|El] і нижче в Африці"
- every_non_root_faith_county_africa:0 "Кожне #L не[THIS.Char.GetFaith.GetName|l]ое#! графство в Африці"
+ every_non_root_faith_county_africa:0 "Кожне #L не[THIS.Char.GetFaith.GetName|l]е#! графство в Африці"
  every_non_africa_uniter_faith_convert:1 "Приймає [africa_uniter.GetFaith.GetAdjective|l]"
 
  #AVENGE THE BATTLE OF TOURS
@@ -697,7 +697,7 @@
  avenge_the_battle_of_tours_decision_tooltip:0 "Пройти Дорогий мучеників і виправити помилки минулого"
  every_non_avenger_faith_convert:1 "Приймає [avenger.GetFaith.GetAdjective|l]"
  every_non_root_faith_vassal_west_europe:0 "Кожен #L не[THIS.Char.GetFaith.GetName|l]ий#! васал і нижче в Західній Європі"
- every_non_root_faith_county_west_europe:1 "Кожне #L не[THIS.Char.GetFaith.GetName|l]ое#! графство вашої держави в Західній Європі"
+ every_non_root_faith_county_west_europe:1 "Кожне #L не[THIS.Char.GetFaith.GetName|l]е#! графство вашої держави в Західній Європі"
 
  #FORM PORTUGAL
  form_portugal_decision:0 "Створити Португалію"
@@ -713,7 +713,7 @@
 
  #Form custom kingdom or empire
  found_kingdom_decision:1 "Заснувати нове королівство"
- found_kingdom_decision_desc:0 "Я об'єднаю державу під новим королівським титулом, і вона навіки належатиме моєї династії."
+ found_kingdom_decision_desc:0 "Я об‘єднаю державу під новим королівським титулом, і вона навіки належатиме моєї династії."
  found_kingdom_decision_confirm:0 "Створити державу"
  found_kingdom_decision_tooltip:0 "Створити абсолютно новий титул королівства"
  found_empire_decision:1 "Заснувати нову імперію"
@@ -731,7 +731,7 @@
 
  #Guest decisions
  invite_knights_decision:1 "$knight_culture_player_plural_no_tooltip$ - запросити"
- invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю храбреців для оборони моїх кордонів і завоювання нових $. knight_culture_player_plural_no_tooltip_lowercase$."
+ invite_knights_decision_desc:1 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вимагає гідного захисту, і я як [ROOT.Char.GetTitleAsNameNoTooltip|l] шукаю сміливців для оборони моїх кордонів та завоювання нових земель. Відправлю глашата з звісткою, що мені потрібні досвідчені $knight_culture_player_plural_no_tooltip_lowercase$."
  invite_knights_decision.men.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! #! і вище"
  invite_knights_decision.women.tt:0 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! міцних жінок, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12 #! і вище"
  invite_knights_decision.warriors.tt:1 "Найближчими місяцями до двору прибудуть [guests|El]. Не менше #P 3#! воїнів, чий показник [Concept( 'prowess', 'доблесті' )|E] від #V 12# ! і вище."
@@ -765,7 +765,7 @@
  minor_decisions.0003.desc.criminal_bridge:0 "\n\nНехай [barrel_character.GetSheHe], як було доведено, [Select_CString(barrel_character.IsFemale, 'зрадниця', 'зрадник' )],"
  minor_decisions.0003.desc.bridge_1:0 "\n\nНезважаючи на [barrel_character.GetHerHis] стан,"
  minor_decisions.0003.desc.bride_2:0 "Мені стало відомо, що [barrel_character.GetSheHe] чудово розуміється"
- minor_decisions.0003.desc.educated:0 "у вчених питаннях. Чи жарт - незважаючи на дуже низьке становище, [barrel_character.GetSheHe] якимось дивом [Select_CString(barrel_character.IsFemale, 'навчився', 'навчився')] грамоті. Мені здається, [barrel_character.GetNameNoTooltip] може чудово проявити себе у питаннях релігії, охорони здоров'я та науки."
+ minor_decisions.0003.desc.educated:0 "у вчених питаннях. Чи жарт - незважаючи на дуже низьке становище, [barrel_character.GetSheHe] якимось дивом [Select_CString(barrel_character.IsFemale, 'навчився', 'навчився')] грамоті. Мені здається, [barrel_character.GetNameNoTooltip] може чудово проявити себе у питаннях релігії, охорони здоров‘я та науки."
  minor_decisions.0003.desc.cunning:0 "в найрізноманітніших махінаціях і живе тим, що обчищає місцевих жителів до останнього гроша. У тому, що [barrel_character.GetHerHis] хитромудрості та спритним рукам знайдеться місце при моєму дворі, сумнівів немає. все, що говорять при дворі, і карає кожного, хто задумає погане проти монарха.
  minor_decisions.0003.desc.charismatic:1 "в дипломатії і знає [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] мову так, що будь-який дворянин позеленіє від заздрощів! [barrel_character.GetHerHis|U] , привернуть увагу чужоземної знаті, що гостить у мене при дворі."
  minor_decisions.0003.desc.organised:0 "в торгівлі і розуміє, як працюють гроші, куди краще, ніж належить простим селянам. Безсумнівно, [Select_CString(barrel_character.IsFemale, 'цієї жінці', 'цьому чоловікові' )] не місце серед худорлявих, і [ROOT.Char.GetFaith.HighGod.IsFemale, 'сама', 'сам' )] [ROOT.Char.GetFaith.HighGodName] велить дарувати [barrel_character.GetHerHim] дворянське звання і призначити на прид.
@@ -806,10 +806,10 @@
 
  #Adopt Special Succession decision
  adopt_special_succession_decision:0 "Прийняти особливий тип спадкування"
- adopt_special_succession_decision_desc:0 "Розділ при спадкуванні робить нас слабкими і роз'єднаними. Можливо, знати держави прийме споконвічну альтернативу..."
+ adopt_special_succession_decision_desc:0 "Розділ при спадкуванні робить нас слабкими і роз‘єднаними. Можливо, знати держави прийме споконвічну альтернативу..."
  adopt_special_succession_decision_confirm:0 "Подумати про це"
  adopt_special_succession_decision_tooltip:0 "Замінює принцип розділу на місцеве виборне $game_concept_succession$"
- adopt_special_succession_decision_effects.tt:1 "Ви можете вибрати одну з форм традиційного виборного [Concept( 'succession', 'спадкування' )|E] залежно від вашої [Concept( 'culture', 'культури' )|E]. \n$ EFFECT_LIST_BULLET$ Новий тип успадкування будуть використовувати всі ваші [titles|El] вищого [Concept( 'rank', 'рангу' )|E], що використовують [succession|El] з розділом"
+ adopt_special_succession_decision_effects.tt:1 "Ви можете вибрати одну із форм традиційного виборного [Concept( 'succession', 'успадкування' )|E] залежно від вашої [Concept( 'culture', 'культури' )|E]. \n$EFFECT_LIST_BULLET$ Новий тип успадкування будуть використовувати всі ваші [titles|El] вищого [Concept( 'rank', 'рангу' )|E], що використовують [succession|El] з розділом"
  implemented_traditional_succession_law_opinion:0 "Прийнятий традиційний закон про спадкування"
  found_kingdom_decision_advanced_succesion:0 "Немає просунутого закону про спадкування"
  found_kingdom_decision_elective_succesion:0 "Немає закону про виборне успадкування"
@@ -818,13 +818,13 @@
  establish_norman_culture_decision:0 "Створити нормандську культуру"
  establish_norman_culture_decision_desc:0 "Наші старі традиції не годяться для нової батьківщини. Ми маємо звернути погляд на місцевих та подивитися, чому можна у них навчитися."
  establish_norman_culture_decision_confirm:0 "Нормандія височить!"
- establish_norman_culture_decision_tooltip:0 "Об'єднати нашу скандинавську культуру з місцевою французькою"
+ establish_norman_culture_decision_tooltip:0 "Об‘єднати нашу скандинавську культуру з місцевою французькою"
  establish_norman_culture_decision_effect.tt:0 "Всі графства та персонажі з #L [old_culture_1.GetCollectiveNoun|l]ой#! та #L [old_culture_2.GetCollectiveNoun|l]ой#! культурою в північній Франції отримають #L [new_culture. ую#! культуру"
  establish_norman_culture_decision_effect.tt.2:0 "[normandy_title.GetName] тепер називається $d_normandy$"
 
  # Found the Kingdom of Aragon
  form_the_kingdom_of_aragon_decision:0 "Створити королівство Арагон"
- form_the_kingdom_of_aragon_decision_desc:1 "Діти великої річки Ебро довгі століття жили під п'ятою чужинців. Римлян, вестготів, франків, арабів. Вони гнуть спини на чужоземних загарбників, що правлять ними з чужих столиць, а своя власна земля їм навіть не належить. почав вимагати свого власного королівства.
+ form_the_kingdom_of_aragon_decision_desc:1 "Діти великої річки Ебро довгі століття жили під п‘ятою чужинців. Римлян, вестготів, франків, арабів. Вони гнуть спини на чужоземних загарбників, що правлять ними з чужих столиць, а своя власна земля їм навіть не належить. почав вимагати свого власного королівства.
  form_the_kingdom_of_aragon_decision_confirm:0 "Наш дім, наше королівство!"
  form_the_kingdom_of_aragon_decision_tooltip:0 "Створити королівство Арагон"
  form_the_kingdom_of_aragon_decision.tt.form_aragonese:0 "Ви зможете вибрати, чи копіювати [Concept( 'culture_pillars', 'стовпи культури' )|E] з #L [founder_culture.GetCollectiveNoun|l]ой#! культури в #L [aragones |l]ую#!."
@@ -856,9 +856,9 @@
  secede_from_empire_decision_effect_tooltip:0 "Деякі зі старих боргів вашого сюзерена будуть скасовані"
  secede_from_empire_decision_trigger_debt:0 "[CHARACTER.GetTitledFirstName] більше 25 років не може розплатитися з боргами"
  secede_from_empire_decision_trigger_war:0 "[CHARACTER.GetTitledFirstName] вже більше 25 років веде одну наступальну війну"
- secede_from_empire_decision_confirm:0 "Ваше здоров'я!"
+ secede_from_empire_decision_confirm:0 "Ваше здоров‘я!"
  secede_from_empire_decision_notification:0 "[ROOT.Char.GetTitledFirstName] отримує незалежність"
- secede_from_empire_decision_notification_tt:0 "Це сталося через мій колосальний обов'язок"
+ secede_from_empire_decision_notification_tt:0 "Це сталося через мій колосальний обов‘язок"
  secede_from_empire_decision_debug:0 "[ROOT.Char.GetPrimaryTitle.GetNmae] виходить зі складу держави [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTooltip], знижуючи борг на [debt_cleared.GetValue
 
  #DECISIONS TO "USE" YOUR STRESS COPING TRAITS TO LOSE STRESS
@@ -866,9 +866,9 @@
  stress_loss_drunkard_decision_desc:0 "Дух товариства, що зароджується в компанії інших любителів випивки, спокій, що породжується туманом у голові... Настав час закотити гулянку!"
  stress_loss_drunkard_decision_tooltip:0 "Розслабитися і позбутися стресу"
  stress_loss_drunkard_decision_effect_tooltip:1 "Рівень вашого [Concept( 'stress', 'стреса' )|E] знизиться"
- stress_loss_drunkard_decision_confirm:0 "Ваше здоров'я!"
+ stress_loss_drunkard_decision_confirm:0 "Ваше здоров‘я!"
 
- stress_loss_hashishiyah_decision:1 "З'їсти пироги з гашишем"
+ stress_loss_hashishiyah_decision:1 "З‘їсти пироги з гашишем"
  stress_loss_hashishiyah_decision_desc:1 "Усього пара шматочків, і напруга залишає моє тіло. Розум затуманюється, і мене охоплює відчуття спокою і безтурботності. Ніщо так не розслаблює, як хороший гашиш!"
  stress_loss_hashishiyah_decision_tooltip:1 "Нехай ваш стрес розчиниться в наркотичному тумані"
  stress_loss_hashishiyah_decision_confirm:1 "Принесіть тарілку!"
@@ -1035,7 +1035,7 @@
  court_amenities_interactions.0010.desc.flag_head_dress:0 "[actor.GetSheHe|U] [Select_CString(actor.IsFemale, 'наділу', 'наділ' )] традиційний головний убір набік, ніби в глузування з #L [actor.GetCul |l]ой#! культурою,"
  court_amenities_interactions.0010.desc.flag_gold_boots:0 "[actor.GetSheHe|U] важко [Select_CString(actor.IsFemale, 'прошагала', 'прошагал' )] по залу, так що всі відчули, як здригається[ ]. Адже на ноги [actor.GetSheHe] одягнув непідйомні металеві черевики із золотими візерунками"
  court_amenities_interactions.0010.desc.flag_sleeveless:0 "[actor.GetSheHe|U] [Select_CString(actor.IsFemale, 'відрізала', 'відрізав' )] рукава у розкішного одягу"
- court_amenities_interactions.0010.desc.flag_commoner_clothes:0 "[actor.GetSheHe|U] [Select_CString(actor.IsFemale, 'увійшла', 'увійшов' )] в ганчір'я [Select_CString(actor.IsFemale, 'худород') ')]"
+ court_amenities_interactions.0010.desc.flag_commoner_clothes:0 "[actor.GetSheHe|U] [Select_CString(actor.IsFemale, 'увійшла', 'увійшов' )] в ганчір‘я [Select_CString(actor.IsFemale, 'худород') ')]"
  court_amenities_interactions.0010.desc_outro:0 "і [Select_CString(actor.IsFemale, 'посмела', 'посмел' )] оголосити це останнім писком моди в нашій державі!
  court_amenities_interactions.0010.a_flag_big_collar:0 "Ти [Select_CString(actor.IsFemale, 'схожа', 'схожий' )] на птицю, яка проковтнула тарілку!»"
  court_amenities_interactions.0010.a:0 "Гей! #EMP Що#! це на тобі?"
@@ -1094,7 +1094,7 @@
 
  mozarabic_bind_the_faith_to_rome_decision_desc:0 "Хоча [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] залишається нашим істинним Папою, відірваність від намісника Христового спотворила нашу віру. nАле ми ще маємо шлях назад, якщо наша віра збилася з дороги, чи не зможе сильний пастир повернути її назад у стадо?"
 
- mozarabic_bind_the_faith_to_rome_decision_tooltip:0 "Нехай #L [ROOT.Char.GetFaith.GetName|l]ая#! [Concept( 'faith', 'конфесія' )|E] і [ROOT.Char.GetFaith.GetReligio ] знову з'єднаються"
+ mozarabic_bind_the_faith_to_rome_decision_tooltip:0 "Нехай #L [ROOT.Char.GetFaith.GetName|l]а#! [Concept( 'faith', 'конфесія' )|E] і [ROOT.Char.GetFaith.GetReligio ] знову з‘єднаються"
  mozarabic_bind_the_faith_to_rome_decision_confirm:0 "Наше місце — разом з іншими християнами."
  mozarabic_bind_the_faith_to_rome_decision.tt.hof_and_ecumenism_warning:0 "У вашої віри збережеться [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName|l], але| [Concept( 'head_of_faith', 'глава конфесії' )|E]"
  mozarabic_bind_the_faith_to_rome_decision.path_righteous:0 "Якщо ми реформуємо нашу [Concept( 'faith', 'конфесію' )|E] так, щоб підвищити свою $doctrine_pluralism_righteous_name$"
@@ -1110,7 +1110,7 @@
 
  mozarabic_break_with_rome_decision_tooltip:0 "[ROOT.Char.GetFaith.GetAdjective] та [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetAdjective|l] розійдуться в результаті розколу"
  mozarabic_break_with_rome_decision_confirm:0 "Праведний та богоугодний шлях!"
- mozarabic_break_with_rome_decision.tt.hof_and_ecumenism_warning:0 "У вас з'явиться новий #L [religious_leader.GetFaith.GetName|l]ий#! [Concept( 'head_of_faith', 'глава конфесії' )|E], але доктрину «[GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]»"
+ mozarabic_break_with_rome_decision.tt.hof_and_ecumenism_warning:0 "У вас з‘явиться новий #L [religious_leader.GetFaith.GetName|l]ий#! [Concept( 'head_of_faith', 'глава конфесії' )|E], але доктрину «[GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]»"
  mozarabic_break_with_rome_decision.path_righteous:0 "$mozarabic_bind_the_faith_to_rome_decision.path_righteous$"
  mozarabic_break_with_rome_decision.path_fundamentalist:0 "$mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist$"
  mozarabic_break_with_rome_decision.path_pluralist:0 "$mozarabic_bind_the_faith_to_rome_decision.path_pluralist$"
@@ -1138,10 +1138,10 @@
  fp2_champion_of_the_old_ways_modifier_desc:0 "Цей персонаж вважається захисником всього святого і доброчесного в його вірі."
 
  eat_cheese_decision:0 "Настав час є сир"
- eat_cheese_decision_desc:0 "Ви з'їдаєте свій зрілий сир."
- eat_cheese_decision_tooltip:0 "Ваш сир дозрів, і тепер його можна з'їсти."
- eat_cheese_decision_confirm:0 "З'їсти сир"
- eat_cheese_effect_tt:0 "Чим довше визрівав сир, тим сильніше знизиться ваш рівень стресу, коли ви його з'їсте."
+ eat_cheese_decision_desc:0 "Ви з‘їдаєте свій зрілий сир."
+ eat_cheese_decision_tooltip:0 "Ваш сир дозрів, і тепер його можна з‘їсти."
+ eat_cheese_decision_confirm:0 "З‘їсти сир"
+ eat_cheese_effect_tt:0 "Чим довше визрівав сир, тим сильніше знизиться ваш рівень стресу, коли ви його з‘їсте."
 
  golden_age_jewish_science_in_iberia_decision:0 "Підтримати єврейських учених"
  golden_age_jewish_science_in_iberia_decision_desc:0 "В Іберії проживає безліч вчених з усього світу. Виділивши трохи коштів, ми могли б дати початок новій епосі пізнань, створити центр культури та обміну знаннями, рівного якому не буде ще борги десятиліття."
@@ -1152,7 +1152,7 @@
  golden_age_jewish_science_in_iberia_decision.player_notif.t:0 "Почалося золоте століття"
 
  build_holy_pilgrim_roads_decision:0 "Побудувати дороги для паломників"
- build_holy_pilgrim_roads_decision_desc:0 "Паломництво неможливе, якщо до священних місць немає доріг, тому ми, [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l], зобов'язані збудувати дороги, що ведуть до наших головних святинь."
+ build_holy_pilgrim_roads_decision_desc:0 "Паломництво неможливе, якщо до священних місць немає доріг, тому ми, [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|l], зобов‘язані збудувати дороги, що ведуть до наших головних святинь."
  build_holy_pilgrim_roads_decision_tooltip:0 "Побудувати дороги до священного місця під вашим контролем"
  build_holy_pilgrim_roads_decision_confirm:0 "Підтримати будівництво"
  build_holy_pilgrim_roads_decision_hardcoded_trigger_text.a:0 "У вашій [Concept( 'realm', 'державі' )|E] є [Concept( 'holy_site', 'священне місце' )|E] без [Concept( 'modifier'', ' |E] на дороги для паломників"

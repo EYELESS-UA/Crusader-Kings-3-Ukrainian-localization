@@ -9,7 +9,7 @@
  GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III — масштабна стратегічна гра про династії та придворні інтриги!"
  GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "Якщо ви поки що незнайомі зі світом Crusader Kings, настійно радимо пройти навчання."
  GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER:0 "У режимі навчання вашим альтер его стане $bookmark_rags_to_riches_petty_king_murchad$ - правитель Ірландії. Станьте на чолі роду та династії, ламайте ворогів і зійдіть на престол короля Ірландії!"
- GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Пройти навчання грі під ім'ям «$bookmark_rags_to_riches_petty_king_murchad$»"
+ GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Пройти навчання грі під ім‘ям «$bookmark_rags_to_riches_petty_king_murchad$»"
 
  GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "Можливо, пізніше"
  GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"

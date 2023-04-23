@@ -13,7 +13,7 @@
  CHARACTERS_OF_FAITH_MODIFIER_SUBHEADER:0 "#S Всі [FAITH.GetAdherentNamePlural|l]:#!"
  CHARACTERS_OF_UNKNOWN_FAITH_MODIFIER:0 "#T Усі послідовники:#!"
  CHARACTERS_OF_UNKNOWN_FAITH_MODIFIER_SUBHEADER:0 "#S Усі послідовники:#!"
- CLERGY_OF_FAITH_MODIFIER:0 "#T Все #L [FAITH.GetName|l]ое#! [clergy|El]:#!"
+ CLERGY_OF_FAITH_MODIFIER:0 "#T Все #L [FAITH.GetName|l]е#! [clergy|El]:#!"
  CLERGY_OF_UNKNOWN_FAITH_MODIFIER:0 "#T Все [Concept( 'clergy', 'духовенство' )|E] конфесії:#!"
  CHARACTERS_OF_FAITH_HOLY_SITE_MODIFIER:0 "#S Всі [FAITH.GetAdherentNamePlural|l]:#!"
  DOCTRINE_ADD_VIRTUE:0 "$EFFECT_LIST_BULLET$ Робить «[TRAIT.GetName( GetPlayer )]» [Concept( 'virtue', 'чесноти' )|E]\n"
@@ -42,11 +42,11 @@
  fervor_gain_chakravarti:0 "Проголошено Чакраварті"
  fervor_gain_almohads:0 "Сходження Альмохадів"
  fervor_gain_holy_order_founded:0 "Заснований новий священний орден"
- fervor_gain_united_africa:0 "Африка об'єднана"
+ fervor_gain_united_africa:0 "Африка об‘єднана"
  fervor_loss_ruler_converted:0 "Правитель змінив конфесію"
  fervor_gain_avenged_battle_of_tours:0 "Битва при Пуатьє помщена"
  fervor_loss_avenged_battle_of_tours:0 "$fervor_gain_avenged_battle_of_tours$"
- fervor_gain_saoshyant:0 "Явлення Саош'янта"
+ fervor_gain_saoshyant:0 "Явлення Саош‘янта"
  fervor_loss_theology_doctrine_change:0 "Нова догма"
  fervor_gain_mended_schism:0 "Викорінено розкол"
  fervor_loss_mended_schism:0 "Екуменістична конфесія оголошена єрессю"
@@ -75,7 +75,7 @@
  fervor_gain_new_heresy:0 "Народження [heretic_faith.GetNameNoTooltip|l]ой брехні"
  fervor_gain_defector_heresy:0 "$fervor_gain_new_heresy$"
  fervor_gain_persecuted:0 "Обурення у відповідь на переслідування"
- fervor_gain_theravada:0 "#L [theravada_faith.GetName]ие#! релігійні реформи"
+ fervor_gain_theravada:0 "#L [theravada_faith.GetName]і#! релігійні реформи"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 
@@ -595,7 +595,7 @@
 
  doctrine_homosexuality_name:1 "Одностатеві стосунки"
  doctrine_homosexuality_crime_name:1 "Злочин"
- doctrine_homosexuality_crime_desc:0 "Гріхові бажання содомітів несуть загрозу самому суспільству. Цих людей слід карати і відправляти у в'язницю за їхні гріхи."
+ doctrine_homosexuality_crime_desc:0 "Гріхові бажання содомітів несуть загрозу самому суспільству. Цих людей слід карати і відправляти у в‘язницю за їхні гріхи."
  doctrine_homosexuality_shunned_name:1 "Достойні осуду"
  doctrine_homosexuality_shunned_desc:0 "Це неприродно, коли двоє чоловіків разом віддаються тілесним втіхам, - за будь-яких обставин."
  doctrine_homosexuality_accepted_name:1 "Прийнятні"
@@ -644,7 +644,7 @@
  
  doctrine_marriage_type_name:0 "Тип шлюбу"
  doctrine_monogamy_name:0 "Моногамія"
- doctrine_monogamy_desc:0 "Шлюб — це священне єднання двох. Спроба утворити подібний зв'язок між декількома — святотатство."
+ doctrine_monogamy_desc:0 "Шлюб — це священне єднання двох. Спроба утворити подібний зв‘язок між декількома — святотатство."
  doctrine_polygamy_name:0 "Полігамія"
  doctrine_polygamy_desc:0 "Оскільки шлюб священний, кілька шлюбів, безумовно, куди священніше одного, якщо кожен з них священий сам по собі."
  doctrine_concubines_name:1 "Консорти"
@@ -726,7 +726,7 @@
  
  doctrine_kinslaying_name:0 "Братовбивство"
  doctrine_kinslaying_any_dynasty_member_crime_name:0 "Не можна чіпати династію"
- doctrine_kinslaying_any_dynasty_member_crime_desc:0 "Всі родичі пов'язані кров'ю, і вбивство навіть найдальшого з них вважається страшним злочином проти всієї династії. Подібну провину не можна забути."
+ doctrine_kinslaying_any_dynasty_member_crime_desc:0 "Всі родичі пов‘язані кров‘ю, і вбивство навіть найдальшого з них вважається страшним злочином проти всієї династії. Подібну провину не можна забути."
  doctrine_parameter_kinslaying_any_dynasty_member_crime:0 "[kinslayers|E], що мають [trait|El] «[GetTrait('kinslayer_1').GetName( GetPlayer )]» або гірше, — [criminals|El] в очах своєї [dynasties
  doctrine_parameter_kinslaying_extended_family_crime:0 "[kinslayers|E], що мають [trait|El] «[GetTrait('kinslayer_2').GetName( GetPlayer )]» або гірше, — [criminals|El] в очах своєї [dynasties|
  doctrine_parameter_kinslaying_close_kin_crime:0 "[kinslayers|E], що мають [trait|El] «[GetTrait('kinslayer_3').GetName( GetPlayer )]» або гірше, — [criminals|El] в очах своєї [dynasties|El]"
@@ -735,7 +735,7 @@
  doctrine_parameter_kinslaying_shunned:0 "[kinslayers|E] — [shunned|El]"
  doctrine_parameter_kinslaying_accepted:0 "Персонажі, що вбили родича, не сприймаються як [kinslayers|El]"
  doctrine_kinslaying_extended_family_crime_name:0 "Заборонено вбивати рідню"
- doctrine_kinslaying_extended_family_crime_desc:0 "Вбивство члена власної сім'ї - один з найбільш мерзенних злочинів. Кожен, хто вчинив подібне, понесе суворе покарання."
+ doctrine_kinslaying_extended_family_crime_desc:0 "Вбивство члена власної сім‘ї - один з найбільш мерзенних злочинів. Кожен, хто вчинив подібне, понесе суворе покарання."
  doctrine_kinslaying_close_kin_crime_name:0 "Не можна вбивати близьких"
  doctrine_kinslaying_close_kin_crime_desc:0 "Фратрицид і подібні йому діяння не можна терпіти у справедливому і порядному суспільстві. Ті, що вчинили подібне, будуть покарані."
  doctrine_kinslaying_shunned_name:0 "Достойно осуду"
@@ -745,7 +745,7 @@
  kinslayer_crime_dynasty:0 "Братовбивця"
  
  doctrine_consanguinity_name:0 "Кровозмішування"
- doctrine_consanguinity_restricted_name:0 "Заборона зв'язків із родичами"
+ doctrine_consanguinity_restricted_name:0 "Заборона зв‘язків із родичами"
  doctrine_consanguinity_restricted_desc:0 "[ROOT.Faith.HighGodName] не потерпить, щоб двоє родичів брали шлюб або вдавалися до плотських втіх."
  doctrine_parameter_consanguinity_restricted_marriage:0 "[extended_family_members|E] та/або [close_family_members|El] не можуть одружуватися"
  doctrine_parameter_consanguinity_restricted_close_kin_incest:0 "[extended_family_members|E] та/або [close_family_members|El], віддавшись тілесним втіхам, отримають [secret|El] «Інцест»"
@@ -754,13 +754,13 @@
  doctrine_parameter_consanguinity_cousins_marriage:0 "Шлюби між кузенами дозволені"
  doctrine_parameter_consanguinity_cousins_incest:0 "Плотська любов між кузенами не додає [Concept( 'secret', 'секрету' )|E] "Інцест""
  doctrine_consanguinity_aunt_nephew_and_uncle_niece_name:0 "Авункулат"
- doctrine_consanguinity_aunt_nephew_and_uncle_niece_desc:0 "За відсутності прямої спорідненості члени сім'ї можуть одружуватися заради інтересів династії."
+ doctrine_consanguinity_aunt_nephew_and_uncle_niece_desc:0 "За відсутності прямої спорідненості члени сім‘ї можуть одружуватися заради інтересів династії."
  doctrine_parameter_consanguinity_aunt_nephew_and_uncle_niece_marriage:0 "Шлюби між кузенами, тітками/племінниками та дядьками/племінницями дозволені"
  doctrine_parameter_consanguinity_aunt_nephew_and_uncle_niece_incest:0 "Плотське кохання між кузенами тітями/племінниками і дядьками/племінницями не додає [Concept( 'secret', 'секрета' )|E] «Інцест»"
  doctrine_consanguinity_unrestricted_name:0 "Шлюби без обмежень"
- doctrine_consanguinity_unrestricted_desc:0 "Любов між членами сім'ї є свідченням нормальної, здорової сім'ї. Тільки дурні будуть стверджувати, що любов духовна не повинна переходити до плотської."
- doctrine_parameter_consanguinity_unrestricted_marriage:0 "Шлюби між будь-якими членами сім'ї дозволені"
- doctrine_parameter_consanguinity_unrestricted_incest:0 "Плотська любов між членами сім'ї не додадуть [Concept( 'secret', 'секрету' )|E] "Інцест""
+ doctrine_consanguinity_unrestricted_desc:0 "Любов між членами сім‘ї є свідченням нормальної, здорової сім‘ї. Тільки дурні будуть стверджувати, що любов духовна не повинна переходити до плотської."
+ doctrine_parameter_consanguinity_unrestricted_marriage:0 "Шлюби між будь-якими членами сім‘ї дозволені"
+ doctrine_parameter_consanguinity_unrestricted_incest:0 "Плотська любов між членами сім‘ї не додадуть [Concept( 'secret', 'секрету' )|E] "Інцест""
  #The following 3 strings intentionally left blank:
  doctrine_parameter_allows_cousin_marriage:0 ""
  doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage:0 ""
@@ -829,7 +829,7 @@
  doctrine_clerical_succession_spiritual_appointment_name:0 "Духовні, що змінюються"
  doctrine_clerical_succession_spiritual_appointment_desc:0 "Хоча їх і обирає [ROOT.Faith.AltPriestTermPlural], непридатні [ROOT.Faith.BishopNeuterPlural] все одно можуть бути звільнені світськими правителями."
  doctrine_clerical_succession_temporal_fixed_appointment_name:0 "Світські, довічні"
- doctrine_clerical_succession_temporal_fixed_appointment_desc:0 "Хоча [ROOT.Faith.BishopNeuterPlural] і призначаються правителем, їх обов'язки є священними і недоторканними, і тому їх призначення не можна скасувати."
+ doctrine_clerical_succession_temporal_fixed_appointment_desc:0 "Хоча [ROOT.Faith.BishopNeuterPlural] і призначаються правителем, їх обов‘язки є священними і недоторканними, і тому їх призначення не можна скасувати."
  doctrine_clerical_succession_spiritual_fixed_appointment_name:0 "Духовні, довічні"
  doctrine_clerical_succession_spiritual_fixed_appointment_desc:0 "[ROOT.Faith.BishopNeuterPlural|U] служать божественної волі і є її представниками, і, коли [ROOT.Faith.AltPriestTermPlural] обирає кандидата на посаду, це на".
  doctrine_parameter_clerical_appointment_ruler:0 "[rulers|E] самі призначають своїх [Concept( 'realm_priest', 'священиків держави' )|El] або [Concept( 'court_chaplain', 'придворних капеланів' )|El]"
@@ -877,7 +877,7 @@
 
  special_doctrine_is_eastern_faith_name:0 "Сплетення релігій"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
- special_doctrine_is_eastern_faith_desc:0 "Нас об'єднує не одна релігія - духовне життя нашого суспільства виткана з безлічі конфесій. Ми можемо називатися різними іменами і йти різними шляхами, які, часом, відводять далеко від наших власних вірувань, але ми навчилися сос."
+ special_doctrine_is_eastern_faith_desc:0 "Нас об‘єднує не одна релігія - духовне життя нашого суспільства виткана з безлічі конфесій. Ми можемо називатися різними іменами і йти різними шляхами, які, часом, відводять далеко від наших власних вірувань, але ми навчилися сос."
  doctrine_parameter_hostility_override_tenet_eastern_syncretism:0 "Несхідні [faiths|El] з догматом «$tenet_eastern_syncretism_name$» сприймаються як [GetHostilityLevelName( TOKEN_PARAMETER.GeInv|
 
  special_doctrine_is_gnostic_faith_name:0 "$tenet_gnosticism_name$"
@@ -916,8 +916,8 @@
  religionname_creator_sheheit:0 "#D вона/він/воно#!"
  religionname_creator_herhisits:0 "#D її/його/його#!"
  religionname_creator_herhim:0 "#D їй/йому#!"
- religionname_healthgod_name:0 "#D бог здоров'я#!"
- religionname_healthgod_namepossessive:0 "#D бога здоров'я#!"
+ religionname_healthgod_name:0 "#D бог здоров‘я#!"
+ religionname_healthgod_namepossessive:0 "#D бога здоров‘я#!"
  religionname_healthgod_sheheit:0 "#D вона/він/воно#!"
  religionname_healthgod_herhisits:0 "#D її/його/його#!"
  religionname_healthgod_herhim:0 "#D їй/йому#!"

@@ -4,24 +4,24 @@
  marriage_interaction.0001.desc.betrothedtobetrothed:0 "наші заручини розірвані."
  marriage_interaction.0001.desc.betrothedtoliege:0 "[Select_CString(rejected_betrothed.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rejected_betrothed') GetTitledFirstName] і я більше не заручені."
  marriage_interaction.0001.desc.liegetobetrothed:0 "[Select_CString(rejecting_betrothed.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] ] і ви більше не заручені."
- marriage_interaction.0001.desc.end:0 "Я розумію, що таке рішення може призвести до ряду складнощів, але щиро сподіваюся, що це не зашкодить стосункам між нашими сім'ями."
+ marriage_interaction.0001.desc.end:0 "Я розумію, що таке рішення може призвести до ряду складнощів, але щиро сподіваюся, що це не зашкодить стосункам між нашими сім‘ями."
  marriage_interaction.0001.a:0 "Страшна образа..."
 
  marriage_interaction.0002.desc:0 "[actor.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] [Select_CString(rejecting_betrothed.IsFemale, 'моя', 'мій' )] [rejecting_betrothed. n\nЦим повідомляю, що [rejected_betrothed.GetTitledFirstName] і ви не вступите в шлюб, оскільки це суперечить вашим інтересам та інтересам нашої династії. Таким чином, я розірваю ваші заручини." #<TO_REMOVE>
  marriage_interaction.0002.a:0 "На жаль." #<TO_REMOVE>
 
 #Timeout notification when you are in charge of the betrothal of someone else
- marriage_interaction.0004.t:0 "Зів'яне заручини"
+ marriage_interaction.0004.t:0 "Зів‘яне заручини"
  marriage_interaction.0004.desc:0 "Були досягнуті всі необхідні угоди, все було готове, поки не настав час укласти шлюб. Враховуючи, що обидві сторони спокійно вдають, що жодної угоди не було, навряд чи [betrothed_1.GetTitledFirstName] і [betrothed_2 .GetTitledFirstName] коли-небудь одружаться."
  marriage_interaction.0004.a:0 "Так буде краще."
 
 #Timeout notification for a betrothed when someone else is in charge of marrying them
- marriage_interaction.0005.t:0 "Зів'яне заручини"
+ marriage_interaction.0005.t:0 "Зів‘яне заручини"
  marriage_interaction.0005.desc:0 "Незважаючи на переговори та приготування, схоже, я і [Select_CString(other_betrother.IsFemale, 'моя наречена', 'мій наречений' )] [other_betrothed.GetTitledFirstName] ніколи не за ним обумовлений шлюб, жодна із сторін не робить нічого, щоб виконати договір."
  marriage_interaction.0005.a:0 "Яка партія чекає на мене тепер?.."
 
 #Timeout notification for someone in charge of their own betrothal
- marriage_interaction.0006.t:0 "Зів'яне заручини"
+ marriage_interaction.0006.t:0 "Зів‘яне заручини"
  marriage_interaction.0006.desc:0 "Незважаючи на переговори та приготування, схоже, що я і [Select_CString(other_betrother.IsFemale, 'моя наречена', 'мій наречений' )] [other_betrothed.GetTitledFirstName] ніколи не похоче. укласти умовлений шлюб, жодна із сторін не робить нічого, щоб виконати договір."
  marriage_interaction.0006.a:0 "І з ким я тоді одружуся?"
 

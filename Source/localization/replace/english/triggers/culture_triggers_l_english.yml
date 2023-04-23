@@ -1,12 +1,12 @@
 ﻿l_english:
 
  HAS_INNOVATION_THIRD:0 "#L [CULTURE.GetCollectiveNoun]ой#! культурі знайома інновація [INNOVATION.GetName]"
- NOT_HAS_INNOVATION_THIRD:0 "#L [CULTURE.GetCollectiveNoun]ая#! культура #bold не#! знайома з інновацією [INNOVATION.GetName]"
+ NOT_HAS_INNOVATION_THIRD:0 "#L [CULTURE.GetCollectiveNoun]а#! культура #bold не#! знайома з інновацією [INNOVATION.GetName]"
 
  MUST_BE_UNLOCKED_BY_DECISION:0 "Необхідно розблокувати рішенням"
 
- HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура досягла епохи $ERA$"
- NOT_HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура #bold не#! досягла епохи $ERA$"
+ HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]а#! культура досягла епохи $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "#L [CULTURE.GetCollectiveNoun|U]а#! культура #bold не#! досягла епохи $ERA$"
 
  DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] змінює де-юре статус на користь титулу [TARGET_TITLE.GetName]"
  NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] #bold не#! змінює де-юре статус на користь титулу [TARGET_TITLE.GetName]"
@@ -31,8 +31,8 @@
  KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "Знає [TARGET_CULTURE.GetLanguage.GetName|l] мову"
  KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "#bold Не#! знає [TARGET_CULTURE.GetLanguage.GetName|l] мову"
 
- HAS_CULTURAL_TRADITION_FIRST:2 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] має [Concept( 'tradition', 'традицію' )|E] "[CULTURE_TRADITION.GetName]»"
- HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] не має [Concept( 'tradition', 'традиції' )|E] «[CULTURE_TRADITION.GetName]»"
+ HAS_CULTURAL_TRADITION_FIRST:2 "[CULTURE.GetCollectiveNoun|U]а [culture|El] має [Concept( 'tradition', 'традицію' )|E] "[CULTURE_TRADITION.GetName]»"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[CULTURE.GetCollectiveNoun|U]а [culture|El] не має [Concept( 'tradition', 'традиції' )|E] «[CULTURE_TRADITION.GetName]»"
  HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
  HAS_CULTURAL_TRADITION_THIRD_NOT$0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
 
@@ -49,12 +49,12 @@
  any_ancestor_culture_was_mystical:1 "Хоча одна з батьківських культур повинна мати [Concept( 'tradition', 'традиція' )|E] $tradition_mystical_ancestors_name$"
  mystical_ancestors_disinherit:0 "Не має [traditions|El] "$tradition_mystical_ancestors_name$""
 
- HAS_CULTURAL_PILLAR_FIRST:1 "[CULTURE.GetCollectiveNoun|U]ая [culture|El] має [Concept( 'culture_pillar', 'стовп')|E] «[CULTURE_PILLAR.GetName]»"
+ HAS_CULTURAL_PILLAR_FIRST:1 "[CULTURE.GetCollectiveNoun|U]а [culture|El] має [Concept( 'culture_pillar', 'стовп')|E] «[CULTURE_PILLAR.GetName]»"
   HAS_CULTURAL_PILLAR_FIRST_NOT:1 "[CULTURE.GetCollectiveNoun|U]а [culture|El] не має [Concept( 'culture_pillar', 'столпа')|E] "[CULTURE_PILLAR.GetName]»"
   HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
   HAS_CULTURAL_PILLAR_THIRD_NOT$0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
 
-  HAS_CULTURAL_PARAMETER_FIRST:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура має необхідну [Concept( 'tradition', 'традиція' )|E] (#TODO_CD_EP1)"
-  HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "#L [CULTURE.GetCollectiveNoun|U]ая#! культура не має необхідної [Concept( 'tradition', 'традиція' )|E] (#TODO_CD_EP1)"
+  HAS_CULTURAL_PARAMETER_FIRST:0 "#L [CULTURE.GetCollectiveNoun|U]а#! культура має необхідну [Concept( 'tradition', 'традиція' )|E] (#TODO_CD_EP1)"
+  HAS_CULTURAL_PARAMETER_FIRST_NOT:0 "#L [CULTURE.GetCollectiveNoun|U]а#! культура не має необхідної [Concept( 'tradition', 'традиція' )|E] (#TODO_CD_EP1)"
   HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
   HAS_CULTURAL_PARAMETER_THIRD_NOT$0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"

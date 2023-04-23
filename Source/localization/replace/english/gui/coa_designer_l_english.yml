@@ -40,7 +40,7 @@
  COA_DESIGNER_COLOR2:0 "Другий колір"
  COA_DESIGNER_COLOR3:0 "Третій колір"
  COA_DESIGNER_COLOR4:0 "Четвертий колір"
- COA_DESIGNER_COLOR5:0 "П'ятий колір"
+ COA_DESIGNER_COLOR5:0 "П‘ятий колір"
  COA_DESIGNER_COLORS_DESCRIPTION:0 "Кольори, доступні при створенні герба, залежать від того, які пігменти були доступні в ту чи іншу епоху. Назви кольорів визначаються джерелом пігменту або назвою, під якою вони були відомі в той час."
  COA_DESIGNER_COLOR_PICKER_EXPAND_HEADER:0 "Вибраний колір"
  

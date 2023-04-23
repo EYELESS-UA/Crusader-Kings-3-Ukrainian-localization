@@ -1,11 +1,11 @@
 ﻿l_english:
 
  CAN_CREATE_FACTION_TRIGGER:0 "Може створити фракцію $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARAC)
- NOT_CAN_CREATE_FACTION_TRIGGER:0 "#bold Не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER. ][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
+ NOT_CAN_CREATE_FACTION_TRIGGER:0 "#bold Не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER. ][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
  I_CAN_CREATE_FACTION_TRIGGER:1 "Ви можете створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
  NOT_I_CAN_CREATE_FACTION_TRIGGER:1 "Ви #bold не #! можете створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
  THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] може створити фракцію $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessive ', '' )]"
- NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, ', '' ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'його персонажа', '' )]"
+ NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти [Select_CString(TARGET_CHARACTER.IsPlayer, ', '' ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )]"
 
  CAN_JOIN_FACTION_TRIGGER:0 "Може вступити до фракції [FACTION.GetNameNoTooltip]"
  NOT_CAN_JOIN_FACTION_TRIGGER:0 "#bold Не#! може вступити до фракції [FACTION.GetNameNoTooltip]"

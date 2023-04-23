@@ -27,7 +27,7 @@
  hunt_peasants_denied_forest_modifier_desc:0 "Селянам цього графства заборонили добувати собі їжу в лісах."
 
  hunt_peasants_hunted_modifier:0 "Полювання на селян"
- hunt_peasants_hunted_modifier_desc:0 "Селяни побоюються селитися в цьому графстві, пам'ятаючи про скоєні тут злочини."
+ hunt_peasants_hunted_modifier_desc:0 "Селяни побоюються селитися в цьому графстві, пам‘ятаючи про скоєні тут злочини."
 
  hunt_aided_peasants_modifier:0 "Допомога селянам"
  hunt_aided_peasants_modifier_desc:0 "Бідні з місцевих жителів отримали значну допомогу з пожертвувань."
@@ -65,7 +65,7 @@
  hunt_tasted_the_belt_modifier:0 "Покарання ременем"
  hunt_tasted_the_belt_modifier_desc:0 "У цього персонажа вся спина в синцях"
 
- hunt_treated_wound_modifier:0 "Перепов'язані рани"
+ hunt_treated_wound_modifier:0 "Перепов‘язані рани"
  hunt_treated_wound_modifier_desc:0 "Про рани цього персонажа подбали — так чи інакше."
 
  hunt_chose_truth_modifier:0 "Смиренна чесність"

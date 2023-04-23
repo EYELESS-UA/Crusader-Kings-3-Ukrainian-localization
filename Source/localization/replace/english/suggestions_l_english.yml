@@ -18,7 +18,7 @@
 
  suggestion_fabricate_claim_label:0 "Сфабрикувати претензію"
  suggestion_fabricate_claim:0 "Пропозиція: сфабрикуйте претензію на титул [landed_title.GetNameNoTierNoTooltip]"
- suggestion_fabricate_claim_desc:1 "Сусідній регіон—— [landed_title.GetName] — багатий і процвітає, але ви не можете завоювати його без [casus_belli|El].\n\nВаш [court_chaplain|El] або [realm_priest|El] повинен сфабрикувати 'claim', 'претензію' )|El], щоб у вас з'явився законний привід піти на сусідів [Concept( 'war', 'війною' )|El] і відібрати ласий шматок земель!"
+ suggestion_fabricate_claim_desc:1 "Сусідній регіон—— [landed_title.GetName] — багатий і процвітає, але ви не можете завоювати його без [casus_belli|El].\n\nВаш [court_chaplain|El] або [realm_priest|El] повинен сфабрикувати 'claim', 'претензію' )|El], щоб у вас з‘явився законний привід піти на сусідів [Concept( 'war', 'війною' )|El] і відібрати ласий шматок земель!"
  suggestion_fabricate_claim_click:1 "#I Клацніть, щоб подивитись титул#!"
 
  suggestion_create_title_label:0 "Створити титул"

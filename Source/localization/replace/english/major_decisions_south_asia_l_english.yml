@@ -2,8 +2,8 @@
  #Become Chakravarti
  become_chakravarti_decision:0 "Стає чакраварті"
  become_chakravarti_decision_desc:0 "#F Якщо я проведу необхідні церемонії та ритуали, моє священне право на владу над світом стане незаперечним.#!"
- become_chakravarti_decision_tooltip:0 "Об'єднати Індію та стати законним правителем світу"
- become_chakravarti_decision_indian_empires_unite_effect:0 "Я об'єдную імперії Індії"
+ become_chakravarti_decision_tooltip:0 "Об‘єднати Індію та стати законним правителем світу"
+ become_chakravarti_decision_indian_empires_unite_effect:0 "Я об‘єдную імперії Індії"
  become_chakravarti_decision_new_primary_title_effect:0 "Відтепер Індійська імперія - мій [primary_title|El]"
  become_chakravarti_decision_confirm:0 "Присутня при обрядах"
 
@@ -15,7 +15,7 @@
  capital_province_in_ganges_region:1 "[Concept( 'realm_capital', 'Столиця вашої держави' )|E] знаходиться в [Concept( 'region', 'регіоні' )|E] [GetGeographicalRegion('custom_ganges_plain').GetName]""
  MY_VASSAL_OR_LIEGE_MUST_NOT_BE_RULER_OF_GANGES:0 "Статус Захисника Священних вод неможливо відібрати у васала або сюзерена"
 
- form_bene_israel_decision:0 "Об'єднати $k_bene_israel$"
+ form_bene_israel_decision:0 "Об‘єднати $k_bene_israel$"
  form_bene_israel_decision_desc:0 "Наші спільноти далекі від стародавніх ізраїльських племен, а шанси на повернення Святої землі мізерно малі. Ми повинні побудувати новий будинок для іудейського народу тут, у Деккані."
  form_bene_israel_decision_tooltip:0 "Узаконити королівство $k_bene_israel$."
  form_bene_israel_decision_confirm:0 "[ROOT.Char.Custom('GetQueenKing')|U] $k_bene_israel$"

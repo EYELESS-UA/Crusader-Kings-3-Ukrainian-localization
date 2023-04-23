@@ -41,8 +41,8 @@
  zoroastrianism_devotee_neuter_plural:0 "хранителі вогню"
  zoroastrianism_priest_male:0 "мобід"
  zoroastrianism_priest_male_plural:0 "мобеди"
- zoroastrianism_priest_female:0 "мобед'яр"
- zoroastrianism_priest_female_plural:0 "мобед'яри"
+ zoroastrianism_priest_female:0 "мобед‘яр"
+ zoroastrianism_priest_female_plural:0 "мобед‘яри"
  zoroastrianism_alternate_priest_term_plural:0 "священство"
  zoroastrianism_bishop_male:0 "дастур"
  zoroastrianism_bishop_male_plural:0 "дастури"
@@ -128,7 +128,7 @@
  khurramism_adj:0 "Хуррамізм"
  khurramism_adherent:0 "Хураміт"
  khurramism_adherent_plural:0 "Хураміт"
- khurramism_desc:0 "У світі Світла і Мороку необхідно скинути несправедливих правителів, щоб підтримати сили добра. Хураміти вірять, що божественне приходить до людей через пророків, таких як Маздак, Мухаммед і Абу Муслім, і одного разу повернеться в образі Месії, який об'єднає". "
+ khurramism_desc:0 "У світі Світла і Мороку необхідно скинути несправедливих правителів, щоб підтримати сили добра. Хураміти вірять, що божественне приходить до людей через пророків, таких як Маздак, Мухаммед і Абу Муслім, і одного разу повернеться в образі Месії, який об‘єднає". "
 
  #Urartuism
  urartuism:1 "Аревордійськ"
@@ -141,7 +141,7 @@
  urartu_good_god_the_sun:0 "Арев"
  urartu_good_god_mithra:0 "Михр"
  urartu_good_god_zoroaster:0 "Зрадашт"
- urartuism_desc:1 "Багато стародавніх традицій злилися у вірі ареворді, секті таємних зороастрійців: у їх уявленні Ахурамазда (під ім'ям Арамазда) править пантеоном богів, у тому числі й самим сонцем, і всі разом ці божества спрямовують світ."
+ urartuism_desc:1 "Багато стародавніх традицій злилися у вірі ареворді, секті таємних зороастрійців: у їх уявленні Ахурамазда (під ім‘ям Арамазда) править пантеоном богів, у тому числі й самим сонцем, і всі разом ці божества спрямовують світ."
  urartu_good_god_vanatur:0 "Ванатур"
  urartuism_priest_male:0 "Азарапет"
  urartuism_priest_male_plural:0 "Азарапети"

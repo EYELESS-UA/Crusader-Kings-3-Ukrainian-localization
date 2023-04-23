@@ -2,7 +2,7 @@
  # Debug
  test_artifact_name:0 "Артефакт, яким володіє [ROOT.Char.GetTitledFirstNameNoTooltip]"
  test_artifact_desc:0 "Цей артефакт відзначений гербом династії [ROOT.Char.GetDynasty.GetName]."
- debug_test_artifact_cloth_option:0 "Яка м'якість! Яка гладкість!"
+ debug_test_artifact_cloth_option:0 "Яка м‘якість! Яка гладкість!"
  
  # Notification localization
  artifact_lost_toast:0 "Артефакт втрачено"
@@ -69,7 +69,7 @@
  artifact.3020.a:0 "Принаймні, він досі на щось годиться..."
  artifact.3020.b:0 "Просто робіть свою роботу і полагодьте його!"
  keepsake_trinket_name:0 "Сувенір від артефакту [this_artifact.GetNameNoTooltip]"
- keepsake_trinket_description:0 "Фрагмент зруйнованого артефакту [this_artifact.GetNameNoTooltip], який [owner.GetTitledFirstNameNoTooltip] може зберігати як пам'ять, завдяки старанням, що виявив [owner.GetHerHis] $antiquarian_court_posi
+ keepsake_trinket_description:0 "Фрагмент зруйнованого артефакту [this_artifact.GetNameNoTooltip], який [owner.GetTitledFirstNameNoTooltip] може зберігати як пам‘ять, завдяки старанням, що виявив [owner.GetHerHis] $antiquarian_court_posi
 
  artifact.3030.t:0 "Зіпсований артефакт: Збереження"
  artifact.3030.desc:0 "\n\n«У мене є думка, як врятувати артефакт. Нещодавно мені пощастило виграти в кістки старовинний сувій у одного підозрілого типу на ярмарку. Це велика удача, оскільки вміст сувоя спонукало мій інтерес до алхімії, що зароджується. !У ньому описується таємне зілля, за допомогою якого #EMP будь-який артефакт#! можна зробити краще колишнього. Прошу вас, давайте опробуємо його!»"
@@ -156,7 +156,7 @@
  artifact.4040.a.tt:0 "[this_artifact.GetName|U] отримує покращення!"
  artifact.4040.b:0 "Мені не потрібна ваша допомога."
  artifact.4050.t:0 "Спалах гніву"
- artifact.4050.desc:0 "Вже досить давно в мені накопичується напруга, що давить на мене, як купа каміння. Я відчуваю, як у мені все кипить, і ні цей момент настає сьогодні, коли я входжу в тронний зал і чую пліткуючих слуг, балаканину придворних і спроби моїх радників разом привернути мою увагу. Для мене це вже занадто. — кричу я, хапаючи перше, що трапилося під руку, і жбурляючи їм у стіну.\n\nУ кімнаті запановує тиша, і я бачу, що [this_artifact.GetName] лежить на підлозі з вм'ятинами і подряпинами, і на місце гніву, що стрімко випаровується. приходить почуття жаху..."
+ artifact.4050.desc:0 "Вже досить давно в мені накопичується напруга, що давить на мене, як купа каміння. Я відчуваю, як у мені все кипить, і ні цей момент настає сьогодні, коли я входжу в тронний зал і чую пліткуючих слуг, балаканину придворних і спроби моїх радників разом привернути мою увагу. Для мене це вже занадто. — кричу я, хапаючи перше, що трапилося під руку, і жбурляючи їм у стіну.\n\nУ кімнаті запановує тиша, і я бачу, що [this_artifact.GetName] лежить на підлозі з вм‘ятинами і подряпинами, і на місце гніву, що стрімко випаровується. приходить почуття жаху..."
  artifact.4050.a:0 "Прокляття!"
  artifact.4060.t:0 "[SCOPE.Custom('ThisArtifactType')|U] [ROOT.Char.GetFaith.HighGodNamePossessive]"
  artifact.4060.desc:0 "«дозвольте уявити, [holy_man.GetFirstName], [holy_man.GetWomanMan], чия святість відома у всіх навколишніх землях».\n\n«[holy_man.GetSheHe|U] [Select_CString(holy_man. IsFemale, 'прибула', 'прибув' )] до вашого двору, дізнавшись про вашу славу благочестивого і справедливого правителя, і хоче поділитися божественним заступництвом з одним з ваших скарбів».\n\n«Ви дозволите?»"
@@ -204,7 +204,7 @@
 
  artifact.4090.a.tt:0 "Реліквія та зброя суміщені"
 
- artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n#L [ROOT.Char.GetFaith.GetName]ая#! реліквія [that_artifact.GetNameNoTooltip] розміщена в рукояті."
+ artifact_weapon_relic_desc:0 "[this_artifact.GetDesc]\n\n#L [ROOT.Char.GetFaith.GetName]а#! реліквія [that_artifact.GetNameNoTooltip] розміщена в рукояті."
 
  relic_weapon_name:0 "[this_artifact.GetType|U]-[ROOT.Char.Custom('artifact_relic_desc')]"
 

@@ -47,7 +47,7 @@
  VASSAL_CONTRACT_OBLIGATION_LEVEL_TAX_EFFECT_TOOLTIP_CURRENT:0 "Податки: $TAX|%1V$"
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP:0 "Ополчення: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$)"
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP_CURRENT:0 "Ополчення: $LEVIES|%1V$"
- VASSAL_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT:0 "#weak Поточний рівень зобов'язань#!"
+ VASSAL_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT:0 "#weak Поточний рівень зобов‘язань#!"
  VASSAL_CONTRIBUTION_NON_RIGHTFUL_LIEGE:0 "Не [rightful_liege|El]"
  VASSAL_CONTRIBUTION_AT_WAR_WITH_LIEGE:0 "[war|E] з [Concept( 'liege', 'сюзереном' )|E]"
 
@@ -137,7 +137,7 @@
  VASSAL_OPINION_DUCHIES_OVERRUN:0 "Занадто багато [Concept( 'duchies', 'герцогств' )|E]"
  MY_REALM_WINDOW_VASSAL_OPINION:0 "Думка васала: [MyRealmWindow.GetVassalOpinion|=+]"
  MY_REALM_WINDOW_VASSAL_OPINION_TT:0 "#T [opinion|E] васала: [MyRealmWindow.GetVassalOpinion|=+]\n#!Загальна думка, що впливає на всіх ваших [Concept( 'vassals', 'вассалов' ) | проти вас будуть часто організовувати [factions|El]!\n\n#S Джерела#!\n[MyRealmWindow.GetVassalOpinionBreakdown]"
- MY_REALM_WINDOW_NO_FEUDAL_CONTRACT_TT:1 "#T Немає окремих зобов'язань\n#!Тільки [Concept( 'feudal', 'феодальні' )|E] і [Concept( 'clan', 'кланові' )|E] [vassals|El] (крім [Concept( 'barons', 'баронів' )|E]) можуть мати окремі [obligations|El]"
+ MY_REALM_WINDOW_NO_FEUDAL_CONTRACT_TT:1 "#T Немає окремих зобов‘язань\n#!Тільки [Concept( 'feudal', 'феодальні' )|E] і [Concept( 'clan', 'кланові' )|E] [vassals|El] (крім [Concept( 'barons', 'баронів' )|E]) можуть мати окремі [obligations|El]"
  MY_REALM_WINDOW_ABSOLUTE_COUNTY_CONTROL:0 "[control|E]: $ABSOLUTE_COUNTY_CONTROL$"
 
  VASSAL_CONTRACT:0 "Васальний договір"

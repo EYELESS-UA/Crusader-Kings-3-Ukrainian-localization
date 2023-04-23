@@ -26,8 +26,8 @@
  # Petition Events: County Modifiers
  hold_court_preacher_loved_by_peasants_modifier:0 "Проповідник, улюбленець селян"
  hold_court_preacher_loved_by_peasants_modifier_desc:0 "У цьому графстві живе популярний проповідник, що дотримується не цілком звичних поглядів. Він дбає про селян цього регіону."
- hold_court_beloved_preacher_imprisoned_modifier:0 "Улюблений проповідник у в'язниці"
- hold_court_beloved_preacher_imprisoned_modifier_desc:0 "Популярного проповідника, який відрізнявся незвичним поглядом, ув'язнили в темницю. Селяни протестують проти цього."
+ hold_court_beloved_preacher_imprisoned_modifier:0 "Улюблений проповідник у в‘язниці"
+ hold_court_beloved_preacher_imprisoned_modifier_desc:0 "Популярного проповідника, який відрізнявся незвичним поглядом, ув‘язнили в темницю. Селяни протестують проти цього."
  hold_court_grateful_peasants_modifier:0 "Задоволені селяни"
  hold_court_grateful_peasants_modifier_desc:1 "Реакція на прохання порадувала селян у цій галузі."
  hold_court_displeased_peasants_modifier:0 "Незадоволені селяни"

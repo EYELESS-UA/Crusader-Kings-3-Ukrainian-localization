@@ -1,7 +1,7 @@
 ﻿l_english:
 
 # Reclaiming Britannia, by Linnéa Thimrén
- british_isles.0001.t:0 "[reclaimer.GetCulture.GetCollectiveNounNoTooltip]ая Британія"
+ british_isles.0001.t:0 "[reclaimer.GetCulture.GetCollectiveNounNoTooltip]а Британія"
  british_isles.0001.desc:0 "Занадто довго наш великий острів залишався під владою чужинців, і нарешті він знову в руках кельтів! Я дивлюся на поля, і здається, ніби вперше за довгі роки тут визирнуло сонце, немов земля достатку та процвітання, Тир на Ніг, знову відкрилася нам. Пагорби та долини наших предків знову в руках #L [ROOT.Char.GetCulture|l]ой#! культури."
  british_isles.0001.custom:0 "Всі [counties|El] у Британії"
  british_isles.0001.a:0 "Слава предкам!"
@@ -17,7 +17,7 @@
 
  british_isles.1002.t:0 "Денло"
  british_isles.1002.desc_same_culture:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] своїми руками [Select_CString(restorer.IsFemale, 'відновила',' )] Денло!Великий острів знову в #L [restorer.GetCulture.GetCollectiveNoun|l]їх#! руках."
- british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] і [restorer.GetHerHis] огидні грабіжники створили нову державу на островах і проголосили її відродженим королівством Денло.\n\nМайбутнє покаже, чи виявиться ця спроба відновити #L [restorer.GetCulture.GetCollectiveNoun|l]ое#! правління в Англії вдаліше за колишні..."
+ british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] і [restorer.GetHerHis] огидні грабіжники створили нову державу на островах і проголосили її відродженим королівством Денло.\n\nМайбутнє покаже, чи виявиться ця спроба відновити #L [restorer.GetCulture.GetCollectiveNoun|l]е#! правління в Англії вдаліше за колишні..."
  british_isles.1002.a:0 "[restorer.GetCulture.GetCollectiveNounNoTooltip]ое ярмо..."
  british_isles.1002.b:0 "[restorer.GetCulture.GetCollectiveNounNoTooltip]а перемога!"
  british_isles.1002.c:0 "Хм, [restorer.GetCulture.GetCollectiveNounNoTooltip|l]ий народ, кажіть? Я в справі!"
@@ -27,16 +27,16 @@
  british_isles.2001.desc:0 "Часи, коли ми, [embracer.GetCulture.GetNameNoTooltip|l], вважали Францію своєю батьківщиною, давно минули. Наші діти народжуються тут, в оточенні саксів, і для них Нормандія завжди буде лише розмитою лінією за туманними водами. Ми приймаємо деякі з місцевих звичаїв, але одночасно наші звичаї поширюються саксонськими землями, породжуючи щось нове — англійську культуру."
  british_isles.2001.a:0 "Хай живуть англійці!"
 
- british_isles.2002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] васали і вся [embracer.GetHerHis] сім'я почули голос Альбіона і прийняли англійську культуру."
+ british_isles.2002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] васали і вся [embracer.GetHerHis] сім‘я почули голос Альбіона і прийняли англійську культуру."
  british_isles.2002.a:0 "Це було лише питання часу."
  british_isles.2002.b:0 "Зрадники!"
 
 # Request Laudabiliter, by Flavio Verna
  british_isles.3001.t:0 "Ми проголошуємо на всі почуття!"
- british_isles.3001.desc:0 "Ваше бажання розширити священну владу Вселенської Церкви на варварські племена Ірландії - діяння благочестиве і законне. А тому Свята Римська Церква наказує вам опанувати островом, виконавши тим самим волю Господа.\n\n помрете до завершення цієї священної кампанії, цей священний мандат перейде вашим законним наступникам Нехай будинок [scoped_ruler.GetHouse.GetBaseNameNoTooltip] продовжує це святе починання, доки не здійсниться божественна воля і Ірландія не буде об'єднана під [scoped_ruler.GetCtip| владою."
+ british_isles.3001.desc:0 "Ваше бажання розширити священну владу Вселенської Церкви на варварські племена Ірландії - діяння благочестиве і законне. А тому Свята Римська Церква наказує вам опанувати островом, виконавши тим самим волю Господа.\n\n помрете до завершення цієї священної кампанії, цей священний мандат перейде вашим законним наступникам Нехай будинок [scoped_ruler.GetHouse.GetBaseNameNoTooltip] продовжує це святе починання, доки не здійсниться божественна воля і Ірландія не буде об‘єднана під [scoped_ruler.GetCtip| владою."
  british_isles.3001.a:0 "Готуйте флот!"
  british_isles.3002.t:0 "Претензія на Ірландію"
- british_isles.3002.desc.irish:0 "Своєю милістю [Select_CString(scoped_pope.IsFemale, 'Її', 'Його' )] Святість [scoped_pope.GetFirstName], вікарій Ісуса Христа і спадкоємець престолу Святого Петра, GetFullName] [Select_CString(scoped_ruler.IsFemale, 'отримала', 'отримав' )] божественне право на владу над Ейре і всіма народами, що її населяють. що здатні в гніві [scoped_ruler.GetTitledFirstName], [scoped_ruler.GetHerHis] #L [scoped_ruler.GetCulture.GetCollectiveNoun|l]ие#! війська і Господь всемогутній."
+ british_isles.3002.desc.irish:0 "Своєю милістю [Select_CString(scoped_pope.IsFemale, ‘її', 'Його' )] Святість [scoped_pope.GetFirstName], вікарій Ісуса Христа і спадкоємець престолу Святого Петра, GetFullName] [Select_CString(scoped_ruler.IsFemale, 'отримала', 'отримав' )] божественне право на владу над Ейре і всіма народами, що її населяють. що здатні в гніві [scoped_ruler.GetTitledFirstName], [scoped_ruler.GetHerHis] #L [scoped_ruler.GetCulture.GetCollectiveNoun|l]і#! війська і Господь всемогутній."
  british_isles.3002.a:0 "Це ми ще подивимося!"
  british_isles.3002.b:0 "Ясно..."
 
@@ -48,18 +48,18 @@
  british_isles.4002.desc:0 "Після вікової боротьби [founder.GetFullName] [Select_CString(founder.IsFemale, 'відновила', 'відновив' )] давнє королівство Думнонія, яке його мешканці називають [founder.GetPrimaryTit Select_CString(founder.IsFemale, 'відкинула', 'відкинув' )] іноземних завойовників.\n\nІнші владики Британських островів навряд чи по своїй волі віддадуть землі, які вважають своїми. народ зумів вистояти перед найжорстокішим ворогом нинішньої епохи і зможе надати гідну відсіч будь-кому, хто спробує змінити розклад сил.
  british_isles.4002.a:0 "Onen hag oll!"
  british_isles.4002.b:1 "Ми заженемо їх на край землі."
- british_isles.4002.c:0 "Малі королівства з'являються і зникають."
+ british_isles.4002.c:0 "Малі королівства з‘являються і зникають."
 
 
  british_isles.1011.t:0 "Немислима угода"
  british_isles.1011.nord:0 "$k_england$ — суворий, але багатий край: взимку тут рідко бувають морози, а влітку часто йдуть дощі — поселенці та воїни будуть у захваті.\n\nАле з кожним роком посилюється натиск інших жителів півночі, так і залишки місцевих політ продовжують опір. Нам доводиться окопуватися, зубами і пазурами видерти собі льони і дрібні королівства, але до справжньої влади ще дуже далеко."
- british_isles.1011.brit:0 "З кожним роком скандинави стають нахабнішими. Вони надсилають нових поселенців, влаштовують набіги все далі вздовж узбережжя, постійно вбивають наше духовенство.\n\nІ все одно об'єднатися проти чужоземної біди буде нелегко. вагів загарбники-північні, а на іншій— гординя $anglo_saxon$ їх лордів, навряд чи [ntd_actor.Custom('QueenKing')] колись зійде на трон, і $k_england$ залишиться без гідного правителя."
+ british_isles.1011.brit:0 "З кожним роком скандинави стають нахабнішими. Вони надсилають нових поселенців, влаштовують набіги все далі вздовж узбережжя, постійно вбивають наше духовенство.\n\nІ все одно об‘єднатися проти чужоземної біди буде нелегко. вагів загарбники-північні, а на іншій— гординя $anglo_saxon$ їх лордів, навряд чи [ntd_actor.Custom('QueenKing')] колись зійде на трон, і $k_england$ залишиться без гідного правителя."
  british_isles.1011.outro:0 "\n\n[ntd_recipient.GetTitledFirstName] — [Select_CString(ntd_recipient.IsFemale, 'моя головна суперниця', 'мій головний суперник' )] в боротьбі за владу на ційrec. GetSheHe] погодиться #EMP поділити#! країну, а не боротися за неї, мало хто зможе чинити опір мощі нашого союзу..."
  british_isles.1011.a:0 "Гм. Надішліть пропозицію."
  british_isles.1011.a.tt:0 ""
  british_isles.1011.b:0 "Лист і відкриту долоню на знак дружби."
  british_isles.1011.b.above_applies.tt:0 "#BOL Застосовуються всі ці ефекти угоди.#!"
- british_isles.1011.b.offer_faith.tt:0 "Ви також пропонуєте об'єднати [Concept( 'faith', 'вірування' )|E] і стати [Concept( 'friends', 'друзями' )|E]"
+ british_isles.1011.b.offer_faith.tt:0 "Ви також пропонуєте об‘єднати [Concept( 'faith', 'вірування' )|E] і стати [Concept( 'friends', 'друзями' )|E]"
  british_isles.1011.c:0 "Дипломатія для трусів!"
  british_isles.1011.c.tt:0 ""
 
@@ -87,7 +87,7 @@
  negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "$k_danelaw_article$$k_danelaw$ [Concept( 'de_jure', 'де-юре' )|E] отримує все $k_england_adj$ие [Concept( 'duchies', '''| , де [ntd_nord.GetTitledFirstName] володіє хоча б одним [concept( 'county', 'графством')]"
  negotiate_the_danelaw_accept_effect.independent_holdings_recognised.tt:0 "$k_danelaw_article$$k_danelaw$ [Concept( 'de_jure', 'де-юре' )|E] отримує всі незалежні $k_england_adj$ие [Concept( 'duch''| ], де правитель належить $north_germanic_group_collective_noun$ой [Concept( 'culture', 'культурі' )|E] або сповідує релігію $germanic_religion$"
  negotiate_the_danelaw_accept_effect.riled_independents_list:0 "Всі незалежні правителі в державі $k_england$"
- TRUCE_SIGNED_PARTITION:1 "\nПри поділі королівства укладено перемир'я"
+ TRUCE_SIGNED_PARTITION:1 "\nПри поділі королівства укладено перемир‘я"
 
  resolve_danelaw_partition_effect.adjust_de_jures.tt:0 "Статус усіх територій, якими [de_jure|E] володіє $k_danelaw_article$$k_danelaw$, [Concept( 'de_jure_drift_drifted', 'змінюється' )|E] на користь $
  resolve_danelaw_partition_effect.coa_changed.tt:0 "$k_england$ отримає герб, який використовує $k_danelaw_article$$k_danelaw$"
@@ -102,7 +102,7 @@
  british_isles.1022.a:0 "Хіба можна так зраджувати свій народ?"
  british_isles.1022.a.tt:0 "$k_england$ і $k_danelaw_article$$k_danelaw$ будуть [Concept( 'de_jure', 'де-юре' )|E] розділені"
 
- british_isles.1051.t:0 "[partition_winner.GetTierAsNameNoTooltip] об'єднується"
+ british_isles.1051.t:0 "[partition_winner.GetTierAsNameNoTooltip] об‘єднується"
  british_isles.1051.desc:0 "Звершилося! [england.GetNameNoTierNoTooltip] належить мені, і #EMP тільки я#! — [victor.GetTitleAsNameNoTooltip|l]. Самозванці більш не небезпечні, і від абсолютної гегемонії над Британією мене ."
  british_isles.1051.a:0 "Нехай славиться [victor.GetTitleAsNameNoTooltip|l] єдиної держави!"
  british_isles.1051.a.tt:0 "$k_england$ і $k_danelaw_article$$k_danelaw$ закінчили [Concept( 'de_jure_partition', 'поділ де-юре' )|E]"
@@ -118,14 +118,14 @@
  british_isles.1053.a.tt:0 "$british_isles.1051.a.tt$"
 
  british_isles.1061.t:0 "Земельне право"
- british_isles.1061.desc:0 "З тих пір, як скандинави влаштувалися на цьому багатому узбережжі, минули роки — повні крові, насильства та напружених конфліктів. Але в ті ж роки почався культурний обмін, розвиток і, нарешті, об'єднання.\n\nВ жилах нащадків тих переселенців північна кров давно вже змішалася з місцевою, та й $anglo_saxon_collective_noun$ помітно змінилися з часів появи скандинавів.\n\nМабуть, важко сказати, хто ми тепер.\n\nо одне: ми — це історія всіх наших предків, їх злети та падіння, і відтепер цю історію творить $k_daneland_adj$ий народ."
+ british_isles.1061.desc:0 "З тих пір, як скандинави влаштувалися на цьому багатому узбережжі, минули роки — повні крові, насильства та напружених конфліктів. Але в ті ж роки почався культурний обмін, розвиток і, нарешті, об‘єднання.\n\nВ жилах нащадків тих переселенців північна кров давно вже змішалася з місцевою, та й $anglo_saxon_collective_noun$ помітно змінилися з часів появи скандинавів.\n\nМабуть, важко сказати, хто ми тепер.\n\nо одне: ми — це історія всіх наших предків, їх злети та падіння, і відтепер цю історію творить $k_daneland_adj$ий народ."
  british_isles.1061.a:0 "Ми творитимемо її разом."
 
  british_isles.1062.t:0 "$british_isles.1061.t$"
- british_isles.1062.desc:0 "Собака! Твар!" [founder.Custom('InsultAdjective')|U], [founder.Custom('InsultAdjective')] #EMP \n\nТак, надто довго $k_england$ і $k_danelaw_article$$k_danelaw$ були розділені, але #EMP всі знали, що одного разу вони з'єднаються.\n\nДо сьогоднішнього дня.\n\n[founder.GetTitledFirstName] раптово [Select_CString(founder.IsFemale, 'зробила', 'зробив' )] пихата і пафосна заява, офіційно відмовившись від усіх претензій на $k_england_adj$ие землі, і, таким чином, [Select_CString(founder.IsFemale, 'знищела', ' знищив' )] останню надію, що моя держава і $k_danelaw_article$$k_danelaw$ колись об'єднаються!"
+ british_isles.1062.desc:0 "Собака! Твар!" [founder.Custom('InsultAdjective')|U], [founder.Custom('InsultAdjective')] #EMP \n\nТак, надто довго $k_england$ і $k_danelaw_article$$k_danelaw$ були розділені, але #EMP всі знали, що одного разу вони з‘єднаються.\n\nДо сьогоднішнього дня.\n\n[founder.GetTitledFirstName] раптово [Select_CString(founder.IsFemale, 'зробила', 'зробив' )] пихата і пафосна заява, офіційно відмовившись від усіх претензій на $k_england_adj$ие землі, і, таким чином, [Select_CString(founder.IsFemale, 'знищела', ' знищив' )] останню надію, що моя держава і $k_danelaw_article$$k_danelaw$ колись об‘єднаються!"
  british_isles.1062.a:0 "Колись [founder.GetHerHis] земля була $k_england_adj$ой, і вона #EMP буде#! $k_england_adj$ой знову."
 
  british_isles.1063.t:0 "$british_isles.1061.t$"
- british_isles.1063.desc:0 "Вже багато років $k_england_adj$ую землю ділять [england.GetTitledFirstName] і [founder.GetTitledFirstName]. І хоча по суті вони рівні, з давніх-давен ясно без слів, що кожна держава мріє і заявити, що $k_england$ об'єднується під владою єдиного монарха. претензій на решту держави, а власну державу надалі оголошує незалежною та суверенною."
+ british_isles.1063.desc:0 "Вже багато років $k_england_adj$ую землю ділять [england.GetTitledFirstName] і [founder.GetTitledFirstName]. І хоча по суті вони рівні, з давніх-давен ясно без слів, що кожна держава мріє і заявити, що $k_england$ об‘єднується під владою єдиного монарха. претензій на решту держави, а власну державу надалі оголошує незалежною та суверенною."
  british_isles.1063.a:0 "Можливо, це охолодить деякі голови..."
  british_isles.1063.a.tt:0 "$british_isles.1051.a.tt$"

@@ -14,14 +14,14 @@
  DESTINATION_LAKE:0 "Озеро"
  DESTINATION_RIVER:0 "Річка"
  SIEGE_TOOLTIP_TITLE:1 "#T Фортеця в провінції $PROVINCE$#!"
- SIEGE_TOOLTIP_OCUPIED:0 "Окуповано [Select_CString(CHARACTER.IsPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ім персонажем', '' )]"
+ SIEGE_TOOLTIP_OCUPIED:0 "Окуповано [Select_CString(CHARACTER.IsPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'им персонажем', '' )]"
  SIEGE_TOOTLTIP_IMPACT:0 "Вплив рівня фортифікації:"
  CHARACTER_ACTIVITY_TOOLTIP:0 "[CHARACTER.GetUIName] займається цим"
  CHARACTER_AT_LOCATION:0 "У провінції [PROVINCE.GetName|V]"
  CHARACTER_AT_ACTIVITY:0 "[ACTIVITY.GetName|V] у провінції [PROVINCE.GetName|V]"
  CHARACTER_AT_ARMY:0 "Командує [Concept( 'army', 'арміями' )|E] у провінції [PROVINCE.GetName|V]"
  CHARACTER_TRAVEL_TO_LOCATION:0 "Їде до провінції [PROVINCE.GetName|V]"
- CHARACTER_IMPRISONED_AT:0 "Знаходиться у в'язниці у персонажа [CHARACTER.GetUIName|V] у провінції [PROVINCE.GetName|V]"
+ CHARACTER_IMPRISONED_AT:0 "Знаходиться у в‘язниці у персонажа [CHARACTER.GetUIName|V] у провінції [PROVINCE.GetName|V]"
  CHARACTER_AT_COURT_VISITING:1 "Відвідує [court|El] персонажа [CHARACTER.GetName|V] у провінції [PROVINCE.GetName|V]"
  CHARACTER_AT_COURT:1 "Знаходиться при [Concept( 'court', 'дворі' )|E] персонажа [CHARACTER.GetName|V] у провінції [PROVINCE.GetName|V]"
  FORD_TOOLTIP:1 "Брід між провінціями $FROM$ і $TO$"
@@ -31,10 +31,10 @@
  MAP_REALM_LOBBY_TT_HEADER:0 "#T [CHARACTER.GetShortUINameNotMeNoTooltip]#!\n[TITLE.GetNameNoTooltip]"
  MAP_REALM_LOBBY_TT_BOTTOM:0 "\n#I Натисніть, щоб вибрати#!"
  MAP_REALM_TT_RELATION_ME:0 ""
- MAP_REALM_TT_RELATION_VASSAL:0 "Васал [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, '')
- MAP_REALM_TT_RELATION_PEER:0 "Васал [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, '|"
- MAP_REALM_TT_RELATION_LIEGE:0 "Сюзерен [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' ]][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer,'')'
- MAP_REALM_TT_RELATION_TOP_LIEGE:0 "Верховний сюзерен [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажу ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARAC)'''
+ MAP_REALM_TT_RELATION_VASSAL:0 "Васал [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )|V]"
+ MAP_REALM_TT_RELATION_PEER:0 "Васал [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )|V]"
+ MAP_REALM_TT_RELATION_LIEGE:0 "Сюзерен [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )|V]"
+ MAP_REALM_TT_RELATION_TOP_LIEGE:0 "Верховний сюзерен [Select_CString(TARGET_CHARACTER.IsPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy|V][Select_CString(TARGET_CHARACTER.IsPlayer, 'ого персонажа', '' )|V]"
  MAP_REALM_TT_RELATION_OTHER:0 "Незалежна держава"
 
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Непрохідна місцевість#!"
@@ -46,7 +46,7 @@
  PROVINCE_TOOLTIP_HOLDER:0 "Власник: [CHARACTER.GetUINameNoTooltip|UV]"
  PROVINCE_TOOLTIP_LESSEE:0 "Орендар: [CHARACTER.GetUINameNoTooltip|UV]"
  PROVINCE_TOOLTIP_OCCUPIED:0 "Вторгнення: [CHARACTER.GetUINameNoTooltip|UV]"
- PROVINCE_TOOLTIP_CULTURE:0 "Культура: #V [COUNTY.GetCulture.GetCollectiveNounNoTooltip]ая#!"
+ PROVINCE_TOOLTIP_CULTURE:0 "Культура: #V [COUNTY.GetCulture.GetCollectiveNounNoTooltip]а#!"
  PROVINCE_TOOLTIP_FAITH:0 "Конфесія: [COUNTY.GetFaith.GetAdjectiveNoTooltip|V]"
  PROVINCE_TOOLTIP_TERRAIN:0 "Тип місцевості: [PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  PROVINCE_TOOLTIP_DEVELOPMENT:0 "Розвиток: [COUNTY.GetDevelopmentLevel|V]"
@@ -78,14 +78,14 @@
  MAP_COUNTY_REALM_EXPLORE_UNDO_CLICK:0 "#I Ctrl+ПКМ, щоб повернутися до держави#!"
  MAP_OCCUPANT_TEXT:0 "Окупант: [CHARACTER.GetUINameNoTooltip|UV]"
 
- HOUSES_MAP_MODE_TOOLTIP:0 "#T Будинок [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip]#!: \n[ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetHouse"
+ HOUSES_MAP_MODE_TOOLTIP:0 "#T будинок [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip]#!: \n[ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetHouse.GetBaseNameNoTooltip]"
  houses_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Натисніть, щоб відкрити вікно династичного будинку.#!"
  GOVERNMENTS_MAP_MODE_TOOLTIP:1 "#T Власник графства\nФорма правління#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nВерховний сюзерен\nФорма правління: [ROOT.Get .GetNameNoTooltip]"
  governments_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Натисніть, щоб відкрити вікно держави#!"
  DEJURE_DUCHIES_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureDriftTooltip]"
  DEJURE_KINGDOMS_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiege.Get
  DEJURE_EMPIRES_MAPMODE_TOOLTIP:0 "[ROOT.Province.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeGetDeGet
- CULTURES_MAP_MODE_TOOLTIP:1 "#T Культура графства#!: [ROOT.Province.GetCounty.GetCulture.GetCollectiveNounNoTooltip]ая\nКультура верховного сюзерена: [ROOT.Province.GetTitle.GetDeFactoTopLiege
+ CULTURES_MAP_MODE_TOOLTIP:1 "#T Культура графства#!: [ROOT.Province.GetCounty.GetCulture.GetCollectiveNounNoTooltip]а\nКультура верховного сюзерена: [ROOT.Province.GetTitle.GetDeFactoTopLiege
  cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Натисніть, щоб вибрати [PROVINCE.GetCounty.GetCulture.GetCollectiveNounNoTooltip|l]ую культуру#!"
  FAITHS_MAP_MODE_TOOLTIP:0 "#T Конфесія графства#!: [ROOT.Province.GetCounty.GetFaith.GetAdjectiveNoTooltip]\nКонфесія верховного сюзерена: [ROOT.Province.GetTitle.GetDeFactoTopLiege"
  faiths_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I Натисніть, щоб вибрати [PROVINCE.GetCounty.GetCulture.GetCollectiveNounNoTooltip|l]ую культуру#!"

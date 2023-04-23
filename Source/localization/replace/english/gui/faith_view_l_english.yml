@@ -1,8 +1,8 @@
 ﻿l_english:
  FAITH_VIEW_HEADING:0 "[Faith.GetAdjectiveNoTooltip]"
- FAITH_VIEW_SUBHEADING:2 "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetName|l]ая#! [faith|El]"
- FAITH_VIEW_UNREFORMED_SUBHEADING:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] #L [Faith.GetReligion.GetName|l]ая#! [faith|El]"
- FAITH_VIEW_REFORMED_SUBHEADING:2 "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetName|l]ая#! [faith|El]"
+ FAITH_VIEW_SUBHEADING:2 "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetName|l]а#! [faith|El]"
+ FAITH_VIEW_UNREFORMED_SUBHEADING:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] #L [Faith.GetReligion.GetName|l]а#! [faith|El]"
+ FAITH_VIEW_REFORMED_SUBHEADING:2 "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetName|l]а#! [faith|El]"
  FAITH_VIEW_OUR_VIEW:1 "Вони для нас [GetPlayer.GetFaith.GetRelationNameTo( Faith.Self )|Vl]"
  FAITH_VIEW_THEIR_VIEW:1 "Ми для них [Faith.GetRelationNameTo( GetPlayer.GetFaith )|Vl]"
  FAITH_VIEW_YOUR_FAITH:0 "Ваша [faith|El]"
@@ -32,7 +32,7 @@
  CREATE_FAITH_WINDOW_TITLE:0 "Створити [GetPlayer.GetFaith.GetReligion.GetNameNoTooltip|l]у конфесію"
  REFORM_FAITH_WINDOW_TITLE:0 "Реформувати [GetPlayer.GetFaith.GetAdjectiveNoTooltip|l]"
  CREATE_FAITH_WINDOW_TITLE_TOOLTIP:0 "#T $CREATE_FAITH_WINDOW_TITLE$#!\nБуде створена нова [faith|El]; вибрати [core_tenets|El] та [doctrines|El]"
- REFORM_FAITH_WINDOW_TITLE_TOOLTIP:0 "#T $REFORM_FAITH_WINDOW_TITLE$#!\n[GetPlayer.GetFaith.GetNameNoTooltip]ая [faith|El] буде реформована; виберіть [core_tenets|El] і [doctrines|El]"
+ REFORM_FAITH_WINDOW_TITLE_TOOLTIP:0 "#T $REFORM_FAITH_WINDOW_TITLE$#!\n[GetPlayer.GetFaith.GetNameNoTooltip]а [faith|El] буде реформована; виберіть [core_tenets|El] і [doctrines|El]"
  CONVERT_FAITH_WINDOW_TITLE_UI:0 "Прийняти [Faith.GetAdjectiveNoTooltip|l]"
  CONVERT_FAITH_WINDOW_TITLE:0 "Прийняти [FAITH.GetAdjectiveNoTooltip|l]"
  FAITH_CREATION_DOCTRINES_PIETY_COST:0 "Вартість доктрин без знижки: [piety_i]$VALUE|V$"
@@ -119,7 +119,7 @@
  base_fervor_increase:0 "Базове значення"
 
  ### Temp stuff
- TEMP_RELIGION_INFO:0 "#D Відкололася від православ'я в 605 році н. е.\nОсновник: П'єр XIV де Кастельно#!"
+ TEMP_RELIGION_INFO:0 "#D Відкололася від православ‘я в 605 році н. е.\nОсновник: П‘єр XIV де Кастельно#!"
  FAITH_FLAVOR_DESC:0 "$DESC|F$"
  
  FAITH_CREATION_BASIC_UI_DESC:0 "#weak У мене є унікальна можливість назавжди змінити нашу конфесію. Потрібно все ретельно спланувати: встановлені догми та принципи змінити вже неможливо.\n\nСвященнослужителі та богослови прибули до мого двору, щоб обговорити питання теології інтерпретацію наших усних традицій, але саме завдяки мені ця реформа взагалі стала можлива. Моє слово буде вирішальним у суперечці про те, якими будуть [core_tenets|El] і [doctrines|El] нової конфесії."
@@ -127,7 +127,7 @@
  RELIGION_SHOW_ALL_FAITHS_TT:0 "Показати всі [faiths|El]"
  RELIGION_SHOW_RELIGION_FAITH_TT:0 "Показати всі [RELIGION.GetNameNoTooltip|l]є [faiths|El]"
  FAITH_WINDOW_COUNTIES:0 "Кількість [Concept( 'counties', 'графств' )|E]: [Faith.GetNumberOfCountiesOfFaith]"
- FAITH_RELIGION:0 "[Faith.GetReligion.GetNameNoTooltip]ая конфесія"
+ FAITH_RELIGION:0 "[Faith.GetReligion.GetNameNoTooltip]а конфесія"
  ORDER_FAITH_BY_COUNTIES:0 "Графства"
  ORDER_FAITH_BY_FERVOR:0 "Запопадливість"
  ORDER_FAITH_BY_RELIGION:0 "Релігія"

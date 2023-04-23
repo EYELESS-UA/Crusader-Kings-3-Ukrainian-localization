@@ -1,5 +1,5 @@
 ﻿l_english:
- raiding.0002.t:0 "Кров та полум'я"
+ raiding.0002.t:0 "Кров та полум‘я"
  raiding.0002.desc:0 "Поселення [sacked_barony.GetNameNoTierNoTooltip], могутня фортеця графства [sacked_county.GetNameNoTierNoTooltip], впала під натиском моїх грабіжників. Тепер нам відкриті всі широкі тракти цих земель, а з ними що називає себе [sacked_county_owner.GetTitledFirstName].\n\nВійсько чекає моїх наказів!"
  raiding.0002.a:0 "[raider_capital.GetNameNoTooltip] потребує вмілих рабів!"
  raiding.0002.b:0 "Несіть мені скарби, та більше!"
@@ -37,5 +37,5 @@
  raiding.0012.b.t:0 "Трофеї грабіжників відібрано"
  raiding.0012.b.desc:0 "Завдяки вашим умілим діям [raider.GetTitledFirstName] [Select_CString(raider.IsFemale, 'втратила', 'втратив' )] [ROOT.Var('raid_loot').GetValue| gold_i]!\n\nПеремога принесла вам [ROOT.Var('raid_prestige').GetValue|V0] [prestige_i]."
  raiding.0023.t:0 "[capital_province.GetNameNoTooltip] сіє жах"
- raiding.0023.desc:0 "Роками мої спустошливі набіги несли світові, що здригнувся від жаху, велич і лють, втілення яких є [raid_leader.GetFaith.HighGodName]. Адже якби не [raid_leader.GetFaith.Hige| вже розбили, чи не так? Але ні — мої домочадці сплять у розкоші, вкраденій у чужоземних правителів, а ліжко мені зігрівають дивовижні раби. ім'ям."
- raiding.0023.a:0 "Ха! Нехай хнижать, ледь почувши моє ім'я!"
+ raiding.0023.desc:0 "Роками мої спустошливі набіги несли світові, що здригнувся від жаху, велич і лють, втілення яких є [raid_leader.GetFaith.HighGodName]. Адже якби не [raid_leader.GetFaith.Hige| вже розбили, чи не так? Але ні — мої домочадці сплять у розкоші, вкраденій у чужоземних правителів, а ліжко мені зігрівають дивовижні раби. ім‘ям."
+ raiding.0023.a:0 "Ха! Нехай хнижать, ледь почувши моє ім‘я!"

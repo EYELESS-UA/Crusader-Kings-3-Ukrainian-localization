@@ -4,7 +4,7 @@
   HOSTILE_ACTIONS:0 "ворожі дії"
   VASSAL_ACTIONS:0 "дії з васалами"
   COURT_ACTIONS:0 "дії з двором"
-  IMPRISOMENT_ACTIONS:0 "дії з ув'язненими"
+  IMPRISOMENT_ACTIONS:0 "дії з ув‘язненими"
   RELIGIOUS_ACTIONS:0 "релігійні дії"
   HOUSE_HEAD_ACTIONS:0 "дії глави будинку"
   UNCATEGORIZED_ACTIONS:0 "без категорії"

@@ -32,7 +32,7 @@
  tooltip_feudal_elector_vote_uncivilized:0 "[candidate.GetSheHe|U] — дикий варвар: $VALUE|=+0$"
  tooltip_feudal_elector_vote_settled:0 "[candidate.GetSheHe|U] — лінивий поселенець: $VALUE|=+0$"
  tooltip_feudal_elector_vote_dynasty:0 "[candidate.GetSheHe|U] належить до моєї [dynasties|El]: $VALUE|=+0$"
- tooltip_feudal_elector_vote_relative:0 "[candidate.GetSheHe|U] — член моєї сім'ї: $VALUE|=+0$"
+ tooltip_feudal_elector_vote_relative:0 "[candidate.GetSheHe|U] — член моєї сім‘ї: $VALUE|=+0$"
  tooltip_feudal_elector_vote_parent:0 "[candidate.GetSheHe|U] — моя рідна дитина: $VALUE|=+0$"
  tooltip_feudal_elector_vote_distant_relative:0 "[candidate.GetSheHe|U] — із дальньої гілки династії: $VALUE|=+0$"
  tooltip_feudal_elector_vote_martial_education:0 "[candidate.GetSheHe|U] — солдат: $VALUE|=+0$"

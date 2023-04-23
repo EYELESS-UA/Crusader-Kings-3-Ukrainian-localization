@@ -76,13 +76,13 @@
 
  #Zhengyi
  zhengyi:0 "Чженійськ"
- zhengyi_adj:0 "Чжен'ї"
- zhengyi_adherent:0 "Чжен'ї"
- zhengyi_adherent_plural:0 "Чжен'ї"
+ zhengyi_adj:0 "Чжен‘ї"
+ zhengyi_adherent:0 "Чжен‘ї"
+ zhengyi_adherent_plural:0 "Чжен‘ї"
  zhengyi_desc:0 "На відміну від інших даосистських шкіл, чженьї вірять у сувору теократичну ієрархію з Небесним наставником на чолі. Адепти майструють і продають захисні талісмани, що перешкоджають втраті ци — життєвої енергії, яка живить все живе."
  
  zhengyi_positive_afterlife:0 "Палац Великої пітьми"
- zhengyi_negative_afterlife:0 "земна в'язниця"
+ zhengyi_negative_afterlife:0 "земна в‘язниця"
 
  #Shangqing
  shangqing:0 "Шанцинськ"

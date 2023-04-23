@@ -1,6 +1,6 @@
 ﻿l_english:
  language_events.0001.t:0 "Лексичне божевілля"
- language_events.0001.desc:1 "Важко пам'ятати стільки мов — я починаю забувати, якою говорю!\n\nНе далі як вчора замість звичайного вітання з мого рота полилася безглузда мішанина слів, в якій чувся те [language_to_uget. GetNameNoTooltip|l], то [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] мову... і мені це здавалося нормальним, поки хтось не почав обурюватися.\n\nМожливо, мені варто спробувати просто викинути [language_to_forget. GetLanguage.GetNameNoTooltip|l з голови?.."
+ language_events.0001.desc:1 "Важко пам‘ятати стільки мов — я починаю забувати, якою говорю!\n\nНе далі як вчора замість звичайного вітання з мого рота полилася безглузда мішанина слів, в якій чувся те [language_to_uget. GetNameNoTooltip|l], то [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip|l] мову... і мені це здавалося нормальним, поки хтось не почав обурюватися.\n\nМожливо, мені варто спробувати просто викинути [language_to_forget. GetLanguage.GetNameNoTooltip|l з голови?.."
  language_events.0001.a:0 "Нехай піде в забуття..."
  language_events.0001.b:0 "Ні! Потрібно працювати старанніше і більше вчитися!"
  language_events.0002.b.tt:0 "Ви відправляєте збирачів за «податком» до [gold_i]#P 50#! з кожного #L [vassal_speaking_other_language.GetCulture.GetCollectiveNoun|l]ого#! графства на землях, якими править .GetTitledFirstName]"

@@ -1,9 +1,9 @@
 ﻿l_english:
- positive_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ий' )]"
- negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'ая', 'ый' )]"
+ positive_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'a', 'ий' )]"
+ negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )|U][Select_CString(second.IsFemale, 'a', 'ий' )]"
  positive_desc_debug:0 "добрий"
  negative_desc_debug:0 "скверн"
- test_case_desc_in_event:1 "[Select_CString(other.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))|l][Select_CString(other.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
+ test_case_desc_in_event:1 "[Select_CString(other.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))|l][Select_CString(other.IsFemale, 'a', 'ий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
 
  positive_desc_loyal:0 "лояльн"
  positive_desc_faithful:0 "верн"
@@ -78,7 +78,7 @@
  positive_desc_wise:0 "мудрий"
  positive_desc_venerable:0 "поважно"
  positive_desc_youthful:0 "молодшавши"
- positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'ая', 'ий' )]""
+ positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'a', 'ий' )]""
 
  negative_desc_traitorous:0 "вероломн"
  negative_desc_subversive:0 "загибель"
@@ -150,7 +150,7 @@
  negative_desc_rattling:0 "шумн"
  negative_desc_annoying:0 "набридливий"
  negative_desc_raucous:0 "бурн"
- negative_desc_meddling:0 "нав'язливий"
+ negative_desc_meddling:0 "нав‘язливий"
  negative_desc_prying:0 "набридливий"
  negative_desc_intrusive:0 "надокучливий"
  negative_desc_overconfident:0 "самовпевнений"
@@ -170,7 +170,7 @@
  crime_excommunicated:0 "[Select_CString( CHARACTER.IsFemale, 'відлучена', 'відлучений')]"
  crime_murderer:0 "вбивця"
  crime_heretic:0 "єретик"
- crime_heathen:0 "[Select_CString( CHARACTER.IsFemale, 'язичниця', 'язичник' )]"
+ crime_heathen:0 "[Select_CString( CHARACTER.IsFemale, ‘язичниця', ‘язичник' )]"
  crime_infidel:0 "[Select_CString( CHARACTER.IsFemale, 'невіруюча', 'невіруючий')]"
  crime_fallback:0 "[Select_CString( CHARACTER.IsFemale, 'злочинець', 'злочинець')]"
 
@@ -184,7 +184,7 @@
  crime_fornicator_desc:0 "кутила без сорому і совісті"
  crime_denounced_desc:0 "Ганьба династії"
  crime_excommunicated_desc:0 "[Select_CString(CHARACTER.IsFemale, 'безбожна відщепеня', 'безбожний ізгой' )]"
- crime_murderer_desc:0 "справжній м'ясник"
+ crime_murderer_desc:0 "справжній м‘ясник"
  crime_heretic_desc:0 "[Select_CString(CHARACTER.IsFemale, 'ганебна відступниця', 'ганебний відступник')]"
  crime_heathen_desc:0 "[Select_CString(CHARACTER.IsFemale, 'богохульна ідолопоклонниця', 'богохульний ідолопоклонник' )]"
  crime_infidel_desc:0 "безбожне породження зла"

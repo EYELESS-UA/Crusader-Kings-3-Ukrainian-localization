@@ -64,7 +64,7 @@
  health.1003.a:0 "Принесіть мені льоду! Швидше!"
 
  health.1004.t:1 "[SCOPE.Custom('EventTitleDisease')]: погляди убік"
- health.1004.desc:0 "Перші симптоми були незначними, на них було так просто не зважати. Мабуть, мені було страшно глянути правді у вічі. Ця моторошна відмітка на моєму обличчі, болячки... Я більше не можу це ігнорувати. Піддані виконують мої накази, але щось змінилося в тому, як вони дивляться на мене. У їхніх очах з'явився страх? Жаль? Чи це огида?"
+ health.1004.desc:0 "Перші симптоми були незначними, на них було так просто не зважати. Мабуть, мені було страшно глянути правді у вічі. Ця моторошна відмітка на моєму обличчі, болячки... Я більше не можу це ігнорувати. Піддані виконують мої накази, але щось змінилося в тому, як вони дивляться на мене. У їхніх очах з‘явився страх? Жаль? Чи це огида?"
  health.1004.court_physician.desc:0 "\n\n«Боюсь, проказа невиліковна, [Select_CString(character.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord]. Але я знаю, як послабити її симптоми».
  health.1004.a:0 "За що мені таке прокляття?"
 
@@ -95,11 +95,11 @@
  health.1013.no_partner.a:0 "Це прокляття! Справжнє смертельне прокляття!"
 
  health.1014.t:1 "[SCOPE.Custom('EventTitleDisease')]: падіння"
- health.1014.desc:0 "Де я?\n\nЯ дивлюся на порожній коридор переді мною, серце колотиться в грудях, руки тремтять. Що я тут роблю?.. Я бачу картини, сходи, падіння, тіні в кутах, але не можу зв'язати їх воєдино.\n\nХтось слідкує за мною.\n\nЯ різко обертаюся, але бачу лише порожнечу."
+ health.1014.desc:0 "Де я?\n\nЯ дивлюся на порожній коридор переді мною, серце колотиться в грудях, руки тремтять. Що я тут роблю?.. Я бачу картини, сходи, падіння, тіні в кутах, але не можу зв‘язати їх воєдино.\n\nХтось слідкує за мною.\n\nЯ різко обертаюся, але бачу лише порожнечу."
  health.1014.a:0 "Я не боюся тебе. Чуєш? НЕ БОЮСЯ!"
 
  health.1010.t:1 "[SCOPE.Custom('EventTitleDisease')]: червона чума"
- health.1010.desc:0 "Коли прийшла перша хвиля спеки і нудоти, в мені теплилася надія, що це пітлива лихоманка. І справді, незабаром мені полегшало настільки, що вдалося встати з ліжка і повернутися до своїх обов'язків. Тиждень все було добре, поки в роті не з'явилися перші червоні плями.
+ health.1010.desc:0 "Коли прийшла перша хвиля спеки і нудоти, в мені теплилася надія, що це пітлива лихоманка. І справді, незабаром мені полегшало настільки, що вдалося встати з ліжка і повернутися до своїх обов‘язків. Тиждень все було добре, поки в роті не з‘явилися перші червоні плями.
  health.1010.end.desc:0 "\n\nЦе було два дні тому, і тепер по моїй шкірі поширюються зрадливі виразки..."
  health.1010.court_physician.desc:0 "\n\n«Так, це явна ознака віспи. Дуже небезпечна хвороба, якщо її не лікувати»."
  health.1010.a:1 "[ROOT.Char.GetFaith.HealthGodName], прошу, не зараз! Ще рано!"
@@ -160,7 +160,7 @@
  health.2001.d.not_sick:0 "Я прощаю тебе, [std_partner.GetFirstNameNoTooltip]."
  health.2001.d.sick:0 "Любов моя, я не знаходжу слів, щоб висловити свій жаль!"
  health.2001.c.tt:0 "Я і [SCOPE.sC('std_partner').GetFirstName] продовжимо ділити ложе, навіть якщо я ризикую захворіти"
- health.2001.c.tt_sick:0 "[std_partner.GetFirstName] залишиться зі мною у хворобі та здоров'ї."
+ health.2001.c.tt_sick:0 "[std_partner.GetFirstName] залишиться зі мною у хворобі та здоров‘ї."
 
  health.2002.t:1 "[SCOPE.Custom('EventTitleDisease')]: погіршення"
  health.2002.start.desc:0 "[std_partner.GetFirstName] запевняє, що це були просто прищики, але тепер хвороба показала своє справжнє обличчя. Червоний висип поширюється по [std_partner.GetHerHis] шкірі - це вірна ознака сифілісу."
@@ -186,7 +186,7 @@
  health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName] заносить косу над моєю країною — виявлено випадок смертельної бубонної чуми!"
  health.2101.bubonic_plague_spreads.desc:0 "Ще один нещасний стоїть на порозі смерті, і моторошні бубни покривають його шкіру."
  health.2101.imporant.desc:1 "[Select_CString(sick_character.IsFemale, 'Моя бідна', 'Мій бідний' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_character'))| ] [sick_character.GetFirstName] бореться за життя."
- health.2101.prisoner.desc:1 "Цього разу [Select_CString(sick_character.IsFemale, 'невезучою', 'невезучим' )] виявляється [Select_CString(sick_character.IsFemale, 'в'язень', 'в'язень' ]] - [. GetTitledFirstName]."
+ health.2101.prisoner.desc:1 "Цього разу [Select_CString(sick_character.IsFemale, 'невезучою', 'невезучим' )] виявляється [Select_CString(sick_character.IsFemale, 'в‘язень', 'в‘язень' ]] - [. GetTitledFirstName]."
  health.2101.courtier_or_guest.desc:1 "Нещасна жертва - [Select_CString(sick_character.IsFemale, 'моя', 'мій')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sick_char) l] [sick_character.GetTitledFirstName]."
  health.2101.immune.desc:0 "\n\nМені ця жахлива хвороба більше не загрожує, проте [SCOPE.sC('sick_character').GetFirstName] загрожує іншим придворним."
  health.2101.not_immune.desc:0 "Хвароба, що терзає [sick_character.GetHerHis] тіло, несе загрозу всім нам. Поки [sick_character.GetSheHe] хворіє, ніхто при дворі не може почуватися в безпеці."
@@ -212,10 +212,10 @@
  disease_smallpox:0 "віспи."
  disease_bubonic_plague:0 "бубонною чумою."
  missing_illness:0 "#D Немає хвороби #!"
- health.2201.minor_disease.desc:0 "\n\nЗазвичай таке незначне захворювання не викликає особливого занепокоєння, але [SCOPE.sC('sick_character').GetFirstName] відрізняється слабким здоров'ям і, можливо, не переживе цього."
+ health.2201.minor_disease.desc:0 "\n\nЗазвичай таке незначне захворювання не викликає особливого занепокоєння, але [SCOPE.sC('sick_character').GetFirstName] відрізняється слабким здоров‘ям і, можливо, не переживе цього."
  health.2201.leprosy.desc:1 "\n\nМожливо, [sick_character.GetSheHe] проживе ще багато років, але [sick_character.GetHerHis] будуть цуратися і побоюватися через потворність. Навіть я не можу придушити відрази при думці про, що ростуть по всій [sick_character.GetHerHis] шкірі..."
  health.2201.lethal_disease.desc:0 "\n\nБоюсь, це кінець: [SCOPE.sC('sick_character').GetHerHis] може врятувати тільки диво."
- health.2201.major_disease.desc:1 "\n\nМайбутнє неясно. Смерть стоїть у [sick_character.GetHerHis] узголів'я, і ​​все ж є надія, що [sick_character.GetSheHe] виживе. Тільки [ROOT.Char.GetFaName знає напевно.
+ health.2201.major_disease.desc:1 "\n\nМайбутнє неясно. Смерть стоїть у [sick_character.GetHerHis] узголів‘я, і ​​все ж є надія, що [sick_character.GetSheHe] виживе. Тільки [ROOT.Char.GetFaName знає напевно.
  health.2201.court_physician.desc:1 "\n\nЛікар запитує, яке лікування отримуватиме [Select_CString(sick_character.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SPE ('sick_character'))]."
  health.2201.court_physician.desc_sick_physician:0 "\n\n[sick_character.GetSheHe|U] мій лікар, але все одно шукає поради у мене."
  health.2201.a:0 "Я не можу захистити [SCOPE.sC('sick_character').GetHerHis] від цього ворога."
@@ -299,19 +299,19 @@
  health.3102.e_child:1 "Я довіряю твоїй думці."
 
  health.3103.t:1 "[SCOPE.Custom('EventTitleDisease')]: трохи яскравіше"
- health.safe_treatment.1.desc:0 "[physician.GetTitledFirstName] вирішує, що найкращим лікуванням буде відпочинок. [physician.GetSheHe|U] влаштовує мене зручніше в оточенні м'яких подушок і вкриває декількома шарами ковдр. Виходячи з спокою. GetFirstNameNoTooltip] закриває полог мого ліжка. На годиннику опівночі.\n\nДодатковий сон"
- health.safe_treatment.2.desc:0 "[physician.GetTitledFirstName] приписує мою хворобу нездоровій дієті. і трав'яним чаєм.А ще [physician.GetSheHe] конфіскує мої запаси смаколиків, щоб не наражати мене на спокусу, і не повертає їх.\n\nСтрога дієта"
- health.safe_treatment.3.desc:0 "[physician.GetTitledFirstName] велить мені лежати в ліжку і дати [physician.GetHerHim] мої руки. [SCOPE.sC('physician').GetSheHe|U] з силою трет і б'є долоні, поки вони не стають червоними, а потім повторює процедуру з моїми ступнями.
+ health.safe_treatment.1.desc:0 "[physician.GetTitledFirstName] вирішує, що найкращим лікуванням буде відпочинок. [physician.GetSheHe|U] влаштовує мене зручніше в оточенні м‘яких подушок і вкриває декількома шарами ковдр. Виходячи з спокою. GetFirstNameNoTooltip] закриває полог мого ліжка. На годиннику опівночі.\n\nДодатковий сон"
+ health.safe_treatment.2.desc:0 "[physician.GetTitledFirstName] приписує мою хворобу нездоровій дієті. і трав‘яним чаєм.А ще [physician.GetSheHe] конфіскує мої запаси смаколиків, щоб не наражати мене на спокусу, і не повертає їх.\n\nСтрога дієта"
+ health.safe_treatment.3.desc:0 "[physician.GetTitledFirstName] велить мені лежати в ліжку і дати [physician.GetHerHim] мої руки. [SCOPE.sC('physician').GetSheHe|U] з силою трет і б‘є долоні, поки вони не стають червоними, а потім повторює процедуру з моїми ступнями.
  health.safe_treatment.4.desc:0 "[physician.GetTitledFirstName] пропонує мені прозору мікстуру в позолоченій посудині. Мені вже доводилося пробуватиь подібні зілля, і я починаю пити з побоюванням, але незабаром розумію, що рідина не має ні запаху, ні смаку. На мої розпитування про інгредієнти [SCOPE.sC('physician').GetTitledFirstName] відповідає, що зберігає рецепт у таємниці.\n\nЗагадкове зілля"
- health.safe_treatment.5.desc:1 "Дихайте рівно", - велить мені [physician.GetTitledFirstName]. Перо в [physician.GetHerHis] руці виглядає майже як божественне, коли [physician.GetSheHe] починає мене м'яко вести під носом: «Зло, йди!» — вигукує [physician.GetSheHe], і я голосно чхаю.\n\nДивний лоскут"
+ health.safe_treatment.5.desc:1 "Дихайте рівно", - велить мені [physician.GetTitledFirstName]. Перо в [physician.GetHerHis] руці виглядає майже як божественне, коли [physician.GetSheHe] починає мене м‘яко вести під носом: «Зло, йди!» — вигукує [physician.GetSheHe], і я голосно чхаю.\n\nДивний лоскут"
  health.safe_treatment.6.desc:1 "[physician.GetTitledFirstName] влаштовує невелику церемонію на мою честь. Члени моєї родини та найближче оточення збираються в головному залі, і [ROOT.Char.Custom('DefaultPriestTitle')] читає проповідь, в якої згадує про мою благочестя і великодушність. Церемонія закінчується годинною безмовною молитвою.
  health.safe_treatment.7.desc:1 "Протягом багатьох вечорів [physician.GetTitledFirstName] сидить біля моєї ліжка, читаючи мені божественні слова.\n\n[ROOT.Char.GetFaith.HealthGodName]"
  health.safe_treatment.8.desc:0 "[physician.GetTitledFirstName] віддає розпорядження, і [ROOT.Char.Custom('DefaultPriestTitle')] наводить кращого придворного співака — юне солодкоголосе дитя. Кілька днів поспіль дитина співає мені перед сном. n\nЗаспокійливий голос"
- health.safe_treatment.9.desc:0 "Пар піднімається над чашею, в якій [physician.GetTitledFirstName] розмішує зелений порошок. [physician.GetSheHe|U] довго розповідає про цілющі властивості трав, а потім дивиться, як я п'ю. теж там», - з гордістю повідомляє [physician.GetSheHe].\n\nГірка трава"
+ health.safe_treatment.9.desc:0 "Пар піднімається над чашею, в якій [physician.GetTitledFirstName] розмішує зелений порошок. [physician.GetSheHe|U] довго розповідає про цілющі властивості трав, а потім дивиться, як я п‘ю. теж там», - з гордістю повідомляє [physician.GetSheHe].\n\nГірка трава"
  health.safe_treatment.10.desc:0 "[physician.GetTitledFirstName] наполягає, що баланс моїх гуморів розладнався і найкращий спосіб відновити його - пустити мені кров. Порадившись з астрономічними картами, лікар вирішує, що треба пускати кров з пахвових западин і .\n\nКровопускання"
  health.safe_treatment.11.desc:0 "[physician.GetTitledFirstName] велить мені роздягнутися і стати на коліна, піднявши зад. Поза і так вийшла дивна, але потім я бачу інструмент у руках лікаря і ледве не втікаю. [physician.GetSheHe| U], мабуть, помічає це, тому що заспокійливо поплескує мене по плечу і велить розслабитися.\n\nКлізма"
- health.safe_treatment.12.desc:0 "[physician.GetTitledFirstName] входить до моїх покоїв, тримаючи в руках глиняний посуд, і сідає біля мого ліжка. Лікар виймає з судини п'явку, уважно оглядає, а потім акуратно поміщає її мені "Ліжіть спокійно, [ROOT.Char.GetLadyLord]. Краще не заважати їм харчуватися".\n\nЛікування п'явками"
- health.safe_treatment.13.desc:0 "[physician.GetTitledFirstName] входить до моїх покоїв, і я відразу відчуваю поганий сморід. Вона походить від судини в руках лікаря - мені повідомляють, що це «суміш коров'ячого гною і трав для компресу» Я стримую блювотні позиви, коли [physician.GetFirstName] розмазує смердючу кашу по моїх грудях.\n\nВ кінцевому рахунку компрес"
+ health.safe_treatment.12.desc:0 "[physician.GetTitledFirstName] входить до моїх покоїв, тримаючи в руках глиняний посуд, і сідає біля мого ліжка. Лікар виймає з судини п‘явку, уважно оглядає, а потім акуратно поміщає її мені "Ліжіть спокійно, [ROOT.Char.GetLadyLord]. Краще не заважати їм харчуватися".\n\nЛікування п‘явками"
+ health.safe_treatment.13.desc:0 "[physician.GetTitledFirstName] входить до моїх покоїв, і я відразу відчуваю поганий сморід. Вона походить від судини в руках лікаря - мені повідомляють, що це «суміш коров‘ячого гною і трав для компресу» Я стримую блювотні позиви, коли [physician.GetFirstName] розмазує смердючу кашу по моїх грудях.\n\nВ кінцевому рахунку компрес"
  health.safe_treatment.14.desc:0 "[physician.GetTitledFirstName] приносить мені відвар з жостеру і сенни. Спочатку ліки здаються неефективними, але пізніше я відчуваю бурління в кишках, що змушує бігти до нужнику. Я кричу від болю,. GetFirstName] запевняє, що все погане залишило моє тіло разом з екскрементами.\n\nЗрештою очищення організму"
  health.safe_treatment.15.desc:0 "[physician.GetTitledFirstName] дає мені обвуглений труп кішки і велить їсти це. Я їм, а лікар розповідає, як довго довелося ганятися по моїх володіннях за жирною кішкою. Думаю, [SCOPE.sC( 'physician').GetTitledFirstName] хоче нагороди за свою нелегку працю, але мерзенний смак їжі не дає мені розкрити рота.\n\nВ кінцевому рахунку жирна їжа"
  health.safe_treatment.16.desc:0 "[physician.GetTitledFirstName] приносить у мої покої відро, з якого долинає квакання, і велить мені оголити верхню частину тіла. Лікар вистачає жабу, вміло потрошить її і кладе тушку, що ще смикається. Незабаром вся верхня половина мого тіла виявляється закрита жабами. Лікування жабами
@@ -332,16 +332,16 @@
  health.risky_treatment_medicine.2.desc:0 "Я не вірю своїм очам, коли [physician.GetTitledFirstName] дістає з сумки відрубану руку. Від чорних плям на мертвих пальцях у мене по спині пробігає холодок, і я вимагаю знати її походження. .sC('physician').GetTitledFirstName] шикає на мене і починає терти відрубаною рукою по моїх грудях."
  health.risky_treatment_medicine.3.desc:0 "[physician.GetTitledFirstName] дає мені вкрай незвичайну мікстуру. У неї немає ні запаху, ні смаку, а колір - як у рідкого срібла. Металічне зілля виявляється непросто проковтнути, і я ніяк не можу придушити занепокоєння."
  health.risky_treatment_medicine.4.desc:0 "[physician.GetTitledFirstName] наполягає, що мене вилікує тільки біг опівночі без одягу. У наступну повню лікар змушує мене роздягнутися і бігти крізь хащі лісу. «Не зупиняйтеся, поки ноги не від — кричить [SCOPE.sC('physician').GetTitledFirstName] мені слідом.— Виженіть із себе зло разом із потом!»"
- health.risky_treatment_medicine.5.desc:0 "Порошок жовтий і смачно пахне. Я в сум'ятті дивлюся, як [physician.GetTitledFirstName] змішує його з сірою і посипає цією сумішшю ще теплий жовчний міхур бобра. Тварина була шалена. , а паща його повна піною. «Ми використовуємо зло для боротьби зі злом, [ROOT.Char.GetLadyLord]»."
+ health.risky_treatment_medicine.5.desc:0 "Порошок жовтий і смачно пахне. Я в сум‘ятті дивлюся, як [physician.GetTitledFirstName] змішує його з сірою і посипає цією сумішшю ще теплий жовчний міхур бобра. Тварина була шалена. , а паща його повна піною. «Ми використовуємо зло для боротьби зі злом, [ROOT.Char.GetLadyLord]»."
  health.risky_treatment_medicine.6.desc:0 "[physician.GetTitledFirstName] підходить до мене з невеликим ножем, міцно бере за руку і робить точний надріз, лише злегка пронизуючи шкіру. Потім лікар починає щось вдавлювати в ранку. Мене вистачає лише на те, щоб кинути один швидкий погляд на цю субстанцію."
  health.risky_treatment_medicine.7.desc:0 "[physician.GetTitledFirstName] дає мені страву, покриту сірим порошком. Очевидно, це товчені струпи людини, чий стан ще гірший, ніж мій. На повному серйозі [physician.GetTitled нахилитися і вдихнути якнайбільше."
  health.risky_treatment_medicine.8.desc:0 "Червоний порошок має привабливий колір. Раніше якийсь слуга вже спробував спробувати речовину в чистому вигляді - язик нещасного страшенно розпух, а [physician.GetTitledFirstName] [Select_CString(physician.'sF) , 'прийнявся' )] сваритися.[physician.GetTitledFirstName] розчиняє пряність у чаші води і ретельно перемішує, перш ніж дати мені всього одну ложку."
  health.risky_treatment_medicine.9.desc:0 "Мої очі розкриваються від подиву, коли я бачу, як [physician.GetTitledFirstName] заводить у мої покої козу. Мерзкий запах її кишкових газів змушує мене прикрити ніс, але лікар прибирає геть мою руку: « Боюся, [ROOT.Char.GetLadyLord], це і є лікування.» [physician.GetSheHe|U] радить мені дихати на повні груди."
- health.risky_treatment_surgery.1.desc:0 "[physician.GetTitledFirstName] дає мені настойку дуже дивного смаку. Від неї я ніби п'янію, і повіки починають закриватися. «Прошу вибачення, [ROOT.Char.GetLadyLord], але вам не варто під час наступної процедури», - каже лікар. Я панікую і намагаюся встати з операційного столу, але кінцівки мені вже не коряться."
+ health.risky_treatment_surgery.1.desc:0 "[physician.GetTitledFirstName] дає мені настойку дуже дивного смаку. Від неї я ніби п‘янію, і повіки починають закриватися. «Прошу вибачення, [ROOT.Char.GetLadyLord], але вам не варто під час наступної процедури», - каже лікар. Я панікую і намагаюся встати з операційного столу, але кінцівки мені вже не коряться."
  health.risky_treatment_surgery.2.desc:0 "Асистент запевняє лікаря, що зілля приспало мене. Але це жахлива помилка! Я не можу ні говорити, ні поворухнутися, проте усвідомлюю все, що вони роблять зі мною. Я намагаюся кричати і вириватися, але не можу. Я в полоні власного тіла. Здається, операція триває цілу вічність..."
  health.risky_treatment_amputation.1.desc:0 "[physician.GetTitledFirstName] закріплює останній ремінь, що утримує мене на операційному столі: «Не буду брехати вам, [ROOT.Char.GetLadyLord] — буде дуже боляче, але інакше не можна».\n \nЯ намагаюся протестувати, бачачи, як [physician.GetFirstName] дістає пилку, але через випите заспокійливе моглоу видавати лише незрозумілі звуки."
  health.risky_treatment_disfigurement.1.desc:0 "[physician.GetTitledFirstName] повідомляє, що вдалося знайти уражену тканину, яка була причиною мого захворювання, і що її видалення швидше за все призведе до зцілення. Це приємні новини, і я погоджуюсь на операцію.\ Жаль тільки, що лікар забув згадати, що цією «тканиною» було моє обличчя."
- health.risky_treatment_eye.1.desc:0 "[physician.GetTitledFirstName] змушує мене випити макову настойку, перед тим як прив'язати до свого операційного столу. Я сплю, поки лікар готує інструменти, але потім [physician.GetSheHe] підносить скаль , і я різко приходжу до себе. «Вибачте, [ROOT.Char.GetLadyLord], але потрібно усунути джерело хвороби»."
+ health.risky_treatment_eye.1.desc:0 "[physician.GetTitledFirstName] змушує мене випити макову настойку, перед тим як прив‘язати до свого операційного столу. Я сплю, поки лікар готує інструменти, але потім [physician.GetSheHe] підносить скаль , і я різко приходжу до себе. «Вибачте, [ROOT.Char.GetLadyLord], але потрібно усунути джерело хвороби»."
  health.3105.end.desc:0 "\n\nДивно, але я більше не відчуваю симптомів..."
  health.3105.a:0 "Це диво!"
  
@@ -355,25 +355,25 @@
  health.3107.a:0 "Я відчуваю... слабкість..."
  health.3107.b:0 "Не смій це повторювати. Чуєш мене?"
  health.3107.c:0 "Ми знали, на що йдемо. Я прощаю тебе."
- health.3107.d:0 "Вартова! Кіньте [SCOPE.sC('physician').GetHerHis] у в'язницю!"
- health.3107.d.tt:0 "[physician.GetTitledFirstName] тепер у моїй в'язниці, і я вирішу, як мені вчинити"
+ health.3107.d:0 "Вартова! Кіньте [SCOPE.sC('physician').GetHerHis] у в‘язницю!"
+ health.3107.d.tt:0 "[physician.GetTitledFirstName] тепер у моїй в‘язниці, і я вирішу, як мені вчинити"
  health.3107.e:0 "Зрадник заслуговує на смерть!"
  health.3107.f:0 "О, [physician.GetFirstNameNoTooltip], що ви зробили з собою?"
 
  health.3108.t:1 "[SCOPE.Custom('EventTitleDisease')]: велика сила"
- health.mystic_treatment_occult.cannibal.desc:0 "Випийте", - шепоче [physician.GetTitledFirstName]. Щойно рідина потрапляє мені в рот, як виникає дивне почуття. Мої кінцівки німіють, і всередині розгорається вогонь...\n\n« А тепер з'їжте це», - шматки теплі, вологі, жорсткі. Вогню подобається це. Він хоче ще.
+ health.mystic_treatment_occult.cannibal.desc:0 "Випийте", - шепоче [physician.GetTitledFirstName]. Щойно рідина потрапляє мені в рот, як виникає дивне почуття. Мої кінцівки німіють, і всередині розгорається вогонь...\n\n« А тепер з‘їжте це», - шматки теплі, вологі, жорсткі. Вогню подобається це. Він хоче ще.
  health.mystic_treatment_occult.deviant.desc:0 "[physician.GetTitledFirstName] велить мені роздягнутися і починає втирати масло мені в шкіру. Рука лікаря плавно скочується до потаємних частин мого тіла, наші очі зустрічаються, і я розумію, що саме цього мені і хотів Я киваю.\n\nНезабаром до рук лікаря приєднується безліч інших.
  health.mystic_treatment_occult.1.desc:0 "Я не можу піднятися з ліжка, і слуги розповідають мені про дим похоронного вогнища, який видно за багато миль. Життя більш ніж двох дюжин чудових тварин закінчилися минулої ночі під час грандіозного жертвопринесення. [SCOPE. sC('physician').GetTitledFirstName] велить мені втирати в шкіру попіл від багаття, і я корюся вже два тижні."
  health.mystic_treatment_occult.2.desc:0 "[physician.GetTitledFirstName] велить мені залізти в порожню діжку і йде, щоб у мене була можливість роздягнутися без сторонніх очей. Поверненню лікаря передує гучне блеяння: [SCOPE.sC('y) GetTitledFirstName] повертається у супроводі слуги та півдюжини кіз [physician.GetFirstNameNoTooltip] вистачає одну козу за іншою і перерізає їм горло над бочкою.
- health.mystic_treatment_occult.3.desc:1 "[physician.GetTitledFirstName] каже, що [ROOT.Char.GetFaith.HealthGodName] вимагає жертву. Пізніше ввечері я чую крик.\n\nЯ йду на звук і бачу: [SCOPE.sC ('physician').GetTitledFirstName] схиляється над тілом, в [physician.GetHerHis] очах завмер страх, а руки вкриті кров'ю. «Я роблю це заради країни!..» — видихає мій лікар."
+ health.mystic_treatment_occult.3.desc:1 "[physician.GetTitledFirstName] каже, що [ROOT.Char.GetFaith.HealthGodName] вимагає жертву. Пізніше ввечері я чую крик.\n\nЯ йду на звук і бачу: [SCOPE.sC ('physician').GetTitledFirstName] схиляється над тілом, в [physician.GetHerHis] очах завмер страх, а руки вкриті кров‘ю. «Я роблю це заради країни!..» — видихає мій лікар."
  health.mystic_treatment_occult.4.desc:0 "[physician.GetFirstName] вручає мені сумку з травами і посилає в подорож на пошуки «духу-наставника». Кілька днів я блукаю по безлюдних місцях, харчуючись тільки корінням з сумки, і сплю під сумками Нарешті, я відчуваю чиюсь присутність. Переді мною стоїть могутній рогатий звір. Я обертаюся і біжу геть.
  health.mystic_treatment_occult.5.desc:0 "[physician.GetTitledFirstName] стоїть біля моєї ліжка, поки слуги запалюють свічки. Мені в руки сунули якийсь горщик — судячи з звуків, у ньому знаходиться дрібне перелякане звірятко. «Ця істота буде нести тяжіння замість вас», - пояснює лікар. І починає співати."
  health.mystic_treatment_questionable.1.desc:0 "[physician.GetFirstName] всаджує мене перед високим дзеркалом і запалюєет свічки навколо мене. "Ми повинні вступити в контакт з вами з інших світів", - як би ненароком говорить [physician.GetSheHe]. Я здивовано піднімаю брови, і [SCOPE.sC('physician').GetFirstName] кладе руку мені на плече: «Можливо... це змінить вас»."
- health.mystic_treatment_questionable.2.desc:1 "Кімнату висвітлює лише полум'я свічки. [physician.GetTitledFirstName] дивиться в західне вікно і покриває мої нігті краплями олії. Я відчуваю жар на шкірі, коли лікар підносить мої руки до полум'я. [ROOT.Char.GetLadyLord].[ROOT.Char.GetFaith.HealthGodName] у своїй мудрості очистить вас»."
- health.mystic_treatment_questionable.3.desc:1 "Місяць вимагає вашого служіння", - говорить [physician.GetTitledFirstName] і передає мені тістечко, просочене пряно пахким кремом. Я з'їдаю його, а потім вдивляюсь в нічне небо і складаю Але потім не можу згадати жодного слова..."
+ health.mystic_treatment_questionable.2.desc:1 "Кімнату висвітлює лише полум‘я свічки. [physician.GetTitledFirstName] дивиться в західне вікно і покриває мої нігті краплями олії. Я відчуваю жар на шкірі, коли лікар підносить мої руки до полум‘я. [ROOT.Char.GetLadyLord].[ROOT.Char.GetFaith.HealthGodName] у своїй мудрості очистить вас»."
+ health.mystic_treatment_questionable.3.desc:1 "Місяць вимагає вашого служіння", - говорить [physician.GetTitledFirstName] і передає мені тістечко, просочене пряно пахким кремом. Я з‘їдаю його, а потім вдивляюсь в нічне небо і складаю Але потім не можу згадати жодного слова..."
  health.mystic_treatment_questionable.4.desc:0 "[physician.GetTitledFirstName] велить мені щовечора перед сном пити особливо міцний відвар. «Він послабить матерію вашого буття, впустить духів у ваше тіло, — запевняє мене лікар. «А ще він. . розслабляє», - додає [physician.GetSheHe] з усмішкою."
  health.mystic_treatment_questionable.5.desc:0 "[physician.GetFirstName] говорить, що [ROOT.Char.GetFaith.ReligiousText] складно піддається розумінню, але очищення вогнем - мистецтво старе, як сам світ. Ніщо не віщує того, що незабаром [ SCOPE.sC('physician').GetFirstName] змусить мене йди розпеченим вугіллям."
- health.mystic_treatment_questionable.6.desc:2 "[physician.GetTitledFirstName] каже, що [ROOT.Char.GetFaith.HealthGodName] бажає випробувати мій розум. Разом ми вирушаємо в дорогу і мандруємо, поки не досягаємо невеликого озера. Взявшись за руки, ми входимо у воду.На мій подив [physician.GetFirstNameNoTooltip] раптом вистачає мене за плечі і починає топити. У цю мить свідомість покидає мене, і я не пам'ятаю, що було далі..."
+ health.mystic_treatment_questionable.6.desc:2 "[physician.GetTitledFirstName] каже, що [ROOT.Char.GetFaith.HealthGodName] бажає випробувати мій розум. Разом ми вирушаємо в дорогу і мандруємо, поки не досягаємо невеликого озера. Взявшись за руки, ми входимо у воду.На мій подив [physician.GetFirstNameNoTooltip] раптом вистачає мене за плечі і починає топити. У цю мить свідомість покидає мене, і я не пам‘ятаю, що було далі..."
  health.3108.end.desc:0 "\n\nЯ прокидаюся вранці і розумію, що звичні біль і незручність пропали. Невже... це зцілення?"
  health.3108.a:0 "Я не знаю, як ставитися до цього... І у що вірити."
 
@@ -387,14 +387,14 @@
  # Punishment for mistreating important people
  health.3200.death.desc:0 Я бачу обличчя, але це вже не [SCOPE.sC('sick_character').GetTitledFirstName]. безсилля лікаря."
  health.3200.failure.desc:0 Невже це [sick_character.GetTitledFirstName]? [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U] намагається говорити, але жодного звуку не зривається з [sick_character.GetHerHis] губ."
- health.3200.failure.desc_2:0 "Проходячи мимо покоїв, де проживає [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName], я чую , який лише віддалено нагадує людський.Я вриваюся в кімнату і бачу, що [sick_character.GetFirstNameNoTooltip] лежить на підлозі, #EMP [Select_CString(sick_character.IsFemale, 'залита', 'залитий' )]#! кров'ю."
+ health.3200.failure.desc_2:0 "Проходячи мимо покоїв, де проживає [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName], я чую , який лише віддалено нагадує людський.Я вриваюся в кімнату і бачу, що [sick_character.GetFirstNameNoTooltip] лежить на підлозі, #EMP [Select_CString(sick_character.IsFemale, 'залита', 'залитий' )]#! кров‘ю."
  health.3200.failure.desc_3:0 "Мені не відразу вдається усвідомити, які збитки [sick_character.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(sick_character.IsFemale, 'завдала', 'завдала" [Select_CString(sick_character.IsFemale, 'Вона вся', 'Він весь' )] у крові, але все одно завзято орудує ножем. Перш ніж я встигаю втрутитися, [sick_character.GetSheHe] розчаровано дивиться на гострий клинок і"
  health.3200.end.desc:0 "\n\n[physician.Custom('InsultAdjective')|U] [Select_CString(physician.IsFemale, 'лікарка', 'лікар' )], тиснеться в кутку, нервово викручуючи руки ..."
  health.3200.death.tt:0 "[sick_character.GetTitledFirstName] вмирає під час лікування."
 
- health.3201.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] дивиться на мене диким поглядом. Я питаю, що за моторошне бачення [sick_character.GetHerHim] з'явилося, але з [sick_character.GetHerHis] губ не зривається жодного звуку.\n\n"
- health.3201.occult.desc:0 "Слуга стверджує, що у всьому винен лише одна людина: [physician.GetTitledFirstName]. Це через [SCOPE.sC('physician').GetHerHis] годерного чаклунства страждає [SCOPE.sC('sick_character').GetTitledFirstName]. Моторошна історія, м'яко висловлюючись. "
- health.3201.occult.desc_sick_physician:0 "Слуга стверджує, що у всьому винен лише одна людина: [physician.GetTitledFirstName]. Це через [SCOPE.sC('physician').GetHerHis] чорного чаклунства страждає [SCOPE.sC ('sick_character').GetTitledFirstName].Жахлива історія, м'яко висловлюючись."
+ health.3201.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] дивиться на мене диким поглядом. Я питаю, що за моторошне бачення [sick_character.GetHerHim] з‘явилося, але з [sick_character.GetHerHis] губ не зривається жодного звуку.\n\n"
+ health.3201.occult.desc:0 "Слуга стверджує, що у всьому винен лише одна людина: [physician.GetTitledFirstName]. Це через [SCOPE.sC('physician').GetHerHis] годерного чаклунства страждає [SCOPE.sC('sick_character').GetTitledFirstName]. Моторошна історія, м‘яко висловлюючись. "
+ health.3201.occult.desc_sick_physician:0 "Слуга стверджує, що у всьому винен лише одна людина: [physician.GetTitledFirstName]. Це через [SCOPE.sC('physician').GetHerHis] чорного чаклунства страждає [SCOPE.sC ('sick_character').GetTitledFirstName].Жахлива історія, м‘яко висловлюючись."
  health.3201.questionable.desc:0 "Схоже, один з "нестандартних засобів", якими так [Select_CString(physician.IsFemale, 'хвалилася', 'хвалився' )][SCOPE.sC('physician').GetTitledFirstName], призвело до жахливих наслідків."
  health.3201.c:0 "Ні слова про це, [physician.GetFirstNameNoTooltip]!"
 
@@ -429,19 +429,19 @@
  health.4002.start.desc_sick_physician:0 "Пора зайнятися моїм лікуванням."
 
  health.4101.t:1 "$health_wounded_title$ Лікування"
- health.4101.desc_infection:0 "Спостерігаючи, як [physician.GetFirstName] змішує мед і трави, я не можу зрозуміти: невже це якийсь жарт? Як мені допоможе зелень? Коли лікар кладе припарку на ниючу рану і починає її м'яти, тіло"
+ health.4101.desc_infection:0 "Спостерігаючи, як [physician.GetFirstName] змішує мед і трави, я не можу зрозуміти: невже це якийсь жарт? Як мені допоможе зелень? Коли лікар кладе припарку на ниючу рану і починає її м‘яти, тіло"
  health.4101.desc_1:0 "[physician.GetFirstName] перекидає на мою рану пляшку вина! Біль жахливий! Набагато сильніший, ніж від самого поранення.\n\n«Прошу вас, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій')] [ROOT.Char.GetTitleTierName|l], потерпіть. Якщо в рану потрапила зараза, її необхідно знищити». Дійсно, туго забинтована рана"
  health.4101.desc_2:0 "[physician.GetFirstName] швидко втягує нитку в голку і починає зашивати мою рану, наче швачка у вогнища. Стягнуте швами тіло виглядає страшно! Проходить час, і вона"
  health.4101.desc_end:0 "незабаром починає гоїтися."
  health.4101.a:0 "Відмінна робота, [physician.GetFirstNameNoTooltip]!"
 
  health.4102.t:1 "$health_wounded_title$ Біль"
- health.4102.desc_infection:0 "[physician.GetFirstName] вносить мішок у мої покої... Він рухається! Пульсує, немов усередині щось живе... [physician.GetFirstNameNoTooltip] дістає звивається п'явку, і я бліда. [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій')] [ROOT.Char.GetTitleTierName|l], не сіпайте...»\n\nНе знаю, якого результату лікар хотів досягти, але точно не такого . Тварина смоктала мою кров, але"
+ health.4102.desc_infection:0 "[physician.GetFirstName] вносить мішок у мої покої... Він рухається! Пульсує, немов усередині щось живе... [physician.GetFirstNameNoTooltip] дістає звивається п‘явку, і я бліда. [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій')] [ROOT.Char.GetTitleTierName|l], не сіпайте...»\n\nНе знаю, якого результату лікар хотів досягти, але точно не такого . Тварина смоктала мою кров, але"
  health.4102.desc_end:0 "не врівноважив мої гумори, і біль тільки посилився."
  health.4102.a:0 "А-а-а! Не чіпай мене!"
 
  health.4103.t:1 "$health_wounded_title$ Лікуючі руки"
- health.4103.risky_treatment_medicine.1.desc:0 "[physician.GetFirstName] запалює вогонь у моїх кімнатах, і мені здається, що лікар намагається мене зігріти і привести мої гумори в рівновагу. Але коли [physician.GetHerHis] помічник починає до ліжка, я помічаю, що в полум'ї розжарюється сталевий прут.
+ health.4103.risky_treatment_medicine.1.desc:0 "[physician.GetFirstName] запалює вогонь у моїх кімнатах, і мені здається, що лікар намагається мене зігріти і привести мої гумори в рівновагу. Але коли [physician.GetHerHis] помічник починає до ліжка, я помічаю, що в полум‘ї розжарюється сталевий прут.
  health.4103.risky_treatment_disfigurement.1.desc:0 "[physician.GetFirstName] дістає з сумки довгий ніж і криву голку і, побачивши жах у моїх очах, додає: "Щоб тіло могло зцілитися, необхідно видалити заражену тканину і закрити рану. \n\nНе знаю, що болючіше, відчувати, як твою власну плоть кромсає ніж і пронизує голка, або дивитися на себе після всього."
  health.4103.end.desc:0 "\n\nАле незабаром моє тіло дивним чином починає зцілятися!"
 
@@ -502,7 +502,7 @@
 
  health.6010.desc:0 "Пара від гарячої ванни клубиться навколо мене, і я з глибоким вдихом дотягуюсь до ножа. Я акуратно прикладаю його до руки і натискаю. З силою.\n\nЗробивши два однакові надрізи на обох руках, я опускаю долоні в воду, що стрімко червоніє. Я закидаю голову, і світ навколо мене починає обертатися. Тепер уже недовго..."
  
- health.6011.desc:0 "І в мить, коли я готуюся розрізати зап'яток, з клубів пари з'являється стражник і швидко вибиває ніж із моїх рук.\n\n"
+ health.6011.desc:0 "І в мить, коли я готуюся розрізати зап‘яток, з клубів пари з‘являється стражник і швидко вибиває ніж із моїх рук.\n\n"
 
  health.6100.desc:0 "Добрий день, [ROOT.Char.GetTitledFirstNameNoTooltip]. Мені просто хотілося тебе відвідати і дізнатися, як твої справи... після тієї історії».\n\n[friendly_person.GetTitledFirstName] запитує з щирою теплотою, яку не здатне затьмарити навіть згадка про мою недавню спробу самогубства."
  health.6100.a:0 "Мені вже краще, дякую."
@@ -526,11 +526,11 @@
  health.6203.b:0 "Ні! Як ти можеш просити мене про щось подібне?!"
 
  health.6204.desc_opening:0 "Я не розумію, що відповідає [close_person.GetTitledFirstName], але [close_person.GetSheHe] не відходить від мене.\n\n"
- health.6204.desc_1:0 "Через якийсь час я відчуваю рух, а потім — м'який тиск на обличчя. Тиск зростає, і я розумію, що не можу дихати. Я відчуваю лише одне почуття... Подяка. [close_person. GetSheHe|U] [Select_CString(close_person.IsFemale, 'погодилася', 'погодився' )]. [close_person.GetSheHe|U]..."
+ health.6204.desc_1:0 "Через якийсь час я відчуваю рух, а потім — м‘який тиск на обличчя. Тиск зростає, і я розумію, що не можу дихати. Я відчуваю лише одне почуття... Подяка. [close_person. GetSheHe|U] [Select_CString(close_person.IsFemale, 'погодилася', 'погодився' )]. [close_person.GetSheHe|U]..."
  health.6204.desc_2:0 "Через якийсь час я відчуваю рух, а потім щось холодне і гостре впирається мені в шию. Я ледве відчуваю поріз. Але я чую важке дихання, чую, як ніж зі стуком падає на підлогу , чую схлипи біля мого вуха... А потім... Нічого.
  health.6204.a:0 "Нарешті-то свобода..."
 
- health.6205.desc_1:0 "Через якийсь час я відчуваю рух, а потім — м'який тиск на обличчя. Тиск зростає, і я розумію, що не можу дихати. Я відчуваю лише одне почуття... Подяка. І коли я вже майже втрачаю свідомість, потік повітря раптово вривається в мої легені. Я чую плач і істеричний голос. Я чую звук кроків, що віддаляються."
+ health.6205.desc_1:0 "Через якийсь час я відчуваю рух, а потім — м‘який тиск на обличчя. Тиск зростає, і я розумію, що не можу дихати. Я відчуваю лише одне почуття... Подяка. І коли я вже майже втрачаю свідомість, потік повітря раптово вривається в мої легені. Я чую плач і істеричний голос. Я чую звук кроків, що віддаляються."
  health.6205.desc_2:0 "Через якийсь час я відчуваю рух, а потім щось холодне і гостре впирається мені в шию. Тиск посилюється і... я чую, як ніж падає на підлогу. Чуюплач, благаючий голос - і звук кроків, що віддаляються."
  health.6205.a:0 "Ні... Будь ласка... Повернися..."
 
@@ -544,7 +544,7 @@
  health.6209.desc_refusal:0 "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord]! Я...»\n\n"
  health.6209.desc:0 "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord]! Я ні за що!.. Як ви можете просити мене про таке. ..»\n\nМене наповнює відчай, і крізь туман у моїй голові до мене долинають лише плач і звук кроків, що віддаляються."
 
- health.6210.desc:0 "Я чекаю. Це я пам'ятаю навіть крізь пелену туману в моєму розумі. Я чекаю дар, що [close_person.GetTitledFirstName] може принести мені, але мої очікування марні. Чому?.. Чому [close_person.GetSheHe ] не приходить?"
+ health.6210.desc:0 "Я чекаю. Це я пам‘ятаю навіть крізь пелену туману в моєму розумі. Я чекаю дар, що [close_person.GetTitledFirstName] може принести мені, але мої очікування марні. Чому?.. Чому [close_person.GetSheHe ] не приходить?"
  health.6210.a:0 "Невже і [close_person.GetSheHe] мене [Select_CString(close_person.IsFemale, 'покинула', 'покинув' )]?.."
 
  # Infirm events

@@ -2,7 +2,7 @@
  castle_holding:0 "Замок"
  city_holding:0 "Місто"
  church_holding:1 "Храм"
- tribal_holding:0 "Плем'я"
+ tribal_holding:0 "Плем‘я"
  
  city_holding_concept_key:0 "[city|E]"
  church_holding_concept_key:0 "[temple|E]"

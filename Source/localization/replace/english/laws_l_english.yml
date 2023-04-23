@@ -16,7 +16,7 @@
 
  crown_authority:0 "[crown_authority|E]"
  crown_authority_0:0 "Вільні васали"
- crown_authority_0_effects_not_in_prev:0 "#weak Васали зобов'язані надсилати [levies|El] та [taxes|El], але в іншому повністю вільні в діях#!"
+ crown_authority_0_effects_not_in_prev:0 "#weak Васали зобов‘язані надсилати [levies|El] та [taxes|El], але в іншому повністю вільні в діях#!"
  crown_authority_1:0 "Обмежений авторитет корони"
  crown_authority_1_effects:1 "$EFFECT_LIST_BULLET$ Правителі можуть змінювати поточні [succession_laws|El], що стосуються поділу земель.\n$EFFECT_LIST_BULLET$ [titles|E] можуть бути відібрані\n$EFFECT_LIST_BULLET$ [vassals|
  crown_authority_2:0 "Високий авторитет корони"
@@ -40,10 +40,10 @@
  CROWN_AUTHORITY_IS_ON_COOLDOWN:2 "Нещодавно ваш авторитет правителя вже змінювався. Повторно змінити його можна буде не раніше [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'crown_author)ity_cooldown') )]"
  TRIBAL_AUTHORITY_IS_ON_COOLDOWN:2 "Не так давно ваш авторитет вождя вже змінювався. Повторно змінити його можна буде не раніше [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'tribal_authority_cooldown') )"
  tribal_authority:0 "[tribal_authority|E]"
- tribal_authority_0:0 "Роз'єднані племена"
+ tribal_authority_0:0 "Роз‘єднані племена"
  tribal_authority_0_effects_not_in_prev:1 "$EFFECT_LIST_BULLET$[Concept( 'characters', 'Персонажів' )|E] #N не можна#! укладати [Concept( 'imprisoned', 'в тюрму' )|E]\n\n#weak Вас надсилати [levies|El] і [taxes|El], але у іншому діють з власного розуміння.#!"
  tribal_authority_1:0 "Обмежений авторитет вождя"
- tribal_authority_1_effects:0 "$EFFECT_LIST_BULLET$ [Concept( 'characters', 'Персонажів' )|E] можна [Concept( 'imprison', 'ув'язнювати' )|El]\n$EFFECT_LIST_BULLET$ [Concept( ' 'Племінний' )|E] правитель з [Concept( 'tribal', 'неплемінними' )|E] [Concept('liege','сюзеренами')|El] може перейти до осілого способу життя, ставши [Concept( 'feudal ', 'феодалом' )|El] або заснувавши [Concept( 'clan', 'клан' )|El]"
+ tribal_authority_1_effects:0 "$EFFECT_LIST_BULLET$ [Concept( 'characters', 'Персонажів' )|E] можна [Concept( 'imprison', 'ув‘язнювати' )|El]\n$EFFECT_LIST_BULLET$ [Concept( ' 'Племінний' )|E] правитель з [Concept( 'tribal', 'неплемінними' )|E] [Concept('liege','сюзеренами')|El] може перейти до осілого способу життя, ставши [Concept( 'feudal ', 'феодалом' )|El] або заснувавши [Concept( 'clan', 'клан' )|El]"
  tribal_authority_2:0 "Високий авторитет вождя"
  tribal_authority_2_effects:0 "$EFFECT_LIST_BULLET$ Можна забрати [titles|El].\n$EFFECT_LIST_BULLET$ Можна забрати [Concept( 'vassals', 'васалів' )|El]."
  tribal_authority_3:0 "Абсолютний авторитет вождя"

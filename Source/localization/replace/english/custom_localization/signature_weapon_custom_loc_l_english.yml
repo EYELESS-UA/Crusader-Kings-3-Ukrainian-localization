@@ -76,7 +76,7 @@
  signature_weapon_flourish_swinging:0 "замахуючись"
 
  signature_weapon_flourish_whirls:0 "обертає"
- signature_weapon_flourish_flails:0 "б'є"
+ signature_weapon_flourish_flails:0 "б‘є"
  signature_weapon_flourish_swings:0 "махає"
 
  # Various Verb Types
@@ -193,11 +193,11 @@
  signature_weapon_killed_pulverise_herhis_waist:0 "ламаю [second.GetHerHim] поперек"
  signature_weapon_killed_unseam_herhim_groin_to_neck:0 "розрубую [second.GetHerHis] від плеча до пояса"
  signature_weapon_killed_split_herhis_groin_in_two:0 "розрубую [second.GetHerHis] надвоє"
- signature_weapon_killed_stab_herhim_repeatedly_in_the_groin:0 "кілька разів б'ю [second.GetHerHis] у пах"
+ signature_weapon_killed_stab_herhim_repeatedly_in_the_groin:0 "кілька разів б‘ю [second.GetHerHis] у пах"
  signature_weapon_killed_pulverises_my_waist:0 "#EMP ламає#! мені поперек"
  signature_weapon_killed_unseams_me_groin_to_neck:0 "#EMP розрубує#! мене від плеча до пояса"
  signature_weapon_killed_splits_my_groin_in_two:0 "#EMP розрубує#! мене надвоє"
- signature_weapon_killed_stabs_me_repeatedly_in_the_groin:0 "#EMP кілька разів#! б'є мене в пах"
+ signature_weapon_killed_stabs_me_repeatedly_in_the_groin:0 "#EMP кілька разів#! б‘є мене в пах"
  signature_weapon_killed_aftermath_forcing_my_hip_bones_through_my_thigh:0 "відриваючи мої стегнові кістки від гомілки"
  signature_weapon_killed_aftermath_spilling_intestines_and_viscera_everywhere:0 "прикрашаючи всю округу нутрощами"
  signature_weapon_killed_aftermath_fountaining_blood_from_my_crotch:0 "виливаючи фонтани крові з промежини"

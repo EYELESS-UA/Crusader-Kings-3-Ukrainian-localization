@@ -4,13 +4,13 @@
  major_decisions.1001.a:0 "Допоможи і передай [ROOT.Char.Custom('RegionalDrink')]!"
 
  major_decisions.1002.t:0 "Похмуре бенкет"
- major_decisions.1002.desc:0 "Не вірю своїм вухам: [cannibal.GetName], весь [cannibal.GetHerHis] двір - навіть [court_chaplain.GetCouncilTitle|l] - стали канібалами! Ці пекельні зроди залили всі вулиці кров'ю!"
- major_decisions.1002.desc_cannibal:0 "[cannibal.GetName] [Select_CString(cannibal.IsFemale, 'виявилася дуже переконливою', 'виявився дуже переконливим' )], і тепер [court_chaplain.GetCouncilTitle|l] відкрито схвалює кан. що людське м'ясо стає популярним делікатесом!
+ major_decisions.1002.desc:0 "Не вірю своїм вухам: [cannibal.GetName], весь [cannibal.GetHerHis] двір - навіть [court_chaplain.GetCouncilTitle|l] - стали канібалами! Ці пекельні зроди залили всі вулиці кров‘ю!"
+ major_decisions.1002.desc_cannibal:0 "[cannibal.GetName] [Select_CString(cannibal.IsFemale, 'виявилася дуже переконливою', 'виявився дуже переконливим' )], і тепер [court_chaplain.GetCouncilTitle|l] відкрито схвалює кан. що людське м‘ясо стає популярним делікатесом!
  major_decisions.1002.a:0 "Швидше б приєднатися до н[ROOT.Char.GetHerHim] за обідом!"
  major_decisions.1002.b:0 "Нехай змилуеться [ROOT.Char.GetFaith.HighGodName] над їхніми душами, що занурилися у злі!"
 
- major_decisions.1101.t:0 "Об'єднана держава"
- major_decisions.1101.opening_duchies:0 "Мені вдалося те, з чим досі не впорався ніхто. [duchy_1.GetNameNoTierNoTooltip], [duchy_2.GetNameNoTierNoTooltip] та [duchy_3.GetNameNoTierNoTooltip] об'єдналися."
+ major_decisions.1101.t:0 "Об‘єднана держава"
+ major_decisions.1101.opening_duchies:0 "Мені вдалося те, з чим досі не впорався ніхто. [duchy_1.GetNameNoTierNoTooltip], [duchy_2.GetNameNoTierNoTooltip] та [duchy_3.GetNameNoTierNoTooltip] об‘єдналися."
  major_decisions.1101.desc:0 "Все моє життя пішло на те, щоб заново скликати всіх моїх васалів і привести їх до нової присяги. Відтепер і навіки вони будуть кланятися мені не тільки як сюзерену. Тепер я їх [ROOT.Char .GetTitleAsNameNoTooltip|l]![ROOT.Char.GetTitleAsNameNoTooltip], чиї володіння звуться [new_title.GetNameNoTier]!"
  major_decisions.1101.a:0 "Моя держава стоятиме вічно."
  major_decisions.1101.i_have_become_royal:0 "Відтепер ви [founder.GetTitleAsNameNoTooltip|l], і [new_title.GetNameNoTier] у вашій владі"
@@ -20,13 +20,13 @@
  major_decisions.1102.a.dislike:0 "Хай живе [founder.GetTitleAsNameNoTooltip|l]..."
  major_decisions.1102.has_become_royal:0 "[founder.GetFirstName] тепер [founder.GetTitleAsNameNoTooltip|l] володіння «[new_title.GetNameNoTier]»"
 
- major_decisions.1103.opening_kingdoms:0 "Мені вдалося те, з чим досі не впорався ніхто. [kingdom_1.GetNameNoTierNoTooltip], [kingdom_2.GetNameNoTierNoTooltip] та [kingdom_3.GetNameNoTierNoTooltip] об'єдналися."
+ major_decisions.1103.opening_kingdoms:0 "Мені вдалося те, з чим досі не впорався ніхто. [kingdom_1.GetNameNoTierNoTooltip], [kingdom_2.GetNameNoTierNoTooltip] та [kingdom_3.GetNameNoTierNoTooltip] об‘єдналися."
  major_decisions.1103.opening:0 "Всі мої васали і [ROOT.Char.GetFaith.PriestNeuterPlural] нарешті разом постали перед моїм престолом. Всі вони і, що ще важливіше, [ROOT.Char.GetFaith.PantheonTerm] впевнені в тому, що це моє безперечне право."
  major_decisions.1103.i_am_religious_head:0 "\n\nСлуги, як мирські, так і духовні, схиляються переді мною, і я розумію - ця корона моя по праву."
  major_decisions.1103.blessed_by_religious_head:0 "\n\n[religious_figure.GetTitledFirstName] покладає корону мені на голову, і я при мовчазному свідченні вірних васалів проголошую народження нової імперії. Коли слова зриваються з моїх держ, і духовні, схиляються переді мною.
  major_decisions.1103.a:0 "Нехай запанує [new_title.GetNameNoTierNoTooltip]!"
 
- major_decisions.1104.opening:0 "[founder.GetFirstName], [Select_CString(founder.IsFemale, 'наша', 'наш' )] [founder.GetLadyLord] і владика, оголошує: всі васали і [founder.GetFaith держави повинні з'явитися до н[founder.GetHerHim] Безсумнівно, [founder.GetSheHe] по праву [Select_CString(founder.IsFemale, 'заслужила', 'заслужив')] це право, і з цим згодні всі - навіть [ROOT.Char .GetFaith.PantheonTerm]."
+ major_decisions.1104.opening:0 "[founder.GetFirstName], [Select_CString(founder.IsFemale, 'наша', 'наш' )] [founder.GetLadyLord] і владика, оголошує: всі васали і [founder.GetFaith держави повинні з‘явитися до н[founder.GetHerHim] Безсумнівно, [founder.GetSheHe] по праву [Select_CString(founder.IsFemale, 'заслужила', 'заслужив')] це право, і з цим згодні всі - навіть [ROOT.Char .GetFaith.PantheonTerm]."
  major_decisions.1104.i_am_religious_head:0 "\n\nКоли я покладаю нову корону [founder.GetHerHim] на чоло,"
  major_decisions.1104.religious_head_empire:0 "\n\n[founder.GetSheHe] покладає нову корону собі на голову, і"
  major_decisions.1104.blessed_by_religious_head:0 "\n\n\n\n[founder.GetTitledFirstNamePossessive] схиляє голову, [religious_figure.GetTitledFirstName] покладає нову корону, і"
@@ -61,7 +61,7 @@
  major_decisions.2002.a:1 "Нехай знання приносять користь нам усім!"
 
  major_decisions.2011.t:0 "[Select_CString(new_courtier.IsFemale, 'Мудра жінка', 'Мудрець' )]"
- major_decisions.2011.desc:0 "[new_courtier.GetName], людина [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )]ий і мудрий, люб'язно вітає мене.\n\n«До мене дійшли чутки про новий університет!Якщо [ROOT.Char.GetTitleAsNameNoTooltip|l] настільки цінує знання... для мене буде честю служити вам»."
+ major_decisions.2011.desc:0 "[new_courtier.GetName], людина [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('new_courtier') )]ий і мудрий, люб‘язно вітає мене.\n\n«До мене дійшли чутки про новий університет!Якщо [ROOT.Char.GetTitleAsNameNoTooltip|l] настільки цінує знання... для мене буде честю служити вам»."
  major_decisions.2011.a:0 "Ласкаво просимо, ласкаво просимо!"
  major_decisions.2011.b:0 "Тут вам місця немає."
 

@@ -58,12 +58,12 @@
  education_stewardship_4_outcome_description:0 "Не задовольняючись простим розумінням руху грошей і людей, [ROOT.Char.GetSheHe], схоже, може навіть передбачати деякі події і знаходити нові способи отримання прибутку."
 
  education_intrigue_1_outcome_description:0 "Не вміючи зосередитися і виявити терпіння, [ROOT.Char.GetSheHe] насилу втілює в життя свої довгострокові плани. Але [ROOT.Char.GetSheHe] хоча б намагається щось планувати."
- education_intrigue_2_outcome_description:1 "[ROOT.Char.GetSheHe] демонструє свою здатність до нехитрих інтриг. Їх важко назвати складними, проте багатоходові комбінації не обов'язкові для успіху."
+ education_intrigue_2_outcome_description:1 "[ROOT.Char.GetSheHe] демонструє свою здатність до нехитрих інтриг. Їх важко назвати складними, проте багатоходові комбінації не обов‘язкові для успіху."
  education_intrigue_3_outcome_description:0 "[ROOT.Char.GetSheHe|U] знає безліч способів досягти бажаного. Найголовніше, [ROOT.Char.GetSheHe] чудово усвідомлює політичне значення своїх бажань."
  education_intrigue_4_outcome_description:0 "Але тепер вже складно судити. Всі [ROOT.Char.GetHerHis] завдання виконують інші ще до того, як [ROOT.Char.GetSheHe] візьметься за доручену роботу. Можливо, [ROOT.Char.GetSheHe] не так вже й і [Select_CString(ROOT.Char.IsFemale, 'розумна', 'розумний')]."
 
  education_learning_1_outcome_description:0 "Жага знань [ROOT.Char.GetHerHim] завжди була незрозуміла, і тепер час серед фоліантів швидше обтяжує [ROOT.Char.GetHerHis], ніж приносить задоволення."
- education_learning_2_outcome_description:0 "Не відрізняючись старанністю, [ROOT.Char.GetSheHe] хоча б пам'ятає окремі рядки з книг. [ROOT.Char.GetSheHe|U] навряд чи колись напише видатний твір, але зможе хоч щось прочитати.
+ education_learning_2_outcome_description:0 "Не відрізняючись старанністю, [ROOT.Char.GetSheHe] хоча б пам‘ятає окремі рядки з книг. [ROOT.Char.GetSheHe|U] навряд чи колись напише видатний твір, але зможе хоч щось прочитати.
  education_learning_3_outcome_description:0 "[Select_CString(ROOT.Char.IsFemale, 'Ненаситна', 'Ненаситний' )] у своїй спразі мудрості, [ROOT.Char.GetSheHe] сіє навколо себе знання і вільно почувається в складно.
  education_learning_4_outcome_description:0 "[ROOT.Char.GetHerHis|U] розуміння питань філософії та теології вражає, і [ROOT.Char.GetSheHe] часто вступає в диспути зі своїми колишніми вчителями. Незважаючи на юний вік, [ROOT.Char.GetShe легкістю наводить розлогі цитати з книг, щоб підтримати свої ідеї.
 

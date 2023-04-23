@@ -1,29 +1,29 @@
 ﻿l_english:
  
- iberia_north_africa.0005.t:0 "Об'єднана Іспанія"
- iberia_north_africa.0005.desc:0 "І знову [ROOT.Char.GetTitleAsNameNoTooltip|l] іспанські престоли об'єднує єдиний. Фальшиві королі втратили корон, а [ROOT.Char.GetPrimaryTitle.GetNameNoTier] стоїть гордо і поки| цей світ, і мене прийме [ROOT.Char.GetFaith.DivineRealm], але моя спадщина залишиться назавжди.
+ iberia_north_africa.0005.t:0 "Об‘єднана Іспанія"
+ iberia_north_africa.0005.desc:0 "І знову [ROOT.Char.GetTitleAsNameNoTooltip|l] іспанські престоли об‘єднує єдиний. Фальшиві королі втратили корон, а [ROOT.Char.GetPrimaryTitle.GetNameNoTier] стоїть гордо і поки| цей світ, і мене прийме [ROOT.Char.GetFaith.DivineRealm], але моя спадщина залишиться назавжди.
  iberia_north_africa.0005.a:1 "Це світанок нової епохи."
 
  iberia_north_africa.0006.start.desc:0 "Одне за іншим іспанські королівства припинили опір, і нині єдина влада - це [spain_uniter.GetPrimaryTitle.GetNameNoTier]."
  iberia_north_africa.0006.relation_former.desc:0 "[Select_CString(spain_uniter.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', spain_uniter)] [spain_uniter.GetName
  iberia_north_africa.0006.former.desc:0 "[spain_uniter.GetTitledFirstName]"
- iberia_north_africa.0006.end.desc:0 "[Select_CString(spain_uniter.IsFemale, 'оголосила', 'оголосив' )] себе "[Select_CString(spain_uniter.IsFemale, 'Матер'ю', 'Батьком' )\n\" n[spain_uniter.GetHerHis|U] ім'я напевно житиме у віках, але ким [spain_uniter.GetSheHe] стане для нащадків - зразком для наслідування або тираном? Це знає лише [ROOT.Char.GetFaith.FateGodName]."
+ iberia_north_africa.0006.end.desc:0 "[Select_CString(spain_uniter.IsFemale, 'оголосила', 'оголосив' )] себе "[Select_CString(spain_uniter.IsFemale, 'Матер‘ю', 'Батьком' )\n\" n[spain_uniter.GetHerHis|U] ім‘я напевно житиме у віках, але ким [spain_uniter.GetSheHe] стане для нащадків - зразком для наслідування або тираном? Це знає лише [ROOT.Char.GetFaith.FateGodName]."
 
  iberia_north_africa.0010.t:0 "Одна Африка"
  iberia_north_africa.0010.start.desc:0 "Ніхто не вірив, що це можливо, але я — [ROOT.Char.GetTitleAsNameNoTooltip|l] усієї Африки."
- iberia_north_africa.0010.vassals.desc:0 "Від берегів Атлантики до Східного океану кожне плем'я, [vassal_1.GetTitleAsNameNoTooltip|l] і [vassal_2.GetTitleAsNameNoTooltip|l], тепер схиляються переді мною."
+ iberia_north_africa.0010.vassals.desc:0 "Від берегів Атлантики до Східного океану кожне плем‘я, [vassal_1.GetTitleAsNameNoTooltip|l] і [vassal_2.GetTitleAsNameNoTooltip|l], тепер схиляються переді мною."
  iberia_north_africa.0010.spirits.desc:0 "\n\n[africa_uniter.Custom('DefaultPriestTitlePlural')|U] кажуть, що духи задоволені. Нарешті наша земля вільна! Попереду багато справ, але сьогодні ми святкуватимемо!"
  iberia_north_africa.0010.ancestors.desc:0 "\n\n[africa_uniter.Custom('DefaultPriestTitlePlural')|U] кажуть, що предки задоволені. Нарешті наша земля вільна! Попереду багато справ, але сьогодні ми святкуватимемо!"
- iberia_north_africa.0010.generic.desc:0 "\n\nМої піддані походять з різних верств суспільства, але я об'єднаю всіх і вкажу новий шлях. Відтепер ми є єдиним народом, і [ROOT.Char.GetFaith.HighGodName] веде нас."
+ iberia_north_africa.0010.generic.desc:0 "\n\nМої піддані походять з різних верств суспільства, але я об‘єднаю всіх і вкажу новий шлях. Відтепер ми є єдиним народом, і [ROOT.Char.GetFaith.HighGodName] веде нас."
  iberia_north_africa.0010.a:0 "Слава Африці!"
 
- iberia_north_africa.0011.start.desc:0 "[africa_uniter.GetPrimaryTitle.GetNameNoTier] нині об'єднує всі африканські народи, від крихітного племені до найбільшого королівства."
+ iberia_north_africa.0011.start.desc:0 "[africa_uniter.GetPrimaryTitle.GetNameNoTier] нині об‘єднує всі африканські народи, від крихітного племені до найбільшого королівства."
  iberia_north_africa.0011.relation_former.desc:0 "[Select_CString(africa_uniter.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', africa_uniter)] [africa_uniter.GetTit
  iberia_north_africa.0011.former.desc:0 "[africa_uniter.GetTitledFirstName]"
- iberia_north_africa.0011.end.desc:0 "[Select_CString(africa_uniter.IsFemale, 'об'єднала', 'об'єднав' )] всіх під #L [africa_uniter.GetFaith.GetName|l]ім#! прапором.\n\n africa_uniter.GetPrimaryTitle.GetTierAsNameNoTooltip|l] таких розмірів витримати випробування часом або розвалиться на частини? Це знає лише [ROOT.Char.GetFaith.FateGodName]."
- decision_unite_africa_confirm:0 "Об'єднати Африку"
+ iberia_north_africa.0011.end.desc:0 "[Select_CString(africa_uniter.IsFemale, 'об‘єднала', 'об‘єднав' )] всіх під #L [africa_uniter.GetFaith.GetName|l]ім#! прапором.\n\n africa_uniter.GetPrimaryTitle.GetTierAsNameNoTooltip|l] таких розмірів витримати випробування часом або розвалиться на частини? Це знає лише [ROOT.Char.GetFaith.FateGodName]."
+ decision_unite_africa_confirm:0 "Об‘єднати Африку"
  iberia_north_africa.0015.t:0 "Помста за мучеників"
- iberia_north_africa.0015.part1.desc:0 "Тисячі тисяч відважних мусульман загинули на Турській дорозі, навіки давши їй ім'я «Дороги мучеників». Вони боролися за настання золотого віку для істинно віруючих, за наше майбутнє. І це майбутнє настало."
+ iberia_north_africa.0015.part1.desc:0 "Тисячі тисяч відважних мусульман загинули на Турській дорозі, навіки давши їй ім‘я «Дороги мучеників». Вони боролися за настання золотого віку для істинно віруючих, за наше майбутнє. І це майбутнє настало."
  iberia_north_africa.0015.part2.desc:0 "Ми міцно зміцнилися в Європі, і мій славний похід тільки починається..."
  iberia_north_africa.0015.a:0 "Аллах акбар."
 
@@ -35,7 +35,7 @@
  iberia_north_africa.0016.generic.desc:0 "Багато років тому на дорозі в Тур франкські християни зупинили вторгнення Омейядів до Європи. Шарль Мартель і його солдати змінили історію.\n\nАле немає нічого вічного. серце королівства франків і оголосив його своїм, і тепер лише [ROOT.Char.GetFaith.FateGodName] знає, що [avenger.GetTitledFirstNameNoTooltip] може створити, настільки надійно зміцнившись у Європі."
 
  iberia_north_africa.0001.t:0 "Королівство Португалія"
- iberia_north_africa.0001.start.desc:0 "Цей дНавіки запам'ятають як світанок великого Португальського королівства.
+ iberia_north_africa.0001.start.desc:0 "Цей дНавіки запам‘ятають як світанок великого Португальського королівства.
  iberia_north_africa.0001.christian.desc:0 "Наш народ багато століть страждав під гнітом мусульман, але з нас досить. Нарешті, з благословення [ROOT.Char.GetFaith.HighGodNamePossessive] ми відвоювали свободу і стали вільними [ROOT.Char. GetFaith.GetNameNoTooltip|l]им народом!\n\n"
  iberia_north_africa.0001.muslim.desc:0 "З благословення [ROOT.Char.GetFaith.HighGodNamePossessive] ми завоювали ці землі і тепер з гордістю називаємо Іберійський півострів своїм будинком. Нехай #L [ROOT.Char.GetFaith.Get віра зміцниться тут на багато років!
  iberia_north_africa.0001.end.desc:0 "Ці стародавні землі бачили тисячі правителів, кожен з яких вплітав свої нитки в павутину нашої культурної спадщини. Тепер ми унікальний народ, і сьогодні я з гордістю проголошую народження нового королівства та нового народу - португальців!"
@@ -51,17 +51,17 @@
  iberia_north_africa.0002.c:0 "Я все ще #L [ROOT.Char.GetCulture.GetCollectiveNoun|l]ой#! культури, хто б що не думав."
 
  iberia_north_africa.0101.t:0 "Вірність кафедрі святого Петра"
- iberia_north_africa.0101.desc:0 "Це коштувало нам чималих праць, але моїй сім'ї вдалося зібрати достатньо земель і нагромадити духовного авторитету, щоб зібрати конклав священиків найвищого рангу. Нарешті- то наші кров, піт і праці окупляться сповна.\n\nЗібрані в місті [religious_leader.GetCapitalLocation.GetTitle.GetBaseNameNoTier] [religious_leader.GetFaith.PriestNeuterPlural] без кінця сперечаються про політику, товчуться навіть влаштовують релігійні бійки Ми хочемо зберегти вірність Риму, і [pope.GetTitledFirstName] — [Select_CString(pope.IsFemale, 'наша Папесса', 'наш Папа' )], але крім цього ми ні про що домовитися не можемо.\n \nПісля кількох тижнів безплідних суперечок учасники приходять до думки, що розсудити їх повинен господар палацу і я."
+ iberia_north_africa.0101.desc:0 "Це коштувало нам чималих праць, але моїй сім‘ї вдалося зібрати достатньо земель і нагромадити духовного авторитету, щоб зібрати конклав священиків найвищого рангу. Нарешті- то наші кров, піт і праці окупляться сповна.\n\nЗібрані в місті [religious_leader.GetCapitalLocation.GetTitle.GetBaseNameNoTier] [religious_leader.GetFaith.PriestNeuterPlural] без кінця сперечаються про політику, товчуться навіть влаштовують релігійні бійки Ми хочемо зберегти вірність Риму, і [pope.GetTitledFirstName] — [Select_CString(pope.IsFemale, 'наша Папесса', 'наш Папа' )], але крім цього ми ні про що домовитися не можемо.\n \nПісля кількох тижнів безплідних суперечок учасники приходять до думки, що розсудити їх повинен господар палацу і я."
  iberia_north_africa.0101.a:0 "Один народ, одна віра!"
  iberia_north_africa.0101.a.tt:0 "Ви виступаєте за праведність віри"
- iberia_north_africa.0101.b:0 "Ми #EMP зобов'язані #! зміцнити свою владу - лише так ми захистимо єдиновірців."
+ iberia_north_africa.0101.b:0 "Ми #EMP зобов‘язані #! зміцнити свою владу - лише так ми захистимо єдиновірців."
  iberia_north_africa.0101.b.tt:0 "Ви виступаєте за фундаменталізм віри"
  iberia_north_africa.0101.c:0 "[religious_leader.GetFaith.ReligiousText] все ще потребує тлумачення..."
  iberia_north_africa.0101.c.tt:0 "Ви виступаєте за більший плюралізм віри"
 
- iberia_north_africa.0102.t:0 "[religious_leader.GetFaith.GetNameNoTooltip]ая $iberia_north_africa.0101.t$"
+ iberia_north_africa.0102.t:0 "[religious_leader.GetFaith.GetNameNoTooltip]а $iberia_north_africa.0101.t$"
  iberia_north_africa.0102.desc.intro:0 "Використовуючи весь свій релігійний авторитет і політичний капітал, [religious_leader.GetTitledFirstName] [Select_CString(religious_leader.IsFemale, 'зібрала', 'зібрав') у своїй столиці GetBaseNameNoTier] великий конклав #L [religious_leader.GetFaith.GetName|l]їх#!богословів, щоб обговорити майбутнє віри. #EMP поправками#! у церковній політиці.\n\nНасамперед це стосується"
- iberia_north_africa.0102.desc.fundamentalist:0 "образ, які змушені зазнавати їх одновірці, і необхідності всіма способами зміцнити світську владу церкви в ім'я їхнього захисту."
+ iberia_north_africa.0102.desc.fundamentalist:0 "образ, які змушені зазнавати їх одновірці, і необхідності всіма способами зміцнити світську владу церкви в ім‘я їхнього захисту."
  iberia_north_africa.0102.desc.righteous:0 "літургійної одноманітності, якої слід дотримуватися всіма віруючими незалежно від місцевих традицій."
  iberia_north_africa.0102.desc.pluralist:0 "ретельного та всебічного вивчення священних текстів, таких як [religious_leader.GetFaith.ReligiousText], та створення офіційних методів заперечення їх тлумачень."
  iberia_north_africa.0102.a.same_faith:0 "Ми маємо право захищатися!"
@@ -89,7 +89,7 @@
  iberia_north_africa.0112.desc.intro:0 "[religious_leader.GetTitledFirstName] нарешті [Select_CString(religious_leader.IsFemale, 'добилася', 'добився' )] своєї мети. Витративши багато років на накопичення духовного і політичного автора religious_leader.IsFemale, 'вона скликала', 'він скликав' )] великий конклав #L [religious_leader.GetFaith.GetName|l]їх духовних, який повинен був позбавити країну від римського диктату.\n\n[religious_leader.GetCapitalLoca .GetTitle.GetBaseNameNoTier] ще нескоро забуде це зібрання.Повсюди йшли бурхливі дискусії про майбутнє церкви, поважні священнослужителі нерідко чіплялися один одному в бороди.[n] був змушений ' )] втрутитися особисто.
  iberia_north_africa.0112.desc.fundamentalist:0 "забезпечити збройний захист паломників, що подорожують до [religious_leader.GetFaith.GetNameNoTooltip|l]їх святих місць."
  iberia_north_africa.0112.desc.righteous:0 "відмовитися від гріховної схильності до насильства, від якої так страждає [religious_leader.GetFaith.GetReligion.GetAdjective].\n\n[religious_leader.GetTitledFirstName| l] повинні жити мирним і богобоязливим життям, а не вести постійні війни з невірними."
- iberia_north_africa.0112.desc.pluralist:0 "пом'якшити обмеження та заборони, що перешкоджають добросусідським контактам з мусульманами, і прагнути миру між представниками різних релігій."
+ iberia_north_africa.0112.desc.pluralist:0 "пом‘якшити обмеження та заборони, що перешкоджають добросусідським контактам з мусульманами, і прагнути миру між представниками різних релігій."
  iberia_north_africa.0112.a.same_faith:0 "[religious_leader.GetFaith.HighGodName] тому свідок!"
  iberia_north_africa.0112.a.same_religion:0 "Сподіваюся, вони не закриватимуть #EMP наші#! священні місця."
  iberia_north_africa.0112.a.misc:0 "Схоже, вони сперечаються за дрібницями..."
@@ -107,7 +107,7 @@
  iberia_north_africa.0121.desc.excommunicated:0 "Відлучення лягло на мою душу тяжким вантажем. Всі [old_faith.GetAdherentNamePluralNoTooltip|l], яких я знаю, мене зненавиділи."
  iberia_north_africa.0121.desc.rivalry_with_hof:0 "[old_faith.GetReligiousHead.GetTitledFirstName] постійно сперечається зі мною по дрібницях. Здавалося б, така людина повинна бути вище мізерних чвар. Суцільне розчарування..."
  iberia_north_africa.0121.desc.negative_piety_level:0 "Мене переслідують мої гріхи, а віра не допомагає знайти спокій. Я почуваюся так, ніби весь світ повернувся до мене спиною."
- iberia_north_africa.0121.desc.lorgar:0 "І хоча полум'я моєї віри горить яскравіше сонця, в глибині душі починає здаватися, що у всесвіті має бути щось #EMP більше #!, ніж [old_faith.HighGodName]. Якась первозданна істина. "
+ iberia_north_africa.0121.desc.lorgar:0 "І хоча полум‘я моєї віри горить яскравіше сонця, в глибині душі починає здаватися, що у всесвіті має бути щось #EMP більше #!, ніж [old_faith.HighGodName]. Якась первозданна істина. "
  iberia_north_africa.0121.desc.sinful_traits:0 "Я відчуваю, ніби всі мої вчинки, думки, все моє життя заплямовані якимось гріхом."
  iberia_north_africa.0121.desc.virtuous_basque_pagan_traits:0 "Часовно я ставлю питання — звідки в мені взагалі ці релігійні почуття, якщо вся моя природа #EMP вимагає#! зовсім іншого?"
  iberia_north_africa.0121.desc.naked_cynicism:0 "Мій релігійний запал згас. Гірше того, релігія вимагає від мене покірності перед тими, кого я не можу контролювати."
@@ -118,7 +118,7 @@
  iberia_north_africa.0121.b.tt:0 "Ви виступаєте за праведність віри"
  iberia_north_africa.0121.c:0 "Є більш гідні релігії, традиції яких варті уваги."
  iberia_north_africa.0121.c.tt:0 "Ви виступаєте за плюралізм з іншою вірою"
- iberia_north_africa.0121.d:0 "Якщо я хочу нав'язати їм зміни, ніж я краще, ніж [old_faith.GetAdjectiveNoTooltip|l]?"
+ iberia_north_africa.0121.d:0 "Якщо я хочу нав‘язати їм зміни, ніж я краще, ніж [old_faith.GetAdjectiveNoTooltip|l]?"
  iberia_north_africa.0121.d.tt:0 "Ви відмовляєтеся змінювати їхні погляди"
 
  iberia_north_africa.0122.t:0 "$iberia_north_africa.0121.t$"
@@ -132,7 +132,7 @@
  iberia_north_africa.0122.desc.naked_cynicism:0 "[Select_CString(religious_leader.IsFemale, 'втратила', 'втратив' )] розуму у своєму прагненні повністю контролювати духовне життя [religious_leader.GetHerHis] підданих.
  iberia_north_africa.0122.desc.midtro:0 "\n\nЧим, як не нападом божевілля, можна пояснити те, що [religious_leader.GetTitleAsNameNoTooltip|l] [Select_CString(religious_leader.IsFemale, 'оголосила') релігією напівзабуті народні вірування Піренеїв?Скоро [religious_leader.GetPrimaryTitle.GetNameNoTier] стане місцем, де панує [basque_faith.GetAdjective|l].\n\n"
  iberia_north_africa.0122.desc.fundamentalist:0 "Незважаючи на споконвічно мирний характер цієї релігії, [religious_leader.GetTitledFirstNameNoTooltip] , хто підтримає [religious_leader.GetHerHis] агресивну релігійну політику."
- iberia_north_africa.0122.desc.righteous:0 "Ця секта здавна була тісно пов'язана з християнством, але тепер [religious_leader.GetTitledFirstNameNoTooltip] бажає розірвати цей зв'язок і повернутися до язичницьких джерел."
+ iberia_north_africa.0122.desc.righteous:0 "Ця секта здавна була тісно пов‘язана з християнством, але тепер [religious_leader.GetTitledFirstNameNoTooltip] бажає розірвати цей зв‘язок і повернутися до язичницьких джерел."
  iberia_north_africa.0122.desc.pluralist:0 "Протягом багатьох століть це вчення знаходилолось під впливом християнської церкви, але зараз [religious_leader.GetTitledFirstNameNoTooltip] повною мірою використовує свій авторитет, щоб впровадити в нього елементи ісламу та усунути нашарування християнської літургійної традиції."
  iberia_north_africa.0122.desc.unchanged:0 "Ця віра є гібридом язичницької міфології басків із запозиченими з християнства елементами. Незважаючи на раптове відродження та інтерес з боку сильних світу цього, її природа по суті залишилася незмінною."
  iberia_north_africa.0122.a:0 "Взагалі-то [religious_leader.GetSheHe] каже розумні речі..."
@@ -167,7 +167,7 @@
  iberia_north_africa.0131.c:0 "Все, що дійсно важливо, як і раніше, залишається з нами."
  iberia_north_africa.0131.d:0 "Що б не відбувалося у світі, ми повинні берегти своє коріння!"
 
- iberia_north_africa.2105.t:0 "Правителі Середземномор'я"
+ iberia_north_africa.2105.t:0 "Правителі Середземномор‘я"
  iberia_north_africa.2105.desc:0 "Захопивши володіння [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] та [sicily.GetNameNoTier], ми проголосили себе законними володарями Середземного моря. Посли вирушили в усі куточки світу і повідомили менше звершенні.\n\nЦе море і все, чого воно стосується, належить нам!"
  iberia_north_africa.2105.a:0 "Ніхто не може чинити опір нам!"
  
@@ -185,7 +185,7 @@
  iberia_north_africa.2001.b.a:0 "[generated_actor.GetFirstNameNoTooltip] дасть вам випадкову книгу, яка покращує [skill|El]"
  iberia_north_africa.2001.c:0 "До чого мені ці старі книги? У науці немає місця історії!"
  iberia_north_africa.2002.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Хірург-звездочет"
- iberia_north_africa.2002.desc:0 "Сюзерен, благаю, зрозумійте [Select_CString(generated_actor.IsFemale, 'її', 'його' )]! [Select_CString(generated_actor.IsFemale, 'Ця', 'Цей' ' (generated_actor.IsFemale, 'провела', 'провів' )] операцію і [Select_CString(generated_actor.IsFemale, 'видалила', 'видалив' )]катаракту на моєму правому оці, але відмовляється лікувати лівий!» - Заявляє [patientzero.GetTitledFirstName]." "Операція була успішною, оскільки зірки склалися вдало. Ви #italic повинні #! почекати ще дванадцять років для нової успішної операції!" — відповідає лікар, [generated_actor.GetFirstName].\n\nЯ регент, і в мої обов'язки входить вирішення подібних питань. операції?
+ iberia_north_africa.2002.desc:0 "Сюзерен, благаю, зрозумійте [Select_CString(generated_actor.IsFemale, ‘її', 'його' )]! [Select_CString(generated_actor.IsFemale, 'Ця', 'Цей' ' (generated_actor.IsFemale, 'провела', 'провів' )] операцію і [Select_CString(generated_actor.IsFemale, 'видалила', 'видалив' )]катаракту на моєму правому оці, але відмовляється лікувати лівий!» - Заявляє [patientzero.GetTitledFirstName]." "Операція була успішною, оскільки зірки склалися вдало. Ви #italic повинні #! почекати ще дванадцять років для нової успішної операції!" — відповідає лікар, [generated_actor.GetFirstName].\n\nЯ регент, і в мої обов‘язки входить вирішення подібних питань. операції?
  iberia_north_africa.2002.a:0 "Це чудова нагода — [child_offering.GetFirstNameNoTooltip] може навчитися медицині!"
  iberia_north_africa.2002.a.flavor:0 "Ви пропонуєте, щоб [child_offering.GetFirstName] [Select_CString(child_offering.IsFemale, 'асистувала', 'асистував' )], коли [generated_actor.GetFirstName] буде
  iberia_north_africa.2002.a.a:0 "[child_offering.GetFirstName] асистує під час операції"
@@ -195,20 +195,20 @@
  iberia_north_africa.2002.c:0 "Справді, краще почекати сприятливих умов."
  iberia_north_africa.2002.d:0 "#italic Взагалі-то#!, якщо глянути #italic під таким кутом#!, зірки встануть так, як треба!"
  iberia_north_africa.2003.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Суперечливі натури"
- iberia_north_africa.2003.desc:0 "Багато вчених побували у володінні [playerprovince.GetNameNoTooltip], отримавши мою підтримку, але двоє запам'яталися мені більше за інших. Можливо, справа в їхньому видатному інтелекті, а можливо - в тому, що вони #italic не затикаються" і весь час сперечаються про дрібні розбіжності у поглядах посеред мого двору. — заявляє [generated_actor_k.GetFirstName], а [generated_actor_r.GetFirstName] відразу відповідає: «Мене це влаштовує, я ненавиджу працювати з упертими людьми на кшталт #italic вас#!!»\n\n«[ROOT.Char.GetTitledFirstName], як ви вважаєте? Чи повинен філософ описувати природний світ чи це обов'язок пророка?
- iberia_north_africa.2003.a:0 "Взагалі, це #ber моя#! обов'язок. А тепер за роботу."
- iberia_north_africa.2003.a.flavor:0 "Ви ображаєте обох учених, змушуючи їх об'єднатися проти вас."
+ iberia_north_africa.2003.desc:0 "Багато вчених побували у володінні [playerprovince.GetNameNoTooltip], отримавши мою підтримку, але двоє запам‘яталися мені більше за інших. Можливо, справа в їхньому видатному інтелекті, а можливо - в тому, що вони #italic не затикаються" і весь час сперечаються про дрібні розбіжності у поглядах посеред мого двору. — заявляє [generated_actor_k.GetFirstName], а [generated_actor_r.GetFirstName] відразу відповідає: «Мене це влаштовує, я ненавиджу працювати з упертими людьми на кшталт #italic вас#!!»\n\n«[ROOT.Char.GetTitledFirstName], як ви вважаєте? Чи повинен філософ описувати природний світ чи це обов‘язок пророка?
+ iberia_north_africa.2003.a:0 "Взагалі, це #ber моя#! обов‘язок. А тепер за роботу."
+ iberia_north_africa.2003.a.flavor:0 "Ви ображаєте обох учених, змушуючи їх об‘єднатися проти вас."
  iberia_north_africa.2003.b:0 "Зрозуміло, цим повинні займатися філософи, мудреці на кшталт Аристотеля."
  iberia_north_africa.2003.c:0 "Як можна вірити філософам, якщо не віриш Єзекіїлю?"
  iberia_north_africa.fp2_pilgrim_roads_generic_title_intro:0 "Дороги для паломників:"
  iberia_north_africa.2011.t:0 "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Мандрівний воїн"
  iberia_north_africa.2011.desc:0 "Прогулюючись по володінню [chosen_location_for_pilgrim_roads.GetName], я натикаюся на велике дерево, яке так і манить відпочити під ним. Я сиджу в прохолодній тіні, а поряд зі мною || «Ви робите паломництво?» — питаю я.
  iberia_north_africa.2011.desc_merge_into:0 "На що слідує відповідь:"
- iberia_north_africa.2011.desc_soldier:0 "$iberia_north_africa.2011.desc_merge_into$ «Я лише [Select_CString(generated_actor.IsFemale, 'збився', 'збився' )[путник] )] на ім'я [generated_actor.GetName].Я прямую в священне місце [chosen_holy_site_for_pilgrim_roads.GetNameNoTier], щоб дізнатися, чому [generated_actor.GetFaith.HighGodName] більше не зі мною і куди мені тепер направити свій клинок.
+ iberia_north_africa.2011.desc_soldier:0 "$iberia_north_africa.2011.desc_merge_into$ «Я лише [Select_CString(generated_actor.IsFemale, 'збився', 'збився' )[путник] )] на ім‘я [generated_actor.GetName].Я прямую в священне місце [chosen_holy_site_for_pilgrim_roads.GetNameNoTier], щоб дізнатися, чому [generated_actor.GetFaith.HighGodName] більше не зі мною і куди мені тепер направити свій клинок.
  iberia_north_africa.2011.desc_captain:0 "$iberia_north_africa.2011.desc_merge_into$ «Можливо. Але я швидше вважаю себе заблудлою душею. Мене звуть [generated_actor.GetName], і в минулому я [Select_CString(generated'ale був' )] капітаном священного ордена, а тепер же блукаю, шукаю [generated_actor.GetFaith.HighGodNamePossessive] і своє призначення»."
  iberia_north_africa.2011.a:0 "Думаю, [generated_actor.GetFaith.HighGodName] схвалить, якщо ви приєднаєтеся до мене, [generated_actor.GetFirstNameNoTooltip]."
  iberia_north_africa.2011.b:0 "Напевно [generated_actor.GetFaith.HighGodName] хоче, щоб ви продовжували мандрувати у пошуках ворогів."
- iberia_north_africa.2011.b.flavor:0 "Ви спонукаєте [Select_CString(generated_actor.IsFemale, 'воительницю', 'воїна' )] продовжувати битися в ім'я [generated_actor.GetFaith.HighGodNamePossessive"
+ iberia_north_africa.2011.b.flavor:0 "Ви спонукаєте [Select_CString(generated_actor.IsFemale, 'воительницю', 'воїна' )] продовжувати битися в ім‘я [generated_actor.GetFaith.HighGodNamePossessive"
  iberia_north_africa.2011.c:0 "Напевно [generated_actor.GetFaith.HighGodName] чекає вас наприкінці паломництва."
  iberia_north_africa.2011.c.flavor:0 "Ви дозволяєте [Select_CString(generated_actor.IsFemale, 'войовниці', 'воїтелю' )] безперешкодно нести волю [generated_actor.GetFaith.HighGodNamePossessive]."
  iberia_north_africa.2012.t:0 "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Бідний учень"
@@ -222,7 +222,7 @@
  iberia_north_africa.2013.t:0 "Слава прокладає шляхи для паломників."
  iberia_north_africa.2013.desc:0 "Ви проробили видатну роботу, в буквальному сенсі заклавши підставу для доступу до священного місця [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip]. Не можу не нагородити вас за це.\n\n\n\n
  iberia_north_africa.2013.a:0 "Мені достатньо вашої похвали, [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName]."
- iberia_north_africa.2013.b:0 "Рознесіть звістку про мої діяння в ім'я [ROOT.Char.GetFaith.HighGodNamePossessive]."
+ iberia_north_africa.2013.b:0 "Рознесіть звістку про мої діяння в ім‘я [ROOT.Char.GetFaith.HighGodNamePossessive]."
  iberia_north_africa.2013.c:0 "Нехай усі воїни дізнаються про мою релігійну запопадливість."
  iberia_north_africa.2013.d:0 "Подаруйте мені артефакт, гідний священного місця [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip]."
  iberia_north_africa.2013.d.tooltip:0 "[fp2_iberia_north_africa_2013_head_of_faith.GetTitledFirstName] подарує вам благословенний [artifact|El]"

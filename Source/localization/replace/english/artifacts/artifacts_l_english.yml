@@ -17,7 +17,7 @@
  artifact_name_prefix_owner_name:0 "персонажу [owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_inspiration_owner_name:0 "персонажу [inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_owner_culture:0 "[owner.GetCulture.GetCollectiveNounNoTooltip|l]ого народу"
- artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetCollectiveNounNoTooltip|l]ого народу"
+ artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetCollectiveNounNoTooltip|l]ого народа"
  artifact_name_prefix_owner_dynasty:0 "династії [owner.GetDynasty.GetBaseName]"
  artifact_name_prefix_descriptor_high_quality:0 "чудової якості"
  artifact_name_prefix_descriptor_medium_quality:0 "на віки"
@@ -114,7 +114,7 @@
  wood_oak:0 "дуба"
 
  # Widespread Regional - Elm (Found all over Europe except Southern Spain, Italy, and Greece)
- wood_elm:0 "в'яза"
+ wood_elm:0 "в‘яза"
 
  # Widespread Regional - Walnut (завжди все за межами Європи, крім Скоттленду і Скандінавії, але включаючи Northern Anatolia/Persia)
  wood_walnut:0 "горіха"
@@ -217,7 +217,7 @@
  # satin weave, most, як правило, створений з цибулі, став знаменитим в 12-й зоні Європи після Crusades.
  cloth_satin:0 "сатина"
 
- # Piled silk weave popular in the Middle East. Must be woven on a special loom. З'являється її особливість з роботодавством, вона є пов'язана з nobility. Залишається в Western Europe після Crusades.
+ # Piled silk weave popular in the Middle East. Must be woven on a special loom. З‘являється її особливість з роботодавством, вона є пов‘язана з nobility. Залишається в Western Europe після Crusades.
  cloth_velvet:0 "вівьвета"
 
  # twill silk weave popular in Byzantium, який originated in Sassanid Persia. Commonly restricted to royalty or clergy.
@@ -377,7 +377,7 @@
  feature_decoration_pattern_religious_symbol:0 "[Artifact.GetOwner.GetFaith.ReligiousSymbol]"
  feature_decoration_pattern_gibberish:0 "символи, значення яких відає лише їх автор,"
  feature_decoration_pattern_bodies:0 "корчяться від болю тіла"
- feature_decoration_pattern_culture_symbol:0 "символи, пов'язані з [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ою культурою"
+ feature_decoration_pattern_culture_symbol:0 "символи, пов‘язані з [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ою культурою"
  feature_decoration_pattern_culture_style:0 "орнаменти та візерунки, властиві [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip|l]ому стилю"
  feature_decoration_pattern_shield:0 "герб будинку [Artifact.GetOwner.GetHouse.GetBaseName]"
  feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$"
@@ -468,7 +468,7 @@
 
  # Axe, Spear, Hammer, і Mace components (Heads, Shafts/Hafts)
  feature_head_decoration_etched_pattern:0 "вигравіюваний візерунок - [Artifact.GetFeatureText( 'decoration_pattern' )]"
- feature_head_decoration_religious_motifs:0 "вигравіровані різні #L [Artifact.GetOwner.GetFaith.GetName|l]ие#! мотиви"
+ feature_head_decoration_religious_motifs:0 "вигравіровані різні #L [Artifact.GetOwner.GetFaith.GetName|l]і#! мотиви"
  feature_shaft_decoration_painted_pattern:0 "намальовані візерунки, що нагадують [Artifact.GetFeatureText( 'decoration_pattern' )]"
  feature_shaft_decoration_inlay:0 "з інкрустацією з [Artifact.GetFeatureText( 'decoration_material_inlay_HSB' )]"
  feature_shaft_decoration_varnish:0 "з лаком, що надає насичений темний блиск"
@@ -483,7 +483,7 @@
  artifact_axe_description:2 "Секер [SCOPE.Custom('ArtifactQuality')] якості. [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')"
  artifact_axe_head_undecorated:1 "Навершення з [ROOT.Artifact.GetFeatureText( 'head_metal' )] насаджено"
  artifact_axe_head_decorated:1 "Навершення з [ROOT.Artifact.GetFeatureText( 'head_metal' )], [ROOT.Artifact.GetFeatureText( 'head_decoration' )], насаджено"
- artifact_axe_haft_undecorated:2 "на міцну дерев'яну рукоять. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] — хороший матеріал, зброя відмінно збалансована і заточена, і користуватися нею — чисте задоволення."
+ artifact_axe_haft_undecorated:2 "на міцну дерев‘яну рукоять. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] — хороший матеріал, зброя відмінно збалансована і заточена, і користуватися нею — чисте задоволення."
  artifact_axe_haft_decorated:1 "на витончену ручку з [ROOT.Artifact.GetFeatureText( 'shaft_wood' )], [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
  
  # Hammers
@@ -501,7 +501,7 @@
  artifact_spear_head_decorated:0 "$artifact_axe_head_decorated$"
  artifact_spear_head_decorated_flanked:1 "Двогострий наконечник доповнюють тонкі витягнуті хвостовики, що надають списом відомий і смертоносний вигляд"
  artifact_spear_shaft_undecorated:1 "на міцну ручку з [ROOT.Artifact.GetFeatureText( 'shaft_wood' )]."
- artifact_spear_shaft_undecorated_alt:2 "на міцну дерев'яну рукоятку. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] додає витонченості, і зброя стає не тільки смертоносною, але й приємною погляду."
+ artifact_spear_shaft_undecorated_alt:2 "на міцну дерев‘яну рукоятку. [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] додає витонченості, і зброя стає не тільки смертоносною, але й приємною погляду."
  artifact_spear_shaft_decorated:1 "на витончену ручку з [ROOT.Artifact.GetFeatureText( 'shaft_wood' )], [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]."
 
  # Maces
@@ -652,21 +652,21 @@
  saint_margaret_fingernails_name:0 "Нігті Святої Маргарити"
  saint_margaret_fingernails_description:1 "Свята Маргарита Антіохійська прославилася тим, що перемогла дракона, чи використовуючишь підбори свого взуття. Імовірно, ці старі потворні нігті належали їй. [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'отримала', 'отримав' )] цю реліквію з далеких земель, які [Select_CString(inspiration_owner.IsFemale, 'відвідала', 'відвідав' )] [inspiration_ ході своїх пригод."
  seahorse_brooch_name:0 "Золота брошка з морським коником"
- seahorse_brooch_description:1 "Брошь з витонченим витим орнаментом під зображенням коня з крилами і риб'ячим хвостом. IsFemale, 'відвідувала', 'відвідував' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
+ seahorse_brooch_description:1 "Брошь з витонченим витим орнаментом під зображенням коня з крилами і риб‘ячим хвостом. IsFemale, 'відвідувала', 'відвідував' )] [inspiration_owner.GetTitledFirstNameNoTooltip]."
 
 
  #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name:0 "Леопардовий шолом"
  leopard_hat_description:0 "Головний убір з голови леопарда, якого [Select_CString(inspiration_owner.IsFemale, 'вразила', 'вразив' )] [inspiration_owner.GetTitledFirstName]."
  kurgan_ornament_name:0 "Скіфська фігура пантери"
- kurgan_ornament_description:0 "Кам'яна фігура, яку [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'добула', 'добув' )] у скіфському кургані."
+ kurgan_ornament_description:0 "Кам‘яна фігура, яку [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'добула', 'добув' )] у скіфському кургані."
  kurgan_saddle_name:0 "Сідло з кургану"
  kurgan_saddle_description:1 "Сідло, яке [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'добула', 'добуло' )] в скіфському кургані. Йому більше тисячі років, але воно добре збереглося в гробниці муміфікованих коней. Можливо, так ми зможемо зрозуміти мистецтво стародавніх вершників."
  naked_tapestry_name:0 "Гобелен з наготою"
  naked_tapestry_description:0 "Тут [Select_CString(inspiration_owner.IsFemale, 'зображена', 'зображено' )] [inspiration_owner.GetTitledFirstName] без одягу серед пустельного оазису, [Select_CString(inspiration_own'ом'')'' в оточенні блискучих крапель води."
 
  frogspawn_jar_name:0 "Глечик жаб"
- frogspawn_jar_description:0 "Глечик з в'язкою ікрою і кількома пуголовками.
+ frogspawn_jar_description:0 "Глечик з в‘язкою ікрою і кількома пуголовками.
  beaver_book_name:1 "Палаци бобрів"
  beaver_book_description:0 "Книга про архітектуру бобрів та техніки будівництва з начерками, які [inspiration_owner.GetTitledFirstName] [Select_CString(inspiration_owner.IsFemale, 'зробила', 'зробив' )] під час своїх подорожей."
  crocodile_tapestry_name:0 "Гобелен з крокодилом"
@@ -799,12 +799,12 @@
 
  # від lover.3219
  lover_keepsake_hair_name:0 "Локон, який [Select_CString(original_lover.IsFemale, 'подарувала', 'подарував' )] [original_lover.GetFirstNameNoTooltip]"
- lover_keepsake_hair_description:1 "Пам'ятний подарунок, який [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарувала', 'подарував' )] дорогій людині. [lover.GetTitledFirstNameNoTool буде при собі частинка [original_lover.IsFemale, 'коханої', 'коханого' )]."
+ lover_keepsake_hair_description:1 "Пам‘ятний подарунок, який [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарувала', 'подарував' )] дорогій людині. [lover.GetTitledFirstNameNoTool буде при собі частинка [original_lover.IsFemale, 'коханої', 'коханого' )]."
  lover_keepsake_clothes_male_name:0 "Бре, які [Select_CString(original_lover.IsFemale, 'носила', 'носив' )] [original_lover.GetTitledFirstNameNoTooltip]"
  lover_keepsake_clothes_female_name:0 "Сорочка, яку [Select_CString(original_lover.IsFemale, 'носила', 'носив' )] [original_lover.GetTitledFirstNameNoTooltip]"
  lover_keepsake_clothes_description:1 "Найінтимніші предмети туалету, котрі [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'відправила', 'відправив' )Дороге вмжно ліжку, довго не згасне у н[lover.GetHerHis] у душі."
  lover_keepsake_shell_name:0 "Мушля, яку [Select_CString(original_lover.IsFemale, 'подарувала', 'подаруйл')] [original_lover.GetFirstNameNoTooltip]"
- lover_keepsake_shell_description:1 "Пам'ятний подарунок, який [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарувала', 'подарував' )] дорогій людині. [lover.GetTitledFirstNameNoTool ] про їхню першу зустріч."
+ lover_keepsake_shell_description:1 "Пам‘ятний подарунок, який [original_lover.GetTitledFirstName] [Select_CString(original_lover.IsFemale, 'подарувала', 'подарував' )] дорогій людині. [lover.GetTitledFirstNameNoTool ] про їхню першу зустріч."
 
 ## christian_saint_bone pilgrim reward
  christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintBone')|U] [saint_bone_owner.Custom('RandomSaintNamePossessive')]"
@@ -829,7 +829,7 @@
 
  # yearly.4081
  translated_arabic_book_de_materia_medica_name:0 "#italic Про лікарські речовини#!"
- translated_arabic_book_de_materia_medica_desc:0 "Ілюстрований список п'ятитомника Діоскорида про застосування різних рослин у медицині, написаний у давній Олександрії $translated_arabic_book_shared_desc$"
+ translated_arabic_book_de_materia_medica_desc:0 "Ілюстрований список п‘ятитомника Діоскорида про застосування різних рослин у медицині, написаний у давній Олександрії $translated_arabic_book_shared_desc$"
  translated_arabic_book_on_ascensions_name:0 "#italic Про сходження#!"
  translated_arabic_book_on_ascensions_desc:0 "Список трактату Гіпсікла про рух знаків зодіаку по небу, написаний у давній Олександрії $translated_arabic_book_shared_desc$"
  translated_arabic_book_elements_name:0 "#italic Почала#!"
@@ -914,7 +914,7 @@
  artifact_cintamani_hindu_description:0 "За чутками, цей камінь колись упав з небес. Хтось вважає, що в минулому він належав Вішну або цареві нагов і приносить багатство своєму володарю."
  artifact_cintamani_buddhist_description:0 "За чутками, цей камінь колись упав з небес. Хтось вважає, що в минулому він належав бодхісатвам Авалокітешваре та Кшитигарбхе і виконує бажання свого власника."
  artifact_navaratna_name:0 "Наваратна"
- artifact_navaratna_description:0 "Намисто з дев'ятьма каменями і великим рубіном у центрі, що символізує дев'ять небесних богів індуїзму."
+ artifact_navaratna_description:0 "Намисто з дев‘ятьма каменями і великим рубіном у центрі, що символізує дев‘ять небесних богів індуїзму."
  artifact_shankha_conch_name:0 "Раковина Шанкха"
  artifact_shankha_conch_description:0 "Символ бога Вішну, ця стародавня раковина Шанкха використовувалася як духовий інструмент при виконанні релігійних обрядів і вважається символом багатства і чесноти."
  artifact_pedestal_great_diamond_name:0 "Великий діамант"
@@ -936,7 +936,7 @@
  artifact_pedestal_al_jabal_name:0 "аль-Джабаль"
  artifact_pedestal_al_jabal_description:0 "Кільце з великим рубіном, відомим як аль-Джабаль, «Гора». Камінь надзвичайно великий, і за чутками це кільце носили ще перські імператори династії Сасанідів."
  artifact_pedestal_al_yatima_name:0 "аль-Ятіма"
- artifact_pedestal_al_yatima_description:0 "Ця величезна перлина, відома як аль-Ятіма, «Сирота», єдина у своєму роді. Вона сирота в сім'ї дорогоцінного каміння та перлин."
+ artifact_pedestal_al_yatima_description:0 "Ця величезна перлина, відома як аль-Ятіма, «Сирота», єдина у своєму роді. Вона сирота в сім‘ї дорогоцінного каміння та перлин."
  artifact_dagger_of_rostam_name:0 "Кинжал Ростама"
  artifact_dagger_of_rostam_description:0 "Прикрашений кинджал, яким, за чутками, Ростам убив білого дева."
  artifact_spear_of_ascalon_name:0 "Аскалон"
@@ -951,7 +951,7 @@
  epistle_byzantium:0 "Східна Римська імперія"
  epistle_bahrain:0 "Бахрейна"
  artifact_kaves_apron_name:0 "Фартук Каве"
- artifact_kaves_apron_description:0 "Цей пошарпаний прапор, за чутками, є легендарним прапором перського коваля Каве, який той виготовив із власного фартуха, щоб об'єднати народ у боротьбі з тираном."
+ artifact_kaves_apron_description:0 "Цей пошарпаний прапор, за чутками, є легендарним прапором перського коваля Каве, який той виготовив із власного фартуха, щоб об‘єднати народ у боротьбі з тираном."
  artifact_joyeuse_name:0 "Жуайєз"
  artifact_joyeuse_description:1 "Меч Карла Великого, викутий з частину списа Лонгіна. Жуайез є символом лицарської доблесті та спадщини імперії Карла Великого."
  artifact_durendal_name:0 "Дюрандаль"
@@ -975,13 +975,13 @@
  artifact_crystal_carving_name:0 "Оброблений кришталь"
  artifact_crystal_carving_description:0 "Цей прямокутний шматок чистого гірського кришталю майже ідеально прозорий, а більша частина його поверхні покрита хитромудрими візерунками. Цей предмет неймовірно красивий, хоча його призначення залишається неясним."
  artifact_ibeji_name:0 "Ібеджі"
- artifact_ibeji_description:0 "Невелика дерев'яна статуетка померлого близнюка. Вважається, що якщо сім'я про неї піклуватиметься, вона принесе їй удачу та багатство. Статуетка прикрашена хитромудрою зачіскою."
+ artifact_ibeji_description:0 "Невелика дерев‘яна статуетка померлого близнюка. Вважається, що якщо сім‘я про неї піклуватиметься, вона принесе їй удачу та багатство. Статуетка прикрашена хитромудрою зачіскою."
  artifact_kantele_name:0 "Давній кантеле"
- artifact_kantele_description:0 "Цей дерев'яний струнний інструмент передавався з покоління в покоління. За чутками, цей інструмент міг зберегтися з часів самого Вяйнямейнена."
+ artifact_kantele_description:0 "Цей дерев‘яний струнний інструмент передавався з покоління в покоління. За чутками, цей інструмент міг зберегтися з часів самого Вяйнямейнена."
  artifact_sledovik_name:0 "Слідовик"
- artifact_sledovik_description:0 "Цей великий камінь покритий слідами, що залишили вм'ятини в самому камені. Багато років він грав роль вівтаря. Вважається, що сліди на ньому залишені святим."
+ artifact_sledovik_description:0 "Цей великий камінь покритий слідами, що залишили вм‘ятини в самому камені. Багато років він грав роль вівтаря. Вважається, що сліди на ньому залишені святим."
  artifact_nagelring_name:0 "Нагельринг"
- artifact_nagelring_description:0 "Згідно з переказами, цей старовинний меч пов'язаний з міфічним героєм Дітріхом Бернським. Це і овіяло меч не цілком заслуженою славою."
+ artifact_nagelring_description:0 "Згідно з переказами, цей старовинний меч пов‘язаний з міфічним героєм Дітріхом Бернським. Це і овіяло меч не цілком заслуженою славою."
  artifact_kladenets_name:0 "Чоловічок"
  artifact_kladenets_description:1 "Хоча цей сталевий меч бачив найкращі дні, рахуйтається, що це казковий Дитина, здатний рубати сам по собі. У нинішньому стані їм досить важко користуватися, але сама присутність меча вселяє повагу тим, хто вірить у його надприродне походження.
  artifact_legbiter_name:0 "Легбітер"
@@ -999,7 +999,7 @@
  turquoise_throne_name:0 "Бірюзовий трон"
  turquoise_throne_description:0 "Дорогоцінний трон, виготовлений за образом і подобою легендарного трону перських царів з Шахнаме. Основа з ебенового дерева вкрита немислимою кількістю бірюзи, а також золотими пластинами, глазурованими бірюзою. Подібної краси могли досягти лише найвидатніші".
  peacock_throne_name:0 "Павлиний трон"
- peacock_throne_description:0 "Цей багатий трон був створений у спробі повторити трон Джамшида. Кажуть, що майстри з усього світу зібралися, щоб об'єднати золото, срібло та сотні дорогоцінного каміння в єдиний трон."
+ peacock_throne_description:0 "Цей багатий трон був створений у спробі повторити трон Джамшида. Кажуть, що майстри з усього світу зібралися, щоб об‘єднати золото, срібло та сотні дорогоцінного каміння в єдиний трон."
  artifact_banner_islam_name:0 "Священний Прапор Мухаммеда"
  artifact_banner_islam_description:0 "Вважається, що це священний Прапор Мухаммеда, реліквія з часів Пророка та символ єдиного ісламу."
  artifact_spear_of_the_prophet_name:0 "Спис Пророка"
@@ -1007,9 +1007,9 @@
  artifact_mantle_of_the_prophet_islam_name:0 "Плащ пророка"
  artifact_mantle_of_the_prophet_description:0 "Століттями, що передавалися від халіфа до халіфа, цей плащ колись належав Пророку. Традиційно халіфи одягали його на свята, що надавало їм спокою та величі."
  afarganyu_name:0 "Афарганню"
- artifact_afarganyu_description:0 "Велика посудина для розпалювання священного вогню, що грає важливу роль у багатьох церемоніях зороастризму. Стародавній напис згадує ім'я людини, яка передала цю посудину в дар жерцям."
+ artifact_afarganyu_description:0 "Велика посудина для розпалювання священного вогню, що грає важливу роль у багатьох церемоніях зороастризму. Стародавній напис згадує ім‘я людини, яка передала цю посудину в дар жерцям."
  siddhachakra_name:0 "Сіддхачакра"
- artifact_siddhachakra_description:0 "Містичний символ, шанований джайнами. У центрі зображено лотос, на пелюстках якого сидять божества. Цей символ пов'язаний з легендою про царя Шріпаля та його дружину Маянасударі."
+ artifact_siddhachakra_description:0 "Містичний символ, шанований джайнами. У центрі зображено лотос, на пелюстках якого сидять божества. Цей символ пов‘язаний з легендою про царя Шріпаля та його дружину Маянасударі."
  artifact_staff_kakusandha:0 "Посох Какусанди"
  artifact_staff_kakusandha_desc:0 "Какусанда, перший Будда нинішньої кальпи, володів цією палицею, відганяв їм небезпечних тварин і відлякував дрібних, щоб на них не наступили мандрівні ченці."
  water_filter_konagamana:1 "Ситечко Конагамани"
@@ -1028,7 +1028,7 @@
  xylospongium.desc:1 "Походження та призначення невідомі, але вона випромінює слабкий неприємний запах."
  #Common
  st_davids_morsel:1 "Шматочок Св. Давида"
- st_davids_morsel.desc:0 "Схоже на шмат в'яленого м'яса. Вік і походження невідомі."
+ st_davids_morsel.desc:0 "Схоже на шмат в‘яленого м‘яса. Вік і походження невідомі."
  platypus_figurine:0 "Фігурка тварини"
  platypus_figurine.desc:0 "У цієї тварини широка дзьоб, блискуче хутро і плавники. Як незвичайно."
  terracotta_toy_fowl:0 "Теракотова курка"
@@ -1057,7 +1057,7 @@
  sekhmet_ring:0 "Старий перстень-друк"
  sekhmet_ring.desc:0 "На золотому кільці вигравіровано зображення людини у химерному шоломі."
  scarab_brooch:0 "Давня брошка-скарабей"
- scarab_brooch.desc:0 "Броша витонченої роботи у формі скарабея. Кажуть, що смарагди, що її покривають, дарують здоров'я."
+ scarab_brooch.desc:0 "Броша витонченої роботи у формі скарабея. Кажуть, що смарагди, що її покривають, дарують здоров‘я."
  
  # Easter eggs
  easteregg_artifact_elisabeth_plush:0 "Лисьє опудало Єлизавети"

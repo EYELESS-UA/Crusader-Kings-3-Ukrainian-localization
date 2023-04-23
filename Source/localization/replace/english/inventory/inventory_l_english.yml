@@ -17,7 +17,7 @@
  artifact_history_taken_in_siege_title:0 "[HISTORY_ENTRY.GetDate.GetString]"
  artifact_history_taken_in_siege_desc:1 "Захоплено персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] після облоги володіння [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]"
  artifact_history_reforged_title:0 "[HISTORY_ENTRY.GetDate.GetString]"
- artifact_history_reforged_desc:1 "Об'єднано персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] з провінції [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]"
+ artifact_history_reforged_desc:1 "Об‘єднано персонажем [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal] з провінції [HISTORY_ENTRY.GetLocation.GetNameNoTooltip]"
  artifact_history_discovered_title:0 "[HISTORY_ENTRY.GetDate.GetString]"
  artifact_history_discovered_desc:2 "Відкрито персонажем [HISTORY_ENTRY.GetActor.GetTitledFirstNameNicknamedNoTooltipRegnal] за дорученням персонажа [HISTORY_ENTRY.GetRecipient.GetTitledFirstNameNicknamedNoTooltipRegnal]
  artifact_history_claimed_by_house_title:0 "[HISTORY_ENTRY.GetDate.GetString]"
@@ -47,7 +47,7 @@
  trinket_4:0 "$trinket$"
 
  # Names for the artifact that are placed in the slot
- artifact_slot_pedestal:1 "Предмет для п'єдесталу"
+ artifact_slot_pedestal:1 "Предмет для п‘єдесталу"
  artifact_slot_helmet:0 "Головний убір"
  artifact_slot_miscellaneous:0 "Прикраса"
  artifact_miscellaneous_when_not_court:0 "$miscellaneous_when_not_court$"
@@ -67,7 +67,7 @@
  artifact_regalia_simple:0 "$regalia$"
  artifact_armor:0 "Зброя"
  artifact_trinket:0 "Прикраса"
- artifact_pedestal:0 "Предмет для п'єдесталу"
+ artifact_pedestal:0 "Предмет для п‘єдесталу"
  artifact_wall_big:0 "Великий настінний орнамент"
  artifact_tapestry:0 "Гобелен"
  artifact_sculpture:0 "Меблі"
@@ -100,7 +100,7 @@
  artifact_armor_brigandine:0 "$armor$"
 
 
- pedestal:2 "П'єдестал"
+ pedestal:2 "П‘єдестал"
  wall_big:0 "Великий настінний орнамент"
  wall_small:0 "Малий настінний орнамент"
  sculpture:1 "Меблі"
@@ -232,7 +232,7 @@
  ARTIFACT_STORAGE:1 "Придворні артефакти"
  ARTIFACT_CLAIMS:0 "Претензії на артефакти"
  NEW_ARTIFACT:1 "#V Новий#!"
- EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Демонструється', 'Використовується' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self ]]"
+ EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Демонструється', 'Використовується' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:1 "Оскільки [Character.GetShortUIName] не [Character.LocalPlayerString( 'маю', 'має' )] [Concept( 'royal_court', 'mor'C[ .LocalPlayerString( 'можу', 'може' )] виставити цей [court_artifact|el] на огляд."
  ARTIFACT_TITLE_ASSOCIATION:1 "Успадковано разом з титулом «[Artifact.GetAssociatedTitle.GetNameWithUnderlying]»"
  EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Не можна переглянути інвентар: ні [Concept( 'artifacts', 'артефактів' )|E] або [Concept( 'artifact_claims', 'претензій на артефакти' )#E" для демонстрації

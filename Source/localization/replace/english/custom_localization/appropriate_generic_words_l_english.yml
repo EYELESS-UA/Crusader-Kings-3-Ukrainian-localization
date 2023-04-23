@@ -15,7 +15,7 @@
  accessory_bow:0 "цибуля"
  accessory_bracelet:0 "браслет"
  accessory_snood:0 "шарф на голову"
- accessory_garter:0 "підв'язка"
+ accessory_garter:0 "підв‘язка"
  accessory_gauntlet:0 "рукавиця"
  accessory_cap:0 "ковпак"
  accessory_nose_ring:0 "кільце в ніс"
@@ -63,7 +63,7 @@
  expensive_drink_kosher_wine:0 "кошерні вина"
  expensive_drink_premium_tea:1 "привізний чай"
  expensive_drink_mead:0 "благородні сорти меду"
- expensive_drink_invigorating_herbal_infusions:0 "зміцнюючі трав'яні настоянки"
+ expensive_drink_invigorating_herbal_infusions:0 "зміцнюючі трав‘яні настоянки"
  expensive_drink_violet_sharbah:0 "фіалковий шербет"
  #GetExpensiveDrink_Singular
  expensive_drink_singular_hippocras:0 "$expensive_drink_hippocras$"
@@ -75,7 +75,7 @@
  expensive_drink_singular_premium_tea:1 "привізний чай"
  expensive_drink_singular_kosher_wine:0 "кошерне вино"
  expensive_drink_singular_mead:0 "благородний мед"
- expensive_drink_singular_herbal_infusions:0 "зміцнююча трав'яна настойка"
+ expensive_drink_singular_herbal_infusions:0 "зміцнююча трав‘яна настойка"
  expensive_drink_singular_violet_sharbah:0 "$expensive_drink_violet_sharbah$"
  #GetShockedExpression
  shocked_expression_shocked:0 "в шоці"

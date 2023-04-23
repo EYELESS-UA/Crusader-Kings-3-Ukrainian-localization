@@ -30,7 +30,7 @@
  stop_vassal_war_negotiation:2 "[recipient.GetShortUIName] може закінчити війну, але попросити щось натомість\n\nБажання персонажа [recipient.GetShortUINamePossessive] залежить від:\n$BULLET_WITH_TAB$ Ваших навичок [Concept( 'diplo |E]\n$BULLET_WITH_TAB$ Стану війни\n$BULLET_WITH_TAB$ [recipient.GetHerHis|U] [Concept( 'traits', 'властивостей' )|E]\n$BULLET_WITH_TAB$ [recipient.GetHerHis|U] [Concept ( 'opinion', 'думки' )|E] про вас\n$BULLET_WITH_TAB$ Того, чи відчуває [recipient.GetSheHe] перед вами [Concept( 'intimidated', 'страх' )|E] або [Concept( 'cowed ', 'жах' )|E]"
  stop_vassal_war_use_hook:1 "При необхідності ви зможете використовувати [Concept( 'hook', 'вплив' )|E]"
  force_join_faction_interaction:0 "Змусити приєднатися до фракції"
- force_join_faction_interaction_desc:1 "Використовувати [Concept( 'hook', 'вплив' )|E] на персонажа [recipient.GetShortUIName], щоб змусити [Select_CString(recipient.IsFemale, 'її', 'його' )] вступити до вашої Concept( 'faction', 'фракцію' )|E]"
+ force_join_faction_interaction_desc:1 "Використовувати [Concept( 'hook', 'вплив' )|E] на персонажа [recipient.GetShortUIName], щоб змусити [Select_CString(recipient.IsFemale, ‘її', 'його' )] вступити до вашої Concept( 'faction', 'фракцію' )|E]"
  force_join_faction_interaction_notification:0 "Вимушене приєднання до фракції"
 
  stop_attacker_vassal_war_decline_summary:1 "[recipient.GetShortUINameNoTooltip] може попросити про послугу у відповідь"
@@ -43,7 +43,7 @@
  force_onto_council_desc:0 "Використовувати [Concept( 'hook', 'вплив' )|E], щоб [recipient.GetShortUINameNoTooltip] [Select_CString(recipient.IsFemale, 'дала', 'дав' )] вам місце в [Concept( 'coun ', 'раді' )|E] на ваш вибір"
  force_onto_council_extra_icon:1 "@weak_hook_icon!Доступно, тому що у вас є [Concept( 'hook', 'вплив' )|E]"
  force_onto_council.notification.strong_hook:0 "На мій погляд, я - найкращий [council_task.GetPositionName], який у вас тільки може бути. Тому у ваших інтересах надати цю посаду мені.\n\nНаслідки відмови ви чудово #EMP уявляєте#!." "
- force_onto_council.notification.fallback:0 "Вважаю, як ми й домовлялися, тепер я - ваш [council_task.GetPositionName].\n\nНа мій погляд, це цілком загладжує ваш обов'язокередо мною."
+ force_onto_council.notification.fallback:0 "Вважаю, як ми й домовлялися, тепер я - ваш [council_task.GetPositionName].\n\nНа мій погляд, це цілком загладжує ваш обов‘язокередо мною."
  force_onto_council.desc.tt:0 "[Select_CString(actor.IsLocalPlayer,'You',actor.GetShortUIName)] тепер [councillor|El]"
  force_onto_council.recipient.tt:0 "[actor.GetShortUIName] тепер ваш [council_task.GetPositionName|l]"
  force_onto_council.recipient.tt.duration:2 "[actor.GetSheHe|U] не може позбутися посади ще [SCOPE.ScriptValue('council_position_locked_value')|0] років"
@@ -71,7 +71,7 @@
  ASK_FOR_PARDON_NOTIFICATION:0 "Я смиренно прошу вас помилувати мене за мої злочини."
  
  pardon_interaction:0 "Дарувати прощення"
- pardon_interaction_desc:1 "На ваш погляд [recipient.GetName] — [Concept( 'criminal', Select_CString(recipient.IsFemale, 'злочинець' 'злочинець' ))|E] ([recipient.GetImprisonmentReasons( actor.Self) , що дозволяє вам [Concept( 'imprison', 'заарештувати' )|E] [Select_CString(recipient.IsFemale, 'її', 'його' )] і не славитися [Concept( 'tyranny', 'тираном' )|E ].\n\nАле якщо ви вважаєте за краще зберегти [Select_CString(recipient.IsFemale, 'їй', 'йому' )] свободу, то можете дарувати прощення. |E] зникнуть, а [Select_CString(recipient.IsFemale, 'її', 'його' )] [Concept( 'opinion', 'думка' )|E] про вас поліпшиться."
+ pardon_interaction_desc:1 "На ваш погляд [recipient.GetName] — [Concept( 'criminal', Select_CString(recipient.IsFemale, 'злочинець' 'злочинець' ))|E] ([recipient.GetImprisonmentReasons( actor.Self) , що дозволяє вам [Concept( 'imprison', 'заарештувати' )|E] [Select_CString(recipient.IsFemale, ‘її', 'його' )] і не славитися [Concept( 'tyranny', 'тираном' )|E ].\n\nАле якщо ви вважаєте за краще зберегти [Select_CString(recipient.IsFemale, '‘'їй', 'йому' )] свободу, то можете дарувати прощення. |E] зникнуть, а [Select_CString(recipient.IsFemale, ‘її', 'його' )] [Concept( 'opinion', 'думка' )|E] про вас поліпшиться."
  pardon_interaction_toast:0 "Ваш благородний сюзерен [actor.GetFirstName] [Select_CString(actor.IsFemale, 'простила', 'простив' )] вам ваші злочини!"
 
  county_must_have_city_tt:0 "Владіння [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] має мати хоча б одне [Concept( 'city', 'місто' )|E] і мати [Concept( 'development', 'розвиток' )|E] вище 20. "

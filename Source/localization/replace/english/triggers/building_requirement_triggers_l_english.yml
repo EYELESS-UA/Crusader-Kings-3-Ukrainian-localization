@@ -4,4 +4,4 @@
 
   BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED:0 "У провінції [PROVINCE.GetName] має бути [castle|El], [city|El] або [temple|El]"
   NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED:0 "У провінції [PROVINCE.GetName] немає [castle|El], [city|El] або [temple|El]"
-  NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED:0 "Чортос героїв можуть використовувати тільки балтійські, слов'янські та фінські язичники"
+  NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED:0 "Чортос героїв можуть використовувати тільки балтійські, слов‘янські та фінські язичники"

@@ -74,12 +74,12 @@
  artifact_wall_banner_kaviani_name:0 "Деравш Кавіані"
  artifact_wall_banner_kaviani:1 "Легендарний Деравш Кавіані — штандарт правителів загиблої Сасанідської імперії. Символ і гордість спадкоємців Перської імперії."
  artifact_wall_big_edessa_name:1 "Спас Нерукотворний"
- artifact_wall_big_edessa:2 "Манділіон або Спас Нерукотворний відомий як перша ікона: полотно з чудовим чином лику Христа. Його походження пов'язують з Абгаром, царем Едеси."
+ artifact_wall_big_edessa:2 "Манділіон або Спас Нерукотворний відомий як перша ікона: полотно з чудовим чином лику Христа. Його походження пов‘язують з Абгаром, царем Едеси."
 
  # Shield
  artifact_wall_shield:0 "Настінний щит"
  artifact_wall_shield_name:0 "Щит $artifact_name_prefix$"
- artifact_wall_shield_description:1 "Дерев'яний щит [SCOPE.Custom('ArtifactQuality')] якості з [newly_created_artifact.GetFeatureText( 'shaft_wood' )] і оковкою з [newly_created_artifact.GetFeatureText' ' ( 'decoration_material_inlay_HSB' )] і візерунки — [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+ artifact_wall_shield_description:1 "Дерев‘яний щит [SCOPE.Custom('ArtifactQuality')] якості з [newly_created_artifact.GetFeatureText( 'shaft_wood' )] і оковкою з [newly_created_artifact.GetFeatureText' ' ( 'decoration_material_inlay_HSB' )] і візерунки — [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
  artifact_wall_shield_special:0 "$artifact_wall_shield$"
  artifact_wall_axe_description:0 "$artifact_axe_description$"
  artifact_wall_sword_description:0 "$artifact_sword_description$"
@@ -92,7 +92,7 @@
  artifact_wall_el_cids_sword:1 "Трехфутовий меч з гравіюванням "Тісона". За чутками, знаменитий полководець Ель Сід відібрав цей меч у бою у його попереднього власника. Одна тільки присутність цього меча пробуджує військовий дух."
 
  artifact_wall_sword_muhammad_name:1 "Меч Мухаммеда"
- artifact_wall_sword_muhammad:0 "Один із дев'яти мечів, що належали Пророку Мухаммеду. Це [SCOPE.Custom('MuhammadSword')]."
+ artifact_wall_sword_muhammad:0 "Один із дев‘яти мечів, що належали Пророку Мухаммеду. Це [SCOPE.Custom('MuhammadSword')]."
  artifact_wall_sword_muhammad_aladb:0 "Аль-Абд, яким Мухаммед користувався в битвах при Бадрі та Ухуді"
  artifact_wall_sword_muhammad_almathur:0 "Аль-Маасур, який Мухаммед отримав від свого батька"
  artifact_wall_sword_muhammad_arrasub:0 "Аль-Расуб, фамільний меч Мухаммеда"
@@ -125,8 +125,8 @@
  animal_type_lynx:0 "рись"
 
  # Hides
- artifact_hide_type_cat:2 "улюбленої кішки персонажа [ROOT.Char.GetTitledFirstNameNoTooltip] на ім'я [ROOT.Char.Custom('CatStoryName')]"
- artifact_hide_type_dog:2 "улюбленого собаки персонажа [ROOT.Char.GetTitledFirstNameNoTooltip] на ім'я [ROOT.Char.Custom('DogStoryName')]"
+ artifact_hide_type_cat:2 "улюбленої кішки персонажа [ROOT.Char.GetTitledFirstNameNoTooltip] на ім‘я [ROOT.Char.Custom('CatStoryName')]"
+ artifact_hide_type_dog:2 "улюбленого собаки персонажа [ROOT.Char.GetTitledFirstNameNoTooltip] на ім‘я [ROOT.Char.Custom('DogStoryName')]"
  artifact_hide_type_fox:0 "чудового лисиця"
  artifact_hide_type_hare:0 "чудового зайця"
  artifact_hide_type_hart:0 "оленя"
@@ -149,8 +149,8 @@
  artifact_wall_animal_skull_aurochs:0 "великого туру"
  artifact_wall_animal_skull_horse:0 "могутнього бойового коня, яким ніколи [Select_CString(owner.IsFemale, 'володіла', 'володів' )] [owner.GetNameNoTooltip]."
  artifact_wall_animal_skull_rabbit:2 "найгрізнішої істоти у світі, кролика."
- feature_animal_hide_type_cat:1 "улюбленої кішки персонажа [Artifact.GetOwner.GetTitledFirstNameNoTooltip] на ім'я [Artifact.GetOwner.Custom('CatStoryName')]"
- feature_animal_hide_type_dog:1 "улюбленого собаки персонажа [Artifact.GetOwner.GetTitledFirstNameNoTooltip] на ім'я [Artifact.GetOwner.Custom('DogStoryName')]"
+ feature_animal_hide_type_cat:1 "улюбленої кішки персонажа [Artifact.GetOwner.GetTitledFirstNameNoTooltip] на ім‘я [Artifact.GetOwner.Custom('CatStoryName')]"
+ feature_animal_hide_type_dog:1 "улюбленого собаки персонажа [Artifact.GetOwner.GetTitledFirstNameNoTooltip] на ім‘я [Artifact.GetOwner.Custom('DogStoryName')]"
  feature_animal_hide_type_fox:0 "чудового лисиця"
  feature_animal_hide_type_hare:0 "чудового зайця"
  feature_animal_hide_type_hart:0 "оленя"
@@ -220,7 +220,7 @@
 
  # Sculptures
  artifact_sculpture_name:0 "Статуя $artifact_name_prefix$"
- artifact_sculpture_description:1 "[SCOPE.Custom('ArtifactArticleWealth')]а статуя - [SCOPE.Custom('ArtifactAdverbQuality')] [Select_CString(owner.IsFemale, 'вирізана і розфарбована'), 'вирізаний і розфарбований GetTitledFirstName] Це [owner.Custom('RulerSkill')] [owner.GetTitleAsNameNoTooltip|l], [Select_CString(owner.IsFemale, 'яка', 'який' )] дуже широко [Select_CString(owner.IsFemale, 'відомий , 'відомий' )].Виготовлена ​​з [newly_created_artifact.GetFeatureText( 'sculpture_material' )], статуя виглядає дуже доречно, матеріал [SCOPE.Custom('ArtifactAdverbQuality')] оброблений."
+ artifact_sculpture_description:1 "[SCOPE.Custom('ArtifactArticleWealth')]а статуя - [SCOPE.Custom('ArtifactAdverbQuality')] [Select_CString(owner.IsFemale, 'вирізана і розфарбована'), 'вирізаний і розфарбований GetTitledFirstName] Це [owner.Custom('RulerSkill')] [owner.GetTitleAsNameNoTooltip|l], [Select_CString(owner.IsFemale, ‘яка', ‘який' )] дуже широко [Select_CString(owner.IsFemale, 'відомий , 'відомий' )].Виготовлена ​​з [newly_created_artifact.GetFeatureText( 'sculpture_material' )], статуя виглядає дуже доречно, матеріал [SCOPE.Custom('ArtifactAdverbQuality')] оброблений."
  artifact_sculpture_warrior:1 "своїми незрівнянними військовими якостями."
  artifact_sculpture_ruler:1 "освічений правлінням державою [ROOT.Char.GetPrimaryTitle.GetName]"
  artifact_sculpture_religious_name:1 "Статуя божества [owner.Custom('RandomDivinity')]"
@@ -235,7 +235,7 @@
  artifact_sculpture_religious_christian_description:2 "Різна розмальована статуя, що має велике значення для віруючих. Її основа прикрашена #L [owner.GetFaith.GetName|l]ними#! цитатами, джерелом яких є [owner.GetFaith.ReligiousText
  artifact_statue_religious_jesus:0 "Ісус на хресті"
  artifact_statue_religious_mary:0 "Діва Марія"
- #artifact_sculpture_virgin_mary_description: "Дерев'яний та мальовничий статуя Марії Марії, Матір Йосипа."
+ #artifact_sculpture_virgin_mary_description: "Дерев‘яний та мальовничий статуя Марії Марії, Матір Йосипа."
  #artifact_sculpture_visnu_description: "Використана і фарбована статуя з Vishnu the Preserver."
  artifact_sculpture_animal_description:0 "[SCOPE.Custom('ArtifactArticleWealth')]а статуя тварини, [SCOPE.Custom('ArtifactAdverbQuality')] вирізана та пофарбована. В образі істоти відображені [owner.GetTitleAsNameNoTool| owner.Custom('RulerSkill')] Фігура виконана з [SCOPE.Custom('ArtifactAdverbQuality')] обробленого [newly_created_artifact.GetFeatureText( 'sculpture_material' )]."
  feature_sculpture_material_stone:0 "камінь"
@@ -243,7 +243,7 @@
 
 
  artifact_sculpture_ark_of_covenant_name:1 "Ковчег Завіту"
- artifact_sculpture_ark_of_covenant_description:0 "Велика кам'яна скриня, за чутками, є Ковчегом Завіту з кам'яними скрижалями, який Бог вручив Мойсею."
+ artifact_sculpture_ark_of_covenant_description:0 "Велика кам‘яна скриня, за чутками, є Ковчегом Завіту з кам‘яними скрижалями, який Бог вручив Мойсею."
  #artifact_sculpture_kali_description: "A carved and painted statue of Kali, the Black Goddess."
  #artifact_sculpture_ganesh_description: "Покращені та мальовничі статуї Ganesh the Remover of Obstacles."
  artifact_sculpture_armor_babr_name:0 "Бабр-е Байан"
@@ -258,7 +258,7 @@
  artifact_box_small_name:0 "Скринька для коштовностей $artifact_name_prefix$"
  artifact_box_medium_name:0 "Прикрашена скринька $artifact_name_prefix$"
  artifact_box_small_description:1 "Скринька для коштовностей [SCOPE.Custom('ArtifactQuality')] якості. Його не дарма зробили з [newly_created_artifact.GetFeatureText( 'box_material' )]: матеріал [SCOPE.Custom('ArtifactAd .GetFeatureText( 'box_decoration' )]. Прекрасно підходить для зберігання прикрас та релігійних символів."
- artifact_box_medium_description:1 "Ларець [SCOPE.Custom('ArtifactQuality')] якості. Його недаремно зробили з [newly_created_artifact.GetFeatureText( 'box_material' )]: матеріал [SCOPE.Custom('ArtifactAdverbWealth') ( 'box_decoration' )].Прекрасно підходить для зберігання документів, пам'ятних речей та церемоніальних предметів."
+ artifact_box_medium_description:1 "Ларець [SCOPE.Custom('ArtifactQuality')] якості. Його недаремно зробили з [newly_created_artifact.GetFeatureText( 'box_material' )]: матеріал [SCOPE.Custom('ArtifactAdverbWealth') ( 'box_decoration' )].Прекрасно підходить для зберігання документів, пам‘ятних речей та церемоніальних предметів."
  feature_box_decoration_painted:0 "Корпус і кришку скриньки покриває візерунок— [Artifact.GetFeatureText( 'decoration_pattern' )]."
  feature_box_decoration_inlay:0 "Корпус і кришка скриньки прикрашені інкрустацією з [Artifact.GetFeatureText( 'decoration_material_inlay' )]."
  feature_box_decoration_carved:0 "На корпусі та кришці шкатулки вмілі руки майстра вирізали візерунок— [Artifact.GetFeatureText( 'decoration_pattern' )]"
@@ -295,15 +295,15 @@
  artifact_pedestal_religious_head_letter_name:0 "Лист, що [Select_CString(compliment_receiver.IsFemale, 'написала', 'написав' )] [compliment_receiver.GetTitledFirstNameNoTooltip]"
  artifact_pedestal_religious_head_letter_description:0 "У ньому пишеться: «$learning_theology.3022.desc$»\n\nОдержувачем листа [Select_CString(letter_receiver.IsFemale, 'зазначено', 'вказано' )][letter_recei ."
 
- artifact_pedestal_crucifix_name:0 "Розп'яття $artifact_name_prefix$"
- artifact_pedestal_crucifix_description:0 "Дерев'яне розп'яття тонкої роботи - страждання, відбиті на обличчі Христа, здатні змусити покаятися навіть закоренілого грішника."
+ artifact_pedestal_crucifix_name:0 "Розп‘яття $artifact_name_prefix$"
+ artifact_pedestal_crucifix_description:0 "Дерев‘яне розп‘яття тонкої роботи - страждання, відбиті на обличчі Христа, здатні змусити покаятися навіть закоренілого грішника."
  artifact_pedestal_cross_name:0 "Хрест $artifact_name_prefix$"
  artifact_pedestal_cross_description:0 "Майстерно виконаний золотий хрест, прикрашений коштовним камінням."
  artifact_pedestal_human_skull_name:0 "Череп персонажа [killed.GetTitledFirstNameNoTooltip]"
  artifact_pedestal_human_skull_description:0 "Очищений і чудово зберігся череп персонажа [killed.GetTitledFirstNameNoTooltip], якого [Select_CString(owner.IsFemale, 'вбила', 'вбив')] [owner.GetTitledFirstNameNoTooltip
  artifact_pedestal_human_skull_specific_description:0 "Очищений і чудово зберігся череп персонажа [killed.GetFullName]. Хоча це не точно."
  artifact_pedestal_skull_of_the_enemy_name:0 "Череп зганьбленого"
- artifact_pedestal_skull_of_the_enemy_description:0 "Очищений і чудово зберігся череп персонажа [rival.GetTitledFirstNameNoTooltip], ретельно витягнутий і збережений в пам'ять про образу, нанесену персонажу [owner.GetTitledFirstNameNoTooltip].
+ artifact_pedestal_skull_of_the_enemy_description:0 "Очищений і чудово зберігся череп персонажа [rival.GetTitledFirstNameNoTooltip], ретельно витягнутий і збережений в пам‘ять про образу, нанесену персонажу [owner.GetTitledFirstNameNoTooltip].
  artifact_pedestal_skull_of_the_apostate_name:0 "Череп відступника"
  artifact_pedestal_skull_of_the_apostate_description:0 "Очищений і чудово зберігся череп персонажа [rival.GetTitledFirstNameNoTooltip], ретельно витягнутий і збережений на згадку про лайку #L [owner.GetFaith.GetName|l]ой#!
  #artifact_pedestal_statuette_description: "Для маленької статуїти з трудомісткої роботи, спрямованої на [owner.Custom('StatuetteSubject')]."
@@ -322,9 +322,9 @@
  artifact_pedestal_jamshid_name:1 "Чаша Джамшида"
  artifact_pedestal_cup_jamshid:1 "Легендарна Чаша Джамшида, якою володіли древні правителі Персії. Її використовували для пророцтв, а також вважалося, що в чаші міститься еліксир безсмертя."
  artifact_pedestal_spear_destiny_name:1 "Спис Долі"
- artifact_pedestal_spear_destiny:1 "Наконечник стародавнього списа, яким, як вважається, римський солдат пронизав розіп'ятого Ісуса."
+ artifact_pedestal_spear_destiny:1 "Наконечник стародавнього списа, яким, як вважається, римський солдат пронизав розіп‘ятого Ісуса."
  artifact_pedestal_david_harp_name:0 "Арфа Давида"
- artifact_pedestal_david_harp:1 "Дерев'яна і дуже стара арфа. За чутками, вона належала царю Давиду і має цілющі властивості."
+ artifact_pedestal_david_harp:1 "Дерев‘яна і дуже стара арфа. За чутками, вона належала царю Давиду і має цілющі властивості."
  artifact_pedestal_branch_name:1 "Гілка [SCOPE.Custom('BranchTree')]"
  artifact_pedestal_branch_description:0 "Зовнішньо непримітна гілка, що має велике релігійне значення. Кажуть, що це [SCOPE.Custom('BranchTree')]."
  artifact_pedestal_branch_haoma:1 "божественного дерева Хаома"
@@ -342,7 +342,7 @@
  artifact_pedestal_crown_thorns_name:0 "Терновий вінець"
  artifact_pedestal_crown_thorns:1 "Терновий вінець Ісуса, який чудово зберігся, який той носив під час пристрастей."
  artifact_pedestal_veil_veronica_name:1 "Плат Вероніки"
- artifact_pedestal_veil_veronica:1 "Справжній Плат Вероніки: полотно з обличчям Ісуса, який чудово з'явився на тканині під час пристрастей. Кажуть, що полотно здатне зцілювати хворих."
+ artifact_pedestal_veil_veronica:1 "Справжній Плат Вероніки: полотно з обличчям Ісуса, який чудово з‘явився на тканині під час пристрастей. Кажуть, що полотно здатне зцілювати хворих."
  artifact_pedestal_cornerstone_name:0 "Крадений наріжний камінь"
  artifact_pedestal_cornerstone_name_desc:0 "Наріжний камінь, місце якого - [rival.Custom('FortifiedBuilding')] персонажа [rival.GetTitledFirstName]"
  #artifact_pedestal_mosque_lamp_name: "Precious Oil Lamp"
@@ -352,7 +352,7 @@
  # Books
  artifact_book_title:0 "[newly_created_artifact.GetFeatureText( 'book_title')]"
  artifact_book_description:0 "[newly_created_artifact.Custom('ArtifactBookDescType')] [newly_created_artifact.GetFeatureText( 'book_decoration' )]."
- artifact_book_title_based_desc:0 "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга описує всі жертви і тяжку працю заради вивчення [ROOT.Artifact.GetFeatureText( 'book_topic' )]. .Custom('ArtifactQuality')] якості [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] ілюстровано."
+ artifact_book_title_based_desc:0 "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а книга описує всі жертви і тяжку працю заради вивчення [ROOT.Artifact.GetFeatureText( 'book_topic' )]. .Custom('ArtifactQuality')] якості [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] ілюстровано."
  artifact_book_other_desc_1:0 "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий тому, в якому демонструється [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]е розуміння [ROOT.Artifact. book_subject' )], адже книга торкається таких тем, як [ROOT.Artifact.GetFeatureText( 'book_topic' )]."
  artifact_book_other_desc_2:0 "Книга, присвячена такій темі, як [ROOT.Artifact.GetFeatureText( 'book_topic' )]. У ній багато [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] їх коментарів та [RO .Custom('ArtifactAdverbWealth')] оформлених ілюстрацій."
  artifact_book_other_desc_3:0 "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а робота на тему [ROOT.Artifact.GetFeatureText( 'book_topic' )], [ROOT.Artifact.GetOwner.Custom ] прикрашена."
@@ -373,7 +373,7 @@
  feature_book_decoration_pattern_painted:0 "На обкладинці з [Artifact.GetFeatureText( 'book_cover_material' )] намальований повторюваний візерунок - [Artifact.GetFeatureText( 'decoration_pattern' )]"
 
  feature_book_title_fallback:0 "Книга $artifact_name_prefix_artifact_scope$"
- feature_book_title_unification:0 "Книга $artifact_name_prefix_artifact_scope$ «По об'єднанню держави»"
+ feature_book_title_unification:0 "Книга $artifact_name_prefix_artifact_scope$ «По об‘єднанню держави»"
  feature_book_title_creation:0 "Книга $artifact_name_prefix_artifact_scope$ "Створення держави""
  feature_book_title_restoration:0 "Книга $artifact_name_prefix_artifact_scope$ "Відродження держави""
  feature_book_title_martial:0 "Книга $artifact_name_prefix_artifact_scope$ «Про військову справу»"
@@ -392,7 +392,7 @@
  feature_book_title_cannibal:0 "Книга $artifact_name_prefix_artifact_scope$ "Кулінарія""
  feature_book_title_deviant_one:0 "Як правильно робити [Artifact.GetOwner.Custom('DeviantObjectCapitalized')]"
  feature_book_title_deviant_two:0 "Книга $artifact_name_prefix_artifact_scope$ "Альтернативний шлях насолоди""
- feature_book_title_deviant_three:0 "П'ятдесят способів зробити [Artifact.GetOwner.Custom('DeviantObjectCapitalized')]"
+ feature_book_title_deviant_three:0 "П‘ятдесят способів зробити [Artifact.GetOwner.Custom('DeviantObjectCapitalized')]"
  feature_book_title_voynich:0 "Книга $artifact_name_prefix_artifact_scope$ "Ілюстроване склепіння""
  feature_book_title_lunatic_one:0 "[Artifact.GetOwner.Custom('LoverPetName_uppercase')] [Artifact.GetOwner.Custom('FavoriteTreatUppercase')]"
  feature_book_title_lunatic_two:0 "[Artifact.GetOwner.Custom('prison_pet')|U] [Select_CString(avenger.IsFemale, 'Моя', 'Мій' )] [Artifact.GetOwner.Custom('PetName_uppercase')]"
@@ -416,14 +416,14 @@
 
 # witch
  feature_book_title_witch_love_sorcery:0 "Чари, яким навчає нас [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_love_sorcery:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в якій описані можливості та відомості на таку тему, як [Artifact.GetFeatureText( 'book_subject' ]]. Тут [Artifact. ('ArtifactAdverbWealth')] описані чари чарів."
+ feature_book_topic_witch_love_sorcery:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а книга, в якій описані можливості та відомості на таку тему, як [Artifact.GetFeatureText( 'book_subject' ]]. Тут [Artifact. ('ArtifactAdverbWealth')] описані чари чарів."
  feature_book_title_witch_curse_sorcery:0 "Прокляття, що посилає [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_curse_sorcery:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга, в якій описані можливості та відомості на таку тему, як [Artifact.GetFeatureText( 'book_subject' ). ('ArtifactAdverbWealth')] описані прокльони та зілля, здатні послабити ваших ворогів."
+ feature_book_topic_witch_curse_sorcery:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а книга, в якій описані можливості та відомості на таку тему, як [Artifact.GetFeatureText( 'book_subject' ). ('ArtifactAdverbWealth')] описані прокльони та зілля, здатні послабити ваших ворогів."
  feature_book_title_witch_witch:0 "[Artifact.GetOwner.GetFaith.WitchGodName|U]"
 
 # martial
  feature_book_title_martial_military:0 "Мистецтво війни $artifact_name_prefix_artifact_scope$"
- feature_book_topic_martial_military:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая книга з докладним описом стратегії та військової справи. При її складанні [author.GetFirstNameNoTooltip] [Select_CString(author.IsFа )] на свій багатий бойовий досвід."
+ feature_book_topic_martial_military:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а книга з докладним описом стратегії та військової справи. При її складанні [author.GetFirstNameNoTooltip] [Select_CString(author.IsFа )] на свій багатий бойовий досвід."
  feature_book_title_martial_duels:0 "Підручник військового мистецтва, автор [actor.GetFirstNameNoTooltip]"
  feature_book_topic_martial_duels:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ий підручник з порадами щодо використання всіх відомих видів зброї на полі бою, турнірах та поєдинках."
  feature_book_title_martial_chivalry:0 "Книга про [Artifact.GetOwner.GetCulture.GetCollectiveNounNoTooltip|l]ом лицарстві"
@@ -431,7 +431,7 @@
 
 # diplomacy
  feature_book_title_diplomacy_dynasty:1 "Хроніки династії [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
- feature_book_topic_diplomacy_dynasty:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ая хроніка з детальною історією династії [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip].
+ feature_book_topic_diplomacy_dynasty:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]а хроніка з детальною історією династії [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip].
  feature_book_topic_diplomacy_dynasty_big:1 "Монументальна хроніка з детальною історією, яку пережила [Artifact.GetOwner.Custom('DynastyPrestigeLevel')|l] династія [Artifact.GetOwner.GetDynasty.GetBaseName та розфарбована."
  feature_book_title_diplomacy_cicero:0 "Цицерона $artifact_name_prefix_artifact_scope$"
  feature_book_topic_diplomacy_cicero:0 "[SCOPE.Custom('ArtifactAdverbWealth')|U] оформлені збори висловів Цицерона, стародавнього майстра латинської словесності."
@@ -456,7 +456,7 @@
  feature_book_title_stewardship_architect:0 "[Artifact.GetOwner.GetCulture.GetCollectiveNounNoTooltip]а архітектура"
  feature_book_topic_stewardship_architect:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]е опис #L [Artifact.GetOwner.GetCulture.GetCollectiveNoun|l]ой#! архітектури, як і, .Custom('ArtifactWealth')] оформленими маргіналіями та цінними ілюстраціями."
  feature_book_title_stewardship_digest:0 "Дігести $artifact_name_prefix_artifact_scope$"
- feature_book_topic_stewardship_digest:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая копія повних зборів римських законів, складеного за наказом імператора Юстиніана."
+ feature_book_topic_stewardship_digest:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а копія повних зборів римських законів, складеного за наказом імператора Юстиніана."
 
 # intrigue
  feature_book_title_intrigue_poisons:0 "Перелік отрут, автор [actor.GetFirstNameNoTooltip]"
@@ -464,9 +464,9 @@
  feature_book_title_intrigue_seduction:0 "Мистецтво кохання ([actor.GetFirstNameNoTooltip])"
  feature_book_topic_intrigue_seduction:0 "Безсоромна книжка з [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ними порадами, завдяки яким всі пані та чоловіки впадуть до ваших ніг!"
  feature_book_title_intrigue_fertility:0 "Джерело життя"
- feature_book_topic_intrigue_fertility:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ая книга, повна [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] їх порад про те, як збільшити свою плодовитість і вдов.
+ feature_book_topic_intrigue_fertility:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]а книга, повна [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] їх порад про те, як збільшити свою плодовитість і вдов.
  feature_book_title_intrigue_punishment:0 "Злочин і кара"
- feature_book_topic_intrigue_punishment:0 "Страхливі збори всіх відомих методів тортур, описаних у витончених подробицях і з явним знанням справи автором на ім'я [author.GetFirstNameNoTooltip]."
+ feature_book_topic_intrigue_punishment:0 "Страхливі збори всіх відомих методів тортур, описаних у витончених подробицях і з явним знанням справи автором на ім‘я [author.GetFirstNameNoTooltip]."
  feature_book_topic_intrigue_punishment_not_torturer:0 "Страхливе, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] ілюстроване зібрання всіх відомих методів тортур з витонченими подробицями."
 
 # learning
@@ -474,14 +474,14 @@
  feature_book_topic_learning_religious:0 "Це [Artifact.GetOwner.GetFaith.ReligiousText] — [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] прикрашена копія, написана витонченою рукою."
  feature_book_topic_learning_religious_big:0 "Монументальна копія священного тексту [Artifact.GetOwner.GetFaith.ReligiousText], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] ілюстрована і з чудовою каллі"
  feature_book_title_learning_aristotle:0 "Органон $artifact_name_prefix_artifact_scope$"
- feature_book_topic_learning_aristotle:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ая копія арістотелівського "Органону" [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')]ого якості."
+ feature_book_topic_learning_aristotle:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]а копія арістотелівського "Органону" [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')]ого якості."
  feature_book_title_learning_iliad:0 "Іліада $artifact_name_prefix_artifact_scope$"
- feature_book_topic_learning_iliad:1 "[Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U]ая копія грецької «Іліади», що демонструє глибоке розуміння джерела та подій Троянської війни."
+ feature_book_topic_learning_iliad:1 "[Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U]а копія грецької «Іліади», що демонструє глибоке розуміння джерела та подій Троянської війни."
  feature_book_title_learning_mahabharata:0 "Махабхарата $artifact_name_prefix_artifact_scope$"
- feature_book_topic_learning_mahabharata:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] прикрашена копія стародавніх епосу «М'абхар Пандавами і Кауравами - у боротьбі за трон Хастінапури.
+ feature_book_topic_learning_mahabharata:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] прикрашена копія стародавніх епосу «М'абхар Пандавами і Кауравами - у боротьбі за трон Хастінапури.
  feature_book_title_learning_mufaddaliyat:0 "Аль-Муфадаліят $artifact_name_prefix_artifact_scope$"
- feature_book_topic_learning_mufaddaliyat:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]ая критика поетичної антології Аль-Муфаддаліят з коментарями, яку [Select_CString(author.IsFemale, 'составив" author.GetTitledFirstNameNoTooltip]."
- feature_book_title_learning_prayers:1 "#L [Artifact.GetOwner.GetFaith.GetName]ие#! молитви"
+ feature_book_topic_learning_mufaddaliyat:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U]а критика поетичної антології Аль-Муфаддаліят з коментарями, яку [Select_CString(author.IsFemale, 'составив" author.GetTitledFirstNameNoTooltip]."
+ feature_book_title_learning_prayers:1 "#L [Artifact.GetOwner.GetFaith.GetName]і#! молитви"
  feature_book_topic_learning_prayers:1 "Велика, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] ілюстрована книга з #L [Artifact.GetOwner.GetFaith.GetName|l]ними#! молитвами."
  feature_book_title_learning_hours:0 "Годинник $artifact_name_prefix_artifact_scope$"
  feature_book_topic_learning_hours:0 "Велика і багато прикрашена копія годинника, якій швидше місце в колекції поціновувача книг, ніж на церковних службах."
@@ -506,7 +506,7 @@
  feature_book_title_alchemy_mercury:0 "Книга $artifact_name_prefix_artifact_scope$ "Про ртуті""
  feature_book_topic_alchemy_mercury:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий фоліант з [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]ими вказівками з приготування кіноварі—, червоного фарби ртуті."
  feature_book_title_alchemy_arsenic:0 "Книга $artifact_name_prefix_artifact_scope$ "Король отрут""
- feature_book_topic_alchemy_arsenic:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий фоліант з [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]ими вказівками, як приготувати сірий миш'як|"
+ feature_book_topic_alchemy_arsenic:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий фоліант з [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]ими вказівками, як приготувати сірий миш‘як|"
  feature_book_title_alchemy_gold:0 "Книга $artifact_name_prefix_artifact_scope$ "Хризопея""
  feature_book_topic_alchemy_gold:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий фоліант з [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')]ними вказівками, як перетворити на золото свинець результат може відрізнятися від описаного."
  feature_book_title_alchemy_silver:0 "Книга $artifact_name_prefix_artifact_scope$ "Аргіропея""
@@ -516,7 +516,7 @@
  feature_book_title_soulmate:0 "Побожність: $artifact_name_prefix_artifact_scope$"
  feature_book_topic_soulmate:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий і барвисто ілюстрований манускрипт, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] описує любов,Getr ] та [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName]."
  feature_book_title_nemesis:0 "[Artifact.GetOwner.GetTitledFirstName] та вічна ненависть"
- feature_book_topic_nemesis:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий манускрипт, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] передає ненависть, що відчуває [Artifact.Name| [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] описується як [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultAdjectiveArticle')][Select_CString(nemesis.IsFemale, 'ая', 'ий' )] [Artifact.GetOwner.MakeScope.Var('book_topic Char.Custom('InsultNoun')] і не тільки. Текст має скрупульозні ілюстрації, на яких [nemesis.GetTitledFirstName] зображується в якомога непривабливішому світлі."
+ feature_book_topic_nemesis:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий манускрипт, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] передає ненависть, що відчуває [Artifact.Name| [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] описується як [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultAdjectiveArticle')][Select_CString(nemesis.IsFemale, 'a', 'ий' )] [Artifact.GetOwner.MakeScope.Var('book_topic Char.Custom('InsultNoun')] і не тільки. Текст має скрупульозні ілюстрації, на яких [nemesis.GetTitledFirstName] зображується в якомога непривабливішому світлі."
  
 # mystical animal
  feature_book_title_mystical_animal:0 "[Artifact.GetOwner.Custom('LocalAnimal')|U] з білою шкірою"
@@ -532,9 +532,9 @@
  feature_book_title_animals:0 "Знайомство з природою"
  feature_book_title_animals_no_name:0 "Вихованці-компаньйони $artifact_name_prefix_artifact_scope$"
 
- feature_book_topic_animals_your_cat:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя кішки на ім'я [Artifact.GetOC Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
+ feature_book_topic_animals_your_cat:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя кішки на ім‘я [Artifact.GetOC Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
  feature_book_topic_animals_your_cat_no_name:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя кішки, яку [Select_CString , 'любив' )] [Artifact.GetOwner.GetTitledFirstName] Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
- feature_book_topic_animals_your_dog:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя собаки на ім'я [Artifact.Get' Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
+ feature_book_topic_animals_your_dog:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя собаки на ім‘я [Artifact.Get' Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
  feature_book_topic_animals_your_dog_no_name:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )] і описує життя собаки, яку [Select_C , 'любив' )] [Artifact.GetOwner.GetTitledFirstName] Книга [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] багато прикрашена та ілюстрована."
  feature_book_topic_animals_animals:0 "Книга містить [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]і пояснення про природу [Artifact.GetFeatureText( 'book_subject' )]. Книга [Artifact.GetOwner.Custom('у) ."
 
@@ -613,8 +613,8 @@
  feature_book_topic_lunatic_lunatic:0 "що дійсно означають голоси в голові"
  feature_book_topic_lunatic_voynich:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U]ий тарясно прикрашений манускрипт, повний текстів, діаграм та ілюстрацій. Шкода, що все це написано скорописом, що не піддається розшифровці.
 
- feature_book_unification:0 "об'єднання держав"
- feature_book_topic_unification:0 "об'єднання держави [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
+ feature_book_unification:0 "об‘єднання держав"
+ feature_book_topic_unification:0 "об‘єднання держави [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
  feature_book_creation:0 "створення держав"
  feature_book_topic_creation:0 "створення держави [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
  feature_book_restoration:0 "відродження держав"
@@ -665,7 +665,7 @@
  artifact_pedestal_reliquary_judaism_description:1 "Витончений релікварій, в якому зберігається священна реліквія: [SCOPE.Custom('JudaismRelic')]."
  artifact_pedestal_reliquary_christian_nail:1 "священні цвяхи з хреста Ісуса"
  artifact_pedestal_reliquary_christian_nail_name:0 "Цвях Хреста Господнього"
- artifact_pedestal_reliquary_christian_cross:1 "дерев'яні фрагменти Істинного Хреста, на якому розіп'яли Ісуса"
+ artifact_pedestal_reliquary_christian_cross:1 "дерев‘яні фрагменти Істинного Хреста, на якому розіп‘яли Ісуса"
  artifact_pedestal_reliquary_christian_cross_name:0 "Фрагмент Істинного Хреста"
  artifact_pedestal_reliquary_christian_thorn:1 "священний терн із Тернового вінця Ісуса"
  artifact_pedestal_reliquary_christian_thorn_name:0 "Священний терн"
@@ -676,10 +676,10 @@
  artifact_pedestal_reliquary_christian_arm:2 "рука Святого Георгія"
  artifact_pedestal_reliquary_christian_loincloth:1 "перизома Ісуса"
  artifact_pedestal_reliquary_6050_saint_name:1 "Священний палець персонажа [6050_holy.GetTitledFirstNameNoTooltip]"
- artifact_pedestal_reliquary_6050_saint_desc:1 "Витончений релікварій, в якому зберігається священна реліквія: палець місцевого святого на ім'я [6050_holy.GetTitledFirstNameNoTooltip]."
+ artifact_pedestal_reliquary_6050_saint_desc:1 "Витончений релікварій, в якому зберігається священна реліквія: палець місцевого святого на ім‘я [6050_holy.GetTitledFirstNameNoTooltip]."
  artifact_pedestal_reliquary_islam_hair:2 "волосся з бороди Пророка Мухаммеда"
  artifact_pedestal_reliquary_islam_cloak:1 "священний плащ пророка"
- artifact_pedestal_reliquary_islam_hand:2 "рука Ях'ї"
+ artifact_pedestal_reliquary_islam_hand:2 "рука Ях‘ї"
  artifact_pedestal_reliquary_islam_keys:2 "ключи до Кааби"
  artifact_pedestal_reliquary_islam_tooth:2 "зуб Пророка Мухаммеда"
  artifact_pedestal_reliquary_islam_seal:1 "Друк Мухаммеда"

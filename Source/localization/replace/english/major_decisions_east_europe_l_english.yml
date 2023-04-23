@@ -1,21 +1,21 @@
 ﻿l_english:
  
- east_europe.0001.t:1 "Об'єднання західних слов'ян"
+ east_europe.0001.t:1 "Об‘єднання західних слов‘ян"
  east_europe.0001.desc:0 "Стародавні племена зібралися знову. Мені вдалося домогтися єднання, якого раніше досягло лише багато століть тому. Його імперія померла разом з ним, але я знаю: [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] буде жити і процвітати довгі роки. Все тільки починається!
  east_europe.0001.a:0 "Нехай славиться [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
 
- east_europe.0002.desc:0 "Як саме об'єднав племена вендів багато століть тому, так і [western_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)] збирає західнослов'янські народи під єдиним прапором. Чи зуміє цей союз пройти? пил, як імперія Само?Тільки [ROOT.Char.GetFaith.FateGodName] знає."
+ east_europe.0002.desc:0 "Як саме об‘єднав племена вендів багато століть тому, так і [western_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)] збирає західнослов‘янські народи під єдиним прапором. Чи зуміє цей союз пройти? пил, як імперія Само?Тільки [ROOT.Char.GetFaith.FateGodName] знає."
 
- east_europe.0005.t:0 "Об'єднання південних слов'ян"
- east_europe.0005.desc:0 "Мені вдалося об'єднати племена під одним прапором. Разом ми сильніші, ніж будь-коли. Нас не завоювати! Нас не знищити!"
+ east_europe.0005.t:0 "Об‘єднання південних слов‘ян"
+ east_europe.0005.desc:0 "Мені вдалося об‘єднати племена під одним прапором. Разом ми сильніші, ніж будь-коли. Нас не завоювати! Нас не знищити!"
 
- east_europe.0006.desc:0 "[southern_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] збирає південнослов'янські народи під єдиним прапором. Чи зуміє цей союз пройти перевірку часом або впаде під напором старої в? .Char.GetFaith.FateGodName] знає."
+ east_europe.0006.desc:0 "[southern_slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] збирає південнослов‘янські народи під єдиним прапором. Чи зуміє цей союз пройти перевірку часом або впаде під напором старої в? .Char.GetFaith.FateGodName] знає."
 
  east_europe.0010.t:0 "Народження Славії"
  east_europe.0010.desc:0 "Мені вдалося зробити неможливе: зібрати всіх слав під єдиний прапор. Сьогодні моя нова імперія простяглася від серця Європи на заході до холодних лісів сходу!\n\nТільки кільком героям в історії вдавалося зробити подібне. І мо навіки вписано в історію поруч із ними."
  east_europe.0010.a:0 "Хай живе Славія!"
 
- east_europe.0011.desc:0 "[slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] робить неможливе: збирає південнослов'янські народи під єдиним прапором. Чи буде величезна імперія процвітати або звалиться під натиском старої вражень ROOT.Char.GetFaith.FateGodName] знає."
+ east_europe.0011.desc:0 "[slav_uniter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] робить неможливе: збирає південнослов‘янські народи під єдиним прапором. Чи буде величезна імперія процвітати або звалиться під натиском старої вражень ROOT.Char.GetFaith.FateGodName] знає."
 
  east_europe.0015.t:0 "[defender_of_highgod.GetFaith.HighGodName], благослови захисників"
  east_europe.0015.desc:0 "Побудований Чертог героїв..."
@@ -25,10 +25,10 @@
  east_europe.0015.d:0 "... [target_list_member_d.GetNameNoTierNoTooltip]."
  east_europe.0015.tooltip:0 "Володіння отримує [Concept( 'special_building', 'особлива будівля' )|E] [GetBuilding('hall_of_heroes_01').GetName]"
 
- east_europe.0016.desc:1 "Під моїм командуванням клани об'єдналися, і скоро [holy_site.GetNameNoTierNoTooltip] прикраситься великим військовим чертогом. За його товстими кам'яними стінами ми готуватимемося до війни...\n\nБагато віків іноземні стервят Так нехай приходять!Могутні герої нададуть їм гідний прийом! Нехай кров ворогів окропить землю і забарвить річки багрянцем!"
+ east_europe.0016.desc:1 "Під моїм командуванням клани об‘єдналися, і скоро [holy_site.GetNameNoTierNoTooltip] прикраситься великим військовим чертогом. За його товстими кам‘яними стінами ми готуватимемося до війни...\n\nБагато віків іноземні стервят Так нехай приходять!Могутні герої нададуть їм гідний прийом! Нехай кров ворогів окропить землю і забарвить річки багрянцем!"
  east_europe.0016.a:1 "Славися, [defender_of_highgod.GetFaith.WarGodName]!"
 
- east_europe.0017.desc:1 "[defender_of_highgod.Custom2('MyCharacterIntroduction', ROOT.Char)|U] об'єднує клани своєї держави, щоб дати відсіч іноземним загарбникам. [holy_site.GetNameNotierNoTooltip l]їх героїв, котрим побудований великий військовий чертог."
+ east_europe.0017.desc:1 "[defender_of_highgod.Custom2('MyCharacterIntroduction', ROOT.Char)|U] об‘єднує клани своєї держави, щоб дати відсіч іноземним загарбникам. [holy_site.GetNameNotierNoTooltip l]їх героїв, котрим побудований великий військовий чертог."
 
 
 #HUNGARIAN DECISIONS
@@ -53,7 +53,7 @@
  east_europe.0034.desc.outsiders:0 "Добившись практично безмежної влади в державі [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip],"
  east_europe.0034.desc.intro:0 "[scoped_ruler.GetTitledFirstName] [Select_CString(scoped_ruler.IsFemale, 'показала', 'показав' )] своє язичницьке обличчя!\n\nУ своїй відкритій непокорі [scoped_Culer. scoped_ruler.IsFemale, 'відкинула', 'відкинув')] [old_faith.HighGodNamePossessive] Високопоставлені [old_faith.PriestNeuterPlural|l]-[old_faith.GetAdherentNamePluralNoTooltip|l] з Навіть зараз багато [scoped_ruler.GetCulture.GetNameNoTooltip|l] з сіл і сіл стікаються до н[scoped_ruler.GetHerHim].\n\n"
  east_europe.0034.desc.conversion_vanilla:0 "Незважаючи на тривалу політичну бездіяльність, $magyar_pagan$ все ще користується популярністю в селах, а тому [scoped_ruler.GetTitledFirstNameNoTooltip] без особливих проблем [Select_CString(scoped_ruler.'sвернувся" )] до старих звичаїв."
- east_europe.0034.desc.conversion_syncretic:0 "Незважаючи на це, нова [scoped_ruler.GetFaith.GetNameNoTooltip|l]ая конфесія, схоже, зберегла деякі з особливостей, якими відрізняється [old_faith.GetAdjectiveNoTooltip|l], є нових традицій."
+ east_europe.0034.desc.conversion_syncretic:0 "Незважаючи на це, нова [scoped_ruler.GetFaith.GetNameNoTooltip|l]а конфесія, схоже, зберегла деякі з особливостей, якими відрізняється [old_faith.GetAdjectiveNoTooltip|l], є нових традицій."
  east_europe.0034.desc.conversion_bloodthirsty:0 "Але, що ще гірше, [scoped_ruler.GetTitledFirstNameNoTooltip] стверджує, що розлючені боги вибачать [scoped_ruler.GetCulture.GetCollectiveNounNoTooltip|l]ий їм людські жертви!"
  east_europe.0034.desc_conversion_adaptive:0 "З урахуванням безлічі змін, через які пройшли [scoped_ruler.GetCulture.GetCollectiveNounNoTooltip|l]ий народ і його культура за останні кілька століть, подібне відродження старих традицій здається напрочуд відкритим і прагматичним".
  east_europe.0034.a:0 "Нарешті! Хай славиться [ROOT.Char.GetFaith.HighGodName]!"
@@ -63,12 +63,12 @@
 
 #BOSNIAN DECISIONS
  east_europe.0101.t:0 "[Select_CString(founder.IsFemale, 'Перша', 'Перший' )] [founder.GetTitleAsNameNoTooltip|l] всієї Боснії!"
- east_europe.0101.desc:0 "Багато століть войовничі балканські держави відвойовували одна в одну Боснію. То владу брали брати-слов'яни з півночі і півдня, то з'являлися знатні карпатські воєначальники, імператори Болгарії та Константинополя, навіть королі-торговці. залишали боснійське нагір'я у спокої. Але досить. Після моєї коронації Боснія сама стане королівством, яке чекають сила і слава!"
+ east_europe.0101.desc:0 "Багато століть войовничі балканські держави відвойовували одна в одну Боснію. То владу брали брати-слов‘яни з півночі і півдня, то з‘являлися знатні карпатські воєначальники, імператори Болгарії та Константинополя, навіть королі-торговці. залишали боснійське нагір‘я у спокої. Але досить. Після моєї коронації Боснія сама стане королівством, яке чекають сила і слава!"
  east_europe.0101.a:0 "Моя спадщина житиме у віках!"
  east_europe.0101.b:0 "[founder.GetFaith.HighGodName] благословляє нас!"
  east_europe.0101.c:0 "Чесно, поки я - [founder.GetTitleAsNameNoTooltip|l] #EMP хоч чогось#!..."
  east_europe.0102.t:0 "$east_europe.0101.t$"
- east_europe.0102.desc:0 "Гонець приносить вісті з долини Динарського нагір'я: судячи з усього, [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] більше не вільна територія, там [Select_CString(founder.IsFemale, 'з'явилася" founder.GetTitleAsNameNoTooltip|l] — [founder.GetShortUIName].\n\nЩо ж, гірські долини зручно захищати, боснійське високогір'я поросло густим лісом, а місцеві жителі вважають, що [founder.GetTitledFirstNamePossessiveNoTooltip] ', 'гідний' )] довіри, - мабуть, [founder.GetHerHis] королівство в повній безпеці.\n\nПоки."
+ east_europe.0102.desc:0 "Гонець приносить вісті з долини Динарського нагір‘я: судячи з усього, [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] більше не вільна територія, там [Select_CString(founder.IsFemale, 'з‘явилася" founder.GetTitleAsNameNoTooltip|l] — [founder.GetShortUIName].\n\nЩо ж, гірські долини зручно захищати, боснійське високогір‘я поросло густим лісом, а місцеві жителі вважають, що [founder.GetTitledFirstNamePossessiveNoTooltip] ', 'гідний' )] довіри, - мабуть, [founder.GetHerHis] королівство в повній безпеці.\n\nПоки."
  east_europe.0102.a:0 "Такі вискочки варті лише зневаги."
  east_europe.0102.b:0 "Славися, [founder.GetShortUINameNoTooltip]!"
  east_europe.0102.c:0 "Побачимо, як довго це триватиме..."
@@ -115,7 +115,7 @@
  east_europe.0114.e.tt:0 "[hof.GetTitledFirstName] неодмінно оголосить, що $bosnian_church$ - єретики!"
  east_europe.0115.t:0 "$east_europe.0116.t$"
  east_europe.0115.desc.intro:0 "Ліпні [heretic.GetHerHis] прокляті очі, [Select_CString(heretic.IsFemale, 'ця', 'цей' )] [heretic.GetTitledFirstName] [Select_CString(heretic.'sбрати) , 'звернувся' )]!\n\n"
- east_europe.0115.desc.political:0 "Нехай [hof.GetTitledFirstName] не вимагає інших доказів, але для мене очевидно, що [heretic.GetFirstNameNoTooltip] трюк: [hof.GetFaith.GetNameNoTooltip]ая конфесія отримала [heretic.GetHerHis] #EMP особисту#! клятву вірності, але васали та домочадці не обіцяли нічого."
+ east_europe.0115.desc.political:0 "Нехай [hof.GetTitledFirstName] не вимагає інших доказів, але для мене очевидно, що [heretic.GetFirstNameNoTooltip] трюк: [hof.GetFaith.GetNameNoTooltip]а конфесія отримала [heretic.GetHerHis] #EMP особисту#! клятву вірності, але васали та домочадці не обіцяли нічого."
  east_europe.0115.desc.wholehearted:0 "Схоже, [heretic.GetSheHe] [Select_CString(heretic.IsFemale, 'діяла', 'діяв' )] за покликом серця - [heretic.GetHerHis] близькі родичі і кілька представників знати на #L [hof.GetFaith.GetName|l]ий#! зов. Чомусь це злить мене ще сильніше."
  east_europe.0115.desc.outro:0 "\n\nБудемо вважати, що проблема поки що вирішена. Єретики вони чи ні, але [hof.GetTitledFirstNameNoTooltip] вважає, що $bosnian_church$ у повній [hof.GetHerHis] владі."
  east_europe.0115.a:0 "Я здаюся!"
@@ -150,7 +150,7 @@
  east_europe.0119.desc.intro:0 "Неважко було передбачити, що як тільки [hof.GetTitledFirstName] [Select_CString(hof.IsFemale, 'початку', 'початок' )] розслідування, [hof.GetSheHe] [Select_CString IsFemale, 'отримала', 'отримав' )] #EMP масу#!доказів того, що [heretic.GetFaith.GetAdherentNamePluralNoTooltip|l] поширюють брехню.\n\n"
  east_europe.0119.desc.theological_debate:0 "[heretic.GetTitledFirstName], звичайно ж, щосили [Select_CString(heretic.IsFemale, 'намагалася', 'намагався' )] відкрутитися, але [hof.GetFaith. [Select_CString(hof.IsFemale, 'відміла', 'відміл' )] все [heretic.GetHerHis] нікчемні потуги на теологічний суперечка."
  east_europe.0119.desc.political_manoeuvrings:0 "[heretic.GetTitledFirstName] щосили [Select_CString(heretic.IsFemale, 'намагалася', 'намагався' )] представити мій лист як цинічну погоню за вигодою, алеFo ] не [Select_CString(hof.IsFemale, 'оцінила', 'оцінив' )] цю незграбну гру на політичній ниві і [Select_CString(hof.IsFemale, 'засудила', 'засудив' )] її як спроби відвернути увагу від проблеми."
- east_europe.0119.desc.unrepentant_heretics:0 "[heretic.GetTitledFirstName] [Select_CString(heretic.IsFemale, 'проявила', 'проявив' )] неймовірну нахабство! [SCOPE.sCharacter('heretic] (heretic.IsFemale, 'сипала', 'сипав' )] насмішками, об'єктом яких [Select_CString(hof.IsFemale, 'була сама', 'був сам' )] [hof.GetFaith.ReligiousHeadTitleName] [hof.GetFaith. , і, не соромлячись, відкрито власну мерзенну секту!"
+ east_europe.0119.desc.unrepentant_heretics:0 "[heretic.GetTitledFirstName] [Select_CString(heretic.IsFemale, 'проявила', 'проявив' )] неймовірну нахабство! [SCOPE.sCharacter('heretic] (heretic.IsFemale, 'сипала', 'сипав' )] насмішками, об‘єктом яких [Select_CString(hof.IsFemale, 'була сама', 'був сам' )] [hof.GetFaith.ReligiousHeadTitleName] [hof.GetFaith. , і, не соромлячись, відкрито власну мерзенну секту!"
  east_europe.0119.desc.outro:0 "\n\nВсем доброчесним християнам з навколишніх земель надіслано офіційні листи, в яких засуджується [heretic.GetFirstNameNoTooltip] і [heretic.GetHerHis] богохульна кліка."
  east_europe.0119.a:0 "Відплата!"
  east_europe.0120.t:0 "[hof.Custom2('AppropriateGreeting',heretic)]"
@@ -183,7 +183,7 @@
  east_europe.0123.desc.fallback:0 "$east_europe.0124.desc.fallback$"
  east_europe.0123.desc.outro:0 "$east_europe.0124.desc.outro$"
  east_europe.0123.a:0 "Все мало закінчитися інакше!"
- east_europe.0124.t:0 "$east_europe.0111.t.setup$: Справа зам'ята"
+ east_europe.0124.t:0 "$east_europe.0111.t.setup$: Справа зам‘ята"
  east_europe.0124.desc.intro:0 "Схоже, $bosnian_church_adherent_plural$ дуже щасливі.\n\n"
  east_europe.0124.desc.hof_died:0 "З тих пір як [Select_CString(hof.IsFemale, 'померла', 'помер' )] [hof.GetTitledFirstName], [heretic.GetPrimaryTitle.GetNameNoTierNoTooltip] ієрархи стурбовані виключно питаннями наступника."
  east_europe.0124.desc.heretic_died:0 "[heretic.GetTitledFirstName] [Select_CString(heretic.IsFemale, 'померла', 'помер' )], і [hof.GetTitledFirstName] вважає, що цього достатньо: незабаром $bos відкинуть особливо сумнівні єретичні догмати, бо передбачуваного єресіарха, звичайно ж, чекає [hof.GetFaith.NegativeAfterLife|U]."
@@ -215,14 +215,14 @@
 
 #LIVONIAN DECISIONS
  east_europe.0200.t:0 "[founder.GetTitleAsNameNoTooltip] Лівонії"
- east_europe.0200.desc.christian:1 "Повіками Балтика була нерозвиненою і неосвоєною, домом для єретиків і дияволопоклонників. Тепер же, коли Лівонія править [ROOT.Char.GetFaith.GetReligion.GetName|l][Select_CString(founder ая', 'ий' )] [founder.GetTitleAsNameNoTooltip|l], [founder.GetFaith.HighGodName] своїм світлом осяє ці вологі і холодні землі.\n\n[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTool на Балтиці, і я можу проголосити створення Лівонії.Цей титул об'єднає балтів і дасть їм спільну мету поширювати слово [founder.GetFaith.random_GoodGodNamePossessive]."
+ east_europe.0200.desc.christian:1 "Повіками Балтика була нерозвиненою і неосвоєною, домом для єретиків і дияволопоклонників. Тепер же, коли Лівонія править [ROOT.Char.GetFaith.GetReligion.GetName|l][Select_CString(founder.IsFemale, 'a', 'ий' )] [founder.GetTitleAsNameNoTooltip|l], [founder.GetFaith.HighGodName] своїм світлом осяє ці вологі і холодні землі.\n\n[ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTool на Балтиці, і я можу проголосити створення Лівонії.Цей титул об‘єднає балтів і дасть їм спільну мету поширювати слово [founder.GetFaith.random_GoodGodNamePossessive]."
  east_europe.0200.desc.nonchristian:1 "Повіками у балтів не було власного королівства. Вікінги розоряли наші прибережні селища, а іноземні місіонери називали наші землі примітивними і дикими. Але тепер з цим покінчено. Розрізнені народи Балтики з \nТепер я [founder.GetTitleAsNameNoTooltip|l], і в моїх силах почати золотий вік не тільки для [founder.GetCulture.GetCollectiveNoun]ого народу, але й для всіх жителів балтійських берегів."
  east_europe.0200.desc.outro:0 "\n\nСудьба Балтики в моих руках, и с основанием этого королевства я положу начало золотому веку веры и славы под властью [founder.GetFaith.HighGodNamePossessive]."
  east_europe.0200.a:0 "Моя спадщина переживе мене!"
  east_europe.0200.b:0 "За [founder.GetFaith.HighGodNamePossessive] і славу!"
  
  east_europe.0201.t:0 "$east_europe.0101.t$"
- east_europe.0201.desc:0 "До нас дійшли вести з холодних лівонських берегів: [founder.GetShortUIName] тепер [founder.GetTitleAsNameNoTooltip|l] держави [founder.GetPrimaryTitle.GetNameNoTier].\n\nОб'єднати -то знайшов свою ідентичність і зможе спільними зусиллями захищати рідні землі. Схоже, що з цим об'єднанням Лівонія опинилася в надійних руках ... поки."
+ east_europe.0201.desc:0 "До нас дійшли вести з холодних лівонських берегів: [founder.GetShortUIName] тепер [founder.GetTitleAsNameNoTooltip|l] держави [founder.GetPrimaryTitle.GetNameNoTier].\n\nОб‘єднати -то знайшов свою ідентичність і зможе спільними зусиллями захищати рідні землі. Схоже, що з цим об‘єднанням Лівонія опинилася в надійних руках ... поки."
  east_europe.0201.a:0 "Вони все одно варвари."
  east_europe.0201.b:0 "Слави, [founder.GetShortUINameNoTooltip]!"
  east_europe.0201.c:0 "Єдині або розрізнені, балти все одно приречені."

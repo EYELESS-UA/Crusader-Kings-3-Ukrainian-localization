@@ -13,7 +13,7 @@
  liege_looking_away_modifier:0 "Сюзерен дивиться убік"
  liege_looking_away_modifier_desc:0 "Сюзерен цього персонажа охоче прощає все, крім зовсім вже серйозних злочинів."
  yearly_benevolent_forgiveness_modifier:0 "Благодійність"
- yearly_benevolent_forgiveness_modifier_desc:1 "Цей персонаж добре обійшовся зі своїм васалом і тепер хоче, щоб всі про це пам'ятали.\n[laws|E] держави: на #N 10%#! дешевше"
+ yearly_benevolent_forgiveness_modifier_desc:1 "Цей персонаж добре обійшовся зі своїм васалом і тепер хоче, щоб всі про це пам‘ятали.\n[laws|E] держави: на #N 10%#! дешевше"
  yearly_close_watch_modifier:0 "Пристальне стеження"
  yearly_close_watch_modifier_desc:1 "Цей персонаж знаходиться під пильним наглядом\nНе може приєднуватися до [Concept( 'factions', 'фракцій' )|E] або створювати їх"
  yearly_improved_impressions_modifier:0 "Покращене враження"

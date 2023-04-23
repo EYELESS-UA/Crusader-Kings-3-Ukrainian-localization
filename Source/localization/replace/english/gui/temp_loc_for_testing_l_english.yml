@@ -1,5 +1,5 @@
 ﻿l_english:
  TEMP_GUI_INTERACTION:0 "$EFFECT_LIST_BULLET$ Заарештовує #high герцога Гірта#! \n$EFFECT_LIST_BULLET$ #N Це #E тиранічний#! вчинок, і він призведе до того, що ваші піддані втратять #Z 40#! #E думки#! вас #!
-  TEMP_GUI_INTERACTION_2:1 "$EFFECT_LIST_BULLET$ Всі близькі родичі #high герцога Гірта#! втратять #Z 15#! #E думки#! про мене.\n$EFFECT_LIST_BULLET$ Втрачає #Z 30#! #E думки#! про мене #low (У в'язниці)#!"
+  TEMP_GUI_INTERACTION_2:1 "$EFFECT_LIST_BULLET$ Всі близькі родичі #high герцога Гірта#! втратять #Z 15#! #E думки#! про мене.\n$EFFECT_LIST_BULLET$ Втрачає #Z 30#! #E думки#! про мене #low (У в‘язниці)#!"
   TEMP_GUI_INTERACTION_TITLE:0 "Ефекти на #high герцога Гірта Годвінсона#! зі Східної Англії"
   TEMP_GUI_HOOK:0 "Використовувати #E вплив#!"

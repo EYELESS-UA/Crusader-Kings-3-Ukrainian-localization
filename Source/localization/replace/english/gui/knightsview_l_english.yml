@@ -10,6 +10,6 @@
  KNIGHT_EFFECTIVENESS_TOOLTIP:2 "#T [Concept( 'knight_effectiveness', 'Ефективність лицарів' )|E]: [GetPlayer.GetKnightEffectiveness|V%0]#!\nБазова: #V 100%#!\n
  KNIGHTS_VIEW_TITLE_FORBID_TT:2 "#T Заборонити персонажу [Character.GetShortUIName] обіймати посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis ніколи#! не приєднається до вашої [armies|El , що [Character.GetSheHe] не загине, коли почнеться [battle|El]."
  KNIGHTS_VIEW_TITLE_BY_PROWESS_TT:2 "#T Дозволити персонажу [Character.GetShortUIName] обіймати посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] може приєднатися до моєї [armies|El] як $kner ] [prowess|El] вище, ніж у більшості інших персонажів у моїх землях"
- KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T Примусити персонажа [Character.GetShortUIName] обійняти посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis обов'язково#! приєднається до моєї [armies|El]$k , яка у н[Character.GetHerHis] [prowess|El].[Character.GetSheHe|U] може зайняти місце людини з вищою доблестю."
+ KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T Примусити персонажа [Character.GetShortUIName] обійняти посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis обов‘язково#! приєднається до моєї [armies|El]$k , яка у н[Character.GetHerHis] [prowess|El].[Character.GetSheHe|U] може зайняти місце людини з вищою доблестю."
  KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
  KNIGHTS_SUBHEADER:0 "Відповідні [Concept( 'courtiers', 'придворні' )|E] та [Concept( 'vassals', 'васали' )|E]"

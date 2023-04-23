@@ -14,7 +14,7 @@
  title_event.0013.a:0 "Одна корона — добре, а дві — краще!"
 
  title_event.0014.t:0 "$title_event.0012.t$"
- title_event.0014.desc:0 "Держава [castille.GetBaseName], на чолі якої стоїть [castille_char.Custom2('MyCharacterIntroduction' leon_char)], виникла і здобула незалежність нещодавно і позбавила мою державу права носити ім'я "[asturiasGet. ]».\n\nМи безповоротно втратили східні території, і [leon.GetBaseNameNoTier] домінує над нами, тому люди всіх станів і поглядів відмовляються визнавати колишній титул."
+ title_event.0014.desc:0 "Держава [castille.GetBaseName], на чолі якої стоїть [castille_char.Custom2('MyCharacterIntroduction' leon_char)], виникла і здобула незалежність нещодавно і позбавила мою державу права носити ім‘я "[asturiasGet. ]».\n\nМи безповоротно втратили східні території, і [leon.GetBaseNameNoTier] домінує над нами, тому люди всіх станів і поглядів відмовляються визнавати колишній титул."
  title_event.0014.a:0 "Сепаратисти!"
  title_event.0014.b:0 "Одного разу ми повернемо ці землі..."
  title_event.0014.c:0 "Ур-ра! Ціле #EMP королівство#! товаришів!"

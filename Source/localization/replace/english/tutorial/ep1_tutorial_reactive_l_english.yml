@@ -24,10 +24,10 @@
  action_reactive_advice_royal_court_click:0 "$click_to_open_lesson$"
 
  ra_rc_intro:0 "Монарший двір"
- ra_rc_intro_desc:2 "У вас з'явився власний [royal_court|El]!\n\nЦе особливий тип двору, який представляє вас на світовій сцені і відкриває доступ до безлічі нових дій і вигод.\n\nДвори є у [Concept( 'kings'" , 'королів' )|E] і [Concept( 'emperors', 'імператорів' )|E] з [Concept( 'government', 'формами правління' )|E] «[GetGovernment( 'feudal_government' ).GetName] », «[GetGovernment( 'clan_government' ).GetName]» та «[GetGovernment( 'tribal_government' ).GetName]»."
+ ra_rc_intro_desc:2 "У вас з‘явився власний [royal_court|El]!\n\nЦе особливий тип двору, який представляє вас на світовій сцені і відкриває доступ до безлічі нових дій і вигод.\n\nДвори є у [Concept( 'kings'" , 'королів' )|E] і [Concept( 'emperors', 'імператорів' )|E] з [Concept( 'government', 'формами правління' )|E] «[GetGovernment( 'feudal_government' ).GetName] », «[GetGovernment( 'clan_government' ).GetName]» та «[GetGovernment( 'tribal_government' ).GetName]»."
 
  ra_rc_open:0 "$ra_rc_intro$"
- ra_rc_open_desc:0 "[royal_court|E] відкриває безліч нових можливостей, обов'язково спробуйте їх усі!\n\nА поки давайте коротко познайомимося з усіма новими діями."
+ ra_rc_open_desc:0 "[royal_court|E] відкриває безліч нових можливостей, обов‘язково спробуйте їх усі!\n\nА поки давайте коротко познайомимося з усіма новими діями."
  ra_rc_open_prompt:0 "Відкрийте монарший двір (виділено)"
 
  ra_rc_throne_room_open:0 "$ra_rc_intro$"
@@ -65,7 +65,7 @@
 
  #Fund Inspiration
  lessons_ep1_fund_inspiration:0 "Підтримати натхнення"
- ra_inspiration_open_desc:0 "Ви можете підтримати своє перше [inspiration|El]. Натхнення — це прагнення персонажа створити [artifact|El]. Іноді ненадовго відвідують найпрестижніші [royal_courts|El] світу Коли такий персонаж з'явиться у вас при дворі, ви отримаєте оповіщення і можливість [Concept( 'sponsor', 'підтримати' )|E] [project|El] цього персонажа.\n \nЗа [Concept( 'gold', 'суму' )|E], що відрізняється від нагоди, ви можете найняти такого персонажа на службу і через якийсь час отримати артефакт!"
+ ra_inspiration_open_desc:0 "Ви можете підтримати своє перше [inspiration|El]. Натхнення — це прагнення персонажа створити [artifact|El]. Іноді ненадовго відвідують найпрестижніші [royal_courts|El] світу Коли такий персонаж з‘явиться у вас при дворі, ви отримаєте оповіщення і можливість [Concept( 'sponsor', 'підтримати' )|E] [project|El] цього персонажа.\n \nЗа [Concept( 'gold', 'суму' )|E], що відрізняється від нагоди, ви можете найняти такого персонажа на службу і через якийсь час отримати артефакт!"
  ra_inspiration_open:0 "Натхнення"
  ra_inspiration_court_view:0 "Підтримка натхнення"
  ra_inspiration_court_view_desc:0 "Відкривши [royal_court|El], ви побачите всі доступні вам [inspirations|El] у лівій частині екрана.\n\nВи можете дізнатися їх статус, натиснувши на значку (виділено)."

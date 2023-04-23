@@ -64,7 +64,7 @@
  feudal_elective_succession_law_effects:1 "[ruler|E] і всі [de_jure|El] прямі [vassals|El] на один або два [Concept( 'rank', 'рангу' )|El] нижче [Concept( 'title', 'титулу) ' )|El] можуть вибрати [Concept( 'title_heir', 'спадкоємця титулу' )|E], яким може стати хтось із них або [close_family_members|El] правителя."
  princely_elective_succession_law_effects:1 "Імператор і сім курфюрстів пропонують кандидатуру [Concept( 'title_heir', 'спадкоємця титулу' )|E], яким може стати хтось із них, будь-який [legitimate|El] або сиблінг [rulerpossessive| також будь-який [de_jure|El] [vassal|El] Імперії Якщо історичним [Concept( 'title', 'титулом')|El] виборщика володіють невірні або такий не існує, кандидатурою стає [de_jure|El] наступний васал. [succession_law|El] серйозно впливають [faith|El] і [Concept( 'piety', 'благочестя' )|El]. Виборні титули цієї держави - графства Кельн, Майнц і Трір і герцогства Богемія, Східна Франконія, Остфалія та Східна марка."
  gaelic_elective_succession_law:0 "Вибори: таністрі"
- gaelic_elective_succession_law_effects:2 "[ruler|E] і все [Concept( 'vassals', 'вассали' )|E] [Concept( 'rank', 'рангом' )|E] вище [Concept( 'baron', 'барона') )|E] і на один-два ранги нижче [Concept( 'title', 'титулу' )|E] можуть пропонувати [Concept( 'title_heir', 'спадкоємця титулу' )|E] — Таніста — з числа членів [Concept ( 'dynasty', 'династії' )|E] правителя. Васали зазвичай воліють старих далеких родичів, а чи не [Concept( 'close_family', 'членів сім'ї' )|E]."
+ gaelic_elective_succession_law_effects:2 "[ruler|E] і все [Concept( 'vassals', 'вассали' )|E] [Concept( 'rank', 'рангом' )|E] вище [Concept( 'baron', 'барона') )|E] і на один-два ранги нижче [Concept( 'title', 'титулу' )|E] можуть пропонувати [Concept( 'title_heir', 'спадкоємця титулу' )|E] — Таніста — з числа членів [Concept ( 'dynasty', 'династії' )|E] правителя. Васали зазвичай воліють старих далеких родичів, а чи не [Concept( 'close_family', 'членів сім‘ї' )|E]."
  saxon_elective_succession_law:1 "Саксонські вибори"
  saxon_elective_succession_law_subname:0 "Вітенагемот"
  saxon_elective_succession_law_effects:1 "[ruler|E] і всі [de_jure|El] прямі васали на один або два [Concept( 'rank', 'рангу' )|El] нижче [Concept( 'title', 'титулу' )|El ], що досягли повноліття, можуть запропонувати [Concept( 'title_heir', 'спадкоємця титулу' )|E], яким може стати найбільш [powerful_vassal|El] з їх числа, [legitimate|El] правителя та будь-який інший законний [claimant|El ]."
@@ -98,7 +98,7 @@
  scandinavian_elective_electors_tooltip:0 "Право називатися [Concept( 'elector', 'виборщиками' )|E] на тингу мають васали, що відповідають наступним критеріям:\n$EFFECT_LIST_BULLET$ Прямий васал титулу\n$EFFECT_LIST
 
  succession_laws_must_have_organised_government_tooltip:0 "У мене не [Concept( 'feudal', 'феодальний' )|E] і не [Concept( 'clan', 'клановий' )|E] [Concept( 'government', 'буд' )|E ]"
- succession_laws_must_not_be_forced_partition:0 "Мій [feudal_contract|El] не зобов'язує мене вибирати [succession|El] за допомогою поділу"
+ succession_laws_must_not_be_forced_partition:0 "Мій [feudal_contract|El] не зобов‘язує мене вибирати [succession|El] за допомогою поділу"
  succession_laws_must_have_valid_tanistry_culture:1 "У вас #bold немає#! $goidelic_group_collective_noun$ого або $brythonic_group_collective_noun$ого [Concept( 'heritage', 'спадщини' )|E]."
  number_of_election_votes:0 "Кількість голосів на виборах"
  

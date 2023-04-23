@@ -7,8 +7,8 @@
  ANY_POOL_CHARACTER:0 "Будь-який доступний персонаж:"
 
  ANY_OF_CHARACTERS_VASSALS:1 "Будь-який з [Concept( 'vassals', 'вассалів' )|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHATER.') ', '' )]:"
- ALL_OF_CHARACTERS_VASSALS:1 "Всі [vassals|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' )
- ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ з [Concept( 'vassals', 'васалів' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy] 'його персонажа', '' )]:"
- ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ з [Concept( 'vassals', 'васалів' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy] 'його персонажа', '' )]:"
+ ALL_OF_CHARACTERS_VASSALS:1 "Всі [vassals|El] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' )
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ з [Concept( 'vassals', 'васалів' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy] 'ого персонажа', '' )]:"
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ з [Concept( 'vassals', 'васалів' )|E] персонажа [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' ]][CHARACTER.GetNamePossessiveOrMy] 'ого персонажа', '' )]:"
  
  ANY_DYNASTY_MEMBER_COUNT:0 "$PARAMETERS$ з членів [Concept( 'dynasty', 'династії' )|E] [DYNASTY.GetBaseName]:"

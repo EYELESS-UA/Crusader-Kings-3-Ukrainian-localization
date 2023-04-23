@@ -31,7 +31,7 @@
  party_baron_move_towards_positive_tt:0 "#V Поліпшити ставлення#! до персонажа [party_baron.GetShortUIName]"
  party_baron_move_towards_negative_tt:0 "#V Погіршити ставлення#! до персонажа [party_baron.GetShortUIName]"
  party_baron.1001.t:0 "$party_baron_header$"
- party_baron.1001.desc:0 «Ім'я якогось дрібного дворянина не сходить з губ оточуючих. що [party_baron.GetSheHe] влаштовує #EMP найкращі#!піри.
+ party_baron.1001.desc:0 «Ім‘я якогось дрібного дворянина не сходить з губ оточуючих. що [party_baron.GetSheHe] влаштовує #EMP найкращі#!піри.
  party_baron.1001.a:0 "Здається мені, я можу чомусь повчитися у н[party_baron.GetHerHis]!"
  party_baron.1001.b:0 "Але ж це #EMP я#! заслуговую всіляких похвал!"
  party_baron.1001.c:0 "Можливо, варто познайомитися з [Select_CString(party_baron.IsFemale, 'ней', 'ним')] ближче."
@@ -65,18 +65,18 @@
  party_baron.2003.c:0 "Як, цікаво, [SCOPE.sC('party_baron').GetHerHim] «стало відомо» щось подібне?.."
 
  party_baron.2004.t:0 "$party_baron_header$"
- party_baron.2004.desc:0 "Неможливо зрозуміти, [Select_CString(party_baron.IsFemale, 'п'яна', 'п'яний' )] [party_baron.GetTitledFirstName] або просто впивається святом. Як би там не було, коли [party_baron.Get мене в обійми, мене теж охоплює це почуття. \n\n«Знаєте, - каже [party_baron.GetSheHe], - по-моєму, краще за друзів, ніж ви, у мене ще не було».\n\nЗалишок вечора я спостерігаю , як [party_baron.GetTitledFirstName] веселиться.Мабуть, зараз я розумію [party_baron.GetHerHis] краще, ніж ті, хто піднімає за н[party_baron.GetHerHis] келихи."
+ party_baron.2004.desc:0 "Неможливо зрозуміти, [Select_CString(party_baron.IsFemale, 'п‘яна', 'п‘яний' )] [party_baron.GetTitledFirstName] або просто впивається святом. Як би там не було, коли [party_baron.Get мене в обійми, мене теж охоплює це почуття. \n\n«Знаєте, - каже [party_baron.GetSheHe], - по-моєму, краще за друзів, ніж ви, у мене ще не було».\n\nЗалишок вечора я спостерігаю , як [party_baron.GetTitledFirstName] веселиться.Мабуть, зараз я розумію [party_baron.GetHerHis] краще, ніж ті, хто піднімає за н[party_baron.GetHerHis] келихи."
  party_baron.2004.a:0 "І ти туди ж, [party_baron.GetFirstNameNoTooltip]..."
 
  party_baron.2005.t:0 "$party_baron_header$"
- party_baron.2005.desc:0 "Коли [party_baron.GetTitledFirstName] з'являється у мене при дворі, мене охоплює радісне здивування. І воно міцніє, коли [party_baron.GetSheHe] пропонує поговорити - наодинці.\n\n«Мені не хотілося говорити на бенкеті або святі, — [party_baron.GetSheHe] надзвичайно [Select_CString(party_baron.IsFemale, 'серйозна', 'серйозний')], від звичайної легковажної усмішки не залишилося і сліду.— Словами не висловити, як багато ви для мене означає. Друзі у мене багато, але подібних вам немає. Сподіваюся, це почуття збережеться до кінця наших днів».
+ party_baron.2005.desc:0 "Коли [party_baron.GetTitledFirstName] з‘являється у мене при дворі, мене охоплює радісне здивування. І воно міцніє, коли [party_baron.GetSheHe] пропонує поговорити - наодинці.\n\n«Мені не хотілося говорити на бенкеті або святі, — [party_baron.GetSheHe] надзвичайно [Select_CString(party_baron.IsFemale, 'серйозна', 'серйозний')], від звичайної легковажної усмішки не залишилося і сліду.— Словами не висловити, як багато ви для мене означає. Друзі у мене багато, але подібних вам немає. Сподіваюся, це почуття збережеться до кінця наших днів».
  party_baron.2005.a:0 "Я теж сподіваюся, [party_baron.GetFirstNameNoTooltip]. Дуже сподіваюся»."
 
  party_baron.2006.desc:0 "На бенкеті "з дуже особливого приводу" [party_baron.GetTitledFirstNamePossessive] від душі [Select_CString(party_baron.IsFemale, 'підносила', 'звеличував' )] мене. Що це була за ніч!\n Я не пригадаю, коли ще мене охоплювало таке щастя. Схоже, смак до життя повертається!
  party_baron.2006.a:0 "Бережись, мир!"
  party_baron.2006.b:0 "Нічого особливого не сталося."
 
- party_baron.2007.desc:0 "Хоча війна в розпалі, [party_baron.GetTitledFirstName] постійно знаходить час для своїх витівок. Коли я проводжу огляд військ, [party_baron.GetSheHe] з'являється на чолі власного невеликого війська!\n\n« , вам знадобиться кожна пара рук.. Загалом, я дещо з ким, і виявилося, що чимало народу готове викликатися добровольцями!» Добровольці?.. Варто? Чи питати, звідки взялися ці солдати?"
+ party_baron.2007.desc:0 "Хоча війна в розпалі, [party_baron.GetTitledFirstName] постійно знаходить час для своїх витівок. Коли я проводжу огляд військ, [party_baron.GetSheHe] з‘являється на чолі власного невеликого війська!\n\n« , вам знадобиться кожна пара рук.. Загалом, я дещо з ким, і виявилося, що чимало народу готове викликатися добровольцями!» Добровольці?.. Варто? Чи питати, звідки взялися ці солдати?"
  party_baron.2007.a:0 "Цього мені й не вистачало!"
  party_baron.2007.b:0 "Якщо тобі й справді хотілося #EMP допомогти#!, потрібно було наймати #EMP професіоналів!#!"
  party_baron.2007.b_flavor:0 "О. Навіть так?.."
@@ -87,7 +87,7 @@
  party_baron.3001.b:0 "Напевно, різкувато вийшло..."
 
  party_baron.3002.t:0 "$party_baron_header$"
- party_baron.3002.desc:0 "Мало того що [party_baron.GetTitledFirstName] користується загальним коханням, так #EMP мені#! теж потрібно [party_baron.GetHerHis] любити?\n\nКілька моїх васалів надіслали мені листа з вимогою припинити говорити даремне відкидання на ім'я [party_baron.GetTitleAsName|l]!"
+ party_baron.3002.desc:0 "Мало того що [party_baron.GetTitledFirstName] користується загальним коханням, так #EMP мені#! теж потрібно [party_baron.GetHerHis] любити?\n\nКілька моїх васалів надіслали мені листа з вимогою припинити говорити даремне відкидання на ім‘я [party_baron.GetTitleAsName|l]!"
  party_baron.3002.a:0 "Я покажу цим нахабам такі «гидоти»..."
  party_baron.3002.b:0 "Можна поводитися ввічливіше. На людях."
 
@@ -106,7 +106,7 @@
  party_baron.4002.desc:0 "Я розумію, що не подобаюсь вам. Це ваше право. Але я не можу зрозуміти, чому ви продовжуєте поводитися грубо і вороже, незважаючи на мою ввічливість і чемність.\n\nУ нас було багато можливостей вирішити наші розбіжності, але це прохання - останнє. Прошу. Давайте просто... дружити."
  party_baron.4002.a:0 "Та як [party_baron.GetSheHe] сміє? Як [party_baron.GetSheHe] сміє?!"
 
- party_baron.9001.t:0 "Кінець перемир'я"
+ party_baron.9001.t:0 "Кінець перемир‘я"
  party_baron.9001.desc:0 "[party_baron.GetTitledFirstName] — яскраве свідчення того, що, як би ми не любили життя, скільки б любові не несли світові, одного разу все закінчується."
  party_baron.9001.a:0 "Світ без н[SCOPE.sC('party_baron').GetHerHis] вже не буде колишнім."
  party_baron.9001.a.tt:0 "[party_baron.GetShortUIName] зараз теж на бенкеті, і [party_baron.GetFaith.PositiveAfterLife] балує разом з [Select_CString(party_baron.IsFemale, 'ній', 'ним' ]).

@@ -20,7 +20,7 @@
  accomplished_forger_perk:0 "[GetPerk( 'accomplished_forger_perk' ).GetName( GetPlayer )]"
 
  task_collect_taxes_modifier:0 "Збір податків"
- task_collect_taxes_perk_bonus_modifier:0 "Складальник податків" # should probably use the dynamic name (tax_man_perk_male_name/tax_man_perk_female_name) але наші modifier name можуть бути handle, що поточно з'являється
+ task_collect_taxes_perk_bonus_modifier:0 "Складальник податків" # should probably use the dynamic name (tax_man_perk_male_name/tax_man_perk_female_name) але наші modifier name можуть бути handle, що поточно з‘являється
  task_organize_levies_modifier:1 "Організація армії"
  marshal_task_levy_desertions_modifier:0 "Ополченці-дезертири"
  marshal_task_levy_desertions_modifier_desc:1 "Високі вимоги та суворі покарання призвели до того, що безліч ополченців дезертувало з армій цього персонажа."
@@ -32,7 +32,7 @@
  marshal_task_organized_service_modifier_desc:0 "Життя селян цього графства визначає система, яка довела до краю ефективність як військової служби, так і польових робіт."
 
  marshal_task_military_presence_modifier:0 "Військова присутність"
- marshal_task_military_presence_modifier_desc:0 "Гарантує, що [county_corruption|El] не з'явиться.\n\nУ цьому графстві є добре організовані солдати, які за необхідності допомагають місцевим правителям."
+ marshal_task_military_presence_modifier_desc:0 "Гарантує, що [county_corruption|El] не з‘явиться.\n\nУ цьому графстві є добре організовані солдати, які за необхідності допомагають місцевим правителям."
 
  marshal_task_increase_control_decreased_opinion_modifier:0 "Роздратуючий контроль"
  marshal_task_increase_control_decreased_opinion_modifier_desc:0 "Це графство страждає від надмірно жорсткої уваги свого маршала."
@@ -47,11 +47,11 @@
  steward_task_efficient_taxation_modifier:0 "Ефективне оподаткування"
  steward_task_efficient_taxation_modifier_desc:0 "Систематизація збору податків суттєво підвищила його ефективність."
  steward_settler_resistance_modifier:0 "Опір центральній владі"
- steward_settler_resistance_modifier_desc:0 "У цьому графстві впевнені, що не потребують ні підтримки, ні додаткових зобов'язань, що накладаються керуючими."
+ steward_settler_resistance_modifier_desc:0 "У цьому графстві впевнені, що не потребують ні підтримки, ні додаткових зобов‘язань, що накладаються керуючими."
  steward_welcome_administration_modifier:0 "Злагода з адміністрацією"
  steward_welcome_administration_modifier_desc:0 "Це графство отримало своєчасну допомогу та підтримку з боку керуючого."
  steward_realm_identity_modifier:0 "Добровольці в ополченні"
- steward_realm_identity_modifier_desc:0 "Селяни цього графства розглядають службу в ополченні як невід'ємну частину своїх обов'язків."
+ steward_realm_identity_modifier_desc:0 "Селяни цього графства розглядають службу в ополченні як невід‘ємну частину своїх обов‘язків."
  steward_population_mismanaged_modifier:0 "Погане управління населенням"
  steward_population_mismanaged_modifier_desc:0 "Жителі цього графства дуже незадоволені тим, як з ними поводиться керуючий."
  steward_administration_embraced_modifier:0 "Вдале керування"

@@ -58,7 +58,7 @@
  MY_PRIMARY_TITLE_IS_NOT:1 "Ваш [primary_title|El] #bold не#! [TARGET_TITLE.GetNameNoTier]"
  HAS_PRIMARY_TITLE:0 "Має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
  DOES_NOT_HAVE_PRIMARY_TITLE:0 "Не має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
- THEIR_PRIMARY_TITLE_IS:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'його персонажа', '' ET ]"
+ THEIR_PRIMARY_TITLE_IS:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'ого персонажа', '' ET ]"
  THEIR_PRIMARY_TITLE_IS_NOT:0 "[primary_title|E] [Select_CString(CHARACTER.IsPlayer, '', 'персонажу ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsPlayer, 'd' персонажа'', '# ! [TARGET_TITLE.GetNameNoTier]"
 
  TITLE_IS_IN_REGION:0 "[PROVINCE.GetName] знаходиться в регіоні $REGION$"
@@ -83,7 +83,7 @@
  HAS_TITLE_LAW_FLAG_TRIGGER:0 "Є закон титулу: $LAW$"
  IS_TITULAR_TRIGGER:0 "[titular_title|E]"
  FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "Ви — #L [CHARACTER.GetFaith.GetName|l][Select_CString(CHARACTER.IsFemale, 'а правителька', 'ий правитель' )]#!, і у вас є ще одна можлива мета для реформування — $ e_hre$"
- FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER:0 "$e_spain$ не може бути об'єднана, доки не дозволена [iberian_struggle|E]"
+ FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER:0 "$e_spain$ не може бути об‘єднана, доки не дозволена [iberian_struggle|E]"
  TITLE_HELD_YEARS:0 "Титул $TITLE$ утримувався протягом $VALUE|V0$ років"
  TITLE_NOT_HELD_YEARS:0 "Титул $TITLE$ #bold НЕ#! утримувався протягом $VALUE|V0$ років"
  LANDED_TITLE_THIS_EQUAL:0 "#L $TITLE$а#! культура"

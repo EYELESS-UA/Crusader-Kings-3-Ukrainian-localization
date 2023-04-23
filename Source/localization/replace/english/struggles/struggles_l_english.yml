@@ -71,7 +71,7 @@
  STRUGGLE_INVOLVEMENT_CULTURE_INVOLVED:1 "Ваша [Concept( 'culture', 'культура' )|E] [Concept( 'struggle_involved', 'бере участь' )|E] в [Concept( 'struggle', 'боротьбі' )|E]"
  STRUGGLE_INVOLVEMENT_CULTURE_UNINVOLVED:1 "Ваша [Concept( 'culture', 'культура' )|E] [Concept( 'struggle_involved', 'не бере участі' )|E] в [Concept( 'struggle', 'боротьбі' )|E]
  STRUGGLE_INVOLVEMENT_WINDOW_PARTICIPANT_DESC:1 "Йде [Struggle.GetNameNoTooltip]. Персонажі можуть [Concept( 'struggle_involved', 'брати участь' )|E] у боротьбі або [Concept( 'struggle_interloper', 'в'' даної області держави вважаються [Concept( 'struggle_uninvolved', 'незацікавленими сторонами' )|E]."
- STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:0 "Йде [Struggle.GetNameNoTooltip] і ці [Concept( 'faiths', 'конфесії' )|E] залучені до боротьби.\nВони можуть брати участь у [Concept( 'struggle'', '| самого початку або з'явитися під час її розвитку."
+ STRUGGLE_INVOLVEMENT_WINDOW_FAITH_DESC:0 "Йде [Struggle.GetNameNoTooltip] і ці [Concept( 'faiths', 'конфесії' )|E] залучені до боротьби.\nВони можуть брати участь у [Concept( 'struggle'', '| самого початку або з‘явитися під час її розвитку."
  STRUGGLE_INVOLVEMENT_WINDOW_FAITH_COUNT:0 "#weak [Concept( 'counties', 'Графства' )|E] цієї [Concept( 'faith', 'конфесії' )|E], залучені в боротьбу [Struggle.GetNameNoTooltip Faith.Self)]#!"
  STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_DESC:0 "Йде [Struggle.GetNameNoTooltip] і ці [Concept( 'cultures', 'культури' )|E] залучені до боротьби.\nВони можуть брати участь у [Concept( 'struggle', ''') самого початку або виникнути під час її розвитку."
  STRUGGLE_INVOLVEMENT_WINDOW_CULTURE_COUNT:0 "#weak [Concept( 'counties', 'Графства' )|E], залучені до боротьби [Struggle.GetNameNoTooltip]: [Struggle.GetNumCountiesWithCulture(Culture)"
@@ -101,8 +101,8 @@
  struggle_parameter_county_faith_conversion_in_region_proceeds_faster:1 "[Concept( 'convert_county', 'Звернення графств' )|E] в [Concept( 'struggle_region', 'області боротьби' )|E] відбувається швидше"
  struggle_parameter_cheaper_to_convert_to_struggle_faith:1 "Звернення в [Concept( 'struggle_involved', 'залучену в боротьбу' )|E] [Concept( 'faith', 'конфесію' )|E] стає дешевшим"
  struggle_parameter_cheaper_to_convert_to_struggle_culture:1 "Звернення в [Concept( 'struggle_involved', 'залучену в боротьбу' )|E] [Concept( 'culture', 'культуру' )|E] стає дешевшим"
- struggle_parameter_truces_by_involved_or_interlopers_within_region_shorter:1 "Тривалість [Concept( 'truces', 'перемир'я' )|E] після [Concept( 'wars', 'війн' )|E] в [Concept( 'struggle_region'')' для [Concept( 'struggle_involved', 'беруть участь у боротьбі' )|E] і [Concept( 'struggle_interloper', 'втрутилися в конфлікт' )|E] [Concept( 'characters', 'персонажів' )|E] скорочується"
- struggle_parameter_truces_by_involved_or_interlopers_within_region_longer:1 "Тривалість [Concept( 'truces', 'перемир'я' )|E] після [Concept( 'wars', 'війн' )|E] в [Concept( 'struggle_region'', '| для [Concept( 'struggle_involved', 'беруть участь у боротьбі' )|E] і [Concept( 'struggle_interloper', 'втрутилися в конфлікт' )|E] [Concept( 'characters', 'персонажів' )|E] збільшується"
+ struggle_parameter_truces_by_involved_or_interlopers_within_region_shorter:1 "Тривалість [Concept( 'truces', 'перемир‘я' )|E] після [Concept( 'wars', 'війн' )|E] в [Concept( 'struggle_region'')' для [Concept( 'struggle_involved', 'беруть участь у боротьбі' )|E] і [Concept( 'struggle_interloper', 'втрутилися в конфлікт' )|E] [Concept( 'characters', 'персонажів' )|E] скорочується"
+ struggle_parameter_truces_by_involved_or_interlopers_within_region_longer:1 "Тривалість [Concept( 'truces', 'перемир‘я' )|E] після [Concept( 'wars', 'війн' )|E] в [Concept( 'struggle_region'', '| для [Concept( 'struggle_involved', 'беруть участь у боротьбі' )|E] і [Concept( 'struggle_interloper', 'втрутилися в конфлікт' )|E] [Concept( 'characters', 'персонажів' )|E] збільшується"
  struggle_parameter_claims_in_region_more_expensive_to_press_for_uninvolved:1 "Для [Concept( 'characters', 'персонажів' )|E], [Concept( 'struggle_uninvolved', 'не беруть участь у боротьбі' )|E''' )|E] на [Concept( 'titles', 'титули' )|E] на [Concept( 'struggle_region', 'області боротьби' )|E] зростає"
  struggle_parameter_involved_form_alliances_with_each_other_easier:0 "[Concept( 'struggle_involved', 'беруть участь у боротьбі' )|E] [Concept( 'characters', 'персонажам' )|E] легше укласти один з одним '' |E]"
  struggle_parameter_involved_or_interloper_wars_in_struggle_region_cheaper_piety_costs:1 "[Concept( 'struggle_involved', 'що беруть участь у боротьбі' )|E] і [Concept( 'struggle_interloper', 'в' '| ] платять менше [piety_i][Concept( 'prestige', 'благочестя' )|E] за те, щоб почати [Concept( 'wars', 'війну' )|E] в [Concept( 'struggle_region', 'області боротьби ' )|E]"
@@ -124,7 +124,7 @@
  struggle_parameter_unlocks_bargain_fealty_interaction:2 "Розблоковано [interaction|El] «[bargain_fealty|E]»"
  struggle_parameter_unlocks_contract_assistance_interaction:2 "Розблоковано [interaction|El] «[contract_assistance|E]»"
  struggle_parameter_unlocks_iberian_reclamation_casus_belli:2 "Розблокований [casus_belli|El] «[iberian_reclamations|E]»"
- struggle_parameter_unlocks_enforce_truces_interaction:2 "[Concept( 'struggle_involved', 'Залучені до боротьби' )|E] [Concept( 'rulers', 'правителі' )|E] [Concept( 'title_tier', 'рівнем' ) [Concept( 'duke', 'герцога' )|E] можуть нав'язувати одне одному перемир'я"
+ struggle_parameter_unlocks_enforce_truces_interaction:2 "[Concept( 'struggle_involved', 'Залучені до боротьби' )|E] [Concept( 'rulers', 'правителі' )|E] [Concept( 'title_tier', 'рівнем' ) [Concept( 'duke', 'герцога' )|E] можуть нав‘язувати одне одному перемир‘я"
 
 
  STRUGGLE_NEXT_PHASE_PROGRESS_LABEL:0 "Прогрес наступної фази"

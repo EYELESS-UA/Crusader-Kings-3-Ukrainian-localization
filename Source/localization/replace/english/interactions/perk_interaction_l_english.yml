@@ -4,7 +4,7 @@
 
  demand_payment_interaction:0 "Вимагати плати"
  demand_payment_interaction_desc:0 "Змусити персонажа [recipient.GetShortUINameNoTooltip] розплатитися золотом за ваше [Concept( 'hook', 'вплив' )|E]"
- demand_payment_interaction_message:0 "Зобов'язання виконані"
+ demand_payment_interaction_message:0 "Зобов‘язання виконані"
  RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] має недостатньо золота"
  demand_payment_too_little_gold_tt:1 "#N [recipient.GetShortUINameNoTooltip] не має достатньої кількості золота#!\nЯ отримаю менше, ніж очікувалося #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value'|CO) ScriptValue('demand_payment_gold_to_pay')|0])#!"
 

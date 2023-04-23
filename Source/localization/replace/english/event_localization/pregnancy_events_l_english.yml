@@ -73,12 +73,12 @@
  pregnancy.2050.desc:0 "Всі ознаки в наявності, і я більше не можу брехати собі. Я ношу дитину! Хотілося б, щоб це було приводом для радості, але немає сумніву, що батько дитини - [real_father.Custom2( 'MyCharacterIntroduction', ROOT.Char)], а не [spouse.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
 
  pregnancy.2101.t:0 "До терміну"
- pregnancy.2101.desc_other_children:0 "Мій живіт росте, а з ним і моє занепокоєння. Це не перша моя вагітність, але мені вперше так тривожно. Щось не так.\n\nСутички починаються вночі, і вранці я бачу, що мої простирадла все в крові."
- pregnancy.2101.desc_pain:0 "Мій живіт росте, а з ним і моє занепокоєння. Це перша моя вагітність, але тривога, що охопила мене, здається мені неправильною. Щось не так.\n\nСпазми починаються вночі, і вранці я бачу , що мої простирадла все в крові."
- pregnancy.2101.desc:0 "Моє занепокоєння зростає з кожним днем, а ось живіт - ні. На такому терміні він же повинен бути більше... І дитина повинна вже давати про себе знати, вірно? \n\nЩось пішло" не так, я не відчуваю іскри життя всередині себе."
+ pregnancy.2101.desc_other_children:0 "Мій живіт росте, а з ним і моє занепокоєння. Це не моя перша вагітність, але мені вперше так тривожно. Щось не так.\n\nПерейми починаються вночі, і вранці я бачу, що мої простирадла все в крові."
+ pregnancy.2101.desc_pain:0 "Мій живіт росте, а з ним і моє занепокоєння. Це перша моя вагітність, але тривога, що охопила мене, здається мені неправильною. Щось не так.\n\nСпазми починаються вночі, і вранці я бачу, що мої простирадла все в крові."
+ pregnancy.2101.desc:0 "Мій занепокоєння зростає з кожним днем, а ось живіт - ні. На такому терміні він же повинен бути більшим... І дитина повинна вже давати про себе знати, правда?\n\nЩось пішло не так, я не відчуваю іскри життя усередині себе."
  pregnancy.2101.a:0 "Я більше не вагітна."
 
- pregnancy.2102.desc:0 "Цій дитині не судилося народитися».\n\nХоча [mother.Custom2('MyCharacterIntroduction', ROOT.Char)] і запевняє мене, що це природний порядок речей, але [mother.GetHerHis ] рука тягнеться до живота.
+ pregnancy.2102.desc:0 "«Цій дитині не судилося народитися».\n\nХоча [mother.Custom2('MyCharacterIntroduction', ROOT.Char)] і запевняє мене, що це природний порядок речей, але [mother.GetHerHis] рука тягнеться до живота."
  pregnancy.2102.a:0 "Вона більше не вагітна."
 
  pregnancy.3001.t:0 "Необережність"
@@ -141,7 +141,7 @@
 
  pregnancy.6002.t:0 "Всупереч сумнівам"
  pregnancy.6002.desc:1 "Подумати тільки, [mother.GetTitledFirstName] відкрито оголосила, що я батько її ненародженої дитини!"
- pregnancy.6002.married:0 "\n\n«Як ти [Select_CString(spouse.IsFemale, 'міг', 'могла' )]?!» - [SCOPE.sC('spouse').GetFirstName] дивиться на мене, і на [Select_CString(spouse.IsFemale, 'її', 'його' )] особі проступає [spouse.Custom('GeneralTemperament')]."
+ pregnancy.6002.married:0 "\n\n«Як ти [Select_CString(spouse.IsFemale, 'міг', 'могла' )]?!» - [SCOPE.sC('spouse').GetFirstName] дивиться на мене, і на [Select_CString(spouse.IsFemale, ‘її', 'його' )] особі проступає [spouse.Custom('GeneralTemperament')]."
  pregnancy.6002.unmarried_sympathetic:1 "\n\nНаша дитина, народжена поза шлюбом, буде приречена на важке життя, але хоча б знатиме правду."
  pregnancy.6002.unmarried_unsympathetic:1 "\n\nМало того, що [mother.GetSheHe] несе цю ношу, [mother.GetSheHe] і мене хоче втягти?"
  pregnancy.6002.a:0 "Що скажуть люди?"
@@ -164,10 +164,10 @@
  pregnancy.6006.t:0 "Всупереч сумнівам"
  pregnancy.6006.desc:1 "[mother.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] повідомила, що [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)] є справжнім батьком її ненародженої дитини!"
  pregnancy.6006.real_father_married:1 "\n\nНевже [real_father.GetSheHe] не думав про важливість того, що [real_father.GetSheHe] і [spouse.Custom2('HerHisCharacterIntroduction', SCOPE.sC('real у шлюбі?"
- pregnancy.6006.real_father_unmarried:1 "Невже [real_father.GetSheHe] не думає про честь своєї сім'ї?"
+ pregnancy.6006.real_father_unmarried:1 "Невже [real_father.GetSheHe] не думає про честь своєї сім‘ї?"
  pregnancy.6006.a:0 "Чим цей бастард стане для нас?"
  
  # For polyamorous faith reveal
  pregnancy.6999.t:0 "Від іншого чоловіка"
- pregnancy.6999.desc:1 "Моя [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], повідомила, що [real_father.Custom2('MyCharacterIntroduction', ROOT .Char)] - батько її дитини Що ж, нехай дитина не від мене, все одно я - [mother.GetHerHis] [ROOT.Char.Custom('WifeHusband')], і мій обов'язок - дбати про неї в наступні місяці ."
- pregnancy.6999.a:1 "Я виконаю свій обов'язок."
+ pregnancy.6999.desc:1 "Моя [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], повідомила, що [real_father.Custom2('MyCharacterIntroduction', ROOT .Char)] - батько її дитини Що ж, нехай дитина не від мене, все одно я - [mother.GetHerHis] [ROOT.Char.Custom('WifeHusband')], і мій обов‘язок - дбати про неї в наступні місяці ."
+ pregnancy.6999.a:1 "Я виконаю свій обов‘язок."

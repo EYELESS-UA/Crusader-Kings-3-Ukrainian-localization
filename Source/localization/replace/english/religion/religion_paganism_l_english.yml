@@ -135,7 +135,7 @@
  germanic_bishop_male:0 "Холгоді"
  germanic_bishop_male_plural:0 "Холгоді"
  germanic_bishop_female:0 "Ховгоддя"
- germanic_bishop_female_plural:0 "Холгод'ї"
+ germanic_bishop_female_plural:0 "Холгод‘ї"
  germanic_bishop_neuter:0 "Холгоді"
  germanic_bishop_neuter_plural:0 "Холгоді"
 
@@ -245,11 +245,11 @@
  baltic_pagan_old_adherent_plural:0 "Старо-виділісти"
 
  #Slavic
- slavic_religion:1 "Слов'янськ"
- slavic_religion_adj:1 "Слов'янське язичництво"
- slavic_religion_adherent:1 "Слов'янин"
- slavic_religion_adherent_plural:1 "Слов'яни"
- slavic_religion_desc:1 "Слов'янське язичництво підкреслює значимість особистого обов'язку, моралі та послуху. Це загальний термін, під яким мається на увазі віра безлічі слов'янських народів Центральної та Східної Європи. Соціум є важливою частиною релігійної системи, а релігійні церемонії зазвичай являють собою народні збори красу."
+ slavic_religion:1 "Слов‘янськ"
+ slavic_religion_adj:1 "Слов‘янське язичництво"
+ slavic_religion_adherent:1 "Слов‘янин"
+ slavic_religion_adherent_plural:1 "Слов‘яни"
+ slavic_religion_desc:1 "Слов‘янське язичництво підкреслює значимість особистого обов‘язку, моралі та послуху. Це загальний термін, під яким мається на увазі віра безлічі слов‘янських народів Центральної та Східної Європи. Соціум є важливою частиною релігійної системи, а релігійні церемонії зазвичай являють собою народні збори красу."
  slavic_high_god_name:0 "Рід"
  slavic_high_god_name_2:0 "$slavic_high_god_name$" # Optional translation alt
  slavic_high_god_name_possessive:0 "Рода"
@@ -308,15 +308,15 @@
  slavic_water_god_name:0 "Купала"
  slavic_water_god_name_possessive:0 "Купали"
 
- slavic_pagan:1 "Слов'яномовність"
- slavic_pagan_adj:2 "Слов'янське язичництво"
- slavic_pagan_adherent:2 "Слов'янський язичник"
- slavic_pagan_adherent_plural:2 "Слов'янські язичники"
+ slavic_pagan:1 "Слов‘яномовність"
+ slavic_pagan_adj:2 "Слов‘янське язичництво"
+ slavic_pagan_adherent:2 "Слов‘янський язичник"
+ slavic_pagan_adherent_plural:2 "Слов‘янські язичники"
 
- slavic_pagan_old:1 "Старослов'янськ"
- slavic_pagan_old_adj:2 "Старослов'янське язичництво"
- slavic_pagan_old_adherent:2 "Старослов'янський язичник"
- slavic_pagan_old_adherent_plural:2 "Старослов'янські язичники"
+ slavic_pagan_old:1 "Старослов‘янськ"
+ slavic_pagan_old_adj:2 "Старослов‘янське язичництво"
+ slavic_pagan_old_adherent:2 "Старослов‘янський язичник"
+ slavic_pagan_old_adherent_plural:2 "Старослов‘янські язичники"
 
  #Finno-Ugric
  finno_ugric_religion:1 "Фінно-угорськ"
@@ -1050,7 +1050,7 @@
  bon_afterlife_positive:0 "Тагзіг Омо Лунгрінг"
  bon_afterlife_positive_2:0 "$bon_afterlife_positive$" # Optional translation alt
  bon_afterlife_positive_3:0 "$bon_afterlife_positive$" # Optional translation alt
- bon_afterlife_negative:0 "М'ялба"
+ bon_afterlife_negative:0 "М‘ялба"
  bon_afterlife_negative_2:0 "$bon_afterlife_negative$" # Optional translation alt
  bon_afterlife_negative_3:0 "$bon_afterlife_negative$" # Optional translation alt
  bon_death_deity_name:0 "$bon_devil_name$"
@@ -1094,12 +1094,12 @@
  bon_water_god_name:0 "Кунсанг Акор"
  bon_water_god_name_possessive:0 "Кунсанга Акора"
 
- bon:0 "Г'юр-бонськ"
+ bon:0 "Г‘юр-бонськ"
  #^lit. "transformed Bon" (bsgyur bon)
- bon_adj:0 "Г'юр бон"
- bon_adherent:0 "Г'юр бонпо"
- bon_adherent_plural:0 "Г'юр бонпо"
- bon_desc:0 "Г'юр бон (або змінений Бон) — духовна традиція, закладенаШеньчен-Луга, яка розвивалася паралельно з буддистськими традиціями Тибету з езотеричних обрядів, що передували епосі розколу.
+ bon_adj:0 "Г‘юр бон"
+ bon_adherent:0 "Г‘юр бонпо"
+ bon_adherent_plural:0 "Г‘юр бонпо"
+ bon_desc:0 "Г‘юр бон (або змінений Бон) — духовна традиція, закладенаШеньчен-Луга, яка розвивалася паралельно з буддистськими традиціями Тибету з езотеричних обрядів, що передували епосі розколу.
 
  old_bon:0 "Духовно-бонськ"
  #^lit. "erring Bon" ('khyar ba'i bon)
@@ -1266,7 +1266,7 @@
  siberian_religion_adj:0 "Сибірське язичництво"
  siberian_religion_adherent:0 "Сибіряк"
  siberian_religion_adherent_plural:0 "Сибіряки"
- siberian_religion_desc:0 "Сибіряки вірять, що світ — річка, по берегах якої живуть клани людей і звірів, пов'язаних узами дружби або помсти. ."
+ siberian_religion_desc:0 "Сибіряки вірять, що світ — річка, по берегах якої живуть клани людей і звірів, пов‘язаних узами дружби або помсти. ."
  
  siberian_high_god_name:1 "Нумі-Турум"
  siberian_high_god_name_2:0 "$siberian_high_god_name$" # Optional translation alt

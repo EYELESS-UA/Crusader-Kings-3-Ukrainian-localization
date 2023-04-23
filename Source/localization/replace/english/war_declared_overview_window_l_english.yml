@@ -11,7 +11,7 @@
  war_declared_flavor.zealous.reincarnation:0 "Хай буде твоє наступне життя не таким убогим."
  war_declared_flavor.zealous.fallback:2 "Я не можу програти, бо зі мною [ROOT.Char.GetFaith.HighGodName]!"
  war_declared_flavor.naughty:0 "[ROOT.War.GetActiveCB.GetDefender.Custom('GirlBoy')] погано поводиться? Пора тебе покарати. Готуйся, на полі бою я сповна віддам тобі за витівки!"
- war_declared_flavor.holy_war:1 "Занадто давно ти туманиш голови підданих фальшивими віруваннями. В ім'я [ROOT.War.GetActiveCB.GetAttacker.GetFaith.HighGodNamePossessive] я принесу їм істину і звільню від твоєї!"
+ war_declared_flavor.holy_war:1 "Занадто давно ти туманиш голови підданих фальшивими віруваннями. В ім‘я [ROOT.War.GetActiveCB.GetAttacker.GetFaith.HighGodNamePossessive] я принесу їм істину і звільню від твоєї!"
  war_declared_flavor.greedy:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Я давно жадаю отримати твої землі. Досить порожніх очікувань! "
  war_declared_flavor.dejure:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Досить мені терпіти загарбників! Пора повернути мої землі!"
  war_declared_flavor.subjugation:0 "Твої землі стануть частиною моєї держави. Підкорися, і я обіцяю тобі пощаду... Опираєшся - і я примушу тебе впасти переді мною ниць!"
@@ -20,7 +20,7 @@
  war_declared_flavor.conquest:0 "Ти слабкий правитель і не заслуговуєш на такі великі володіння. Я покажу тобі, що таке справжня влада, коли відберу твої землі!"
  war_declared_flavor.peasant:0 "Яка безмежна гординя. Втім, не турбуйся, урок смирення не за горами!"
  war_declared_flavor.populist:1 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Якщо ти так прагнеш війни, то отримуй! Ми нікому не дозволимо перешкодити"
- war_declared_flavor.independence:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Ми надто довго страждали під гнітом вашої влади і більше не можемо терпіти - сьогодні ми ставмо від кров'ю!
+ war_declared_flavor.independence:0 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Ми надто довго страждали під гнітом вашої влади і більше не можемо терпіти - сьогодні ми ставмо від кров‘ю!
  war_declared_flavor.liberty:1 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Ми більше не можемо терпіти жорстокі закони, що зневажають наші споконвіки. !"
  war_declared_flavor.claimant:1 "[ROOT.War.GetActiveCB.GetAttacker.Custom2('NegativeSupplimentaryGreeting',ROOT.War.GetActiveCB.GetDefender)] Ви узурпатор і тиран. Настав час звести на престол законного мона!
  war_declared_flavor.retraction_refused:0 "$char_interaction.0221.desc$"

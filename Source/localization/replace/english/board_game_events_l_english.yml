@@ -66,11 +66,11 @@
  board_games.0001.desc.opponent_winning.relation.best_friend:0 "Переможеш ти або програєш, - заявляє [Select_CString(bg_opponent.IsFemale, 'моя краща подруга', 'мій кращий друг')], - мені все одно. .Custom('BG_GameType')|U] і ти - ось все, що мені треба»."
  board_games.0001.desc.opponent_winning.relation.rival:0 "«[bg_opponent.GetFaith.FateGodName], [SCOPE.Custom('BG_GameType')] — це не для тебе. Як, власне, і влада!" - знущально регоче [Select_CString(bg_opponent.IsFemale, 'моя суперниця', 'мій суперник')]."
  board_games.0001.desc.opponent_winning.relation.nemesis:0 "Мій заклятий ворог мовчить. [bg_opponent.GetSheHe|U] просто невідривно дивиться на мене з чистою, неприкритою #EMP ненавистю#! у погляді."
- board_games.0001.desc.opponent_winning.relation.lover:0 "Не відриваючи від мене погляду, [Select_CString(bg_opponent.IsFemale, 'моя коханка', 'мій коханець')] починає м'яко погладжувати щось кінчиком пальця. Це ж [ SCOPE.Custom('BG_GamePiecePlural')]... Це ж... О. #EMP Ого#!!"
+ board_games.0001.desc.opponent_winning.relation.lover:0 "Не відриваючи від мене погляду, [Select_CString(bg_opponent.IsFemale, 'моя коханка', 'мій коханець')] починає м‘яко погладжувати щось кінчиком пальця. Це ж [ SCOPE.Custom('BG_GamePiecePlural')]... Це ж... О. #EMP Ого#!!"
  board_games.0001.desc.opponent_winning.relation.soulmate:0 "Душа моя ледве звертає увагу на гру - [SCOPE.Custom('BG_GameType')] явно хвилює [bg_opponent.GetHerHis] в останню чергу. [bg_opponent.GetShe тільки й робить, що ловить мій погляд.
  board_games.0001.desc.opponent_winning.relation.bully:0 "«Бачиш? — хихикає [Select_CString(bg_opponent.IsFemale, 'моя противниця', 'мій противник')], — ось тому я перемагаю. Таким #EMP невдахам#! , як ти, перемоги не бачити».
  board_games.0001.desc.opponent_winning.relation.victim:0 "У гнівному погляді моєї жертви спалахує радість: хоч раз у житті удача обрала #EMP [bg_opponent.GetHerHis]#!."
- board_games.0001.desc.opponent_winning.relation.crush:0 "Стоп, [bg_opponent.GetSheHe] щось говорить? [bg_opponent.GetSheHe|U] точно щось [Select_CString(bg_opponent.IsFemale, 'сказала', ' ' )]!Охти ж, іноді я дивлюся на [Select_CString(bg_opponent.IsFemale, 'ніш', 'його' )] і зовсім втрачаю зв'язок з реальністю. Тепер все зіпсовано."
+ board_games.0001.desc.opponent_winning.relation.crush:0 "Стоп, [bg_opponent.GetSheHe] щось говорить? [bg_opponent.GetSheHe|U] точно щось [Select_CString(bg_opponent.IsFemale, 'сказала', ' ' )]!Охти ж, іноді я дивлюся на [Select_CString(bg_opponent.IsFemale, 'ніш', 'його' )] і зовсім втрачаю зв‘язок з реальністю. Тепер все зіпсовано."
  board_games.0001.desc.opponent_winning.relation.guardian:0 "Дивися уважно, [bg_myself.GetFirstName], — каже мій опікун. — Дивись, як граю я, і постарайся щось перейняти»."
  board_games.0001.desc.opponent_winning.relation.ward:0 "[Select_CString(bg_opponent.IsFemale, 'Моя підопічна', 'Мій підопічний' )] усміхається. «[SCOPE.Custom('BG_GameType')|U] — це так здорово! Давайте грати частіше! #EMP Будь ласка#!!»"
  board_games.0001.desc.opponent_winning.hook_on.weak:0 "$$_games.0001.desc.opponent_winning.hook_on.strong$»"
@@ -111,7 +111,7 @@
  board_games.0001.desc.i_am_winning.trait.generous:0 "[Select_CString(bg_opponent.IsFemale, 'Моя противниця', 'Мій противник' )] дивиться на мене з доброю усмішкою: «У вас #EMP дуже#! добре виходить, продовжуйте!»
  board_games.0001.desc.i_am_winning.trait.lazy:0 "«О, мій хід? — позіхає [Select_CString(bg_opponent.IsFemale, 'моя противниця', 'мій противник' )], — вибачте, я #EMP ледь#! стежу за грою»."
  board_games.0001.desc.i_am_winning.trait.diligent:0 "Так, ви ведете, - пихато заявляє [Select_CString(bg_opponent.IsFemale, 'моя противниця', 'мій противник' )], - але якщо я трохи постараюся, то зможу вас наздогнати!»
- board_games.0001.desc.i_am_winning.trait.wrathful:0 "[bg_opponent.Custom('MaskFace')|U] [Select_CString(bg_opponent.IsFemale, 'мого супротивника', 'мого супротивника' )] помітно напружується. вигравати, [bg_myself.Custom('InsultNoun')], я #EMP всю#! цю дошку кров'ю заплюю!»"
+ board_games.0001.desc.i_am_winning.trait.wrathful:0 "[bg_opponent.Custom('MaskFace')|U] [Select_CString(bg_opponent.IsFemale, 'мого супротивника', 'мого супротивника' )] помітно напружується. вигравати, [bg_myself.Custom('InsultNoun')], я #EMP всю#! цю дошку кров‘ю заплюю!»"
  board_games.0001.desc.i_am_winning.trait.calm:0 "Звичайне умиротворення залишає [Select_CString(bg_opponent.IsFemale, 'мого супротивника', 'мого супротивника' )]. [bg_opponent.GetHerHis|U] [bg_op ')] ледь помітно затьмарюється."
  board_games.0001.desc.i_am_winning.trait.patient:0 "Думаєш, везіння триватиме вічно? — задумливо тягне [Select_CString(bg_opponent.IsFemale, 'моя противниця', 'мій противник' )]. — Везіння завжди закінчується".
  board_games.0001.desc.i_am_winning.trait.impatient:0 "«[bg_opponent.GetFaith.HighGodName] #!! — кричить [Select_CString(bg_opponent.IsFemale, 'моя противниця', 'мій противник' )]. — #EMP Кончай#! вже з цим»."
@@ -149,7 +149,7 @@
  board_games.0001.desc.i_am_winning.relation.nemesis:0 "$board_games.0001.desc.opponent_winning.relation.nemesis$"
  board_games.0001.desc.i_am_winning.relation.lover:0 "Навіщо нам [SCOPE.Custom('BG_GameType')], [bg_myself.GetFirstNameNoTooltip]? — шепоче [Select_CString(bg_opponent.IsFemale, 'моя любовниця" коханець' )]. — Є й інші способи розважитися...»
  board_games.0001.desc.i_am_winning.relation.soulmate:0 "$board_games.0001.desc.opponent_winning.relation.soulmate$"
- board_games.0001.desc.i_am_winning.relation.bully:0 "«Поб'єш мене - я поб'ю тебе. Все просто», - щериться [Select_CString(bg_opponent.IsFemale, 'моя кривдниця', 'мій кривдник' )]."
+ board_games.0001.desc.i_am_winning.relation.bully:0 "«Поб‘єш мене - я поб‘ю тебе. Все просто», - щериться [Select_CString(bg_opponent.IsFemale, 'моя кривдниця', 'мій кривдник' )]."
  board_games.0001.desc.i_am_winning.relation.victim:0 "Моя жертва мовчить, але я бачу, що [bg_opponent.GetSheHe] ось-ось заплаче."
  board_games.0001.desc.i_am_winning.relation.crush:0 "Предмет моїх симпатій... О ні! [bg_opponent.GetSheHe|U] злиться! Я це знаю, [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace') ] як відкрита книга!"
  board_games.0001.desc.i_am_winning.relation.guardian:0 "Схоже, ви вчитеся, - роздратовано зауважує мій опікун. - Або, принаймні, навчилися краще мені наслідувати".
@@ -350,8 +350,8 @@
  board_games.0001.d.tt.crit_failure.tt:0 "$board_games.0001.tt.crit_failure.points$"
  board_games.0001.e.random.a:0 "Якщо на столі [SCOPE.Custom('BG_GameType')], ніхто не зрівняється зі мною в теорії гри!"
  board_games.0001.e.random.b:0 "Після прочитання стільки #EMP підручників#!, [SCOPE.Custom('BG_GameType')] мені підкориться."
- board_games.0001.e.random.c:0 "[SCOPE.Custom('BG_GameType')|U]? Я знаю правила як свої п'ять пальців."
- board_games.0001.e.random.d:0 "І ти сподіваєшся перевершити розумом #EMP меня#!?"
+ board_games.0001.e.random.c:0 "[SCOPE.Custom('BG_GameType')|U]? Я знаю правила як свої п‘ять пальців."
+ board_games.0001.e.random.d:0 "І ти сподіваєшся перевершити розумом #EMP менe#!?"
  board_games.0001.e.tt:0 "[SCOPE.Custom('BG_GameType')|U] — гра, де стикаються [learning|El] та [SCOPE.Custom('BG_CounterSkill_Learning')|l]"
  board_games.0001.e.tt.crit_success:0 "$board_games.0001.tt.crit_success$"
  board_games.0001.e.tt.crit_success.tt:0 "$board_games.0001.tt.crit_success.points$"
@@ -397,7 +397,7 @@
  board_games.0041.t:0 "$board_games.0000.t$"
  board_games.0041.desc:0 "[bg_victor.GetFirstName] випромінює звірячий крик і переможно схоплюється на ноги.\n\nЯ... Мені не вдалося перемогти. Руки безсило опускаються в пошуках опори.\n\n Невже [SCOPE.Custom ('BG_GameType')] — #EMP не для мене#!?"
  board_games.0041.a:0 "Побачимо, хто виграє наступного разу..."
- board_games.0041.b:0 "Сьогодні у тебе з'явився ворог."
+ board_games.0041.b:0 "Сьогодні у тебе з‘явився ворог."
  board_games.0041.c:0 "Що ж, [Select_CString(bg_victor.IsFemale, 'перемогла найсильніша', 'переміг найсильніший' )]!"
  board_games.0041.desc.result.skill:0 "#BOL Результат:#! [bg_victor.GetFirstNameNoTooltip] перемагає мене в [Concept( 'board_game_match', 'настільній грі' )|E] по [Concept( 'board_game_winning', ' окулярах' )|E]"
  board_games.0041.desc.result.sudden_death:0 "#BOL Результат:#! [bg_victor.GetFirstNameNoTooltip] перемагає мене в [Concept( 'board_game_match', 'настільній грі' )|E] з [Concept( 'board_game_winning_sud_ додатковим часом' )|E]"
@@ -413,7 +413,7 @@
  #################################################
  # Debug Events
  board_games.0102.t:0 "Гра ігор"
- board_games.0102.desc:0 "BGE об'єднує всі ваші улюблені настільні ігри: шахи, пачісі, хнефатафлафтафл, табулу.\n\nЯкі ще ігри вам подобаються?\n\nІнші ігри теж можуть там бути, але краще!\n\n #EMP З випередженням на кілька століть, але цілком законно.#!\n\nПотрібні і звичайні настільні ігри. Мені нудно. Ігри."
+ board_games.0102.desc:0 "BGE об‘єднує всі ваші улюблені настільні ігри: шахи, пачісі, хнефатафлафтафл, табулу.\n\nЯкі ще ігри вам подобаються?\n\nІнші ігри теж можуть там бути, але краще!\n\n #EMP З випередженням на кілька століть, але цілком законно.#!\n\nПотрібні і звичайні настільні ігри. Мені нудно. Ігри."
  board_games.0102.a:0 "Просту гру, будь ласка."
  board_games.0102.b:0 "Нехай ворог стоїть тільки на виграшних позиціях, будь ласка."
  board_games.0102.c:0 "Нехай ворог стоїть тільки на невигідних позиціях, будь ласка."

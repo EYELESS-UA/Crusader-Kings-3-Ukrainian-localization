@@ -21,13 +21,13 @@
  birth.1001.daughters.desc:0 "двох чарівних дівчаток!\n\n"
  birth.1001.sons.desc:0 "двох чарівних хлопчиків!\n\n"
  birth.1001.children.desc:0 "двох чарівних малюків!\n\n"
- birth.1001.same_gender_heir.desc:0 "Одного разу, дитино, ти приймеш мою спадщину. Яке ім'я підійде тобі, [Select_CString(child.IsFemale, 'майбутня', 'майбутній' )] [ROOT.Char.GetTitleAsNameNoTool "
- birth.1001.other_gender_heir.desc:0 "Одного разу, дитино, ти приймеш мою спадщину. Яке ім'я підійде тобі, [Select_CString(child.IsFemale, 'могуча'', 'могутній' )] [child.GetLadyLord|l]?"
+ birth.1001.same_gender_heir.desc:0 "Одного разу, дитино, ти приймеш мою спадщину. Яке ім‘я підійде тобі, [Select_CString(child.IsFemale, 'майбутня', 'майбутній' )] [ROOT.Char.GetTitleAsNameNoTool "
+ birth.1001.other_gender_heir.desc:0 "Одного разу, дитино, ти приймеш мою спадщину. Яке ім‘я підійде тобі, [Select_CString(child.IsFemale, 'могуча'', 'могутній' )] [child.GetLadyLord|l]?"
  birth.1001.end_fallback.desc:0 "Ким ти станеш, дитино моя, і як я назву тебе?"
  birth.1001.twins_heir.desc:0 "Мої милі діти. Один з вас виросте, щоб прийняти мою спадщину, іншому ж судилося вічно перебувати в тіні. Сподіваюся, ви любитимете один одного не дивлячись ні на що."
  birth.1001.twins.desc:0 "Ким ви станете, мої дорогі, і як я назву вас?"
- birth.1001.taltos.desc:0 "[Select_CString(child.IsFemale, 'Моя дочка', 'Мій син' )] несе на собі [child.Custom('GetBirthOmen')]. Це свідчення того, що [Select_CString( child.IsFemale, 'вона', 'він' ]] - [child.Custom('GetTaltosTerm')] і [child.GetFaith.PantheonTerm] мають особливі плани на [Select_CString(child.IsFemale, 'ніє', 'його') )] Хоча поки що ці плани нікому невідомі, мені варто дати моїй дитині відповідне ім'я."
- birth.1001.taltos_unfaithful.desc:0 "[Select_CString(child.IsFemale, 'Моя дочка', 'Мій син' )] несе на собі [child.Custom('GetBirthOmen')]. #L [child.GetFaith.GetName ]ие#![child.Custom('DefaultPriestTitlePlural')] запевняють, що [child.GetHerHim] уготована особлива доля.Я не розумію, що вони мають на увазі, але мені все одно потрібно вибрати ім'я для [Select_CString(child.IsFemale , 'моєї дочки', 'мого сина' )]..."
+ birth.1001.taltos.desc:0 "[Select_CString(child.IsFemale, 'Моя дочка', 'Мій син' )] несе на собі [child.Custom('GetBirthOmen')]. Це свідчення того, що [Select_CString( child.IsFemale, 'вона', 'він' ]] - [child.Custom('GetTaltosTerm')] і [child.GetFaith.PantheonTerm] мають особливі плани на [Select_CString(child.IsFemale, 'ніє', 'його') )] Хоча поки що ці плани нікому невідомі, мені варто дати моїй дитині відповідне ім‘я."
+ birth.1001.taltos_unfaithful.desc:0 "[Select_CString(child.IsFemale, 'Моя дочка', 'Мій син' )] несе на собі [child.Custom('GetBirthOmen')]. #L [child.GetFaith.GetName ]і#![child.Custom('DefaultPriestTitlePlural')] запевняють, що [child.GetHerHim] уготована особлива доля.Я не розумію, що вони мають на увазі, але мені все одно потрібно вибрати ім‘я для [Select_CString(child.IsFemale , 'моєї дочки', 'мого сина' )]..."
 
  birth.1001.desc:0 "У мене [Select_CString(child.IsFemale, 'народилася чарівна', 'народився чарівний' )] [child.Custom('GetDaughterSon')]!"
  birth.1001.desc.twin:0 "У мене народилися чарівні [child.Custom('TwinDaughtersSonsChildren')]!"
@@ -41,8 +41,8 @@
  birth.1002.true_father:0 "Я боюся того,що може статися, якщо хтось дізнається, що справжній батько - [real_father.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
  birth.1002.unmarried:0 "що [child.GetHerHis] справжнім батьком є ​​[real_father.GetFullName]."
  birth.1002.unmarried.twin:0 "що їх справжнім батьком є ​​[real_father.GetFullName]."
- birth.1002.girl_name.desc:0 "\n\nПро дитину, яким буде твоє ім'я?"
- birth.1002.boy_name.desc:0 "\n\nЧастина мене хоче дати синові те саме ім'я, що носить [real_father.GetFirstNameNoTooltip], але, боюся, це буде нерозумно..."
+ birth.1002.girl_name.desc:0 "\n\nПро дитину, яким буде твоє ім‘я?"
+ birth.1002.boy_name.desc:0 "\n\nЧастина мене хоче дати синові те саме ім‘я, що носить [real_father.GetFirstNameNoTooltip], але, боюся, це буде нерозумно..."
  birth.1002.twin_name.desc:0 "\n\nО, діти мої, як я назву вас?"
  birth.1002.a:0 "Тихіше, [child.Custom('GetDaughterSon')] [Select_CString(child.IsFemale, 'моя', 'мій' )]."
  birth.1002.b:0 "Тихіше, [child.Custom('TwinDaughtersSonsChildren')] мої."
@@ -81,7 +81,7 @@
  birth.1010.t:0 "Дитя моєї династії"
  birth.1010.t_twins:0 "Діти моєї династії"
  birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] народила двійню!\n\nОскільки діти належать до династії [ROOT.Char.GetDynasty.GetName], вони повинні отримати хороші імена.
- birth.1010.desc:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] народила дитину, і це [child.Custom('GetDaughterSon')]!\n\nОскільки дитина належить до династії [ROOT .Char.GetDynasty.GetName], [Select_CString(child.IsFemale, 'вона повинна', 'він повинен' )] отримати хороше ім'я."
+ birth.1010.desc:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] народила дитину, і це [child.Custom('GetDaughterSon')]!\n\nОскільки дитина належить до династії [ROOT .Char.GetDynasty.GetName], [Select_CString(child.IsFemale, 'вона повинна', 'він повинен' )] отримати хороше ім‘я."
 
  birth.1100.title:0 "[child.Custom('GetTaltosTerm')] [Select_CString(child.IsFemale, 'народилася', 'народився' )]"
  birth.1100.message:0 "[child.Custom('DefaultPriestTitlePlural')|U] визначили, що [child.Custom2('MyCharacterIntroduction', ROOT.Char)] — [child.Custom('GetTaltosTerm')].\" n\n[child.GetFaith.PantheonTerm|U] готують загадкову долю для цієї дитини.
@@ -90,13 +90,13 @@
  legitimized_known_bastard_birth_event_tooltip:0 "[child.GetFirstNameNoTooltip] тепер [legitimized_bastard|El] вдома [child.GetHouse.GetBaseName]"
 
  birth.2001.t:0 "Благословенне незнання"
- birth.2001.desc.mother.standard:0 "[Select_CString(child.IsFemale, 'Моя новонароджена дочка'', 'Мій новонароджений син')] спить так солодко, перебуваючи в блаженному незнанні про прокляття, яке переслідуватиме [child.GetHerHis] до кінця життя. Нелегко бути бастардом у цьому світі, нелегко бути матір'ю бастарда.\n\nМоє немовля заснув, але мені не спиться: я все думаю про рішення, яке мені належить прийняти."
- birth.2001.desc.mother.twins:0 "Мої новонароджені діти сплять так солодко, перебуваючи в блаженному незнанні про прокляття, яке переслідуватиме їх до кінця життя. Нелегко бути бастардами в цьому світі, нелегко бути матір'ю бастардів.\n\nМої немовлята заснули, але мені не спиться: я все думаю про рішення, яке мені належить прийняти.
+ birth.2001.desc.mother.standard:0 "[Select_CString(child.IsFemale, 'Моя новонароджена дочка'', 'Мій новонароджений син')] спить так солодко, перебуваючи в блаженному незнанні про прокляття, яке переслідуватиме [child.GetHerHis] до кінця життя. Нелегко бути бастардом у цьому світі, нелегко бути матір‘ю бастарда.\n\nМоє немовля заснув, але мені не спиться: я все думаю про рішення, яке мені належить прийняти."
+ birth.2001.desc.mother.twins:0 "Мої новонароджені діти сплять так солодко, перебуваючи в блаженному незнанні про прокляття, яке переслідуватиме їх до кінця життя. Нелегко бути бастардами в цьому світі, нелегко бути матір‘ю бастардів.\n\nМої немовлята заснули, але мені не спиться: я все думаю про рішення, яке мені належить прийняти.
  birth.2001.desc.father.standard:0 "[mother.GetTitledFirstName] народила [Select_CString(child.IsFemale, 'нашу дочку', 'нашого сина' )] поза шлюбом. І хоча мені належить радіти, серце моє сумніваються і страхи.\n\nІ це продовжиться, поки я не прийму рішення."
- birth.2001.desc.father.twins:0 "[mother.GetTitledFirstName] народила наших дітей поза шлюбом. І хоча мені належить радіти, серце моє з'їдають сумніви і страхи.\n\nІ я не впізнаю спокою, поки не прийму рішення. "
+ birth.2001.desc.father.twins:0 "[mother.GetTitledFirstName] народила наших дітей поза шлюбом. І хоча мені належить радіти, серце моє з‘їдають сумніви і страхи.\n\nІ я не впізнаю спокою, поки не прийму рішення. "
  birth.2001.a.standard:0 "Я визнаю [SCOPE.sC('child').GetHerHis]!"
  birth.2001.a.twins:0 "Я визнаю їх!"
- birth.2001.b.standard:0 "Я не можу зганьбити сім'ю, визнавши бастарда..."
+ birth.2001.b.standard:0 "Я не можу зганьбити сім‘ю, визнавши бастарда..."
  birth.2001.b.no_legitimization_in_faith:0 "Незавидна доля бастарда..."
  bastard_remains_bastard_tt:0 "[child.GetShortUIName|U] залишається невизнаним [Concept( 'bastard', 'бастардом' )|E]"
 
@@ -104,7 +104,7 @@
  birth.2002.start:0 "Справді, цей день гідний свята!"
  birth.2002.desc.standard:0 "Мені не просто надіслана радість народження [Select_CString(child.IsFemale, 'дочки', 'син'')], - [child.GetHerHis] [legitimizer.GetMotherFather], [legitimizer.GetTitledFi , хоче визнати [SCOPE.sC('child').GetHerHis]!"
  birth.2002.desc.twins:0 "Мені не просто послано радість народження близнюків, - їх [legitimizer.GetMotherFather], [legitimizer.GetTitledFirstName], хоче визнати їх!"
- birth.2002.end:0 "\n\nМінші місяці були повні сумнівів і страху, але сьогодні моє серце легше за пір'їнку."
+ birth.2002.end:0 "\n\nМінші місяці були повні сумнівів і страху, але сьогодні моє серце легше за пір‘їнку."
  birth.2002.a:0 "Надія ще теплиться в майбутньому."
 
  birth.2003.t:0 "Непростий початок"
@@ -112,7 +112,7 @@
  birth.2003.desc.twin_start:0 "Хотілося б мені відсвяткувати народження наших дітей, але [legitimizer.GetTitledFirstName] ясно [Select_CString(legitimizer.IsFemale, 'дала', 'дав')] зрозуміти, що діти не будуть вважатися справжніми членами [legitimizer.GetHerHis] вдома."
  birth.2003.desc.landed_end:0 "\n\nТавро бастарда ніколи не стерти повністю, хоча, якби [legitimizer.GetTitleTierName|l] [Select_CString(legitimizer.IsFemale, 'визнала', 'визнав' )] дитини, це би багато що змінило..."
  birth.2003.desc.unlanded_end:0 "\n\nТавро бастарда ніколи не стерти повністю, хоча, якби [legitimizer.GetLadyLord] [Select_CString(legitimizer.IsFemale, 'визнала', 'визнав' )] дитини, це б багато змінило..."
- birth.2003.a:0 "Хотілося б мені, щоб все було інакше, [Select_CString(child.IsFemale, 'юна', 'юний' )] [child.GetFirstNameNoTooltip]!"
+ birth.2003.a:0 "Хотілося б мені, щоб все було інакше, [Select_CString(child.IsFemale, ‘юна', ‘юний' )] [child.GetFirstNameNoTooltip]!"
 
 
  birth.2004.t:0 "Милосердя [Select_CString(secondary_legitimizer.IsFemale, 'матері', 'батька' )]"
@@ -122,7 +122,7 @@
  birth.2004.a.twins:0 "Нехай вони пишаються вами, діти мої."
 
  birth.2011.t:0 "[Select_CString(child.IsFemale, 'Моя', 'Мій' )] [child.Custom('GetDaughterSon')]"
- birth.2011.desc:0 "Хоч і [Select_CString(child.IsFemale, 'зачата', 'зачатий' )] поза шлюбом, [Select_CString(child.IsFemale, 'моя новонароджена', 'мій новонароджений' )] [child. Custom('GetDaughterSon')] успішно [Select_CString(child.IsFemale, 'з'явилася', 'з'явився' )] на світ.\n\n[child.GetSheHe|U] [Select_CString(child.IsFemale, 'народилася', ' народився' )] у домі [legitimizer.GetHouse.GetBaseName], і саме так [child.GetSheHe] буде виховуватися."
+ birth.2011.desc:0 "Хоч і [Select_CString(child.IsFemale, 'зачата', 'зачатий' )] поза шлюбом, [Select_CString(child.IsFemale, 'моя новонароджена', 'мій новонароджений' )] [child. Custom('GetDaughterSon')] успішно [Select_CString(child.IsFemale, 'з‘явилася', 'з‘явився' )] на світ.\n\n[child.GetSheHe|U] [Select_CString(child.IsFemale, 'народилася', ' народився' )] у домі [legitimizer.GetHouse.GetBaseName], і саме так [child.GetSheHe] буде виховуватися."
 
 
  birth.2102.t:0 "[real_father.GetTitledFirstNameNoTooltip]плодить нових виродків"
@@ -146,16 +146,16 @@
  birth.3002.a:0 "[Select_CString(dummy_gender.IsFemale, 'Моя', 'Мій' )] [dummy_gender.Custom('DaughterSon')]? [ROOT.Char.GetFaith.PositiveAfterLife|U], [dummy GetSheHe] тепер там?"
 
  birth.3011.desc_twin:0 "Близнюки досконалі. І маленькі особи, їх запах... Я хочу назавжди залишитися в цій миті, але повитуха дає мені потримати їх лише коротку мить. Я намагаюся протестувати, коли вона забирає їх у мене, але мої руки слабкі, і я насилу підбираю слова.\n\n"Не хвилюйтеся, пані. Ваші [child.Custom('TwinDaughtersSonsChildren')] сильні і здорові. Тепер ми подбаємо про вас". , і світ навколо мене занурюється у пітьму..."
- birth.3011.desc:0 "[Select_CString(child.IsFemale, 'Моя', 'Мій' )] [child.Custom('DaughterSon')] [Select_CString(child.IsFemale, 'досконала', 'досконалий' )] [Select_CString(child.IsFemale, 'Її', 'Його' )] маленьке обличчя, цей запах... Я хочу назавжди зупинити мить, але повитуха дає мені потримати [Select_CString(child.IsFemale, 'її', 'його') )] лише короткий момент між кількома зітханнями.Я намагаюся протестувати, коли вона забирає [Select_CString(child.IsFemale, 'її', 'його' )], але мої руки слабкі, і я насилу підбираю слова.\n\n« Не хвилюйтеся, пані.[Select_CString(child.IsFemale, 'У вас міцна і здорова дочка', 'У вас міцний і здоровий син' )] Тепер ми подбаємо про вас. і світ навколо мене занурюється у пітьму..."
+ birth.3011.desc:0 "[Select_CString(child.IsFemale, 'Моя', 'Мій' )] [child.Custom('DaughterSon')] [Select_CString(child.IsFemale, 'досконала', 'досконалий' )] [Select_CString(child.IsFemale, ‘її', 'Його' )] маленьке обличчя, цей запах... Я хочу назавжди зупинити мить, але повитуха дає мені потримати [Select_CString(child.IsFemale, ‘її', 'його') )] лише короткий момент між кількома зітханнями.Я намагаюся протестувати, коли вона забирає [Select_CString(child.IsFemale, ‘її', 'його' )], але мої руки слабкі, і я насилу підбираю слова.\n\n« Не хвилюйтеся, пані.[Select_CString(child.IsFemale, 'У вас міцна і здорова дочка', 'У вас міцний і здоровий син' )] Тепер ми подбаємо про вас. і світ навколо мене занурюється у пітьму..."
  birth.3011.twin.a:1 "Будь ласка... Їхні імена..."
- birth.3011.a:0 "Будь ласка... [Select_CString(child.IsFemale, 'Її', 'Його' )] ім'я..."
+ birth.3011.a:0 "Будь ласка... [Select_CString(child.IsFemale, ‘її', 'Його' )] ім‘я..."
 
  birth.3012.start.desc:0 "Коли повитуха нарешті виходить з покоїв породіллі, тримаючи в руках плавучий згорток, я відчуваю полегшення.\n\nАле потім я бачу вираз її обличчя.\n\n«Вибачте, [ROOT.Char .GetLadyLord], [mother.GetFirstNameNoTooltip]...» — голос підводить її, але це говорить саме за себе.\n\nОдне життя перервалося, але"
  birth.3012.desc_twin:0 "дві нові щойно почалися. Мені потрібно тримати себе в руках — заради моїх дітей."
  birth.3012.desc:0 "дві нові тільки що почалися. Мені потрібно тримати себе в руках - заради [Select_CString(child.IsFemale, 'моїй дочці', 'мого сина')]."
  birth.3012.a:0 "Такий трагічний початок..."
 
- birth.3021.desc:0 "Моє важке дихання - єдиний звук, що порушує тишу покоїв. Я оглядаюся в пошуках підбадьорливих посмішок, чого завгодно, що могло б підтримати мене в цьомуой болю. Коли дитина нарешті з'являється на світ, я не чую довгоочікуваного плачу. "Чому [dummy_gender.GetSheHe] не плаче?" Слова ледве залишають мій рот. Все таке важке ... Я ледве ворушу губами.
+ birth.3021.desc:0 "Моє важке дихання - єдиний звук, що порушує тишу покоїв. Я оглядаюся в пошуках підбадьорливих посмішок, чого завгодно, що могло б підтримати мене в цьомуой болю. Коли дитина нарешті з‘являється на світ, я не чую довгоочікуваного плачу. "Чому [dummy_gender.GetSheHe] не плаче?" Слова ледве залишають мій рот. Все таке важке ... Я ледве ворушу губами.
  birth.3021.a:0 "Де... [dummy_gender.GetSheHe]..."
 
 
@@ -197,16 +197,16 @@
  birth.9002.love.desc:0 "Любов моя!"
  birth.9002.dear_spouse.desc:0 "«[Select_CString(ROOT.Char.IsFemale, 'Найдорожча моя', 'Найдорожчий мій' )] [ROOT.Char.GetWifeHusband]!"
  birth.9002.spouse.desc:0 "«[ROOT.Char.GetWifeHusband|U] [Select_CString(ROOT.Char.IsFemale, 'мій', 'моя' )]!"
- birth.9002.suggester_relative.desc:0 "Давай назвемо [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Це ім'я носить [Select_CString(namesake.IsFemale, 'моя', 'мій' )] [namesake.Custom(' )][Select_CString(namesake.IsFemale, 'ая', 'ий' )] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]»."
- birth.9002.namer_relative.desc:0 "Мабуть, ми могли б назвати [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Це ім'я має [Select_CString(namesake.IsFemale, 'твоя', 'твій' ]]] [namesa. ('ComplimentAdjective')][Select_CString(namesake.IsFemale, 'ая', 'ый' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]»."
+ birth.9002.suggester_relative.desc:0 "Давай назвемо [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Це ім‘я носить [Select_CString(namesake.IsFemale, 'моя', 'мій' )] [namesake.Custom(' )][Select_CString(namesake.IsFemale, 'a', 'ий' )] [suggester.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]»."
+ birth.9002.namer_relative.desc:0 "Мабуть, ми могли б назвати [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Це ім‘я має [Select_CString(namesake.IsFemale, 'твоя', 'твій' ]]] [namesa. ('ComplimentAdjective')][Select_CString(namesake.IsFemale, 'a', 'ий' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('namesake'))]»."
  birth.9002.suggesters_name.desc:0 "Думаю, ми могли б назвати [child.GetHerHis] [suggester.GetFirstNameNoTooltip], на мою честь.Що скажеш?""
  birth.9002.namers_name.desc:0 "Давай назвемо [child.GetHerHis] [ROOT.Char.GetFirstNameNoTooltip], на честь тебе»."
- birth.9002.nice_name.desc:0 "Я все думаю... Хотілося б назвати [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Мені завжди подобалося це ім'я»."
+ birth.9002.nice_name.desc:0 "Я все думаю... Хотілося б назвати [child.GetHerHis] [namesake.GetFirstNameNoTooltip]. Мені завжди подобалося це ім‘я»."
  birth.9002.religious_god.desc:0 "Нам варто назвати [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], на честь великого божества!»"
  birth.9002.religious_godess.desc:0 "Нам варто назвати [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], на честь великої богині!»"
  birth.9002.religious_apostle.desc:0 "Нам варто назвати [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], на честь благочестивого апостола!»"
  birth.9002.religious_holy_virgin.desc:0 "Нам варто назвати [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')], на честь святої діви!»"
- birth.9002.religious_fallback.desc:0 "Нам варто дати [child.GetHerHim] те ж ім'я, що [Select_CString(child.IsFemale, 'носила велика', 'носив великий' )] [SCOPE.GetFlagName('name_suggestion') ]!»
+ birth.9002.religious_fallback.desc:0 "Нам варто дати [child.GetHerHim] те ж ім‘я, що [Select_CString(child.IsFemale, 'носила велика', 'носив великий' )] [SCOPE.GetFlagName('name_suggestion') ]!»
  birth.9002.lunatic.desc:0 "У мене чудова ідея! Ми повинні назвати [child.GetHerHis] [SCOPE.GetFlagName('name_suggestion')]! Вони вже такі схожі!»"
  birth.9002.creator.desc:0 "Давай назвемо дитину [SCOPE.GetFlagName('name_suggestion')], на честь нашого творця!»"
  birth.9002.possessed.desc:0 "Я відчуваю [child.GetHerHis] присутність, [child.GetSheHe] вимагає, щоб ми назвали [Select_CString(child.IsFemale, 'дочка', 'син'')] [SCOPE.GetFlagName( 'name_suggestion')]»."
@@ -217,16 +217,16 @@
  birth.9002.a.tt.2:0 "Ми назвемо дитину [SCOPE.GetFlagName('name_suggestion')]"
  birth.9002.b1:0 "Загалом у мене була інша думка..."
  birth.9002.b2:0 "Що?! Не найкраща ідея!"
- birth.9002.b.tt:1 "Ви дасте [child.GetHerHim] більше відповідне ім'я"
+ birth.9002.b.tt:1 "Ви дасте [child.GetHerHim] більше відповідне ім‘я"
 
  birth.9003.desc:0 "[suggester.GetTitledFirstName] обережно передає мені дитину, і я дивлюся в [child.GetHerHis] чарівні очі. Ким ти станеш у майбутньому?"
  birth.9003.a:0 "Набагато краще."
  
  birth.9004.t:0 "Що в імені тобі моєму?"
- birth.9004.desc.me:0 "[ROOT.Char.GetFirstNameNoTooltip].\n\nТаке нудне ім'я. Часом я думаю, що воно буде означати для істориків майбутнього.\n\nІ все ж таки я [ROOT.Char.GetTitleAsNameNoTooltip |l], і якщо хочу, щоб мене звали інакше, досить лише заявити про це світу, чи не так?"
- birth.9004.desc:0 "[child.GetFirstNameNoTooltip].\n\nСпершу ім'я мені подобалося, але тепер мені здається, воно звучить дивно. Що буде, коли [child.GetSheHe] виросте?\n\nМоже, варто змінити, поки не пізно?"
- birth.9004.a:0 "Так, це ім'я #EMP набагато#! краще!"
+ birth.9004.desc.me:0 "[ROOT.Char.GetFirstNameNoTooltip].\n\nТаке нудне ім‘я. Часом я думаю, що воно буде означати для істориків майбутнього.\n\nІ все ж таки я [ROOT.Char.GetTitleAsNameNoTooltip |l], і якщо хочу, щоб мене звали інакше, досить лише заявити про це світу, чи не так?"
+ birth.9004.desc:0 "[child.GetFirstNameNoTooltip].\n\nСпершу ім‘я мені подобалося, але тепер мені здається, воно звучить дивно. Що буде, коли [child.GetSheHe] виросте?\n\nМоже, варто змінити, поки не пізно?"
+ birth.9004.a:0 "Так, це ім‘я #EMP набагато#! краще!"
  birth.9004.b:0 "Але якщо подумати, [ROOT.Char.GetFirstNameNoTooltip] теж звучить непогано..."
  birth.9004.b.other:0 "А взагалі-то "[child.GetFirstNameNoTooltip]" і непогано звучить..."
- birth.9004.b.tt:0 "Ви залишаєте своє старе ім'я"
- birth.9004.b.tt.other:0 "[child.GetFirstNameNoTooltip] зберігає своє старе ім'я"
+ birth.9004.b.tt:0 "Ви залишаєте своє старе ім‘я"
+ birth.9004.b.tt.other:0 "[child.GetFirstNameNoTooltip] зберігає своє старе ім‘я"

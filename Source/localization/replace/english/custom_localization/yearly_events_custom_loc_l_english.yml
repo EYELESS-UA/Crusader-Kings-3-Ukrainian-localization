@@ -1,5 +1,5 @@
 ﻿l_english:
- yearly.0001.pos_descriptor:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )][Select_CString(second.IsFemale, 'ая', 'ый' )] "
+ yearly.0001.pos_descriptor:0 "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )][Select_CString(second.IsFemale, 'a', 'ий' )] "
   yearly.0001.no_descriptor:0 ""
 
   yearly.0001.diplomacy:0 "манери та етикет"

@@ -2,18 +2,18 @@
 
  #court.4500 Fake artifacts and trinkets
  blood_brooch_name:0 "Кривава брошка"
- blood_brooch_description:0 "У цій броші є скляна кулька з кров'ю персонажа [ROOT.GetCharacter.GetTitledFirstName]."
+ blood_brooch_description:0 "У цій броші є скляна кулька з кров‘ю персонажа [ROOT.GetCharacter.GetTitledFirstName]."
  cuckoldry_psalter_name:0 "Псалтир адюльтера"
  cuckoldry_psalter_description:0 "Цей том, який століттями переходить від одного дивака до іншого, вважається найкращим подарунком дружині. У всякому разі, фігурки зі слонової кістки на його обкладинці виглядають задоволеними своїм шлюбом."
  chastity_belt_name:0 "Пояс вірності"
  chastity_belt_description:0 "Цей пояс вірності покритий шипами зовні та зсередини і захищає вас та оточуючих."
  holy_needle_name:0 "Священна гра Антіохії"
- holy_needle_description:0 "Ви можете вишити розп'яття."
+ holy_needle_description:0 "Ви можете вишити розп‘яття."
  finger_bones_name:0 "Пальці святого"
  finger_bones_description:0 "Всі одинадцять!"
  dead_chicken_name:0 "Захист труса"
  dead_chicken_description:0 "Ніхто, навіть ваші вороги, не захоче опинитися поряд з вами, коли ви почнете розмахувати цим дохлим курчам."
- worm_on_a_string_name:0 "Черв'як на мотузку"
+ worm_on_a_string_name:0 "Черв‘як на мотузку"
  worm_on_a_string_description:0 "Іграшка, здатна вразити дитину."
 
 
@@ -22,8 +22,8 @@
  pope_joan_book_desc:0 "Книга, в якій [ROOT.Char.GetTitledFirstNameNoTooltip] згадується як Папеса Іоанна. Що це, віра, богохульство чи обман?"
  lady_godiva_book_name:0 "Історія леді Годіви"
  lady_godiva_book_desc:0 "Принаймні, на картинки, де зображена оголена [ROOT.Char.GetTitledFirstNameNoTooltip], приємно дивитися."
- caligula_book_name:0 "П'ятсот ударів батога"
- caligula_book_desc:0 "П'ятсот сторінок, на яких [ROOT.Char.GetTitledFirstNameNoTooltip] отримує побої батогом від Калігули."
+ caligula_book_name:0 "П‘ятсот ударів батога"
+ caligula_book_desc:0 "П‘ятсот сторінок, на яких [ROOT.Char.GetTitledFirstNameNoTooltip] отримує побої батогом від Калігули."
  nasreddin_book_name:0 "Повість про Насреддіна"
  nasreddin_book_desc:0 "В якій [ROOT.Char.GetTitledFirstNameNoTooltip] удостоюється глузування Насреддіна"
  valmiki_book_name:0 "Епіграми Вальміки"

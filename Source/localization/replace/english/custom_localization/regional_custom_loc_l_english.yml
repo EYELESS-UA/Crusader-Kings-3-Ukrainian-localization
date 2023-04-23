@@ -22,7 +22,7 @@
  #TerrainType
  terrain_plains:0 "долина"
  terrain_farmlands:0 "рілля"
- terrain_hills:0 "передгір'я"
+ terrain_hills:0 "передгір‘я"
  terrain_mountains:0 "схил гори"
  terrain_desert:0 "пустеля"
  terrain_oasis:0 "оазис"
@@ -69,8 +69,8 @@
  animal_fabled_desc:0 "легендарний"
  animal_cunning_desc:0 "підступний"
  #Abortifacients
- abortifacient_pennyroyal:0 "м'ята болотна"
- abortifacient_catmint:0 "котяча м'ята"
+ abortifacient_pennyroyal:0 "м‘ята болотна"
+ abortifacient_catmint:0 "котяча м‘ята"
  abortifacient_thymbra:0 "фімбра"
  abortifacient_broadleaf_sage:0 "шавлія"
  abortifacient_soapwort:0 "мильний корінь"
@@ -246,9 +246,9 @@
  curse_shit:0 "лайно"
  curse_by_the_blood:0 "кров Господня"
  curse_gods_wounds:0 "рани [ROOT.Char.GetFaith.HighGodNamePossessive]"
- curse_by_gods_nails:0 "в ім'я нігтів [ROOT.Char.GetFaith.HighGodNamePossessive]"
+ curse_by_gods_nails:0 "в ім‘я нігтів [ROOT.Char.GetFaith.HighGodNamePossessive]"
  #GetOldBook
- old_book_greek:0 "Слов'янська Біблія"
+ old_book_greek:0 "Слов‘янська Біблія"
  old_book_abrahamic:0 "Грецька Біблія"
  old_book_pagan:0 "Книга латинської поезії"
  old_book_eastern:0 "Грецька історіографія"

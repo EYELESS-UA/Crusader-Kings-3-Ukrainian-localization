@@ -3,7 +3,7 @@
  hinduism_religion_adj:0 "Індусізм"
  hinduism_religion_adherent:0 "Індуїст"
  hinduism_religion_adherent_plural:0 "Індуїсти"
- hinduism_religion_desc:0 "Індуїзм - це дхарма, що об'єднує безліч богів і релігійних практик. Спільною ж є віра в сансару, нескінченний цикл перероджень душі у світі, і мокшу, визволення з цього циклу."
+ hinduism_religion_desc:0 "Індуїзм - це дхарма, що об‘єднує безліч богів і релігійних практик. Спільною ж є віра в сансару, нескінченний цикл перероджень душі у світі, і мокшу, визволення з цього циклу."
  hinduism_high_god_name:0 "Брахман"
  hinduism_high_god_name_2:0 "$hinduism_high_god_name$" # Optional translation alt
  hinduism_high_god_name_possessive:0 "Брахмана"
@@ -19,7 +19,7 @@
  hinduism_good_god_shakti:0 "Шакті"
  hinduism_good_god_narayana:0 "Нараяна"
  hinduism_good_god_ganesh:0 "Ганеша"
- hinduism_good_god_surya:0 "Сур'я"
+ hinduism_good_god_surya:0 "Сур‘я"
  hinduism_devil_name:0 "Винаки"
  hinduism_devil_name_possessive:0 "Винаяки"
  hinduism_devil_shehe:0 "вони"

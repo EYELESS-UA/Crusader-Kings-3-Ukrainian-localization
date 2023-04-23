@@ -9,7 +9,7 @@
  interaction_category_vassal:0 "Васалитет і двір"
  interaction_category_religion:0 "Релігія"
  interaction_category_house_head:0 "Глава вдома"
- interaction_category_prison:0 "В'язниця"
+ interaction_category_prison:0 "В‘язниця"
  interaction_category_uncategorized:0 "Без категорії #D (DEBUG)#!"
 
  INTERACTION_SENDER:0 "Відправник"

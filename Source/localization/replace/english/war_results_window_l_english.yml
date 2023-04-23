@@ -27,7 +27,7 @@
  ATTACKER_WIN:0 "$WAR_OVER_GREETING$ Ви — значно серйозніший суперник, ніж можна було припустити. Щоб припинити кровопролиття, я погоджуюсь на ваші вимоги."
  ATTACKER_INVALID:0 "$WAR_OVER_GREETING$ У нас більше немає причин боротися."
  ATTACKER_WHITE_PEACE:0 "$WAR_OVER_GREETING$ Світ мене влаштує. Поховаємо наші чвари в минулому."
- ATTACKER_LOSS:0 "$WAR_OVER_GREETING$ Ось і нічого розв'язувати скоростиглі війни! Звичайно, я прийму твою капітуляцію, аби скоріше покінчити з цією дурістю."
+ ATTACKER_LOSS:0 "$WAR_OVER_GREETING$ Ось і нічого розв‘язувати скоростиглі війни! Звичайно, я прийму твою капітуляцію, аби скоріше покінчити з цією дурістю."
  DEFENDER_WIN:0 "$WAR_OVER_GREETING$ Я бачу, що війна програна. Вибору немає: я приймаю ваші вимоги."
  DEFENDER_INVALID:0 "$ATTACKER_INVALID$"
  DEFENDER_WHITE_PEACE:0 "$ATTACKER_WHITE_PEACE$"

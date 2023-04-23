@@ -9,11 +9,11 @@ FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] вище 
  FACTION_DEMAND_REFUSED_OPT:0 "Значить, війна!"
  faction_demand.2004.opt_tt:1 "Я приєднуюсь до війни проти фракції [faction_target.GetShortUIName]"
  FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT:0 "Надсилаємо ультиматум!"
- FACTION_IMPRISONMENT_RETALIATION_WARNING:2 "#high Якщо [recipient.GetShortUIName] опиниться у в'язниці, [retaliating_faction.GetName] може повстати!#!"
+ FACTION_IMPRISONMENT_RETALIATION_WARNING:2 "#high Якщо [recipient.GetShortUIName] опиниться у в‘язниці, [retaliating_faction.GetName] може повстати!#!"
  faction_demand.9001.t:1 "[retaliating_faction.GetName] відповідає"
  FACTION_FAILED_IMPRISONMENT_RETALIATION:1 "[actor.GetShortUIName] несправедливо [Select_CString(actor.IsFemale, 'намагалася', 'намагався' )] заточити в темницю одного з моїх товаришів по фракції (це [recipient.GetShortUI"
- FACTION_SUCCESSFUL_IMPRISONMENT_RETALIATION:1 "[actor.GetShortUIName] несправедливо [Select_CString(actor.IsFemale, 'заточила', 'заточив' )] у в'язницю одного з моїх товаришів по фракції (це [recipient.GetShortUIName]
- FACTION_IMPRISONMENT_RETALIATION_END:0 "\n\n[retaliating_faction.GetName] може сприймати такий зухвалий вчинок тільки як напад, і якщо ми не захистимо себе, нас переб'ють поодинці!"
+ FACTION_SUCCESSFUL_IMPRISONMENT_RETALIATION:1 "[actor.GetShortUIName] несправедливо [Select_CString(actor.IsFemale, 'заточила', 'заточив' )] у в‘язницю одного з моїх товаришів по фракції (це [recipient.GetShortUIName]
+ FACTION_IMPRISONMENT_RETALIATION_END:0 "\n\n[retaliating_faction.GetName] може сприймати такий зухвалий вчинок тільки як напад, і якщо ми не захистимо себе, нас переб‘ють поодинці!"
  FACTION_IMPRISONMENT_RETALIATION_OPT:0 "На війну!"
 
  # Independence Faction
@@ -49,31 +49,51 @@ FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] вище 
 
  # Peasant Faction
  peasant_faction:0 "Селянська фракція"
- peasant_faction_desc:0 "Селянська [faction|El] вимагає свободи від іноземної влади або влади, яка сповідує іншу віру. Якщо [culture|El] і [faith|El] сюзерена відрізняються від культури та конфесії основного населення в [Concept( 'counties', 'графствах' )|E], простий народ спробує змінити владу."
- peasant_faction_short_effect_desc:0 "Хоче зниження [Concept( 'county_control', 'контролю над графством' )|E]"
+ peasant_faction_desc:0 "Селянська [faction|El] вимагає свободи від іноземної влади чи влади, яка сповідує іншу віру. Якщо [culture|El] і [faith|El] сюзерена відрізняються від культури та конфесії основного населення в [Concept( 'counties', 'графствах' )|E], простий народ спробує змінити владу."
+ peasant_faction_short_effect_desc:0 "Хоче зниження[Concept( 'county_control', 'контролю над графством' )|E]"
  peasant_faction_every_county:0 "Кожне графство у фракції"
- peasant_faction_spawn_county_levies:0 "Створює [Concept( 'army', 'армію' )|E] повстанців пропорційно чисельності [Concept( 'levies', 'ополчення' )|E] вашої держави"
+ peasant_faction_spawn_county_levies:0 "Створює [Concept( 'army', 'армію' )|E] повстанців пропорційно до чисельності [Concept( 'levies', 'ополчення' )|E] вашої держави"
  FACTION_DEMAND_PEASANT:1 "[ROOT.Char.Custom('InsultAdjective')|U] [ROOT.Char.GetTitledFirstName]!"
- FACTION_DEMAND_PEASANT_DESC:0 "Занадто довго ми терпіли ваші принизливі закони. Досить! Ми більше не платитимемо вам податки.
- FACTION_DEMAND_PEASANT_ACCEPT:0 "Думаю, можна дарувати право закладати майно..."
- FACTION_DEMAND_PEASANT_REFUSE:0 "Ні за що! Доля селянина - служити пану!"
- FACTION_PEASANT_NAME:0 "Селянська зброя"
+ FACTION_DEMAND_PEASANT_DESC:0 "Надто довго ми терпіли ваші принизливі закони. Досить! Ми більше не платитимемо вам податки.\n\nКоли ваша скарбниця та ваші льохи спорожніють, ви пошкодуєте, що не ставилися до нас краще."
+ FACTION_DEMAND_PEASANT_ACCEPT:0 "Думаю, можна дарувати право закладати майно."
+ FACTION_DEMAND_PEASANT_REFUSE:0 "Нізащо! Доля селянина - служити пану!"
+ FACTION_PEASANT_NAME:0 "Селянський зброд"
  FACTION_PEASANT_TITLE_NAME:0 "Селянське повстання"
 
- # Populist Faction
+  # Populist Faction
  populist_faction:0 "Фракція популістів"
- populist_faction_desc:1 "[faction|E] популістів вимагає свободи від влади чужоземців або невірних. Вони намагаються здобути незалежність від іншої сюзерена [Concept( 'culture', 'культури' )|E] або [Concept( 'faith', 'конфесії') )|E]."
+ populist_faction_desc:1 "[faction|E] популістів вимагає свободи від влади чужоземців чи невірних. Вони намагаються здобути незалежність від сюзерена інший [Concept( 'culture', 'культури' )|E] або [Concept( 'faith', 'конфесії' )|E]."
  populist_faction_short_effect_desc:0 "Хоче незалежності від [Concept( 'liege', 'сюзерена' )|E]"
  FACTION_DEMAND_POPULIST:0 "[ROOT.Char.Custom('InsultAdjective')|U] [ROOT.Char.GetTitledFirstName]!"
- FACTION_DEMAND_POPULIST_DESC_CULTURE:0 "Ми не станемо терпіти знущання чужинців над #L [peasant_leader.GetCulture.GetCollectiveNoun|l]ой#! культурою! Настав наш час!\n\nДайте нам правити самі, як нам заманеться !"
- FACTION_DEMAND_POPULIST_DESC_FAITH:0 "Нам набридло, що від ваших утисків страждають вірні [peasant_leader.GetFaith.GetAdherentNamePlural|l]! Настав наш час!\n\nНас веде [peasant_leader.GetFai .Custom2('GetUnbelieverTermAdjective', peasant_leader)]ой влади!"
- FACTION_DEMAND_POPULIST_DESC:0 "Нам набридло, що від ваших утисків страждають добрі #L [peasant_leader.GetCulture.GetCollectiveNoun|l]ие#! [peasant_leader.GetFaith.GetAdherentNamePlural|l]! .WarGodName], і ми готові звільнитися від вашої [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)]ой влади!"
+ FACTION_DEMAND_POPULIST_DESC_CULTURE:0 "Ми не будемо терпіти знущання чужинців над #L [peasant_leader.GetCulture.GetCollectiveNoun|l]#! культурою! Настав наш час!\n\nДайте нам правити самим, як нам заманеться, або готуйтеся зазнати люті всіх моїх земляків!"
+ FACTION_DEMAND_POPULIST_DESC_FAITH:0 "Нам набридло, що від ваших утисків страждають вірні [peasant_leader.GetFaith.GetAdherentNamePlural|l]! Настав наш час!\n\nНас веде [peasant_leader.GetFaith.WarGodName], і ми готові звільнитися від вашої [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] влади!"
+ FACTION_DEMAND_POPULIST_DESC:0 "Нам набридло, що від ваших утисків страждають добрі #L [peasant_leader.GetCulture.GetCollectiveNoun|l]#! [peasant_leader.GetFaith.GetAdherentNamePlural|l]! Настав наш час!\n\nНас веде [peasant_leader.GetFaith.WarGodName], і ми готові звільнитися від вашої [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] влади!"
  FACTION_DEMAND_POPULIST_ACCEPT_CONVERT:0 "Стоп... А якщо я прийму ваш уклад?"
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENDENCE:0 "Добре ж, мені такі безглузді піддані ні до чого!"
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENCE_TT:0 "#N Ви залишитеся без земель!#!"
- FACTION_DEMAND_POPULIST_REFUSE:0 "Свободи захотілося? Смерть вас звільнить!"
- FACTION_POPULIST_REVOLT_TITLE_NAME:0 "бунт популістів"
+ FACTION_DEMAND_POPULIST_REFUSE:0 "Свободи захотілося? Смерть звільнить вас!"
+ FACTION_DEMAND_POPULIST_REFUSE_TT:0 "#high [peasant_leader.GetTitledFirstName]#! і #high [faction.GetName]#! оголошують вам [Concept( 'war', 'війну' )|E]"
+ FACTION_POPULIST_REVOLT_TITLE_NAME:0 "заколот популістів"
  FACTION_POPULIST_CREATED_TITLE_NAME:0 "[base_county.GetNameNoTierNoTooltip]"
+ FACTION_DEMAND_POPULIST_VASSAL_DESC_SAME_CULTURE_AND_FAITH:0 "Так, у нас з вами спільні традиції та вірування, але нас більше не влаштовуєте ні ви, ні [faction_target.Custom('InsultAdjective')] [faction_target.GetTitledFirstName]!\n\nНе заважайте чи допоможіть нам отримати заслужену свободу!"
+ FACTION_DEMAND_POPULIST_VASSAL_DESC_CULTURE:0 "Ми не будемо терпіти знущання чужинців над [peasant_leader.GetCulture.GetCollectiveNoun|l]культурою! Настав наш час!\n\nНехай [faction_target.GetTitledFirstName] надасть нам повну незалежність!"
+ FACTION_DEMAND_POPULIST_VASSAL_DESC_FAITH:0 "Нам набридло, що від ваших утисків страждають вірні [peasant_leader.GetFaith.GetAdherentNamePlural|l]! Настав наш час!\n\nНас веде [peasant_leader.GetFaith.WarGodName], і ми готові звільнитися від вашої влади, сюзерен [faction_target.GetTitledFirstName]!"
+ FACTION_DEMAND_POPULIST_VASSAL_DESC:0 "Нам набридло, що від ваших утисків страждають добрі [peasant_leader.GetCulture.GetCollectiveNoun|l] [peasant_leader.GetFaith.GetAdherentNamePlural|l]! Настав наш час!\n\nМи звільнимо себе від вашої влади і від тиранії вашого сюзерена, [faction_target.GetTitledFirstName]!"
+ FACTION_DEMAND_POPULIST_VASSAL_JOIN_REBELS:0 "Дозвольте підтримати вас!"
+ FACTION_DEMAND_POPULIST_VASSAL_CONVERTS:0 "Зачекайте! А якщо я прийму ваш уклади #EMP допоможу#! вам?"
+ FACTION_DEMAND_POPULIST_VASSAL_CONVERTS_TT:0 "Ви допоможете повстанцям у боротьбі з вашим [Concept( 'liege', 'сюзереном' )|E]"
+ FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR:0 "Зустрінемось на полі бою, #EMP зрадник#!!"
+ FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR_BLOCK_TT:0 "Ви не можете приєднатися до війни, бо вже воюєте з іншим учасником"
+ FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR_BLOCK_TT_2:0 "Ви не можете приєднатися до війни, оскільки в цьому випадку ви були б змушені боротися з союзником з іншої війни"
+ FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR_TT:0 "Ви допоможете [Concept( 'liege', 'сюзерену' )|E] у боротьбі з бунтівниками"
+ FACTION_DEMAND_POPULIST_VASSAL_TAKE_NO_SIDE:0 "Я вважаю за краще не втручатися..."
+ FACTION_DEMAND_POPULIST_VASSAL_TAKE_NO_SIDE_TT_A:0 "Ви не втручаєтесь у конфлікт #high [populist_war.GetName]#!"
+ FACTION_DEMAND_POPULIST_VASSAL_TAKE_NO_SIDE_TT_B:0 "#N Ви втратите частину своїх земель, якщо ваш сюзерен прийме вимоги повсталих!#!"
+ POPULIST_FACTION_INDEPENDENCE_TITLE:0 "Знайдена незалежність"
+ POPULIST_FACTION_INDEPENDENCE_DESC:0 "Завдяки [Concept( 'popular_faction', 'фракції популістів' )|E], [faction_target.GetTitledFirstName] більше не править вами — ви вільні"
+ VASSAL_JOINS_LIEGE_TOOLTIP:0 "#high [vassal_to_join_liege.GetTitledFirstName]#! приєднується до війни на вашому боці"
+ VASSAL_JOINS_REBELS_TOOLTIP:0 "#high [vassal_to_join_rebels.GetTitledFirstName]#! приєднується до війни на боці повсталих"
+ populist_faction_same_culture_faith_as_liege:0 "Не можна мати ті ж [Concept( 'culture', 'культуру' )|E] і [Concept( 'faith', 'конфесію' )|E], що і ваш [liege|El]"
 
  # Liberty Faction
  liberty_faction:0 "Фракція свободи"
@@ -83,7 +103,7 @@ FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] вище 
  FACTION_DISCONTENT_CA_2:0 "Високий авторитет корони: #V $VALUE|0$%#!"
  FACTION_DISCONTENT_CA_3:0 "Абсолютний авторитет корони: #V $VALUE|0$%#!"
  FACTION_DEMAND_LIBERTY:0 "Вимога свободи"
- FACTION_DEMAND_LIBERTY_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nНасталочас вам визнати невід'ємність давніх прав ваших васалів! Виконайте вимоги фракції [faction.GetName], або за нас будуть говорити клинки!"
+ FACTION_DEMAND_LIBERTY_DESC:0 "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nНасталочас вам визнати невід‘ємність давніх прав ваших васалів! Виконайте вимоги фракції [faction.GetName], або за нас будуть говорити клинки!"
  FACTION_DEMAND_LIBERTY_ACCEPTED:0 "Вимога волі прийнята"
  FACTION_DEMAND_LIBERTY_ACCEPTED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nЕгоїзм засліплює вас, і ви не бачите, що ваша «свобода» послабить державу. Але щоб уникнути непотрібного кровопролиття.
  faction_demand.0102.tt:0 "[crown_authority|E] знижений!"
@@ -104,7 +124,7 @@ FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] вище 
  FACTION_DEMAND_CLAIMANT_REFUSED:0 "Вимога претендента відхилена"
  FACTION_DEMAND_CLAIMANT_REFUSED_DESC:1 "Претензія персонажа [faction_claimant.GetShortUINamePossessive|U] на мій титул не правдивіший за казки, які ми розповідаємо дітям на ніч. Збирай народ скільки влізе — я не схиляюся перед купкою! спадщина!"
  FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION:0 "Законна претензія!"
- FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC:1 "Пробив годину! Збирайтеся всі, хто вважає, що [faction_targeted_title.GetNameNoTier] може підкоритися лише одному законному правителю, і це - [faction_claimant.GetName]! Разом ми допоможемо [SEC зайняти належне місце на троні, а якщо потрібно - проб'ємо собі дорогу вогнем і мечем!
+ FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC:1 "Пробив годину! Збирайтеся всі, хто вважає, що [faction_targeted_title.GetNameNoTier] може підкоритися лише одному законному правителю, і це - [faction_claimant.GetName]! Разом ми допоможемо [SEC зайняти належне місце на троні, а якщо потрібно - проб‘ємо собі дорогу вогнем і мечем!
  FACTION_CLAIMANT_INVITE:1 "[faction_invite_from.Custom2('AppropriateGreeting', ROOT.Char)]"
  FACTION_CLAIMANT_INVITE_DESC:0 "[faction_target.GetName] займає трон, який належить вам по праву! Я підтримаю вашу претензію словом і зброєю, і я знаю, що багато хто в державі теж готовий послужити правій справі.
  FACTION_CLAIMANT_INVITE_ACCEPT:0 "Нарешті!"
@@ -118,11 +138,11 @@ FACTION_DISCONTENT_POWER_ABOVE_THRESHOLD:0 "[faction_military_power|E] вище 
  FACTION_CLAIMANT_INVITE_REFUSED_HOOK_DESC:0 "Хоча моя претензія і справедлива, я... просто не можу до вас приєднатися. [faction_target.GetTitledFirstName] володіє таким... #emphasis «непереборною чарівністю»#!, що я навіть руку на н ] підняти не можу. Так, саме так. Удачі вам."
  FACTION_CLAIMANT_INVITE_REFUSED_PREDICAMENT_DESC:1 "Приємно бачити, як вся держава піднімається, коли їй загрожує [faction_target.GetTitledFirstName]-[Select_CString(faction_target.IsFemale, 'самозванка', 'е навіть на. за таку праву справу.Якщо ви переможете, я буду увас у боргу."
  FACTION_CLAIMANT_INVITE_REFUSED_CHILD_DESC:1 "Приємно знати, що і для вас [faction_target.GetTitledFirstName] — [Select_CString(faction_target.IsFemale, 'справжня лиходійка', 'істинний лиходій' )\n n\\ не можу відірватись від нових іграшок, але якщо ви переможете, я і вам дам з ними пограти!"
- FACTION_CLAIMANT_INVITE_REFUSED_INSIGNIFICANT_DESC:0 "Наконец-то! [faction_target.GetName] — просто букашка, возомнившая, будто она [faction_target.GetTitleAsNameNoTooltip|l], и я знаю, что меня поддержит вся держава.\n\nНо низкое положение пока не дает мне вам допомогти.І все ж таки знайте: #emphasis коли#!ви переможете, я обов'язково щедро нагороджу вас!"
+ FACTION_CLAIMANT_INVITE_REFUSED_INSIGNIFICANT_DESC:0 "Наконец-то! [faction_target.GetName] — просто букашка, возомнившая, будто она [faction_target.GetTitleAsNameNoTooltip|l], и я знаю, что меня поддержит вся держава.\n\nНо низкое положение пока не дает мне вам допомогти.І все ж таки знайте: #emphasis коли#!ви переможете, я обов‘язково щедро нагороджу вас!"
  FACTION_CLAIMANT_INVITE_REFUSED_DESC:1 "Я ціную те, з яким завзяттям ви підтримуєте мої домагання, але не можу позбутися відчуття, що ця витівка приречена на провал. Тому я не надаю вам підтримки, але у випадку, якщо ви якимось дивом досягнете успіху, місце на троні."
  FACTION_CLAIMANT_INVITE_REFUSED_OPT:0 "Не пощастило."
  FACTION_CLAIMANT_EVERY_FACTION_MEMBER:0 "Всі члени фракції"
- FACTION_CLAMAINT_DYNAMIC_NAME:0 "#L [ROOT.Faction.GetSpecialTitle.GetAdjective]ая#! фракція на підтримку претендента — [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip]"
+ FACTION_CLAMAINT_DYNAMIC_NAME:0 "#L [ROOT.Faction.GetSpecialTitle.GetAdjective]а#! фракція на підтримку претендента — [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip]"
  FACTION_POPULIST_DYNAMIC_NAME:0 "[ROOT.Var('faction_culture').Culture.GetCollectiveNounNoTooltip]і [ROOT.Var('faction_faith').Faith.GetNameNoTooltip|l]і популісти"
 
  WARNING_I_HAVE_ALREADY_JOINED_A_FACTION:1 "@warning_icon!#X Ви вже перебуваєте в [Concept( 'faction', 'фракції' )|E]#!"
