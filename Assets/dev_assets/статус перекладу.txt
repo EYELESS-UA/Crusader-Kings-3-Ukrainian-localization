@@ -1,0 +1,19 @@
+файл | перекладено рядків | вичитка ❌\✅
+
+####  artifacts
+artifacts_l_english.yml
+court_artifacts_l_english.yml
+court_event_artifacts_l_english.yml
+
+####  bookmark
+bookmark_adventurers_867_l_english.yml | 100% |✅
+bookmark_carolingians_867_l_english.yml | 100% |✅
+bookmark_hastings_1066_l_english.yml | 100% |✅
+bookmark_iberia_867_l_english.yml | 100% |✅
+bookmark_iberia_1066_l_english.yml | 100% |✅
+bookmark_l_english.yml | 100% |✅
+bookmark_northmen_867_l_english.yml | 100% |✅
+bookmark_rags_to_riches_1066_l_english.yml | 100% |✅
+start_years_l_english.yml | 100% |✅
+
+game_concepts_l_english.yml | 1784/1784 | ❌ [Треба повністю заново перекладати]
