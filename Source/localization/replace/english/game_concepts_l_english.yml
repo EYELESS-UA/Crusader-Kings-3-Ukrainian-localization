@@ -31,7 +31,7 @@
  game_concept_de_jure_drift_drift:0 "Зміна"
  game_concept_de_jure_drift_desc:1 "$game_concept_de_jure_drift_desc_part_1$\n\n$game_concept_de_jure_drift_desc_part_2$"
  game_concept_de_jure_drift_desc_part_1:0 "Тривалий процес, при якому [title|El] змінює підданство [de_jure|El] і землі вже законним чином отримує новий [liege|El]. Процес цей відбувається сам по собі, якщо над [Concept('duchy', 'герцогством' )|E] або [Concept( 'kingdom', 'королівством' )|E] безроздільно панує [ruler|El], що не є де-юре сюзереном.\n\nДля прискорення процесу ваш [chancellor|El] повинен взятися за відповідне [councillor_task|El] #weak ($task_integrate_title$)#!. $game_concept_de_jure_drift$ у герцогства може відбуватися тільки в бік королівства, а королівство можуть отримати тільки [empires|El].\n\nЯкщо титули зрад статус і перетворюються на ваш [primary_title|El] - це хороший спосіб позбутися штрафу «[rightful_liege|El]»."
- game_concept_de_jure_drift_desc_part_2:0 "#weak Приклад: герцогство $d_northumberland$ де-юре — $k_england$, але фактично ним володіє $k_scotland$. Так як король Шотландії не має влади в Англії, в герцогстві починається $game_concept остаточно увійти до складу Шотландії.
+ game_concept_de_jure_drift_desc_part_2:0 "#weak Приклад: герцогство $d_northumberland$ де-юре — $k_england$, але фактично ним володіє $k_scotland$. Так як король Шотландії не має влади в Англії, у герцогстві починається $game_concept_de_jure_drift$, внаслідок якого землі можуть остаточно увійти до складу Шотландії.#!"
  game_concept_primary_title:0 "Перший титул"
  game_concept_primary_titles:0 "Перші титули"
  game_concept_primary_title_desc:0 "$game_concept_primary_title$ — це найзначніший [title|El] [rulerpossessive|El], з яким цей володар найчастіше ототожнюється і від якого залежать герб і назва [realms|El].\n\nЗа наявності кількох титулів одного рівня ви самі вибираєте $game_concept_primary_title$."
@@ -55,7 +55,7 @@
  game_concept_crown_authority_desc:1 "$game_concept_crown_authority$ — показник влади, яку [ruler|El] має над своїми [Concept( 'vassals', 'васалами' )|E].\n\n$game_concept_crown_authority$ має чотири ступені: ], [limited|El], [high|El] і [absolute|El] Для того, щоб підвищити $game_concept_crown_authority$, потрібно [prestige|El] (його кількість визначається рівнем авторитету) і [learning_skill|El] правителя.\n\ n#weak Чим вище $game_concept_crown_authority$, тим сильніше незадоволені васали, тому [factions|El], для яких найважливіша мета - свобода, намагаються якнайшвидше його знизити. #!"
  game_concept_autonomous_vassals:0 "Вільні васали"
  game_concept_autonomous_vassals_crown_authority:0 "Авторитет корони: вільні васали"
- game_concept_autonomous_vassals_crown_authority_desc:0 "Рівень «$game_concept_autonomous_vassals$» відображає найнижчий [crown_authority|El]. На цьому рівні [opinion|El] [Concept( 'vassals', 'вассалів' ''') сюзерене' )|E] не знижується: він має над ними мінімальну владу."
+ game_concept_autonomous_vassals_crown_authority_desc:0 "Рівень «$game_concept_autonomous_vassals$» відображає найнижчий [crown_authority|El]. На цьому рівні [opinion|El] [Concept( 'vassals', 'васалів' )|E] про [Concept( 'liege', 'сюзерене' )|E] не знижується: він має над ними мінімальну владу."
  game_concept_limited:0 "Обмежений"
  game_concept_limited_crown_authority:0 "Обмежений авторитет корони"
  game_concept_limited_crown_authority_desc:1 "$game_concept_limited_crown_authority$ — все ще досить низький рівень. #N 10#!од., а сюзерен при цьому може [revoke|El] [Concept( 'titles', 'титулів' )|El] і [retract|El] васалів своїх васалів."
@@ -88,10 +88,10 @@
  game_concept_realm_law_desc:0 "Закони, що діють у державі цього персонажа, наприклад рівень [Concept( 'crown_authority', 'авторитету корони' )|E] або [Concept( 'tribal_authority', 'авторитета вождя' )|E]."
  game_concept_title_law:0 "Закон титулу"
  game_concept_title_laws:0 "Закони титулу"
- game_concept_title_law_desc:1 "[Concept( 'title', 'Титулу' )|E] можна приписати [Concept( 'title_specific_succession', 'особливий закон успадкування' )|E], унікальний для цього титулу. Цей закон задасть правила успадкування, відмінні від правил для інших титулів того ж персонажа.
+ game_concept_title_law_desc:1 "[Concept( 'title', 'Титулу' )|E] можна приписати [Concept( 'title_specific_succession', 'особливий закон наслідування' )|E], унікальний для цього титулу. Цей закон задасть правила спадкування, відмінні від правил для інших титулів того самого персонажа."
  game_concept_strong_vassal:0 "Сильний васал"
  game_concept_strong_vassals:0 "Сильні васали"
- game_concept_strong_vassal_desc:0 "$game_concept_strong_vassal$ за силою дорівнює [Concept( 'liege', 'сюзерену' )|E] або навіть перевершує його, чому [opinion|El] [Concept( 'vassal', 'вассала' )|E] знижується Сильні васали вважають, що їх сюзерен слабкий і не здатний керувати державою.
+ game_concept_strong_vassal_desc:0 "$game_concept_strong_vassal$ за силою дорівнює [Concept( 'liege', 'сюзерену' )|E] або навіть перевершує його, чому [opinion|El] [Concept( 'vassal', 'васала' )|E] знижується. #weak Сильні васали вважають, що їх сюзерен слабкий і не здатний керувати державою.#!"
  game_concept_domain_limit:0 "Межа домену"
  game_concept_domain_limit_desc:0 "$game_concept_domain_limit$ визначає максимальну кількість володінь, яка формально може входити до [domain|El]. на $game_concept_domain_limit$ впливає безліч факторів, наприклад [stewardship_skill|El], [succession_law|El], а також ваш [primary_title|El].\n\nПеревищити $game_concept_domain_limit$ можна, але тоді [holdings|El] будуть приносити менший [income|El], а [opinions|El] [Concept( 'vassal', 'васалів' )|El]  знизиться."
  game_concept_vassal_limit:0 "Максимум васалів"
@@ -101,7 +101,7 @@
  game_concept_leases:0 "Орендовані наділи"
  game_concept_leased:0 "Давати в оренду"
  game_concept_lessee:0 "Орендар"
- game_concept_leasing_desc:1 "Малі [baronies|El] можуть $game_concept_leased$ землі, орендарями яких стають [holy_orders|El] або [clergy|El]. Орендовані баронства не приносять [taxes|El] і [levies|El] [Concept( ' lessee', 'орендарю' )|El] — їх отримує законний [holder|El].\n\nСвященний орден може брати в оренду [castle_holdings|El], а духовенство — [temple_holdings|El].\n\nОрендовані [holdings |El] залишаються частиною [realms|El] власника.
+ game_concept_leasing_desc:1 "Малі [baronies|El] можуть $game_concept_leased$ землі, орендарями яких стають [holy_orders|El] або [clergy|El]. Орендовані баронства не приносять [taxes|El] і [levies|El] [Concept( ' lessee', 'орендарю' )|El] — їх отримує законний [holder|El].\n\nСвященний орден може брати в оренду [castle_holdings|El], а духовенство — [temple_holdings|El].\n\nОрендовані [holdings |El] залишаються частиною [realms|El] власника."
  game_concept_succession:0 "Наслідування"
  game_concept_succession_desc:1 "$game_concept_succession$ відбувається, коли [ruler|El] помирає. При цьому [gold|El] і [titles|El] покійного ділять між собою [heirs|El], і частку кожного визначають [succession_laws|El]. \n\nГра триває, а головним героєм стає [player_heir|El] — навіть якщо деякі титули забрали інші персонажі. 'excommunication_war', 'війні проти відлучення' )|E].Тим не менш, у правителя немає законної можливості добровільно зректися влади.#!"
  game_concept_heir:0 "Спадкоємець"
@@ -128,7 +128,7 @@
  game_concept_councillor_desc:2 "Будь-який [ruler|El] покладається на думку радників. В [Concept( 'council', 'раді' )|E] шість посад: [chancellor|El], [marshal|El], [steward|El] , [spymaster|El], [court_chaplain|El] (або [realm_priest|El]) і, нарешті, [spouse|El] правителя.\n\nКожен радник відповідає за своє відомство і отримує різні [councillor_tasks|El]. \n\n[powerful_vassals|El] засмутяться, якщо не отримають одну з цих посад, тому часто доводиться вибирати: задобрити могутнього васала або призначити по-справжньому компетентного радника. сюзерена' )|E] дає вам бонуси, що збільшуються зі зростанням [Concept( 'rank', 'рангу' )|E] сюзерена."
  game_concept_councillor_task:0 "Завдання поради"
  game_concept_councillor_tasks:0 "Завдання поради"
- game_concept_councillor_task_desc:1 "$game_concept_councillor_tasks$ — важливі справи, якими займаються ваші [Concept( 'councillors', 'радники' )|E]. Завдання можуть мати спільний характер, а можуть торкатися певного [Concept( 'county'), ' |E] або [Concept( 'court', 'двір' )|E].\n\nЗалежно від ваших [Concept( 'relation', 'відносин' )|E] з радником час виконання завдання може збільшуватися або зменшуватися. \n\n#weak Слід врахувати, що радники не виконують завдання особисто, а лише координують процес.
+ game_concept_councillor_task_desc:1 "$game_concept_councillor_tasks$ — важливі справи, якими займаються ваші [Concept( 'councillors', 'радники' )|E]. Завдання можуть мати спільний характер, а можуть торкатися певного [Concept( 'county'), ' |E] або [Concept( 'court', 'двір' )|E].\n\nЗалежно від ваших [Concept( 'relation', 'відносин' )|E] з радником час виконання завдання може збільшуватися або зменшуватися. \n\n#weak Слід врахувати, що радники не виконують завдання особисто, а лише координують процес."
  game_concept_councillor_task_possible_side_effects:0 "Можливі побічні ефекти"
  game_concept_councillor_task_possible_side_effects_desc:2 "[councillor_task|E] з часом може принести несподівані результати. Вони можуть бути як хорошими, так і поганими — чим вище відповідний радник, тим вище ймовірність позитивного ефекту."
  game_concept_chancellor:0 "Канцлер"
@@ -136,7 +136,7 @@
  game_concept_chancellor_desc:0 "$game_concept_chancellor$ — [councillor|El], відповідальний за дипломатію, як у межах [realms|El], так і поза нею."
  game_concept_steward:0 "Керуючий"
  game_concept_stewards:0 "Управляючі"
- game_concept_steward_desc:0 "$game_concept_steward$ — [councillor|El], відповідальний за управління справами [Concept( 'domain', 'домена' )|E] в таких областях, як [taxation|El], [culture|El], [ development | El] тощо.
+ game_concept_steward_desc:0 "$game_concept_steward$ — [councillor|El], відповідальний за управління справами [Concept( 'domain', 'домена' )|E] в таких областях, як [taxation|El], [culture|El], [ development | El] тощо."
  game_concept_marshal:0 "Маршал"
  game_concept_marshals:0 "Маршали"
  game_concept_marshal_desc:0 "$game_concept_marshal$ — головний [commander|El] і [councillor|El], відповідальний за військову справу загалом."
