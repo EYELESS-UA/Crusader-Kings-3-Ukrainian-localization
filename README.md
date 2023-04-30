@@ -1,4 +1,4 @@
-# Crusader Kings 3 Ukrainizer
+# Crusader Kings 3 Ukrainian localization
 як встановити Українізатор із Github?
 
 1.Крок (Завантажте Архів проекта)
