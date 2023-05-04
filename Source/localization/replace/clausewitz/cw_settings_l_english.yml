@@ -35,7 +35,7 @@
  SETTING_SHADOW_MAP_RESOLUTION_TOOLTIP:2 "#T $SETTING_SHADOW_MAP_RESOLUTION$\n#!Визначає роздільну здатність візуалізації карт тіней, якщо тіні ввімкнено.\n\nНижчі налаштування можуть збільшити продуктивність."
  SETTING_DISPLAY_MODE:0 "Режим відображення"
  SETTING_DISPLAY_MODE_TOOLTIP:2 "#T $SETTING_DISPLAY_MODE$\n#!Determines how to display the game on your screen"
- SETTING_BLOOM:0 "Bloom"
+ SETTING_BLOOM:0 "Свічення"
  SETTING_MESH_LOD_BIAS:0 "Mesh LOD Quality"
  SETTING_MESH_LOD_FADE:0 "Mesh LOD Fade"
  SETTING_TERRAIN_SMOOTHING:1 "Згладжування рельєфу"
