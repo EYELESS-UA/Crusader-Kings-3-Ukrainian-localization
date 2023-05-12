@@ -13,7 +13,7 @@
  OPTIONS:0 "Налаштування"
  APPLY:0 "Застосувати"
  RESET:0 "Скинути"
- CREDITS:0 "Автори"
+ CREDITS:0 "Титри"
  QUIT:0 "Вийти"
  ACCOUNT:0 "Акаунт"
  FRONTEND_NO_CONTINUE_TT:0 "Збереження не знайдено"
