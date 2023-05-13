@@ -2,7 +2,7 @@
 l_english:
  # dlc_fp2_flavor_events_oltner
  rice_fields_modifier:0 "Rice Fields"
- rice_fields_modifier_desc:0 "Peasants in this province are growing nutritious rice, filling their bellies and inspiring new cuisine."
+ rice_fields_modifier_desc:1 "Peasants in this County are growing nutritious rice, filling their bellies and inspiring new cuisine."
  fp2_flavor.0001.t:0 "A Crop of New Ideas"
  fp2_flavor.0001.desc:0 "[rice_propagator.GetTitledFirstNamePossessive] capital is truly prosperous. The peasants of [rice_propagator_capital.GetNameNoTier] are fat and happy – and #EMP productive!#!\n\nThe Muslims have brought a new crop to their lands, rice. It is easy to grow and feeds the people well. Is this part of their success, I wonder? I would not mind more productive peasantry myself...\n\nPerhaps I should establish rice fields in my own capital? But how should I get started?"
  fp2_flavor.0001.a:0 "Gold will loosen [rice_propagator.GetFirstNamePossessiveNoTooltip] tongue."
@@ -655,7 +655,7 @@ l_english:
  fp2_struggle.2016.t:0 "To the foolish [ROOT.Char.GetFirstNameNoTooltip],"
  fp2_struggle.2016.desc:0 "I know you have murdered #DIE2 (at my request)#! my most-beloved envoy [fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip]. But worry not, as your loyal vassal I will keep this secret between us. So long as we continue to help each other out, like the good friends we are."
  fp2_struggle.2016.a:0 "I've been tricked! That [fp2_struggle_2015_murder_requester_vassal.Custom('InsultNoun')]!"
- fp2_struggle.2018.t:0 "$fp2_struggle.2017.t$: "
+ fp2_struggle.2018.t:1 "Chess for Friends"
  fp2_struggle.2018.t.outcome.a:0 "Forging a Friendship"
  fp2_struggle.2018.t.outcome.b:0 "Enjoying Company"
  fp2_struggle.2018.t.outcome.c:0 "An Unenjoyable Time"
@@ -899,11 +899,11 @@ l_english:
  fp2_james.0005.a:0 "Anything for the faith!"
  fp2_james.0005.b:0 "You're wasting my time."
  fp2_toledo_nights_modifier:0 "Locals Rulers Slaughtered"
- fp2_toledo_nights_modifier_desc:0 "The local religious rulers of this province were recently slaughtered."
+ fp2_toledo_nights_modifier_desc:1 "The local religious rulers of this County were recently slaughtered."
  fp2_toledo_nights_fallout_modifier:0 "Priesthood Slaughtered"
  fp2_toledo_nights_fallout_modifier_desc:0 "Religious leaders were recently slaughtered in a nearby town, causing repercussions across this realm."
  fp2_correctly_facing_church:0 "Correctly Oriented Temple"
- fp2_correctly_facing_church_desc:0 "The place of worship in this province has been rotated brick by brick to ensure proper worship."
+ fp2_correctly_facing_church_desc:1 "The place of worship in this County has been rotated brick by brick to ensure proper worship."
 
  # fp2_nick_events (all three files)
  fp2_yearly.4001.t:0 "The Sixth Hour"
