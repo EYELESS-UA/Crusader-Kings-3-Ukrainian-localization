@@ -53,6 +53,7 @@
  OPINION_MAGNIFICENCE:0 "[GetPietyLevelName( TARGET_CHARACTER.GetPietyLevel )|L] та [GetPrestigeLevelName( TARGET_CHARACTER.GetPrestigeLevel )|L]"
  OPINION_DIPLOMATIC:1 "Особиста [diplomacy|El]"
  OPINION_TYRANNY:0 "[tyrant|E]"
+ OPINION_STRIFE:0 "[strife|E]"
  OPINION_HOLDS_DE_JURE:0 "Хоче титул [TITLE.GetName]"
  OPINION_NON_RIGHTFUL_LIEGE_OPINION:0 "Не [rightful_liege|El]"
  OPINION_PARTIALLY_NON_RIGHTFUL_LIEGE_OPINION:0 "Не [rightful_liege|El]"

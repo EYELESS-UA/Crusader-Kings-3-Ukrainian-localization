@@ -50,6 +50,8 @@
  paternal:0 "по батькові"
  spouse_bride:0 "наречена"
  spouse_groom:0 "наречений"
+ relation_nemesis:0 "nemesis"
+ relation_rival:0 "rival"
 
  # Peasant Professions:
  peasant_profession_miller:0 "мірошник"

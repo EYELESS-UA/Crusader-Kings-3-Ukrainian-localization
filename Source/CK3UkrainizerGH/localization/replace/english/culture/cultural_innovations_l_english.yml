@@ -1,12 +1,12 @@
 ﻿l_english:
- cb_discount_prestige_10:0 "[prestige|E] за [casus_belli|El]: #P -10%#!"
- cb_discount_piety_10:0 "[Concept('piety', 'Благочестя' )|E] за [casus_belli|El]: #P -10%#!"
+ cb_discount_prestige_10:1 "[casus_belli|E] [prestige|E] Cost: [prestige_i]#P -10%#!"
+ cb_discount_piety_10:1 "[casus_belli|E] [piety|E] Cost: [piety_i]#P -10%#!"
  individual_county_de_jure_cb:0 "Отдельне [de_jure|El] [county|El]"
  individual_duchy_de_jure_cb:0 "Отдельне [de_jure|El] [duchy|El]"
  multiple_claim_wars:1 "Можна нав‘язати більше однієї [claims|El] за війну"
  multiple_claim_wars_others:0 "Можна нав‘язати іншому персонажу більше однієї [claims|El] за війну"
- fabricate_claim_speed:0 "Швидкість [Concept('councillor_task', 'завдання')|E] «Сфабрикувати претензію на графство»: #P +50%#!"
- promote_culture_speed:0 "Швидкість [Concept('councillor_task', 'завдання' )|E] «Поширювати культуру»: #P +15%#!"
+ fabricate_claim_speed:1 "#V $task_fabricate_claim$#! [councillor_task|E] Speed: #P +50%#!"
+ promote_culture_speed:1 "#V $task_promote_culture$#! [councillor_task|E] Speed: #P +15%#!"
  same_culture_group_reduced_factionalism:1 "[vassals|E], [Concept( 'culture', 'культура' )|E] яких має спільне [Concept( 'heritage', 'спадщина' )|E] з вашою, з меншою ймовірністю вступлять у [ Concept( 'independence_factions', 'фракцію сепаратистів' )|E]"
  reduce_develop_county_penalty_01:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 20"
  reduce_develop_county_penalty_02:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 35"
@@ -56,6 +56,8 @@
 
  innovation_bannus:0 "Бан"
  innovation_bannus_desc:0 "Бан - спочатку право командувати воїнами у битві. За межами поля бою бан дасть нашим правителям законний привід для збору великих армій, дозволивши примушувати вільних людей до участі у війні."
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('vanguard_attribute').GetName] [accolades|E]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
  innovation_quilted_armor:0 "Стіганий обладунок"
  innovation_quilted_armor_desc:0 "Зшиті з десятка і більше шарів льону, ці куртки можуть зупиняти навіть важкіе стріли. Це недорогий спосіб забезпечити бронею цілий полк.
@@ -94,9 +96,13 @@
 
  innovation_war_camels:0 "Бойові верблюди"
  innovation_war_camels_desc:0 "Верблюди від природи пристосовані для життя в посушливій місцевості, але до битв їх необхідно готувати спеціальним чином. Наші заводники та дресирувальники допоможуть нам створити небувалу кінноту, і ми станемо повелителями пісків."
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('camelry_attribute').GetName] [accolades|E]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
  innovation_elephantry:0 "Елефантерія"
  innovation_elephantry_desc:0 "Слонів важко ростити в неволі, і кожен махаут повинен зловити власного дикого слона і навчити його всьому необхідному. Використання слонів у битвах - справжнє мистецтво, і ми маємо намір досконало опанувати його."
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('elephantry_attribute').GetName] [accolades|E]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
  innovation_wootz_steel:0 "Тигельна сталь"
  innovation_wootz_steel_desc:0 "Також відомий як хіндувані або серик, цей багатий на вуглець метал відмінно підходить для створення зброї. Тигельною сталлю торгують по всьому світу: вважається, що це один з кращих видів сталі. З давніх часів цей матеріал викликав захоплення арабських, єгипетських, китайських і навіть римських покупців.
@@ -125,6 +131,8 @@
 
  innovation_mangonel:0 "Мангонелі"
  innovation_mangonel_desc:0 "Значно покращені метальні машини, мангонелі істотно потужніше і швидше звичайних важелевих машин."
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('besieger_attribute').GetName] [accolades|E]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
  innovation_burhs:0 "Бурхи"
  innovation_burhs_desc:0 "Бурхи - розкидані по сільській місцевості укріплені поселення, які відіграють найважливішу стратегічну роль. Їх можна використовувати як місця збору військ і як адміністративні центри."
@@ -137,6 +145,8 @@
 
  innovation_arched_saddle:0 "Сідла з луками"
  innovation_arched_saddle_desc:0 "Навіть най смертоносніша легка кіннота використовує далеко не всі можливості бойових коней. Сідла з луками дозволять нам відправляти в бій закутих у броню копійників, натиску яких не стримає жоден противник."
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('lancer_attribute').GetName] [accolades|E]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
  innovation_hereditary_rule:0 "Наслідне правління"
@@ -196,6 +206,8 @@
 
  innovation_advanced_bowmaking:0 "Покращене виготовлення цибулі"
  innovation_advanced_bowmaking_desc:0 "Хоча традиційно лучники самі виготовляли свої луки і дбали про них, ремісники почали робити луки нового типу, потужніші і складніші. Прийнявши їх на озброєння, ми перетворимо майстрів-цибулин на безцінний військовий ресурс."
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
@@ -297,4 +309,4 @@
  innovation_deccan_unity:0 "Єдність Деккана"
  innovation_deccan_unity_desc:0 "Приплив нових вірувань і релігій показав, що наше суспільство даремно чіплялося за місцеві традиції та переконання. Ми повинні об‘єднатися з іншими послідовниками нашої віри та створити сильну та надійну державу, яка витримаєбудь-які негаразди."
 
-  students_of_knighthood:0 "Діти, які завершили навчання з [Concept( 'education_focus', 'фокусом' )|E] «[martial|E]» отримують [Concept( 'trait', 'властивість' )|E] «$trait_education_martial_prowess$» ."
+ students_of_knighthood:1 "Діти, які завершили навчання з [Concept( 'education_focus', 'фокусом' )|E] «[martial|E]» отримують [Concept( 'trait', 'властивість' )|E] «$trait_education_martial_prowess$» ."

@@ -72,6 +72,8 @@
  unbeliever_foreign_believer:0 "чужоземець"
  unbeliever_heathen_plural:0 "язичники"
  unbeliever_infidel_plural:0 "невірні"
+ unbeliever_heretic_plural:0 "heretics"
+ unbeliever_unbeliever_plural:0 "unbelievers"
  character_afterlife_positive:0 "[ROOT.Char.GetFaith.PositiveAfterLife] стане місцем [ROOT.Char.GetHerHis] спокою"
  character_afterlife_negative:0 "[ROOT.Char.GetFaith.NegativeAfterLife] безумовно покарає [ROOT.Char.GetHerHis] за гріхи"
  character_afterlife_reincarnation:0 "скоро відродиться в новому вигляді"
@@ -89,11 +91,28 @@
  rite_prayer:0 "молитва"
  rite_worship:0 "богослужіння"
 
- # Pilgrimage Name
+ #Pilgrimage name
+ pilgrimage_default:0 "Pilgrimage"
+ pilgrimage_hajj:1 "Hajj"
+ 
+ #PilgrimageHeader
  pilgrimage_default_header:1 "Паломництво —"
  pilgrimage_hajj_header:1 "Хадж -"
+
+ #PilgrimageLength
+ pilgrimage_short_distance:0 "brief but intense"
+ pilgrimage_medium_distance:0 "respectable and well-paced"
+ pilgrimage_long_distance:0 "long and distinguished"
+ pilgrimage_very_long_distance:0 "very long and perilous"
+
+ #GetPilgrimSingularPlural
+ pilgrim_singular:0 "pilgrim"
+ pilgrim_plural:0 "pilgrims"
 
  # GHWs given by which tenet?
  ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
  ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
  ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
+
+ faithtaxexemption_the_church:0 "the Church"
+ faithtaxexemption_charities:0 "charities"

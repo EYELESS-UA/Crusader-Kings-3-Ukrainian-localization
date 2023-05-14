@@ -41,4 +41,17 @@ blackmail_events_l_english.yml | 100% |✅
 
 
 achievements_l_english.yml | 100% |✅
+
+
+#### Потрібна ретельна перевірка
 game_concepts_l_english.yml | 1784/1784 | ❌ [Треба повністю заново перекладати]
+council_l_english.yml| 100%| ❌ [Треба повністю заново перекладати]
+court_positions_l_english.yml
+title_view_l_english.yml
+language_events_l_english.yml
+character_descriptions_l_english.yml
+character_relations_l_english.yml
+conversation_subjects_l_english.yml
+court_loc_l_english.yml
+greeting_custom_loc_l_english.yml
+poetry_loc_l_english.yml

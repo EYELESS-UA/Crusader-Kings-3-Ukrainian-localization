@@ -15,6 +15,7 @@
  TITLE_STUDIO_ART_DIRECTOR:0 "#credits_subheader Художній керівник студії#!"
  TITLE_DESIGN_DIRECTOR:0 "#credits_subheader Директор по дизайну#!"
  TITLE_PRODUCTION_DIRECTOR:0 "#credits_subheader Директор з виробництва#!"
+ TITLE_PRODUCTION_LEAD:0 "#credits_subheader Production Lead#!"
 
  HEADER_DESIGN:0 "#credits_header ДИЗАЙН#!"
  TITLE_GAME_DESIGN:0 "#credits_subheader Дизайн гри#!"
@@ -79,12 +80,15 @@
  TITLE_PRODUCT_MARKETING_MANAGER:0 "#credits_subheaderМенеджер з маркетингу продукту#!"
  TITLE_CONTENT_PRODUCER:0 "#credits_subheader Продюсер контенту#!"
  TITLE_COMMUNITY_MANAGER:0 "#credits_subheader Менеджер спільноти#!"
+ TITLE_COMMUNITY:0 "#credits_subheader Community#!"
  TITLE_COMMUNITY_DEVELOPER:0 "#credits_subheader Розвиток спільноти#!"
  TITLE_COMMUNITY_AMBASSADOR:0 "#credits_subheader Представники спільноти#!"
  TITLE_PARTNER_ACCOUNT_MANAGER:0 "#credits_subheader Менеджер по роботі з партнерами#!"
+ TITLE_PARTNER_MARKETING_MANAGER:0 "#credits_subheader Partner Marketing Manager#!"
  TITLE_PERFORMANCE_MARKETING_MANAGER:0 "#credits_subheader Менеджер з Перформанс Маркетингу#!"
  TITLE_PR:0 "#credits_subheader ПІАР#!"
  TITLE_PR_LEAD:0 "#credits_subheader Керівник PR#!"
+ TITLE_PR_MANAGER:0 "#credits_subheader PR Manager#!"
  TITLE_ANALYTICS:0 "#credits_subheader Аналітика#!"
  TITLE_USER_RESEARCH:0 "#credits_subheader Дослідження користувачів#!"
  TITLE_LOCALIZATION_MANAGER:0 "#credits_subheader Менеджер з локалізації#!"
@@ -186,6 +190,7 @@
  TITLE_USER_RESEARCH_ADMINISTRATOR:0 "#credits_subheader Адміністратор відділу дослідження користувачів#!"
  TITLE_DATA_SCIENTISTS:0 "#credits_subheader Фахівці за даними#!"
  TITLE_VICE_PRESIDENT_SALES:0 "#credits_subheader Віце-президент із продажу#!"
+ TITLE_SALES:0 "#credits_subheader Sales#!"
  TITLE_COMMERCIAL_MANAGERS:0 "#credits_subheader Комерційні менеджери#!"
  TITLE_TRADE_MARKETING_MANAGER:0 "#credits_subheader Менеджер рекламного відділу#!"
  TITLE_ECOMMERCE_MANAGER:0 "#credits_subheader Менеджер електронної комерції#!"
@@ -243,6 +248,10 @@
  TITLE_LQA_TEST_LEAD:0 "#credits_subheader Керівник тестування контролю якості локалізації#!"
  TITLE_LQA_TEAM:0 "#credits_subheader Команда контролю якості локалізації#!"
  HEADER_LOCALIZATION_VENDORS_FREELANCERS:0 "#credits_header ПІДРЯДНИКИ ТА ФРИЛАНСЕРИ ЛОКАЛІЗАЦІЇ#!"
+ TITLE_LOCALIZATION_SERVICE_PROVIDER:0 "#credits_subheader Localization Service Provider#!"
+ TITLE_TRANSLATOR:0 "#credits_subheader Translator#!"
+ TITLE_LEAD_EDITOR:0 "#credits_subheader Lead Editor#!"
+ TITLE_REVIEWER:0 "#credits_subheader Reviewer#!"
  TITLE_GENERAL_ADMIN_MANAGEMENT:0 "#credits_subheader Генеральний адміністратор та менеджмент#!"
  TITLE_FRENCH:0 "#credits_subheader Французька#!"
  TITLE_SIMPLIFIED_CHINESE:0 "#credits_subheader Спрощена китайська#!"
@@ -263,6 +272,8 @@
 
  HEADER_SPECIAL_THANKS:0 "#credits_header Особлива подяка всім учасникам форуму, партнерам та тим, хто підтримував нас. Ваша підтримка безцінна!#!"
 
+ TITLE_SPECIAL_THANKS:0 "#credits_subheader Special Thanks#!"
+
  HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS:0 "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
  TITLE_VIKING_CHOIR:0 "#credits_subheader Viking Choir#!"
 
@@ -279,4 +290,5 @@
  TITLE_TECHNICAL_ANIMATOR:0 "#credits_subheader Технічний аніматор#!"
  TITLE_MUSIC_BUSINESS_DIRECTOR:0 "#credits_subheader Бізнес-директор з музики#!"
  HEADER_CRUSADER_KINGS_3_FRIENDS_AND_FOES:0 "#credits_title CRUSADER KINGS III: FRIENDS & FOES#!"
- HEADER_CRUSADER_KINGS_3_ROBE: "#credits_title CRUSADER KINGS III: ROBE#!"
+ HEADER_CRUSADER_KINGS_3_ROBE:0 "#credits_title CRUSADER KINGS III: ROBE#!"
+ HEADER_CRUSADER_KINGS_3_TOURS_AND_TOURNAMENTS:0 "#credits_title CRUSADER KINGS III: TOURS AND TOURNAMENTS#!"
