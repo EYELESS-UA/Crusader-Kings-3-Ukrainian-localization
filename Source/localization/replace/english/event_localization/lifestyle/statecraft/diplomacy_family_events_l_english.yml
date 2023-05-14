@@ -152,6 +152,7 @@
  diplomacy_family.2253.desc.b:0 "My plan worked flawlessly! [lover.GetFirstName] is free from that uncouth [spouse.Custom('InsultNoun')], [spouse.GetTitledFirstName], and we could not be more pleased.\n\n[lover.GetSheHe|U] rushed to my rooms as soon as [lover.GetSheHe] received my letter to express [lover.GetHerHis] gratitude in the sweetest manner."
  diplomacy_family.2253.a:0 "Now we can finally be together forever!"
  diplomacy_family.2253.b:0 "The things I do for family..."
+ diplomacy_family.2253.c:0 "Everyone shall know about our love!"
  diplomacy_family.2254.desc.a:0 "I hoped [lover.GetFirstName] would thank me for petitioning [house_head.GetTitledFirstName] to divorce [lover.GetHerHim] from [spouse.GetFirstName], but that is far from the case.\n\n[lover.GetSheHe|U] is absolutely livid about my meddling in [lover.GetHerHis] marital life, and does not wish to have anything to do with me anymore."
  diplomacy_family.2254.desc.b:0 "I hoped [lover.GetFirstName] would thank me for arranging a divorce for [lover.GetHerHim], but that is far from the case.\n\n[lover.GetSheHe|U] is absolutely livid about my meddling in [lover.GetHerHis] marital life, and does not wish to have anything to do with me anymore."
  diplomacy_family.2254.a:0 "It is not about us, it is about family!"

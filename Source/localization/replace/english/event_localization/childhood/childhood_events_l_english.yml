@@ -4,7 +4,7 @@
  childhood.0002.loud:0 "[crush.GetSheHe|U] usually demands a lot of attention, but I do not mind. Every time I see [crush.GetHerHim], my day is made better!"
  childhood.0002.quiet:0 "[crush.GetSheHe|U] is a little shy most of the time, yet [crush.GetSheHe] still makes every time I see [crush.GetHerHim] special!"
  childhood.0002.fallback:0 "Every time I see [crush.GetHerHim] my day is made better, and I wish we could play all the time."
- childhood.0002.end:0 "\n\nWhenever our eyes meet, my stomach fills up with butterflies... Oh, I wonder if [crush.GetSheHe] would like this [ROOT.Char.Custom('get_region_flower_type')] that I found?"
+ childhood.0002.end:1 "\n\nWhenever our eyes meet, my stomach fills up with butterflies... Oh, I wonder if [crush.GetSheHe] would like this [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] that I found?"
  childhood.0002.a:1 "This flower is for you, [crush.GetFirstNameNoTooltip]!"
  childhood.0002.b:0 "No... we should just be friends."
  crush_returned:0 "[crush.GetFirstNameNoTooltip] likes you too!"

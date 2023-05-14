@@ -256,6 +256,25 @@
  petition_liege.9999.gregarious:0 "This seems like a good opportunity to mingle with my court."
  petition_liege.9999.every_guest_and_courtier:0 "Every Guest and Courtier:"
 
+ petition_liege.9001.t:0 "$petition_liege_header$ Switching Tactics"
+ petition_liege.9001.desc:0 "I can no longer petition [petition_liege.GetTitledFirstName] to [ROOT.Char.Custom( 'GetPetitionType' )|l] Nevertheless, I have traveled all the way here to [petition_liege.GetCapitalLocation.GetName] to gain [petition_liege.GetHerHis] ear and I will not pass up such an opportunity. I could ask that [petition_liege.GetSheHe]..."
+ petition_liege.9001.council_seat:0 "Appoint me to their council."
+ petition_liege.9001.pay_debt:0 "Settle my debts."
+ petition_liege.9001.war_aid:0 "Provide war assistance."
+ petition_liege.9001.vassal_war:0 "Enforce peace with my fellow vassals."
+ petition_liege.9001.faction_war:0 "Dismantle a powerful faction."
+ petition_liege.9001.county_control:0 "Send bailiffs to help restore control over unruly counties."
+ petition_liege.9001.county_convert:0 "Sponsor priests to help convert counties in my realm."
+ petition_liege.9001.county_opinion:0 "Pay a royal visit to increase popular opinion in my realm."
+ petition_liege.9001.fortify_border:0 "Fortify my borders."
+ petition_liege.9001.title_liege:0 "Grant on of my claims."
+ petition_liege.9001.title_vassal:0 "Transfer Claim"
+ petition_liege.9001.construct_city:0 "Fund a new city in my realm."
+ petition_liege.9001.construct_temple:0 "Fund a new temple in my realm."
+ petition_liege.9001.development:0 "Resettle some of their subjects in my realm."
+ petition_liege.9001.fallback:0 "Simply fill my coffers."
+ petition_liege.0101.accept.fallback:0 "Very well, your coffers shall be filled."
+
  petition_liege_block_firing_councillor_effect_tt:0 "[petition_vassal.GetShortUIName|U] cannot be removed from [council|E] for 5 years"
 
  ### Modifiers ###
@@ -287,3 +306,5 @@
  petition_liege_title_courtier:0 "courtier"
 
  petition_liege_second_if_tt:0 "#bold If [TARGET_CHARACTER.GetTitledFirstName] accepts:#!"
+ 
+ petition_liege_costs_refunded:0 "$petition_liege_decision$ costs refunded"

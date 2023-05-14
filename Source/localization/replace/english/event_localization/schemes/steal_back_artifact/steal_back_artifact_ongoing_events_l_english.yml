@@ -1,5 +1,4 @@
 ﻿l_english:
- # TODO_CD ADD THE CHARACTER TO THE ANTIQUARIAN TITLE
  steal_back_artifact_event_title:1 "Steal Artifact:"
  steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$ The Antiquarian"
  steal_back_artifact_ongoing.1001.desc:0 "One of the obvious hurdles to retrieving the artifact, is [target.GetTitledFirstNamePossessive] antiquarian, [antiquarian.GetTitledFirstName].\n\nThere are, of course, multiple ways to... #EMP deal#! with a person, but I wonder if [antiquarian.GetFirstNameNoTooltip] is the type of person whom I could persuade to look the other way by offering a suitable bribe."

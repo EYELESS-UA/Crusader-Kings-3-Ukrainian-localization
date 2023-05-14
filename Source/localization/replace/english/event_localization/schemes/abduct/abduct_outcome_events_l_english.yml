@@ -4,15 +4,15 @@
  do_not_execute_abduct_tooltip:0 "I do not attempt the Abduction"
 
  abduct_outcome.1001.t:0 "$abduct_event_title$ Highway Attack"
- abduct_outcome.1001.opening:0 "My agents tell me that [target.GetTitledFirstName] is planning to travel"
- abduct_outcome.1001.arrival:0 "from [departure.GetNameNoTierNoTooltip] to [arrival.GetNameNoTierNoTooltip]."
- abduct_outcome.1001.no_arrival:0 "within the [departure.GetNameNoTier]."
+ abduct_outcome.1001.opening:1 "My agents tell me that [target.GetTitledFirstName] is traveling"
+ abduct_outcome.1001.arrival:1 "from [departure.GetNameNoTooltip] to [arrival.GetNameNoTooltip]."
+ abduct_outcome.1001.no_arrival:1 "within the [departure.GetNameNoTooltip]."
  abduct_outcome.1001.ending:0 "\n\nI have arranged for some brigands to interrupt [target.GetHerHis] little journey and make sure [target.GetSheHe] arrives here instead."
  abduct_outcome.1001.a:0 "Soon [target.GetSheHe] will be at my mercy!"
  abduct_outcome.1001.b:0 "No, the risk is too great."
 
  abduct_outcome.1002.t:0 "$abduct_event_title$ Under Way"
- abduct_outcome.1002.desc:1 "A perfect opportunity has presented itself! [target.GetTitledFirstName] will be traveling from the [target.Custom('ResidenceBuilding')] to the nearby town, with nary any guards.\n\n[target.GetSheHe|U] must think [target.GetHerselfHimself] safe..."
+ abduct_outcome.1002.desc:2 "A perfect opportunity has presented itself! [target.GetTitledFirstName] is traveling from [departure.GetNameNoTooltip] to [arrival.GetNameNoTooltip], with nary any guards.\n\n[target.GetSheHe|U] must think [target.GetHerselfHimself] safe..."
  abduct_outcome.1002.a:0 "The perfect time to strike!"
 
  abduct_outcome.1003.t:0 "$abduct_event_title$ Unwelcome Guests"
