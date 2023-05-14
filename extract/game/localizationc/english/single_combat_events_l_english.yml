@@ -69,6 +69,7 @@
 
  ## Other, Duel End Result Tooltips
  single_combat.result.tt.temporary_modifiers_removed:0 "All temporary combat [character_modifiers|E] have been removed"
+ single_combat.result.tt.practice_no_wounds:0 "As this was a restrained bout, neither of you are wounded"
 
  ##################################################
  # Status Update Fragments

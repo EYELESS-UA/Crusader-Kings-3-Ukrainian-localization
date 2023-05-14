@@ -119,6 +119,8 @@
  faith_conversion_cost_fervor_difference:0 "Difference in [fervor|E]"
  faith_creation_cost_fervor_impact:0 "From current [fervor|E]"
 
+ faith_conversion_cost_witch_event:0 "You have studied this [faith|E]'s Witchcraft"
+
  #Holy Sites: Christian
  holy_site_jerusalem_name:0 "Jerusalem"
  holy_site_jerusalem_effect_name:0 "From [holy_site|E] #weak ($holy_site_jerusalem_name$)#!"
@@ -620,6 +622,8 @@
  doctrine_deviancy_shunned_desc:0 "There are some sexual practices which are simply abnormal and strange. It stands to reason that people with those desires are equally abnormal and strange."
  doctrine_deviancy_accepted_name:0 "Accepted"
  doctrine_deviancy_accepted_desc:0 "Love is beautiful and sacred, no matter the form it takes. Everyone should be permitted to love and do as thou wilt."
+ doctrine_deviancy_virtuous_name:0 "Virtuous"
+ doctrine_deviancy_virtuous_desc:0 "The pleasures of the flesh bring us closer to the divine, and thus those who are unshackled by conventional desires are the height of virtue in our faith."
  doctrine_parameter_deviancy_illegal:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_deviancy_shunned:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_deviancy_accepted:0 "Characters with the [GetTrait('deviant').GetName( GetPlayer )] [trait|E] are fully accepted"
@@ -631,6 +635,8 @@
  doctrine_witchcraft_shunned_desc:0 "The divine have the rightful jurisdiction over supernatural forces in this world, so any attempt to coerce those forces into obeying a mortal's will is inherently misguided."
  doctrine_witchcraft_accepted_name:0 "Accepted"
  doctrine_witchcraft_accepted_desc:0 "Magic fills the world around us, and it is our right and our privilege to engage with it the way our ancestors did."
+ doctrine_witchcraft_virtuous_name:0 "Virtuous"
+ doctrine_witchcraft_virtuous_desc:0 "To practice witchcraft is to put one's own soul in danger from evil spirits. For their bravery in this necessary aspect of keeping our own souls clean, witches are to be venerated."
  doctrine_parameter_witchcraft_illegal:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are [criminals|E]"
  doctrine_parameter_witchcraft_shunned:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are [shunned|E]"
  doctrine_parameter_witchcraft_accepted:0 "Characters with the [GetTrait('witch').GetName( GetPlayer )] [trait|E] are fully accepted"
@@ -984,3 +990,24 @@
  hostility_astray_tooltippable:0 "[GetHostilityLevelName( '(int32)1' )|V]"
  hostility_hostile_tooltippable:0 "[GetHostilityLevelName( '(int32)2' )|V]"
  hostility_evil_tooltippable:0 "[GetHostilityLevelName( '(int32)3' )|V]"
+
+
+ doctrine_pilgrimage_name:0 "Pilgrimage Attitude"
+ doctrine_pilgrimage_forbidden_name:0 "Forbidden"
+ doctrine_pilgrimage_forbidden_desc:0 "The presence of [ROOT.Faith.HighGodName] can be felt everywhere and the notion that certain places are more divine than others is nothing short of heresy."
+ doctrine_pilgrimage_encouraged_name:0 "Encouraged"
+ doctrine_pilgrimage_encouraged_desc:0 "This faith encourages its members to visit earthly locations deemed to be of spiritual significance as a means of demonstrating reverence for [ROOT.Faith.PantheonTerm]."
+ doctrine_pilgrimage_mandatory_name:0 "Mandatory"
+ doctrine_pilgrimage_mandatory_desc:0 "It is expected that all able-bodied [ROOT.Faith.GetAdherentNamePlural] complete a spiritual journey to a holy place as soon as they are able. Failing to do so represents a failure to submit oneself to [ROOT.Faith.HighGodName]."
+ doctrine_pilgrimage_mandatory_hajj_name:0 "Hajj"
+ doctrine_pilgrimage_mandatory_hajj_desc:0 "It is expected that all able-bodied Muslims complete a Hajj to Mecca during their lifetime. While special exemptions are often made, any [ROOT.Faith.GetAdherentNameNoTooltip] who fails to complete a Hajj will be looked upon with skepticism."
+ forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
+ doctrine_parameter_forbidden_from_pilgrimage:0 "Does not have access to the [pilgrimage|E] [activity|E]"
+ can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
+ doctrine_parameter_can_go_on_pilgrimage:0 "Has access to the [pilgrimage|E] [activity|E]"
+ mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_pilgrimage:1 "The [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] grants additional bonuses and the [pilgrimage|E] [activity|E] grants extra [piety|E] upon completion"
+ mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+ doctrine_parameter_mandatory_hajj:1 "The [GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E] grants additional bonuses and the [hajj|E] [activity|E] grants extra [piety|E] upon completion"
+ doctrine_parameter_basic_pilgrimage_rewards:0 ""
+

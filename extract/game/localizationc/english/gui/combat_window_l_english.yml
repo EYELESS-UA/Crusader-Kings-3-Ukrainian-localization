@@ -70,8 +70,8 @@
  COMBAT_WINDOW_MAA_TT_EFFICIENCY:1 "@warning_icon!Deals [CombatMaaItem.GetCountered|0-%] damage due to being countered"
  COMBAT_WINDOW_MAA_TT_TERRAIN_GOOD:0 "#I +Fighting in favorable terrain #!"
  COMBAT_WINDOW_MAA_TT_TERRAIN_BAD:0 "#X -Fighting in bad terrain #!"
- COMBAT_WINDOW_MAA_TT_SCREEN:2 "Screen effect per full regiment: [MenAtArmsType.GetStat(GetPlayer, 'screen')|0+=]"
- COMBAT_WINDOW_MAA_TT_PURSUIT:2 "Pursuit effect per full regiment: [MenAtArmsType.GetStat(GetPlayer, 'pursuit')|0+=]"
+ COMBAT_WINDOW_MAA_TT_SCREEN:3 "Screen effect per full regiment: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'screen')|0+=]"
+ COMBAT_WINDOW_MAA_TT_PURSUIT:3 "Pursuit effect per full regiment: [MenAtArmsType.GetStat(GetPlayer, Province.Self, 'pursuit')|0+=]"
  COMBAT_WINDOW_NO_MAA:0 "No [men_at_arms|E]"
  CV_TT_RELATIVE_SOLDIERS:0 "#T Relative Strength#!\n[CombatWindow.GetLeftCombatSide.GetComposition.GetSoldierCountString] vs [CombatWindow.GetRightCombatSide.GetComposition.GetSoldierCountString] [soldiers|E]\n[CombatWindow.GetCombat.GetCombatWidthBreakdown]"
  COMBAT_WINDOW_PHASE_MANEUVER_TT:1 "#T Maneuver Phase\n#!Both sides are preparing for Battle"
@@ -87,4 +87,3 @@
  CW_NO_KNIGHTS:0 "No [knights|E]"
  COMBAT_WINDOW_NO_COMMANDER:0 "No Commander"
  
-

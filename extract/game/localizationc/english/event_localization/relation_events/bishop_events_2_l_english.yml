@@ -16,7 +16,7 @@
  bishop.2001.failure.c.desc.tt:0 "[scoped_prisoner.GetFirstName] eludes my assassins!"
  bishop.2001.d:0 "This is my prisoner, [scoped_prisoner.GetSheHe] will remain in my dungeon!"
  
- bishop.2002.t:0 "A [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Family"
+ bishop.2002.t:1 "My [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Family"
  bishop.2002.desc.b:0 "I raise my hand to call for [scoped_relative.GetFirstName] from across the hall, yet my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_relative'))] only returns an embarrassed glance before rushing off."
  bishop.2002.desc.c:0 "I look around the dinner table, trying to start a conversation, yet find only embarrassed glances and heads turning away."
  bishop.2002.desc.a:0 "\n\nMy own family has been turned against me by that [scoped_bishop.Custom('InsultAdjective')] [scoped_bishop.Custom('InsultNoun')] [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName]. [scoped_bishop.GetSheHe|U] has taken up a habit of whispering lies in my relatives' ears whenever they go to [scoped_bishop.GetHerHim] for spiritual guidance, claiming that I am a wicked [ROOT.Char.GetTitleTierName] and that [ROOT.GetCharacter.GetFaith.HighGodName] cursed our House."
@@ -39,3 +39,9 @@
  bishop.2002.everypiousrelative.custom:0 "Every pious [scoped_bishop.GetFaith.GetAdjective] [family_member|E] of mine"
  bishop.2003.countyunrest.custom:0 "Every [scoped_bishop.GetFaith.GetAdjective] [county|E] in my [domain|E]"
  bishop.2003.everytheocrat.custom:0 "Every [scoped_bishop.GetFaith.GetAdjective] [theocratic|E] vassal"
+ 
+ bishop.2004.t:0 "In the Eyes of Zealots"
+ bishop.2004.desc:0 "My [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] has complained about my supposed 'lack of piety' during every sermon as of late.\n\nApparently [scoped_bishop.GetSheHe] has gone so far as to call me an 'impious [root_scope.Custom('InsultNoun')]', and my more zealous vassals are starting to listen to [scoped_bishop.GetHerHim]..."
+ bishop.2004.theologian:0 "These are blatant lies and slander!"
+ bishop.2004.a:0 "I suppose another 'donation in good faith' might help..."
+ bishop.2004.b:0 "Bah! Let them believe what they will."

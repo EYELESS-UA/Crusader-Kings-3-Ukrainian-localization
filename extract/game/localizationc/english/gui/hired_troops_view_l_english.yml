@@ -52,5 +52,5 @@
 
  MERCENARY_COMPANY_COST_BANKRUPTCY:0 "@warning_icon!#X You cannot hire this [mercenary_company|E] since it will put you too much into [debt|E]#!"
  MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED:0 "@warning_icon!#X You cannot afford to extend this [mercenary_company|E] contract since it will put you too much into [debt|E]#!"
- MERCENARY_COMPANY_COST_DEBT:0 "@warning_icon!#X Hiring this [mercenary_company|E] will put you in [debt|E]#!"
+ MERCENARY_COMPANY_COST_DEBT:0 "@alert_icon! #alert_trial Hiring this [mercenary_company|E] will put you in [debt|E]#!"
  MERCENARY_COMPANY_COST_DEBT_HIRED:0 "@warning_icon!#X Extending this [mercenary_company|E] contract will put you in [debt|E]#!"

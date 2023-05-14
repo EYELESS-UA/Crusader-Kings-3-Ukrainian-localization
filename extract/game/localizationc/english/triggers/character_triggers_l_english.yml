@@ -62,6 +62,7 @@
  NOT_I_HAVE_TRAIT_GROUP_TRIGGER:1 "You do #bold not#! have a Trait from the [TRAIT_GROUP.GetName] group"
  THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U] has a Trait from the [TRAIT_GROUP.GetName] group"
  NOT_THEY_HAVE_TRAIT_GROUP_TRIGGER:0 "[CHARACTER.GetShortUIName|U] does #bold not#! have a Trait from the [TRAIT_GROUP.GetName] group"
+ HAS_TRAIT_GROUP_TRIGGER_NONE:0 "Has a Trait from the [TRAIT_GROUP.GetName] group"
 
  HAS_CHARACTER_MODIFIER_TRIGGER:0 "Has Modifier: $MODIFIER|V$"
  NOT_HAS_CHARACTER_MODIFIER_TRIGGER:0 "Does #bold not#! have Modifier: $MODIFIER|V$"
@@ -289,8 +290,8 @@
  I_AM_IN_ACTIVITY_TRIGGER:1 "You are at an [activity|E] already"
  THEY_ARE_IN_ACTIVITY_TRIGGER:0 "[CHARACTER.GetShortUIName|V] is at an [activity|E] already"
 
- THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V] has the $FLAG|V$ flag"
- NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:0 "[CHARACTER.GetShortUIName|V] does #bold not#! have the $FLAG|V$ flag"
+ THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU] [Select_CString( CHARACTER.IsLocalPlayer, 'have', 'has' )] the $FLAG|V$ flag"
+ NOT_THEY_HAVE_CHARACTER_FLAG_TRIGGER:1 "[CHARACTER.GetShortUIName|VU] does #bold not#! [Select_CString( CHARACTER.IsLocalPlayer, 'have', 'has' )] the $FLAG|V$ flag"
 
  I_HAVE_A_HOOK_ON:1 "You have a [hook|E] on [TARGET_CHARACTER.GetShortUIName]"
  I_DO_NOT_HAVE_A_HOOK_ON:1 "You do #bold not#! have a [hook|E] on [TARGET_CHARACTER.GetShortUIName]"
@@ -481,6 +482,20 @@
  MY_PROWESS_IS_NOT_LESS_THAN:0 "Your [prowess|E] is [prowess_i]$NUM|V0$ or above"
  THEIR_PROWESS_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [prowess|E] is [prowess_i]$NUM|V0$ or above"
 
+ PROWESS_NO_PORTRAIT_GLOBAL:0 "[natural_prowess|E]"
+ PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[natural_prowess|E] is [prowess_i]$NUM|V0$ or above"
+ MY_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "Your [natural_prowess|E] is [prowess_i]$NUM|V0$ or above"
+ THEIR_PROWESS_NO_PORTRAIT_IS_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E] is [prowess_i]$NUM|V0$ or above"
+ PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[natural_prowess|E] is less than [prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "Your [natural_prowess|E] is less than [prowess_i]$NUM|V0$"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_AT_LEAST:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E] is less than [prowess_i]$NUM|V0$"
+ PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "Has [natural_prowess|E] below [prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_LESS_THAN:0 "Your [natural_prowess|E] is less than [prowess_i]$NUM|V0$"
+ THEIR_NO_PORTRAIT_PROWESS_IS_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E] is less than [prowess_i]$NUM|V0$"
+ PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "Has [natural_prowess|E] above [prowess_i]$NUM|V0$"
+ MY_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "Your [natural_prowess|E] is [prowess_i]$NUM|V0$ or above"
+ THEIR_PROWESS_NO_PORTRAIT_IS_NOT_LESS_THAN:0 "[CHARACTER.GetShortUINamePossessive|V] [natural_prowess|E] is [prowess_i]$NUM|V0$ or above"
+
  CAN_ATTACK_IN_HIERARCHY_GLOBAL:0 "Can attack [TARGET_CHARACTER.GetShortUIName] as [TARGET_CHARACTER.GetSheHe] is [independent|E], the [liege|E], or under the same [liege|E]."
  CAN_NOT_ATTACK_IN_HIERARCHY_GLOBAL:0 "Can #bold not#! attack [TARGET_CHARACTER.GetShortUIName] as [TARGET_CHARACTER.GetSheHe] is not [independent|E], the [liege|E], or under the same [liege|E]."
  CAN_ATTACK_IN_HIERARCHY_FIRST_THIRD:0 "[CHARACTER.GetShortUIName|U] can attack [TARGET_CHARACTER.GetShortUIName] as [TARGET_CHARACTER.GetSheHe] is [independent|E], the [liege|E], or under the same [liege|E]"
@@ -494,22 +509,30 @@
  HAS_NUM_GOOD_CONGENITAL_TRAITS:0 "Has $NUM|V0$ good [congenital|E] traits"
  I_HAVE_NUM_GOOD_CONGENITAL_TRAITS:1 "You have $NUM|V0$ good [congenital|E] traits"
 
+ CHARACTER_HAS_NUM_SINFUL_TRAITS:0 "[CHARACTER.GetShortUIName|U] has $NUM|V0$ good [sinful|E] traits"
+ HAS_NUM_SINFUL_TRAITS:0 "Has $NUM|V0$ good [sinful|E] traits"
+ I_HAVE_NUM_SINFUL_TRAITS:0 "You have $NUM|V0$ good [sinful|E] traits"
+
+ CHARACTER_HAS_NUM_VIRTUOUS_TRAITS:0 "[CHARACTER.GetShortUIName|U] has $NUM|V0$ good [virtuous|E] traits"
+ HAS_NUM_VIRTUOUS_TRAITS:0 "Has $NUM|V0$ good [virtuous|E] traits"
+ I_HAVE_NUM_VIRTUOUS_TRAITS:0 "You have $NUM|V0$ good [virtuous|E] traits"
+
  NUMBER_OF_TRAITS_TRIGGER:0 "Number of traits that [CHARACTER.GetShortUIName|U] has: $NUM|V0$"
  NUMBER_OF_TRAITS_IN_COMMON_WITH_TARGET_TRIGGER:0 "Number of traits in common with [TARGET_CHARACTER.GetShortUIName|U]: $NUM|V0$"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS:0 "[CHARACTER.GetShortUIName|U] has $NUM|V0$ opposing [traits|E]"
  CHARACTER_HAS_NUM_OPPOSING_TRAITS_ON_TARGET:0 "Number of opposing traits with [TARGET_CHARACTER.GetShortUIName|U]: $NUM|V0$"
  CHARACTER_HAS_NUM_SAME_TRAITS:0 "[CHARACTER.GetShortUIName|U] has $NUM|V0$ [traits|E] in common"
 
- HAS_REALM_SIZE_TRIGGER:0 "The entire realm's [realm_size|E] is $NUM|V$ or more"
- NOT_HAS_REALM_SIZE_TRIGGER:0 "The entire realm's [realm_size|E] is less than $NUM|V$ #weak ($CURRENT_VALUE$)#!"
- I_HAVE_REALM_SIZE_TRIGGER:0 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is $NUM|V$ or more #weak ($CURRENT_VALUE$)#!"
- THEY_HAVE_REALM_SIZE_TRIGGER:0 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is $NUM|V$ or more #weak ($CURRENT_VALUE$)#!"
- NOT_I_HAVE_REALM_SIZE_TRIGGER:0 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is less than $NUM|V$ #weak ($CURRENT_VALUE$)#!"
- NOT_THEY_HAVE_REALM_SIZE_TRIGGER:0 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is less than $NUM|V$ #weak ($CURRENT_VALUE$)#!"
+ HAS_REALM_SIZE_TRIGGER:1 "The entire realm's [realm_size|E] is $NUM|V0$ or more"
+ NOT_HAS_REALM_SIZE_TRIGGER:1 "The entire realm's [realm_size|E] is less than $NUM|V0$ #weak ($CURRENT_VALUE|V0$)#!"
+ I_HAVE_REALM_SIZE_TRIGGER:1 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is $NUM|V0$ or more #weak ($CURRENT_VALUE|V0$)#!"
+ THEY_HAVE_REALM_SIZE_TRIGGER:1 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is $NUM|V0$ or more #weak ($CURRENT_VALUE|V0$)#!"
+ NOT_I_HAVE_REALM_SIZE_TRIGGER:1 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is less than $NUM|V0$ #weak ($CURRENT_VALUE|V0$)#!"
+ NOT_THEY_HAVE_REALM_SIZE_TRIGGER:1 "The [realm_size|E] of [CHARACTER.GetTopLiege.GetPrimaryTitle.GetName] is less than $NUM|V0$ #weak ($CURRENT_VALUE|V0$)#!"
 
- HAS_SUB_REALM_SIZE_TRIGGER:0 "[realm_size|E] is $NUM|V$ or more #weak ($CURRENT_VALUE$)#!"
- I_HAVE_SUB_REALM_SIZE_TRIGGER:1 "Your [realm_size|E] is $NUM|V$ or more #weak ($CURRENT_VALUE$)#!"
- THEY_HAVE_SUB_REALM_SIZE_TRIGGER:0 "[CHARACTER.GetShortUINamePossessive] [realm_size|E] is $NUM|V$ or more #weak ($CURRENT_VALUE$)#!"
+ HAS_SUB_REALM_SIZE_TRIGGER:1 "[realm_size|E] is $NUM|V0$ or more #weak ($CURRENT_VALUE|V0$)#!"
+ I_HAVE_SUB_REALM_SIZE_TRIGGER:2 "Your [realm_size|E] is $NUM|V0$ or more #weak ($CURRENT_VALUE|V0$)#!"
+ THEY_HAVE_SUB_REALM_SIZE_TRIGGER:1 "[CHARACTER.GetShortUINamePossessive] [realm_size|E] is $NUM|V0$ or more #weak ($CURRENT_VALUE|V0$)#!"
 
  ANY_SUB_REALM_TITLE:0 "Any [realm|E] [title|E]:"
  NOT_ANY_SUB_REALM_TITLE:1 "Does #bold not#! have any [realm|E] [title|E]:"
@@ -569,6 +592,7 @@
  CHARACTER_IS_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U] is [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]"
  I_AM_THE_SPOUSE_OF_CHARACTER:1 "You are [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]"
  IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "Is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]"
+ IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION:0 "Is #bold not#! [liege.GetShortUINamePossessive] [spouse|E]"
  CHARACTER_IS_NOT_THE_SPOUSE_OF_CHARACTER:0 "[CHARACTER.GetShortUIName|U] is #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]"
  I_AM_NOT_THE_SPOUSE_OF_CHARACTER:1 "You are #bold not#! [TARGET_CHARACTER.GetShortUINamePossessive] [spouse|E]"
 
@@ -792,6 +816,7 @@
  IS_NOT_VASSAL_OR_BELOW_OF_CHARACTER_TRIGGER:0 "Is #bold not#! your vassal or below"
 
  IS_CLERGY_TRIGGER:0 "Is a member of the [clergy|E]"
+ NOT_IS_CLERGY_TRIGGER:0 "Is #bold not#! a member of the [clergy|E]"
  IS_HOSTILE_TRIGGER:0 "Is hostile"
  TIER_DIFFERENCE_TRIGGER:0 "The tier difference between [TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName|U] is: $NUM|V0$"
 
@@ -807,6 +832,9 @@
  IS_TWIN_OF_CHARACTER_TRIGGER:0 "Is [CHARACTER.GetShortUINamePossessive|U] twin"
  IS_COUSIN_OF_CHARACTER_TRIGGER:0 "Is [CHARACTER.GetShortUINamePossessive|U] cousin"
  IS_A_KNIGHT_TRIGGER:0 "Serves as a [knight|E]"
+ CHARACTER_IS_A_KNIGHT_TRIGGER:0 "This character serves as a [knight|E]"
+ NOT_CHARACTER_IS_A_KNIGHT_TRIGGER:0 "This character does not serve as a [knight|E]"
+ I_AM_A_KNIGHT_TRIGGER:0 "I serve as a [knight|E]"
  IS_A_KNIGHT_OF_CHARACTER_TRIGGER:0 "Serves as a [knight|E] for [CHARACTER.GetShortUIName|U]"
  IS_EMPLOYER_OF_CHARACTER_TRIGGER:0 "Is employed by [CHARACTER.GetShortUIName|U]"
  IS_HEIR_OF_CHARACTER_TRIGGER:0 "Is [CHARACTER.GetShortUINamePossessive|U] heir"
@@ -911,9 +939,31 @@
  HAS_SPAWNED_COURT_EVENTS_FIRST:0 "You have unhandled [court_events|E]"
  NOT_HAS_SPAWNED_COURT_EVENTS_FIRST:0 "You do #bold not#! have unhandled [court_events|E]"
 
- FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is on cooldown for you #weak (Expires: [DATE.GetStringLong])#!"
- NOT_FIRST_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is #bold not#! on cooldown for [CHARACTER.GetShortUIName]"
- THIRD_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is on cooldown for [CHARACTER.GetShortUIName] #weak (Expires: [DATE.GetStringLong])#!"
- NOT_THIRD_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is #bold not#! on cooldown for [CHARACTER.GetShortUIName]"
- GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is on cooldown #weak (Expires: [DATE.GetStringLong])#!"
- NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:0 "$DECISION_NAME|V$ is #bold not#! on cooldown"
+ FIRST_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is on cooldown for you #weak (Expires: [DATE.GetStringLong])#!"
+ NOT_FIRST_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is #bold not#! on cooldown for [CHARACTER.GetShortUIName]"
+ THIRD_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is on cooldown for [CHARACTER.GetShortUIName] #weak (Expires: [DATE.GetStringLong])#!"
+ NOT_THIRD_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is #bold not#! on cooldown for [CHARACTER.GetShortUIName]"
+ GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is on cooldown #weak (Expires: [DATE.GetStringLong])#!"
+ NOT_GLOBAL_IS_DECISION_ON_COOLDOWN:1 "[DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V] is #bold not#! on cooldown"
+
+ trait_xp:0 "[trait_level_track_xp|E]"
+ HAS_TRAIT_XP:0 "Has $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_HAS_TRAIT_XP:0 "Does #bold not#1 have $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ I_HAVE_TRAIT_XP:0 "You have $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_I_HAVE_TRAIT_XP:0 "You do #bold not#! have $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName] has $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ NOT_THEY_HAS_TRAIT_XP:0 "[CHARACTER.GetShortUIName] does #bold not#! have $NUM|V0$ [trait_level_track_xp|E] in $TRACK_NAME$ #weak ([TRAIT.GetName( CHARACTER.Self )])#!"
+ 
+ HAS_TRAIT_XP_SINGLE:0 "Has $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ NOT_HAS_TRAIT_XP_SINGLE:0 "Does #bold not#1 have $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ I_HAVE_TRAIT_XP_SINGLE:0 "You have $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ NOT_I_HAVE_TRAIT_XP_SINGLE:0 "You do #bold not#! have $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName] has $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ NOT_THEY_HAS_TRAIT_XP_SINGLE:0 "[CHARACTER.GetShortUIName] does #bold not#! have $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+ HAS_TRAIT_XP_SINGLE_NONE:0 "Has $NUM|V0$ [trait_level_track_xp|E] in [TRAIT.GetName( CHARACTER.Self )]"
+
+ custom.not_attending_activity:0 "Is not attending an [activity|E]"
+
+ #ACCOLADES
+ IS_PLAYERS_ACCLAIMED_KNIGHT:0 "[CHARACTER.GetShortUIName] is another Player's [acclaimed_knight|e]"
+ HAS_POTENTIAL_ACCOLADE_SUCCESSORS:0 "This [accolade|e] already has potential Successors"

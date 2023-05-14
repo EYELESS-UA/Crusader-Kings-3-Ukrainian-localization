@@ -17,8 +17,8 @@
  artifact_name_prefix_owner_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_inspiration_owner_name:0 "[inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
  artifact_name_prefix_owner_culture:0 "[owner.GetCulture.GetNameNoTooltip]"
- artifact_name_prefix_location_culture:0 "[owner.MakeScope.Var('adventure_artifact_location').Title.GetHolder.GetCulture.GetNameNoTooltip]"
- artifact_name_prefix_owner_dynasty:0 "[owner.GetDynasty.GetBaseName]"
+ artifact_name_prefix_location_culture:1 "[owner.MakeScope.Var('adventure_artifact_location').Province.GetHolder.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_owner_dynasty:1 "[owner.GetDynasty.GetBaseNameNoTooltip]"
  artifact_name_prefix_descriptor_high_quality:0 "magnificent"
  artifact_name_prefix_descriptor_medium_quality:0 "sturdy"
  artifact_name_prefix_descriptor_medium_alt_version_quality:0 "excellent"
@@ -103,6 +103,15 @@
  feature_decoration_material_wire_copper:0 "$metal_copper$"
  feature_decoration_material_wire_pewter:0 "$metal_pewter$"
  feature_decoration_material_wire_latten:0 "$metal_latten$"
+
+ #############
+ # Earthware #
+ #############
+
+ earthware_clay:0 "clay"
+ earthware_stone:0 "stone"
+ earthware_terracotta:0 "terracotta"
+ earthware_porcelain:0 "porcelain"
 
  #########
  # Woods #
@@ -372,7 +381,7 @@
  feature_decoration_pattern_floral:0 "floral motifs"
  feature_decoration_pattern_geometric:0 "geometric shapes"
  feature_decoration_pattern_wolf:0 "a wolf's head"
- feature_decoration_pattern_local_animal:0 "a detailed [Artifact.GetOwner.Custom('LocalAnimal')]"
+ feature_decoration_pattern_local_animal:0 "a detailed [Artifact.GetOwner.Custom('GetAnimalType')]"
  feature_decoration_pattern_war_god:0 "symbols and phrases in dedication to [Artifact.GetOwner.GetFaith.WarGodName]"
  feature_decoration_pattern_religious_symbol:0 "the [Artifact.GetOwner.GetFaith.ReligiousSymbol]"
  feature_decoration_pattern_gibberish:0 "symbols of which no one but the creator knows the meaning of"
@@ -626,6 +635,7 @@
 
  # Brooches
  artifact_brooch:0 "Brooch"
+ artifact_brooch_pedestal:0 "$artifact_brooch$"
  artifact_brooch_name:0 "$artifact_name_prefix$ Brooch"
  artifact_brooch_description:1 "[SCOPE.Custom('ArtifactArticleWealth')] brooch of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]."
 
@@ -639,6 +649,22 @@
  feature_brooch_adornment_gems:0 "adorned with small pieces of [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_brooch_adornment_runes:0 "framed by a [Artifact.GetFeatureText( 'decoration_material_wire' )] ring stamped with runes"
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] produced [SCOPE.Custom('ArtifactArticleWealth')|l] brooch of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
+
+ # Rings
+ artifact_ring:0 "Ring"
+ artifact_ring_name:0 "$artifact_name_prefix$ Ring"
+ artifact_ring_description:0 "[SCOPE.Custom('ArtifactArticleWealth')] ring of [SCOPE.Custom('ArtifactQuality')] craftsmanship. Its [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] shank [newly_created_artifact.GetFeatureText( 'ring_decoration' )]."
+ feature_ring_decoration_centerpiece_and_adornment:0 "with [Artifact.GetFeatureText( 'ring_centerpiece' )] and is [Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_decoration_centerpiece:0 "is topped by [Artifact.GetFeatureText( 'ring_centerpiece' )]"
+ feature_ring_decoration_adornment:0 "is [Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_centerpiece_cabochon:0 "a [Artifact.GetFeatureText( 'decoration_material_gem' )] cabochon"
+ feature_ring_centerpiece_signet:0 "the [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip] sigil engraved into a head of [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_centerpiece_religious:0 "a [Artifact.GetOwner.GetFaith.GetAdjective] [Artifact.GetOwner.GetFaith.ReligiousSymbol] engraved into a head of [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_adornment_filigree:0 "is $feature_brooch_adornment_filigree$"
+ feature_ring_adornment_motto:0 "encircled by the [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip] house motto: '#EMP [Artifact.GetOwner.GetHouse.GetMotto]#!'"
+ feature_ring_adornment_religious:0 "encircled by extracts from the [Artifact.GetOwner.GetFaith.GetAdjective] [Artifact.GetOwner.GetFaith.ReligiousText]"
+ feature_ring_adornment_gems:0 "$feature_brooch_adornment_gems$"
+ feature_ring_adornment_runes:0 "$feature_brooch_adornment_runes$"
 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
  morin_khuur_ornament_name:0 "Morin Khuur Horse Ornament"
@@ -785,11 +811,12 @@
  ## Character Modifiers made to artifacts ##
 
  # From court_ongoing_1021
- artifact_necklace:1 "Trinket"
+ artifact_necklace:2 "Necklace"
+ artifact_necklace_pedestal:0 "$artifact_necklace$"
  artifact_necklace_name:1 "[newly_created_artifact.GetFeatureText( 'decoration_material_gem' )|U] [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )|U] Necklace"
  artifact_necklace_description:1 "[SCOPE.Custom('ArtifactArticleWealth')], yet delicate necklace of [SCOPE.Custom('ArtifactQuality')] craftsmanship. The necklace is forged from [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] and features a gorgeous [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )] pendant."
  artifact_pressed_flower_name:1 "Pressed [SCOPE.Custom('ArtifactFlowerSpecies')|U]"
- artifact_pressed_flower_description:0 "A beautiful [SCOPE.Custom('ArtifactFlowerSpecies')], pressed and dried to preserve its beauty."
+ artifact_pressed_flower_description:1 "A beautiful [SCOPE.Custom('ArtifactFlowerSpecies')] flower, pressed and dried to preserve its beauty."
 
  # From stewardship_wealth.1061
  stewardship_old_ledger_name:0 "Old Ledger"
@@ -808,7 +835,7 @@
 
 ## christian_saint_bone pilgrim reward
  christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintNamePossessive')] [saint_bone_owner.Custom('RandomSaintBone')]"
- christian_saint_bone_description:0 "The reputed remains of a [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] saint, acquired by [saint_bone_owner.GetNameNoTooltip] while undertaking [saint_bone_owner.GetHerHis] pilgrimage to [destination_title.GetNameNoTierNoTooltip], and revered as a token of luck and piety by [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip]."
+ christian_saint_bone_description:1 "The reputed remains of a [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] saint, acquired by [saint_bone_owner.GetNameNoTooltip] while undertaking [saint_bone_owner.GetHerHis] pilgrimage to [christian_saint_bone_scope.MakeScope.Var('holy_site').GetProvince.GetCounty.GetTitle.GetNameNoTierNoTooltip], and revered as a token of luck and piety by [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip]."
 # bones
  bone_type_knuckle:0 "Knuckle"
  bone_type_shin:0 "Shin"
@@ -856,6 +883,30 @@
 
  #bp1_yearly.7200
  perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip] collected the ingredients for this fragrance."
+
+ # travel_events.4005
+ maritime_trading_handbook:0 "Maritime Trading Handbook"
+ maritime_trading_handbook_description:0 "An expertly written handbook on the nature of [merchant_character_scope.GetCulture.GetName] maritime trading practices."
+ own_holy_text_mid:0 "Bejeweled [ROOT.Char.GetFaith.ReligiousText|U]"
+ own_holy_text_mid_description:0 "A [ROOT.Char.GetFaith.ReligiousText|U] decorated with studded gemstones."
+ merchants_holy_text_mid:0 "Bejeweled [merchant_character_scope.GetFaith.ReligiousText|U]"
+ merchants_holy_text_mid_description:0 "A [merchant_character_scope.GetFaith.ReligiousText|U] decorated with studded gemstones."
+ merchants_sword:0 "[merchant_character_scope.GetCulture.GetName] Sword"
+ merchants_sword_description:0 "A fine blade purchased from a traveling [merchant_character_scope.GetCulture.GetNameNoTooltip] merchant."
+ jewelled_slippers:0 "Jeweled Slippers"
+ jewelled_slippers_description:0 "A beautiful pair of jewel-encrusted slippers. Something about wearing them makes you feel like you can always find your way home."
+ witchcraft_book:0 "Tome of Herbal Remedies"
+ witchcraft_book_description:0 "A book once belonging to the Witch of [ROOT.Char.GetCurrentLocation.GetNameNoTier]. Its pages are filled with easy herbal remedies made to balance the humors."
+ witchy_holy_text_mid:0 "Bejeweled [witch_scope.GetFaith.ReligiousText|U]"
+ witchy_holy_text_mid_description:0 "A [witch_scope.GetFaith.ReligiousText|U] decorated with studded gemstones."
+ immaculate_witchy_bones:0 "Immaculate Witch Bones"
+ immaculate_witchy_bones_description:0 "A pile of bones once belonging to the Witch of [ROOT.Char.GetCurrentLocation.GetNameNoTier]. Even after [witch_scope.GetHerHis] burning, the bones remain immaculate."
+ mysterious_lamp:0 "Mysterious Lamp"
+ mysterious_lamp_description:0 "A shining golden lamp, encrusted with jewels. You feel a sense of phenomenal cosmic power when you hold it."
+ mysterious_puzzle:0 "Mysterious Puzzle"
+ mysterious_puzzle_description:0 "An extravagant golden puzzle covered in engravings in a foreign language. It is said to have once belonged to a powerful game master."
+ lunchbox:0 "Preservative Box"
+ lunchbox_description:0 "A tightly sealed box which seems to extend the window of edibility of foods placed inside."
 
  #Artifact Titles
  artifact_title_valor:0 "of Valor"
@@ -1065,7 +1116,7 @@
  # Easter eggs
  easteregg_artifact_elisabeth_plush:0 "Elisabeth's Stuffed Fox"
  easteregg_artifact_elisabeth_plush_description:0 "Elisabeth's stuffed fox is a much beloved toy and it was with her for most of her life. Elisabeth could often be seen talking to it as she wove intricate ciphers for whomever may employ her services. It is comforting and inspires its holder to mimic the cunning of the fox."
- easteregg_artifact_nicks_weapon:0 "Amity"
+ easteregg_artifact_nicks_weapon:1 "Fracas"
  easteregg_artifact_nicks_weapon_description:0 "A truly magnificent weapon, sure to make lord and lady alike swoon in its presence. A small inscription on its hilt reads "For when subtlety fails.""
  easteregg_artifact_chad_book:0 "The Annotated Aeneid"
  easteregg_artifact_chad_book_description:0 "A well-loved and illuminated copy of Virgil's Aeneid clouded by many scribblings — some inane, some insightful."
@@ -1082,3 +1133,88 @@
  # Blessed Junk
  fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] $blessed_artifact_modifier$"
  fp2_blessed_junk_desc:0 "A [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] though otherwise pointless artifact. $blessed_artifact_modifier_desc$."
+ 
+ local_artisan_modifier:0 "Local Artisan"
+ local_artisan_modifier_desc:0 "This character is a local artisan persuaded into service by a noble ruler.\n#weak Any [inspirations|E] they make will be of a lower quality.#!"
+
+ # EP2
+ # TOURNAMENT
+ artifact_pas_darmes_token:0 "Pas D'Armes Token"
+ artifact_pas_darmes_token_name:0 "[owner.GetFirstNamePossessiveNoTooltip] Token"
+ artifact_pas_darmes_token_description:0 "[owner.GetFullNamePossessive] [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] [owner.Custom('GetTournamentFavor')] decorated with [newly_created_artifact.GetFeatureText( 'decoration_pattern' )], yielded to [winner.GetFullName] at a pas d'armes in [location.GetName]."
+ artifact_pas_darmes_spurs:0 "Pas D'Armes Trophy"
+ artifact_pas_darmes_spurs_name:0 "[owner.GetFirstNamePossessiveNoTooltip] Spurs"
+ artifact_pas_darmes_spurs_description:0 "A pair of [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] spurs belonging to [owner.GetFullName], yielded to [winner.GetFullName] at a pas d'armes in [location.GetName]."
+ artifact_tournament_favor:0 "Tournament Favor"
+ artifact_tournament_favor_name:0 "Favor of a [owner.GetLadyLord|U]"
+ artifact_tournament_favor_description:0 "A [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] [owner.Custom('GetTournamentFavor')], decorated with [newly_created_artifact.GetFeatureText( 'decoration_pattern' )], given to [recipient.GetFullName] by an admirer."
+ # BOWS
+ artifact_longbow:0 "Longbow"
+ artifact_longbow_name:0 "$artifact_name_prefix_owner_culture$ Longbow"
+ artifact_longbow_description:1 "A [SCOPE.Custom('ArtifactQuality')] self longbow, carved in [newly_created_artifact.GetFeatureText( 'longbow_wood' )] from its springy sapwood and rigid heartwood, and strung with [newly_created_artifact.GetFeatureText( 'bow_string' )]. Standing taller than a man, few bows can match its draw-weight."
+ artifact_composite:0 "Composite Bow"
+ artifact_composite_name:0 "$artifact_name_prefix$ Composite Bow"
+ artifact_composite_description:0 "A [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'composite_wood' )] composite bow, strengthened with [newly_created_artifact.GetFeatureText( 'composite_horn' )] horn and sinew, and strung with [newly_created_artifact.GetFeatureText( 'bow_string' )]. Its short span makes it ideal for shooting from the saddle."
+ artifact_bow:0 "Bow"
+ artifact_bow_name:0 "$artifact_name_prefix$ Bow"
+ artifact_bow_description:1 "A [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'bow_wood' )] self bow, strung with [newly_created_artifact.GetFeatureText( 'bow_string' )], useful in both hunting and war."
+ artifact_crossbow:0 "Crossbow"
+ artifact_crossbow_name:0 "$artifact_name_prefix$ Crossbow"
+ artifact_crossbow_description:0 "A [SCOPE.Custom('ArtifactQuality')] crossbow stocked in [newly_created_artifact.GetFeatureText( 'bow_wood' )], with sinew strung bow irons. Extremely powerful and able to be held ready, but slow to reload."
+ feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
+ feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
+ feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
+ feature_composite_wood_maple:0 "$feature_bow_wood_maple$"
+ feature_composite_wood_mulberry:0 "$feature_bow_wood_mulberry$"
+ feature_composite_horn_antelope:1 "$animal_type_antelope_plural$"
+ feature_composite_horn_bison:1 "$animal_type_bison_plural$"
+ feature_composite_horn_deer:1 "$animal_type_buck_plural$"
+ feature_composite_horn_gazelle:0 "$animal_type_gazelle_plural$"
+ feature_composite_horn_aurochs:0 "$animal_type_aurochs_plural$"
+ feature_bow_wood_ash:0 "$wood_ash$"
+ feature_bow_wood_bamboo:0 "bamboo"
+ feature_bow_wood_cherry:0 "cherry"
+ feature_bow_wood_dogwood:0 "dogwood"
+ feature_bow_wood_elm:0 "$wood_elm$"
+ feature_bow_wood_hazel:0 "hazel"
+ feature_bow_wood_hickory:0 "hickory"
+ feature_bow_wood_maple:0 "$wood_maple$"
+ feature_bow_wood_mulberry:0 "mulberry"
+ feature_bow_wood_palm:0 "palm"
+ feature_bow_wood_oak:0 "$wood_oak$"
+ feature_bow_wood_walnut:0 "$wood_walnut$"
+ feature_bow_wood_yew:0 "$wood_yew$"
+ feature_bow_string_hemp:0 "hemp fiber"
+ feature_bow_string_horse_hair:0 "horse hair"
+ feature_bow_string_linen:0 "$cloth_linen$"
+ feature_bow_string_rawhide:0 "rawhide leather"
+ feature_bow_string_silk:0 "$cloth_silk$"
+ feature_bow_string_sinew:0 "animal sinew"
+
+ tournament_favor_glove:0 "glove"
+ tournament_favor_sleeve:0 "sleeve"
+ tournament_favor_scarf:0 "scarf"
+
+ blooded_blade:0 "Blooded Blade"
+ blooded_blade_description:0 "The swirling, jagged patterns on this weapon are subtle indicators of this blade's relative brittleness, but also of its heritage: a weapon quenched in the blood of [ROOT.Char.GetTitledFirstName]."
+ sullied_blooded_blade:0 "Sullied Blade"
+ sullied_blooded_blade_description:0 "The swirling, jagged patterns on this weapon are subtle indicators of this blade's general poor quality, but also of its heritage: a weapon quenched in the blood of [ROOT.Char.GetTitledFirstName]."
+
+ fake_papal_tiara_name:0 "Fake Papal Tiara"
+ fake_papal_tiara_description:0 "A towering replication of a Papal mitre that perhaps doesn't quite hold up to close inspection. Still, it's a bit of fun, isn't it?"
+
+ artisanal_sword:0 "[ROOT.Char.GetFirstNamePossessive] Sword"
+ artisanal_sword_description:0 "A beautifully-wrought sword, its bejeweled pommel complements an attractive but sturdy grip. The patterned blade is perfectly balanced, its point tapering down to a piercing nothingness."
+ feature_generic_material_metal_gold:0 "$metal_gold$"
+ feature_generic_material_metal_silver:0 "$metal_silver$"
+ feature_generic_material_metal_electrum:0 "$metal_electrum$"
+ feature_generic_material_metal_iron:0 "$metal_iron$"
+ feature_generic_material_metal_pewter:0 "$metal_pewter$"
+ feature_generic_material_metal_brass:0 "$metal_brass$"
+ feature_generic_material_metal_steel:0 "$metal_steel$"
+ feature_generic_material_metal_bronze:0 "$metal_bronze$"
+ feature_generic_material_metal_copper:0 "$metal_copper$"
+ feature_generic_material_earthware_clay:0 "$earthware_clay$"
+ feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
+ feature_generic_material_earthware_stone:0 "$earthware_stone$"
+ feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"

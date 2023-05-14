@@ -36,7 +36,7 @@
  struggle_parameter_unlocks_golden_age_jewish_science_decision:1 "Unlocks the [golden_age_jewish_science_in_iberia_decision|E] [decision|E]"
  struggle_parameter_unlocks_build_pilgrim_roads_decision:1 "Unlocks the [build_holy_pilgrim_roads_decision|E] [decision|E]"
  struggle_parameter_struggle_cheaper_buy_truce:1 "The [purchase_truce_interaction|E] [interaction|E] costs less [gold_i][gold|E]"
- struggle_parameter_struggle_prestige_from_feast:1 "The [feast|E] [activity|E] provides more [prestige_i][prestige|E]"
+ struggle_parameter_struggle_prestige_from_feast:1 "The [GetActivityType('activity_feast').GetName] [activity|E] provides more [prestige_i][prestige|E]"
  struggle_parameter_struggle_agents_less_likely_to_join_schemes:1 "[agent|E] Acceptance: #N -25#!"
  struggle_parameter_unlocks_sell_minor_title_for_kings_and_higher:1 "Unlocks the [sell_titles_decision|E] for Kings and Emperors"
  struggle_parameter_invasion_conquest_war_cannot_be_declared:0 "Invasion and Conquest [casus_bellis|E] are unavailable"

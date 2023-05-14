@@ -112,7 +112,7 @@
  south_asia.0039.c:0 "Just more petty squabbling between heathens."
 
  south_asia.0040.t:0 "A Faith Secured?"
- south_asia.0040.desc:0 "[proselytiser.GetFullName], my liege and the ruler of these lands, has been hard at work converting the populace to [proselytiser.GetHerHis] faith, [proselytiser.GetFaith.GetName]. As [proselytiser.GetHerHis] machinations progress, it has been impossible to stop the flood of preachers and Bhāṇakas venturing through my lands to spread their faith, and that of their [proselytiser.GetLordLady]'s.\n\nEven as Theravada takes hold, the traditional Ari adherents melt away into forest strongholds around the Arakan mountains, dwindling in numbers and shying away from open worship."
+ south_asia.0040.desc:1 "[proselytiser.GetFullName], my liege and the ruler of these lands, has been hard at work converting the populace to [proselytiser.GetHerHis] faith, [proselytiser.GetFaith.GetName]. As [proselytiser.GetHerHis] machinations progress, it has been impossible to stop the flood of preachers and Bhāṇakas venturing through my lands to spread their faith, and that of their [proselytiser.GetLadyLord]'s.\n\nEven as Theravada takes hold, the traditional Ari adherents melt away into forest strongholds around the Arakan mountains, dwindling in numbers and shying away from open worship."
  south_asia.0040.a:0 "Wonderful! The true faith shall flourish!"
  south_asia.0040.b:0 "These actions will not go unremembered."
  south_asia.0040.c:0 "This really is no concern of mine."

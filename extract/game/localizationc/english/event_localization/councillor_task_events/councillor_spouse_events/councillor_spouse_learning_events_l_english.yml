@@ -15,7 +15,7 @@
 
  #General learning notifications
  councillor_spouse_learning.1601.desc:1 "Spouse Aids You in [ROOT.Char.Custom('LifestyleFocus')|U] Studies"
- councillor_spouse_learning.1602.t:1 "[tutored_child.GetDaughterSon] Flourishes Under Spouse's Tutelage"
+ councillor_spouse_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')] Flourishes Under Spouse's Tutelage"
  councillor_spouse_learning.1603.root_guardian.t:0 "Ward Appreciates Spouse's Tutelage"
  councillor_spouse_learning.1603.spouse_guardian.t:0 "Spouse's Ward Appreciates [councillor.GetHerHis|U] Tutelage"
  councillor_spouse_learning.1603.other_guardian.t:0 "Ward At Court Appreciates Spouse's Tutelage"

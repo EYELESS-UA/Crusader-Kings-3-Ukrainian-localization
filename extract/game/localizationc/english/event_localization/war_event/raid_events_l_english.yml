@@ -19,6 +19,7 @@
  raiding.0004.desc.gold_plundered:0 "With the fall of the settlement of [sacked_barony.GetNameNoTierNoTooltip] to [raider.GetTitledFirstNameNoTooltip], much of greater [sacked_county.GetNameNoTierNoTooltip] has been left bare to rampaging [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] looters.\n\nAs there are few local fortresses of size left to oppose them, the raiders have carried off every precious item and scrap of silver they can find."
  raiding.0004.desc.spared_plundered:0 "Despite successfully besieging the settlement of [sacked_barony.GetNameNoTierNoTooltip], a fortification protecting swathes of greater [sacked_county.GetNameNoTierNoTooltip], [raider.GetTitledFirstName] has restrained [raider.GetHerHis] troops. The resulting looting has been isolated and sporadic.\n\nThough your vassal has been spared, the [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] eye your personal domains hungrily..."
  raiding.0004.a:0 "I curse these meddlesome savages!"
+ raiding.0004.a.tribal:0 "Curse those [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] dogs!"
  raiding.0004.b:0 "Pay a weregeld for the lost."
  raiding.0004.c:0 "Help them to rebuild."
  raiding.0004.c.architect:0 "You send your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))] [architect.GetTitledFirstNameNoTooltip] to oversee the reparations."

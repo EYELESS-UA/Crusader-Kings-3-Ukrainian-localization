@@ -37,7 +37,7 @@
  RULER_DESIGNER_POINTS_LIMIT_VALUE:0 "[GetDefine( 'NRulerDesigner', 'IRONMAN_POINT_MAX' )|V]"
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Achievements Limit: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "Age"
- RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#! [Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), 'Years', 'Year' ) )]"
+ RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#! [Select_CString( GreaterThan_int32( RulerDesignerWindow.GetAge, '(int32)1' ), 'Years', 'Year' )]"
  RULER_DESIGNER_BIRTH_YEAR:0 "Born: [RulerDesignerWindow.GetBirthYear] AD"
  RULER_DESIGNER_WEIGHT_LABEL:0 "Weight"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
@@ -302,7 +302,7 @@
  beards:0 "Beards"
  chin_def:0 "Defined Chin"
  chin_def_neg:0 "Smooth Chin"
- # TODO [CD]: Check this
+
  RULER_DESIGNER_SAVE_WINDOW_TITLE:0 "Save Ruler"
  RULER_DESIGNER_SAVE_WINDOW_SAVE:0 "[SelectLocalization( RulerDesignerSaveWindow.IsOverwrite, 'SAVE_WINDOW_OVERWRITE', 'SAVE' )]"
  RULER_DESIGNER_SAVE_OVERWRITE_RULER:0 "Overwrite Ruler"

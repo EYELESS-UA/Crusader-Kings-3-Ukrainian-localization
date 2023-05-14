@@ -51,6 +51,9 @@ l_english:
  paternal:0 "paternal"
  spouse_bride:0 "bride"
  spouse_groom:0 "groom"
+ relation_nemesis:0 "nemesis"
+ relation_rival:0 "rival"
+
 
  # Peasant Professions:
  peasant_profession_miller:0 "miller"

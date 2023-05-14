@@ -107,8 +107,8 @@
 
  invite_foreign_ruler_to:0 "Invite To Activity"
  invite_foreign_ruler_to_desc:1 "Invite a [ruler|E] from another [realm|E] to join you in a feast or a hunt"
- invite_foreign_ruler_to.feast.tooltip:0 "You start a [feast|E] with [recipient.GetTitledFirstName] as a special guest"
- invite_foreign_ruler_to.hunt.tooltip:0 "You call a [hunt|E] with [recipient.GetTitledFirstName] as a special guest"
+ invite_foreign_ruler_to.feast.tooltip:0 "You start a [GetActivityType('activity_feast').GetName] with [recipient.GetTitledFirstName] as a special guest"
+ invite_foreign_ruler_to.hunt.tooltip:1 "You call a [GetActivityType('activity_hunt').GetName] with [recipient.GetTitledFirstName] as a special guest"
  INVITE_FOREIGN_RULER_TO_NOTIFICATION:0 "You and I should be friends! Please, accept my invitation to partake in a relaxing activity."
  invited_to_hunt.accept.actor.tt:0 "[recipient.GetTitledFirstName] accepted your invitation to join your hunt"
  invited_to_feast.accept.actor.tt:0 "[recipient.GetTitledFirstName] accepted your invitation to join your feast"

@@ -38,7 +38,6 @@
  death_sow:0 "was bitten to death by a sow"
  death_horse:0 "was killed by a bucking horse"
  death_camel:0 "was killed by a bucking camel"
- death_elephant:0 "was stomped to death by an elephant"
  death_roof_tile:0 "had [CHARACTER.GetHerHis] head caved in by a falling roof tile"
  childhood.7100.a:0 "W.. what!? N.. no!"
  childhood.7100.b:0 "...#DIE1 ha#!haHA! Did you all see that!"

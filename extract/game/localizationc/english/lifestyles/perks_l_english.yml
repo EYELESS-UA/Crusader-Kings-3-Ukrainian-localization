@@ -125,7 +125,7 @@
  #Martial: Strategy Tree
  bellum_justum_perk_name:0 "Bellum Justum"
  parthian_tactics_perk_name:0 "Parthian Tactics"
- envelopment_perk_name:0 "Envelopment"
+ envelopment_perk_name:2 "Envelopment"
  organized_retreat_perk_name:1 "Organized March"
  hit_and_run_perk_name:0 "Hit and Run"
  engineered_for_destruction_perk_name:0 "Engineered for Destruction"

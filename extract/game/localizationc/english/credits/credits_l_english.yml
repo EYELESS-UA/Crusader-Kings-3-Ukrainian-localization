@@ -15,6 +15,7 @@
  TITLE_STUDIO_ART_DIRECTOR:0 "#credits_subheader Studio Art Director#!"
  TITLE_DESIGN_DIRECTOR:0 "#credits_subheader Design Director#!"
  TITLE_PRODUCTION_DIRECTOR:0 "#credits_subheader Production Director#!"
+ TITLE_PRODUCTION_LEAD:0 "#credits_subheader Production Lead#!"
 
  HEADER_DESIGN:1 "#credits_header DESIGN#!"
  TITLE_GAME_DESIGN:1 "#credits_subheader Game Design#!"
@@ -80,12 +81,15 @@
  TITLE_PRODUCT_MARKETING_MANAGER:1 "#credits_subheader Product Marketing Manager#!"
  TITLE_CONTENT_PRODUCER:1 "#credits_subheader Content Producer#!"
  TITLE_COMMUNITY_MANAGER:1 "#credits_subheader Community Manager#!"
+ TITLE_COMMUNITY:0 "#credits_subheader Community#!"
  TITLE_COMMUNITY_DEVELOPER:1 "#credits_subheader Community Developer#!"
  TITLE_COMMUNITY_AMBASSADOR:0 "#credits_subheader Community Ambassadors#!"
  TITLE_PARTNER_ACCOUNT_MANAGER:1 "#credits_subheader Partner Account Manager#!"
+ TITLE_PARTNER_MARKETING_MANAGER:0 "#credits_subheader Partner Marketing Manager#!"
  TITLE_PERFORMANCE_MARKETING_MANAGER:1 "#credits_subheader Performance Marketing Manager#!"
  TITLE_PR:1 "#credits_subheader PR#!"
  TITLE_PR_LEAD:0 "#credits_subheader PR Lead#!"
+ TITLE_PR_MANAGER:0 "#credits_subheader PR Manager#!"
  TITLE_ANALYTICS:1 "#credits_subheader Analytics#!"
  TITLE_USER_RESEARCH:1 "#credits_subheader User Research#!"
  TITLE_LOCALIZATION_MANAGER:1 "#credits_subheader Localization Manager#!"
@@ -187,6 +191,7 @@
  TITLE_USER_RESEARCH_ADMINISTRATOR:1 "#credits_subheader User Research Administrator#!"
  TITLE_DATA_SCIENTISTS:1 "#credits_subheader Data Scientists#!"
  TITLE_VICE_PRESIDENT_SALES:1 "#credits_subheader Vice President Sales#!"
+ TITLE_SALES:0 "#credits_subheader Sales#!"
  TITLE_COMMERCIAL_MANAGERS:1 "#credits_subheader Commercial Managers#!"
  TITLE_TRADE_MARKETING_MANAGER:0 "#credits_subheader Trade Marketing Manager#!"
  TITLE_ECOMMERCE_MANAGER:1 "#credits_subheader E-commerce Manager#!"
@@ -244,6 +249,10 @@
  TITLE_LQA_TEST_LEAD:0 "#credits_subheader LQA Test Lead#!"
  TITLE_LQA_TEAM:0 "#credits_subheader LQA Team#!"
  HEADER_LOCALIZATION_VENDORS_FREELANCERS:0 "#credits_header LOCALIZATION VENDORS & FREELANCERS#!"
+ TITLE_LOCALIZATION_SERVICE_PROVIDER:0 "#credits_subheader Localization Service Provider#!"
+ TITLE_TRANSLATOR:0 "#credits_subheader Translator#!"
+ TITLE_LEAD_EDITOR:0 "#credits_subheader Lead Editor#!"
+ TITLE_REVIEWER:0 "#credits_subheader Reviewer#!"
  TITLE_GENERAL_ADMIN_MANAGEMENT:0 "#credits_subheader General Admin and Management#!"
  TITLE_FRENCH:0 "#credits_subheader French#!"
  TITLE_SIMPLIFIED_CHINESE:0 "#credits_subheader Simplified Chinese#!"
@@ -264,6 +273,7 @@
 
  HEADER_SPECIAL_THANKS:0 "#credits_header Special thanks to all our forum members, partners, and supporters — you mean the world to us!#!"
 
+ TITLE_SPECIAL_THANKS:0 "#credits_subheader Special Thanks#!"
 
  HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS:1 "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
  TITLE_VIKING_CHOIR:1 "#credits_subheader Viking Choir#!"
@@ -283,4 +293,5 @@
 
  HEADER_CRUSADER_KINGS_3_FRIENDS_AND_FOES:0 "#credits_title CRUSADER KINGS III: FRIENDS & FOES#!"
 
- HEADER_CRUSADER_KINGS_3_ROBE: "#credits_title CRUSADER KINGS III: ROBE#!"
+ HEADER_CRUSADER_KINGS_3_ROBE:0 "#credits_title CRUSADER KINGS III: ROBE#!"
+ HEADER_CRUSADER_KINGS_3_TOURS_AND_TOURNAMENTS:0 "#credits_title CRUSADER KINGS III: TOURS AND TOURNAMENTS#!"

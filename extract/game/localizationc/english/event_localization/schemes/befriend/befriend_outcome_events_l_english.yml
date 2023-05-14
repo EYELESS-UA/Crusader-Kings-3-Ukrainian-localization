@@ -152,3 +152,8 @@
  befriend_outcome.6007.desc:0 "I cannot fathom how, but [owner.GetTitledFirstName] has convinced [target.GetTitledFirstName] to dissolve [target.GetHerHis] faction.\n\n[target.GetSheHe|U] gathered all the members last night, announcing that [target.GetSheHe] was misguided in opposing [owner.GetTitledFirstNameNoTooltip] and that [target.GetSheHe] wishes for a peaceful resolution to our conflict."
  befriend_outcome.6007.a.a:0 "[target.GetTitledFirstNameNoTooltip] betrayed us!"
  befriend_outcome.6007.a.b:0 "Perhaps [target.GetSheHe] has a point..."
+
+ # Travel Befriend Success Outcome
+ befriend_outcome.2007.opening_travel:0 "Much to my delight, one of [target.GetTitledFirstNamePossessive] couriers has found me here in [current_location.GetName] as my entourage and I make our way toward [next_destination.GetName].\n\n"
+ befriend_outcome.2007.opening_no_travel:0 "Much to my delight, one of [target.GetTitledFirstNamePossessive] couriers has arrived here at my [ROOT.Char.Custom('FortifiedBuilding')] in [ROOT.Char.GetLocation.GetName].\n\n"
+ befriend_outcome.2007.desc:0 "[courier.GetSheHe|U] carries good news, for [target.GetFirstNameNoTooltip] wishes to formalize our friendship! I never expected us to grow so close, but [target.GetSheHe] has proven [target.GetHerselfHimself] to be a reliable and forthright [target.GetWomanMan], with only my best interests at heart."

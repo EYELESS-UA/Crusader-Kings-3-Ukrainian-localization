@@ -2,7 +2,7 @@
  SETTING_DEBUG_SAVES:0 "Number of debug saves"
  SETTING_TUTORIAL:0 "Tutorial"
  SETTING_DISABLED_HINTS:0 "Disabled hints"
- SETTING_FOCUS_ON_COMBAT:0 "Focus on combat"
+ #SETTING_FOCUS_ON_COMBAT:1 "" # <DELETE THIS KEY>
  SETTING_TOOLTIP_DELAY:1 "Tooltip Delay"
  SETTING_TOOLTIP_DELAY_TOOLTIP:1 "#T $SETTING_TOOLTIP_DELAY$#!\nSets the delay before tooltips appear."
  SETTING_TOOLTIP_UNLOCK_TIME:0 "Unlock Delay"
@@ -75,3 +75,12 @@
  SETTING_HIDE_COAST_BORDER_ON_ZOOM:0 "Coastal Borders"
  SETTING_HIDE_COAST_BORDER_ON_ZOOM_TOOLTIP:0 "#T $SETTING_HIDE_COAST_BORDER_ON_ZOOM$#!\nThis option will control when coastal realm borders should be shown.\nIf $BASED_ON_ZOOM_LEVEL$ then they will be hidden in the detail zoom level.\n\nPicking a $ALWAYS_SHOW$ or $ALWAYS_HIDE$ may increase performance at the cost of the coastal realm borders not hiding dynamically."
  SETTINGS_DISCARD_CHANGES:0 "Discard Changes"
+ SETTING_HUD_SKIN:0 "HUD skin"
+ hud_skin_auto:0 "Dynamic"
+ default:0 "Default"
+ iberian:0 "Iberian"
+ Norse:0 "Norse"
+ SETTING_HUD_SKIN_TOOLTIP:0 "#T $SETTING_HUD_SKIN$#!\nSets visual theme of the HUD interface - 2D UI shown on the main game screen.\n\nIf $hud_skin_auto$ is selected, HUD will change depending on culture, faith and realm capital of the player"
+ SETTING_RICH_PRESENCE:0 "Rich Presence"
+ SETTING_RICH_PRESENCE_TOOLTIP:0 "#T $SETTING_RICH_PRESENCE$#!\nShow information about your current play session to your friends if your platform supports it."
+

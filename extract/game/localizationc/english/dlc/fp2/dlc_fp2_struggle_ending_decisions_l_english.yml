@@ -77,6 +77,7 @@
  ### Common
  fp2_struggle_can_create_empire_of_hispania_tt:0 "Unlocks creation of the [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier]"
  fp2_struggle_compromise_destroy_hispania_tt:1 "The [empire|E] of [GetTitleByKey('e_spain').GetNameNoTier] is permanently #negative_value destroyed#!"
+ fp2_struggle_conciliation_caravanserai_unlock_tt:0 "Permanently allows the construction of the #V $building_type_caravanserai_01$#! line of [buildings|E] in [GetGeographicalRegion('world_europe_west_iberia').GetName]"
 
  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Iberian Hostility"
  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"

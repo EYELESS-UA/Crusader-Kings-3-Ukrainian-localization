@@ -9,3 +9,5 @@
  ransomed_from_prison:0 "Ransomed Recently"
  abductor_opinion:0 "Abductor"
  attempted_murder_opinion:0 "Attempted Murder"
+ escaped_from_prison_opinion:0 "Escaped Prison"
+ escaped_from_prison_crime:0 "Escaped Prison"

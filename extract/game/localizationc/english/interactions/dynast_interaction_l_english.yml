@@ -3,6 +3,8 @@
  disinherit_interaction:0 "Disinherit"
  disinherit_interaction_desc:0 "$dynasty_interaction_header$Remove [recipient.GetShortUINameNoTooltip] from the [line_of_succession|E]"
  disinherit_interaction_notification:0 "Disinherited Dynasty Member"
+ courtly_vassal_disapproves_disinheriting:0 "Every [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) loses #N 20#! [opinion|E] of [actor.GetShortUIName] for #V 10 years#! #weak (Disapproves of Disinheriting non-Disputed Heir)#!"
+
 
  restore_inheritance_interaction:0 "Restore Inheritance"
  restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$Restore [recipient.GetShortUINameNoTooltip] to the natural [line_of_succession|E]\n\n#weak This is available because [recipient.GetSheHe] has been [disinherited|E]#!"

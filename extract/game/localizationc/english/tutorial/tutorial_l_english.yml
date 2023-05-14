@@ -146,7 +146,6 @@
  lesson_basics_resources_3:0 "[piety_i|E] Piety ($lesson_basics_resources$)"
  lesson_basics_resources_3_desc:2 "With a lot of [piety|E], you will have an easier time interacting with your [head_of_faith|E]. As you are $catholic_adherent$, this is the Pope.\n\n$game_concept_piety$ can be gained passively from the [learning|E] [skill|E] and [virtuous|E] [traits|E] or actively from pious actions, such as going on a [pilgrimage|E].\n\nYou also have a [piety_level|E], which builds over time whenever you gain $game_concept_piety$ and can have positive effects for your Character.\n\n#TUT Similar to Prestige, some actions require you to #EMP spend#! $game_concept_piety$, like declaring [holy_wars|E] or creating a new [faith|E].\n\nSpending $game_concept_piety$ like this is normal, and other [characters|E] won't think worse of you for it.#!"
 
- #TODO_CD; highlight martial lifestyle, but discuss with UX first as the lifestyle boxes are instanced, and an individual one can't be easily highlighted.
  # Lifestyles
  lesson_basics_lifestyles_1:0 "Lifestyles ($lesson_basics_lifestyles$)"
  lesson_basics_lifestyles_1_desc:1 "As well as [traits|E], your [character|E] can also pick a [lifestyle|E]. There are five $game_concept_lifestyles$, one for each skill.\n\n$game_concept_lifestyles$ represent what you put the most effort into day-to-day, and each one has several [focuses|E] inside relating to it.\n\nEvery $game_concept_focus$ gives you a unique bonus and makes events associated with that $game_concept_focus$ more likely to happen."

@@ -1,8 +1,8 @@
 ﻿l_english:
  culture_notification.0010.t:0 "Tradition Forsaken"
- culture_notification.0010.desc:1 "The [this_player.GetCulture.GetNameNoTooltip] Culture has forsaken the [SCOPE.Custom('GetTraditionNameFromFlag')] tradition"
+ culture_notification.0010.desc:2 "The [this_player.GetCulture.GetNameNoTooltip] Culture has forsaken the [tradition.GetName] tradition"
  culture_notification.0011.t:1 "Tradition Embraced"
- culture_notification.0011.desc:1 "The [this_player.GetCulture.GetNameNoTooltip] Culture has embraced the [SCOPE.Custom('GetTraditionNameFromFlag')] tradition"
+ culture_notification.0011.desc:2 "The [this_player.GetCulture.GetNameNoTooltip] Culture has embraced the [tradition.GetName] tradition"
 
 
  culture_notification.1001.t:0 "Hybrid Culture Formed"
@@ -28,7 +28,7 @@
  culture_notification.1111.intro:0 "Small changes in dialect, slightly different customs... It was easy to miss at first. Over time small changes led to large ones, however, and now the [parent_1.GetCollectiveNoun] living in [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] have begun to identify themselves as [new_culture.GetName] instead.\n\n"
  culture_notification.1111.ethos.bellicose:0 "Faced with mounting pressures from both the wilderness and their rivals, the [new_culture.GetCollectiveNounNoTooltip] are becoming increasing warlike as they seek to make and protect their livelihoods by force of arms."
  culture_notification.1111.ethos.bureaucratic:1 "The [new_culture.GetCollectiveNounNoTooltip] seem to be developing a growing appetite for verbose laws, long chronicles, and labyrinthine charters, taking comfort in a society run by ever-expanding formal practices."
- culture_notification.1111.ethos.courtly:0 "With an increasing devotion to manners and etiquette, the [new_culture.GetCollectiveNounNoTooltip] are embracing a structured, courtly way of life in order to bring about a new age of stability and prosperity."
+ culture_notification.1111.ethos.courtly:1 "With an increasing devotion to manners and etiquette, the [new_culture.GetCollectiveNounNoTooltip] are embracing a structured, ceremonious way of life in order to bring about a new age of stability and prosperity."
  culture_notification.1111.ethos.communal:0 "By both helping their neighbors through tragedy and sharing in their triumphs, the [new_culture.GetCollectiveNounNoTooltip] are forming tight-knit bonds of community which foster a sense of belonging and purpose."
  culture_notification.1111.ethos.stoic:0 "In the face of a dangerous and unpredictable world, the [new_culture.GetCollectiveNounNoTooltip] are coming to value grit and determination more than ever before."
  culture_notification.1111.ethos.spiritual:0 "Looking both within themselves and to the world at large for answers, the [new_culture.GetCollectiveNounNoTooltip] are becoming more spiritual and devout than ever before."

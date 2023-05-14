@@ -65,5 +65,5 @@
 
  suggestion_create_nation_fracturing_faction:0 "Create a $nation_fracturing_faction$"
  suggestion_create_nation_fracturing_faction_label:0 "Suggestion: $suggestion_create_nation_fracturing_faction$"
- suggestion_create_nation_fracturing_faction_desc:0 "You can challenge your [liege|E] and try to dissolve the realm to gain independence to you and all of their [vassals|E]"
- suggestion_create_nation_fracturing_faction_click:0 "#I Click to view Faction against your [liege]#!"
+ suggestion_create_nation_fracturing_faction_desc:1 "You can challenge your [liege|E] and try to dissolve the realm to gain independence for you and all of your fellow [vassals|E]."
+ suggestion_create_nation_fracturing_faction_click:1 "#I Click to view Factions against your [liege]#!"

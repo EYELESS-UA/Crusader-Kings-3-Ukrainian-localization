@@ -36,6 +36,7 @@
  UNIT_STATE_MOVING:0 "Moving"
  UNIT_STATE_RAIDING:0 "Raiding"
  UNIT_STATE_RETREATING:0 "Retreating to [PROVINCE.GetName]"
+ ARMY_STATUS_ICON_TOOLTIP:0 "$DESC$"
  KNIGHT_IN_THIS_ARMY_TOOLTIP:2 "Is a $knight_culture_player$ in this [army|E]"
  KNIGHT_IN_ARMY_TOOLTIP:1 "[knight_i]Is a $knight_culture_player$ in an [army|E]"
  UNIT_HOSTILE:0 "This [army|E] is [hostile_army|E]"

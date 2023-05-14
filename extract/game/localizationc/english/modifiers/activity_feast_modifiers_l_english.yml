@@ -74,6 +74,9 @@
  feast_livestock_at_feast_modifier:0 "Lively Feast"
  feast_livestock_at_feast_modifier_desc:0 "The feast doesn't truly start until the livestock joins the table."
 
+ feast_spilled_stew_modifier:0 "Spilled Stew"
+ feast_spilled_stew_modifier_desc:0 "This character has generously hosted a feast which was literally swimming in food."
+
  feast_blew_off_steam_modifier:0 "Blew off Steam"
  feast_blew_off_steam_modifier_desc:0 "This character hasn't been this rested and invigorated in a long time!"
 
@@ -112,3 +115,6 @@
 
  feast_sneakily_defaced_artifact_modifier:0 "Defaced Artifact"
  feast_sneakily_defaced_artifact_modifier_desc:0 "You sneakily defaced an artifact."
+
+ feast_7201_goh_honoured_modifier:0 "Highly Esteemed"
+ feast_7201_goh_honoured_modifier_desc:0 "This character has been publically honored at a noble's feast."

@@ -52,6 +52,7 @@
  NOT_CHARACTER_FAITH_EQUAL_FIRST:1 "You are #bold not#! [FAITH.GetAdjective]"
  CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [FAITH.GetAdjective]"
  NOT_CHARACTER_FAITH_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is #bold not#! [FAITH.GetAdjective]"
+ CHARACTER_FAITH_NONE:0 "Is a same-[faith|e] adherent"
  CHARACTER_RELIGION_EQUAL_FIRST:1 "You are [RELIGION.GetAdjective]"
  NOT_CHARACTER_RELIGION_EQUAL_FIRST:1 "You are #bold not#! [RELIGION.GetAdjective]"
  CHARACTER_RELIGION_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is [RELIGION.GetAdjective]"
@@ -69,6 +70,7 @@
  NOT_CHARACTER_DYNASTY_EQUAL_FIRST:1 "You are #bold not#! part of the [dynasty|E] [DYNASTY.GetName]"
  CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] is part of the [dynasty|E] [DYNASTY.GetName]"
  NOT_CHARACTER_DYNASTY_EQUAL_THIRD:0 "[CHARACTER.GetShortUIName|U] #bold is not#! part of the [dynasty|E] [DYNASTY.GetName]"
+ CHARACTER_HOUSE_EQUAL_NONE:0 "Is a fellow [house|E] member"
 
  # Title Attribute Triggers
  LANDED_TITLE_FAITH_EQUAL_THIRD:0 "[TITLE.GetName] is [FAITH.GetAdjective]"
@@ -97,9 +99,18 @@
  NOT_PROVINCE_CULTURE_EQUAL_THIRD:1 "[PROVINCE.GetName] is #bold not#! [TARGET_CULTURE.GetName]"
  PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Is [TARGET_CULTURE.GetName]"
  NOT_PROVINCE_CULTURE_EQUAL_GLOBAL:1 "Is #bold not#! [TARGET_CULTURE.GetName]"
+ PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Is [CHARACTER.GetShortUINamePossessive] [realm_capital]"
+ NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL:0 "Is [CHARACTER.GetShortUINamePossessive] #bold not#! [realm_capital]"
+ PROVINCE_CAPITAL_EQUAL_THIRD:0 "[CHARACTER.GetShortUINamePossessive] [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_THIRD:0 "[CHARACTER.GetShortUINamePossessive] [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]"
+ PROVINCE_CAPITAL_EQUAL_FIRST:0 "Your [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_PROVINCE_CAPITAL_EQUAL_FIRST:0 "Your [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]"
 
  # Faith Triggers
  FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is a [RELIGION.GetAdjective] [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_THIRD:0 "[FAITH.GetName] is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
  FAITH_RELIGION_EQUAL_GLOBAL:0 "Is a [RELIGION.GetAdjective] [faith|E]"
  NOT_FAITH_RELIGION_EQUAL_GLOBAL:0 "Is #bold not#! a [RELIGION.GetAdjective] [faith|E]"
+
+ ACCOLADE_TYPE_EQUAL_GLOBAL:0 "This [accolade_type|e] is invalid"
+ ACCOLADE_TYPE_EQUAL_NONE:0 "This [accolade_type|e] is invalid"

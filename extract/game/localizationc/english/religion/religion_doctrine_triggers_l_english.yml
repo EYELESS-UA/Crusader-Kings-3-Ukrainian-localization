@@ -25,6 +25,8 @@
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ polygamy"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "$INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$ unrestricted incest"
 
+ INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "Incompatible with the [doctrine|E] $doctrine_pilgrimage_name$: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
+
  DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Incompatible with the [doctrine|E] Fundamentalist"
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Requires the [doctrine|E] Fundamentalist"
  DOCTRINE_PLURALISM_PLURALISTIC:0 "Incompatible with the [doctrine|E] Pluralistic"
@@ -38,6 +40,7 @@
  DOCTRINE_REQUIRED_HEAD_OF_FAITH:0 "Requires any [head_of_faith|E] [doctrine|E]"
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES:0 "Incompatible with all [doctrines|E] that consider specific actions to be [criminal|E]"
  ADULTERY_MUST_BE_FULLY_ACCEPTED:0 "Incompatible with any [doctrine|E] that makes adultery [shunned|E] or [criminal|E]"
+ REQUIRES_EXALTATION:0 "Requires the [core_tenet|E] $tenet_carnal_exaltation_name$"
 
  HAS_DOCTRINE:0 "Has the [FAITH_DOCTRINE.GetName(FAITH.Self)] doctrine"
  NOT_HAS_DOCTRINE:0 "Does #bold not#! have the [FAITH_DOCTRINE.GetName(FAITH.Self)] doctrine"
