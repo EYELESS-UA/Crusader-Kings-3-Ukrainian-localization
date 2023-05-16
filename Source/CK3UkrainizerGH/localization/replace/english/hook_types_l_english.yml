@@ -8,8 +8,15 @@
  house_head_hook:0 "Голова будинку" #House Head
  indebted_hook:0 "Борг" #Indebted
  loyalty_hook:0 "Вірність" #Loyalty
+ predecessor_loyalty_hook:0 "Loyalty to Predecessor"
  fabrication_hook:0 "Підробка" #Fabrication
  trial_by_combat_hook:0 "Виграно суд поєдинком" #Won Trial-by-Combat
  sumptuary_crime_hook:0 "Порушення станових законів" #Violated Sumptuary Law
  minor_crime_accomplice_hook:0 "Спільник злочину" #Crime Accomplice
  major_crime_accomplice_hook:0 "Спільник тяжкого злочину" #Serious Crime Accomplice
+ suspicious_activity_hook:0 "Involved in Suspicious Activity"
+ major_threat_hook:0 "Threatened"
+ saved_my_life_hook:0 "Saved Life"
+ obligation_hook:0 "Obligation"
+ liege_favour_strong_hook:0 "Bestowed Grace"
+ 

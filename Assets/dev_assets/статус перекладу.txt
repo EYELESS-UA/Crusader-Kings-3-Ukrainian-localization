@@ -55,3 +55,4 @@ conversation_subjects_l_english.yml
 court_loc_l_english.yml
 greeting_custom_loc_l_english.yml
 poetry_loc_l_english.yml
+factions_l_english.yml

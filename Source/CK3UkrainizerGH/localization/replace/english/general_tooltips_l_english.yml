@@ -1,9 +1,0 @@
-﻿l_english:
- line_break:0 "\n"
- double_line_break:0 "\n\n"
- do_not_execute_plot_tooltip:0 "Змовники приховуються. Тимчасово." #The plotters will remain in waiting. For now.
- outcome_in_a_few_moments:0 "За кілька секунд" #In a few moments
- outcome_in_a_few_days:0 "Через пару днів" #In a few days
- outcome_in_a_few_weeks:0 "За кілька тижнів" #In a few weeks
- outcome_in_a_few_months:0 "За кілька місяців" #In a few months
- outcome_in_a_few_years:0 "Через пару років" #In a few years
