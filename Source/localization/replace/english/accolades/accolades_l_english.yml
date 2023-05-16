@@ -1,15 +1,15 @@
 ﻿l_english:
  ACCOLADE_ADJECTIVE_NOUN:0 "$ADJECTIVE$ $NOUN$"
- ACCOLADE:0 "Accolade"
- ACCOLADES:0 "Accolades"
- CREATE_ACCOLADE:0 "Create Accolade"
- CREATE_ACCOLADE_CONFIRM:0 "Bestowing this honorific will increase the [acclaimed_knight|E]'s [opinion|e] of #high you#!.\n\nCost: #high $COST$#!"
+ ACCOLADE:0 "Відзнака" # Переведено
+ ACCOLADES:0 "Відзнаки" # Переведено
+ CREATE_ACCOLADE:0 "Створити Відзнаку" # Переведено
+ CREATE_ACCOLADE_CONFIRM:0 "Надання цієї почесної відзнаки збільшить [acclaimed_knight|E]'s [opinion|e] of #high you#!.\n\nCost: #high $COST$#!" # Переведено
  CREATE_ACCOLADE_CONFIRM_ACCEPT:0 "$CREATE_ACCOLADE$"
  CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nYour $knight_culture_player_no_tooltip$'s [accolade_types|e] will begin providing you positive effects, which increase as they gain [glory|E].\n\nCost: #high $COST$#!"
- CREATE_ACCOLADE_EMPTY_TYPE:0 "Empty Accolade Attribute"
- CREATE_ACCOLADE_SELECT_KNIGHT:1 "Select your new [accolade|e]'s [acclaimed_knight|E]. The [knight|e]'s [skills|e] and [traits|e] determine which [accolade_types|e] are available."
- CREATE_ACCOLADE_ASSIGN:0 "Appoint $knight_culture_player_no_tooltip$"
- CREATE_ACCOLADE_ASSIGN_TT:0 "#help Press to appoint this character [acclaimed_knight|E] of this [accolade|E]"
+ CREATE_ACCOLADE_EMPTY_TYPE:0 "Поки що ви не маєте відзнак"  # Переведено
+ CREATE_ACCOLADE_SELECT_KNIGHT:1 "Вибрати нову [accolade|e]'s [acclaimed_knight|E]. Ці [knight|e]'s [skills|e] та [traits|e] вибери з тих які [accolade_types|e] доступні." # Переведено
+ CREATE_ACCOLADE_ASSIGN:0 "Призначити $knight_culture_player_no_tooltip$" # Переведено
+ CREATE_ACCOLADE_ASSIGN_TT:0 "#help Натисніть, щоб призначити цього персонажа[acclaimed_knight|E] цієї [accolade|E]" # Переведено
  ACCOLADE_GLORY_VALUE:0 "[glory|E]: $VALUE|0$"
  ACCOLADE_GLORY_DATA:0 "[glory|E]: [Accolade.GetGlory|0]"
  ACCOLADE_LEVEL_VALUE:0 "[accolade_rank_short|e] $VALUE|0$"
@@ -19,35 +19,35 @@
  ACCOLADE_GLORY:0 "[glory|E]"
  ACCOLADE_GLORY_TOOLTIP:1 "[glory|E]\nCurrent: [Accolade.GetGlory|0]\nNext [accolade_rank_short|e]: [Accolade.GetGloryForNextUnlock|0]"
  ACCOLADES_LIMIT:1 "Accolades: [Character.GetNumActiveAccolades]/[Character.GetNumAccoladeSlots]"
- ACCOLADE_SHOW:1 "Show [accolade|E]"
- ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Owner already has an active [accolade|E] with type $TYPE$"
- ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip] does not meet the requirements of at least two Accolade Types"
- ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] is already an Acclaimed Knight"
- ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Successor of an [accolade|E]"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Acclaimed Knight or Successor of an Accolade"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] is already the Acclaimed Knight or Successor of this Accolade"
- ACCOLADE_SUCCESSOR:0 "Successor"
+ ACCOLADE_SHOW:1 "Показати [accolade|E]" # Переведено
+ ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Власник вже має активну [accolade|E] з типом $TYPE$" # Переведено
+ ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip] не відповідає вимогам щонайменше двох типів відзнак" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] вже є відомим лицарем" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] вже є спадкоємцем [accolade|E]" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] вже відомий лицар або спадкоємець відзнаки" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] вже відомий лицар або спадкоємець цієї відзнаки" # Переведено
+ ACCOLADE_SUCCESSOR:0 "Спадкоємець" # Переведено
  ACCOLADE_SUCCESSOR_NAME:0 "Successor: [Accolade.GetSuccessor.GetUIName]"
  ACCOLADE_ACCLAIMED_KNIGHT:0 "Acclaimed $knight_culture_player_no_tooltip$"
  ACCOLADE_ACCLAIMED_KNIGHT_NAME:0 "Acclaimed $knight_culture_player_no_tooltip$: [Accolade.GetAcclaimedKnight.GetUIName]"
  ACCOLADE_GLORY_AND_LEVEL:0 "[glory|E]: [Accolade.GetGlory|0], #low Rank [Accolade.GetCurrentRankNumber]#!"
  CURRENT_ACCOLADE_GLORY_AND_LEVEL:0 "Current $ACCOLADE_GLORY_AND_LEVEL$"
- ACCOLADE_CHANGE_SUCCESSOR:0 "Change Accolade Successor"
- DEACTIVATE_ACCOLADE:0 "Retire Accolade"
- DEACTIVATE_ACCOLADE_CONFIRM:1 "The [acclaimed_knight|e]'s [opinion|e] of #high you#! will decrease\n\nCost: #high $COST$#!"
+ ACCOLADE_CHANGE_SUCCESSOR:0 "Змінити відзнаку спадкоємця" # Переведено
+ DEACTIVATE_ACCOLADE:0 "Відмовитись від відзнаки" # Переведено
+ DEACTIVATE_ACCOLADE_CONFIRM:1 "Цей [acclaimed_knight|e]'s [opinion|e] of #high you#! will decrease\n\nCost: #high $COST$#!" # Переведено
  DEACTIVATE_ACCOLADE_CONFIRM_ACCEPT:0 "$DEACTIVATE_ACCOLADE$"
  DEACTIVATE_ACCOLADE_TT:1 "#T $DEACTIVATE_ACCOLADE$#!\nThis becomes an [inactive_accolade|E]. Bonuses will no longer have any effect.\nCost: $COST$"
- INACTIVE_ACCOLADES:0 "Inactive Accolades"
- ACTIVATE_ACCOLADE:0 "Reinstate"
- CHANGE_ACCLAIMED_KNIGHT:0 "Change $ACCOLADE_ACCLAIMED_KNIGHT$"
- DESTROY_ACCOLADE:0 "Destroy"
- DESTROY_ACCOLADE_CONFIRM:0 "Are you sure that you wish to permanently destroy [Accolade.GetName]?"
+ INACTIVE_ACCOLADES:0 "Не отриманні відзнаки" # Переведено
+ ACTIVATE_ACCOLADE:0 "Відновити" # Переведено
+ CHANGE_ACCLAIMED_KNIGHT:0 "Змінити $ACCOLADE_ACCLAIMED_KNIGHT$" # Переведено
+ DESTROY_ACCOLADE:0 "Відмовитись" # Переведено #Відмовитись а не Знищити тому що від відзнаки можливо тільки відмовитись
+ DESTROY_ACCOLADE_CONFIRM:0 "Ви впевнені що хочете назавжди відмовитись від [Accolade.GetName]?" # Переведено
  DESTROY_ACCOLADE_CONFIRM_ACCEPT:0 "$DESTROY_ACCOLADE$"
- ACCOLADE_APPOINT:0 "Appoint"
- ACCOLADE_PRIMARY_TYPE:0 "Primary [accolade_type|E]"
- ACCOLADE_SECONDARY_TYPE:0 "Secondary [accolade_type|E]"
+ ACCOLADE_APPOINT:0 "Призначити" # Переведено
+ ACCOLADE_PRIMARY_TYPE:0 "Основні [accolade_type|E]" # Переведено
+ ACCOLADE_SECONDARY_TYPE:0 "Вторинні [accolade_type|E]" # Переведено
  ACCOLADE_ACTIVE_EFFECTS:1 "#S Active Effects#!"
- ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Successor Requirements"
+ ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Вимоги для спадкоємця" # Переведено
  LOCKED_ACCOLADE_SLOT:1 "#T Unavailable Accolade #!\nUnlocked via [innovations|E], [dynasty_perks|E] and higher [title_tiers|E]"
  ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nThis will cost a small amount of [glory|e]"
  ACCOLADE_SET_ACCLAIMED_KNIGHT_ONLY_PRIMARY:1 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nAs they fulfill only primary [accolade_type|e] requirements, this will cost a large amount of [glory|e] and the Secondary [accolade_type|e] might be replaced"
