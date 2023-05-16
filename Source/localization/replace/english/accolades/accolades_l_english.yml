@@ -1,15 +1,15 @@
 ﻿l_english:
  ACCOLADE_ADJECTIVE_NOUN:0 "$ADJECTIVE$ $NOUN$"
- ACCOLADE:0 "Accolade"
- ACCOLADES:0 "Accolades"
- CREATE_ACCOLADE:0 "Create Accolade"
- CREATE_ACCOLADE_CONFIRM:0 "Bestowing this honorific will increase the [acclaimed_knight|E]'s [opinion|e] of #high you#!.\n\nCost: #high $COST$#!"
+ ACCOLADE:0 "Відзнака" # Переведено
+ ACCOLADES:0 "Відзнаки" # Переведено
+ CREATE_ACCOLADE:0 "Створити Відзнаку" # Переведено
+ CREATE_ACCOLADE_CONFIRM:0 "Надання цієї почесної відзнаки збільшить [acclaimed_knight|E]'s [opinion|e] of #high you#!.\n\nCost: #high $COST$#!" # Переведено
  CREATE_ACCOLADE_CONFIRM_ACCEPT:0 "$CREATE_ACCOLADE$"
  CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nYour $knight_culture_player_no_tooltip$'s [accolade_types|e] will begin providing you positive effects, which increase as they gain [glory|E].\n\nCost: #high $COST$#!"
- CREATE_ACCOLADE_EMPTY_TYPE:0 "Empty Accolade Attribute"
- CREATE_ACCOLADE_SELECT_KNIGHT:1 "Select your new [accolade|e]'s [acclaimed_knight|E]. The [knight|e]'s [skills|e] and [traits|e] determine which [accolade_types|e] are available."
- CREATE_ACCOLADE_ASSIGN:0 "Appoint $knight_culture_player_no_tooltip$"
- CREATE_ACCOLADE_ASSIGN_TT:0 "#help Press to appoint this character [acclaimed_knight|E] of this [accolade|E]"
+ CREATE_ACCOLADE_EMPTY_TYPE:0 "Поки що ви не маєте відзнак"  # Переведено
+ CREATE_ACCOLADE_SELECT_KNIGHT:1 "Вибрати нову [accolade|e]'s [acclaimed_knight|E]. Ці [knight|e]'s [skills|e] та [traits|e] вибери з тих які [accolade_types|e] доступні." # Переведено
+ CREATE_ACCOLADE_ASSIGN:0 "Призначити $knight_culture_player_no_tooltip$" # Переведено
+ CREATE_ACCOLADE_ASSIGN_TT:0 "#help Натисніть, щоб призначити цього персонажа[acclaimed_knight|E] цієї [accolade|E]" # Переведено
  ACCOLADE_GLORY_VALUE:0 "[glory|E]: $VALUE|0$"
  ACCOLADE_GLORY_DATA:0 "[glory|E]: [Accolade.GetGlory|0]"
  ACCOLADE_LEVEL_VALUE:0 "[accolade_rank_short|e] $VALUE|0$"
@@ -19,35 +19,35 @@
  ACCOLADE_GLORY:0 "[glory|E]"
  ACCOLADE_GLORY_TOOLTIP:1 "[glory|E]\nCurrent: [Accolade.GetGlory|0]\nNext [accolade_rank_short|e]: [Accolade.GetGloryForNextUnlock|0]"
  ACCOLADES_LIMIT:1 "Accolades: [Character.GetNumActiveAccolades]/[Character.GetNumAccoladeSlots]"
- ACCOLADE_SHOW:1 "Show [accolade|E]"
- ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Owner already has an active [accolade|E] with type $TYPE$"
- ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip] does not meet the requirements of at least two Accolade Types"
- ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] is already an Acclaimed Knight"
- ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Successor of an [accolade|E]"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Acclaimed Knight or Successor of an Accolade"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] is already the Acclaimed Knight or Successor of this Accolade"
- ACCOLADE_SUCCESSOR:0 "Successor"
+ ACCOLADE_SHOW:1 "Показати [accolade|E]" # Переведено
+ ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Власник вже має активну [accolade|E] з типом $TYPE$" # Переведено
+ ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip] не відповідає вимогам щонайменше двох типів відзнак" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] вже є відомим лицарем" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] вже є спадкоємцем [accolade|E]" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] вже відомий лицар або спадкоємець відзнаки" # Переведено
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] вже відомий лицар або спадкоємець цієї відзнаки" # Переведено
+ ACCOLADE_SUCCESSOR:0 "Спадкоємець" # Переведено
  ACCOLADE_SUCCESSOR_NAME:0 "Successor: [Accolade.GetSuccessor.GetUIName]"
  ACCOLADE_ACCLAIMED_KNIGHT:0 "Acclaimed $knight_culture_player_no_tooltip$"
  ACCOLADE_ACCLAIMED_KNIGHT_NAME:0 "Acclaimed $knight_culture_player_no_tooltip$: [Accolade.GetAcclaimedKnight.GetUIName]"
  ACCOLADE_GLORY_AND_LEVEL:0 "[glory|E]: [Accolade.GetGlory|0], #low Rank [Accolade.GetCurrentRankNumber]#!"
  CURRENT_ACCOLADE_GLORY_AND_LEVEL:0 "Current $ACCOLADE_GLORY_AND_LEVEL$"
- ACCOLADE_CHANGE_SUCCESSOR:0 "Change Accolade Successor"
- DEACTIVATE_ACCOLADE:0 "Retire Accolade"
- DEACTIVATE_ACCOLADE_CONFIRM:1 "The [acclaimed_knight|e]'s [opinion|e] of #high you#! will decrease\n\nCost: #high $COST$#!"
+ ACCOLADE_CHANGE_SUCCESSOR:0 "Змінити відзнаку спадкоємця" # Переведено
+ DEACTIVATE_ACCOLADE:0 "Відмовитись від відзнаки" # Переведено
+ DEACTIVATE_ACCOLADE_CONFIRM:1 "Цей [acclaimed_knight|e]'s [opinion|e] of #high you#! will decrease\n\nCost: #high $COST$#!" # Переведено
  DEACTIVATE_ACCOLADE_CONFIRM_ACCEPT:0 "$DEACTIVATE_ACCOLADE$"
  DEACTIVATE_ACCOLADE_TT:1 "#T $DEACTIVATE_ACCOLADE$#!\nThis becomes an [inactive_accolade|E]. Bonuses will no longer have any effect.\nCost: $COST$"
- INACTIVE_ACCOLADES:0 "Inactive Accolades"
- ACTIVATE_ACCOLADE:0 "Reinstate"
- CHANGE_ACCLAIMED_KNIGHT:0 "Change $ACCOLADE_ACCLAIMED_KNIGHT$"
- DESTROY_ACCOLADE:0 "Destroy"
- DESTROY_ACCOLADE_CONFIRM:0 "Are you sure that you wish to permanently destroy [Accolade.GetName]?"
+ INACTIVE_ACCOLADES:0 "Не отриманні відзнаки" # Переведено
+ ACTIVATE_ACCOLADE:0 "Відновити" # Переведено
+ CHANGE_ACCLAIMED_KNIGHT:0 "Змінити $ACCOLADE_ACCLAIMED_KNIGHT$" # Переведено
+ DESTROY_ACCOLADE:0 "Відмовитись" # Переведено #Відмовитись а не Знищити тому що від відзнаки можливо тільки відмовитись
+ DESTROY_ACCOLADE_CONFIRM:0 "Ви впевнені що хочете назавжди відмовитись від [Accolade.GetName]?" # Переведено
  DESTROY_ACCOLADE_CONFIRM_ACCEPT:0 "$DESTROY_ACCOLADE$"
- ACCOLADE_APPOINT:0 "Appoint"
- ACCOLADE_PRIMARY_TYPE:0 "Primary [accolade_type|E]"
- ACCOLADE_SECONDARY_TYPE:0 "Secondary [accolade_type|E]"
+ ACCOLADE_APPOINT:0 "Призначити" # Переведено
+ ACCOLADE_PRIMARY_TYPE:0 "Основні [accolade_type|E]" # Переведено
+ ACCOLADE_SECONDARY_TYPE:0 "Вторинні [accolade_type|E]" # Переведено
  ACCOLADE_ACTIVE_EFFECTS:1 "#S Active Effects#!"
- ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Successor Requirements"
+ ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Вимоги для спадкоємця" # Переведено
  LOCKED_ACCOLADE_SLOT:1 "#T Unavailable Accolade #!\nUnlocked via [innovations|E], [dynasty_perks|E] and higher [title_tiers|E]"
  ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nThis will cost a small amount of [glory|e]"
  ACCOLADE_SET_ACCLAIMED_KNIGHT_ONLY_PRIMARY:1 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nAs they fulfill only primary [accolade_type|e] requirements, this will cost a large amount of [glory|e] and the Secondary [accolade_type|e] might be replaced"
@@ -83,40 +83,40 @@
  REGIMENT_ACCLAIMED_STAT_ENTRY_MULT:0 "From [acclaimed_knights|E]: $VALUE|+=%0$"
  ACCLAIMED_KNIGHTS_IN_ARMY:0 "[acclaimed_knights|E] in Army"
 
- ACCOLADE_UNSUNG:0 "Unsung"
- ACCOLADE_ESTABLISHED:0 "Established"
- ACCOLADE_RECOGNIZED:0 "Recognized"
- ACCOLADE_FETED:0 "Fêted"
- ACCOLADE_LIONIZED:0 "Lionized"
- ACCOLADE_AUGUST:0 "August"
- ACCOLADE_GLORIOUS:0 "Glorious"
+ ACCOLADE_UNSUNG:0 "Неоспіваний" # Переведено
+ ACCOLADE_ESTABLISHED:0 "Створенно" # Переведено
+ ACCOLADE_RECOGNIZED:0 "Визнано" # Переведено
+ ACCOLADE_FETED:0 "Закінчився" # Переведено
+ ACCOLADE_LIONIZED:0 "Левеня" # Переведено
+ ACCOLADE_AUGUST:0 "Серпень" # Переведено
+ ACCOLADE_GLORIOUS:0 "Чудово" # Переведено
 
  custom.every_acclaimed_knight:0 "Every [acclaimed_knight|E]"
 
  # COMMON ATTRIBUTES
- marauder_attribute:0 "Marauder"
- idealist_attribute:0 "Idealist"
- charmer_attribute:0 "Charmer"
- thug_attribute:0 "Thug"
- disciplinarian_attribute:0 "Disciplinarian"
- fanatic_attribute:0 "Fanatic"
- valiant_attribute:0 "Valiant"
+ marauder_attribute:0 "Мародер" # Переведено
+ idealist_attribute:0 "Ідеаліст" # Переведено
+ charmer_attribute:0 "Чарівник" # Переведено
+ thug_attribute:0 "Бандит" # Переведено
+ disciplinarian_attribute:0 "Дисциплінарний" # Переведено
+ fanatic_attribute:0 "Фанатик" # Переведено
+ valiant_attribute:0 "Відважний" # Переведено
  stalwart_attribute:0 "$accolade_stalwart$"
  scoundrel_attribute:0 "$accolade_scoundrel$"
 
- accolade_marauding:0 "Marauding"
- accolade_marauder:0 "Marauder"
- accolade_idealistic:0 "Idealistic"
- accolade_idealist:0 "Idealist"
- accolade_charming:0 "Charming"
- accolade_charmer:0 "Charmer"
- accolade_thuggish:0 "Thuggish"
- accolade_thug:0 "Thug"
- accolade_disciplined:0 "Disciplined"
- accolade_disciplinarian:0 "Disciplinarian"
- accolade_fanatical:0 "Fanatical"
- accolade_fanatic:0 "Fanatic"
- accolade_valiant:0 "Valiant"
+ accolade_marauding:0 "Мародерство" # Переведено
+ accolade_marauder:0 "Мародер" # Переведено
+ accolade_idealistic:0 "Ідеалістичний" # Переведено
+ accolade_idealist:0 "Ідеаліст" # Переведено
+ accolade_charming:0 "Чарівний" # Переведено
+ accolade_charmer:0 "Чарівник" # Переведено
+ accolade_thuggish:0 "Бандитський" # Переведено
+ accolade_thug:0 "Бандит" # Переведено
+ accolade_disciplined:0 "Дисциплінований" # Переведено
+ accolade_disciplinarian:0 "Дисциплінарний" # Переведено
+ accolade_fanatical:0 "Фанатичний" # Переведено
+ accolade_fanatic:0 "Фанатик" # Переведено
+ accolade_valiant:0 "Відважний" # Переведено
 
  marauder_attribute_modifier:0 "$marauder_attribute$ [acclaimed_knight|E]"
  thug_attribute_modifier:0 "$thug_attribute$ [acclaimed_knight|E]"
@@ -149,44 +149,44 @@
  stalwart_attribute_modifier:0 "$stalwart_attribute$ [acclaimed_knight|E]"
  scoundrel_attribute_modifier:0 "$scoundrel_attribute$ [acclaimed_knight|E]"
 
- accolade_champions_white_peace:2 "$EFFECT_LIST_BULLET$Negotiating a [white_peace|E] provides [prestige_i][prestige|E]"
+ accolade_champions_white_peace:2 "$EFFECT_LIST_BULLET$Negotiating це [white_peace|E] забезпечує [prestige_i][prestige|E]" # Переведено
 
  accolade_imprisonment_chance:0 "$EFFECT_LIST_BULLET$[imprison|E] Chance: #P +[EmptyScope.ScriptValue('accolade_imprisonment_chance_value')|+0]#!"
  accolade_imprisonment_chance_high:1 "$EFFECT_LIST_BULLET$[imprison|E] Chance: #P +[EmptyScope.ScriptValue('accolade_imprisonment_chance_value_high')|+0]#!"
- accolade_court_seduction_vulnerability:1 "$EFFECT_LIST_BULLET$Your [courtiers|E] are slightly more vulnerable to the [GetScheme('seduce').GetTypeName] [schemes|E] of #EMP any#! [character|e]"
+ accolade_court_seduction_vulnerability:1 "$EFFECT_LIST_BULLET$Your [courtiers|E] є дещо більш вразливими до [GetScheme('seduce').GetTypeName] [schemes|E] of #EMP any#! [character|e]" # Переведено
 
- acclaimed_knight_piety_from_battle:1 "$EFFECT_LIST_BULLET$[piety_i][piety|e] cost of [holy_wars|E] reduced\n$EFFECT_LIST_BULLET$Joining [holy_wars|E] provides [piety_i][piety|E]"
+ acclaimed_knight_piety_from_battle:1 "$EFFECT_LIST_BULLET$[piety_i][piety|e] коштує [holy_wars|E] reduced\n$EFFECT_LIST_BULLET$Joining [holy_wars|E] забезпечує [piety_i][piety|E]" # Переведено
 
- acclaimed_knight_piety_from_battle_high:1 "$EFFECT_LIST_BULLET$[piety_i][piety|e] cost of [holy_wars|E] highly reduced\n$EFFECT_LIST_BULLET$Joining [holy_wars|E] provides significant [piety_i][piety|E]"
+ acclaimed_knight_piety_from_battle_high:1 "$EFFECT_LIST_BULLET$[piety_i][piety|e] коштує [holy_wars|E] highly reduced\n$EFFECT_LIST_BULLET$Joining [holy_wars|E] забезпечує значним [piety_i][piety|E]" # Переведено
 
- accolade_party_fertility:0 "$EFFECT_LIST_BULLET$Increased [fertility|E] and [attraction|E] [opinion|E] while hosting a [GetActivityType('activity_feast').GetName] or [GetActivityType( 'activity_wedding' ).GetName]"
- accolade_charmer_party_modifier:0 "Flirty Festivities"
- accolade_charmer_party_modifier_desc:0 "This character's most salacious knight is steering the high table towards licentious merriment."
+ accolade_party_fertility:0 "$EFFECT_LIST_BULLET$Increased [fertility|E] та [attraction|E] [opinion|E] поки проводится [GetActivityType('activity_feast').GetName] або [GetActivityType( 'activity_wedding' ).GetName]" # Переведено
+ accolade_charmer_party_modifier:0 "Кокетливі свята" # Переведено
+ accolade_charmer_party_modifier_desc:0 "Найрозпусніший лицар запроваджує високий стіл до нестримних веселощів." # Переведено
 
- accolade_party_fertility_high:0 "$EFFECT_LIST_BULLET$Highly increased [fertility|E] and [attraction|E] [opinion|E] while hosting a [GetActivityType('activity_feast').GetName] or [GetActivityType( 'activity_wedding' ).GetName]"
- accolade_charmer_party_high_modifier:0 "Wildly Flirty Festivities"
- accolade_charmer_party_high_modifier_desc:0 "This character's lothario of a knight is leading the high table in ardent antics."
+ accolade_party_fertility_high:0 "$EFFECT_LIST_BULLET$Highly росте [fertility|E] та [attraction|E] [opinion|E] поки проводится [GetActivityType('activity_feast').GetName] або [GetActivityType( 'activity_wedding' ).GetName]" # Переведено
+ accolade_charmer_party_high_modifier:0 "Дико кокетливі святкування" # Переведено
+ accolade_charmer_party_high_modifier_desc:0 "Лотаріо лицаря керує високим столом у палких витівках." # Переведено
 
  # SKILLED ATTRIBUTES
- politicker_attribute:0 "Politicker"
- tactician_attribute:0 "Tactician"
- reeve_attribute:0 "Reeve"
- manipulator_attribute:0 "Manipulator"
- mentor_attribute:0 "Mentor"
- contender_attribute:0 "Contender"
+ politicker_attribute:0 "Політичний діяч" # Переведено
+ tactician_attribute:0 "Тактик" # Переведено
+ reeve_attribute:0 "Мер" # Переведено
+ manipulator_attribute:0 "Маніпулятор" # Переведено
+ mentor_attribute:0 "Наставник" # Переведено
+ contender_attribute:0 "Претиндент" # Переведено
 
- accolade_politicking:0 "Politicking"
- accolade_politicker:0 "Politicker"
- accolade_strategic:0 "Strategic"
- accolade_tactician:0 "Tactician"
- accolade_calculating:0 "Calculating"
- accolade_reeve:0 "Reeve"
- accolade_manipulative:0 "Manipulative"
- accolade_manipulator:0 "Manipulator"
- accolade_sagely:0 "Sagely"
- accolade_mentor:0 "Mentor"
- accolade_fearsome:0 "Fearsome"
- accolade_contender:0 "Contender"
+ accolade_politicking:0 "Політизація" # Переведено
+ accolade_politickr:0 "Політичний діяч" # Переведено
+ accolade_strategic:0 "Стратегічний" # Переведено
+ accolade_tactician:0 "Тактичний" # Переведено
+ accolade_calculating:0 "Обчислюваний" # Переведено
+ accolade_reeve:0 "Мер" # Переведено
+ accolade_manipulative:0 "Маніпулятивний" # Переведено
+ accolade_manipulator:0 "Маніпулятор" # Переведено
+ accolade_sagely:0 "Мудрий" # Переведено
+ accolade_mentor:0 "Ментор" # Переведено
+ accolade_fearsome:0 "Страшний" # Переведено
+ accolade_contender:0 "Притендент" # Переведено
 
  accolade_influences_regency:1 "$EFFECT_LIST_BULLET$[scales_of_power|E] Balancing Point: [EmptyScope.ScriptValue('accolade_scales_of_power_value')|-0]"
 
