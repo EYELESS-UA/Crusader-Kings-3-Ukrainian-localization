@@ -195,7 +195,7 @@
 
  accolade_tour_end_bonus:0 "$EFFECT_LIST_BULLET$[grand_tours|E] підвищити [vassal|E] [levy|E] [modifier_base_contribution|E] та [siege_progress|E] проти [revolts|E], після завершення" # Переведено
 
- dutiful_realm_knights_modifier:0 "Покірні лицарі королівства" Покірні лицарі королівства" # Переведено
+ dutiful_realm_knights_modifier:0 "Покірні лицарі королівства" # Переведено
  dutiful_realm_knights_modifier_desc:0 "Дрібна шляхта по всій країні має прямі та опосередковані військові зобов'язання перед цим героєм." # Переведено
 
 
