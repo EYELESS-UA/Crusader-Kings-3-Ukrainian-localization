@@ -2,7 +2,7 @@
  ACCOLADE_ADJECTIVE_NOUN:0 "$ADJECTIVE$ $NOUN$"
  ACCOLADE:0 "Відзнака" # Переведено
  ACCOLADES:0 "Відзнаки" # Переведено
- CREATE_ACCOLADE:0 "Створити Відзнаку" # Переведено
+ CREATE_ACCOLADE:0 "Надати відзнаку" # Переведено
  CREATE_ACCOLADE_CONFIRM:0 "Надання цієї почесної відзнаки збільшить [acclaimed_knight|E]'s [opinion|e] of #high you#!.\n\nCost: #high $COST$#!" # Переведено
  CREATE_ACCOLADE_CONFIRM_ACCEPT:0 "$CREATE_ACCOLADE$"
  CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nYour $knight_culture_player_no_tooltip$'s [accolade_types|e] will begin providing you positive effects, which increase as they gain [glory|E].\n\nCost: #high $COST$#!"
@@ -193,73 +193,73 @@
  accolade_influences_regency_high:1 "$EFFECT_LIST_BULLET$[scales_of_power|E] Balancing Point: [EmptyScope.ScriptValue('accolade_scales_of_power_value_high')|-0]"
 
 
- accolade_tour_end_bonus:0 "$EFFECT_LIST_BULLET$[grand_tours|E] boost [vassal|E] [levy|E] [modifier_base_contribution|E] and [siege_progress|E] against [revolts|E], after completion"
+ accolade_tour_end_bonus:0 "$EFFECT_LIST_BULLET$[grand_tours|E] підвищити [vassal|E] [levy|E] [modifier_base_contribution|E] та [siege_progress|E] проти [revolts|E], після завершення" # Переведено
 
- dutiful_realm_knights_modifier:0 "Dutiful Realm Knights"
- dutiful_realm_knights_modifier_desc:0 "The petty gentry throughout the land hold dear martial obligations, direct and indirect, to this character's cause."
+ dutiful_realm_knights_modifier:0 "Покірні лицарі королівства" # Переведено
+ dutiful_realm_knights_modifier_desc:0 "Дрібна шляхта по всій країні має прямі та опосередковані військові зобов'язання перед цим героєм." # Переведено
 
 
  accolade_organize_army_bonus:0 "$EFFECT_LIST_BULLET$The #high $task_organize_levies$#! [councillor_task|E] occasionally boosts [levy|e] Reinforcement Rate"
- levy_captaincy_modifier:0 "Levy Captaincy"
- levy_captaincy_modifier_desc:0 "A veteran [acclaimed_knight|E] is extending attention to this character's levies."
+ levy_captaincy_modifier:0 "Капітан-лейтенант." # Переведено
+ levy_captaincy_modifier_desc:0 "Ветеран [acclaimed_knight|E] привертає увагу до поборів цього персонажа." # Переведено
 
- accolade_development_growth_on_tournament_completion_low:0 "$EFFECT_LIST_BULLET$Completing a [GetActivityType( 'activity_tournament').GetName] grants [EmptyScope.ScriptValue('accolade_development_growth_on_tournament_completion_value')|=+0] [development_growth|E] in your least-developed [county|E]"
- accolade_development_growth_on_tournament_completion_high:0 "$EFFECT_LIST_BULLET$Completing a [GetActivityType( 'activity_tournament').GetName] grants [EmptyScope.ScriptValue('accolade_development_level_on_tournament_completion_value')|=+0] [development|E] Level to your least-developed [county|E]"
+ accolade_development_growth_on_tournament_completion_low:0 "$EFFECT_LIST_BULLET$Completing a [GetActivityType( 'activity_tournament').GetName] гранти [EmptyScope.ScriptValue('accolade_development_growth_on_tournament_completion_value')|=+0] [development_growth|E] у вашій найменш розвиненій [county|E]" # Переведено
+ accolade_development_growth_on_tournament_completion_high:0 "$EFFECT_LIST_BULLET$Completing a [GetActivityType( 'activity_tournament').GetName] гранти [EmptyScope.ScriptValue('accolade_development_level_on_tournament_completion_value')|=+0] [development|E] Рівень до вашого найменш розвиненого [county|E]" # Переведено
  accolade_increase_control_bonus:0 "$EFFECT_LIST_BULLET$The #high $task_increase_control$#! [councillor_task|E] will occasionally gain a significant boost"
 
  accolade_train_commanders_bonus:0 "$EFFECT_LIST_BULLET$The #high $task_train_commanders$#! [councillor_task|E] occasionally increases a [knight|E]'s [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience"
  accolade_train_commanders_bonus_high:0 "$EFFECT_LIST_BULLET$The #high $task_train_commanders$#! [councillor_task|E] occasionally highly increases a [knight|E]'s [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience"
 
- accolade_wise_educator:2 "$EFFECT_LIST_BULLET$Adolescents of your [court|E] gain additional [prestige|E] and [prowess|E]"
- accolade_wise_educator_high:2 "$EFFECT_LIST_BULLET$Adolescents of your [court|E] gain significant extra [prestige|E] and [prowess|E]"
+ accolade_wise_educator:2 "$EFFECT_LIST_BULLET$Ваші підлітки [court|E] отримали додаткові [prestige|E] та [prowess|E]" # Переведено
+ accolade_wise_educator_high:2 "$EFFECT_LIST_BULLET$Ваші підлітки [court|E] отримали значні додаткові [prestige|E] та [prowess|E]" # Переведено
 
- accolade_tournament_xp_gain_contender_only_low:0 "$EFFECT_LIST_BULLET$This [knight|E] gains [EmptyScope.ScriptValue('accolade_contender_trait_xp_low_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience from [GetActivityType( 'activity_tournament').GetName] attendance"
+ accolade_tournament_xp_gain_contender_only_low:0 "$EFFECT_LIST_BULLET$This [knight|E] отримав [EmptyScope.ScriptValue('accolade_contender_trait_xp_low_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід від [GetActivityType( 'activity_tournament').GetName] відвідування" # Переведено
 
- accolade_tournament_xp_gain_contender_only:0 "$EFFECT_LIST_BULLET$This [knight|E] gains [EmptyScope.ScriptValue('accolade_contender_trait_xp_medium_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience from [GetActivityType( 'activity_tournament').GetName] attendance"
+ accolade_tournament_xp_gain_contender_only:0 "$EFFECT_LIST_BULLET$This [knight|E] отримав [EmptyScope.ScriptValue('accolade_contender_trait_xp_medium_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід від [GetActivityType( 'activity_tournament').GetName] відвідування" # Переведено
 
- accolade_tournament_xp_gain_contender_only.tt:0 "[contender.GetShortUIName] gains additional [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience"
+ accolade_tournament_xp_gain_contender_only.tt:0 "[contender.GetShortUIName] отримує додатковий [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід" # Переведено
 
- accolade_tournament_xp_gain_contender_only_high:0 "$EFFECT_LIST_BULLET$This [knight|E] gains [EmptyScope.ScriptValue('accolade_contender_trait_xp_high_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience from [GetActivityType( 'activity_tournament').GetName] attendance"
+ accolade_tournament_xp_gain_contender_only_high:0 "$EFFECT_LIST_BULLET$This [knight|E] отримав [EmptyScope.ScriptValue('accolade_contender_trait_xp_high_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід від  [GetActivityType( 'activity_tournament').GetName] відвідування" # Переведено
 
- accolade_tournament_xp_gain_all_knights:0 "$EFFECT_LIST_BULLET$All your [knights|E] gain [EmptyScope.ScriptValue('accolade_all_knights_trait_xp_low_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience from [GetActivityType( 'activity_tournament').GetName] attendance"
+ accolade_tournament_xp_gain_all_knights:0 "$EFFECT_LIST_BULLET$All твій [knights|E] виграш [EmptyScope.ScriptValue('accolade_all_knights_trait_xp_low_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід від [GetActivityType( 'activity_tournament').GetName] відвідування" # Переведено
 
- accolade_tournament_xp_gain_all_knights.tt:0 "Gain additional [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience."
+ accolade_tournament_xp_gain_all_knights.tt:0 "Отримав додатковий [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід." # Переведено
 
- accolade_tournament_xp_gain_all_knights_high:0 "$EFFECT_LIST_BULLET$All your [knights|E] gain [EmptyScope.ScriptValue('accolade_all_knights_trait_xp_high_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Experience from [GetActivityType( 'activity_tournament').GetName] attendance"
+ accolade_tournament_xp_gain_all_knights_high:0 "$EFFECT_LIST_BULLET$All твій [knights|E] виграш [EmptyScope.ScriptValue('accolade_all_knights_trait_xp_high_value')|+0] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Досвід від [GetActivityType( 'activity_tournament').GetName] відвідування" # Переведено
 
  # MAA ATTRIBUTES
- archer_attribute:0 "Archer"
- skirmisher_attribute:0 "Skirmisher"
- pike_attribute:0 "Pike Captain"
- outrider_attribute:0 "Outrider"
- vanguard_attribute:0 "Vanguard"
- lancer_attribute:0 "Lancer"
- crossbowmen_attribute:0 "Crossbow Captain"
- besieger_attribute:0 "Besieger"
- camelry_attribute:0 "Camelier"
- elephantry_attribute:0 "Elephant Rider"
- horse_archer_attribute:0 "Horse Archer"
+ archer_attribute:0 "Лучник" # Переведено
+ skirmisher_attribute:0 "Стрілець" # Переведено
+ pike_attribute:0 "Щука Капітан" # Переведено
+ outrider_attribute:0 "Аутсайдер" # Переведено
+ vanguard_attribute:0 "Авангард" # Переведено
+ lancer_attribute:0 "Лансер" # Переведено
+ crossbowmen_attribute:0 "Капітан Арбалетників" # Переведено
+ besieger_attribute:0 "Обложники" # Переведено
+ camelry_attribute:0 Верблюдовий Загін" # Переведено
+ elephantry_attribute:0 "Вершник на слоні" # Переведено
+ horse_archer_attribute:0 "Кінний лучник" # Переведено
 
- accolade_bow_leading:0 "Bow-Leading"
- accolade_archer:0 "Archer"
- accolade_skirmishing:0 "Skirmishing"
- accolade_skirmisher:0 "Skirmisher"
- accolade_pike_leading:0 "Pike-Leading"
- accolade_pike_captain:0 "Pike Captain"
- accolade_outriding:0 "Outriding"
- accolade_outrider:0 "Outrider"
- accolade_vanguard:0 "Vanguard"
- accolade_lancer:0 "Lancer"
- accolade_crossbow_leading:0 "Crossbow-Leading"
- accolade_crossbow_captain:0 "Crossbow Captain"
- accolade_besieging:0 "Besieging"
- accolade_besieger:0 "Besieger"
- accolade_camel_riding:0 "Camel-Riding"
- accolade_camelier:0 "Camelier"
- accolade_elephant_riding:0 "Elephant-Riding"
- accolade_elephanteer:0 "Elephant Rider"
- accolade_horse_arching:0 "Horse-Arching"
- accolade_horse_archer:0 "Horse Archer"
+ accolade_bow_leading:0 "Ведущий-Лучник" # Переведено
+ accolade_archer:0 "Лучник" # Переведено
+ accolade_skirmishing:0 "Стрілянина" # Переведено
+ accolade_skirmisher:0 "Стрілець" # Переведено
+ accolade_pike_leading:0 "Лідерство на щуку" # Переведено
+ accolade_pike_captain:0 "Щука Капітан" # Переведено
+ accolade_outriding:0 "Випереджає" # Переведено
+ accolade_outrider:0 "Аутсайдер" # Переведено
+ accolade_vanguard:0 "Авангард" # Переведено
+ accolade_lancer:0 "Лансер" # Переведено
+ accolade_crossbow_leading:0 "Ведущий-Арбалетник" # Переведено
+ accolade_crossbow_captain:0 "Капітан Арбалетників" # Переведено
+ accolade_besieging:0 "Облога" # Переведено
+ accolade_besieger:0 "Обложник" # Переведено
+ accolade_camel_riding:0 "Верблюжник" # Переведено
+ accolade_camelier:0 "Верблюдник" # Переведено
+ accolade_elephant_riding:0 "Катання на слонах" # Переведено
+ accolade_elephanteer:0 "Вершник на слоні" # Переведено
+ accolade_horse_arching:0 "Конний-Лучник" # Переведено
+ accolade_horse_archer:0 "Лучник на коні" # Переведено
 
  accolade_increase_hostile_knight_death_boilerplate:1 "increased chance of death in battle for [knights|E] fighting the [acclaimed_knight|E]."
  accolade_increase_hostile_knight_death_low:1 "Slightly $accolade_increase_hostile_knight_death_boilerplate$"
