@@ -4,4 +4,4 @@ tags={
 }
 name="CK3 Ukrainizer (GitHub)"
 supported_version="1.9.*"
-path="C:/Users/Eueless/Documents/Paradox Interactive/Crusader Kings III/mod/CK3UkrainizerGH"
+path="mod/CK3UkrainizerGH"
