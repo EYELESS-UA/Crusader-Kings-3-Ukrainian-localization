@@ -13,7 +13,7 @@
 
  prison.1002.rack.desc:0 "Why complicate matters? There is nothing like the good old rack. When the jailer hauls [recipient.GetTitledFirstName] into the room, [recipient.GetHerHis] eyes are immediately drawn to the big wooden frame."
  prison.1002.whip.desc:0 "Oh, the sweet kiss of the whip! It might look innocent, but it can separate flesh from bones just as well as any knife. Judging by the look on [recipient.GetTitledFirstNamePossessive] face, [recipient.GetSheHe] knows this all too well."
- prison.1002.rats.desc:0 "The rats in the bucket might seem shy at first, but they will happily gnaw their way through a [`recipient.GetWomanMan]'s chest once some heat is added. As I explain the concept to [recipient.GetTitledFirstName], [recipient.GetHerHis] resolve melts away before my eyes."
+ prison.1002.rats.desc:1 "The rats in the bucket might seem shy at first, but they will happily gnaw their way through a [recipient.GetWomanMan]'s chest once some heat is added. As I explain the concept to [recipient.GetTitledFirstName], [recipient.GetHerHis] resolve melts away before my eyes."
  prison.1002.poetry.desc:0 "When one can twist words for pleasure as well as myself, twisting them for harm is a simple matter.\n\nTaking out the long volume of poetry from my arm, I unfurl it, letting the scroll hit the floor and roll gently backwards out the door."
  prison.1002.anothers_secret.desc:0 "\n\n"No, no, I... I have information! [reveal_secret_owner.GetTitledFirstName] [secret_to_reveal.Custom('SecretDescriptionThirdPerson')]! I will tell you everything!""
  prison.1002.my_secret.desc:0 "\n\n"Please, no! #EMP Please!#! I will tell you anything you want to know! I... I [secret_to_reveal.Custom('SecretDescriptionFirstPerson')]!""

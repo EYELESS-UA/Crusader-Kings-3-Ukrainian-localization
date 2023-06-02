@@ -1,0 +1,8 @@
+﻿l_english:
+ SETTING_REFRACTION:0 "Заломлення"
+ SETTING_REFRACTION_QUALITY:0 "Якість заломлення"
+ SETTING_MAPOBJECT_QUALITY:0 "Об‘єкти мапи"
+ SETTING_MAP_SSAO:0 "Мапа SSAO"
+ SETTING_DOF:0 "Глибина різкости"
+ SETTING_LENS_FLARE: "Відблиск об‘єктива"
+ SETTING_SECONDARY_LENS_FLARE: "Вторинний відблиск об‘єктива"

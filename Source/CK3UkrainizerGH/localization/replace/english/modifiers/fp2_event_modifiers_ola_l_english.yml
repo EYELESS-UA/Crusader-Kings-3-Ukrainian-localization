@@ -1,146 +1,146 @@
 ﻿l_english:
- tolerance_gospel_modifier:0 "Проповідь терпимості"
- tolerance_gospel_modifier_desc:0 "Цей персонаж переконав свій народ набратися терпіння та згуртуватися."
- fanatical_recruits_modifier:0 "Фанатичні рекрути"
- fanatical_recruits_modifier_desc:0 "На службу цьому персонажу постійно прибувають фанатичні рекрути."
- tensions_eased_province_modifier:0 "Знижена напруженість"
- tensions_eased_province_modifier_desc:0 "Релігійна напруженість у цій провінції йде на спад."
- riots_and_murders_province_modifier:0 "Заколоти та вбивства"
- riots_and_murders_province_modifier_desc:0 "Це графство трясуть убивства та вигнання тих, хто визнаний небажаними."
- hate_monger_modifier:0 "Апологет ненависті"
- hate_monger_modifier_desc:0 "Всі знають, що цей персонаж сіє розлад та ненависть."
+ tolerance_gospel_modifier:0 "Tolerance Gospel"
+ tolerance_gospel_modifier_desc:0 "This character has urged their people to embrace patience and unity."
+ fanatical_recruits_modifier:0 "Fanatical Recruits"
+ fanatical_recruits_modifier_desc:0 "This character has a steady stream of zealous recruits."
+ tensions_eased_province_modifier:0 "Tensions Eased"
+ tensions_eased_province_modifier_desc:0 "The religious tension in this province is abating."
+ riots_and_murders_province_modifier:0 "Riots and Murders"
+ riots_and_murders_province_modifier_desc:0 "This county has been shaken by massacres and expulsions of so-called undesirables."
+ hate_monger_modifier:0 "Hate-Monger"
+ hate_monger_modifier_desc:0 "This character is a known sower of discord and hatred."
 
- nursing_salaries_for_single_mothers_modifier:0 "Посібник з догляду"
- nursing_salaries_for_single_mothers_modifier_desc:0 "Цей персонаж створив систему, в рамках якої матері-одиначки отримують тимчасові виплати з догляду за дітьми."
- widows_and_widowers_amazing_funds_modifier:0 "Підтримка вдів"
- widows_and_widowers_amazing_funds_modifier_desc:0 "Цей персонаж виділив кошти на підтримку тих, хто овдовів у результаті війни або нещасного випадку. Це не стосується тих, чиї діти були народжені поза шлюбом."
- starving_single_mothers_and_children_modifier:0 "Голодні матері"
- starving_single_mothers_and_children_modifier_desc:0 "Вдови, матері-одиначки та їхні діти голодують у землях цього персонажа."
- destitute_single_mothers_modifier:0 "Збори скорботи"
- destitute_single_mothers_modifier_desc:0 "Двір цього персонажа заполонили знедолені матері-одиначки з дітьми різного ступеня зубожіння."
+ nursing_salaries_for_single_mothers_modifier:0 "Nursing Salaries"
+ nursing_salaries_for_single_mothers_modifier_desc:0 "This character has instituted a system whereby single mothers get paid to nurse their children for a time."
+ widows_and_widowers_amazing_funds_modifier:0 "Widow Funds"
+ widows_and_widowers_amazing_funds_modifier_desc:0 "This character has created a fund for those widowed by war or misfortune - but people with children out of wedlock get nothing."
+ starving_single_mothers_and_children_modifier:0 "Starving Mothers"
+ starving_single_mothers_and_children_modifier_desc:0 "Widows, single parents, and their children are left to starve in this character's lands."
+ destitute_single_mothers_modifier:0 "Woeful Menagerie"
+ destitute_single_mothers_modifier_desc:0 "This character's court is full of destitute single mothers and their children, in various states of wretchedness."
 
- anti_innovation_muslim_modifier:0 "Нізамія"
- anti_innovation_muslim_modifier_desc:0 "Цей персонаж виявив інтерес до нового релігійного руху, що виступає за раціоналізм та науку."
- rolling_in_filth_modifier:0 "Катання в бруді"
- rolling_in_filth_modifier_desc:0 "Цьому персонажу немає справи до чистоти і так званої гігієни."
- cannot_read_greek_modifier:0 "Заявляє, що знає грецьку"
- cannot_read_greek_modifier_desc:0 "Цей персонаж заявляє, що володіє мовою вчених стародавнього світу, але все вказує на те, що це неправда."
- misread_medicine_incompetence_modifier:0 "Помилка читання «Канона лікарської науки»"
- misread_medicine_incompetence_modifier_desc:0 "Цей персонаж прочитав «Канон лікарської науки» та інші видатні праці зі здоров‘я та гігієни, але зрозумів їх неправильно."
- inspired_medicine_modifier:0 "Під враженням від лікарських інновацій"
- inspired_medicine_modifier_desc:0 "Цей персонаж виявив інтерес до нововведень у лікарській науці, привнесених перськими та андалусськими вченими."
- medical_insights_modifier:0 "Медичні одкровення"
- medical_insights_modifier_desc:0 "Цей персонаж прочитав праці Гіппократа та Галена і наполягає, щоб придворні мили руки."
+ anti_innovation_muslim_modifier:0 "Nizamiyyah"
+ anti_innovation_muslim_modifier_desc:0 "This character has shown interest in a new religious movement that abhors rationalism and science."
+ rolling_in_filth_modifier:0 "Rolling in Filth"
+ rolling_in_filth_modifier_desc:0 "This character is unconcerned about cleanliness and so-called hygiene."
+ cannot_read_greek_modifier:0 "Claims to Read Greek"
+ cannot_read_greek_modifier_desc:0 "This character claims to be versed in the language of the scholars of the ancient world, but evidence points to the contrary."
+ misread_medicine_incompetence_modifier:0 "Misread the Canon of Medicine"
+ misread_medicine_incompetence_modifier_desc:0 "This character has read the Canon of Medicine and other great works on health and hygiene, but misunderstood them completely."
+ inspired_medicine_modifier:0 "Inspired by Medical Innovations"
+ inspired_medicine_modifier_desc:0 "This character has taken an interest in recent innovations in the medical field by Persian and Andalusian scholars."
+ medical_insights_modifier:0 "Medical Insights"
+ medical_insights_modifier_desc:0 "This character has read Hippocrates and Galen, and now insists people wash their hands at court."
 
- fp2_advanced_maritime_technology_modifier:0 "Просунуті корабельні технології"
- fp2_advanced_maritime_technology_modifier_desc:0 "Цей персонаж має корабельні технології, що набагато випереджають свій час."
- fp2_successful_shipyards_modifier:0 "Майстра-корабели"
- fp2_successful_shipyards_modifier_desc:0 "Тут мешкають досвідчені кораблебудівники, здатні створити найскладніші судна."
+ fp2_advanced_maritime_technology_modifier:0 "Advanced Maritime Technology"
+ fp2_advanced_maritime_technology_modifier_desc:0 "This character is in possession of naval technology which is far ahead of the rest of the world"
+ fp2_successful_shipyards_modifier:0 "Master Shipbuilders"
+ fp2_successful_shipyards_modifier_desc:0 "This location is home to experienced naval craftsmen capable of putting together even the most complex of vessels"
 
- foreboding_visions_modifier:0 "Тривожні бачення майбутнього"
- foreboding_visions_modifier_desc:0 "У гарячковому маренні, можливо викликаному божевіллям, цей персонаж побачив погані ознаки майбутніх подій."
+ foreboding_visions_modifier:0 "Foreboding Visions of the Future"
+ foreboding_visions_modifier_desc:0 "In fever dreams and fits of what might be possession, this character experiences ominous visions of events to come."
 
- mysterious_prophetess_illness_modifier:0 "Хвороба Сівіли"
- mysterious_prophetess_illness_modifier_desc:0 "Цей персонаж страждає від виснажливої ​​хвороби, мабуть пов‘язаної з пророчими снами."
+ mysterious_prophetess_illness_modifier:0 "Sickness of the Sibyls"
+ mysterious_prophetess_illness_modifier_desc:0 "This character suffers from a wasting illness seemingly connected to prophetic dreams."
 
- frightened_by_portent_modifier:0 "Зляк від ознак"
- frightened_by_portent_modifier_desc:0 "Цей персонаж побачив ознаки страшних подій майбутнього."
+ frightened_by_portent_modifier:0 "Frightened by Portent"
+ frightened_by_portent_modifier_desc:0 "This character has received a portent of dreadful events to come."
 
- cortes_modifier:0 "Кортеси"
- cortes_modifier_desc:0 "Це персонаж дозволяє виборним представникам вільних муніципалітетів брати участь у засіданнях ради."
+ cortes_modifier:0 "Cortes"
+ cortes_modifier_desc:0 "This character allows elected representatives of the free municipalities to take part in council meetings."
 
- extra_large_cortes_modifier:0 "Народний парламент"
- extra_large_cortes_modifier_desc:0 "Цей персонаж пускає на засідання ради #italic всіх, хто забажає #!."
+ extra_large_cortes_modifier:0 "People's Parliament"
+ extra_large_cortes_modifier_desc:0 "This character allows #italic anyone#! to take part in council meetings."
 
- vineyards_burnt_county_modifier:0 "Спалені виноградники"
- vineyards_burnt_county_modifier_desc:0 "Колись у цьому графстві росли великі виноградники, але тепер вони всі знищені."
+ vineyards_burnt_county_modifier:0 "Burned Vineyards"
+ vineyards_burnt_county_modifier_desc:0 "This county once housed magnificent vineyards, but they have all been destroyed."
 
- vineyards_protected_county_modifier:0 "Захищені виноградники"
- vineyards_protected_county_modifier_desc:0 "Виноградники у цьому графстві охороняють від релігійних фанатиків, які прагнуть їх спалити."
+ vineyards_protected_county_modifier:0 "Protected Vineyards"
+ vineyards_protected_county_modifier_desc:0 "The vineyards of this county are guarded against religious fanatics who want to burn them down."
 
- crusading_against_iberian_wine_modifier:0 "Кампанія проти пияцтва"
- crusading_against_iberian_wine_modifier_desc:0 "Цей персонаж твердо вирішив викорінити питні звички своїх іберійських підданих."
+ crusading_against_iberian_wine_modifier:0 "Anti-Wine Campaign"
+ crusading_against_iberian_wine_modifier_desc:0 "This character is resolved to end the blasphemous drinking habits of their Iberian subjects."
 
- wine_supply_secure_modifier:0 "Надійне постачання вина"
- wine_supply_secure_modifier_desc:0 "Цей персонаж подбав, щоб ніщо не порушило постачання вина до його двору."
+ wine_supply_secure_modifier:0 "Secured Wine Supply"
+ wine_supply_secure_modifier_desc:0 "This character has made sure that nothing can threaten their court's supply of fine local wine."
 
  
 
 
- toledo_steel_armaments_modifier:0 "Зброяєни, як римляни"
- toledo_steel_armaments_modifier_desc:0 "Солдати цього персонажа озброєні мечами з кращої іберійської сталі, немов давньоримські легіони."
+ toledo_steel_armaments_modifier:0 "Armed Like the Romans"
+ toledo_steel_armaments_modifier_desc:0 "This character's soldiers carry blades made from exquisite Iberian steel, like the Roman legions of old."
 
- toledo_steel_county_modifier:0 "Толедська сталь"
- toledo_steel_county_modifier_desc:0 "У цьому графстві плавлять особливо міцну сталь, яка цінувалася з часів античності."
+ toledo_steel_county_modifier:0 "Toledo Steel"
+ toledo_steel_county_modifier_desc:0 "This county produces a strong kind of steel that has been renowned since antiquity."
 
- tortured_smith_spilling_secrets_modifier:0 "Секрети кування мечів"
- tortured_smith_spilling_secrets_modifier_desc:0 "Цей персонаж катуваннями вивідав у майстра-зброяра таємниці виготовлення мечів."
+ tortured_smith_spilling_secrets_modifier:0 "Sword-Making Secrets"
+ tortured_smith_spilling_secrets_modifier_desc:0 "This character learned secrets of sword-making from a tortured master smith."
 
- guild_rights_protected_modifier:0 "Права гільдій захищені"
- guild_rights_protected_modifier_desc:0 "Місцева ковальська гільдія захищена від зовнішніх зазіхань."
+ guild_rights_protected_modifier:0 "Guild Rights Protected"
+ guild_rights_protected_modifier_desc:0 "The blacksmiths' guild of this county has been protected against outside interference."
 
- master_smith_npc_modifier:0 "Майстерний коваль"
- master_smith_npc_modifier_desc:0 "Цей персонаж не знає собі рівних у ковальській справі."
-
-
- great_translation_school_modifier:0 "Сильна школа перекладачів"
- great_translation_school_modifier_desc:0 "Цей персонаж заснував школу перекладачів, де для загального добра перекладають великі праці іноземних авторів."
-
- mediocre_translation_school_modifier:0 "Слабка школа перекладачів"
- mediocre_translation_school_modifier_desc:0 "Цей персонаж заснував школу перекладачів, але працюють у ній люди сумнівних талантів."
-
- translation_effort_modifier:0 "Переклад праць"
- translation_effort_modifier_desc:0 "Цей персонаж найняв здібного перекладача для перекладу важливих праць."
-
- dusty_libraries_modifier:0 "Пильні бібліотеки"
- dusty_libraries_modifier_desc:0 "У колись великих бібліотеках у володіннях цього персонажа тепер панує безлад, а книги вкриті пилом. Але всередині все одно відчуваєш дивне почуття спокою."
+ master_smith_npc_modifier:0 "Master Smith"
+ master_smith_npc_modifier_desc:0 "This character's smithing skills are almost without equal."
 
 
+ great_translation_school_modifier:0 "Great Translation School"
+ great_translation_school_modifier_desc:0 "This character has founded a translation school where great foreign works are made available to benefit all of civilization."
 
+ mediocre_translation_school_modifier:0 "Mediocre Translation School"
+ mediocre_translation_school_modifier_desc:0 "This character has funded a translation school, but the people involved are of somewhat questionable talent."
 
+ translation_effort_modifier:0 "Translation Effort"
+ translation_effort_modifier_desc:0 "This character has employed a capable scholar to translate important works."
 
- mystery_meat_unhealth_benefits_modifier:0 "Бурліт у животі"
- mystery_meat_unhealth_benefits_modifier_desc:0 "Цей персонаж наївся м‘яса дивної величезної туші, викинутої на берег. Можливо, цього робити не варто..."
-
- mystery_meat_health_benefits_modifier:0 "Відмінна трапеза"
- mystery_meat_health_benefits_modifier_desc:0 "Цей персонаж наївся м‘яса дивної величезної туші, викинутої на берег. Було дуже смачно."
-
- lay_ruler_issued_fatwa_modifier:0 "Релігійне рішення"
- lay_ruler_issued_fatwa_modifier_desc:0 "Цей правитель виніс рішення з релігійного питання, хоча подейкують, що він не мав на це права."
-
- saw_the_world_from_above_modifier:0 "З висоти пташиного польоту"
- saw_the_world_from_above_modifier_desc:0 "Цей персонаж здійснив політ, що справило на нього величезне враження."
-
-
- felt_something_modifier:0 "У трепеті від краси"
- felt_something_modifier_desc:0 "Цей персонаж почув музику неземної краси."
-
- investing_in_music_modifier:0 "Вкладає у музику"
- investing_in_music_modifier_desc:0 "Цей персонаж приваблює до двору талановитих музикантів, навіть неблагородних."
-
- great_pine_chopped_down_county_modifier:0 "Зрубана велика сосна"
- great_pine_chopped_down_county_modifier_desc:0 "У цьому графстві росла величезна вікова пінія і відкидала на землю благодатну тінь. Тепер цієї пінії більше немає."
-
- aversion_to_joy_modifier:0 "Відмовляється від задоволень"
- aversion_to_joy_modifier_desc:0 "Цей персонаж переконує себе, що радість і краса - це пусте дурниці, від якого стаєш лише слабшим."
+ dusty_libraries_modifier:0 "Dusty Libraries"
+ dusty_libraries_modifier_desc:0 "The once-magnificent libraries in this character's realm have become dusty and messy. Yet a strange tranquility can be found inside."
 
 
 
 
- memorable_public_execution_modifier:0 "Незабутня публічна кара"
- memorable_public_execution_modifier_desc:0 "Цей персонаж стратив людину #italic дуже#! жорстоким способом."
 
- compelling_apology_modifier:0 "Щирі вибачення"
- compelling_apology_modifier_desc:0 "Яку б помилку не зробив цей персонаж, він #italic дуже#! щиро за неї вибачився."
+ mystery_meat_unhealth_benefits_modifier:0 "Feels Odd"
+ mystery_meat_unhealth_benefits_modifier_desc:0 "This character ate a large amount of meat from a mysterious giant carcass that had washed up on a beach. They probably shouldn't have..."
 
- restitution_to_minorities_modifier:0 "Відшкодування збитків місцевим меншинам"
- restitution_to_minorities_modifier_desc:0 "Цей персонаж частково задовольнив низку вимог місцевих меншин."
+ mystery_meat_health_benefits_modifier:0 "Great Nourishment"
+ mystery_meat_health_benefits_modifier_desc:0 "This character ate a large amount of meat from a giant carcass that had washed up on a beach. It was very tasty."
 
- obligations_fulfilled_modifier:0 "Сумнівні зобов‘язання"
- obligations_fulfilled_modifier_desc:0 "Цей персонаж виконав свої зобов‘язання перед іншим правителем... повернувши йому рабів-утікачів."
+ lay_ruler_issued_fatwa_modifier:0 "Religious Ruling"
+ lay_ruler_issued_fatwa_modifier_desc:0 "This ruler issued a legal opinion in a religious matter — though some may claim they have no authority to do so."
 
- saqaliba_settlers_county_modifier:0 "Поселенці-сакаліби"
- saqaliba_settlers_county_modifier_desc:0 "У цій провінції оселилися колишні раби зі Східної Європи."
+ saw_the_world_from_above_modifier:0 "Saw the World From Above"
+ saw_the_world_from_above_modifier_desc:0 "This character has had a profound experience of soaring through the sky."
 
- former_slave_npc_modifier:0 "Колишній раб"
- former_slave_npc_modifier_desc:0 "Цей персонаж колись був рабом і тепер готовий усіма силами захищати свою свободу."
+
+ felt_something_modifier:0 "Awed by Beauty"
+ felt_something_modifier_desc:0 "This character heard music of otherworldly beauty."
+
+ investing_in_music_modifier:0 "Investing in Music"
+ investing_in_music_modifier_desc:0 "This character is making an effort to have talented musicians, even lowborn, perform at their court."
+
+ great_pine_chopped_down_county_modifier:0 "Great Pine Chopped Down"
+ great_pine_chopped_down_county_modifier_desc:0 "In this county stood a great, old stone pine, casting a blissful shade. It stands no more."
+
+ aversion_to_joy_modifier:0 "Aversion to Joy"
+ aversion_to_joy_modifier_desc:0 "This character tells themselves that joy and beauty are vain distractions, making you weak."
+
+
+
+
+ memorable_public_execution_modifier:0 "Memorable Public Execution"
+ memorable_public_execution_modifier_desc:0 "This character executed someone in a #italic very #!gruesome manner."
+
+ compelling_apology_modifier:0 "Compelling Apology"
+ compelling_apology_modifier_desc:0 "Whatever their error, this character made a #italic very #!heartfelt apology."
+
+ restitution_to_minorities_modifier:0 "Restitution to Local Minorities"
+ restitution_to_minorities_modifier_desc:0 "This character has redressed some of the grievances of local minorities."
+
+ obligations_fulfilled_modifier:0 "Questionable Obligations"
+ obligations_fulfilled_modifier_desc:0 "This character fulfilled their obligations to another ruler — by handing over escaped slaves..."
+
+ saqaliba_settlers_county_modifier:0 "Saqaliba Settlers"
+ saqaliba_settlers_county_modifier_desc:0 "Former slaves of Eastern European descent have settled in this province."
+
+ former_slave_npc_modifier:0 "Former Slave"
+ former_slave_npc_modifier_desc:0 "This character was once a slave, and is very committed to defending their freedom."

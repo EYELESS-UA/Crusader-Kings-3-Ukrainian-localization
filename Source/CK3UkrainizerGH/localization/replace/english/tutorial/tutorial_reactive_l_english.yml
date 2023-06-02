@@ -1,162 +1,352 @@
 ﻿l_english:
- open_tutorial_lesson:1 "Рада!"
- click_to_open_lesson:1 "#I Натисніть, щоб дізнатися більше#!"
+ open_tutorial_lesson:1 "Порада: "
+ click_to_open_lesson:1 "#I Натисніть, щоб відкрити пораду!#!"
  reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
  action_reactive_advice_mercenaries:0 "$open_tutorial_lesson$$reactive_advice_mercenaries_step_1$"
- action_reactive_advice_mercenaries_desc:0 "Найманці — солдати, які за певну плату допомагають змінити розстановку сил на війні.\nТут можна отримати поради та підказки щодо найефективнішого їх використання!"
+ action_reactive_advice_mercenaries_desc:0 "Найманці — солдати, які за певну плату допомагають змінити баланс сил на війні.\nТут можна отримати поради і підказки з найбільш ефективного їхнього використання!"
  action_reactive_advice_mercenaries_click:0 "$click_to_open_lesson$"
  reactive_advice_mercenaries_step_1:0 "Найманці"
- reactive_advice_mercenaries_desc:0 "Якщо перспектива програти війну стає все реальніше, переламати хід війни вам допоможуть [mercenaries|El].\n\nДля їх залучення потрібно [gold|El], за яке ви отримаєте велику [Concept( 'army', 'армію") ' )|El] Після найму ви зможете керувати ними, як будь-якою іншою армією.\n\n#TUT На поточній війні найманці вам би не завадили. рекомендуємо просто вибрати доступний за ціною загін, якщо, звичайно, вам поки що не загрожує неминуче ураження.
- reactive_advice_mercenaries_task:0 "Відкрийте вікно $HIRE_TROOPS$ і виберіть будь-який загін найманців"
+ reactive_advice_mercenaries_desc:0 "Якщо перспектива програти війну стає все реальнішою, переламати хід війни вам допоможуть [mercenaries|El].\n\nДля їхньо залучення буде потрібне [gold|El], за яке ви отримаєте значну [Concept( 'army', 'армію' )|El]. Після найму ви зможете управляти ними, як будь-якою іншою армією.\n\n#TUT На поточній війні найманці вам би не завадили. Звичайно, заради хорошого війська можна взяти гроші [debt|El], але ми радимо просто вибрати доступний за ціною загін, якщо, звичайно, вам наразі не загрожує неминуча поразка.#!"
+ reactive_advice_mercenaries_task:0 "Відкрийте вікно «$HIRE_TROOPS$» і виберіть будь-який загін найманців"
  reactive_advice_succession:0 "$reactive_advice_succession_step_1$"
  action_reactive_advice_succession:0 "$open_tutorial_lesson$$reactive_advice_succession_step_1$"
- action_reactive_advice_succession_desc:0 "Що тільки що сталося? Ви померли, і сталося успадкування!\nВідкрийте, щоб докладніше дізнатися про те, що сталося, і отримати кілька порад щодо планування."
+ action_reactive_advice_succession_desc:0 "Що щойно трапилося? Ви померли, і відбулось успадкування!\nВідкрийте, щоб детальніше дізнатися про подію і отримати декілька порад з планування."
  action_reactive_advice_succession_click:0 "$click_to_open_lesson$"
- reactive_advice_succession_step_1:0 "Наслідування"
- reactive_advice_succession_desc:3 "Король помер, нехай живе король!\n\nНе хвилюйтеся — ваш колишній персонаж мертвий, але в Crusader Kings III ви граєте за династію. Оскільки у вашого правителя був [heir|El], ви продовжите гру за нього!\" n\n#TUT Смерть — природне явище в грі, і найчастіше продовжувати гру буде старший [eligible_child|El] вашого персонажа (або як наказують [succession_laws|E] вашої держави) Щоб забезпечити успішне успадкування, радимо мати не менше двох дітей — якщо один помре, другий не дасть династії загинути.\n\nПри успадкування ви можете втратити деякі [titles|El] колишнього персонажа. #weak Рекомендуємо краще розглянути нового персонажа, перш ніж продовжувати гру.
+ reactive_advice_succession_step_1:0 "Успадкування"
+ reactive_advice_succession_desc:3 "Король помер, хай живе король!\n\nНе хвилюйтеся — ваш колишній персонаж мертвий, але в Crusader Kings III ви граєте за династію. Оскільки [heir|El] вашого старого персонажа належить до вашої [Concept( 'dynasty', 'династії' )|El], ви продовжите гру за нього!\n\n#TUT Смерть — природне явище в грі, і найчастіше продовжувати гру буде старший [eligible_child|El] вашого персонажа. Щоб забезпечити успішне спадкоємство, радимо мати не менше двох дітей — якщо з одною станеться [unfortunate_accident|El], друга не дасть династії загинути.\n\nПри успадкуванні ви можете втратити деякі [titles|El] колишнього персонажа. Не хвилюйтеся — ви зможете пред'явити [claims|El] на всі втрачені титули.#!\n\n#weak Рекомендуємо трохи краще розглянути нового персонажа, перш ніж продовжувати гру.#!"
  reactive_advice_domain_limit:0 "$reactive_advice_domain_limit_step_1$"
- reactive_advice_domain_limit_step_1:0 "Межа домену"
- reactive_advice_domain_limit_desc:0 "Територія вашого [Concept( 'domain', 'домена' )|El] так розросла, що персонаж не зможе їй управляти — тут вам на допомогу прийдуть [vassals|El]!\n\nТак як втрачати цінні титули домену Вам навряд чи захочеться, рекомендуємо перейти на вкладку «Домен» у вікні «Держава» і порівняти цінність всіх титулів. domain_limit', 'межі домену' )|El] матиме дуже неприємні наслідки.\n\nЩоб не виходити за межу, роздайте зайві [titles|El] своїм васалам.Титули можна роздавати нинішнім васалам, але зазвичай набагато вигідніше наділяти ними безземельних персонажів .\n\nПрекрасні васали виходять з далеких членів [dynasties|El] або [Concept( 'courtiers', 'придворних' )|El], що мають [trait|El] «[GetTrait('content').GetName( GetPlayer ) ]» А [claimants|El] на ваші титули або придворні з особливістю «[GetTrait('ambitious').GetName( GetPlayer )]» го дятся на цю роль найменше.
+ reactive_advice_domain_limit_step_1:0 "Ліміт домену"
+ reactive_advice_domain_limit_desc:0 "Територія вашого [Concept( 'domain', 'домену' )|El] так розрослася, що персонаж не зможе нею керувати — тут вам на допомогу прийдуть [vassals|El]!\n\nОскільки втрачати цінні титули домену вам навряд чи захочеться, рекомендуємо перейти на вкладку «Домен» у вікні «Держава» і порівняти цінність всіх титулів. Враховуйте, які з титулів знаходяться на вашій [de_jure|El] території.\n\n#TUT Довге перевищення [Concept( 'domain_limit', 'ліміту домену' )|El] матиме неприємні наслідки.\n\nЩоб не перевищувати ліміт, роздайте зайві [titles|El] своїм васалам. Титули можна роздавати нинішнім васалам, але зазвичай набагато вигідно наділяти ними безземельних персонажів.\n\nПрекрасні васали виходять з далеких членів [dynasties|El] або [Concept( 'courtiers', 'придворних' )|El], які мають [trait|El] «[GetTrait('content').GetName( GetPlayer )]». А [claimants|El] на ваші титули або придворні з особливістю «[GetTrait('ambitious').GetName( GetPlayer )]» годяться на цю роль найменше.#!"
  reactive_advice_vassal_limit:0 "$reactive_advice_vassal_limit_step_1$"
  reactive_advice_vassal_limit_step_1:0 "Максимум васалів"
- reactive_advice_vassal_limit_desc:0 "Неможливо управляти натовпом графів — успішні завойовники повинні спиратися на [Concept( 'vassals', 'вассалів' )|El] вищого рівня, наприклад на герцогів, які отримають право розпоряджатися від імені правителя!\n вказано у вікні «Домен».\n\n#TUT Подібно до межі домену, перевищувати [vassal_limit|El] не варто, об‘єднуйте васалів, щоб уникнути штрафів. територіями від вашого імені!Але щоб ви змогли роздавати графства, вашим титулом має бути [kingdom|El] або [empire|El]. титул лише герцога, рекомендуємо якнайшвидше створити королівство.
+ reactive_advice_vassal_limit_desc:0 "Неможливо керувати натовпом графів — успішні завойовники повинні опиратися на [Concept( 'vassals', 'васалів' )|El] вищого рівня, наприклад на герцогів, які отримають право розпоряджатися від імені правителя!\n\nПоточний максимум васалів вказаний у вікні «Домен».\n\n#TUT Подібно до ліміту домену, перевищувати [vassal_limit|El] не варто. Об'єднуйте васалів щоб уникнути штрафів.\n\nНайпростіше — віддати васалам [duchies|El]: хай васали правлять великими територіями від вашого імені! Але щоб ви змогли роздавати графства, вашим титулом має бути [kingdom|El] або [empire|El]. Не віддавайте який-небудь [primary_titles|El]!\n\nЯкщо ви перевищуєте максимум васалів, маючи титул лише герцога, рекомендуємо якомога скоріше створити королівство."
  reactive_advice_megaduke_penalty:0 "$reactive_advice_megaduke_penalty_step_1$"
- reactive_advice_megaduke_penalty_step_1:0 "Герцогство занадто велике!"
- reactive_advice_megaduke_penalty_desc:2 "Ваше [duchy|El] тріщить через надлишок земель. Необхідно [create|El] або [usurp|El] [kingdom|El]!\n\n#TUT Можливо, ви вже готові до створення королівства? Якщо так, відкрийтевікно «Поточна ситуація» та знайдіть доступний варіант. Якщо його немає, використовуйте [decision|El], щоб заснувати власне королівство, але врахуйте, що самостійно створені титули зазвичай слабші за існуючі [de_jure|El] титули.\n\nЯкщо ви [vassal|El], а ваш [liege|El ] — король, то, перш ніж стати самостійним королем, ви повинні вимагати незалежності. Перший крок на шляху до цього — приєднатися до [Concept( 'independence_faction', 'фракції сепаратистів' )|E] або створити власну.#!"
+ reactive_advice_megaduke_penalty_step_1:0 "Герцогство надто велике!"
+ reactive_advice_megaduke_penalty_desc:2 "Ваше [duchy|El] тріщить через надлишок земель. Необхідно [create|El] або [usurp|El] [kingdom|El]!\n\n#TUT Можливо, ви вже готові до створення королівства? Якщо так, відкрийте вікно «Важливе» і знайдіть доступний варіант. Якщо його немає, використовуйте [decision|El] «заснувати королівство», але врахуйте, що самостійно створені титули зазвичай слабші за титули [de_jure|El].\n\nЯкщо ви [vassal|El], а ваш [liege|El] — король, то, перш ніж стати самостійним королем, ви повинні зажадати незалежності. Найпростіший спосіб для цього — створити [Concept( 'independence_faction', 'фракцію сепаратистів' )|El].#!"
  reactive_advice_bastards:0 "$reactive_advice_bastards_step_1$"
  action_reactive_advice_bastards:0 "$open_tutorial_lesson$$reactive_advice_bastards_step_1$"
- action_reactive_advice_bastards_desc:0 "Дитина-бастард може бути дуже доречною, а може стати справжнім покаранням згори. Як це?\nДізнайтеся більше про те, хто такі бастарди і що з ними робити!"
+ action_reactive_advice_bastards_desc:0 "Дитина-бастард може стати в нагоді, а може бути справжнім прокляттям. Як це?\nДізнайтеся більше про те, хто такі бастарди і що з ними робити!"
  action_reactive_advice_bastards_click:0 "$click_to_open_lesson$"
  reactive_advice_bastards_step_1:0 "Бастарди"
- reactive_advice_bastards_desc:1 "Ой! Здається, у вас з‘явилася дитина-[bastard|El]! Небезпека це чи можливість?..\n\n#TUT Діти-бастарди — це не так вже й погано. Якщо організовувати їхні шлюби з розумом, можна укладати вигідні [alliances|El], у своїй вони є [Concept( 'legitimate', 'законними' )|El], отже— не впливають на [succession|El].\n\nМожливо, мати кілька бастардів навіть непогано : їх можна [Concept( 'legitimized', 'визнати' )|El] у разі гострої нестачі законних дітей, але не забувайте стежити за [Concept('spouse', 'подружнім' )|El] 'думкою' )|El] про вас...\n\nДля народження бастардів найзручніше [scheme|E] «[GetScheme('seduce').GetTypeName]» щодо холостих персонажів, але якщо ви спокусите заміжню жінку та її чоловік вирішить, що дитина від нього, визнати такого бастарда ви вже не зможете.
+ reactive_advice_bastards_desc:1 "Ой! Здається, у вас з'явилася дитина-[bastard|El]! Це небезпека чи можливість?..\n\n#TUT Діти-бастарди — це не так вже й погано. Якщо влаштувати їхні шлюби розумно, можна укладати вигідні [alliances|El], при цьому вони не є [Concept( 'legitimate', 'законними' )|El], отже — не впливають на [succession|El].\n\nМожливо, мати декілька бастардів навіть непогано: їх можна [Concept( 'legitimized', 'признати' )|El] в разі гострої недостачі законних дітей. Але не забувайте стежити за [Concept( 'spouse', 'подружньою' )|El] [Concept( 'opinion', 'думкою' )|El] про вас...\n\nДля народження бастардів найзручніше [Concept( 'seduce_scheme', 'зваблювати' )|El] неодружених персонажів. Але якщо ви спокусите заміжню жінку і її чоловік вирішить, що дитина від нього, визнати такого бастарда ви вже не зможете.#!"
  reactive_advice_protecting_against_hostile_schemes:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
  action_reactive_advice_protecting_against_hostile_schemes:0 "$open_tutorial_lesson$$reactive_advice_protecting_against_hostile_schemes_step_1$"
- action_reactive_advice_protecting_against_hostile_schemes_desc:0 "Які небезпеки ховаються в тінях? Які плани будують змовники?\nДізнайтеся більше про підступи та способи захисту від них!"
+ action_reactive_advice_protecting_against_hostile_schemes_desc:0 "Які небезпеки ховаються в тінях? Які плани будують змовники?\nДізнайтеся більше про підступи і способи захисту від них!"
  action_reactive_advice_protecting_against_hostile_schemes_click:0 "$click_to_open_lesson$"
  reactive_advice_protecting_against_hostile_schemes_step_1:0 "Захист від підступів"
  reactive_advice_protecting_against_hostile_schemes_step_2:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
- reactive_advice_protecting_against_hostile_schemes_desc:0 "Бережіться! Ви правитель, і багато хто готовий влаштовувати [scheme|El] заради вашого усунення...\n\nПостарайтеся зробити все можливе, щоб [opinion|El] підданих про вас не падало, але найголовніше —#emp безперервно підтримуйте вірність [Concept( 'spymaster', 'таємного радника' )|El].\n\n#TUT Ви можете не підозрювати про те, що проти вас ведуться [hostile_schemes|El], але вони можуть проявитися в будь-якій момент, щоб запобігти цьому, слідкуйте, щоб [vassals|El] і [courtiers|El] були щасливі.#!"
- reactive_advice_protecting_against_hostile_schemes_2_desc:0 "Дозволяючи думку таємного радника про вас впасти надто низько, ви підписуєте собі смертний вирок: так ви навіть не запідозрите про [Concept( 'secret_schemes', 'таємні підступи' )\#T!"! , якщо вирішите стати [Concept( 'tyrant', 'тираном' )|E] — навіть якщо ви тримаєте підданих у залізному кулаку, насаджуючи [dread|El], вони все одно можуть влаштовувати проти вас підступи.\n\nІ нарешті, є [claimants|El] на ваш престол з особливостями «[GetTrait('sadistic').GetName( GetPlayer )]» або «[GetTrait('ambitious').GetName( GetPlayer )]»...#!"
+ reactive_advice_protecting_against_hostile_schemes_desc:0 "Бережіться! Ви правитель, і багато хто готовий організувати [scheme|El] заради вашого усунення...\n\nПостарайтеся зробити все можливе, щоб [opinion|El] підданих про вас не падала, але найголовніше — #emphasis безперервно#! підтримуйте вірність [Concept( 'spymaster', 'таємного радника' )|El].\n\n#TUT Ви можете не підозрювати про те, що проти вас ведуться [hostile_schemes|El], але вони можуть проявитися в будь-який момент. Щоб запобігти цьому, стежте, щоб [vassals|El] і [courtiers|El] були щасливими.#!"
+ reactive_advice_protecting_against_hostile_schemes_2_desc:0 "Дозволяючи думці таємного радника про вас впасти надто низько, ви підписуєте собі смертний вирок: так ви навіть не запідозрите про [Concept( 'secret_schemes', 'таємні підступи' )|E]!\n\n#TUT Врахуйте це, якщо вирішите стати [Concept( 'tyrant', 'тираном' )|E] — навіть якщо ви тримаєте підданих в залізному кулаці, насаджуючи [dread|El], вони все одно можуть влаштовувати проти вас підступи.\n\nІ крім того є [claimants|El] на ваш престол з особливостями «[GetTrait('sadistic').GetName( GetPlayer )]» або «[GetTrait('ambitious').GetName( GetPlayer )]»...#!"
  reactive_advice_protect_against_factions:0 "$reactive_advice_protect_against_factions_step_1$"
  action_reactive_advice_protect_against_factions:0 "$open_tutorial_lesson$$reactive_advice_protect_against_factions_step_1$"
- action_reactive_advice_protect_against_factions_desc:0 "Фракція, на яку вчасно не звернули уваги, може стати небезпечною.\nЧитайте про фракції та про те, як правителю поводитися з ними!"
+ action_reactive_advice_protect_against_factions_desc:0 "Фракція, на яку вчасно не звертати увагу, може стати небезпечною.\nЧитайте про фракції і про те, як правителеві поводитися з ними!"
  action_reactive_advice_protect_against_factions_click:0 "$click_to_open_lesson$"
  reactive_advice_protect_against_factions_step_1:0 "Захист від фракцій"
- reactive_advice_protect_against_factions_desc:1 "Проти вас сформувалася [faction|El], але зачекайте панікувати — все ще можна виправити!\n\n[vassals|E] і [counties|El] об‘єднуються у фракції, коли їх не влаштовує ваше правління. Щоб цього не допустити, необхідно поліпшити їх [opinion|El] про вас або, навпаки, змусити їх перебувати [dreaded|El].\n\n#TUT Щоб уникнути виникнення фракцій, рекомендується підвищувати [opinion|El] васалів про вас, не поспішати з завоюваннями і влаштовувати такі речі, як [GetScheme('murder').GetTypeName|l] більш популярним [Concept( 'claimants', 'претендентам' )|El] на престол.\n\nЗазвичай, перш ніж фракція висуває вимоги, у вас є час задобрити васалів. Не втрачайте його задарма.
- reactive_advice_protect_against_factions_2_desc:0 "Коли [county_opinion|El] знижується занадто сильно, в ньому може виникнути [peasant_faction|El]. На відміну від інших фракцій, ця піднімає заколот незалежно від шансів на перемогу!\n\nІноді селян. .\n\n#TUT Не залишайте селянські фракції без уваги: ​​якщо вони завдадуть удару, поки ви зайняті війною, це серйозно похитне ваш [control|El].#!"
+ reactive_advice_protect_against_factions_desc:1 "Проти вас сформувалася [faction|El], але рано панікувати — все ще можна виправити!\n\n[vassals|E] і [counties|El] об'єднуються у фракції, коли їх не влаштовує ваше правління. Щоб цього не допустити, необхідно поліпшити їхню [Concept( 'opinion', 'думку' ) про вас або, навпаки, змусити їх відчути [dreaded|El].\n\n#TUT Щоб уникнути виникнення фракцій рекомендується підвищувати [Concept( 'opinion', 'думку' ) васалів про вас, не квапитися із завоюваннями і влаштовувати [unfortunate_accidents|El] популярнішим [Concept( 'claimants', 'претендентам' )|El] на трон.\n\nЗазвичай, перш ніж фракція висуває вимоги, у вас є час задобрити васалів. Не втрачайте його марно.#!"
+ reactive_advice_protect_against_factions_2_desc:0 "Коли [county_opinion|El] знижується надто сильно, в ньому може виникнути [peasant_faction|El]. На відміну від інших фракцій, ця піднімає заколот незалежно від шансів на перемогу!\n\nІнколи селян достатньо поставити на місце…\n\n#TUT Не залишайте селянські фракції без уваги: якщо вони завдадуть удару, поки ви зайняті війною, це серйозно похитне ваш [control|El].#!"
  reactive_advice_protect_against_factions_step_2:0 "$reactive_advice_protect_against_factions_step_1$"
  reactive_advice_imprisoned:0 "$reactive_advice_imprisoned_step_1$"
  action_reactive_advice_imprisoned:0 "$open_tutorial_lesson$$reactive_advice_imprisoned_step_1$"
- action_reactive_advice_imprisoned_desc:0 "Ви в когось в ув‘язненні! Справа погана...\nДізнайтеся, що на вас чекає і що можна зробити, поки ви в темниці."
+ action_reactive_advice_imprisoned_desc:0 "Хтось ув'язнив вас! Це не добре...\nДізнайтесь, що вас чекає і що можна зробити, поки ви в темниці."
  action_reactive_advice_imprisoned_click:0 "$click_to_open_lesson$"
- reactive_advice_imprisoned_step_1:0 "Ви ув‘язнені!"
- reactive_advice_imprisoned_desc:2 "Ваш персонаж опинився в ув‘язненні, і тепер його долю вирішуватиме хтось інший. Зробити ви можете трохи. Перейти до персонажа, який тримає вас [Concept( 'prisoner', 'в полоні' )|El ], і застосуйте [interaction|El] #TUT_KW 'Заплатити викуп за себе'#! — якщо пощастить, ви зможете відкупитися!Але якщо удача не на вашій стороні, вас можуть навіть [execute|El].\n\n#TUT Якщо ви [Concept( 'war', 'ведете війну' )|El] з пленителем, той може змусити вас визнати свою [Concept( 'victory', 'перемогу' )|El]. Доведеться з цим змиритися, але надалі будьте акуратнішими !\n\nЯкщо вас взяли в полон, коли ви [Concept( 'commanding', 'командували' )|El] [Concept( 'army', 'армією' )|El], можливо, ваша [prowess_i][prowess| Іноді краще уникати ризику і не вести армії в бій особисто. Якщо вас захопили під час [sieges|El], ймовірно, ворог Concept( 'realm_capital', 'столицю держави' )|El] Завжди тримайте ворогів як можна далі від столиці!
+ reactive_advice_imprisoned_step_1:0 "Вас ув'язнили!"
+ reactive_advice_imprisoned_desc:2 "Ваш персонаж виявився в ув'язненні, і тепер його долю вирішуватиме хтось інший. Ви мало що можете вдіяти.\n\nПерейдіть до персонажа, який тримає вас [Concept( 'prisoner', 'в полоні' )|El], і застосуйте [interaction|El] #TUT_KW «$ransom_me_interaction$»#! — якщо пощастить, ви зможете відкупитися! Але якщо успіх не на вашому боці, вас можуть навіть [execute|El].\n\n#TUT Якщо ви [Concept( 'war', 'ведете війну' )|El] з полонителем, той може змусити вас визнати його [Concept( 'victory', 'перемогу' )|El]. Доведеться з цим змиритися, але надалі будьте акуратніші!\n\nЯкщо вас взяли в полон, коли ви [Concept( 'commanding', 'командували' )|El] [Concept( 'army', 'армією' )|El], можливо, ваша [prowess_i][prowess|El] була надто низькою. Інколи краще уникати ризику і не вести армії в бій особисто.\n\nЯкщо вас захопили під час [sieges|El], ймовірно, ворог [Concept( 'occupied', 'зайняв' )|El] [Concept( 'realm_capital', 'столицю держави' )|El]. Завжди тримайте ворогів якнайдалі від столиці!"
  reactive_advice_county_control:0 "$reactive_advice_county_control_step_1$"
  action_reactive_advice_county_control:0 "$open_tutorial_lesson$$reactive_advice_county_control_step_1$"
- action_reactive_advice_county_control_desc:1 "При низькому [Concept( 'control', 'контролі' )|E] над [Concept( 'county', 'графством' )|E] віддача від нього знижується.\nДізнайтеся, як правильно контролювати графства!"
+ action_reactive_advice_county_control_desc:1 "При низькому контролі над графством віддача від нього знижується.\nДізнайтесь, як правильно контролювати графства!"
  action_reactive_advice_county_control_click:0 "$click_to_open_lesson$"
  reactive_advice_county_control_step_1:0 "Контроль над графством"
- reactive_advice_county_control_desc:2 "В одному з ваших [Concept( 'counties', 'графств' )|E] знизився [control|El], а значить, ви отримаєте з нього менше [Concept( 'taxes', 'податків' )|E ] і [Concept( 'levies', 'солдат ополчення' )|E] Але контроль не пропадає безповоротно!\n\n#TUT Є багато способів відстежувати контроль: на вкладці «Домен» вікна «Держава», у вікні «Поточна» ситуація" і у вікні "Графство".\n\nЩоб підвищити контроль, відкрийте вікно поради і доручіть [Concept( 'marshal', 'маршалу' )|E] завдання "[increase_control|E]". Крім того, контроль підвищується з Втім, відбувається це дуже повільно - краще доручити справу досвідченому маршалу. Якщо у графстві довгий час буде низький контроль, може початися [county_corruption | El]. Щоб цього не сталося, радимо не захоплювати відразу багато територій.
+ reactive_advice_county_control_desc:2 "У одному з ваших [Concept( 'counties', 'графств' )|El] знизився [control|El], отже ви отримаєте з нього менше [Concept( 'taxes', 'податків' )|El] і [Concept( 'levies', 'ополчення' )|El].\n#TUT Є багато способів відстежувати контроль: на вкладці «Домен» вікна «Держава», у вікні «Важливе» і у вікні «Графство».\n\nЩоб підвищити контроль, відкрийте вікно ради і доручіть [Concept( 'marshal', 'маршалові' )|El] завдання «[increase_control|El]». Крім того, контроль підвищується з часом. Втім, відбувається це дуже повільно — краще доручити справу досвідченому маршалові.\n\nЯкщо в графстві довгий час буде низький контроль, може початися [county_corruption|El]. Щоб цього не сталося, радимо не захоплювати відразу багато територій.#!"
  reactive_advice_looming_game_over:0 "$reactive_advice_looming_game_over_step_1$"
- reactive_advice_looming_game_over_step_1:0 "Щоб гра не закінчувалася"
- reactive_advice_looming_game_over_desc:5 "Ой-ой! Здається, у вас немає [Concept( 'player_heir', 'спадкоємця' )|E]. Якщо ви зараз помрете, [Concept( 'game_over', 'гра закінчиться' )|E]. Давайте спробуємо цього уникнути!\n\n#TUT Якщо ви потрапили в подібну ситуацію, зазвичай це означає, що династія на вас закінчиться. \n\nЯкщо у вашому суспільстві спадкоємець може бути лише певної статі, спробуйте змінити [gender_law|El] на менш суворий, якщо у вас є [bastards|El], саме час їх визнати! ( 'married', 'шлюб' )|E] з персонажем, [fertility|El] якого висока (як правило, жінки старше 45 років рідко можуть зачати.) Якщо все одно нічого не допомагає, спробуйте [Concept( 'divorce', 'розвестися' )|E] або зробити [GetScheme('murder').GetTypeName|l] [Concept( 'spouse', 'дружина/подружжя' )|E] і укласти новий шлюб— або здійсніть [scheme|El ] "[GetScheme('seduce').GetTypeName]", щоб обзавестися бастардом.\n\nЧас не чекає, так що не ризикуйте дарма!#!"
+ reactive_advice_looming_game_over_step_1:0 "Щоб гра не закінчувалась"
+ reactive_advice_looming_game_over_desc:5 "Овва! Здається, у вашої [dynasties|El] немає [Concept( 'heir', 'спадкоємця' )|El]. Якщо ви зараз помрете, гра закінчиться. Давайте спробуємо цього уникнути!\n\n#TUT Якщо ви попали в подібну ситуацію, зазвичай це означає, що династія на вас закінчиться. Віднині єдиний вихід з положення — поява [Concept( 'legitimate', 'законного' )|El] спадкоємця!\n\nЯкщо у вашому суспільстві спадкоємець може бути лише певної статі, спробуйте змінити [gender_law|El] на менш суворий. Якщо у вас є [bastards|El], саме час їх визнати!\n\nКрім того, спробуйте укласти [Concept( 'married', 'шлюб' )|El] з персонажем, [fertility|El] якого висока (як правило, жінки старші 45 років рідко можуть зачати). Якщо нічого не допомагає, спробуйте [divorce|El] або [Concept( 'murder', 'вбити' )|El] свою [Concept( 'spouse', 'другу половинку' )|El] і укласти новий шлюб — або здійсніть [seduce_scheme|El], щоб отримати бастарда.\n\nЧас не чекає, отож не ризикуйте даремно!#!"
  reactive_advice_bankruptcy:0 "$reactive_advice_bankruptcy_step_1$"
  action_reactive_advice_bankruptcy:0 "$open_tutorial_lesson$$reactive_advice_bankruptcy_step_1$"
- action_reactive_advice_bankruptcy_desc:0 "У вас немає [gold_i] золота, і ви опинилися в боргах!\nЧитайте про борги і про те, як їх позбутися."
+ action_reactive_advice_bankruptcy_desc:0 "У вас немає [gold_i] золота, і ви залізли в борги!\nЧитайте про борги і про те, як з них вибратися."
  action_reactive_advice_bankruptcy_click:0 "$click_to_open_lesson$"
  reactive_advice_bankruptcy_step_1:0 "Борги"
- reactive_advice_bankruptcy_desc:2 "У вас закінчилося [gold_i][gold|El], і це дуже погано. Постарайтеся урізати витрати і якнайшвидше поповнити скарбницю!\n\n#TUT [debt|E] позбавляє вас безлічі можливостей: не можна оголошувати [ wars|El] і поповнювати [Concept( 'men_at_arms', 'професійні полиці' )|El] Також виникає [county_corruption|El] Не допускайте неконтрольованого зростання боргу! El], оскільки [armies|El] вимагають утримання Якщо золото йде у величезних кількостях, можливо, варто розпустити частину гвардії.\n\nЯкщо дозволяє [faith|El], ви можете застосувати #TUT_KW [interaction|El] «$ hof_ask_for_gold_interaction$»#!у її [Concept( 'head_of_faith', 'глави' )|El] або #TUT_KW прийняти рішення «$borrow_from_holy_order_decision$»#!.\n\nТакож іноді допомагає зміна [Concept( 'focus' ' )|El] на $stewardship_wealth_focus_short$, якщо той досі не обраний.#!"
+ reactive_advice_bankruptcy_desc:2 "У вас закінчилося [gold_i][gold|El], і це дуже погано. Постарайтеся скоротити витрати і якнайскоріше поповнити скарбницю!\n\n#TUT [debt|E] позбавляє вас безлічі можливостей: не можна оголошувати [wars|El] і поповнювати [Concept( 'men_at_arms', 'професійні загони' )|El]. Також виникає [county_corruption|El]. Не допускайте неконтрольованого зростання боргу!\n\nОчевидний вихід з положення — припинити будь-які [wars|El], оскільки [armies|El] вимагають утримання. Якщо золото витрачається у великих кількостях, можливо, варто розпустити частину гвардії.\n\nЯкщо дозволяє [faith|El], ви можете застосувати #TUT_KW [interaction|El] «$hof_ask_for_gold_interaction$»#! в її [Concept( 'head_of_faith', 'глави' )|El] або #TUT_KW прийняти рішення «$borrow_from_holy_order_decision$»#!.\n\nТакож інколи допомагає зміна [Concept( 'focus', 'пріоритету' )|El] на «$stewardship_wealth_focus_short$», якщо той досі не вибраний.#!"
  reactive_advice_rightful_liege:0 "$reactive_advice_rightful_liege_step_1$"
  action_reactive_advice_rightful_liege:0 "$open_tutorial_lesson$$reactive_advice_rightful_liege_step_1$"
- action_reactive_advice_rightful_liege_desc:0 "Структура де-юре дуже важлива для ваших васалів: якщо ви не є де-юре їх #emphasis законним#! сюзереном, це може дуже болісно позначитися на ваших відносинах.\nЧитайте про те, що таке «законний сюзер»! "
+ action_reactive_advice_rightful_liege_desc:0 "Структура де-юре дуже важлива для ваших васалів: якщо ви не є їхнім #emphasis законним#! сюзереном, це може негативно позначитися на ваших стосунках.\nЧитайте про те, що таке «законний сюзерен»!"
  action_reactive_advice_rightful_liege_click:0 "$click_to_open_lesson$"
  reactive_advice_rightful_liege_step_1:0 "Законний сюзерен"
  reactive_advice_rightful_liege_step_2:0 "$reactive_advice_rightful_liege_step_1$"
- reactive_advice_rightful_liege_desc:1 "Ви не [rightful_liege|El] [Concept( 'vassal', 'вассала' )|El]. Через це його [opinion|El] про вас знижується, і, як наслідок, скорочуються [taxes|El ] і [levies|El].\n\nНамагайтеся стати законним сюзереном для кожного васала!\n\n#TUT Для цього ви повинні [de_jure|El] володіти [Concept( 'title', 'титулом' )|El] на один ступінь вищий, ніж у васала. $ готовий служити герцогу $d_toledo$.\n\nНемає нічого незвичайного в наявності васалів, для яких ви є законним сюзереном - ситуацію досить нелегко виправити, але це абсолютно нормально! Однак не забувайте застосовувати [interaction|El] # TUT_KW «$grant_vassal_interaction$»#!, щоб упорядкувати васалів: не намагайтеся заволодіти всіма титулами особисто. #!"
- reactive_advice_rightful_liege_2_desc:0 "Коли ви завойовуєте нові території, часто ви отримаєте нових васалів, для яких не є законним сюзереном. Скрупульозне планування завоювань допоможе звести цю проблему до мінімуму.\n\n#TUT Щоб не зіткнутися з надмірною кількістю захоплювати по одній де-юрі області за раз.Так ви #emphasis з часом зможете стати їх законним сюзереном.Чаще перевіряйте, чи не з‘явилася можливість [create|El] нові титули! -юре» при плануванні завоювань!
+ reactive_advice_rightful_liege_desc:1 "Ви не [rightful_liege|El] [Concept( 'vassal', 'васала' )|El]. Через це його [opinion|El] про вас знижується, і, як наслідок, скорочуються [taxes|El] і [levies|El].\n\nСтарайтесь стати законним сюзереном для кожного васала!\n\n#TUT Для цього ви повинні [de_jure|El] володіти [Concept( 'title', 'титулом' )|El] на один рівень вище, ніж у васала. Васал рівня [Concept( 'county', 'графа' )|El] готовий служити де-юре [Concept( 'duchy', 'герцогу' )|El]. Скажімо, правитель графства $c_madrid$ готовий служить герцогу $d_toledo$.\n\nНемає нічого незвичайного в наявності васалів, для яких ви #emphasis не#! є законним сюзереном — ситуацію досить нелегко виправити, але це цілком нормально! Проте не забувайте застосовувати [interaction|El] #TUT_KW «$grant_vassal_interaction$»#!, щоб упорядкувати васалів: не намагайтеся оволодіти всіма титулами особисто.#!"
+ reactive_advice_rightful_liege_2_desc:0 "Коли ви завойовуєте нові території, часто ви отримуєте нових васалів, для яких не є законним сюзереном. Ретельне планерування завоювань допоможе звести цю проблему до мінімуму.\n\n#TUT Щоб не зіткнутися з надмірною кількістю невдоволених вами васалів, спробуйте захоплювати по одній де-юре області за раз. Так ви #emphasis з часом#! зможете стати їхнім законним сюзереном. Частіше перевіряйте, чи не з'явилася можливість [create|El] нові титули!\n\nНе забувайте перемикати карту в режим «Де-юре» при планеруванні завоювань!#!"
  
  reactive_advice_bishop_endorsement:0 "$reactive_advice_bishop_endorsement_step_1$"
  action_reactive_advice_bishop_endorsement:0 "$open_tutorial_lesson$$reactive_advice_bishop_endorsement_step_1$"
  action_reactive_advice_bishop_endorsement_desc:0 "Єпископ вас не підтримує!\nДізнайтеся, що це означає і як вирішити проблему."
  action_reactive_advice_bishop_endorsement_click:0 "$click_to_open_lesson$"
  reactive_advice_bishop_endorsement_step_1:0 "Підтримка єпископа"
- reactive_advice_bishop_endorsement_desc:3 "[faith|E] персонажа має на увазі, що [realm_priest|El] полягає у вашому [Concept( 'council', 'раді' )|E].\n\nУ руках єпископів зосереджена величезна влада, і вони готові щедро нею ділитися — поки ви користуєтеся їх розташуванням...\n\n#TUT З усіх [Concept( 'temple_holdings', 'храмових володінь' )|E] вашої [realm|El] єпископ надсилає вам [taxes|El] і [ levies|El], розміри яких залежать від його [Concept( 'opinion', 'думки' )|E] про вас. , він може змусити вас розлучитися...\n\nБережіть розташування єпископа як зіницю ока. n\nЯкщо нічого не допомагає, знадобиться [GetScheme('murder').GetTypeName|l]... Можливо, його наступник виявиться більш доброзичливим?#!"
+ reactive_advice_bishop_endorsement_desc:3 "[faith|E] персонажа передбачає, що [realm_priest|El] перебуває у вашій [Concept( 'council', 'раді' )|El].\n\nУ руках єпископів зосереджена величезна влада, і вони готові щедро нею ділитися — поки ви користуєтеся їхньою прихильністю…\n\n#TUT З усіх [Concept( 'temple_holdings', 'храмових володінь' )|El] вашої [realms|El] єпископ присилає вам [taxes|El] і [levies|El], розміри яких залежать від його [Concept( 'opinion', 'думки' )|El] про вас.\n\nОпинившись не у фаворі, ви перестанете отримувати будь-що, а єпископ почне ускладнювати вам життя! Наприклад, він може змусити вас розлучитися…\n\nБережіть прихильність єпископа як зіницю ока. Застосовуйте [interaction|El] #TUT_KW «$gift_interaction$»#! або використовуйте [sway_scheme|El].\n\nЯкщо нічого не допомагає, згодиться [unfortunate_accident|El]… Можливо, його наступник виявиться доброзичливішим?#!"
  
  reactive_advice_encyclopedia:0 "$reactive_advice_encyclopedia_step_1$"
  action_reactive_advice_encyclopedia:0 "$open_tutorial_lesson$$reactive_advice_encyclopedia_step_1$"
- action_reactive_advice_encyclopedia_desc:0 "Хочете краще розібратися в ігровій термінології? Відкрийте вступ до «Енциклопедії»."
+ action_reactive_advice_encyclopedia_desc:0 "Хочете краще розібратися в ігровій термінології? Відкрийте вступ в «Енциклопедію»."
  action_reactive_advice_encyclopedia_click:0 "$click_to_open_lesson$"
  reactive_advice_encyclopedia_step_1:0 "Енциклопедія"
- reactive_advice_encyclopedia_desc:0 "У Crusader Kings III чимало концепцій та термінів, про які треба пам‘ятати. Щоб уточнити поняття, ви завжди можете скористатися «Енциклопедією».\n\nПерейдіть у виділений розділ, щоб познайомитися з нею.\n\n#TUT В розділ «Поради та навчання» ви завжди зможете повернутися до навчання та освіжити пам‘ять.#!"
+ reactive_advice_encyclopedia_desc:0 "В Crusader Kings III немало концепцій і термінів, про які треба пам'ятати. Щоб уточнити поняття, ви завжди можете скористатися «Енциклопедією».\n\nПерейдіть у виділений розділ, щоб ознайомитися з нею.\n\n#TUT У розділі «Поради і навчання» ви завжди зможете повернутися до навчання і освіжити пам'ять.#!"
 
  reactive_advice_religion:0 "$lesson_basics_religion_1$"
  action_reactive_advice_religion:0 "$open_tutorial_lesson$$lesson_basics_religion_1$"
- action_reactive_advice_religion_desc:0 "Хочете краще розібратися в ігрових конфесіях та релігіях? Відкрийте опис вашої релігії."
+ action_reactive_advice_religion_desc:0 "Хочете краще розібратися в ігрових конфесіях і релігіях? Відкрийте опис вашої релігії."
  action_reactive_advice_religion_click:0 "$click_to_open_lesson$"
 
- reactive_advice_dynamic_culture:0 "Культура"
+ reactive_advice_dynamic_culture:0 "Culture"
  action_reactive_advice_dynamic_culture:0 "$open_tutorial_lesson$$reactive_advice_dynamic_culture$"
- action_reactive_advice_dynamic_culture_desc:0 "Хочете краще розібратися в культурах гри? Відкрийте опис вашої культури."
+ action_reactive_advice_dynamic_culture_desc:0 "Want to learn more about Cultures? Open this for an introduction to Cultures."
  action_reactive_advice_dynamic_culture_click:0 "$click_to_open_lesson$"
 
  reactive_advice_fabricate_claim:0 "$reactive_advice_fabricate_claim_step_1$"
  action_reactive_advice_fabricate_claim:0 "$open_tutorial_lesson$$reactive_advice_fabricate_claim_step_1$"
- action_reactive_advice_fabricate_claim_desc:0 "Не вдається оголосити війну? Створіть неправдиву претензію!\nДізнайтеся, як порада може фабрикувати претензії."
+ action_reactive_advice_fabricate_claim_desc:0 "Не виходить оголосити війну? Створіть підроблену претензію!\nДізнайтесь, як радник може фабрикувати претензії."
  action_reactive_advice_fabricate_claim_click:0 "$click_to_open_lesson$"
- reactive_advice_fabricate_claim_step_1:0 "Фабрикація претензій"
- reactive_advice_fabricate_claim_desc:1 "Нельзя оголосити війну без [casus_belli|El]. Основне джерело казус беллі — [claims|El], але іноді отримати потрібну претензію буває дуже важко.\n\nВаш вихід — [fabricated_claim #TUT Доручіть [Concept( 'court_chaplain', 'придворному капелану' )|El] сфабрикувати претензію на будь-яке найближче [county|El].Зробити це можна у вікні [Concept( 'council', 'поради' )|E]. можна підробляти тільки одну претензію, що займе певний час.\n\nЦе особливо корисно, якщо ваш [ruler|El] ще не досяг великих висот: чим сильніше розростається [realm|El], тим простіше отримувати казус беллі.\n\nПорадимо фабрикувати претензії на безпосередніх сусідів, в ідеалі— на тих, що слабші за вас!. [realm_capital|El].#!"
+ reactive_advice_fabricate_claim_step_1:0 "Фабрикування претензій"
+ reactive_advice_fabricate_claim_desc:1 "Не можна оголосити війну без [casus_belli|El]. Основне джерело казус беллі — [claims|El], але інколи отримати потрібну претензію буває важко.\n\nВаш вихід — [fabricated_claims_short|El]!\n\n#TUT Доручіть [Concept( 'court_chaplain', 'придворному капеланові' )|El] сфабрикувати претензію на будь-яке сусіднє [county|El]. Зробити це можна у вікні «[council|El]» або прямо у вікні «Графство». Одночасно можна підроблювати лише одну претензію, що займе певний час.\n\nЦе особливо корисно, якщо ваш [ruler|El] ще не досяг великих висот: чим сильніше розростається [realm|El], тим простіше отримувати казус беллі.\n\nРадимо фабрикувати претензії на безпосередніх сусідів, в ідеалі — на слабших за вас! Якщо ви граєте графом, претендуйте на титули в тому ж [de_jure|El] [Concept( 'duchy', 'герцогстві' )|El], что й ваша [realm_capital|El].#!"
  
  reactive_advice_education:0 "$reactive_advice_education_step_1$"
  action_reactive_advice_education:0 "$open_tutorial_lesson$$reactive_advice_education_step_1$"
- action_reactive_advice_education_desc:1 "Без освіти вашому спадкоємцю не стати великим правителем!\nТут ви можете дізнатися про опікунство та правильне виховання майбутніх правителів."
+ action_reactive_advice_education_desc:1 "Без освіти вашому спадкоємцеві не стати великим правителем!\nЧитайте про опікунство і правильне виховання дітей."
  action_reactive_advice_education_click:0 "$click_to_open_lesson$"
- reactive_advice_education_step_1:0 "Навчання"
- reactive_advice_education_desc:4 "Схоже, до вашого [Concept( 'heir', 'спадкоємця' )|El] не приставлений [guardian|El]! Якщо дитина не отримає гідного [Concept( 'education', 'освіти' )|El], його [skills|El] будуть недостатньо розвинені, а [traits|El] - випадкові.#TUT_KW Щоб підібрати спадкоємцю доброго опікуна, використовуйте [interaction|El] #TUT_KW «$educate_child_interaction$»#!, щоб перетворити його на [Concept( 'ward', 'підопічного' )|El].\n\nДля навчання спадкоємця потрібен дуже освічений персонаж, в ідеалі - з дуже високим рівнем якості [Concept( 'education_trait', 'Освіта'' )|El] (наприклад, [GetTrait('education_martial_4').GetName( GetPlayer )]), або з властивістю «[GetTrait('intellect_good_1').GetName( GetPlayer )]» або «[GetTrait('intellect_good_3').GetName( GetPlayer )]». Якщо ви не бажаєте ризикувати, можете навчати спадкоємця самостійно! Найчастіше дітям хочеться дати хорошу освіту, але якщо про деякі нащадки ви дбаєте не так вже й сильно (скажімо, про четверте або п‘яте), ви завжди можете відправити їх на службу до [Concept( 'vassals', 'вассалам' )|El] і підвищити [opinion|El] про себе. Для цього найпростіше застосувати взаємодію #TUT_KW «$offer_ward_interaction$»#! безпосередньо до васала. #!
+ reactive_advice_education_step_1:0 "Освіта"
+ reactive_advice_education_desc:4 "Схоже, до вашого [Concept( 'heir', 'спадкоємця' )|El] не приставлений [guardian|El]! Якщо дитя не отримає гідної [Concept( 'education', 'освіти' )|El], його [skills|El] будуть недостатньо розвинені, а [traits|El] — випадкові.#TUT_KW Щоб підібрати спадкоємцеві хорошого опікуна, використовуйте [interaction|El] #TUT_KW «$educate_child_interaction$»#!, щоб перетворити його [Concept( 'ward', 'підопічного' )|El].\n\nДля навчання спадкоємця потрібний дуже освічений персонаж, в ідеалі — з дуже високим рівнем властивості [Concept( 'education_trait', '«Освіта»' )|El] (наприклад, [GetTrait('education_martial_4').GetName( GetPlayer )]), або з властивістю «[GetTrait('intellect_good_1').GetName( GetPlayer )]» або «[GetTrait('intellect_good_3').GetName( GetPlayer )]». Якщо ви не бажаєте ризикувати, можете навчати спадкоємця самостійно!\n\nНайчастіше дітям хочеться дати хорошу освіту, але якщо про деяких нащадків ви дбаєте не надто сильно (скажімо, про четвертого чи п'ятого), ви завжди можете відправити їх на службу до [Concept( 'vassals', 'васалів' )|El] і підвищити [opinion|El] про себе. Для цього найпростіше застосувати взаємодію #TUT_KW «$offer_ward_interaction$»#! безпосередньо до васала.#!"
  reactive_advice_tooltip_modes:0 "$reactive_advice_tooltip_modes_step_1$"
  action_reactive_advice_tooltip_modes:0 "$open_tutorial_lesson$$reactive_advice_tooltip_modes_step_1$"
- action_reactive_advice_tooltip_modes_desc:1 "У грі Crusader Kings III є різні режими підказок!\nПрочитайте цей огляд різних режимів та виберіть найзручніший."
+ action_reactive_advice_tooltip_modes_desc:1 "В грі Crusader Kings III є різні режими підказок!\nПрочитайте цей огляд різних режимів і виберіть найзручніший."
  action_reactive_advice_tooltip_modes_click:0 "$click_to_open_lesson$"
  reactive_advice_tooltip_modes_step_1:0 "Режими підказок"
  reactive_advice_tooltip_modes_step_2:0 "Розширені режими підказок"
- reactive_advice_tooltip_modes_desc:1 "Режими спливаючих підказок дозволяють вибрати способи #EMP взаємодії#! з [Concept( 'highlighted_text', 'виділеним текстом' )|E] та інформацією в підказках #weak (якщо точніше — дозволяють зафіксувати всплыву по ній курсором мыши)#!.\n\nРежим за замовчуванням називається #V «Блок по таймеру»#!. У ньому підказки фіксуються на час, який відраховується на маленькій шкалі прогресу.
- reactive_advice_tooltip_modes_2_desc:0 "Якщо ви досвідчений гравець або не хочете, щоб підказки фіксувалися автоматично, спробуйте режим #V "Ручний блок"#!. У ньому для фіксації підказки необхідно натиснути #V середню кнопку миші#!.\n\n#I Для зміни режиму спливаючих підказок відкрийте #V Ігрове меню#!, #V Налаштування#!, а потім перейдіть до розділу #V Гра#! — і виберіть параметр #V Режим спливаючих підказок#!.#!"
+ reactive_advice_tooltip_modes_desc:1 "Режими спливаючих підказок — нововведення Crusader Kings III. Вони дозволяють вибрати способи #EMP взаємодії#! з [Concept( 'highlighted_text', 'виділеним текстом' )|E] та інформацією в підказках #weak (якщо точніше — дозволяють зафіксувати спливаючу підказку, щоб можна було водити по ній курсором миші)#!.\n\nТиповий режим називається #V «Блок по таймеру»#!. У ньому підказки фіксуються на якийсь час, який показано на маленькій шкалі прогресу."
+ reactive_advice_tooltip_modes_2_desc:0 "Якщо ви досвідчений гравець або не хочете, щоб підказки фіксувалися автоматично, спробуйте режим #V «Ручний блок»#!. В ньому для фіксації підказки необхідно натиснути #V середню кнопку миші#!.\n\n#I Для зміни режиму спливаючих підказок відкрийте #V Ігровое меню#!, #V Налаштування#!, а потім перейдіть в розділ #V Гра#! — і виберіть параметр #V Режим спливаючих підказок#!.#!"
 
- action_perk_bonus_cap_modes:0 "Отриманий максимальний бонус від гідності"
- action_perk_bonus_cap_modes_desc:0 "Ви отримали максимально можливий бонус від цієї гідності. У деяких переваг, наприклад «[GetPerk('sound_foundations_perk').GetName(GetPlayer)]», є обмеження за кількістю очок навичок, які можна від них."
+ action_perk_bonus_cap_modes:0 "Maximum Perk Bonus Reached"
+ action_perk_bonus_cap_modes_desc:0 "You've reached the maximum bonus amount that a perk can give. Some perks, like [GetPerk('sound_foundations_perk').GetName(GetPlayer)], have a maximum amount of skill points that they can grant."
  action_perk_bonus_cap_modes_click:0 "$click_to_open_lesson$"
  reactive_advice_perk_bonus_cap:0 "$action_perk_bonus_cap_modes$"
- reactive_advice_perk_bonus_cap_desc:0 "$action_perk_bonus_cap_modes_desc$ Поки ви перевищуєте обмеження, бонус не буде збільшуватися, але й не зменшуватиметься."
+ reactive_advice_perk_bonus_cap_desc:0 "$action_perk_bonus_cap_modes_desc$ While over the limit, the bonus will no longer increase, and will not decrease until you're under the limit."
  reactive_advice_perk_bonus_cap_step_1:0 "$action_perk_bonus_cap_modes$"
 
  action_reactive_advice_varangian_adventure:0 "$open_tutorial_lesson$$reactive_advice_varangian_adventure_step_1$"
- action_reactive_advice_varangian_adventure_desc:0 "Ви можете почати варязьку пригоду.\nВідкрийте, щоб дізнатися більше про цей особливий тип війни."
+ action_reactive_advice_varangian_adventure_desc:0 "You are able to start a Varangian Adventure.\nOpen this to learn more about this special kind of war."
  action_reactive_advice_varangian_adventure_click:0 "$click_to_open_lesson$"
  reactive_advice_varangian_adventure:0 "$game_concept_varangian_adventures$"
  reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
- reactive_advice_varangian_adventure_desc:0 "Ви можете почати [Concept( 'varangian_adventure', 'варязька пригода' )|E].\n\nПоки триває $culture_era_tribal$ [Concept( 'era', 'ера' )|E], цей тип війни дозволить вам почати нове життя в чужих землях, далеко від холодних берегів вашої батьківщини. , включаючи васалів.\n\nВаше перше [Concept( 'varangian_adventure', 'варязька пригода' )|E] як $north_germanic_group_collective_noun$ого правителя також закликає вам на допомогу додаткові війська з графств регіону [GetGeographicalRegion''main ] з [Concept( 'faith', 'конфесією' )|E] і [Concept( 'culture', 'культурою' )|E]. Ці війська допоможуть вам завоювати новий будинок."
+ reactive_advice_varangian_adventure_desc:0 "You are able to declare a [varangian_adventure|E].\n\nFor the duration of the $culture_era_tribal$ [era|E] this type of war is available to allow you to start a new life in a distant land, far from the cold shores of your homeland.\n\nSuccessful $game_concept_varangian_adventures$ will not only relocate your realm to a foreign location, it will also leave all your existing lands independent, including your vassals.\n\nYour first [varangian_adventure|E] undertaken as a $north_germanic_group$ ruler will also call on additional troops from owned same-[faith|E] same-[culture|E] counties in [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] to help you conquer your new home."
 
 # Court positions
  action_reactive_advice_court_positions:0 "$open_tutorial_lesson$$ra_court_pos_open_view$"
- action_reactive_advice_court_positions_desc:0 "Відкрийте опис при дворі"
+ action_reactive_advice_court_positions_desc:0 "Open this for an introduction to Court Positions"
  action_reactive_advice_court_positions_click:0 "$click_to_open_lesson$"
  
- ra_court_pos_open_view:0 "Положення при дворі"
- ra_court_pos_open_view_desc:0 "[court_positions|E] — це призначення та почесті, що надаються [Concept( 'courtiers', 'придворним' )|E] і [Concept( 'vassals', 'вассалам' )|E].\n\nКожна з таких посад надає вам певні вигоди в обмін на щомісячну платню: наприклад, [GetCourtPositionType('court_physician_court_position').
- ra_court_pos_open_view_trigger:0 "Відкрийте вкладку «Положення при дворі» (виділено)"
+ ra_court_pos_open_view:0 "Court Positions"
+ ra_court_pos_open_view_desc:0 "[court_positions|E] are assignments and honors you can give to your [courtiers|E] and [vassals|E].\n\nEach gives you a benefit, at the cost of a monthly salary. For example, the [GetCourtPositionType('court_physician_court_position').GetName()] will keep you and your [court|E] healthy."
+ ra_court_pos_open_view_trigger:0 "Open the Court Positions tab (highlighted)"
  ra_court_pos_appointing:0 "$ra_court_pos_open_view$"
- ra_court_pos_appointing_desc:1 "Ви можете призначати нові [Concept( 'court_positions', 'придворні посади' )|E], натискаючи на порожні портрети.\n\nПерсонажі з високою [Concept( 'aptitude', 'придатністю' )|E] для посади нададуть більше бонусів.\n\nПризначення на посаду також впливає на [Concept( 'opinion', 'думка' )|E] про вас.\n\nПосади можуть мати церемоніальний характер.У цьому випадку придатність не така важлива і посаду можна віддати незадоволеному [Concept( 'vassal', 'вассалу' )|E]."
+ ra_court_pos_appointing_desc:1 "You can appoint new [court_positions|E] by clicking the one of the empty portraits for a vacant Court Position.\n\nA Character with a high [aptitude|E] for the Position will give you a greater bonus.\n\nWhen you appoint a Position to someone, it also affects their [opinion|E] of you.\n\nA Position may be more ceremonial where Aptitude is not as important, and can instead be given to give to dissatisfied [vassal|E]."
  ra_court_pos_salary:0 "$ra_court_pos_open_view$"
- ra_court_pos_salary_desc:1 "На все [Concept( 'court_positions', 'придворні посади' )|E] витрачається щомісячна платня. Постарайтеся не опинитися [Concept( 'debt', 'в боргах' )|E], роздаючи придворні повинності!
+ ra_court_pos_salary_desc:1 "Each [court_position|E] costs you a monthly salary. Make sure that you do not go into [debt|E] by handing out Court Positions!"
 
 # Inventory
  action_reactive_advice_artifact_inventory:0 "$open_tutorial_lesson$$ra_artifact_inventory_general$"
- action_reactive_advice_artifact_inventory_desc:0 "Відкрийте опис особистих артефактів"
+ action_reactive_advice_artifact_inventory_desc:0 "Open this for an introduction to Inventory Artifacts"
  action_reactive_advice_artifact_inventory_click:0 "$click_to_open_lesson$"
 
- ra_artifact_inventory_general:0 "Інвентар"
- ra_artifact_inventory_general_desc:0 Ви отримали свій перший [Concept( 'inventory_artifact', 'особистий артефакт' )|E]. Ці [Concept( 'artifacts', 'артефакти' )|E] ви носите з собою, отримуючи від них різні бонуси. "
+ ra_artifact_inventory_general:0 "Inventory"
+ ra_artifact_inventory_general_desc:0 "You have acquired your first [inventory_artifact|E]. These [artifacts|E] are carried on your person and provide various benefits."
  ra_artifact_inventory_open_step:0 "$ra_artifact_inventory_general$"
- ra_artifact_inventory_open_step_desc:0 "[inventory_artifacts|E] зберігаються у вашому інвентарі. Давайте відкриємо його."
- ra_artifact_inventory_open_step_open:0 "Відкрити інвентар (виділено)"
+ ra_artifact_inventory_open_step_desc:0 "[inventory_artifacts|E] are stored in your Inventory, let us open it now."
+ ra_artifact_inventory_open_step_open:0 "Open the Inventory (highlighted)"
  ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
- ra_artifact_inventory_welcome_desc:0 "В інвентарі ви можете екіпірувати [Concept( 'inventory_artifacts', 'особисті артефакти' )|E], отримуючи різні переваги, на кшталт підвищення певних [Concept( 'skills', 'навичок' ') ( 'prestige', 'престижу' )|E].\n\nВи можете [Concept( 'repair', 'чинити' )|E] і [Concept( 'reforge', 'перековувати' )|E] [Concept( 'inventory_artifacts', 'особисті артефакти' )|E], відновлюючи їх [Concept( 'durability', 'міцність' )|E] і не даючи руйнуватися.\n\nТут ви також знайдете свої [Concept( 'artifact_claims', ' претензії на артефакти' )|E], які можна спробувати забрати!"
+ ra_artifact_inventory_welcome_desc:0 "In your Inventory, you can equip [inventory_artifacts|E] in order to get various benefits, such as increasing a certain [skill|E] or increasing your [prestige|E].\n\nYou can also [repair|E] or [reforge|E] [inventory_artifacts|E], which will restore their [durability|E] and prevent them from being destroyed as time goes on.\n\nYou can also see which [artifact_claims|E] that you have, and try to take those [artifacts|E] for yourself!"
+ 
+ # Inventory
+ ra_maa_stationing_open_card_step:0 "Stationing Men-at-Arms"
+ ra_maa_stationing_open_card_step_desc:0 "You have [men_at_arms|E] that you have not [stationed|E].\n\nBy stationing your [regiments|E] you make them more powerful and better at fighting, which can be vital for winning [battles|E].\n\nLet's station a Regiment now!"
+ ra_maa_stationing_open_card_step_tt:0 "Click one of your Men-at-Arms marked with the text '#X $MAA_UNSTATIONED$#!' (highlighted)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "You can station one [regiment|E] of [men_at_arms|E] per [holding|E] in your [domain|E]\n\nAll Holdings are valid for every Regiment type, but some give greater bonuses than others.\n\nLet's select a Holding to station this Regiment in."
+ ra_maa_stationing_click_station_button_tt:0 "Click the 'Change Stationed Holding' button (highlighted)"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "Different [holdings|E] give differing amounts of bonuses depending on which [buildings|E] you choose to construct.\n\nIn this view you can see exactly how much better your [men_at_arms|E] [regiment|E] would become if stationed in a Holding.\n\nClick on a #P Green#! Holding on the map which you think gives your Regiment the best bonus."
+ ra_maa_stationing_select_station_tt:0 "Click on any #P Green#! Holding on the map"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "The [men_at_arms|E] [regiment|E] is now [stationed|E], you can see how much better it became underneath its portrait (the highlighted part).\n\nRemember to check in every now and then, so that your Regiments are stationed in the optimal [holdings|E].\n\nThis is especially important if you conquer or inherit new territories, or if you decide to specialize a Holding with [buildings|E] such as [GetBuilding('smiths_01').GetName] or [GetBuilding('stables_01').GetName]."
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "Tours"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "You are now planning which Vassals to visit on your Grand Tour. Open this to learn more about planning Tours."
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "You are about to embark on a [GetActivityType( 'activity_tour' ).GetName()] of your [realm|E].\n\nDuring a Tour, you will [travel|E] to visit your [vassals|E], investing [gold|E] in order to get rewards such as [county_control|E], [opinion|E], [cultural_acceptance|E], and much more!"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "First, you need to select which [vassals|E] to visit.\n\nWho to visit depends on the type of the [GetActivityType( 'activity_tour' ).GetName()]. For example, in a [majesty_tour|E] each [stop|E] increases the [opinion|E] of that Vassal, so you might pick Vassals with low Opinion of you.\n\nTravelling far between Stops increases the [gold|E] cost for each Stop."
+ ra_tours_picking_vassals_add_prompt:0 "Add at least one Vassal to visit by clicking on the map"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "On each [stop|E] of the Tour, you can either:\n$BULLET_WITH_TAB$[tour_the_grounds|E], increasing [county_control|E]\n$BULLET_WITH_TAB$Request a [hosted_dinner|E], forming [hooks|E] and [relations|E]\n$BULLET_WITH_TAB$Ask your [vassal|E] to organize [cultural_festival|E], increasing [county_opinion|E] and [cultural_acceptance|E]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "Once you are happy with the [stops|E] and which order they are in, you can move on to the next step of planning."
+
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "Regency"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "Open the Regency View (highlighted)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "A [regency|E] can occur for many reasons, including:\n$BULLET_WITH_TAB$When you [travel|E] outside your [realm|E]\n$BULLET_WITH_TAB$When you are a [child|E]\n$BULLET_WITH_TAB$You become [GetTrait('incapable').GetName( GetPlayer )]"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "You now have a Regent. Open this for an introduction to Regencies."
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "You now have a [regent|E].\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "In a [regency|E], you can still do any action you could do normally.\n\nHowever, the [regent|E] gets special [diarch_powers|E] they can use on you or your [vassals|E]. You always have [veto|E] rights over these $game_concept_diarch_powers$."
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "Now let's have a look at your [regency|E]!"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "Your [regent|E] is shown in the '$DIARCHY_WINDOW_YOUR_TAB$' tab."
+ ra_regency_liege_open_tab_prompt:0 "Open the '$DIARCHY_WINDOW_YOUR_TAB$' tab (highlighted)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "These are the [scales_of_power|E].\n\nThe further the Scales favor your [regent|E], they will have access to more [diarch_powers|E], and ending the [regency|E] will be more difficult.\n\nYou can directly swing the Scales in your favor with the '$DIARCHY_WINDOW_SWING_SCALES$' button."
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "You can give your [regent|E] a [mandate|E], which focuses their efforts in that area.\n\nYou can always change this Mandate later depending on your priorities."
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "If the conditions that started the [regency|E] are no longer true, you can try to end it.\n\nThe [regent|E] has to accept this, but you can offer them things like [gold|E] or a [favor|E] to make it more likely that they will accept. \n\nIf they refuse, they can declare [war|E] on you!"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "Regencies are mostly a reactive affair. For now, keep an eye on the [scales_of_power|E].\n\nWhen your [regent|E] uses one of their [diarch_powers|E] you will know and can decide what to do about it."
+
+
+#  Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$Regent"
+ action_reactive_advice_regency_for_regent_desc:0 "You are now the Regent for your Liege. Open this for an introduction to Regencies."
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "You are acting as a [regent|E] for your [liege|E].\n\nA [regency|E] can occur for many reasons, including:\n$BULLET_WITH_TAB$When your Liege [travels|E] outside your [realm|E]\n$BULLET_WITH_TAB$When your Liege is a [child|E]\n$BULLET_WITH_TAB$Your Liege becomes [GetTrait('incapable').GetName( GetPlayer )]"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "As a [regent|E] you get special [diarch_powers|E] you can use on your [liege|E] or your fellow [vassals|E]. Your Liege always has [veto|E] rights over these $game_concept_diarch_powers$.\n\nUsing these Powers on your fellow Vassals may be seen as an overreach of power, giving you a [strife|E] [opinion|E] penalty."
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "Now let's have a look at your [regency|E]!"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "Your status as a [regent|E] is shown in the '$DIARCHY_WINDOW_LIEGE_TAB$' tab."
+ ra_regency_regent_open_tab_prompt:0 "Open the '$DIARCHY_WINDOW_LIEGE_TAB$' tab (highlighted)"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "These are the [scales_of_power|E].\n\nThe further the Scales favor you, you will have access to more [diarch_powers|E], and ending the [regency|E] will be more difficult.\n\nYou can directly swing the Scales in your favor with the '$DIARCHY_WINDOW_SWING_SCALES$' button."
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "Your [liege|E] can give you a [mandate|E], which will give you opportunities to improve the [realm|E].\n\nIf you handle these opportunities well, you will tip the [scales_of_power|E] in your favor."
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "If the conditions that started the [regency|E] are no longer true, your [liege|E] can try to end it.\n\nIf the [scales_of_power|E] are strongly in your favor, you may even be able to resist them ending the Regency, perhaps even starting a [war|E] for their [primary_title|E]!"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "As a [regent|E], you could try using your [diarch_powers|E] on your [liege|E] or your fellow [vassals|E].\n\nIf you do not wish to antagonize your Liege, you can simply react to the opportunities that appear, and your Liege may reward you for your loyalty!"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "Future Regent"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "If you become unable to rule, a Regent will rule in your stead. Open this to learn how to control who your Regent will be."
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "In the future, you might become unable to rule your [realm|E] yourself, in which case a [regency|E] will start.\n\nBefore this happens, you can see your future [regent|E] and even designate one yourself!\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "Let us preview your future [regency|E]! You can see it in the Realm View."
+ ra_regency_future_regent_open_realm_panel_prompt:0 "Open the Realm View (highlighted)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "Your [regency|E] status is shown here, at the top of the Realm View."
+ ra_regency_future_regent_open_UI_prompt:1 "Open the Regency View (highlighted)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "Your future [regent|E] is shown in the '$DIARCHY_WINDOW_YOUR_TAB$' tab."
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "Your future [regent|E] is shown here.\n\nUnless you designate one, the candidate with the highest [regent_succession_score|E] will be picked."
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "You can designate a [regent|E] using this button.\n\nYou should try to find a Regent has high [diarch_loyalty|E] and a high [Concept( 'diarch_aptitude', 'Aptitude' )|E]."
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "If your current [regent|E] dies or is otherwise unable to act as a [regent|E], the next Character in the Succession order will take their place."
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "For now, consider designating a [regent|E], if you want more control over who will rule in your stead."
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "Travel Planning"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "You are about to Travel, open this to learn more about planning your Travel."
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "You are about to [travel|E] away from your current location. Before you leave, you should plan your Travel."
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "You rarely [travel|E] alone; the [characters|E] that Travel with you are your [entourage|E].\n\nThese Characters will also often join you at your destination."
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "There are two main factors to consider when planning your [travel|E]: [travel_speed|E] and [travel_safety|E].\n\nThe base Speed is 100%, and a high Speed means you arrive to your destination faster.\n\nSafety counteracts any [travel_danger|E] you may encounter on the route. Having a high Safety means you and your [entourage|E] can travel through dangerous areas with less risk involved."
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "You can appoint a [GetCourtPositionType('travel_leader_court_position').GetName()]; a special [court_position|E] who will join you on all your [travels|E].\n\nThey have a large impact on your [travel_speed|E] and [travel_safety|E], so you would usually want someone in this position on longer journeys."
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "You can also choose up to two [travel_options|E] for this specific journey.\n\nTravel Options usually cost [gold|E] and provide various benefits, mostly to [travel_speed|E] and [travel_safety|E].\n\nMany Options reduce the [travel_danger|E] for specific types of [terrain|E] on your route. Each type of Danger in a location is shown on the map with a unique color. Any of these dangers you might encounter are also shown as icons on your route."
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "Finally, you can customize your route to bypass [travel_danger|E] on the way, instead of going straight to your destination."
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "Before you leave, check the Total Travel Time, and that there are few chances of [travel_danger|E] on your route.\n\nSafe travels!"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "Accolades"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "You can now grant an [accolade|E] to one of your [knights|E]!\n\nEach Knight that holds an Accolade becomes an [acclaimed_knight|E], and gives bonuses to you and your [armies|E].\n\nThe Accolade will remain until you destroy it, and will pass on to future Knights via [accolade_succession|E]."
+ ra_create_accolade_knights_panel_prompt:0 "Select an unassigned Accolade (highlighted)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "When you create an [accolade|E], you choose one of your valid [knights|E] in the list."
+ ra_create_accolade_candidates_prompt:0 "Choose a Candidate in the list (highlighted)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "Every [acclaimed_knight|E] has two [accolade_types|E] (highlighted), one primary and one secondary. Before you create the [accolade|E], these Attributes are shown for each candidate.\n\nEach Attribute gives you and your [armies|E] various bonuses, as the Accolade gains [glory|E]. Glory is gained by particating in [GetActivityType( 'activity_tournament' ).GetName()] [contests|E] and [battles|E].\n\nThe primary Attribute is always part of the [accolade|E], and cannot be changed on [accolade_succession|E]."
+   
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "You can now create this [accolade|E] if you want.\n\nMore Accolades will become available as your [culture|E] discovers [innovations|E]."

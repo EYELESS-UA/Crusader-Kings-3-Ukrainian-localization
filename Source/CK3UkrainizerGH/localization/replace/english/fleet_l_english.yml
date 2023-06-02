@@ -1,0 +1,6 @@
+﻿l_english:
+ FLEET_PREDICTION_HEADER:0 "#T Завантаження на борт: $DATE|V$#!"
+ FLEET_PREDICTION_BREAKDOWN_ENTRY:0 "[ARMY.GetName]"
+ FLEET_PREDICTION_BASE_COST:0 "Спочатку"
+ EMBARK_COST:0 "#T вартість [Concept( 'embark', 'завантаження на борт' )|E]#!"
+ EMBARK_COST_EXPENSIVE:1 "@warning_icon! #X Вартість завантаження на борт перевищує ваші можливості#!"

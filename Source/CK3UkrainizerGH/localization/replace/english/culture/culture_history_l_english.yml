@@ -1,4 +1,4 @@
 ﻿l_english:
- kochinim_history_loc:0 "Виникла при змішуванні [CULTURE.GetCollectiveNoun] і невідомої культури з $israelite_group$им [Concept( 'heritage', 'спадщиною' )|E] в [DATE.GetYear] році"
- vlach_history_loc:0 "Виникла при змішуванні [CULTURE.GetCollectiveNoun] і невідомої культури з $south_slavic_group$им [Concept( 'heritage', 'спадщиною' )|E] в [DATE.GetYear] році"
+ kochinim_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $israelite_group$ [heritage|E] in the year [DATE.GetYear]"
+ vlach_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $south_slavic_group$ [heritage|E] in the year [DATE.GetYear]"
  bulgarian_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $south_slavic_group$ [heritage|E] in the year [DATE.GetYear]"

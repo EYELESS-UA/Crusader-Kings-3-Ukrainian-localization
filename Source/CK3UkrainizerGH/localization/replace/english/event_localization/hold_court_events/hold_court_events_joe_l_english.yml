@@ -276,6 +276,7 @@
  court_position_desc_qadi:0 "ensuring the divine rulings of Allah are followed in your realm"
  court_position_desc_garuda:1 "faithfully serve you, blade in hand, come hell or high water"
  court_position_desc_keeper_of_swans:0 "watching over the royal waterfowl, beautiful symbols of your grace"
+ court_position_desc_travel_leader:1 "guiding you on all your travels"
  # Interest
  hold_court_8090_interest_architect:0 "\n\n"Fear not, the construction of great buildings is one of my passions.""
  hold_court_8090_interest_seneschal_administrator:0 "\n\n"Rest assured, there is no one more enthusiastic about managing your affairs."
@@ -822,3 +823,4 @@
  court_position_qadi:0 "[GetCourtPositionType('chief_qadi_court_position').GetName()]"
  court_position_garuda:0 "[GetCourtPositionType('garuda_court_position').GetName()]"
  court_position_keeper_of_swans:0 "[GetCourtPositionType('keeper_of_swans_court_position').GetName()]"
+ court_position_travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetName()]"

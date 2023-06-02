@@ -1,4 +1,0 @@
-﻿l_english:
- DATE_AD_YEAR:0 "$YEAR$ AD"
- DATE_BC_YEAR:0 "$YEAR$ BC"
- DATE_FORMATTING_LONG:0 "$DAY$ $MONTH$, $YEAR$"

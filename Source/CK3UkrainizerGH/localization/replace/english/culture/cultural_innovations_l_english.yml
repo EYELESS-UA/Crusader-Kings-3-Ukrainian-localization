@@ -1,312 +1,312 @@
 ﻿l_english:
  cb_discount_prestige_10:1 "[casus_belli|E] [prestige|E] Cost: [prestige_i]#P -10%#!"
  cb_discount_piety_10:1 "[casus_belli|E] [piety|E] Cost: [piety_i]#P -10%#!"
- individual_county_de_jure_cb:0 "Отдельне [de_jure|El] [county|El]"
- individual_duchy_de_jure_cb:0 "Отдельне [de_jure|El] [duchy|El]"
- multiple_claim_wars:1 "Можна нав‘язати більше однієї [claims|El] за війну"
- multiple_claim_wars_others:0 "Можна нав‘язати іншому персонажу більше однієї [claims|El] за війну"
+ individual_county_de_jure_cb:0 "Individual [de_jure|E] [county|E]"
+ individual_duchy_de_jure_cb:0 "Individual [de_jure|E] [duchy|E]"
+ multiple_claim_wars:1 "Can press several of your [claims|E] in a single war"
+ multiple_claim_wars_others:0 "Can press multiple [claims|E] for another character in a single war"
  fabricate_claim_speed:1 "#V $task_fabricate_claim$#! [councillor_task|E] Speed: #P +50%#!"
  promote_culture_speed:1 "#V $task_promote_culture$#! [councillor_task|E] Speed: #P +15%#!"
- same_culture_group_reduced_factionalism:1 "[vassals|E], [Concept( 'culture', 'культура' )|E] яких має спільне [Concept( 'heritage', 'спадщина' )|E] з вашою, з меншою ймовірністю вступлять у [ Concept( 'independence_factions', 'фракцію сепаратистів' )|E]"
- reduce_develop_county_penalty_01:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 20"
- reduce_develop_county_penalty_02:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 35"
- reduce_develop_county_penalty_03:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 55"
- reduce_develop_county_penalty_04:0 "Тепер графство отримує штраф за максимальне [existing_development|El], коли [development|El] досягає 90"
+ same_culture_group_reduced_factionalism:1 "[vassals|E] whose [culture|E] has a shared [heritage|E] with yours are less likely to join [independence_factions|E]"
+ reduce_develop_county_penalty_01:0 "Counties now reach the maximum [existing_development|E] penalty at 20 [development|E]"
+ reduce_develop_county_penalty_02:0 "Counties now reach the maximum [existing_development|E] penalty at 35 [development|E]"
+ reduce_develop_county_penalty_03:0 "Counties now reach the maximum [existing_development|E] penalty at 55 [development|E]"
+ reduce_develop_county_penalty_04:0 "Counties now reach the maximum [existing_development|E] penalty at 90 [development|E]"
 
 
 
 
- unlock_tribal_economic_buildings:0 "Відкриває все [economic_buildings|El] племінної епохи"
- unlock_tribal_military_buildings:0 "Відкриває все [military_buildings|El] племінної епохи"
- unlock_tribal_fortification_buildings:0 "Відкриває все [fortification_buildings|El] племінної епохи"
- unlock_early_medieval_economic_buildings:0 "Відкриває всі [economic_buildings|El] епохи раннього Середньовіччя"
- unlock_early_medieval_military_buildings:0 "Відкриває все [military_buildings|El] епохи раннього Середньовіччя"
- unlock_early_medieval_fortification_buildings:0 "Відкриває всі [fortification_buildings|El] епохи раннього Середньовіччя"
- unlock_high_medieval_economic_buildings:0 "Відкриває все [economic_buildings|El] епохи Високого Середньовіччя"
- unlock_high_medieval_military_buildings:0 "Відкриває все [military_buildings|El] епохи Високого Середньовіччя"
- unlock_high_medieval_fortification_buildings:0 "Відкриває все [fortification_buildings|El] епохи Високого Середньовіччя"
- unlock_late_medieval_economic_buildings:0 "Відкриває всі [economic_buildings|El] епохи пізнього Середньовіччя"
- unlock_late_medieval_military_buildings:0 "Відкриває все [military_buildings|El] епохи пізнього Середньовіччя"
- unlock_late_medieval_fortification_buildings:0 "Відкриває всі [fortification_buildings|El] епохи пізнього Середньовіччя"
- unlocks_naval_raiding:0 "Відкриває можливість влаштовувати [Concept('raid', 'нальоти' )|E] морем, якщо вам вже доступні [Concept('raid', 'налети' )|E]"
- unlocks_sailable_major_rivers:1 "Відкриває можливість ходити великими річками"
+ unlock_tribal_economic_buildings:0 "Unlocks all Tribal Era [economic_buildings|E]"
+ unlock_tribal_military_buildings:0 "Unlocks all Tribal Era [military_buildings|E]"
+ unlock_tribal_fortification_buildings:0 "Unlocks all Tribal Era [fortification_buildings|E]"
+ unlock_early_medieval_economic_buildings:0 "Unlocks all Early Medieval Era [economic_buildings|E]"
+ unlock_early_medieval_military_buildings:0 "Unlocks all Early Medieval Era [military_buildings|E]"
+ unlock_early_medieval_fortification_buildings:0 "Unlocks all Early Medieval Era [fortification_buildings|E]"
+ unlock_high_medieval_economic_buildings:0 "Unlocks all High Medieval Era [economic_buildings|E]"
+ unlock_high_medieval_military_buildings:0 "Unlocks all High Medieval Era [military_buildings|E]"
+ unlock_high_medieval_fortification_buildings:0 "Unlocks all High Medieval Era [fortification_buildings|E]"
+ unlock_late_medieval_economic_buildings:0 "Unlocks all Late Medieval Era [economic_buildings|E]"
+ unlock_late_medieval_military_buildings:0 "Unlocks all Late Medieval Era [military_buildings|E]"
+ unlock_late_medieval_fortification_buildings:0 "Unlocks all Late Medieval Era [fortification_buildings|E]"
+ unlocks_naval_raiding:0 "Unlocks the ability to [raid|E] over seas, if you can already [raid|E]"
+ unlocks_sailable_major_rivers:1 "Unlocks the ability to sail in Major Rivers"
  
- unlock_march_contract:0 "Відкриває [feudal_contract|El] «#high $special_contract_march_short$#!»"
- unlock_scutage_contract:0 "Відкриває [feudal_contract|El] «#high $special_contract_scutage_short$#!»"
- unlock_palatinate_contract:0 "Відкриває [feudal_contract|El] «#high $special_contract_palatinate_short$#!»"
- unlock_fortification_rights_contract:0 "Відкриває [feudal_contract|El] «#high $fortification_rights$#!»"
- unlock_coinage_rights_contract:0 "Відкриває [feudal_contract|El] «#high $coinage_rights$#!»"
+ unlock_march_contract:0 "Unlocks the #high $special_contract_march_short$#! [feudal_contract|E]"
+ unlock_scutage_contract:0 "Unlocks the #high $special_contract_scutage_short$#! [feudal_contract|E]"
+ unlock_palatinate_contract:0 "Unlocks the #high $special_contract_palatinate_short$#! [feudal_contract|E]"
+ unlock_fortification_rights_contract:0 "Unlocks the #high $fortification_rights$#! [feudal_contract|E]"
+ unlock_coinage_rights_contract:0 "Unlocks the #high $coinage_rights$#! [feudal_contract|E]"
 
-###############
+##############
 # Tribal Era #
-###############
+##############
 
  #Military
- innovation_motte:0 "Мотт"
- innovation_motte_desc:0 "Просто, але ефективно. Будівництво замків на земляних пагорбах - найкращий спосіб у буквальному сенсі піднятися над ворогами."
+ innovation_motte:0 "Mottes"
+ innovation_motte_desc:0 "Simple yet effective, building our castles on raised earthen mounds is the best way to ensure we quite literally have the high ground over our enemies."
 
- innovation_catapult:0 "Онагр"
- innovation_catapult_desc:0 "Незважаючи на низьку швидкість перезарядки та стрільби, подібні торсіонні катапульти дозволяють нам атакувати ворожі укріплення, залишаючись поза досяжністю для їх лучників."
+ innovation_catapult:0 "Onager"
+ innovation_catapult_desc:0 "While slow to load and fire, torsion-powered catapults like these allow us to assail enemy fortifications while staying out of their archers' range."
 
- innovation_barracks:0 "Казарми"
- innovation_barracks_desc:0 "Будуючи спеціальні будівлі для розміщення солдатів, ми можемо бути впевнені, що нам вистачить місця для облаштування армій, що зростають."
+ innovation_barracks:0 "Barracks"
+ innovation_barracks_desc:0 "By constructing dedicated buildings for us to quarter our soldiers in we can make sure that we have sufficient space to accommodate our growing armies."
 
- innovation_mustering_grounds:0 "Тренувальний плац"
- innovation_mustering_grounds_desc:0 "Просто набрати людей, готових за нас боротися, недостатньо. Виділивши клаптик землі для тренувань та збору перед битвою, ми отримаємо більш досвідчених бійців, які зможуть здобути нам перемогу."
+ innovation_mustering_grounds:0 "Mustering Grounds"
+ innovation_mustering_grounds_desc:0 "Simply having people willing to fight for us is not enough to win wars. Setting aside space for people to both train and muster for battle will allow us to support groups of more experienced fighters who can lead us to victory."
 
- innovation_bannus:0 "Бан"
- innovation_bannus_desc:0 "Бан - спочатку право командувати воїнами у битві. За межами поля бою бан дасть нашим правителям законний привід для збору великих армій, дозволивши примушувати вільних людей до участі у війні."
+ innovation_bannus:0 "Bannus"
+ innovation_bannus_desc:0 "Based on the authority to command men in battle, the bann gives our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies."
  eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('vanguard_attribute').GetName] [accolades|E]"
  eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
 
- innovation_quilted_armor:0 "Стіганий обладунок"
- innovation_quilted_armor_desc:0 "Зшиті з десятка і більше шарів льону, ці куртки можуть зупиняти навіть важкіе стріли. Це недорогий спосіб забезпечити бронею цілий полк.
+ innovation_quilted_armor:0 "Quilted Armor"
+ innovation_quilted_armor_desc:0 "Formed of a dozen or more layers of linen stitched together, these jackets can stop even heavy arrows and are an affordable way for us to armor an entire regiment for battle."
 
  #Civic
- innovation_gavelkind:0 "Рівний розділ"
- innovation_gavelkind_desc:0 "Стабільність і процвітання йдуть пліч-о-пліч. Ми можемо заборонити васалам боротися за владу після смерті старого правителя і створити натомість передбачувану систему спадкування. Так ми частково позбудемося чвар, неминучих при передачі спадщини."
+ innovation_gavelkind:0 "Gavelkind"
+ innovation_gavelkind_desc:0 "Stability and prosperity go hand-in-hand. Instead of having vassals jockey for power when the old monarch passes away, we can define a predetermined, equitable system of inheritance which will eliminate much of the instability which traditionally occurs on succession."
 
- innovation_crop_rotation:0 "Чергування культур"
- innovation_crop_rotation_desc:0 "Завдяки переходу від традиційного двопілля до трипілля ми зможемо щороку вирощувати більший урожай, не виснажуючи ґрунту."
+ innovation_crop_rotation:0 "Crop Rotation"
+ innovation_crop_rotation_desc:0 "By transitioning from the traditional two-field farming model to three-field crop rotation, we can grow more crops each year without depleting the soil on our farms."
 
- innovation_city_planning:0 "Міське планування"
- innovation_city_planning_desc:0 "Проектуючи міста до початку будівництва, ми зможемо закріплюватися в стратегічно значимих місцях. Нові міста будуть більш зручними та красивими, порівняно зі старими, які будувалися абияк."
+ innovation_city_planning:0 "City Planning"
+ innovation_city_planning_desc:0 "By designing our cities before we start constructing them, we can create new holdings in strategic locations which are both more functional and aesthetically pleasing than the older ones which haphazardly arose over time."
 
- innovation_casus_belli:0 "Казус беллі"
- innovation_casus_belli_desc:0 "Право сильного було законом у цих землях протягом багатьох століть. Однак, починаючи війни з формального приводу, ми зможемо уникнути сусідського гніву та його неприємних наслідків."
+ innovation_casus_belli:0 "Casus Belli"
+ innovation_casus_belli_desc:0 "Might makes right has been the law of the land for generations, but if we have a justification for our wars then we can avoid provoking the ire of our neighbors and the retaliation that often comes with it."
 
- innovation_plenary_assemblies:0 "Народний збір"
- innovation_plenary_assemblies_desc:0 "Ми обговорюватимемо і вирішуватимемо питання, пов‘язані з законами, зібравши всіх вільних чоловіків держави. Присутність обов‘язково: на всіх, хто не з‘явився, накладатиметься штраф, а надалі вони не зможуть впливати на прийняті рішення."
+ innovation_plenary_assemblies:0 "Plenary Assemblies"
+ innovation_plenary_assemblies_desc:0 "In order to effectively govern, we must bring all free men of the realm together to discuss and resolve legislative matters. Attendance is mandatory, and those who do not come will be fined and forfeit their ability to influence any decision made."
 
- innovation_development_01:0 "Громадські споруди"
- innovation_development_01_desc:0 "Якщо громадські споруди, такі як дороги, школи та акведуки, отримують гідне фінансування, наші поселення розростаються, а з ними росте і процвітає наш народ."
+ innovation_development_01:0 "Public Works"
+ innovation_development_01_desc:0 "Funding the construction of public works like roads, schools, and aqueducts will allow our settlements to grow to larger sizes, ensuring the prosperity of our people for generations to come."
 
- innovation_currency_01:0 "Валюта"
- innovation_currency_01_desc:0 "Обмін - справа довга і непрактична. Офіційно визнана валюта - наприклад, раковини каурі або металеві зливки - прискорить розвиток торгівлі та поширення ідей у ​​нашій державі."
+ innovation_currency_01:0 "Currency"
+ innovation_currency_01_desc:0 "Bartering is slow and inefficient; adopting an officially-recognized currency like cowrie shells or metal nuggets will bolster trade and increase the spread of ideas within our realm."
 
- innovation_ledger:0 "Перепис"
- innovation_ledger_desc:0 "Через зростання земель нам потрібно більш надійний спосіб вести облік нашим багатствам. Завдяки перепису ми завжди знатимемо, які ресурси маємо."
+ innovation_ledger:0 "Ledger"
+ innovation_ledger_desc:0 "As our lands grow, we need a better way to keep track of what we own. Maintaining a ledger of our possessions will ensure that we always know what resources we have at our disposal."
 
  #Regional
- innovation_viking_tradition:0 "Тактика вікінгів"
- innovation_viking_tradition_desc:0 "Сіверяни здавна промишляли торгівлею та піратством. Деякі готові дати відсіч ворогові, здатному раптово і без попередження з‘явитися на березі річки, і вікінги — майстри подібної тактики."
+ innovation_viking_tradition:0 "Viking Tactics"
+ innovation_viking_tradition_desc:0 "The people of the north have a long tradition of trade, but also of piracy. Few are prepared to fight a threat that appears without warning from the banks of a river, and the viking warriors are masters of such warfare."
  
- innovation_longboats:1 "Драккари"
- innovation_longboats_desc:1 "Наші дракари — міцні кораблі, які можуть дістатися куди завгодно. Їх не лякають навіть шторму, що відкриває нам усі моря."
+ innovation_longboats:1 "Longships"
+ innovation_longboats_desc:1 "Our longships are formidable seafaring vessels which can travel almost anywhere and even brave rough weather, giving us exceptional mobility on the seas."
 
- innovation_war_camels:0 "Бойові верблюди"
- innovation_war_camels_desc:0 "Верблюди від природи пристосовані для життя в посушливій місцевості, але до битв їх необхідно готувати спеціальним чином. Наші заводники та дресирувальники допоможуть нам створити небувалу кінноту, і ми станемо повелителями пісків."
+ innovation_war_camels:0 "War Camels"
+ innovation_war_camels_desc:0 "Camels are naturally suited for living in desert terrain, but they aren't inherently creatures of battle. Our breeders and trainers can change this, giving us access to adaptive cavalry which will let us master the sands."
  eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('camelry_attribute').GetName] [accolades|E]"
  eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
 
- innovation_elephantry:0 "Елефантерія"
- innovation_elephantry_desc:0 "Слонів важко ростити в неволі, і кожен махаут повинен зловити власного дикого слона і навчити його всьому необхідному. Використання слонів у битвах - справжнє мистецтво, і ми маємо намір досконало опанувати його."
+ innovation_elephantry:0 "Elephantry"
+ innovation_elephantry_desc:0 "Elephants are difficult to raise in captivity, so each mahout must capture their own wild elephants and train them. This means there is a delicate art to properly using these great creatures in battle, but it is an art we are dedicated to mastering."
  eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('elephantry_attribute').GetName] [accolades|E]"
  eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
  
- innovation_wootz_steel:0 "Тигельна сталь"
- innovation_wootz_steel_desc:0 "Також відомий як хіндувані або серик, цей багатий на вуглець метал відмінно підходить для створення зброї. Тигельною сталлю торгують по всьому світу: вважається, що це один з кращих видів сталі. З давніх часів цей матеріал викликав захоплення арабських, єгипетських, китайських і навіть римських покупців.
+ innovation_wootz_steel:0 "Wootz Steel"
+ innovation_wootz_steel_desc:0 "Also known as Hinduwani or Seric steel, this carbon-rich metal is excellent for making weapons. Wootz steel is widely traded and is deemed the finest steel in the world. Throughout most of history, it has drawn the attention of Arab, Egyptian, Chinese, and even Roman traders."
  
- innovation_african_canoes:0 "Західноафриканські каное"
- innovation_african_canoes_desc:0 "Великі каное Західної Африки чудово підходять для пересування річками і дозволяють нам при необхідності швидко перекидати війська."
+ innovation_african_canoes:0 "West African Canoes"
+ innovation_african_canoes_desc:0 "The great canoes of West Africa are excellent for navigating rivers and allows us to quickly ferry troops to where we need them."
  
- innovation_table_of_princes:0 "Стіл королів"
- innovation_table_of_princes_desc:0 "Стіл королів був символом богемських монархів — тільки законні правителі мали право сидіти за ним. За законом титул мав найстаріший представник правлячої династії."
- unlock_single_heir_dynasty_house_changing:0 "$single_heir_dynasty_house$: можна прийняти за будь-якого рівня [Concept('crown_authority', 'авторитету корони' )|E]"
+ innovation_table_of_princes:0 "Table of Princes"
+ innovation_table_of_princes_desc:0 "The Table of Princes is the royal seat of Bohemian rulers, with the one sitting at the table being recognized as the rightful ruler. Under the code of house seniority, titles were given to the eldest living member of the ruling dynasty."
+ unlock_single_heir_dynasty_house_changing:0 "Can enact $single_heir_dynasty_house$ at any [crown_authority|E]"
 
 
  tradition_visigothic_codes_name:0 "$innovation_visigothic_codes$"
  tradition_visigothic_codes_desc:0 "$innovation_visigothic_codes_desc$"
- innovation_visigothic_codes:0 "Вестготський кодекс"
- innovation_visigothic_codes_desc:0 "Хоча багато стародавніх традицій вестготів давно стерлися з людської пам‘яті, діти Піренеїв пам‘ятають завіти предків і при поділі землі між синами та дочками надходять прагматично, але чесно."
- unlock_equal_succession_changing:0 "Можна прийняти [law|El] $equal_law$ за будь-якого рівня [Concept('crown_authority', 'авторитету корони' )|E]"
+ innovation_visigothic_codes:0 "Visigothic Codes"
+ innovation_visigothic_codes_desc:0 "Although many of the older traditions of the Visigoths have long been wiped from the world, the children of the Pyrenees remember the ancient ways, and how land was divided between sons and daughters practically but fairly."
+ unlock_equal_succession_changing:0 "Can enact $equal_law$ [law|E] at any [crown_authority|E]"
 
-#######################
+######################
 # Early Medieval Era #
-#######################
+###################### 
  
- #Military
- innovation_battlements:0 "Бійниці"
- innovation_battlements_desc:0 "Міцна зовнішня стіна не тільки зміцнить саму цитадель і дозволить розміщувати зверху лучників, але й дасть нашим замкам додатковий рівень захисту від ворожих атак."
+ #Military 
+ innovation_battlements:0 "Battlements"
+ innovation_battlements_desc:0 "Beyond fortifying just the keep itself, building a durable outer wall which can be safely manned by our archers will give our castles an extra layer of protection against attackers."
 
- innovation_mangonel:0 "Мангонелі"
- innovation_mangonel_desc:0 "Значно покращені метальні машини, мангонелі істотно потужніше і швидше звичайних важелевих машин."
+ innovation_mangonel:0 "Mangonels"
+ innovation_mangonel_desc:0 "A significant improvement to our existing catapult designs, traction-powered mangonels are much faster to load and fire than torsion-powered machines."
  eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('besieger_attribute').GetName] [accolades|E]"
  eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
 
- innovation_burhs:0 "Бурхи"
- innovation_burhs_desc:0 "Бурхи - розкидані по сільській місцевості укріплені поселення, які відіграють найважливішу стратегічну роль. Їх можна використовувати як місця збору військ і як адміністративні центри."
+ innovation_burhs:0 "Burhs"
+ innovation_burhs_desc:0 "Scattered across the countryside, burhs are important fortified settlements we can use both to muster troops and to serve as administrative centers."
 
- innovation_house_soldiers:0 "Палацові солдати"
- innovation_house_soldiers_desc:0 "Наші благородні сімейства стають все сильнішими, і щоб нав‘язувати іншим свою волю, їм потрібні солдати. Створення особливих палацових солдатів гарантує, що в нашому розпорядженні будуть війська, які краще навчені та оснащені, ніж просте ополчення."
+ innovation_house_soldiers:0 "Household Soldiers"
+ innovation_house_soldiers_desc:0 "As our noble families grow in power, they need soldiers to enforce their will. Establishing an order of dedicated household soldiers will ensure that we have troops which are better trained and equipped than a standard levy."
 
- innovation_horseshoes:0 "Підкови"
- innovation_horseshoes_desc:0 "Кінь з розколотим копитом незабаром кульгає і не зможе працювати або нести воїна в бій. Використовуючи бронзові або залізні підкови, ми будемо впевнені, що копита наших коней здорові та захищені."
+ innovation_horseshoes:0 "Horseshoes"
+ innovation_horseshoes_desc:0 "A horse with a split hoof will quickly go lame and be unable to work or be ridden into battle. By shoeing our horses with bronze or iron plates, we can keep their hooves healthy and protected from damage."
 
- innovation_arched_saddle:0 "Сідла з луками"
- innovation_arched_saddle_desc:0 "Навіть най смертоносніша легка кіннота використовує далеко не всі можливості бойових коней. Сідла з луками дозволять нам відправляти в бій закутих у броню копійників, натиску яких не стримає жоден противник."
+ innovation_arched_saddle:0 "Arched Saddle"
+ innovation_arched_saddle_desc:0 "Light cavalry are a force to be reckoned with, but they do not truly exploit the potential of the warhorse. Arched saddles allow us to field heavily armored warriors with couched lances, which lets them take full advantage of their momentum as they charge into enemy lines."
  eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('lancer_attribute').GetName] [accolades|E]"
  eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
 
  #Civic
- innovation_hereditary_rule:0 "Наслідне правління"
- innovation_hereditary_rule_desc:0 "Розділяючи державу між усіма можливими спадкоємцями, ми порушуємо єдність нашого народу. Замість того, щоб дробити землі при кожному наслідуванні, ми можемо забезпечити стабільність і процвітання своїх володінь, встановивши систему спадкового правління."
+ innovation_hereditary_rule:0 "Hereditary Rule"
+ innovation_hereditary_rule_desc:0 "Evenly dividing the realm amongst all eligible heirs fractures the unity of our people. Instead of tearing our realm asunder on every succession we can ensure we have a stable and prosperous heartland by establishing a system of hereditary rule."
 
- innovation_manorialism:0 "Маноріальна система"
- innovation_manorialism_desc:0 "Тепер, коли влада над землею виявилася зосереджена в руках нашої еліти, багато хто зовсім не може працювати. Ми заснуємо маноріальну систему, за якої вільні люди зможуть обробляти землі за ренту. Ті ж, хто не зможе платити, стануть нашими кріпаками. "
+ innovation_manorialism:0 "Manorialism"
+ innovation_manorialism_desc:0 "With land ownership consolidated under our elite, many men and women find themselves unable to work. We will establish a manor system where free men can work our fields in exchange for rent, while those who cannot pay may enter our service as bound serfs instead."
 
- innovation_royal_prerogative:0 "Королівська прерогатива"
- innovation_royal_prerogative_desc:0 "Оскільки на нашій правлячій династії лежить тяжкий тягар відповідальності за державу, нам покладаються унікальні привілеї."
+ innovation_royal_prerogative:0 "Royal Prerogative"
+ innovation_royal_prerogative_desc:0 "As our royalty has a greater burden placed upon them by their responsibility to govern the realm, so too shall they be bestowed with privileges reserved exclusively for them."
 
- innovation_chronicle_writing:0 "Складання хроніки"
- innovation_chronicle_writing_desc:0 "Більше історії про завоювання нашого сімейства не будуть передаватися з вуст в уста. Ми почнемо вести записи про всі наші досягнення. Це надихне майбутні покоління на подвиги і дозволить нашим нащадкам обґрунтувати претензії на землі, які повинні належати нам по праву".
+ innovation_chronicle_writing:0 "Chronicle Writing"
+ innovation_chronicle_writing_desc:0 "No more will the stories of our family's exploits be passed down just through oral tradition. We will keep a record of all that we accomplish, both to inspire future generations as well as to prove our claims over lands we should rightfully hold."
 
- innovation_armilary_sphere:0 "Армілярна сфера"
- innovation_armilary_sphere_desc:0 "Ці пристрої, що складаються з сферичної рами та рухомих кілець, дозволяють описувати і передбачати рух небесних сфер. Це не просто вражаючий астрономічний прилад: отримані знання допомагають нашим капітанам орієнтуватися у відкритому морі."
+ innovation_armilary_sphere:0 "Armillary Sphere"
+ innovation_armilary_sphere_desc:0 "Comprised of a spherical framework of moving rings, these devices allow us to chart and predict the movement of the heavens. While a fascinating astrological device in its own right, this knowledge will also help aid our captains when navigating waters far from land."
 
- innovation_baliffs:0 "Бейліфи"
- innovation_baliffs_desc:0 "Король не може встигати всюди. Призначивши бейліфів, які будуть провідниками королівської волі в землях держави, ми зможемо більш ефективно керувати нашими великими землями."
+ innovation_baliffs:0 "Bailiffs"
+ innovation_baliffs_desc:0 "A king cannot be everywhere at once. By appointing bailiffs to enforce the king's law throughout the realm, we can govern a larger area more effectively than we could otherwise."
 
- innovation_development_02:0 "Общинний уряд"
- innovation_development_02_desc:0 "У великих містах іноді виникають складнощі, які можуть призвести до справжніх бід. Якщо дати місцевим радам певну дещицю самостійності, вони зможуть вирішувати проблеми на місці, не залучаючи короля."
+ innovation_development_02:0 "Communal Government"
+ innovation_development_02_desc:0 "Larger towns regularly face a series of increasingly complex problems. Delegating some authority to local councils will let them resolve these issues without needing to get the king involved."
 
- innovation_currency_02:0 "Монетна система"
- innovation_currency_02_desc:0 "Нерегульовані валюти хаотичні і нестабільні, а для торгівлі це — смерть. Наше спасіння — карбована монета точно відміряної ваги з монаршою печаткою."
+ innovation_currency_02:0 "Coinage"
+ innovation_currency_02_desc:0 "Unregulated currencies are difficult to control and lack stability. Minted coins, measured to specific weights and stamped with a royal seal, give new confidence to commercial transactions."
 
  #Regional
 
- innovation_reconquista:0 "Реконкіста"
- innovation_reconquista_desc:0 "Занурившись у внутрішніх чварах, ми надто довго терпіли присутність невірних в Іспанії. Тепер же час зібрати військо і назавжди вигнати їх із цих земель!"
+ innovation_reconquista:1 "Spiritual Expansionism"
+ innovation_reconquista_desc:0 "Distracted by infighting, we have tolerated the presence of infidels in Hispania for too long. The time has come for us to rally our forces to drive them from this land once and for all!"
 
- innovation_stem_duchies:0 "Племінні герцогства"
- innovation_stem_duchies_desc:0 "Ми належимо до різних племен, але все-таки визнаємо важливість єдності та спільних дій. Незалежність часто переоцінюють: лише єдність та стабільність ведуть до безпеки та процвітання."
+ innovation_stem_duchies:0 "Stammesherzogtum"
+ innovation_stem_duchies_desc:0 "Despite coming from different tribes, we recognize the importance of unity and cooperation. Independence is overvalued when stability is what leads to safety and prosperity. "
 
- innovation_ghilman:0 "Гулями"
- innovation_ghilman_desc:0 "Раби-солдати, захоплені в полон під час війни, гулями - навчені воїни, які більш вірні і при цьому коштують дешевше, ніж звичайні найманці."
+ innovation_ghilman:0 "Ghilman"
+ innovation_ghilman_desc:0 "Slave-soldiers taken as prisoners of war, ghilman are dedicated fighters who are both more loyal to us and cheaper to pay than common mercenaries."
 
 #####################
 # High Medieval Era #
 #####################
 
  #Military
- innovation_hoardings:0 "Гурдиція"
- innovation_hoardings_desc:0 "Ці дерев‘яні конструкції розміщуються нагорі стіни і трохи виходять за її межі.\n\nГурдиції дозволяють нашим захисникам випускати стріли, скидати каміння або лити киплячу олію на атакуючих, залишаючись невразливими для ворожнечіких лучників."
+ innovation_hoardings:0 "Hoardings"
+ innovation_hoardings_desc:0 "Placed on the top of our battlements, these wooden constructions extend out above the base of our castle walls.\n\nThey allow our defenders to fire arrows, drop stones, or pour boiling oil on attackers while remaining completely protected from enemy archers."
 
- innovation_trebuchet:0 "Потребує"
- innovation_trebuchet_desc:0 "Диво інженерної думки, що вимагає з противагою може запускати важкі снаряди на відстані, що перевищують усі, доступні більш раннім облоговим знаряддям."
+ innovation_trebuchet:0 "Trebuchet"
+ innovation_trebuchet_desc:0 "An engineering marvel, the counterweight trebuchet can hurl heavy projectiles at distances further than any siege engine that came before it."
 
- innovation_castle_baileys:0 "Внутрішній двір замку"
- innovation_castle_baileys_desc:0 "Донжон - серце замку, але далеко не єдина важлива будівля. Збудувавши стайні та збройову в захищеному внутрішньому дворі, ми зможемо розміщувати та оснащувати ополчення в будь-яких умовах."
+ innovation_castle_baileys:0 "Castle Baileys"
+ innovation_castle_baileys_desc:0 "While the keep serves as the heart of a castle, it is far from the only important building. Constructing buildings like the stables and armory in a protected bailey will ensure we can properly garrison and equip our levies no matter the circumstances."
  
- innovation_men-at-arms:0 "Професіонали"
- innovation_men-at-arms_desc:0 "Попит на воїнів, які вміють поводитися з конем і списом, не минає, а ось найняти таких майстрів не завжди можливе. Зміст власних професійних солдатів гарантує, що у разі війни ми не залишимося без умілих бійців."
+ innovation_men-at-arms:0 "Men-at-Arms"
+ innovation_men-at-arms_desc:0 "Those skilled in the horse and the lance will always be in demand, but are not always available. Keeping groups of men-at-arms on retainer will ensure that we do not lack experienced fighters when war inevitably breaks out."
 
- innovation_knighthood:0 "Лицарство"
- innovation_knighthood_desc:0 "Присвячуючи кращих із кращих у лицарі і розплачуючись з ними земельними володіннями, а не просто грошима, ми можемо віддати воїнам заслужені почесті, а заразом заручитися їхньою вірністю."
+ innovation_knighthood:0 "Knighthood"
+ innovation_knighthood_desc:0 "By bestowing knighthoods upon our best fighters and paying them with land holdings instead of mere coin, we can give them the honor they deserve as well as secure their loyalty to us."
 
- innovation_advanced_bowmaking:0 "Покращене виготовлення цибулі"
- innovation_advanced_bowmaking_desc:0 "Хоча традиційно лучники самі виготовляли свої луки і дбали про них, ремісники почали робити луки нового типу, потужніші і складніші. Прийнявши їх на озброєння, ми перетворимо майстрів-цибулин на безцінний військовий ресурс."
+ innovation_advanced_bowmaking:0 "Advanced Bowmaking"
+ innovation_advanced_bowmaking_desc:0 "While archers have traditionally made and maintained their own bows, craftsmen have begun making new types of bows which are stronger and more complex than before. By embracing these new designs we can turn these master bowyers into an invaluable military asset."
  eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]"
  eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
 
  #Civic
 
- innovation_heraldry:0 "Геральдика"
- innovation_heraldry_desc:0 "Завдяки системі успадкованих символів представники шляхетних сімейств почнуть сприймати себе як частину якоїсь більшої системи. Вони почнуть більше дбати про репутацію всієї династії, замість гнатися за особистим статусом."
+ innovation_heraldry:0 "Heraldry"
+ innovation_heraldry_desc:0 "Establishing hereditary designs to identify our noble families will cause their members to see themselves as part of a greater whole, encouraging them to improve their dynasty's reputation instead of merely being obsessed with personal status."
 
- innovation_windmills:0 "Вітряки"
- innovation_windmills_desc:0 "Винахід вертикального вітряка дозволив нам використовувати силу вітру ефективніше, ніж будь-коли. Це значно знизило зусилля, необхідні для перемелювання зерна та обробки сировини."
+ innovation_windmills:0 "Windmills"
+ innovation_windmills_desc:0 "The invention of the vertical windmill allows us to harness the power of the wind much more efficiently than before, vastly reducing the labor necessary to grind grains and process raw materials."
 
- innovation_divine_right:0 "Право помазаника божого"
- innovation_divine_right_desc:0 "Настав час визнати, що саме божественна воля помістила наших правителів на трони, і опиратися наказам володаря означає опиратися божественному промислу."
+ innovation_divine_right:0 "Divine Right"
+ innovation_divine_right_desc:0 "It is time that we recognize that it is divine will that has placed our rulers on their thrones, and to oppose them is to oppose divinity itself."
 
- innovation_land_grants:0 "Роздача земель"
- innovation_land_grants_desc:0 "Земля — найцінніша нагорода, яку ми можемо дарувати нашим підданим, але безпосередньо володіти ми можемо лише небагатьом. Зате якщо ми даруємо право розорювати необроблені землі... хто зможе нам заперечити? Якщо ж це призведе до конфлікту, то ми будемо у своєму праві, вставши на захист підданих."
+ innovation_land_grants:0 "Land Grants"
+ innovation_land_grants_desc:0 "Land is the most valuable reward we can bestow upon our subjects, but there is only so much that we directly own. However, if we were to grant them permission to start farming that unworked land over there... who would object? Even if conflict does result, we will clearly be in the right when we defend our subjects!"
 
- innovation_scutage:0 "Щитові гроші"
- innovation_scutage_desc:0 "Зазвичай піддані зобов‘язані з‘являтися у військо на наш поклик. Тим же, хто не може або не хоче зробити цього, ми запропонуємо розплатитися з нами монетою, а не сталлю. Так усі виконають свої зобов‘язання."
+ innovation_scutage:0 "Scutage"
+ innovation_scutage_desc:0 "Military service has always been expected of our subjects, but there are some who are unable or unwilling to provide it. By offering a way for them to meet their obligations with coin instead of steel, we can ensure that we get our dues from everyone."
 
- innovation_guilds:0 "Гільдії"
- innovation_guilds_desc:0 "У міру розширення наших земель стає все важче безпосередньо контролювати торгові шляхи, що проходять через наш домен. Дарувавши хартії об‘єднанням торговців і ремісників, ми забезпечимо їм велику незалежність у справах і при цьому, як і раніше, матимемо прибуток з їхніх підприємств."
+ innovation_guilds:0 "Guilds"
+ innovation_guilds_desc:0 "As our lands expand it becomes increasingly inefficient to directly manage all trade going on within our domain. By granting guild charters to organizations of merchants and craftsmen we can give them more autonomy over their businesses while still ensuring we profit from their ventures."
 
- innovation_development_03:0 "Урбанізація"
- innovation_development_03_desc:0 "Веч Риму, Візантії та Делі сягає корінням в історію, і тягатися з ним, здавалося б, неможливо. Але наша інфраструктура і населення зростають. Нарешті ми можемо побудувати нові поселення, які зможуть посперечатися зі стародавніми міськими центрами.
+ innovation_development_03:0 "Urbanization"
+ innovation_development_03_desc:0 "The great cities of Rome, Byzantium, and Delhi have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers."
 
- innovation_currency_03:0 "Банківська система"
- innovation_currency_03_desc:0 "Чим краще розвинена торгівля, тим більше важких монет переходить з рук в руки. Але якщо гроші зберігатимуться в скарбницях, що охороняються, а передаватиметься лише право на володіння ними, купувати і продавати товари стане набагато простіше і швидше."
+ innovation_currency_03:0 "Banking"
+ innovation_currency_03_desc:0 "Particularly large or expensive trades often require an unwieldy amount of heavy coinage. Depositing that wealth in secure treasuries and transferring ownership without moving the physical coins will allow large quantities of goods to be traded more easily."
 
  #Regional
 
- innovation_east_settling:0 "Розселення на схід"
- innovation_east_settling_desc:0 "Землі на сході слабо заселені, але багаті на природні ресурси. Потураючи розширенню та створенню селянських господарств у східних землях, ми приведемо наш народ до процвітання."
+ innovation_east_settling:0 "Ostsiedlung"
+ innovation_east_settling_desc:0 "The lands to our east are sparsely inhabited, but rich in natural resources. Establishing an initiative to expand and establish homesteads there will lead to the growth and prosperity of our people."
 
- innovation_seigneurialism:0 "Сеньорія"
- "Переклавши більше обов‘язків на місцевих дворян, ми порадуємо наших васалів - і в той же час зможемо приділяти більше уваги власному домену."
+ innovation_seigneurialism:0 "Seigneurialism"
+ innovation_seigneurialism_desc:0 "By delegating more responsibilities to local nobles, we can both make them happy as well as freeing up more of our attention to focus on our own domain."
 
- innovation_muladi:0 "Муваллади"
- innovation_muladi_desc:0 "Люди постійно позбавляються даху над війнами, набігами і переслідуваннями. Даючи притулок неприкаяним чужинцям незалежно від їхнього походження, ми зможемо створити багате і процвітаюче суспільство."
+ innovation_muladi:0 "Muladi"
+ innovation_muladi_desc:0 "Wars, raids, and persecution all over the world have driven many people from their homes. By welcoming these displaced souls to our lands regardless of their background we can develop a rich and prosperous society."
 
- innovation_french_peerage:0 "Перство"
- innovation_french_peerage_desc:0 "Визнаючи заслуги найбільш видатних васальних дворян нашої держави, ми зміцнимо в них почуття вірності короні."
+ innovation_french_peerage:0 "Peerage"
+ innovation_french_peerage_desc:0 "By rightfully recognizing the most illustrious amongst the noble vassals of our realm we will foster a sentiment of greater loyalty towards the crown."
 
 #####################
 # Late Medieval Era #
-#####################
+##################### 
  
  #Military
- innovation_machicolations:0 "Машикулі"
- innovation_machicolations_desc:0 "Кам‘яні машикулі - значиний крок уперед порівняно з ранніми гурдиціями. Вони служать тієї ж мети, але при цьому набагато міцніше і надають захисникам стін велику захист.
+ innovation_machicolations:0 "Machicolations"
+ innovation_machicolations_desc:0 "A notable improvement on our earlier hoardings, stone machicolations serve the same purpose while being significantly more durable and offering more protection for our defenders."
 
- innovation_bombard:0 "Бомбарди"
- innovation_bombard_desc:0 "Розвиток порохової зброї дозволило нам подолати обмеження важелів та блоків. Нові облогові знаряддя можуть рознести ворожі стіни з силою, яка й не снилася нашим предкам."
+ innovation_bombard:0 "Bombards"
+ innovation_bombard_desc:0 "The development of gunpowder-based weaponry has allowed us to surpass the limitations of levers and pulleys. Our new siege weapons can tear down enemy walls with a force and efficiency that our ancestors could scarcely dream of."
 
- innovation_royal_armory:0 "Королівська збройова"
- innovation_royal_armory_desc:0 "Зі зростанням чисельності війська ми повинні бути впевнені, що кожен солдат буде забезпечений зброєю та бронею. Будівництво королівської збройової, де буде вироблятися і складатися все спорядження для наших армій, допоможе нам у цьому."
+ innovation_royal_armory:0 "Royal Armory"
+ innovation_royal_armory_desc:0 "As the size of our armies increases, we must guarantee that each and every soldier will be properly armed and armored. The establishment of a royal armory to produce and house all of our armies' equipment will go a long way towards meeting this need."
 
- innovation_standing_armies:0 "Регулярні армії"
- innovation_standing_armies_desc:0 "Збройне ополчення дає нам безліч бійців, які (хоч би як ми їх навчали і яке б спорядження їм не видали) завжди будуть поступатися професійним солдатам. Створення великої регулярної армії гарантує, що інтереси держави відстоюватимуть кращі з доступних бійців."
+ innovation_standing_armies:0 "Standing Armies"
+ innovation_standing_armies_desc:0 "Military levies provide us with large numbers of soldiers, yet no matter how well we try to train and equip them they will always be inferior to professional soldiers. Establishing a large standing army will ensure the interests of our realm are enforced by the best fighters around."
 
- innovation_sappers:0 "Сапери"
- innovation_sappers_desc:0 "Неважливо, наскільки міцні ворожі стіни, якщо під ними можна зробити підкоп. Наймаючи саперів для підриву ворожих укріплень, ми зможемо пробити навіть найміцнішу оборону."
+ innovation_sappers:0 "Sappers"
+ innovation_sappers_desc:0 "It does not matter how strong our enemy's walls are if the earth beneath them can be dug through. Employing sappers to undermine enemy fortifications is an effective way to breach even the toughest defenses."
 
- innovation_plate_armor:0 "Пластинчастий обладунок"
- innovation_plate_armor_desc:0 "Уміло виконаний пластинчастий обладунок з рухомими суглобами - це практично ідеальний варіант броні. Він забезпечує куди більшу рухливість у порівнянні з ранніми обладунками і при цьому майже невразливий для ворожої зброї."
+ innovation_plate_armor:0 "Plate Armor"
+ innovation_plate_armor_desc:0 "The ultimate form of personal protection, a well-crafted suit of plate armor has articulated joints which give it a superior range of motion to earlier armors, while being all but impenetrable to enemy weapons."
 
  #Civic
 
- innovation_primogeniture:0 "Примогенітура"
- innovation_primogeniture_desc:0 "Одне королівство - один спадкоємець. Молодші діти правителя, без сумніву, відчують себе обділеними, проте лише примогенітура здатна забезпечити стабільність держави і захистити її від кризи спадкування."
+ innovation_primogeniture:0 "Primogeniture"
+ innovation_primogeniture_desc:0 "One kingdom, one heir. While the younger children of our monarch may feel forsaken by being denied an inheritance, this is the best way to ensure we keep a stable realm which does not get torn apart by succession crises."
 
- innovation_cranes:0 "Підйомні крани"
- innovation_cranes_desc:0 "Римляни широко використовували крани з топчаковими колесами. Нині це диво інженерної думки забуте, проте його варто повернути до життя, якщо ми збираємося зайнятися будівництвом власної імперії."
+ innovation_cranes:0 "Cranes"
+ innovation_cranes_desc:0 "A forgotten marvel of engineering, the Romans used tread-wheel cranes to great effect when building their empire, and so too shall we."
 
- innovation_noblesse_oblige:0 "Положення зобов‘язує"
- innovation_noblesse_oblige_desc:0 "Дворянство — це не тільки привілеї та права, а й борг перед державою, зобов‘язання діяти належно і справедливо. Сформулювавши вимоги до еліти, ми створимо ідеал, якого має прагнути кожен. Ми, безсумнівно, зближимося, намагаючись його домагатися. "
+ innovation_noblesse_oblige:0 "Noblesse Oblige"
+ innovation_noblesse_oblige_desc:0 "Nobility is more than just privileges and rights; it also comes with a duty to the realm, an obligation to act in ways that are proper and just. Clearly establishing what is expected from our elite will give us an ideal to aspire to and bring us together as we work to achieve it."
 
- innovation_rightful_ownership:0 "Право власності"
- innovation_rightful_ownership_desc:0 "Володіння де-юре нашими землями є правом, даним згори, і час світові визнати це. Нас більше не будуть стримувати застарілі правила або міркування пристойності."
+ innovation_rightful_ownership:0 "Rightful Ownership"
+ innovation_rightful_ownership_desc:0 "It is our divine right to possess our de jure lands, and it is time the world recognizes this fact. No longer will we be held back by obsolete protocols and decorum."
 
- innovation_ermine_cloaks:0 "Гірськостаєві мантії"
- innovation_ermine_cloaks_desc:0 "Хто завгодно може претендувати на титул, але справжній монарх повинен вселяти благоговійний трепет підданим і випромінювати велич. Наші нові горностаєві мантії, безперечно, допоможуть цьому."
+ innovation_ermine_cloaks:0 "Ermine Cloaks"
+ innovation_ermine_cloaks_desc:0 "Anyone may claim a title, but in order to be a true monarch they must inspire awe and majesty in their subjects. Our new ermine cloaks are a form of regal dress which is sure to accomplish just that."
 
- innovation_court_officials:0 "Придворні чиновники"
- innovation_court_officials_desc:0 "Наша держава розширилася настільки, що навіть дрібні землевласники не можуть ефективно справлятися зі своїми володіннями. Призначення придворних чиновників і бюрократів, які будуть розбиратися з повсякденними справами, гарантує, що шестерні державної машини й надалі будуть крутитися без труднощів".
+ innovation_court_officials:0 "Court Officials"
+ innovation_court_officials_desc:0 "Our realm has expanded to the point where even minor nobles cannot administer everything effectively. Appointing court officials and bureaucrats to handle the more mundane court tasks will ensure that the wheels of government continue turning smoothly. "
 
- innovation_development_04:0 "Ідеї Відродження"
- innovation_development_04_desc:0 "З розквітом науки, філософії та логіки наші міста перетворилися на дивовижні світочі освіти та прогресу. Технології та культура стрімко розвиваються, і перед нами розкриваються можливості, про які ми раніше не могли і мріяти."
+ innovation_development_04:0 "Renaissance Thought"
+ innovation_development_04_desc:0 "Developments in science, philosophy, and logic have turned our cities into wondrous centers of education and innovation. The massive technological and cultural leaps we are now making has put hitherto undreamed potential within our grasp."
 
- innovation_currency_04:0 "Прості векселі"
- innovation_currency_04_desc:0 "Нові банківські системи розвиваються, і боргові зобов‘язання, зафіксовані на папері, дозволяють городянам продавати товари та послуги легко і швидко навіть у далеких землях, не зв‘язуючись із важким золотом, яке до того ж так легко відібрати."
+ innovation_currency_04:0 "Promissory Notes"
+ innovation_currency_04_desc:0 "An evolution of earlier banking systems, paper promissory notes allow our citizens to quickly and safely trade goods and services across large distances without being weighed down by heavy specie."
 
  #Regional
 
- innovation_wierdijks:0 "Дамби, укріплені водоростями"
- innovation_wierdijks_desc:0 "Будівництво міцних і надійних дамб життєво важливе, якщо ми хочемо успішно розвиватися на низинних землях. Зміцнюючи земляні дамби морськими водоростями, ми збільшимо міцність і довговічність конструкцій."
+ innovation_wierdijks:0 "Wierdijks"
+ innovation_wierdijks_desc:0 "Building strong and reliable dikes is an essential task if we wish to live and prosper within the low countries. New techniques of reinforcing earthen dikes with seaweed mats will increase their strength and durability."
 
- innovation_condottieri:0 "Кондотьєри"
- innovation_condottieri_desc:0 "Італія багата і знаходиться чи не в центрі світу. Саме тому найманці, не зайняті у війнах, стікаються сюди. А якщо вони вже тут, нехай нададуть нам знижку за свої послуги."
+ innovation_condottieri:0 "Condottieri"
+ innovation_condottieri_desc:0 "Being both wealthy and centrally located, Italy has become a major center for mercenary companies to travel to when not on active campaign. Since they are already here, we should be able to negotiate a better rate for them than they would normally charge."
 
- innovation_deccan_unity:0 "Єдність Деккана"
- innovation_deccan_unity_desc:0 "Приплив нових вірувань і релігій показав, що наше суспільство даремно чіплялося за місцеві традиції та переконання. Ми повинні об‘єднатися з іншими послідовниками нашої віри та створити сильну та надійну державу, яка витримаєбудь-які негаразди."
+ innovation_deccan_unity:0 "Deccan Unity"
+ innovation_deccan_unity_desc:0 "The influx of new beliefs and religions into our society has made it clear that our past focus on regionalism has been a mistake. We should band together with others of our faith and ensure a strong and enduring state that can stand up to external pressures."
 
- students_of_knighthood:1 "Діти, які завершили навчання з [Concept( 'education_focus', 'фокусом' )|E] «[martial|E]» отримують [Concept( 'trait', 'властивість' )|E] «$trait_education_martial_prowess$» ."
+ students_of_knighthood:1 "Children completing their [education|E] with a [martial|E] [education_focus|E] gain a $trait_education_martial_prowess$ [trait|E]"

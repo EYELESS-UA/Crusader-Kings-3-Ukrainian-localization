@@ -1,0 +1,5 @@
+﻿l_english:
+ SETTING_VALUE_WARNING:0 "$VALUE|0X$"
+ SETTING_VALUE_PERCENTAGE_WARNING:0 "$VALUE|%0X$"
+ RECOMMENDED_GUI_SCALE_TOO_HIGH:1 "#X Через мірування вище $VALUE|%0$ інтерфейс буде поза екраном#!"
+ RECOMMENDED_GUI_SCALE:1 "Через мірування вище $VALUE|%0$ інтерфейс буде поза екраном"

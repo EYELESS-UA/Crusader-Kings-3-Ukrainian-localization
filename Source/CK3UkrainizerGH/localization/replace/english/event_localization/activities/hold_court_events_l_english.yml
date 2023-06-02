@@ -3,14 +3,14 @@
  hold_court_placeholder_lose_cgv:0 "You lose #N 10#! Court Grandeur"
  hold_court_start_activity:0 "You listen to the first petitioner"
 
- hold_court_header:0 "Влаштувати прийом:"
+ hold_court_header:0 "Hold Court:"
 
  # Activity Start
- hold_court.0001.t:0 "$hold_court_header$ Початок"
- hold_court.0001.desc:0 "Я сідаю на трон і жестом наказую сторожі відчинити двері зали. Потік людей просочується всередину, частина шикується біля мого трону, інші розходяться в сторони, щоб спостерігати за прийомом.\n\nЗа кілька хвилин чертог завмирає, і всі обличчя вичікувально повертаються до мене. Просто переді мною стоять прохачі — здається, [ROOT.Var('num_petitioners').GetValue|V0].  Вони вишикувалися в ряд, старанно чекаючи виклику."
- hold_court.0001.a:0 "Підкликати першого прохача у черзі."
- hold_court.0001.b:0 "Хоча на вулиці така гарна погода..."
- hold_court.0001.b.tooltip:0 "Прийом закінчено, і прохачі розходяться"
+ hold_court.0001.t:0 "$hold_court_header$ Commencement"
+ hold_court.0001.desc:0 "Sitting on my throne, I gesture for my guards to open the doors of the hall. A stream of people file in, some lining up in front of my throne while others move out of the way so they can simply observe the proceedings.\n\nAfter several moments, all movement in the chamber has ceased, all faces turned towards mine expectantly. In front of me I count [ROOT.Var('num_petitioners').GetValue|V0] petitioners lined up in an orderly row, waiting for me to call on them."
+ hold_court.0001.a:0 "Gesture for the first in line to approach."
+ hold_court.0001.b:0 "On second thought, it is a beautiful day outside..."
+ hold_court.0001.b.tooltip:0 "Your audience ends and you send the petitioners home"
 
  # Guest offers to share rumors from a nearby foreign realm.
  hold_court.1001.t:0 "$hold_court_header$ Indirect Espionage"

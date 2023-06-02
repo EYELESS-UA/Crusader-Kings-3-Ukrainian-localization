@@ -1,13 +1,13 @@
 ﻿l_english:
 
-  IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "#L [CULTURE.GetCollectiveNoun]а#! культура бере участь у боротьбі «[STRUGGLE.GetName]»"
-  IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "[faith|E] [FAITH.GetAdjective|l] бере участь у боротьбі «[STRUGGLE.GetName]»"
+ IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Is [CULTURE.GetName] culture involved in [STRUGGLE.GetName]"
+ IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "Is [FAITH.GetName] [faith|E] involved in a [STRUGGLE.GetName]"
  
-  STRUGGLE_PHASE_IS_TRIGGER:1 "Поточна фаза боротьби [STRUGGLE.GetName] — $PHASE$"
-  NOT_STRUGGLE_PHASE_IS_TRIGGER:1 "Поточна фаза боротьби [STRUGGLE.GetName] — не $PHASE$"
+ STRUGGLE_PHASE_IS_TRIGGER:1 "Current phase of [STRUGGLE.GetName] is $PHASE$"
+ NOT_STRUGGLE_PHASE_IS_TRIGGER:1 "Current phase of [STRUGGLE.GetName] is not $PHASE$"
  
-  STRUGGLE_TYPE_TRIGGER:0 "[STRUGGLE.GetName] відноситься до типу [STRUGGLE_TYPE]"
-  NOT_STRUGGLE_TYPE_TRIGGER:0 "[STRUGGLE.GetName] не відноситься до типу [STRUGGLE_TYPE]"
+ STRUGGLE_TYPE_TRIGGER:0 "Type of [STRUGGLE.GetName] is [STRUGGLE_TYPE]"
+ NOT_STRUGGLE_TYPE_TRIGGER:0 "Type of [STRUGGLE.GetName] is not [STRUGGLE_TYPE]"
  
-  IS_STRUGGLE_PHASE_TRIGGER:1 "Поточна фаза боротьби [STRUGGLE.GetName] — [PHASE.GetName]"
-  NOT_IS_STRUGGLE_PHASE_TRIGGER:1 "Поточна фаза боротьби [STRUGGLE.GetName] — не [PHASE.GetName]"
+ IS_STRUGGLE_PHASE_TRIGGER:1 "Current phase of [STRUGGLE.GetName] is [PHASE.GetName]"
+ NOT_IS_STRUGGLE_PHASE_TRIGGER:1 "Current phase of [STRUGGLE.GetName] is not [PHASE.GetName]"

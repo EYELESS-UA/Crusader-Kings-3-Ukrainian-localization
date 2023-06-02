@@ -1,5 +1,5 @@
 ﻿l_english:
-  holy_order_experience_modifier:0 "Навчання священного ордену"
-  holy_order_experience_modifier_desc:0 "Цей персонаж жив і навчався серед воїнів священного ордена."
-  founded_holy_order_modifier:0 "Заснований священний орден"
-  founded_holy_order_modifier_desc:0 "Цей персонаж заснував священний орден, який боротиметься на боці істинної віри."
+ holy_order_experience_modifier:0 "Holy Order Training"
+ holy_order_experience_modifier_desc:0 "This character has lived and trained with a military holy order."
+ founded_holy_order_modifier:0 "Founded Holy Order"
+ founded_holy_order_modifier_desc:0 "This character has founded a holy order to fight on the side of the true faith."

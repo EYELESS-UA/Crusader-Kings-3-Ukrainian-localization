@@ -16,7 +16,9 @@
  fabricate_hook_outcome.1001.c:0 "This has all been a big mistake."
 
  fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ An Incriminating Missive"
- fabricate_hook_outcome.1002.desc:0 "By halting a messenger from the court of [target.GetTitledFirstName], an opportunity has presented itself.\n\nBy copying the [target.GetTitleAsNamePossessive] seal, I can fabricate a letter threatening increased taxes and circulate it among [target.GetHerHis] vassals. Or at least threaten to..."
+ fabricate_hook_outcome.1002.desc:1 "By halting a messenger from the court of [target.GetTitledFirstName], an opportunity has presented itself.\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "By copying the [target.GetTitleAsNamePossessive] seal, I can fabricate a letter threatening increased taxes and circulate it among [target.GetHerHis] vassals. Or at least threaten to..."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "By copying the [target.GetTitleAsNamePossessive] seal, I can fabricate a letter threatening increased taxes and circulate it among [target.GetHerHis] courtiers. Or at least threaten to..."
  fabricate_hook_outcome.1002.a:0 ""That #EMP is#! your signature, is it not?""
 
  fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ A Daring Rescue"

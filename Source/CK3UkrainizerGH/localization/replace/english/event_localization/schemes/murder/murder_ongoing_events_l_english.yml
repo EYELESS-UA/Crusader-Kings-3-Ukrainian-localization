@@ -12,3 +12,7 @@
  murder_ongoing.3301.t:0 "$murder_event_title$ Not the Sharpest"
  murder_ongoing.3301.desc:0 "Where is my ceremonial knife?! The knife I planned on planting in [target.GetTitledFirstNamePossessive] chest! The knife I have been sharpening for days!\n\nI turn my rooms upside down looking for it, but it's nowhere to be found."
  murder_ongoing.3301.a:0 "I could have sworn I left it here!"
+ #Apply poisonous herbs to the scheme that you found while travelling
+ murder_ongoing.3302.t:0 "$murder_event_title$ A Dash Of This, A Sprig Of That..."
+ murder_ongoing.3302.desc:0 "I suddenly remember the herbs I had procured when we were traveling through the [herb_location.GetTerrain.GetNameNoTooltip|l] of [herb_location.GetNameNoTooltip].\n\nThey should surely help #EMP spruce#! up the situation in my quest to free [target.GetTitledFirstName] from [target.GetHerHis] mortal coil."
+ murder_ongoing.3302.a:0 "This will serve me well."

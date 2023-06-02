@@ -1,22 +1,22 @@
 ﻿l_english:
- BARBERSHOP_TITLE:0 "Barbershop"
- BARBERSHOP_APPLY:0 "Apply Changes"
- BARBERSHOP_UNSAVED_CHANGES:0 "Unsaved Changes"
- BARBERSHOP_RESET_APPEARANCE:0 "Reset Appearance"
- BARBERSHOP_RESET_SCENE:0 "Reset Scene"
- BARBERSHOP_DEFAULT_OPTION:0 "Default"
- BARBERSHOP_HAIR_COLOR:0 "Hair Color"
- BARBERSHOP_BACKGROUND:0 "Background"
- BARBERSHOP_ZOOM:0 "Zoom"
- BARBERSHOP_WORLD_MAP:0 "World Map"
- BARBERSHOP_PRESETS:0 "Characters"
- BARBERSHOP_SCREENSHOT:0 "Screenshot"
- BARBERSHOP_TAB_APPEARANCE:0 "Appearance"
- BARBERSHOP_TAB_SCENE:0 "Scene"
- BARBERSHOP_PRESET_PORTRAIT:0 "Portrait"
- BARBERSHOP_PRESET_FAMILY:0 "Family"
- BARBERSHOP_PRESET_COUNCIL:0 "Council"
- BARBERSHOP_PRESET_CUSTOM:0 "Custom"
+ BARBERSHOP_TITLE:0 "Перукарня" #Цирюльня
+ BARBERSHOP_APPLY:0 "зберегти зміни" #Сохранить изменения
+ BARBERSHOP_UNSAVED_CHANGES:0 "Незбережені зміни" #Несохраненные изменения
+ BARBERSHOP_RESET_APPEARANCE:0 "Скинути зовнішній вигляд" #Сбросить внешность
+ BARBERSHOP_RESET_SCENE:0 "Скинути сцену" #Сбросить сцену
+ BARBERSHOP_DEFAULT_OPTION:0 "За замовчуванням" #По умолчанию
+ BARBERSHOP_HAIR_COLOR:0 "Колір волосся" #Цвет волос
+ BARBERSHOP_BACKGROUND:0 "Фон" #Фон
+ BARBERSHOP_ZOOM:0 "Масштаб" #Масштаб
+ BARBERSHOP_WORLD_MAP:0 "Мапа світу" #Карта мира
+ BARBERSHOP_PRESETS:0 "Персонажі" #Персонажи
+ BARBERSHOP_SCREENSHOT:0 "Зробити скріншот" #Сделать скриншот
+ BARBERSHOP_TAB_APPEARANCE:0 "Зовнішній вигляд" #Внешность
+ BARBERSHOP_TAB_SCENE:0 "Сцена" #Сцена
+ BARBERSHOP_PRESET_PORTRAIT:0 "Портрет" #Портрет
+ BARBERSHOP_PRESET_FAMILY:0 "Сім'я" #Семья
+ BARBERSHOP_PRESET_COUNCIL:0 "Рада" #Совет
+ BARBERSHOP_PRESET_CUSTOM:0 "Користувальницькі" #Пользовательское
  BARBERSHOP_PRESET_PORTRAIT_TT:1 "#T Self Portrait#!\n#I Click to view yourself#!"
  BARBERSHOP_PRESET_FAMILY_TT:1 "#T Family Preset#!\n#I Click to view yourself in front of your [spouse|E] and your [player_heir|E]#!"
  BARBERSHOP_PRESET_COUNCIL_TT:1 "#T Council Preset#!\n#I Click to view yourself in front of your [council|E] consisting of your [spouse|E], [realm_priest|E], [chancellor|E], [steward|E], [marshal|E] and [spymaster|E]#!"
@@ -38,5 +38,13 @@
  BARBERSHOP_SCREENSHOT_TT:1 "#T Take Screenshot#!\n#I Click to take a screenshot#!"
  BARBERSHOP_COA_TOGGLE_TT:0 "#T Toggle Visibility#!\n#I Click to show or hide your Coat of Arms#!"
  BARBERSHOP_COA_TOGGLE_TEXT_TT:0 "#T Toggle Text#!\n#I Click to show or hide Coat of Arms text#!"
- BARBERSHOP_CLOSE_DIALOG_DESC:0 "Are you sure you want to discard your changes?"
- BARBERSHOP_EDIT_DIALOG_DESC:0 "Do you want to apply your current changes to appearance?"
+ BARBERSHOP_CLOSE_DIALOG_DESC:0 "Ви впевнені, що бажаєте скасувати зміни?"
+ BARBERSHOP_EDIT_DIALOG_DESC:0 "Бажаєте застосувати поточні зміни до зовнішнього вигляду?"
+
+# === [LocEditor:OrphanedKeys] Ключі, яких немає англійською мовою ===
+ BARBERSHOP_RESET:0 "Скинути"
+ BARBERSHOP_SHOW_CHARACTER_TOOLTIP:0 "#T Показати персонажа#!"
+ BARBERSHOP_PHOTO_PORTRAIT:0 "Портрет"
+ BARBERSHOP_PHOTO_FAMILY:0 "родина"
+ BARBERSHOP_PHOTO_COUNCIL:0 "Порада"
+ BARBERSHOP_PHOTO_CUSTOM:0 "Користувальницьке"

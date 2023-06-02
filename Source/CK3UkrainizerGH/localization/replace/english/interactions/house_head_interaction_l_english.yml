@@ -1,8 +1,9 @@
 ﻿l_english:
  house_head_interaction_header:0 "[house_head_interaction|E]\n"
-  demand_conversion_interaction:0 "Вимагати звернення"
-  demand_conversion_interaction_desc:0 "$house_head_interaction_header$ $ask_for_conversion_interaction_desc$"
-  demand_conversion_interaction_extra_icon:0 "$hook_extra_icon$"
-  call_house_member_to_war_interaction:0 "Прикликати члена будинку на війну"
-  call_house_member_to_war_interaction_desc:0 "$house_head_interaction_header$Призвати на службу: нехай [recipient.GetShortUINameNoTooltip] послужить своєму [Concept( 'house', 'дому' )|E] у війні"
-  call_house_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+ demand_conversion_interaction:0 "Вимагати навернення"
+ demand_conversion_interaction_desc:0 "$house_head_interaction_header$ $ask_for_conversion_interaction_desc$"
+ demand_conversion_interaction_extra_icon:0 "$hook_extra_icon$"
+ call_house_member_to_war_interaction:0 "Прикликати члена дому до війни"
+ call_house_member_to_war_interaction_desc:0 "$house_head_interaction_header$Call on [recipient.GetShortUINameNoTooltip] to serve [recipient.GetHerHis] [house|E] in war"
+ call_house_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+

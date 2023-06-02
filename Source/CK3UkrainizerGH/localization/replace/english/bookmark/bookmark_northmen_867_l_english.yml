@@ -1,5 +1,5 @@
 ﻿l_english:
- bm_867_northmen:0 "Лють норманів" 
+ bm_867_northmen:0 "Лють норманів"
  bm_867_northmen_desc:1 "Два роки тому король Нортумбрії Елла кинув великого героя вікінгів Рагнара Лодброка до ями зі зміями. Почувши цю новину, сини Рагнара відплили до Англії, щоб помститися за батька.\n\nЗ тих пір братам удалося зміцнитися в Йорку і на островах. Англо-саксонські королі програють одну битву за іншою, і їхнє майбутнє виглядає невтішним.\n\nАле надія ще жива: великий герой ще може повернути історію назад.\n\n#bold Чи підкорите ви всю владу Англії норманам, або Велика армія язичників буде вигнана з англо-саксонської землі?#!"
 
  #Halfdan Whiteshirt
@@ -11,29 +11,29 @@
 
  #Ivar the Boneless
  bookmark_northmen_ivar_the_boneless:0 "Івар Безкосний"
- bookmark_northmen_ivar_the_boneless_desc:0 "З чуток, Івар слабкий тілом, але ніхто не скаже, що він слабкий розумом. Хитромудрий і впевнений, він об‘єднав безліч скандинавських загонів під своїм стягом і взяв ряд блискучих перемог на чужих берегах. Але навіть найвеличнішим з вікінгів не вдалося обдурити смерть: у 870 році Івар назавжди піде із сторінок історії...\n\n#boldЧи зможете ви виграти війни Івара і допомогти йому правити впродовж довгих років?#!"
+ bookmark_northmen_ivar_the_boneless_desc:0 "З чуток, Івар слабкий тілом, але ніхто не скаже, що він слабкий розумом. Хитромудрий і впевнений, він об'єднав безліч скандинавських загонів під своїм стягом і взяв ряд блискучих перемог на чужих берегах. Але навіть найвеличнішим з вікінгів не вдалося обдурити смерть: у 870 році Івар назавжди піде із сторінок історії...\n\n#boldЧи зможете ви виграти війни Івара і допомогти йому правити впродовж довгих років?#!"
 
  bookmark_northmen_ivar_the_boneless_alt_barid:0 "$Barid$"
  bookmark_northmen_ivar_the_boneless_alt_barid_desc:0 "альтернатива"
  bookmark_northmen_ivar_the_boneless_alt_sigfroth:0 "$SigfroT_$"
- bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc:0 "альтернатива" 
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc:0 "альтернатива"
 
 
  #Sigurdr Snake-in-the-eye
  bookmark_northmen_sigurdr_snake_in_the_eye:0 "Сігурд Зміїноокий" 
  bookmark_northmen_sigurdr_snake_in_the_eye_desc:1 "Коли його брати відправилися до Англії вершити відплату, Сігурд Зміїноокий залишився правити землями покійного батька — Рагнар Лодброк залишив після себе великий спадок.\n\n#boldБільше ста років нащадки Сігурда будуть королями Данії, Норвегії і Англії. Чи зможете ви виконати долю, призначену його династії?#!"
-
+ 
  bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud:0 "$Knud$"
- bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "альтернатива" #alt desc
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "альтернатива"
  bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof:0 "$Alof$"
- bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc:0 "альтернатива" #alt desc
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc:0 "альтернатива"
 
  # Björn Ironside
  bookmark_northmen_bjorn_ironside:0 "Бйорн Залізнобокий"
  bookmark_northmen_bjorn_ironside_desc:0 "Бйорн як справжній норман жив життям, повним пригод. Грізний розбійник, він грабував землі Франції, Іберії і Італії разом зі своїм товаришем Гастінгом Нантським. Тепер же Скандинавія збирає війська для нового нападу на британські береги.\n\n#boldХоча Бйорн присягнувся помститися за смерть батька, убитого в Англії, його нащадки правитимуть Швецією впродовж наступних двох століть. А з якого боку Північного моря чекатиме ваша доля?#!"
 
  bookmark_northmen_bjorn_ironside_alt_ingrid:0 "$Ingrid$"
- bookmark_northmen_bjorn_ironside_alt_ingrid_desc:0 "альтернатива" 
+ bookmark_northmen_bjorn_ironside_alt_ingrid_desc:0 "альтернатива"
  bookmark_northmen_bjorn_ironside_alt_eirikr:0 "$Eirikr$"
  bookmark_northmen_bjorn_ironside_alt_eirikr_desc:0 "альтернатива"
 
@@ -46,13 +46,13 @@
 
  ##EVENTS##
  bookmark.0002.t:0 "Владика"
- bookmark.0002.desc:0 "Коли васал вперше крикнув «вітаємо [ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.char.IsFemale, 'Велика', 'Великий')]», для мене це було великою честю. З того дня — без жодного втручання з мого боку — цей епітет ставав все більш популярним.\n\nДе б я не [Select_CString(ROOT.char.IsFemale, 'З‘явилася', 'З‘явився')], чи то [capital.GetNameNoTooltip] або [province.GetNameNoTooltip], піддані тепер звуть мене [ROOT.Char.GetFirstNameNoTooltip] [Select_CString(ROOT.char.IsFemale, 'Велика', 'Великий')]"
+ bookmark.0002.desc:0 "The first time a vassal hailed me with a "long live [ROOT.Char.GetFirstNameNoTooltip] the Great!", I was deeply honored. I thought nothing more of it, but since that day, the epithet has grown in popularity.\n\nWherever I go, from [capital.GetNameNoTooltip] to [province.GetNameNoTooltip], my subjects now call me [ROOT.Char.GetFirstNameNoTooltip] the Great."
  bookmark.0002.a:0 "Сподіваюся, що ніколи не підведу їх."
 
  bookmark.0004.t:1 "Помста"
- bookmark.0004.desc_unknown:1 "З‘явившись переді мною, [prisoner.Custom2('mycharacterintroduction', ROOT.Char)] негайно падає ниць і починає благати про прощення за те, що #EMP від [prisoner.GetHerHis] руки [Select_CString(dead.IsFemale, 'загинула', 'загинув' )] [Select_CString(dead.IsFemale, 'моя', 'мій' )][ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n«Мені здавалося. ви знаєте! Забудьте мої слова, — з нервовим сміхом говорить [prisoner.GetSheHe]. — Мабуть, я [Select_CString(prisoner.IsFemale, 'вдарилась', 'вдарився' )] головою під час полону. Я навіть не розумію, про що говорю!»\n\nКоли мене повідомили, що [Select_CString(dead.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName] [Select_CString(dead.IsFemale, 'загинула', 'загинув' )] від [prisoner.GetHerHis] руки, я [Select_CString(ROOT.Char.IsFemale, 'поклялася', 'поклявся' )] відомстити. А я людина слова.."
- bookmark.0004.desc:1 "Нарешті, після стількох років [prisoner.Custom('InsultAdjective')] [prisoner.GetName] в моїх руках! Коли мене повідомили, що [Select_CString(dead.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName] [Select_CString(dead.IsFemale, 'померла', 'помер' )] від [prisoner.GetHerHis] рук, я [Select_CString(ROOT.char.IsFemale, 'поклялась', 'поклявся' )] помститись. А я людина слова."
- bookmark.0004.a.custom:0 "Кожен [close_family_member|El] персонажа [dead.GetShortUIName]"
- bookmark.0004.a:0 "Я вигну його ребра в криваві крила!"
- bookmark.0004.b:0 "[Select_CString(prisoner.IsFemale, 'Ця', 'Цей')] [prisoner.GetWomanMan] [Select_CString(prisoner.IsFemale, 'твоя', 'твій')], [ROOT.Char.GetFaith.HighGodName]!"
- bookmark.0004.c:0 "У мене на [Select_CString(prisoner.IsFemale, 'неї', 'нього')] інші плани..."
+ bookmark.0004.desc_unknown:1 "As [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] is brought before me [prisoner.GetSheHe] immediately prostrates [prisoner.GetHerselfHimself] and begs my forgiveness for #EMP killing my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n"I... I thought you knew! Forget I said anything," [prisoner.GetSheHe] laughs nervously. "Obviously I must have hit my head when I was captured. Or something. I don't know what I'm talking about!"\n\nWhen I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
+ bookmark.0004.desc:1 "Finally, after all this time, I have the [prisoner.Custom('InsultAdjective')] [prisoner.GetName] at my mercy! When I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death at [prisoner.GetHerHis] hands, I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
+ bookmark.0004.a.custom:0 "Every [close_family_member|E] of [dead.GetShortUIName]"
+ bookmark.0004.a:0 "I will tear his ribs into blood wings!"
+ bookmark.0004.b:0 "This [prisoner.GetWomanMan] is yours, great [ROOT.Char.GetFaith.HighGodName]!"
+ bookmark.0004.c:0 "I have other plans for [prisoner.GetHerHim]..."

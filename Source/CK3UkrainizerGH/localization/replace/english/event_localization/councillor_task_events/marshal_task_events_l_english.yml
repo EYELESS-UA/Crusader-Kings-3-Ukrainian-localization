@@ -35,6 +35,7 @@
  marshal_task.1102.desc:0 "[councillor.GetTitledFirstNamePossessive] work to reorganize my levies has moved on to the [county.GetName], where the increased military presence has worked wonders.\n\nBandits have been rooted out, and smugglers and kidnappers are too afraid to operate."
  marshal_task.1102.a:0 "My subjects can always feel safe."
  marshal_task.1102.notification:0 "Increased Military Presence"
+ marshal_task.1103.notification:0 "Levies Prepared for Battle"
  #### END (Jonas W)
 
  marshal_task.2001.t:0 "Commander Wounded"
@@ -45,6 +46,7 @@
  
  marshal_task.2101.notification:0 "[commander.GetShortUINameNoTooltip] Gained Trait: [commander.Custom('CommanderTraitBeingTaught')]"
  marshal_task.2102.notification:0 "Knight Improved: [commander.GetShortUIName]"
+ marshal_task.2103.notification:0 "Hastiludes Drilled: [trained_knight.GetShortUIName]"
  marshal_task.0302.notification.a:0 "Commander Significantly Improved: [commander.GetShortUIName]"
  marshal_task.0302.notification.b:0 "Commander Improved: [commander.GetShortUIName]"
  marshal_task.0303.notification.a:0 "Knight Significantly Improved: [commander.GetShortUIName]"
@@ -93,6 +95,8 @@
  marshal_task.3102.desc:0 "My [baron.Custom2('RelationToMe', ROOT.Char)],\n Your [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], has been working tirelessly to reorganize the [county.GetName], and we are already reaping the benefits.\nI wish to personally thank you for sending such a capable [councillor.GetWomanMan] to aid us!"
  marshal_task.3102.a:0 "Keep up the good work, [councillor.GetFirstNameNoTooltip]."
  marshal_task.3102.notification:0 "[councillor.GetCouncilTitle] Impresses Vassal"
+
+ marshal_task.3103.notification:0 "[acclaimed_knight] Subdues Peasantry"
 
  marshal_task.4002.notification:0 "Disorganized Royal Guards"
  task_manage_guards_disorganized_modifier:0 "$marshal_task.4002.notification$"
