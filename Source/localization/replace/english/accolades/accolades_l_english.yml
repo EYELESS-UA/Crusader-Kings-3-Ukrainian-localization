@@ -48,40 +48,40 @@
  ACCOLADE_SECONDARY_TYPE:0 "Вторинні [accolade_type|E]" # Переведено
  ACCOLADE_ACTIVE_EFFECTS:1 "#S Active Effects#!"
  ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Вимоги для спадкоємця" # Переведено
- LOCKED_ACCOLADE_SLOT:1 "#T Unavailable Accolade #!\nUnlocked via [innovations|E], [dynasty_perks|E] and higher [title_tiers|E]"
- ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nThis will cost a small amount of [glory|e]"
- ACCOLADE_SET_ACCLAIMED_KNIGHT_ONLY_PRIMARY:1 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nAs they fulfill only primary [accolade_type|e] requirements, this will cost a large amount of [glory|e] and the Secondary [accolade_type|e] might be replaced"
+ LOCKED_ACCOLADE_SLOT:1 "#T Відзнака недотупна #!\nUnlocked via [innovations|E], [dynasty_perks|E] and higher [title_tiers|E]" # Переведено
+ ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "Призначити [Character.GetShortUINameNoTooltip] як [acclaimed_knight|E] з [Accolade.GetNameNoTooltip]\nЦе буде коштувати невелику кількість [glory|e]" # Переведено
+ ACCOLADE_SET_ACCLAIMED_KNIGHT_ONLY_PRIMARY:1 "Призначити [Character.GetShortUINameNoTooltip] як [acclaimed_knight|E] з [Accolade.GetNameNoTooltip]\Оскільки вони виконують основні [accolade_type|e] вимоги, буде коштувати великої кількості [glory|e] та вторинні [accolade_type|e] можуть бути замінені" # Переведено
  ACCOLADE_CANNOT_SET_ACCLAIMED_KNIGHT:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] does not fulfill the primary [accolade_type|E] requirements of [Accolade.GetNameNoTooltip] #!"
  TROOP_ACCLAIMED_KNIGHTS:0 "#T [acclaimed_knights|E]: $VALUE|0$#!"
  ACCLAIMED_KNIGHT_RELATION:0 "[acclaimed_knight|E]"
  ACCLAIMED_KNIGHT_AND_ACCOLADE:0 "[Accolade.GetAcclaimedKnight.GetName]: [Accolade.GetName]"
- ACCOLADE_ASSIGN_SUCCESSOR_TT:1 "#help Click to appoint this character as [accolade|E] Successor#!"
+ ACCOLADE_ASSIGN_SUCCESSOR_TT:1 "#help Натисніть, щоб призначити цього персонажа [accolade|E] спадкоємцем#!" # Переведено
  ACCOLADE_ASSIGN_SUCCESSOR_ONLY_PRIMARY_TT:0 "$ACCOLADE_ASSIGN_SUCCESSOR_TT$\n@warning_icon! #X As they fulfill only Primary [accolade_type|e] requirements, [accolade_succession|e] will have increased [glory|e] loss and may replace the [accolade|e]'s Secondary Attribute#!"
  ACCOLADE_CANNOT_ASSIGN_SUCCESSOR_TT:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] does not fulfill the successor requirements of this [accolade|E] #!"
- CREATE_ACCOLADE_SET_PRIMARY_TYPE_TT:0 "#help Set this [accolade_type|E] as the $ACCOLADE_PRIMARY_TYPE$#!"
- CREATE_ACCOLADE_SET_SECONDARY_TYPE_TT:0 "help Set this [accolade_type|E] as the  $ACCOLADE_SECONDARY_TYPE$#!"
- ACCOLADE_CHANGE_PRIMARY_TYPE:0 "Change $ACCOLADE_PRIMARY_TYPE$"
- ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Change $ACCOLADE_SECONDARY_TYPE$"
+ CREATE_ACCOLADE_SET_PRIMARY_TYPE_TT:0 "#help Призначити [accolade_type|E] як $ACCOLADE_PRIMARY_TYPE$#!" # Переведено
+ CREATE_ACCOLADE_SET_SECONDARY_TYPE_TT:0 "help Призначити[accolade_type|E] як $ACCOLADE_SECONDARY_TYPE$#!" # Переведено
+ ACCOLADE_CHANGE_PRIMARY_TYPE:0 "Змінити $ACCOLADE_PRIMARY_TYPE$" # Переведено
+ ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Змінити $ACCOLADE_SECONDARY_TYPE$" # Переведено
  CREATE_ACCOLADE_CANNOT_CHANGE_TYPES:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] does not fulfill the requirements of any other [accolade_types|E] than those currently selected #!"
- ACCOLADE_LIEGE_MODIFIERS:0 "#S Liege Modifiers:#!"
- ACCOLADE_KNIGHT_MODIFIERS:0 "#S Knight Modifiers:#!"
+ ACCOLADE_LIEGE_MODIFIERS:0 "#S Модифікатори Льєжа:#!" # Переведено
+ ACCOLADE_KNIGHT_MODIFIERS:0 "#S Модифікатори лицарів:#!" # Переведено
  ACCOLADE_KNIGHT_ARMY_MODIFIERS:1 "#S [knight_army_modifiers|e]:#!"
- ACCOLADE_UNLOCKS:0 "#S Unlocks:#!"
+ ACCOLADE_UNLOCKS:0 "#S Розблоковує:#!" # Переведено
  CREATE_ACCOLADE_NO_ACCLAIMED_KNIGHTS:0 "@warning_icon! #X You have no $knight_culture_player_no_tooltip$ that can be appointed as an [acclaimed_knight|E] #!"
- ACCOLADE_PRIMARY_TYPE_TT:0 "#T [Accolade.GetPrimaryType.GetNameWithAccolade( Accolade.Self )]#!\nPrimary [accolade_type|E]"
- ACCOLADE_SECONDARY_TYPE_TT:0 "#T [Accolade.GetSecondaryType.GetNameWithAccolade( Accolade.Self )]#!\nSecondary [accolade_type|E]"
+ ACCOLADE_PRIMARY_TYPE_TT:0 "#T [Accolade.GetPrimaryType.GetNameWithAccolade( Accolade.Self )]#!\nОсновний [accolade_type|E]" # Переведено
+ ACCOLADE_SECONDARY_TYPE_TT:0 "#T [Accolade.GetSecondaryType.GetNameWithAccolade( Accolade.Self )]#!\nВторинний [accolade_type|E]" # Переведено
  ACCOLADE_PRIMARY_TYPE_NAME:0 "Primary [accolade_type|E]: [Accolade.GetPrimaryType.GetNameWithAccolade( Accolade.Self )]"
  ACCOLADE_SECONDARY_TYPE_NAME:0 "Secondary [accolade_type|E]: [Accolade.GetSecondaryType.GetNameWithAccolade( Accolade.Self )]"
  ACCOLADE_RANK_HEADER_AND_EFFECTS_TT:0 "#T [AccoladeType.GetLevelAndGloryOfRank( AccoladeRank.Self )]#!\n[AccoladeRank.GetEffects]"
  CANNOT_FORBID_ACCLAIMED_KNIGHT:0 "@warning_icon! #X You cannot forbid an [acclaimed_knight|E] from serving as your $knight_culture_player_no_tooltip$ #!"
- MANAGE_ACCOLADE_NAME:0 "#help Click to manage [Accolade.GetName]#!"
- ACCOLADE_CLEAR_SUCCESSOR:0 "Remove Successor"
- ACCOLADE_TYPE_REQUIREMENTS:0 "#S Attribute Requirements#!"
- OPINION_ACTIVE_ACCLAIMED_KNIGHT:0 "Active [acclaimed_knight|E]"
+ MANAGE_ACCOLADE_NAME:0 "#help Натисніть, щоб керувати [Accolade.GetName]#!" # Переведено
+ ACCOLADE_CLEAR_SUCCESSOR:0 "Вибрати нового спадкоємця" # Переведено
+ ACCOLADE_TYPE_REQUIREMENTS:0 "#S Вимоги до атрибутів#!" # Переведено
+ OPINION_ACTIVE_ACCLAIMED_KNIGHT:0 "Дійсні [acclaimed_knight|E]" # Переведено
  COMBAT_ACCLAIMED_TERRAIN_MOD:0 "[acclaimed_knights|E] $COMBAT_MAA_TERRAIN_MOD$"
  REGIMENT_ACCLAIMED_STAT_ENTRY_ADD:0 "From [acclaimed_knights|E]: $VALUE|+=0$"
  REGIMENT_ACCLAIMED_STAT_ENTRY_MULT:0 "From [acclaimed_knights|E]: $VALUE|+=%0$"
- ACCLAIMED_KNIGHTS_IN_ARMY:0 "[acclaimed_knights|E] in Army"
+ ACCLAIMED_KNIGHTS_IN_ARMY:0 "[acclaimed_knights|E] в Армії" # Переведено
 
  ACCOLADE_UNSUNG:0 "Неоспіваний" # Переведено
  ACCOLADE_ESTABLISHED:0 "Створенно" # Переведено
